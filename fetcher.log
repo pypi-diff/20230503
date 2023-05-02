@@ -337,3 +337,37 @@
 [2023-05-03 00:23:04] INFO root fetch - main [MainThread]: End processing [collectmeterdigits]: success
 [2023-05-03 00:23:04] INFO root fetch - main [MainThread]: End processing [kelvin-sdk]: success
 [2023-05-03 00:23:04] INFO root fetch - main [MainThread]: Store serial: [17947792]
+[2023-05-03 00:28:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17947792]
+[2023-05-03 00:28:14] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-03 00:28:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CS333-Final-Project
+[2023-05-03 00:28:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ksos
+[2023-05-03 00:28:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: multidimio
+[2023-05-03 00:28:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: np-session
+[2023-05-03 00:28:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: granian
+[2023-05-03 00:28:14] INFO root fetch - processPackages [CS333-Final-Project]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 00:28:14] INFO root fetch - processPackages [ksos]: New version: [4.9.1] Old Version: [4.9.0]
+[2023-05-03 00:28:14] INFO root fetch - processPackages [multidimio]: New version: [0.3] Old Version: [0.2.9]
+[2023-05-03 00:28:14] INFO root fetch - processPackages [np-session]: New version: [0.6.0] Old Version: [0.5.4]
+[2023-05-03 00:28:14] INFO root fetch - processPackages [CS333-Final-Project]: executing diffoscope
+[2023-05-03 00:28:14] INFO root fetch - processPackages [CS333-Final-Project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CS333-Final-Project-0.0.8.tar.gz tmp/CS333-Final-Project-0.0.9.tar.gz --markdown 20230503/C/CS333-Final-Project/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 00:28:14] INFO root fetch - processPackages [ksos]: Downloading https://files.pythonhosted.org/packages/e6/7f/b9016df9d55004aac324efcca5d3b088d83af31dec778ed3ba7b90e8bbbc/ksos-4.9.0-py3-none-any.whl
+[2023-05-03 00:28:14] INFO root fetch - processPackages [granian]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-03 00:28:14] INFO root fetch - processPackages [multidimio]: Downloading https://files.pythonhosted.org/packages/80/b1/6911075a531b0e45d73cfe5541e96f0d3fa3245988fbf39c4a21093c2c57/multidimio-0.3.tar.gz
+[2023-05-03 00:28:14] INFO root fetch - processPackages [np-session]: Downloading https://files.pythonhosted.org/packages/f8/22/6965bbcafeec57ec819e08da95c3f294fc490769852b68179a2958213697/np-session-0.6.0.tar.gz
+[2023-05-03 00:28:15] INFO root fetch - processPackages [multidimio]: executing diffoscope
+[2023-05-03 00:28:15] INFO root fetch - processPackages [multidimio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multidimio-0.2.9.tar.gz tmp/multidimio-0.3.tar.gz --markdown 20230503/m/multidimio/0.2.9-0.3/diff.md --exclude *.pyd
+[2023-05-03 00:28:15] INFO root fetch - processPackages [np-session]: executing diffoscope
+[2023-05-03 00:28:15] INFO root fetch - processPackages [np-session]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np-session-0.5.4.tar.gz tmp/np-session-0.6.0.tar.gz --markdown 20230503/n/np-session/0.5.4-0.6.0/diff.md --exclude *.pyd
+[2023-05-03 00:28:15] INFO root fetch - processPackages [granian]: Downloading https://files.pythonhosted.org/packages/1a/94/5594447291f99dae41a96d3a1b9340da6b2dee12de55b291717e069a71db/granian-0.3.1.tar.gz
+[2023-05-03 00:28:15] INFO root fetch - processPackages [ksos]: Downloading https://files.pythonhosted.org/packages/1c/ff/14c28d03d1fdae964d7b4a373db46148e7d78ae4e0211cb8cb717a931c94/ksos-4.9.1-py3-none-any.whl
+[2023-05-03 00:28:15] INFO root fetch - processPackages [ksos]: executing diffoscope
+[2023-05-03 00:28:15] INFO root fetch - processPackages [ksos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ksos-4.9.0-py3-none-any.whl.zip tmp/ksos-4.9.1-py3-none-any.whl.zip --markdown 20230503/k/ksos/4.9.0-4.9.1/diff.md --exclude *.pyd
+[2023-05-03 00:28:15] INFO root fetch - processPackages [granian]: Downloading https://files.pythonhosted.org/packages/0e/a9/748534a0c6c9900c35f2f893012fcb9f0becd778c106b00d4b363b907e75/granian-0.3.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-03 00:28:15] INFO root fetch - main [MainThread]: End processing [CS333-Final-Project]: success
+[2023-05-03 00:28:15] INFO root fetch - processPackages [granian]: executing diffoscope
+[2023-05-03 00:28:15] INFO root fetch - processPackages [granian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/granian-0.3.1.tar.gz tmp/granian-0.3.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230503/g/granian/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-03 00:28:16] INFO root fetch - main [MainThread]: End processing [multidimio]: success
+[2023-05-03 00:28:16] INFO root fetch - main [MainThread]: End processing [np-session]: success
+[2023-05-03 00:28:16] INFO root fetch - main [MainThread]: End processing [ksos]: success
+[2023-05-03 00:28:16] INFO root fetch - main [MainThread]: End processing [granian]: success
+[2023-05-03 00:28:16] INFO root fetch - main [MainThread]: Store serial: [17947813]
