@@ -200,3 +200,70 @@
 [2023-05-03 00:11:54] INFO root fetch - main [MainThread]: End processing [pycryptosat]: success
 [2023-05-03 00:11:55] INFO root fetch - main [MainThread]: End processing [qwak-sdk]: success
 [2023-05-03 00:11:55] INFO root fetch - main [MainThread]: Store serial: [17947706]
+[2023-05-03 00:16:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17947706]
+[2023-05-03 00:17:03] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-03 00:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certbot-dns-multi
+[2023-05-03 00:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-oci
+[2023-05-03 00:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MotorDeCalidad
+[2023-05-03 00:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jotdown
+[2023-05-03 00:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: certora-cli-alpha-shelly-postautofinders
+[2023-05-03 00:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: clsquery
+[2023-05-03 00:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: collectmeteranalog
+[2023-05-03 00:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mdsanima-cli
+[2023-05-03 00:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyunigen
+[2023-05-03 00:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: american-options
+[2023-05-03 00:17:04] INFO root fetch - processPackages [certbot-dns-multi]: New version: [4.9.1.dev0] Old Version: [4.9.1]
+[2023-05-03 00:17:04] WARNING root fetch - processPackages [certora-cli-alpha-shelly-postautofinders]: Skipping, unable to determine old version
+[2023-05-03 00:17:04] INFO root fetch - processPackages [certora-cli-alpha-shelly-postautofinders]: Start processing: dop-integration-libs
+[2023-05-03 00:17:04] INFO root fetch - processPackages [jotdown]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-05-03 00:17:04] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-shelly-postautofinders] error
+[2023-05-03 00:17:04] INFO root fetch - processPackages [pulumi-oci]: New version: [0.9.1a1677791364] Old Version: [0.9.0]
+[2023-05-03 00:17:04] INFO root fetch - processPackages [pyunigen]: New version: [2.5.4] Old Version: [2.5.3]
+[2023-05-03 00:17:04] INFO root fetch - processPackages [MotorDeCalidad]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-03 00:17:04] WARNING root fetch - processPackages [clsquery]: Skipping, unable to determine old version
+[2023-05-03 00:17:04] INFO root fetch - processPackages [clsquery]: Start processing: collectmeterdigits
+[2023-05-03 00:17:04] INFO root fetch - main [MainThread]: End processing [clsquery] error
+[2023-05-03 00:17:04] INFO root fetch - processPackages [dop-integration-libs]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-03 00:17:04] WARNING root fetch - processPackages [collectmeterdigits]: Skipping, unable to determine old version
+[2023-05-03 00:17:04] INFO root fetch - processPackages [collectmeterdigits]: Start processing: neurotechdevkit
+[2023-05-03 00:17:04] INFO root fetch - main [MainThread]: End processing [collectmeterdigits] error
+[2023-05-03 00:17:04] INFO root fetch - processPackages [neurotechdevkit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 00:17:04] WARNING root fetch - processPackages [american-options]: Skipping, unable to determine old version
+[2023-05-03 00:17:04] INFO root fetch - main [MainThread]: End processing [american-options] error
+[2023-05-03 00:17:04] INFO root fetch - processPackages [collectmeteranalog]: New version: [1.0.15] Old Version: [1.0.14]
+[2023-05-03 00:17:04] INFO root fetch - processPackages [mdsanima-cli]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-05-03 00:17:04] INFO root fetch - processPackages [dop-integration-libs]: executing diffoscope
+[2023-05-03 00:17:04] INFO root fetch - processPackages [dop-integration-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dop_integration_libs-0.1.8.tar.gz tmp/dop_integration_libs-0.1.9.tar.gz --markdown 20230503/d/dop-integration-libs/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-03 00:17:04] INFO root fetch - processPackages [pulumi-oci]: executing diffoscope
+[2023-05-03 00:17:04] INFO root fetch - processPackages [pulumi-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_oci-0.9.0.tar.gz tmp/pulumi_oci-0.9.1a1677791364.tar.gz --markdown 20230503/p/pulumi-oci/0.9.0-0.9.1a1677791364/diff.md --exclude *.pyd
+[2023-05-03 00:17:04] INFO root fetch - processPackages [neurotechdevkit]: executing diffoscope
+[2023-05-03 00:17:04] INFO root fetch - processPackages [neurotechdevkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neurotechdevkit-0.0.8.tar.gz tmp/neurotechdevkit-0.0.9.tar.gz --markdown 20230503/n/neurotechdevkit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 00:17:04] INFO root fetch - processPackages [certbot-dns-multi]: Downloading https://files.pythonhosted.org/packages/cc/f4/18f66a710e1ecf267ee6643f474609f74951c84f127f2a7bb12646e8a3aa/certbot-dns-multi-4.9.1.tar.gz
+[2023-05-03 00:17:04] INFO root fetch - processPackages [jotdown]: Downloading https://files.pythonhosted.org/packages/0c/2c/397e45c833bee1a8f5a9226c38886a38374f402fc67bd3a14dc06d59db1f/jotdown-2.0.1.tar.gz
+[2023-05-03 00:17:04] INFO root fetch - processPackages [mdsanima-cli]: Downloading https://files.pythonhosted.org/packages/74/ee/30187b42a1798a8428a202e7ab6d2afd3406f4fb48a584c86b3f733da05d/mdsanima_cli-0.1.3.tar.gz
+[2023-05-03 00:17:04] INFO root fetch - processPackages [collectmeteranalog]: Downloading https://files.pythonhosted.org/packages/2f/6d/724d2b7693c49a70b4f1462b27c5849544f2e59ffac8c3bd763e25e76328/collectmeteranalog-1.0.15.tar.gz
+[2023-05-03 00:17:04] INFO root fetch - processPackages [pyunigen]: executing diffoscope
+[2023-05-03 00:17:04] INFO root fetch - processPackages [pyunigen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyunigen-2.5.3.tar.gz tmp/pyunigen-2.5.4.tar.gz --markdown 20230503/p/pyunigen/2.5.3-2.5.4/diff.md --exclude *.pyd
+[2023-05-03 00:17:04] INFO root fetch - processPackages [MotorDeCalidad]: executing diffoscope
+[2023-05-03 00:17:04] INFO root fetch - processPackages [MotorDeCalidad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MotorDeCalidad-1.9.8.tar.gz tmp/MotorDeCalidad-1.9.9.tar.gz --markdown 20230503/M/MotorDeCalidad/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-03 00:17:04] INFO root fetch - processPackages [collectmeteranalog]: executing diffoscope
+[2023-05-03 00:17:04] INFO root fetch - processPackages [collectmeteranalog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collectmeteranalog-1.0.14.tar.gz tmp/collectmeteranalog-1.0.15.tar.gz --markdown 20230503/c/collectmeteranalog/1.0.14-1.0.15/diff.md --exclude *.pyd
+[2023-05-03 00:17:04] INFO root fetch - processPackages [jotdown]: Downloading https://files.pythonhosted.org/packages/ab/b5/8be5ef2673e8a5c7ac459b273a0ced20416978c116dfa7f5e2cc70a70cfa/jotdown-2.0.2.tar.gz
+[2023-05-03 00:17:04] INFO root fetch - processPackages [mdsanima-cli]: Downloading https://files.pythonhosted.org/packages/e3/44/dd11f863037bf5d2bf805e9056242541fa602caac3cba4514bb60ecc520f/mdsanima_cli-0.2.0.tar.gz
+[2023-05-03 00:17:04] INFO root fetch - processPackages [certbot-dns-multi]: Downloading https://files.pythonhosted.org/packages/0b/db/5ad2d4770403ae3a748f7a984f6c03cb6dc95ab6f3302589fcda0d427b30/certbot-dns-multi-4.9.1.dev0.tar.gz
+[2023-05-03 00:17:04] INFO root fetch - processPackages [jotdown]: executing diffoscope
+[2023-05-03 00:17:04] INFO root fetch - processPackages [jotdown]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jotdown-2.0.1.tar.gz tmp/jotdown-2.0.2.tar.gz --markdown 20230503/j/jotdown/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-05-03 00:17:04] INFO root fetch - processPackages [mdsanima-cli]: executing diffoscope
+[2023-05-03 00:17:04] INFO root fetch - processPackages [mdsanima-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdsanima_cli-0.1.3.tar.gz tmp/mdsanima_cli-0.2.0.tar.gz --markdown 20230503/m/mdsanima-cli/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-05-03 00:17:05] INFO root fetch - processPackages [certbot-dns-multi]: executing diffoscope
+[2023-05-03 00:17:05] INFO root fetch - processPackages [certbot-dns-multi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/certbot-dns-multi-4.9.1.tar.gz tmp/certbot-dns-multi-4.9.1.dev0.tar.gz --markdown 20230503/c/certbot-dns-multi/4.9.1-4.9.1.dev0/diff.md --exclude *.pyd
+[2023-05-03 00:17:05] INFO root fetch - main [MainThread]: End processing [dop-integration-libs]: success
+[2023-05-03 00:17:05] INFO root fetch - main [MainThread]: End processing [MotorDeCalidad]: success
+[2023-05-03 00:17:06] INFO root fetch - main [MainThread]: End processing [mdsanima-cli]: success
+[2023-05-03 00:17:06] INFO root fetch - main [MainThread]: End processing [certbot-dns-multi]: success
+[2023-05-03 00:17:06] INFO root fetch - main [MainThread]: End processing [collectmeteranalog]: success
+[2023-05-03 00:17:07] INFO root fetch - main [MainThread]: End processing [pyunigen]: success
+[2023-05-03 00:17:07] INFO root fetch - main [MainThread]: End processing [neurotechdevkit]: success
+[2023-05-03 00:17:09] INFO root fetch - main [MainThread]: End processing [jotdown]: success
+[2023-05-03 00:17:50] INFO root fetch - main [MainThread]: End processing [pulumi-oci]: success
+[2023-05-03 00:17:50] INFO root fetch - main [MainThread]: Store serial: [17947752]
