@@ -1455,3 +1455,48 @@
 [2023-05-03 01:53:01] INFO root fetch - main [MainThread]: End processing [githubpy]: success
 [2023-05-03 01:53:02] INFO root fetch - main [MainThread]: End processing [rover-arm]: success
 [2023-05-03 01:53:02] INFO root fetch - main [MainThread]: Store serial: [17948482]
+[2023-05-03 01:58:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17948482]
+[2023-05-03 01:58:10] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-03 01:58:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dop-integration-libs
+[2023-05-03 01:58:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: whylogs
+[2023-05-03 01:58:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: abmap
+[2023-05-03 01:58:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ix-aims
+[2023-05-03 01:58:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cmeel
+[2023-05-03 01:58:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aij-news-client
+[2023-05-03 01:58:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aij-news-publisher
+[2023-05-03 01:58:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: slackdoor
+[2023-05-03 01:58:10] INFO root fetch - processPackages [dop-integration-libs]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-03 01:58:10] INFO root fetch - processPackages [aij-news-publisher]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-03 01:58:10] INFO root fetch - processPackages [ix-aims]: New version: [0.1.1rc4] Old Version: [0.1.1rc3]
+[2023-05-03 01:58:10] INFO root fetch - processPackages [abmap]: New version: [0.0.89] Old Version: [0.0.80]
+[2023-05-03 01:58:10] INFO root fetch - processPackages [aij-news-client]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-03 01:58:10] INFO root fetch - processPackages [slackdoor]: New version: [0.6.8] Old Version: [0.6.7]
+[2023-05-03 01:58:10] INFO root fetch - processPackages [dop-integration-libs]: executing diffoscope
+[2023-05-03 01:58:10] INFO root fetch - processPackages [dop-integration-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dop_integration_libs-0.1.8.tar.gz tmp/dop_integration_libs-0.1.9.tar.gz --markdown 20230503/d/dop-integration-libs/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-03 01:58:10] INFO root fetch - processPackages [cmeel]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-03 01:58:10] INFO root fetch - processPackages [ix-aims]: executing diffoscope
+[2023-05-03 01:58:10] INFO root fetch - processPackages [ix-aims]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ix_aims-0.1.1rc3.tar.gz tmp/ix_aims-0.1.1rc4.tar.gz --markdown 20230503/i/ix-aims/0.1.1rc3-0.1.1rc4/diff.md --exclude *.pyd
+[2023-05-03 01:58:10] INFO root fetch - processPackages [whylogs]: New version: [1.1.9.dev0] Old Version: [1.1.9]
+[2023-05-03 01:58:10] INFO root fetch - processPackages [abmap]: executing diffoscope
+[2023-05-03 01:58:10] INFO root fetch - processPackages [abmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abmap-0.0.80.tar.gz tmp/abmap-0.0.89.tar.gz --markdown 20230503/a/abmap/0.0.80-0.0.89/diff.md --exclude *.pyd
+[2023-05-03 01:58:10] INFO root fetch - processPackages [slackdoor]: executing diffoscope
+[2023-05-03 01:58:10] INFO root fetch - processPackages [slackdoor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slackdoor-0.6.7.tar.gz tmp/slackdoor-0.6.8.tar.gz --markdown 20230503/s/slackdoor/0.6.7-0.6.8/diff.md --exclude *.pyd
+[2023-05-03 01:58:10] INFO root fetch - processPackages [aij-news-publisher]: Downloading https://files.pythonhosted.org/packages/8a/dd/a770648fef1d35ab4d735c54ac8f5eac240cee725ebaa6b1b73ef21ec974/aij-news-publisher-1.0.6.tar.gz
+[2023-05-03 01:58:10] INFO root fetch - processPackages [aij-news-client]: Downloading https://files.pythonhosted.org/packages/03/f4/656c34b12f339f607be24a87ef3b84cd46e51a46aa93804b99c452644627/aij-news-client-1.0.6.tar.gz
+[2023-05-03 01:58:10] INFO root fetch - processPackages [aij-news-publisher]: executing diffoscope
+[2023-05-03 01:58:10] INFO root fetch - processPackages [aij-news-publisher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aij-news-publisher-1.0.5.tar.gz tmp/aij-news-publisher-1.0.6.tar.gz --markdown 20230503/a/aij-news-publisher/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-03 01:58:10] INFO root fetch - processPackages [aij-news-client]: executing diffoscope
+[2023-05-03 01:58:10] INFO root fetch - processPackages [aij-news-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aij-news-client-1.0.5.tar.gz tmp/aij-news-client-1.0.6.tar.gz --markdown 20230503/a/aij-news-client/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-03 01:58:11] INFO root fetch - processPackages [cmeel]: executing diffoscope
+[2023-05-03 01:58:11] INFO root fetch - processPackages [cmeel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmeel-0.8.0.tar.gz tmp/cmeel-0.9.0.tar.gz --markdown 20230503/c/cmeel/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-03 01:58:11] INFO root fetch - processPackages [whylogs]: executing diffoscope
+[2023-05-03 01:58:11] INFO root fetch - processPackages [whylogs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whylogs-1.1.9.tar.gz tmp/whylogs-1.1.9.dev0.tar.gz --markdown 20230503/w/whylogs/1.1.9-1.1.9.dev0/diff.md --exclude *.pyd
+[2023-05-03 01:58:11] INFO root fetch - main [MainThread]: End processing [ix-aims]: success
+[2023-05-03 01:58:12] INFO root fetch - main [MainThread]: End processing [dop-integration-libs]: success
+[2023-05-03 01:58:12] INFO root fetch - main [MainThread]: End processing [slackdoor]: success
+[2023-05-03 01:58:12] INFO root fetch - main [MainThread]: End processing [abmap]: success
+[2023-05-03 01:58:12] INFO root fetch - main [MainThread]: End processing [aij-news-client]: success
+[2023-05-03 01:58:12] INFO root fetch - main [MainThread]: End processing [cmeel]: success
+[2023-05-03 01:58:12] INFO root fetch - main [MainThread]: End processing [aij-news-publisher]: success
+[2023-05-03 01:58:13] INFO root fetch - main [MainThread]: End processing [whylogs]: success
+[2023-05-03 01:58:13] INFO root fetch - main [MainThread]: Store serial: [17948510]
