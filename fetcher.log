@@ -1274,3 +1274,45 @@
 [2023-05-03 01:32:03] INFO root fetch - processPackages [aij-news-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aij-news-client-1.0.1.tar.gz tmp/aij-news-client-1.0.3.tar.gz --markdown 20230503/a/aij-news-client/1.0.1-1.0.3/diff.md --exclude *.pyd
 [2023-05-03 01:32:04] INFO root fetch - main [MainThread]: End processing [aij-news-client]: success
 [2023-05-03 01:32:04] INFO root fetch - main [MainThread]: Store serial: [17948372]
+[2023-05-03 01:37:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17948372]
+[2023-05-03 01:37:14] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-03 01:37:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: multidimio
+[2023-05-03 01:37:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: linumpy
+[2023-05-03 01:37:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: learning-pipeline-plugin
+[2023-05-03 01:37:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jotdown
+[2023-05-03 01:37:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vector2dggs
+[2023-05-03 01:37:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: artifacts-keyring
+[2023-05-03 01:37:14] INFO root fetch - processPackages [multidimio]: New version: [0.3.1] Old Version: [0.3]
+[2023-05-03 01:37:14] INFO root fetch - processPackages [linumpy]: New version: [0.1.1] Old Version: [0.1]
+[2023-05-03 01:37:14] INFO root fetch - processPackages [artifacts-keyring]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-05-03 01:37:14] INFO root fetch - processPackages [jotdown]: New version: [2.1.0] Old Version: [2.0.3]
+[2023-05-03 01:37:14] INFO root fetch - processPackages [learning-pipeline-plugin]: New version: [0.5.0] Old Version: [0.3.2]
+[2023-05-03 01:37:14] INFO root fetch - processPackages [vector2dggs]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-05-03 01:37:14] INFO root fetch - processPackages [artifacts-keyring]: Downloading https://files.pythonhosted.org/packages/a1/d4/4333d126825e65df3eb67b1175d4b7e7cc7f958a16a44c3c65c6c7be0612/artifacts-keyring-0.3.2.tar.gz
+[2023-05-03 01:37:14] INFO root fetch - processPackages [linumpy]: Downloading https://files.pythonhosted.org/packages/b9/e4/7632787916efb4b224564156ce7e6b8b50ea714c265bdd4b2e2ff98ca183/linumpy-0.1.tar.gz
+[2023-05-03 01:37:14] INFO root fetch - processPackages [learning-pipeline-plugin]: Downloading https://files.pythonhosted.org/packages/aa/79/8283cc6c081cd533d139df177ee2b3c9d7f0ecb618b1e8eaabdc194151af/learning_pipeline_plugin-0.3.2.tar.gz
+[2023-05-03 01:37:14] INFO root fetch - processPackages [multidimio]: Downloading https://files.pythonhosted.org/packages/84/15/02051140c21553c88a492cd4b58591e9e959967a3454ad4f1854d50ad6a4/multidimio-0.3.1.tar.gz
+[2023-05-03 01:37:14] INFO root fetch - processPackages [jotdown]: Downloading https://files.pythonhosted.org/packages/ac/8b/97921b45f72b5ad28b25f0112887964fc146d6098d6557f644fa49c5b388/jotdown-2.1.0.tar.gz
+[2023-05-03 01:37:14] INFO root fetch - processPackages [linumpy]: Downloading https://files.pythonhosted.org/packages/ad/18/88569fcae3c9e1d6a4635a23cb7a728534b2694c802c0337882228df09f3/linumpy-0.1.1.tar.gz
+[2023-05-03 01:37:14] INFO root fetch - processPackages [multidimio]: executing diffoscope
+[2023-05-03 01:37:14] INFO root fetch - processPackages [multidimio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multidimio-0.3.tar.gz tmp/multidimio-0.3.1.tar.gz --markdown 20230503/m/multidimio/0.3-0.3.1/diff.md --exclude *.pyd
+[2023-05-03 01:37:14] INFO root fetch - processPackages [vector2dggs]: Downloading https://files.pythonhosted.org/packages/79/fe/5a8fd413178db80393745c1e19bd0f77fe3929266fbd1223167bafc0f7cb/vector2dggs-0.3.0.tar.gz
+[2023-05-03 01:37:14] INFO root fetch - processPackages [jotdown]: executing diffoscope
+[2023-05-03 01:37:14] INFO root fetch - processPackages [jotdown]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jotdown-2.0.3.tar.gz tmp/jotdown-2.1.0.tar.gz --markdown 20230503/j/jotdown/2.0.3-2.1.0/diff.md --exclude *.pyd
+[2023-05-03 01:37:14] INFO root fetch - processPackages [linumpy]: executing diffoscope
+[2023-05-03 01:37:14] INFO root fetch - processPackages [linumpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linumpy-0.1.tar.gz tmp/linumpy-0.1.1.tar.gz --markdown 20230503/l/linumpy/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-05-03 01:37:14] INFO root fetch - processPackages [learning-pipeline-plugin]: Downloading https://files.pythonhosted.org/packages/97/d5/e6750da53f4c46858d61f349e206fa81313ec1b75e6fe6146206b22b7f6f/learning_pipeline_plugin-0.5.0.tar.gz
+[2023-05-03 01:37:14] INFO root fetch - processPackages [vector2dggs]: executing diffoscope
+[2023-05-03 01:37:14] INFO root fetch - processPackages [vector2dggs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vector2dggs-0.2.1.tar.gz tmp/vector2dggs-0.3.0.tar.gz --markdown 20230503/v/vector2dggs/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-05-03 01:37:14] INFO root fetch - processPackages [learning-pipeline-plugin]: executing diffoscope
+[2023-05-03 01:37:14] INFO root fetch - processPackages [learning-pipeline-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/learning_pipeline_plugin-0.3.2.tar.gz tmp/learning_pipeline_plugin-0.5.0.tar.gz --markdown 20230503/l/learning-pipeline-plugin/0.3.2-0.5.0/diff.md --exclude *.pyd
+[2023-05-03 01:37:15] INFO root fetch - processPackages [artifacts-keyring]: Downloading https://files.pythonhosted.org/packages/6e/cd/dac083353d75ae6e60c3a6d671ce8707c4d8b6c7e4bd63feb2ca58d526c0/artifacts-keyring-0.3.3.tar.gz
+[2023-05-03 01:37:15] INFO root fetch - main [MainThread]: End processing [linumpy]: success
+[2023-05-03 01:37:16] INFO root fetch - main [MainThread]: End processing [learning-pipeline-plugin]: success
+[2023-05-03 01:37:16] INFO root fetch - main [MainThread]: End processing [vector2dggs]: success
+[2023-05-03 01:37:16] INFO root fetch - main [MainThread]: End processing [multidimio]: success
+[2023-05-03 01:37:16] INFO root fetch - main [MainThread]: End processing [jotdown]: success
+[2023-05-03 01:37:17] INFO root fetch - processPackages [artifacts-keyring]: executing diffoscope
+[2023-05-03 01:37:17] INFO root fetch - processPackages [artifacts-keyring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/artifacts-keyring-0.3.2.tar.gz tmp/artifacts-keyring-0.3.3.tar.gz --markdown 20230503/a/artifacts-keyring/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-05-03 01:37:21] INFO root fetch - main [MainThread]: End processing [artifacts-keyring]: success
+[2023-05-03 01:37:21] INFO root fetch - main [MainThread]: Store serial: [17948391]
