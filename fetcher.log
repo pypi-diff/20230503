@@ -1316,3 +1316,33 @@
 [2023-05-03 01:37:17] INFO root fetch - processPackages [artifacts-keyring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/artifacts-keyring-0.3.2.tar.gz tmp/artifacts-keyring-0.3.3.tar.gz --markdown 20230503/a/artifacts-keyring/0.3.2-0.3.3/diff.md --exclude *.pyd
 [2023-05-03 01:37:21] INFO root fetch - main [MainThread]: End processing [artifacts-keyring]: success
 [2023-05-03 01:37:21] INFO root fetch - main [MainThread]: Store serial: [17948391]
+[2023-05-03 01:42:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17948391]
+[2023-05-03 01:42:30] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-03 01:42:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aij-news-client
+[2023-05-03 01:42:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: circuitpython-bmp581
+[2023-05-03 01:42:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dipdup
+[2023-05-03 01:42:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyspedas
+[2023-05-03 01:42:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alacorder
+[2023-05-03 01:42:30] INFO root fetch - processPackages [aij-news-client]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-03 01:42:30] INFO root fetch - processPackages [pyspedas]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-05-03 01:42:30] WARNING root fetch - processPackages [circuitpython-bmp581]: Skipping, unable to determine old version
+[2023-05-03 01:42:30] INFO root fetch - main [MainThread]: End processing [circuitpython-bmp581] error
+[2023-05-03 01:42:30] INFO root fetch - processPackages [dipdup]: New version: [6.5.6] Old Version: [6.5.5]
+[2023-05-03 01:42:30] INFO root fetch - processPackages [alacorder]: New version: [80.1.4] Old Version: [80.1.3]
+[2023-05-03 01:42:30] INFO root fetch - processPackages [pyspedas]: executing diffoscope
+[2023-05-03 01:42:30] INFO root fetch - processPackages [pyspedas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyspedas-1.4.8.tar.gz tmp/pyspedas-1.4.9.tar.gz --markdown 20230503/p/pyspedas/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-05-03 01:42:30] INFO root fetch - processPackages [dipdup]: Downloading https://files.pythonhosted.org/packages/ee/4c/f526735da130c953a82999e619481b7c44dfe64fb316f184b978f556f269/dipdup-6.5.5.tar.gz
+[2023-05-03 01:42:30] INFO root fetch - processPackages [alacorder]: Downloading https://files.pythonhosted.org/packages/a3/d5/2446303f21f0d8f30e987185d86d308505415e520d833f31e1d9cb3ba72c/alacorder-80.1.4.tar.gz
+[2023-05-03 01:42:30] INFO root fetch - processPackages [aij-news-client]: Downloading https://files.pythonhosted.org/packages/4a/09/7458c41ef02cfe08511b1c14d8c37571810c5dd1908d299ebff9d7211d76/aij-news-client-1.0.4.tar.gz
+[2023-05-03 01:42:30] INFO root fetch - processPackages [aij-news-client]: executing diffoscope
+[2023-05-03 01:42:30] INFO root fetch - processPackages [aij-news-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aij-news-client-1.0.3.tar.gz tmp/aij-news-client-1.0.4.tar.gz --markdown 20230503/a/aij-news-client/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-03 01:42:31] INFO root fetch - processPackages [alacorder]: executing diffoscope
+[2023-05-03 01:42:31] INFO root fetch - processPackages [alacorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alacorder-80.1.3.tar.gz tmp/alacorder-80.1.4.tar.gz --markdown 20230503/a/alacorder/80.1.3-80.1.4/diff.md --exclude *.pyd
+[2023-05-03 01:42:31] INFO root fetch - processPackages [dipdup]: Downloading https://files.pythonhosted.org/packages/3a/8e/9163452e9a2d210a7e7f7ca5a74dd197e8f280475a3ad0190d19ab512d21/dipdup-6.5.6.tar.gz
+[2023-05-03 01:42:31] INFO root fetch - processPackages [dipdup]: executing diffoscope
+[2023-05-03 01:42:31] INFO root fetch - processPackages [dipdup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dipdup-6.5.5.tar.gz tmp/dipdup-6.5.6.tar.gz --markdown 20230503/d/dipdup/6.5.5-6.5.6/diff.md --exclude *.pyd
+[2023-05-03 01:42:32] INFO root fetch - main [MainThread]: End processing [aij-news-client]: success
+[2023-05-03 01:42:32] INFO root fetch - main [MainThread]: End processing [alacorder]: success
+[2023-05-03 01:42:32] INFO root fetch - main [MainThread]: End processing [dipdup]: success
+[2023-05-03 01:42:35] INFO root fetch - main [MainThread]: End processing [pyspedas]: success
+[2023-05-03 01:42:35] INFO root fetch - main [MainThread]: Store serial: [17948417]
