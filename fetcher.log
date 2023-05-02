@@ -371,3 +371,75 @@
 [2023-05-03 00:28:16] INFO root fetch - main [MainThread]: End processing [ksos]: success
 [2023-05-03 00:28:16] INFO root fetch - main [MainThread]: End processing [granian]: success
 [2023-05-03 00:28:16] INFO root fetch - main [MainThread]: Store serial: [17947813]
+[2023-05-03 00:33:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17947813]
+[2023-05-03 00:33:25] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-03 00:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coursepy
+[2023-05-03 00:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lusid-sdk
+[2023-05-03 00:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lusid-sdk-preview
+[2023-05-03 00:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pythoncolouringslibV2
+[2023-05-03 00:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: windmill-api
+[2023-05-03 00:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ix-aims
+[2023-05-03 00:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wmill
+[2023-05-03 00:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wmill-pg
+[2023-05-03 00:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: autora-synthetic-data
+[2023-05-03 00:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: simulateIRAS
+[2023-05-03 00:33:25] INFO root fetch - processPackages [coursepy]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-03 00:33:25] INFO root fetch - processPackages [ix-aims]: New version: [0.1.1rc4] Old Version: [0.1.1rc3]
+[2023-05-03 00:33:25] WARNING root fetch - processPackages [pythoncolouringslibV2]: Skipping, unable to determine old version
+[2023-05-03 00:33:25] INFO root fetch - processPackages [pythoncolouringslibV2]: Start processing: dop-integration-libs
+[2023-05-03 00:33:25] INFO root fetch - processPackages [autora-synthetic-data]: New version: [1.0.0a2] Old Version: [1.0.0a1]
+[2023-05-03 00:33:25] INFO root fetch - main [MainThread]: End processing [pythoncolouringslibV2] error
+[2023-05-03 00:33:25] INFO root fetch - processPackages [simulateIRAS]: New version: [0.1.0.post6] Old Version: [0.1.0.post5]
+[2023-05-03 00:33:25] INFO root fetch - processPackages [wmill]: New version: [1.92.0] Old Version: [1.91.0]
+[2023-05-03 00:33:25] INFO root fetch - processPackages [wmill-pg]: New version: [1.92.0] Old Version: [1.91.0]
+[2023-05-03 00:33:25] INFO root fetch - processPackages [windmill-api]: New version: [1.92.0] Old Version: [1.91.0]
+[2023-05-03 00:33:25] INFO root fetch - processPackages [dop-integration-libs]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-03 00:33:25] INFO root fetch - processPackages [lusid-sdk]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-05-03 00:33:25] INFO root fetch - processPackages [ix-aims]: executing diffoscope
+[2023-05-03 00:33:25] INFO root fetch - processPackages [ix-aims]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ix_aims-0.1.1rc3.tar.gz tmp/ix_aims-0.1.1rc4.tar.gz --markdown 20230503/i/ix-aims/0.1.1rc3-0.1.1rc4/diff.md --exclude *.pyd
+[2023-05-03 00:33:25] INFO root fetch - processPackages [lusid-sdk-preview]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-05-03 00:33:25] INFO root fetch - processPackages [dop-integration-libs]: executing diffoscope
+[2023-05-03 00:33:25] INFO root fetch - processPackages [dop-integration-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dop_integration_libs-0.1.8.tar.gz tmp/dop_integration_libs-0.1.9.tar.gz --markdown 20230503/d/dop-integration-libs/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-03 00:33:25] INFO root fetch - processPackages [simulateIRAS]: executing diffoscope
+[2023-05-03 00:33:25] INFO root fetch - processPackages [simulateIRAS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simulateIRAS-0.1.0.post5.tar.gz tmp/simulateIRAS-0.1.0.post6.tar.gz --markdown 20230503/s/simulateIRAS/0.1.0.post5-0.1.0.post6/diff.md --exclude *.pyd
+[2023-05-03 00:33:26] INFO root fetch - processPackages [coursepy]: Downloading https://files.pythonhosted.org/packages/45/79/433a71c2b05e6613fb857bd2f2c5a01b9d779542a60123b7cd5c0374fe04/coursepy-0.1.0-py3-none-any.whl
+[2023-05-03 00:33:26] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2023-05-03 00:33:26] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-1.0.91.tar.gz tmp/lusid-sdk-1.0.98.tar.gz --markdown 20230503/l/lusid-sdk/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-05-03 00:33:26] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/23/7f/598082c85addd8476224a0e3f288351bb9261ecea37f2570a57696dfb6e6/wmill-1.92.0.tar.gz
+[2023-05-03 00:33:26] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/ec/33/b2b3382c5940487399654cb4d01105f3cac82d7704d19529176b78c3039c/windmill_api-1.92.0.tar.gz
+[2023-05-03 00:33:26] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/e6/42/5f9e0aea710dcea288e58e1256aa80f62331341f5be5cd147b4ab860550c/wmill_pg-1.92.0.tar.gz
+[2023-05-03 00:33:26] INFO root fetch - processPackages [autora-synthetic-data]: Downloading https://files.pythonhosted.org/packages/77/72/8c827a04c4e0de0bd83ea724b58f549e1511e14efa296e8d317aa9e5b3cf/autora-synthetic-data-1.0.0a2.tar.gz
+[2023-05-03 00:33:26] INFO root fetch - processPackages [wmill]: executing diffoscope
+[2023-05-03 00:33:26] INFO root fetch - processPackages [wmill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill-1.91.0.tar.gz tmp/wmill-1.92.0.tar.gz --markdown 20230503/w/wmill/1.91.0-1.92.0/diff.md --exclude *.pyd
+[2023-05-03 00:33:26] INFO root fetch - processPackages [lusid-sdk-preview]: executing diffoscope
+[2023-05-03 00:33:26] INFO root fetch - processPackages [lusid-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-preview-1.0.91.tar.gz tmp/lusid-sdk-preview-1.0.98.tar.gz --markdown 20230503/l/lusid-sdk-preview/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-05-03 00:33:26] INFO root fetch - processPackages [windmill-api]: executing diffoscope
+[2023-05-03 00:33:26] INFO root fetch - processPackages [windmill-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windmill_api-1.91.0.tar.gz tmp/windmill_api-1.92.0.tar.gz --markdown 20230503/w/windmill-api/1.91.0-1.92.0/diff.md --exclude *.pyd
+[2023-05-03 00:33:26] INFO root fetch - processPackages [wmill-pg]: executing diffoscope
+[2023-05-03 00:33:26] INFO root fetch - processPackages [wmill-pg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill_pg-1.91.0.tar.gz tmp/wmill_pg-1.92.0.tar.gz --markdown 20230503/w/wmill-pg/1.91.0-1.92.0/diff.md --exclude *.pyd
+[2023-05-03 00:33:26] INFO root fetch - processPackages [coursepy]: Downloading https://files.pythonhosted.org/packages/dd/d9/389693ea5b31c0749d9625a82dec20f1a040ac215851c9d6fa5d4bcd90c5/coursepy-0.1.1-py3-none-any.whl
+[2023-05-03 00:33:26] INFO root fetch - processPackages [autora-synthetic-data]: executing diffoscope
+[2023-05-03 00:33:26] INFO root fetch - processPackages [autora-synthetic-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autora-synthetic-data-1.0.0a1.tar.gz tmp/autora-synthetic-data-1.0.0a2.tar.gz --markdown 20230503/a/autora-synthetic-data/1.0.0a1-1.0.0a2/diff.md --exclude *.pyd
+[2023-05-03 00:33:26] INFO root fetch - processPackages [coursepy]: executing diffoscope
+[2023-05-03 00:33:26] INFO root fetch - processPackages [coursepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coursepy-0.1.0-py3-none-any.whl.zip tmp/coursepy-0.1.1-py3-none-any.whl.zip --markdown 20230503/c/coursepy/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-03 00:33:27] INFO root fetch - processPackages [ix-aims]: Start processing: fixel
+[2023-05-03 00:33:27] INFO root fetch - main [MainThread]: End processing [ix-aims]: success
+[2023-05-03 00:33:27] ERROR root fetch - processPackages [fixel]: Unable to get metadata: No such project 'fixel'
+[2023-05-03 00:33:27] INFO root fetch - processPackages [fixel]: Start processing: cyral
+[2023-05-03 00:33:27] INFO root fetch - main [MainThread]: End processing [fixel] error
+[2023-05-03 00:33:27] INFO root fetch - main [MainThread]: End processing [dop-integration-libs]: success
+[2023-05-03 00:33:27] INFO root fetch - processPackages [cyral]: New version: [2.2.2] Old Version: [2.2.1]
+[2023-05-03 00:33:27] INFO root fetch - main [MainThread]: End processing [simulateIRAS]: success
+[2023-05-03 00:33:27] INFO root fetch - processPackages [cyral]: Downloading https://files.pythonhosted.org/packages/2d/49/29436738645b1daeb0d3f6be2146549c156b0908189ffb1f3fe514e1f8d3/cyral-2.2.1.tar.gz
+[2023-05-03 00:33:27] INFO root fetch - main [MainThread]: End processing [wmill-pg]: success
+[2023-05-03 00:33:27] INFO root fetch - main [MainThread]: End processing [wmill]: success
+[2023-05-03 00:33:27] INFO root fetch - main [MainThread]: End processing [coursepy]: success
+[2023-05-03 00:33:28] INFO root fetch - processPackages [cyral]: Downloading https://files.pythonhosted.org/packages/8c/1a/28b333a6f5560637dfd8331e08e4bd1a3250ea2c28287b9d5f0a6a3a2885/cyral-2.2.2.tar.gz
+[2023-05-03 00:33:28] INFO root fetch - processPackages [cyral]: executing diffoscope
+[2023-05-03 00:33:28] INFO root fetch - processPackages [cyral]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyral-2.2.1.tar.gz tmp/cyral-2.2.2.tar.gz --markdown 20230503/c/cyral/2.2.1-2.2.2/diff.md --exclude *.pyd
+[2023-05-03 00:33:29] INFO root fetch - main [MainThread]: End processing [cyral]: success
+[2023-05-03 00:33:29] INFO root fetch - main [MainThread]: End processing [autora-synthetic-data]: success
+[2023-05-03 00:33:42] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
+[2023-05-03 00:33:43] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2023-05-03 00:33:54] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
+[2023-05-03 00:33:54] INFO root fetch - main [MainThread]: Store serial: [17947917]
