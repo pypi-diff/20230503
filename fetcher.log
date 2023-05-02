@@ -1419,3 +1419,39 @@
 [2023-05-03 01:47:49] INFO root fetch - main [MainThread]: End processing [rover-arm]: success
 [2023-05-03 01:47:50] INFO root fetch - main [MainThread]: End processing [static-frame]: success
 [2023-05-03 01:47:50] INFO root fetch - main [MainThread]: Store serial: [17948457]
+[2023-05-03 01:52:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17948457]
+[2023-05-03 01:52:59] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-03 01:52:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: slacc
+[2023-05-03 01:52:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aij-news-client
+[2023-05-03 01:52:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ghanashops-scraper
+[2023-05-03 01:52:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: githubpy
+[2023-05-03 01:52:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aij-news-publisher
+[2023-05-03 01:52:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flicker-utils
+[2023-05-03 01:52:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rover-arm
+[2023-05-03 01:52:59] INFO root fetch - processPackages [aij-news-client]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-03 01:52:59] WARNING root fetch - processPackages [slacc]: Skipping, unable to determine old version
+[2023-05-03 01:52:59] INFO root fetch - main [MainThread]: End processing [slacc] error
+[2023-05-03 01:53:00] INFO root fetch - processPackages [aij-news-publisher]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-03 01:53:00] INFO root fetch - processPackages [ghanashops-scraper]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-03 01:53:00] INFO root fetch - processPackages [rover-arm]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-05-03 01:53:00] INFO root fetch - processPackages [githubpy]: New version: [2.0.0] Old Version: [1.1.0]
+[2023-05-03 01:53:00] WARNING root fetch - processPackages [flicker-utils]: Skipping, unable to determine old version
+[2023-05-03 01:53:00] INFO root fetch - main [MainThread]: End processing [flicker-utils] error
+[2023-05-03 01:53:00] INFO root fetch - processPackages [aij-news-publisher]: executing diffoscope
+[2023-05-03 01:53:00] INFO root fetch - processPackages [aij-news-publisher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aij-news-publisher-1.0.4.tar.gz tmp/aij-news-publisher-1.0.5.tar.gz --markdown 20230503/a/aij-news-publisher/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-03 01:53:00] INFO root fetch - processPackages [rover-arm]: executing diffoscope
+[2023-05-03 01:53:00] INFO root fetch - processPackages [rover-arm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rover_arm-1.0.9.tar.gz tmp/rover_arm-1.1.0.tar.gz --markdown 20230503/r/rover-arm/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-05-03 01:53:00] INFO root fetch - processPackages [ghanashops-scraper]: executing diffoscope
+[2023-05-03 01:53:00] INFO root fetch - processPackages [ghanashops-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghanashops-scraper-0.1.0.tar.gz tmp/ghanashops-scraper-0.1.1.tar.gz --markdown 20230503/g/ghanashops-scraper/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-03 01:53:00] INFO root fetch - processPackages [aij-news-client]: executing diffoscope
+[2023-05-03 01:53:00] INFO root fetch - processPackages [aij-news-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aij-news-client-1.0.4.tar.gz tmp/aij-news-client-1.0.5.tar.gz --markdown 20230503/a/aij-news-client/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-03 01:53:00] INFO root fetch - processPackages [githubpy]: Downloading https://files.pythonhosted.org/packages/37/bc/29026d1386cd02fc6adc10e4703ccb0def00a752a83c35cf853b91b30cb2/githubpy-1.1.0.tar.gz
+[2023-05-03 01:53:00] INFO root fetch - processPackages [githubpy]: Downloading https://files.pythonhosted.org/packages/df/e4/493c0a8989a964f67eb97acc9e555a2cdc57016d7b39d8c1aa3427ec166a/githubpy-2.0.0.tar.gz
+[2023-05-03 01:53:00] INFO root fetch - processPackages [githubpy]: executing diffoscope
+[2023-05-03 01:53:00] INFO root fetch - processPackages [githubpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/githubpy-1.1.0.tar.gz tmp/githubpy-2.0.0.tar.gz --markdown 20230503/g/githubpy/1.1.0-2.0.0/diff.md --exclude *.pyd
+[2023-05-03 01:53:01] INFO root fetch - main [MainThread]: End processing [aij-news-publisher]: success
+[2023-05-03 01:53:01] INFO root fetch - main [MainThread]: End processing [ghanashops-scraper]: success
+[2023-05-03 01:53:01] INFO root fetch - main [MainThread]: End processing [aij-news-client]: success
+[2023-05-03 01:53:01] INFO root fetch - main [MainThread]: End processing [githubpy]: success
+[2023-05-03 01:53:02] INFO root fetch - main [MainThread]: End processing [rover-arm]: success
+[2023-05-03 01:53:02] INFO root fetch - main [MainThread]: Store serial: [17948482]
