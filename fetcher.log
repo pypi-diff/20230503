@@ -1095,3 +1095,52 @@
 [2023-05-03 01:11:03] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
 [2023-05-03 01:11:15] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
 [2023-05-03 01:11:15] INFO root fetch - main [MainThread]: Store serial: [17948254]
+[2023-05-03 01:16:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17948254]
+[2023-05-03 01:16:24] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-03 01:16:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aotpy
+[2023-05-03 01:16:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ecopipeline
+[2023-05-03 01:16:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gpt-review
+[2023-05-03 01:16:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: expiringsqlitedict
+[2023-05-03 01:16:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyapproxmc
+[2023-05-03 01:16:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ghanashops-scraper
+[2023-05-03 01:16:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dj-accounts
+[2023-05-03 01:16:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pythoncolouringslibV2
+[2023-05-03 01:16:24] INFO root fetch - processPackages [aotpy]: New version: [0.5.0] Old Version: [0.1.1]
+[2023-05-03 01:16:24] INFO root fetch - processPackages [pyapproxmc]: New version: [4.1.9] Old Version: [4.1.8]
+[2023-05-03 01:16:24] INFO root fetch - processPackages [ecopipeline]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 01:16:24] INFO root fetch - processPackages [dj-accounts]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-05-03 01:16:24] INFO root fetch - processPackages [ghanashops-scraper]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-03 01:16:24] INFO root fetch - processPackages [pythoncolouringslibV2]: New version: [3.0.0] Old Version: [2.1.1]
+[2023-05-03 01:16:24] INFO root fetch - processPackages [expiringsqlitedict]: New version: [6.0.0] Old Version: [5.0.2]
+[2023-05-03 01:16:24] INFO root fetch - processPackages [gpt-review]: New version: [0.2.3rc308.post1] Old Version: [0.2.3rc301.post1]
+[2023-05-03 01:16:24] INFO root fetch - processPackages [pythoncolouringslibV2]: executing diffoscope
+[2023-05-03 01:16:24] INFO root fetch - processPackages [pythoncolouringslibV2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythoncolouringslibV2-2.1.1.tar.gz tmp/pythoncolouringslibV2-3.0.0.tar.gz --markdown 20230503/p/pythoncolouringslibV2/2.1.1-3.0.0/diff.md --exclude *.pyd
+[2023-05-03 01:16:24] INFO root fetch - processPackages [aotpy]: Downloading https://files.pythonhosted.org/packages/84/30/93c019afa4a56a160ef8f0b9156a843a699d1bf769f3867aff501296c7f8/aotpy-0.1.1.tar.gz
+[2023-05-03 01:16:24] INFO root fetch - processPackages [dj-accounts]: Downloading https://files.pythonhosted.org/packages/23/a1/c402962344963af344075dbf56f8f0613b2e28508b32a2190ddf118a2acf/dj-accounts-3.0.9.tar.gz
+[2023-05-03 01:16:24] INFO root fetch - processPackages [ghanashops-scraper]: Downloading https://files.pythonhosted.org/packages/8c/d0/5421b3de6e0c18bd6d203ef2ed7254b8a32209808feef01982deaaa3258c/ghanashops-scraper-0.0.4.tar.gz
+[2023-05-03 01:16:24] INFO root fetch - processPackages [expiringsqlitedict]: Downloading https://files.pythonhosted.org/packages/d5/8d/22257e0d7fa2e769eeddde41b8b9bacf87a1698b91acdbe43df1dd56a65a/expiringsqlitedict-6.0.0.tar.gz
+[2023-05-03 01:16:24] INFO root fetch - processPackages [dj-accounts]: executing diffoscope
+[2023-05-03 01:16:24] INFO root fetch - processPackages [dj-accounts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dj-accounts-3.0.8.tar.gz tmp/dj-accounts-3.0.9.tar.gz --markdown 20230503/d/dj-accounts/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-05-03 01:16:24] INFO root fetch - processPackages [ghanashops-scraper]: executing diffoscope
+[2023-05-03 01:16:24] INFO root fetch - processPackages [ghanashops-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghanashops-scraper-0.0.3.tar.gz tmp/ghanashops-scraper-0.0.4.tar.gz --markdown 20230503/g/ghanashops-scraper/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-03 01:16:24] INFO root fetch - processPackages [expiringsqlitedict]: executing diffoscope
+[2023-05-03 01:16:24] INFO root fetch - processPackages [expiringsqlitedict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/expiringsqlitedict-5.0.2.tar.gz tmp/expiringsqlitedict-6.0.0.tar.gz --markdown 20230503/e/expiringsqlitedict/5.0.2-6.0.0/diff.md --exclude *.pyd
+[2023-05-03 01:16:24] INFO root fetch - processPackages [gpt-review]: Downloading https://files.pythonhosted.org/packages/ae/44/432052159ca2f3c1287c10a922b701ea69956abdf7b35c95ec2a888adc83/gpt-review-0.2.3rc308.post1.tar.gz
+[2023-05-03 01:16:24] INFO root fetch - processPackages [pyapproxmc]: executing diffoscope
+[2023-05-03 01:16:24] INFO root fetch - processPackages [pyapproxmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyapproxmc-4.1.8.tar.gz tmp/pyapproxmc-4.1.9.tar.gz --markdown 20230503/p/pyapproxmc/4.1.8-4.1.9/diff.md --exclude *.pyd
+[2023-05-03 01:16:24] INFO root fetch - processPackages [ecopipeline]: executing diffoscope
+[2023-05-03 01:16:24] INFO root fetch - processPackages [ecopipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecopipeline-0.0.8.tar.gz tmp/ecopipeline-0.0.9.tar.gz --markdown 20230503/e/ecopipeline/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 01:16:24] INFO root fetch - processPackages [aotpy]: Downloading https://files.pythonhosted.org/packages/4c/5a/c8834d832c795ca038000a6911cddee6d3c03a70abb60eb14049634f4595/aotpy-0.5.0.tar.gz
+[2023-05-03 01:16:24] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-05-03 01:16:24] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-review-0.2.3rc301.post1.tar.gz tmp/gpt-review-0.2.3rc308.post1.tar.gz --markdown 20230503/g/gpt-review/0.2.3rc301.post1-0.2.3rc308.post1/diff.md --exclude *.pyd
+[2023-05-03 01:16:24] INFO root fetch - processPackages [aotpy]: executing diffoscope
+[2023-05-03 01:16:24] INFO root fetch - processPackages [aotpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aotpy-0.1.1.tar.gz tmp/aotpy-0.5.0.tar.gz --markdown 20230503/a/aotpy/0.1.1-0.5.0/diff.md --exclude *.pyd
+[2023-05-03 01:16:25] INFO root fetch - main [MainThread]: End processing [pythoncolouringslibV2]: success
+[2023-05-03 01:16:25] INFO root fetch - main [MainThread]: End processing [ghanashops-scraper]: success
+[2023-05-03 01:16:25] INFO root fetch - main [MainThread]: End processing [expiringsqlitedict]: success
+[2023-05-03 01:16:26] INFO root fetch - main [MainThread]: End processing [aotpy]: success
+[2023-05-03 01:16:26] INFO root fetch - main [MainThread]: End processing [dj-accounts]: success
+[2023-05-03 01:16:26] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-05-03 01:16:26] INFO root fetch - main [MainThread]: End processing [ecopipeline]: success
+[2023-05-03 01:16:28] INFO root fetch - main [MainThread]: End processing [pyapproxmc]: success
+[2023-05-03 01:16:28] INFO root fetch - main [MainThread]: Store serial: [17948277]
