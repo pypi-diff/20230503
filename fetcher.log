@@ -946,3 +946,74 @@
 [2023-05-03 01:00:34] INFO root fetch - main [MainThread]: End processing [runway]: success
 [2023-05-03 01:00:35] INFO root fetch - main [MainThread]: End processing [dql-alpha]: success
 [2023-05-03 01:00:35] INFO root fetch - main [MainThread]: Store serial: [17948179]
+[2023-05-03 01:05:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17948179]
+[2023-05-03 01:05:45] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-03 01:05:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: babylog
+[2023-05-03 01:05:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ulozto-downloader
+[2023-05-03 01:05:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: FakeNewsClassifier
+[2023-05-03 01:05:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cloudsnorkel.cdk-github-runners
+[2023-05-03 01:05:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tmnt-cu101
+[2023-05-03 01:05:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tmnt
+[2023-05-03 01:05:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flwr-nightly
+[2023-05-03 01:05:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-eks
+[2023-05-03 01:05:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Flask-DigestAuth
+[2023-05-03 01:05:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: FakeNewsClassifier
+[2023-05-03 01:05:46] INFO root fetch - processPackages [babylog]: New version: [1.0.2] Old Version: [0.0.1]
+[2023-05-03 01:05:46] WARNING root fetch - processPackages [FakeNewsClassifier]: Skipping, unable to determine old version
+[2023-05-03 01:05:46] INFO root fetch - processPackages [FakeNewsClassifier]: Start processing: dynamic-listing
+[2023-05-03 01:05:46] INFO root fetch - main [MainThread]: End processing [FakeNewsClassifier] error
+[2023-05-03 01:05:46] INFO root fetch - processPackages [ulozto-downloader]: New version: [3.5.0] Old Version: [3.4.1]
+[2023-05-03 01:05:46] WARNING root fetch - processPackages [FakeNewsClassifier]: Skipping, unable to determine old version
+[2023-05-03 01:05:46] INFO root fetch - processPackages [FakeNewsClassifier]: Start processing: credoai-connect
+[2023-05-03 01:05:46] INFO root fetch - main [MainThread]: End processing [FakeNewsClassifier] error
+[2023-05-03 01:05:46] INFO root fetch - processPackages [cloudsnorkel.cdk-github-runners]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-05-03 01:05:46] INFO root fetch - processPackages [pulumi-eks]: New version: [1.1.0a1683060605] Old Version: [1.1.0a1682020849]
+[2023-05-03 01:05:46] INFO root fetch - processPackages [Flask-DigestAuth]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-05-03 01:05:46] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230502] Old Version: [0.7.0b20230501]
+[2023-05-03 01:05:46] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230502] Old Version: [0.7.0b20230501]
+[2023-05-03 01:05:46] INFO root fetch - processPackages [dynamic-listing]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-03 01:05:46] INFO root fetch - processPackages [flwr-nightly]: New version: [1.5.0.dev20230502] Old Version: [1.5.0.dev20230427]
+[2023-05-03 01:05:46] INFO root fetch - processPackages [credoai-connect]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-03 01:05:46] INFO root fetch - processPackages [pulumi-eks]: executing diffoscope
+[2023-05-03 01:05:46] INFO root fetch - processPackages [pulumi-eks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_eks-1.1.0a1682020849.tar.gz tmp/pulumi_eks-1.1.0a1683060605.tar.gz --markdown 20230503/p/pulumi-eks/1.1.0a1682020849-1.1.0a1683060605/diff.md --exclude *.pyd
+[2023-05-03 01:05:46] INFO root fetch - processPackages [ulozto-downloader]: Downloading https://files.pythonhosted.org/packages/c0/80/66f1338b9a238044dd9c9fda7c7bff028d27081bc70db0b22f50bc843d83/ulozto-downloader-3.4.1.tar.gz
+[2023-05-03 01:05:46] INFO root fetch - processPackages [babylog]: Downloading https://files.pythonhosted.org/packages/ef/80/441021825f35021ca77a78295682e67be696269211f6dae7cbb775a17096/babylog-0.0.1.tar.gz
+[2023-05-03 01:05:46] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/5d/3a/48231aceb237b7980309880bb3e885dcbbdd147a4b1518b881c4598b1890/tmnt-0.7.0b20230501.tar.gz
+[2023-05-03 01:05:46] INFO root fetch - processPackages [dynamic-listing]: executing diffoscope
+[2023-05-03 01:05:46] INFO root fetch - processPackages [dynamic-listing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynamic_listing-0.0.4.tar.gz tmp/dynamic_listing-0.0.5.tar.gz --markdown 20230503/d/dynamic-listing/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-03 01:05:46] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/7d/c2/0a678c0bb2cc4be2388002c693be91028481bb75fda8cbeb5025d96f93cf/tmnt-cu101-0.7.0b20230501.tar.gz
+[2023-05-03 01:05:46] WARNING root fetch - processPackages [ulozto-downloader]: Skipping package: exceeds size limit 13178895>=10485760
+[2023-05-03 01:05:46] INFO root fetch - main [MainThread]: End processing [ulozto-downloader] error
+[2023-05-03 01:05:46] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/71/d9/3cdc18454d812e5312ae85f64a168d1d934673cf7e7cf63ca2ad79a8167c/flwr_nightly-1.5.0.dev20230427.tar.gz
+[2023-05-03 01:05:46] INFO root fetch - processPackages [credoai-connect]: Downloading https://files.pythonhosted.org/packages/ab/f2/c351e3d05b23a3a895248f253970ee68ec6ad51f54a7974370119990ed7c/credoai-connect-0.1.1.tar.gz
+[2023-05-03 01:05:46] INFO root fetch - processPackages [cloudsnorkel.cdk-github-runners]: Downloading https://files.pythonhosted.org/packages/66/2b/f64323e7bec084fa1ddeddda4bfd6760f662cfc653b73e70a04f8ff6b51d/cloudsnorkel.cdk-github-runners-0.9.8.tar.gz
+[2023-05-03 01:05:46] INFO root fetch - processPackages [Flask-DigestAuth]: Downloading https://files.pythonhosted.org/packages/ac/ff/464a2c74babffa8c1732433c07a3454a5015fed8b71d638eff046755f07b/Flask-DigestAuth-0.6.1.tar.gz
+[2023-05-03 01:05:46] INFO root fetch - processPackages [Flask-DigestAuth]: executing diffoscope
+[2023-05-03 01:05:46] INFO root fetch - processPackages [Flask-DigestAuth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Flask-DigestAuth-0.6.0.tar.gz tmp/Flask-DigestAuth-0.6.1.tar.gz --markdown 20230503/F/Flask-DigestAuth/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-05-03 01:05:46] INFO root fetch - processPackages [cloudsnorkel.cdk-github-runners]: executing diffoscope
+[2023-05-03 01:05:46] INFO root fetch - processPackages [cloudsnorkel.cdk-github-runners]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudsnorkel.cdk-github-runners-0.9.7.tar.gz tmp/cloudsnorkel.cdk-github-runners-0.9.8.tar.gz --markdown 20230503/c/cloudsnorkel.cdk-github-runners/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-05-03 01:05:46] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/34/12/4006f4028ae4279977cb934607d13e1a0b514de1f71f064aa8da83fef0b0/tmnt-0.7.0b20230502.tar.gz
+[2023-05-03 01:05:46] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/69/1e/4839b256fcf2c118076856ac88fcf9a3cc8379e5400785afabb384fc6d7f/tmnt-cu101-0.7.0b20230502.tar.gz
+[2023-05-03 01:05:46] INFO root fetch - processPackages [credoai-connect]: Downloading https://files.pythonhosted.org/packages/1d/be/bbef0d27883cc1b01f9508ff035c7885b255dd81f1809f4f9e050f4b2eb7/credoai-connect-0.1.2.tar.gz
+[2023-05-03 01:05:46] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/35/22/4a8c6834b851ea820adce03eaf90e8ba3a6e397e9521c4ff0b52d1ffdcf8/flwr_nightly-1.5.0.dev20230502.tar.gz
+[2023-05-03 01:05:46] INFO root fetch - processPackages [babylog]: Downloading https://files.pythonhosted.org/packages/3d/a3/81e48de5e45f6fecc9a4a5179686e2e65945540bae9a3e8f716fe23f7fe2/babylog-1.0.2.tar.gz
+[2023-05-03 01:05:46] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-05-03 01:05:46] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230501.tar.gz tmp/tmnt-0.7.0b20230502.tar.gz --markdown 20230503/t/tmnt/0.7.0b20230501-0.7.0b20230502/diff.md --exclude *.pyd
+[2023-05-03 01:05:46] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-05-03 01:05:46] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230501.tar.gz tmp/tmnt-cu101-0.7.0b20230502.tar.gz --markdown 20230503/t/tmnt-cu101/0.7.0b20230501-0.7.0b20230502/diff.md --exclude *.pyd
+[2023-05-03 01:05:46] INFO root fetch - processPackages [babylog]: executing diffoscope
+[2023-05-03 01:05:46] INFO root fetch - processPackages [babylog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/babylog-0.0.1.tar.gz tmp/babylog-1.0.2.tar.gz --markdown 20230503/b/babylog/0.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-03 01:05:46] INFO root fetch - processPackages [credoai-connect]: executing diffoscope
+[2023-05-03 01:05:46] INFO root fetch - processPackages [credoai-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/credoai-connect-0.1.1.tar.gz tmp/credoai-connect-0.1.2.tar.gz --markdown 20230503/c/credoai-connect/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-03 01:05:46] INFO root fetch - processPackages [flwr-nightly]: executing diffoscope
+[2023-05-03 01:05:46] INFO root fetch - processPackages [flwr-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr_nightly-1.5.0.dev20230427.tar.gz tmp/flwr_nightly-1.5.0.dev20230502.tar.gz --markdown 20230503/f/flwr-nightly/1.5.0.dev20230427-1.5.0.dev20230502/diff.md --exclude *.pyd
+[2023-05-03 01:05:47] INFO root fetch - main [MainThread]: End processing [Flask-DigestAuth]: success
+[2023-05-03 01:05:48] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-05-03 01:05:48] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-05-03 01:05:48] INFO root fetch - main [MainThread]: End processing [credoai-connect]: success
+[2023-05-03 01:05:48] INFO root fetch - main [MainThread]: End processing [cloudsnorkel.cdk-github-runners]: success
+[2023-05-03 01:05:48] INFO root fetch - main [MainThread]: End processing [dynamic-listing]: success
+[2023-05-03 01:05:48] INFO root fetch - main [MainThread]: End processing [babylog]: success
+[2023-05-03 01:05:48] INFO root fetch - main [MainThread]: End processing [pulumi-eks]: success
+[2023-05-03 01:05:48] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
+[2023-05-03 01:05:48] INFO root fetch - main [MainThread]: Store serial: [17948216]
