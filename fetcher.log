@@ -503,3 +503,32 @@
 [2023-05-03 00:39:05] INFO root fetch - main [MainThread]: End processing [cyral-gimme-db-token]: success
 [2023-05-03 00:39:06] INFO root fetch - main [MainThread]: End processing [dreamai-pdf]: success
 [2023-05-03 00:39:06] INFO root fetch - main [MainThread]: Store serial: [17947956]
+[2023-05-03 00:44:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17947956]
+[2023-05-03 00:44:15] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-03 00:44:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sortinghat-openinfra
+[2023-05-03 00:44:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dop-integration-libs
+[2023-05-03 00:44:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: drup
+[2023-05-03 00:44:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sqlglot
+[2023-05-03 00:44:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cpdb-api
+[2023-05-03 00:44:15] INFO root fetch - processPackages [dop-integration-libs]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-03 00:44:15] INFO root fetch - processPackages [sortinghat-openinfra]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-03 00:44:15] INFO root fetch - processPackages [drup]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-05-03 00:44:15] INFO root fetch - processPackages [sqlglot]: New version: [9.0.6] Old Version: [9.0.5]
+[2023-05-03 00:44:15] WARNING root fetch - processPackages [cpdb-api]: Skipping, unable to determine old version
+[2023-05-03 00:44:15] INFO root fetch - main [MainThread]: End processing [cpdb-api] error
+[2023-05-03 00:44:15] INFO root fetch - processPackages [dop-integration-libs]: executing diffoscope
+[2023-05-03 00:44:15] INFO root fetch - processPackages [dop-integration-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dop_integration_libs-0.1.8.tar.gz tmp/dop_integration_libs-0.1.9.tar.gz --markdown 20230503/d/dop-integration-libs/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-03 00:44:15] INFO root fetch - processPackages [sqlglot]: executing diffoscope
+[2023-05-03 00:44:15] INFO root fetch - processPackages [sqlglot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlglot-9.0.5.tar.gz tmp/sqlglot-9.0.6.tar.gz --markdown 20230503/s/sqlglot/9.0.5-9.0.6/diff.md --exclude *.pyd
+[2023-05-03 00:44:15] INFO root fetch - processPackages [drup]: Downloading https://files.pythonhosted.org/packages/33/c0/9c54975c92a839c05634083aee9824746a245c018513e18d2a7fd8c241c7/drup-1.1.0.tar.gz
+[2023-05-03 00:44:16] INFO root fetch - processPackages [sortinghat-openinfra]: Downloading https://files.pythonhosted.org/packages/ae/62/08871e5a7a5a1539742bdd4cd0b4698d397d0458af73a56dcf81c71a7a86/sortinghat_openinfra-0.1.2.tar.gz
+[2023-05-03 00:44:16] INFO root fetch - processPackages [sortinghat-openinfra]: executing diffoscope
+[2023-05-03 00:44:16] INFO root fetch - processPackages [sortinghat-openinfra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sortinghat_openinfra-0.1.1.tar.gz tmp/sortinghat_openinfra-0.1.2.tar.gz --markdown 20230503/s/sortinghat-openinfra/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-03 00:44:16] INFO root fetch - processPackages [drup]: Downloading https://files.pythonhosted.org/packages/97/bd/9b571091644b02d551a79627c55b6007ddffa0a85674ec768ec09846fcd6/drup-1.2.0.tar.gz
+[2023-05-03 00:44:16] INFO root fetch - processPackages [drup]: executing diffoscope
+[2023-05-03 00:44:16] INFO root fetch - processPackages [drup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drup-1.1.0.tar.gz tmp/drup-1.2.0.tar.gz --markdown 20230503/d/drup/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-05-03 00:44:16] INFO root fetch - main [MainThread]: End processing [dop-integration-libs]: success
+[2023-05-03 00:44:17] INFO root fetch - main [MainThread]: End processing [sortinghat-openinfra]: success
+[2023-05-03 00:44:17] INFO root fetch - main [MainThread]: End processing [sqlglot]: success
+[2023-05-03 00:44:18] INFO root fetch - main [MainThread]: End processing [drup]: success
+[2023-05-03 00:44:18] INFO root fetch - main [MainThread]: Store serial: [17947978]
