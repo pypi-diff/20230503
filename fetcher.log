@@ -586,3 +586,70 @@
 [2023-05-03 00:49:31] INFO root fetch - main [MainThread]: End processing [sfkit]: success
 [2023-05-03 00:49:41] INFO root fetch - main [MainThread]: End processing [mage-ai]: success
 [2023-05-03 00:49:41] INFO root fetch - main [MainThread]: Store serial: [17948007]
+[2023-05-03 00:54:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17948007]
+[2023-05-03 00:54:51] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-03 00:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coursepy
+[2023-05-03 00:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: merqube-client-lib
+[2023-05-03 00:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pythoncolouringslibV2
+[2023-05-03 00:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pwmg
+[2023-05-03 00:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: FixedFloatApi
+[2023-05-03 00:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: soup2
+[2023-05-03 00:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ethyca-fides
+[2023-05-03 00:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: CS333-Final-Project
+[2023-05-03 00:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: strawberry-graphql
+[2023-05-03 00:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: windmill-api
+[2023-05-03 00:54:51] INFO root fetch - processPackages [FixedFloatApi]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-03 00:54:51] INFO root fetch - processPackages [coursepy]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-03 00:54:51] INFO root fetch - processPackages [merqube-client-lib]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-03 00:54:51] INFO root fetch - processPackages [pwmg]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-03 00:54:51] INFO root fetch - processPackages [pythoncolouringslibV2]: New version: [2.1.1] Old Version: [1.0.0]
+[2023-05-03 00:54:51] INFO root fetch - processPackages [soup2]: New version: [2] Old Version: [1]
+[2023-05-03 00:54:51] INFO root fetch - processPackages [CS333-Final-Project]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 00:54:51] INFO root fetch - processPackages [ethyca-fides]: New version: [2.9.2] Old Version: [2.9.1]
+[2023-05-03 00:54:51] INFO root fetch - processPackages [windmill-api]: New version: [1.92.0] Old Version: [1.91.0]
+[2023-05-03 00:54:51] INFO root fetch - processPackages [strawberry-graphql]: New version: [0.99.3] Old Version: [0.99.2]
+[2023-05-03 00:54:51] INFO root fetch - processPackages [CS333-Final-Project]: executing diffoscope
+[2023-05-03 00:54:51] INFO root fetch - processPackages [CS333-Final-Project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CS333-Final-Project-0.0.8.tar.gz tmp/CS333-Final-Project-0.0.9.tar.gz --markdown 20230503/C/CS333-Final-Project/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 00:54:51] INFO root fetch - processPackages [windmill-api]: executing diffoscope
+[2023-05-03 00:54:51] INFO root fetch - processPackages [windmill-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windmill_api-1.91.0.tar.gz tmp/windmill_api-1.92.0.tar.gz --markdown 20230503/w/windmill-api/1.91.0-1.92.0/diff.md --exclude *.pyd
+[2023-05-03 00:54:51] INFO root fetch - processPackages [pythoncolouringslibV2]: Downloading https://files.pythonhosted.org/packages/15/fd/91615399a82a6ea53744bcc71b82306a2f5e8a866d2c0cd5e24e431dbfb6/pythoncolouringslibV2-1.0.0.tar.gz
+[2023-05-03 00:54:51] INFO root fetch - processPackages [strawberry-graphql]: executing diffoscope
+[2023-05-03 00:54:51] INFO root fetch - processPackages [strawberry-graphql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strawberry-graphql-0.99.2.tar.gz tmp/strawberry-graphql-0.99.3.tar.gz --markdown 20230503/s/strawberry-graphql/0.99.2-0.99.3/diff.md --exclude *.pyd
+[2023-05-03 00:54:51] INFO root fetch - processPackages [FixedFloatApi]: Downloading https://files.pythonhosted.org/packages/64/aa/639cc8b597ae65c3026ee1e141b44f8f524a7b21efa84cd9733a2c3b2243/FixedFloatApi-1.0.2.tar.gz
+[2023-05-03 00:54:51] INFO root fetch - processPackages [soup2]: Downloading https://files.pythonhosted.org/packages/0b/10/3388ebe5057455a92691599794a4cc1167889e13f1ca85f02a52426ed6cd/soup2-1.tar.gz
+[2023-05-03 00:54:51] INFO root fetch - processPackages [merqube-client-lib]: Downloading https://files.pythonhosted.org/packages/76/e2/0022e360af9b8e6718170528587cb0a3e0e3c978c57c4c3829fa564e7970/merqube_client_lib-0.2.3.tar.gz
+[2023-05-03 00:54:51] INFO root fetch - processPackages [pwmg]: Downloading https://files.pythonhosted.org/packages/71/1a/5152b8c02618f75416683ff3decfac2d54aae29747dcac3b8bcbc53061ef/pwmg-0.0.6.tar.gz
+[2023-05-03 00:54:51] INFO root fetch - processPackages [coursepy]: Downloading https://files.pythonhosted.org/packages/3c/e6/40c44983160ca0ef1941f7133e7f3d9e9158dad4203129df40485bbfb6ba/coursepy-1.0.1-py3-none-any.whl
+[2023-05-03 00:54:51] INFO root fetch - processPackages [FixedFloatApi]: executing diffoscope
+[2023-05-03 00:54:51] INFO root fetch - processPackages [FixedFloatApi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FixedFloatApi-1.0.1.tar.gz tmp/FixedFloatApi-1.0.2.tar.gz --markdown 20230503/F/FixedFloatApi/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-03 00:54:51] INFO root fetch - processPackages [merqube-client-lib]: executing diffoscope
+[2023-05-03 00:54:51] INFO root fetch - processPackages [merqube-client-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/merqube_client_lib-0.2.2.tar.gz tmp/merqube_client_lib-0.2.3.tar.gz --markdown 20230503/m/merqube-client-lib/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-03 00:54:51] INFO root fetch - processPackages [coursepy]: executing diffoscope
+[2023-05-03 00:54:51] INFO root fetch - processPackages [coursepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coursepy-1.0.0-py3-none-any.whl.zip tmp/coursepy-1.0.1-py3-none-any.whl.zip --markdown 20230503/c/coursepy/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-03 00:54:51] INFO root fetch - processPackages [pythoncolouringslibV2]: Downloading https://files.pythonhosted.org/packages/fd/51/41cac7d98aa33866d90d43e177ae201964fcbcd0d1095d6778a413c88a08/pythoncolouringslibV2-2.1.1.tar.gz
+[2023-05-03 00:54:51] INFO root fetch - processPackages [soup2]: Downloading https://files.pythonhosted.org/packages/b4/81/e0a87171ba187c93d18fc967c3910ce86c7f1226ae40c087bac00ffc6e4c/soup2-2.tar.gz
+[2023-05-03 00:54:51] INFO root fetch - processPackages [ethyca-fides]: executing diffoscope
+[2023-05-03 00:54:51] INFO root fetch - processPackages [ethyca-fides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ethyca-fides-2.9.1.tar.gz tmp/ethyca-fides-2.9.2.tar.gz --markdown 20230503/e/ethyca-fides/2.9.1-2.9.2/diff.md --exclude *.pyd
+[2023-05-03 00:54:52] INFO root fetch - processPackages [soup2]: executing diffoscope
+[2023-05-03 00:54:52] INFO root fetch - processPackages [soup2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soup2-1.tar.gz tmp/soup2-2.tar.gz --markdown 20230503/s/soup2/1-2/diff.md --exclude *.pyd
+[2023-05-03 00:54:52] INFO root fetch - processPackages [pythoncolouringslibV2]: executing diffoscope
+[2023-05-03 00:54:52] INFO root fetch - processPackages [pwmg]: Downloading https://files.pythonhosted.org/packages/5e/31/5d08d1ce4f37257009a9d6c42183934d679f02c931ff35235828b1b12c23/pwmg-0.0.7.tar.gz
+[2023-05-03 00:54:52] INFO root fetch - processPackages [pythoncolouringslibV2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythoncolouringslibV2-1.0.0.tar.gz tmp/pythoncolouringslibV2-2.1.1.tar.gz --markdown 20230503/p/pythoncolouringslibV2/1.0.0-2.1.1/diff.md --exclude *.pyd
+[2023-05-03 00:54:52] INFO root fetch - processPackages [pwmg]: executing diffoscope
+[2023-05-03 00:54:52] INFO root fetch - processPackages [pwmg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pwmg-0.0.6.tar.gz tmp/pwmg-0.0.7.tar.gz --markdown 20230503/p/pwmg/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-03 00:54:52] INFO root fetch - processPackages [CS333-Final-Project]: Start processing: wmill
+[2023-05-03 00:54:52] INFO root fetch - main [MainThread]: End processing [CS333-Final-Project]: success
+[2023-05-03 00:54:52] INFO root fetch - processPackages [wmill]: New version: [1.92.0] Old Version: [1.91.0]
+[2023-05-03 00:54:53] INFO root fetch - processPackages [wmill]: executing diffoscope
+[2023-05-03 00:54:53] INFO root fetch - processPackages [wmill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill-1.91.0.tar.gz tmp/wmill-1.92.0.tar.gz --markdown 20230503/w/wmill/1.91.0-1.92.0/diff.md --exclude *.pyd
+[2023-05-03 00:54:53] INFO root fetch - main [MainThread]: End processing [merqube-client-lib]: success
+[2023-05-03 00:54:53] INFO root fetch - main [MainThread]: End processing [coursepy]: success
+[2023-05-03 00:54:53] INFO root fetch - main [MainThread]: End processing [FixedFloatApi]: success
+[2023-05-03 00:54:53] INFO root fetch - main [MainThread]: End processing [pwmg]: success
+[2023-05-03 00:54:54] INFO root fetch - main [MainThread]: End processing [pythoncolouringslibV2]: success
+[2023-05-03 00:54:54] INFO root fetch - main [MainThread]: End processing [wmill]: success
+[2023-05-03 00:54:54] INFO root fetch - main [MainThread]: End processing [soup2]: success
+[2023-05-03 00:54:55] INFO root fetch - main [MainThread]: End processing [strawberry-graphql]: success
+[2023-05-03 00:55:00] INFO root fetch - main [MainThread]: End processing [ethyca-fides]: success
+[2023-05-03 00:55:10] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
+[2023-05-03 00:55:10] INFO root fetch - main [MainThread]: Store serial: [17948039]
