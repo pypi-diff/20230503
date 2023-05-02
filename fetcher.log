@@ -1222,3 +1222,39 @@
 [2023-05-03 01:21:40] INFO root fetch - main [MainThread]: End processing [bism]: success
 [2023-05-03 01:21:41] INFO root fetch - main [MainThread]: End processing [iambic-core]: success
 [2023-05-03 01:21:41] INFO root fetch - main [MainThread]: Store serial: [17948324]
+[2023-05-03 01:26:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17948324]
+[2023-05-03 01:26:51] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-03 01:26:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: commonpy
+[2023-05-03 01:26:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bism
+[2023-05-03 01:26:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aistac-foundation
+[2023-05-03 01:26:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stillrequestsa
+[2023-05-03 01:26:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: IrisChatBot
+[2023-05-03 01:26:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aij-news-client
+[2023-05-03 01:26:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: prepup
+[2023-05-03 01:26:51] WARNING root fetch - processPackages [stillrequestsa]: Skipping, unable to determine old version
+[2023-05-03 01:26:51] INFO root fetch - main [MainThread]: End processing [stillrequestsa] error
+[2023-05-03 01:26:51] WARNING root fetch - processPackages [aij-news-client]: Skipping, unable to determine old version
+[2023-05-03 01:26:51] INFO root fetch - main [MainThread]: End processing [aij-news-client] error
+[2023-05-03 01:26:51] INFO root fetch - processPackages [commonpy]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-05-03 01:26:51] WARNING root fetch - processPackages [IrisChatBot]: Skipping, unable to determine old version
+[2023-05-03 01:26:51] INFO root fetch - main [MainThread]: End processing [IrisChatBot] error
+[2023-05-03 01:26:51] INFO root fetch - processPackages [aistac-foundation]: New version: [2.9.7] Old Version: [2.9.6]
+[2023-05-03 01:26:51] INFO root fetch - processPackages [bism]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-03 01:26:51] INFO root fetch - processPackages [prepup]: New version: [0.0.9] Old Version: [0.0.12]
+[2023-05-03 01:26:51] INFO root fetch - processPackages [aistac-foundation]: Downloading https://files.pythonhosted.org/packages/e9/ad/d0d844b4f35250063b74d3b41f9f043c0ff8d4dd55f91e7331fbfb4a31e6/aistac-foundation-2.9.6.tar.gz
+[2023-05-03 01:26:51] INFO root fetch - processPackages [prepup]: Downloading https://files.pythonhosted.org/packages/bd/b9/409c87ecbf1cbe7a768ac55856dbd78b3e9256a45dfb264d89a0df89ae57/prepup-0.0.12.tar.gz
+[2023-05-03 01:26:51] INFO root fetch - processPackages [bism]: Downloading https://files.pythonhosted.org/packages/4e/0b/97f45d0dfde3ba4ab0741b48f4248a999aa2eeea0950a5925b5029069b8a/bism-0.0.4.tar.gz
+[2023-05-03 01:26:51] INFO root fetch - processPackages [bism]: executing diffoscope
+[2023-05-03 01:26:51] INFO root fetch - processPackages [bism]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bism-0.0.3.tar.gz tmp/bism-0.0.4.tar.gz --markdown 20230503/b/bism/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-03 01:26:51] INFO root fetch - processPackages [commonpy]: executing diffoscope
+[2023-05-03 01:26:51] INFO root fetch - processPackages [commonpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commonpy-1.9.4.tar.gz tmp/commonpy-1.9.5.tar.gz --markdown 20230503/c/commonpy/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-05-03 01:26:52] INFO root fetch - processPackages [prepup]: executing diffoscope
+[2023-05-03 01:26:52] INFO root fetch - processPackages [prepup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prepup-0.0.12.tar.gz tmp/prepup-0.0.9.tar.gz --markdown 20230503/p/prepup/0.0.12-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 01:26:52] INFO root fetch - processPackages [aistac-foundation]: Downloading https://files.pythonhosted.org/packages/57/f1/970e08b6986af04d413b219e4f62ffbd2e6fd9cf42a0690aca7de90bd4be/aistac-foundation-2.9.7.tar.gz
+[2023-05-03 01:26:52] INFO root fetch - main [MainThread]: End processing [commonpy]: success
+[2023-05-03 01:26:53] INFO root fetch - processPackages [aistac-foundation]: executing diffoscope
+[2023-05-03 01:26:53] INFO root fetch - processPackages [aistac-foundation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aistac-foundation-2.9.6.tar.gz tmp/aistac-foundation-2.9.7.tar.gz --markdown 20230503/a/aistac-foundation/2.9.6-2.9.7/diff.md --exclude *.pyd
+[2023-05-03 01:26:53] INFO root fetch - main [MainThread]: End processing [bism]: success
+[2023-05-03 01:26:53] INFO root fetch - main [MainThread]: End processing [prepup]: success
+[2023-05-03 01:26:54] INFO root fetch - main [MainThread]: End processing [aistac-foundation]: success
+[2023-05-03 01:26:54] INFO root fetch - main [MainThread]: Store serial: [17948358]
