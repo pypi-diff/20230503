@@ -1,0 +1,80 @@
+[2023-05-03 00:01:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17947546]
+[2023-05-03 00:01:12] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-03 00:01:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rattail
+[2023-05-03 00:01:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-eks
+[2023-05-03 00:01:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flexsea
+[2023-05-03 00:01:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: FixedFloatApi
+[2023-05-03 00:01:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: collectmeterdigits
+[2023-05-03 00:01:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: google-vizier
+[2023-05-03 00:01:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rocm-docs-core
+[2023-05-03 00:01:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: collectmeteranalog
+[2023-05-03 00:01:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pgp-reconstruction
+[2023-05-03 00:01:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: telegpt
+[2023-05-03 00:01:13] INFO root fetch - processPackages [google-vizier]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-03 00:01:13] INFO root fetch - processPackages [FixedFloatApi]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-03 00:01:13] INFO root fetch - processPackages [pulumi-eks]: New version: [1.1.0a1683060605] Old Version: [1.1.0a1682020849]
+[2023-05-03 00:01:13] WARNING root fetch - processPackages [collectmeterdigits]: Skipping, unable to determine old version
+[2023-05-03 00:01:13] INFO root fetch - processPackages [collectmeterdigits]: Start processing: kelvin-sdk-app
+[2023-05-03 00:01:13] INFO root fetch - main [MainThread]: End processing [collectmeterdigits] error
+[2023-05-03 00:01:13] INFO root fetch - processPackages [rocm-docs-core]: New version: [0.8.0] Old Version: [0.7.1]
+[2023-05-03 00:01:13] INFO root fetch - processPackages [flexsea]: New version: [9.1.1] Old Version: [9.1.0]
+[2023-05-03 00:01:13] INFO root fetch - processPackages [collectmeteranalog]: New version: [1.0.14] Old Version: [0.1.0]
+[2023-05-03 00:01:13] WARNING root fetch - processPackages [pgp-reconstruction]: Skipping, unable to determine old version
+[2023-05-03 00:01:13] INFO root fetch - processPackages [pgp-reconstruction]: Start processing: ix-aims
+[2023-05-03 00:01:13] INFO root fetch - main [MainThread]: End processing [pgp-reconstruction] error
+[2023-05-03 00:01:13] INFO root fetch - processPackages [telegpt]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-03 00:01:13] INFO root fetch - processPackages [kelvin-sdk-app]: New version: [7.9.0] Old Version: [7.8.1]
+[2023-05-03 00:01:13] INFO root fetch - processPackages [rattail]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-05-03 00:01:13] INFO root fetch - processPackages [ix-aims]: New version: [0.1.1rc2] Old Version: [0.1.1rc1]
+[2023-05-03 00:01:13] INFO root fetch - processPackages [FixedFloatApi]: Downloading https://files.pythonhosted.org/packages/55/1b/64beefeaf7031be2472417398f3a67e99e516afd40266a9e0bccbc2790cf/FixedFloatApi-1.0.0.tar.gz
+[2023-05-03 00:01:13] INFO root fetch - processPackages [pulumi-eks]: Downloading https://files.pythonhosted.org/packages/06/73/be6eddad16dcc055f64c17612e361f4ebf8d608cc5e0cbe58ac33081d280/pulumi_eks-1.1.0a1682020849.tar.gz
+[2023-05-03 00:01:13] INFO root fetch - processPackages [rattail]: executing diffoscope
+[2023-05-03 00:01:13] INFO root fetch - processPackages [rattail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rattail-0.9.98.tar.gz tmp/rattail-0.9.99.tar.gz --markdown 20230503/r/rattail/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-05-03 00:01:13] INFO root fetch - processPackages [telegpt]: Downloading https://files.pythonhosted.org/packages/94/90/9f9ffc089c66819a5df2e4ba66ae7300282a45ea9078122c55f2d6301f71/telegpt-0.1.0.tar.gz
+[2023-05-03 00:01:13] INFO root fetch - processPackages [collectmeteranalog]: Downloading https://files.pythonhosted.org/packages/f9/18/08d60a9523d68bef0e0f18c0e13e59d0a1d1d0994e2e1fd173e713359257/collectmeteranalog-0.1.0.tar.gz
+[2023-05-03 00:01:13] INFO root fetch - processPackages [google-vizier]: Downloading https://files.pythonhosted.org/packages/cd/21/72240b37208d67ddfd39e5a2ff5790e7c5c90704c4a3e0295f2bfdf1c7c0/google-vizier-0.1.4.tar.gz
+[2023-05-03 00:01:13] INFO root fetch - processPackages [kelvin-sdk-app]: Downloading https://files.pythonhosted.org/packages/1f/f1/3c4535c3b66b71f7fa62b9b00e3909d929663a8ebe9a2043a0e523b0349b/kelvin_sdk_app-7.8.1-py3-none-any.whl
+[2023-05-03 00:01:13] INFO root fetch - processPackages [flexsea]: Downloading https://files.pythonhosted.org/packages/73/13/5e6a24eca54dfb5d33c482a558ba5eec2335484350b7b286b306d01712b9/flexsea-9.1.0-py3-none-any.whl
+[2023-05-03 00:01:13] INFO root fetch - processPackages [ix-aims]: Downloading https://files.pythonhosted.org/packages/ba/b3/84e05c56edce85540bc668ac03d57a5950766c5fa3491069d86d01ca02be/ix_aims-0.1.1rc2.tar.gz
+[2023-05-03 00:01:13] INFO root fetch - processPackages [FixedFloatApi]: Downloading https://files.pythonhosted.org/packages/0b/a8/3bfa94a1cfa882c0d9822b933a0c9e7386180f692a19861e6f78632dc364/FixedFloatApi-1.0.1.tar.gz
+[2023-05-03 00:01:13] INFO root fetch - processPackages [rocm-docs-core]: Downloading https://files.pythonhosted.org/packages/8d/5b/d16f23eb3a49f0e9fa707f247b5c71136e59cbeb970eac25f7e4ee74d782/rocm-docs-core-0.8.0.tar.gz
+[2023-05-03 00:01:13] INFO root fetch - processPackages [ix-aims]: executing diffoscope
+[2023-05-03 00:01:13] INFO root fetch - processPackages [ix-aims]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ix_aims-0.1.1rc1.tar.gz tmp/ix_aims-0.1.1rc2.tar.gz --markdown 20230503/i/ix-aims/0.1.1rc1-0.1.1rc2/diff.md --exclude *.pyd
+[2023-05-03 00:01:13] INFO root fetch - processPackages [telegpt]: Downloading https://files.pythonhosted.org/packages/82/a4/6ae88bfa76ec57093504f7eb56b843587d67f19501322f0fd6d189023cc2/telegpt-0.1.1.tar.gz
+[2023-05-03 00:01:13] INFO root fetch - processPackages [google-vizier]: Downloading https://files.pythonhosted.org/packages/b7/75/97667677158775327a4d5b959fe833898094c62ac108a31badc118bc29be/google-vizier-0.1.5.tar.gz
+[2023-05-03 00:01:13] INFO root fetch - processPackages [rocm-docs-core]: executing diffoscope
+[2023-05-03 00:01:13] INFO root fetch - processPackages [rocm-docs-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rocm-docs-core-0.7.1.tar.gz tmp/rocm-docs-core-0.8.0.tar.gz --markdown 20230503/r/rocm-docs-core/0.7.1-0.8.0/diff.md --exclude *.pyd
+[2023-05-03 00:01:13] INFO root fetch - processPackages [pulumi-eks]: Downloading https://files.pythonhosted.org/packages/f4/49/4589a3b4b5fa3dc7ab5ea7a5f87da10a91ef91cc59c9f312d3979b9cbc5f/pulumi_eks-1.1.0a1683060605.tar.gz
+[2023-05-03 00:01:13] WARNING root fetch - processPackages [flexsea]: Skipping package: exceeds size limit 13968448>=10485760
+[2023-05-03 00:01:13] INFO root fetch - processPackages [flexsea]: Start processing: Corporal
+[2023-05-03 00:01:13] INFO root fetch - main [MainThread]: End processing [flexsea] error
+[2023-05-03 00:01:13] INFO root fetch - processPackages [telegpt]: executing diffoscope
+[2023-05-03 00:01:13] INFO root fetch - processPackages [telegpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegpt-0.1.0.tar.gz tmp/telegpt-0.1.1.tar.gz --markdown 20230503/t/telegpt/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-03 00:01:13] INFO root fetch - processPackages [FixedFloatApi]: executing diffoscope
+[2023-05-03 00:01:13] INFO root fetch - processPackages [FixedFloatApi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FixedFloatApi-1.0.0.tar.gz tmp/FixedFloatApi-1.0.1.tar.gz --markdown 20230503/F/FixedFloatApi/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-03 00:01:13] INFO root fetch - processPackages [Corporal]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-03 00:01:13] INFO root fetch - processPackages [collectmeteranalog]: Downloading https://files.pythonhosted.org/packages/fc/77/4eded5e3150daa0556eee7fbe302c1143e4c3b8d428cc38982440c963315/collectmeteranalog-1.0.14.tar.gz
+[2023-05-03 00:01:13] INFO root fetch - processPackages [kelvin-sdk-app]: Downloading https://files.pythonhosted.org/packages/b8/0f/46a377a3db021431b05dfab7c36598563330584d3e6c34f8d561418bf414/kelvin_sdk_app-7.9.0-py3-none-any.whl
+[2023-05-03 00:01:13] INFO root fetch - processPackages [google-vizier]: executing diffoscope
+[2023-05-03 00:01:13] INFO root fetch - processPackages [google-vizier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-vizier-0.1.4.tar.gz tmp/google-vizier-0.1.5.tar.gz --markdown 20230503/g/google-vizier/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-03 00:01:13] INFO root fetch - processPackages [pulumi-eks]: executing diffoscope
+[2023-05-03 00:01:13] INFO root fetch - processPackages [pulumi-eks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_eks-1.1.0a1682020849.tar.gz tmp/pulumi_eks-1.1.0a1683060605.tar.gz --markdown 20230503/p/pulumi-eks/1.1.0a1682020849-1.1.0a1683060605/diff.md --exclude *.pyd
+[2023-05-03 00:01:13] INFO root fetch - processPackages [collectmeteranalog]: executing diffoscope
+[2023-05-03 00:01:13] INFO root fetch - processPackages [collectmeteranalog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collectmeteranalog-0.1.0.tar.gz tmp/collectmeteranalog-1.0.14.tar.gz --markdown 20230503/c/collectmeteranalog/0.1.0-1.0.14/diff.md --exclude *.pyd
+[2023-05-03 00:01:13] INFO root fetch - processPackages [kelvin-sdk-app]: executing diffoscope
+[2023-05-03 00:01:13] INFO root fetch - processPackages [kelvin-sdk-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kelvin_sdk_app-7.8.1-py3-none-any.whl.zip tmp/kelvin_sdk_app-7.9.0-py3-none-any.whl.zip --markdown 20230503/k/kelvin-sdk-app/7.8.1-7.9.0/diff.md --exclude *.pyd
+[2023-05-03 00:01:13] INFO root fetch - processPackages [Corporal]: Downloading https://files.pythonhosted.org/packages/a7/20/790930872cf9107877c4cf729695a194b39d952fe9665a66325e0af1fb00/Corporal-0.1.8.tar.gz
+[2023-05-03 00:01:14] INFO root fetch - processPackages [Corporal]: Downloading https://files.pythonhosted.org/packages/b9/fa/9775531117c313e9c4f8da268d0f31de93a8b1b7fb9db42445e085a5751a/Corporal-0.1.9.tar.gz
+[2023-05-03 00:01:14] INFO root fetch - processPackages [Corporal]: executing diffoscope
+[2023-05-03 00:01:14] INFO root fetch - processPackages [Corporal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Corporal-0.1.8.tar.gz tmp/Corporal-0.1.9.tar.gz --markdown 20230503/C/Corporal/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-03 00:01:15] INFO root fetch - main [MainThread]: End processing [ix-aims]: success
+[2023-05-03 00:01:15] INFO root fetch - main [MainThread]: End processing [FixedFloatApi]: success
+[2023-05-03 00:01:15] INFO root fetch - main [MainThread]: End processing [telegpt]: success
+[2023-05-03 00:01:15] INFO root fetch - main [MainThread]: End processing [collectmeteranalog]: success
+[2023-05-03 00:01:15] INFO root fetch - main [MainThread]: End processing [kelvin-sdk-app]: success
+[2023-05-03 00:01:15] INFO root fetch - main [MainThread]: End processing [Corporal]: success
+[2023-05-03 00:01:16] INFO root fetch - main [MainThread]: End processing [pulumi-eks]: success
+[2023-05-03 00:01:18] INFO root fetch - main [MainThread]: End processing [google-vizier]: success
+[2023-05-03 00:01:18] INFO root fetch - main [MainThread]: End processing [rocm-docs-core]: success
+[2023-05-03 00:01:20] INFO root fetch - main [MainThread]: End processing [rattail]: success
+[2023-05-03 00:01:20] INFO root fetch - main [MainThread]: Store serial: [17947584]
