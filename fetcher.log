@@ -267,3 +267,73 @@
 [2023-05-03 00:17:09] INFO root fetch - main [MainThread]: End processing [jotdown]: success
 [2023-05-03 00:17:50] INFO root fetch - main [MainThread]: End processing [pulumi-oci]: success
 [2023-05-03 00:17:50] INFO root fetch - main [MainThread]: Store serial: [17947752]
+[2023-05-03 00:22:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17947752]
+[2023-05-03 00:23:01] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-03 00:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certora-cli-alpha-shelly-CERT1958ErrorCodes
+[2023-05-03 00:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jotdown
+[2023-05-03 00:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dexhub
+[2023-05-03 00:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: testmsg
+[2023-05-03 00:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: OctoBot-Services
+[2023-05-03 00:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kelvin-sdk
+[2023-05-03 00:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: simulateIRAS
+[2023-05-03 00:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: evals-nightly
+[2023-05-03 00:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: collectmeteranalog
+[2023-05-03 00:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dbt-databricks
+[2023-05-03 00:23:01] INFO root fetch - processPackages [jotdown]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-05-03 00:23:01] INFO root fetch - processPackages [kelvin-sdk]: New version: [7.9.0] Old Version: [7.8.1]
+[2023-05-03 00:23:01] INFO root fetch - processPackages [collectmeteranalog]: New version: [1.0.15] Old Version: [1.0.14]
+[2023-05-03 00:23:01] INFO root fetch - processPackages [OctoBot-Services]: New version: [1.6.0] Old Version: [1.5.6]
+[2023-05-03 00:23:01] INFO root fetch - processPackages [dexhub]: New version: [0.6.6] Old Version: [0.6.5]
+[2023-05-03 00:23:01] INFO root fetch - processPackages [certora-cli-alpha-shelly-CERT1958ErrorCodes]: New version: [20230502.22.17.353047] Old Version: [20230430.20.4.774486]
+[2023-05-03 00:23:01] INFO root fetch - processPackages [simulateIRAS]: New version: [0.1.0.post6] Old Version: [0.1.0.post5]
+[2023-05-03 00:23:01] WARNING root fetch - processPackages [testmsg]: Skipping, unable to determine old version
+[2023-05-03 00:23:01] INFO root fetch - processPackages [testmsg]: Start processing: Pulse3D
+[2023-05-03 00:23:01] INFO root fetch - main [MainThread]: End processing [testmsg] error
+[2023-05-03 00:23:01] INFO root fetch - processPackages [collectmeteranalog]: executing diffoscope
+[2023-05-03 00:23:01] INFO root fetch - processPackages [collectmeteranalog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collectmeteranalog-1.0.14.tar.gz tmp/collectmeteranalog-1.0.15.tar.gz --markdown 20230503/c/collectmeteranalog/1.0.14-1.0.15/diff.md --exclude *.pyd
+[2023-05-03 00:23:01] INFO root fetch - processPackages [dbt-databricks]: New version: [1.5.0rc1] Old Version: [1.4.3]
+[2023-05-03 00:23:01] INFO root fetch - processPackages [Pulse3D]: New version: [0.33.0] Old Version: [0.32.6]
+[2023-05-03 00:23:01] WARNING root fetch - processPackages [evals-nightly]: Skipping, unable to determine old version
+[2023-05-03 00:23:01] INFO root fetch - processPackages [evals-nightly]: Start processing: collectmeterdigits
+[2023-05-03 00:23:01] INFO root fetch - main [MainThread]: End processing [evals-nightly] error
+[2023-05-03 00:23:01] INFO root fetch - processPackages [certora-cli-alpha-shelly-CERT1958ErrorCodes]: Downloading https://files.pythonhosted.org/packages/2c/d8/d17afffc43a62cf3db973b8967077d2672e7d255428fbb2377aa325ead9f/certora-cli-alpha-shelly-CERT1958ErrorCodes-20230430.20.4.774486.tar.gz
+[2023-05-03 00:23:01] INFO root fetch - processPackages [kelvin-sdk]: Downloading https://files.pythonhosted.org/packages/13/5d/9ab61e7b9bb535d29ce76af465c319a75561af42755467b54d3095116af7/kelvin_sdk-7.8.1-py3-none-any.whl
+[2023-05-03 00:23:01] INFO root fetch - processPackages [jotdown]: Downloading https://files.pythonhosted.org/packages/ea/fb/369ff2f4ee992a8af8e41fb3e9e4adf344d694e6aec47f140de0c13970ea/jotdown-2.0.3.tar.gz
+[2023-05-03 00:23:01] INFO root fetch - processPackages [OctoBot-Services]: Downloading https://files.pythonhosted.org/packages/d0/0b/60ea65deb21f03d6ab4a6684a439ca86d95ae5271a61e6fe0a47762a8e41/OctoBot-Services-1.6.0.tar.gz
+[2023-05-03 00:23:01] INFO root fetch - processPackages [simulateIRAS]: Downloading https://files.pythonhosted.org/packages/b1/12/36dff3c9a8e421906e54a06c58d669b90e354333c7594d96af4b4669c3ea/simulateIRAS-0.1.0.post6.tar.gz
+[2023-05-03 00:23:01] INFO root fetch - processPackages [collectmeterdigits]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-05-03 00:23:01] INFO root fetch - processPackages [dexhub]: Downloading https://files.pythonhosted.org/packages/43/4d/dcf51a783f0da59b0c73ea9f1f198996b86f802eb8938a4a304680ba4495/dexhub-0.6.6.tar.gz
+[2023-05-03 00:23:01] INFO root fetch - processPackages [dbt-databricks]: Downloading https://files.pythonhosted.org/packages/97/50/9c02d9e97cdecc9ad8d45212d1f3ad73fc17c563f4108d20af26ba93d52b/dbt-databricks-1.4.3.tar.gz
+[2023-05-03 00:23:01] WARNING root fetch - processPackages [certora-cli-alpha-shelly-CERT1958ErrorCodes]: Skipping package: exceeds size limit 38306122>=10485760
+[2023-05-03 00:23:01] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-shelly-CERT1958ErrorCodes] error
+[2023-05-03 00:23:01] INFO root fetch - processPackages [OctoBot-Services]: executing diffoscope
+[2023-05-03 00:23:01] INFO root fetch - processPackages [OctoBot-Services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OctoBot-Services-1.5.6.tar.gz tmp/OctoBot-Services-1.6.0.tar.gz --markdown 20230503/O/OctoBot-Services/1.5.6-1.6.0/diff.md --exclude *.pyd
+[2023-05-03 00:23:01] INFO root fetch - processPackages [jotdown]: executing diffoscope
+[2023-05-03 00:23:01] INFO root fetch - processPackages [jotdown]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jotdown-2.0.2.tar.gz tmp/jotdown-2.0.3.tar.gz --markdown 20230503/j/jotdown/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-05-03 00:23:01] INFO root fetch - processPackages [simulateIRAS]: executing diffoscope
+[2023-05-03 00:23:01] INFO root fetch - processPackages [simulateIRAS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simulateIRAS-0.1.0.post5.tar.gz tmp/simulateIRAS-0.1.0.post6.tar.gz --markdown 20230503/s/simulateIRAS/0.1.0.post5-0.1.0.post6/diff.md --exclude *.pyd
+[2023-05-03 00:23:01] INFO root fetch - processPackages [dexhub]: executing diffoscope
+[2023-05-03 00:23:01] INFO root fetch - processPackages [dexhub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dexhub-0.6.5.tar.gz tmp/dexhub-0.6.6.tar.gz --markdown 20230503/d/dexhub/0.6.5-0.6.6/diff.md --exclude *.pyd
+[2023-05-03 00:23:01] INFO root fetch - processPackages [collectmeterdigits]: Downloading https://files.pythonhosted.org/packages/9d/f8/17505624a3c4d2c0bc7494149e8d1f7f7d9db8663bf8d0fad4fdd47ddc69/collectmeterdigits-1.0.6.tar.gz
+[2023-05-03 00:23:01] INFO root fetch - processPackages [Pulse3D]: Downloading https://files.pythonhosted.org/packages/fb/1d/ec69c86433e3da94379eda87cd252d9800fd5933ecb25d274f449970349f/Pulse3D-0.33.0.tar.gz
+[2023-05-03 00:23:01] INFO root fetch - processPackages [dbt-databricks]: Downloading https://files.pythonhosted.org/packages/62/3c/45ae6c0c8cadf94f2138ab8be5afb0e8d42cbc61998d8a4a6220a1c7f76f/dbt-databricks-1.5.0rc1.tar.gz
+[2023-05-03 00:23:01] INFO root fetch - processPackages [kelvin-sdk]: Downloading https://files.pythonhosted.org/packages/a6/45/322adc0f7c04e6823f2d1e6075afe69e050d67d5bc47bf0edba0d344fcb9/kelvin_sdk-7.9.0-py3-none-any.whl
+[2023-05-03 00:23:01] INFO root fetch - processPackages [Pulse3D]: executing diffoscope
+[2023-05-03 00:23:01] INFO root fetch - processPackages [Pulse3D]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pulse3D-0.32.6.tar.gz tmp/Pulse3D-0.33.0.tar.gz --markdown 20230503/P/Pulse3D/0.32.6-0.33.0/diff.md --exclude *.pyd
+[2023-05-03 00:23:01] INFO root fetch - processPackages [collectmeterdigits]: Downloading https://files.pythonhosted.org/packages/a5/c6/4e99987e35fb02337d9df7621bcdac530170f95a2405892d6656a77130cd/collectmeterdigits-1.0.7.tar.gz
+[2023-05-03 00:23:01] INFO root fetch - processPackages [dbt-databricks]: executing diffoscope
+[2023-05-03 00:23:01] INFO root fetch - processPackages [dbt-databricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-databricks-1.4.3.tar.gz tmp/dbt-databricks-1.5.0rc1.tar.gz --markdown 20230503/d/dbt-databricks/1.4.3-1.5.0rc1/diff.md --exclude *.pyd
+[2023-05-03 00:23:02] INFO root fetch - processPackages [collectmeterdigits]: executing diffoscope
+[2023-05-03 00:23:02] INFO root fetch - processPackages [collectmeterdigits]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collectmeterdigits-1.0.6.tar.gz tmp/collectmeterdigits-1.0.7.tar.gz --markdown 20230503/c/collectmeterdigits/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-05-03 00:23:02] INFO root fetch - processPackages [kelvin-sdk]: executing diffoscope
+[2023-05-03 00:23:02] INFO root fetch - processPackages [kelvin-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kelvin_sdk-7.8.1-py3-none-any.whl.zip tmp/kelvin_sdk-7.9.0-py3-none-any.whl.zip --markdown 20230503/k/kelvin-sdk/7.8.1-7.9.0/diff.md --exclude *.pyd
+[2023-05-03 00:23:03] INFO root fetch - main [MainThread]: End processing [collectmeteranalog]: success
+[2023-05-03 00:23:03] INFO root fetch - main [MainThread]: End processing [simulateIRAS]: success
+[2023-05-03 00:23:03] INFO root fetch - main [MainThread]: End processing [dexhub]: success
+[2023-05-03 00:23:03] INFO root fetch - main [MainThread]: End processing [Pulse3D]: success
+[2023-05-03 00:23:03] INFO root fetch - main [MainThread]: End processing [dbt-databricks]: success
+[2023-05-03 00:23:03] INFO root fetch - main [MainThread]: End processing [OctoBot-Services]: success
+[2023-05-03 00:23:03] INFO root fetch - main [MainThread]: End processing [jotdown]: success
+[2023-05-03 00:23:04] INFO root fetch - main [MainThread]: End processing [collectmeterdigits]: success
+[2023-05-03 00:23:04] INFO root fetch - main [MainThread]: End processing [kelvin-sdk]: success
+[2023-05-03 00:23:04] INFO root fetch - main [MainThread]: Store serial: [17947792]
