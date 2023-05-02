@@ -141,3 +141,62 @@
 [2023-05-03 00:06:33] INFO root fetch - main [MainThread]: End processing [jq]: success
 [2023-05-03 00:06:41] INFO root fetch - main [MainThread]: End processing [OctoBot-Trading]: success
 [2023-05-03 00:06:41] INFO root fetch - main [MainThread]: Store serial: [17947617]
+[2023-05-03 00:11:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17947617]
+[2023-05-03 00:11:50] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-03 00:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coursepy
+[2023-05-03 00:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ix-aims
+[2023-05-03 00:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aws-codeseeder
+[2023-05-03 00:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jdemp0913
+[2023-05-03 00:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kolibri-explore-plugin
+[2023-05-03 00:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pycryptosat
+[2023-05-03 00:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qwak-sdk
+[2023-05-03 00:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ix-aims
+[2023-05-03 00:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pepperize.cdk-serverless-cluster-from-snapshot
+[2023-05-03 00:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pulumi-azure-native
+[2023-05-03 00:11:51] INFO root fetch - processPackages [ix-aims]: New version: [0.1.1rc4] Old Version: [0.1.1rc3]
+[2023-05-03 00:11:51] WARNING root fetch - processPackages [coursepy]: Skipping, unable to determine old version
+[2023-05-03 00:11:51] INFO root fetch - processPackages [coursepy]: Start processing: diamondback
+[2023-05-03 00:11:51] INFO root fetch - main [MainThread]: End processing [coursepy] error
+[2023-05-03 00:11:51] WARNING root fetch - processPackages [jdemp0913]: Skipping, unable to determine old version
+[2023-05-03 00:11:51] INFO root fetch - processPackages [aws-codeseeder]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-05-03 00:11:51] INFO root fetch - main [MainThread]: End processing [jdemp0913] error
+[2023-05-03 00:11:51] INFO root fetch - processPackages [kolibri-explore-plugin]: New version: [5.9.0] Old Version: [5.8.0]
+[2023-05-03 00:11:51] INFO root fetch - processPackages [ix-aims]: New version: [0.1.1rc4] Old Version: [0.1.1rc3]
+[2023-05-03 00:11:51] INFO root fetch - processPackages [qwak-sdk]: New version: [0.2.29rc0] Old Version: [0.2.28rc0]
+[2023-05-03 00:11:51] INFO root fetch - processPackages [pycryptosat]: New version: [5.11.9] Old Version: [5.11.8]
+[2023-05-03 00:11:51] INFO root fetch - processPackages [pulumi-azure-native]: New version: [1.99.3a1681807800] Old Version: [1.99.3a1681488349]
+[2023-05-03 00:11:51] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-03 00:11:51] INFO root fetch - processPackages [pulumi-azure-native]: Downloading https://files.pythonhosted.org/packages/52/f3/3693eef5572581c854b7baa4a23609bed3bd058874015c550b7dfcf8d321/pulumi_azure_native-1.99.3a1681488349.tar.gz
+[2023-05-03 00:11:51] WARNING root fetch - processPackages [pulumi-azure-native]: Skipping package: exceeds size limit 62615676>=10485760
+[2023-05-03 00:11:51] INFO root fetch - main [MainThread]: End processing [pulumi-azure-native] error
+[2023-05-03 00:11:51] INFO root fetch - processPackages [ix-aims]: Downloading https://files.pythonhosted.org/packages/e5/ab/58984a8259df84da88edd26d97a536582ee1e61479671578ef9217a7bfa3/ix_aims-0.1.1rc3.tar.gz
+[2023-05-03 00:11:51] INFO root fetch - processPackages [diamondback]: New version: [4.1.9] Old Version: [4.1.8]
+[2023-05-03 00:11:51] INFO root fetch - processPackages [ix-aims]: Downloading https://files.pythonhosted.org/packages/e5/ab/58984a8259df84da88edd26d97a536582ee1e61479671578ef9217a7bfa3/ix_aims-0.1.1rc3.tar.gz
+[2023-05-03 00:11:51] INFO root fetch - processPackages [kolibri-explore-plugin]: Downloading https://files.pythonhosted.org/packages/0c/7a/c73dde3624d86c7539942b345c199c1b99ced64421ccfe50eea5b3591969/kolibri_explore_plugin-5.8.0-py2.py3-none-any.whl
+[2023-05-03 00:11:51] WARNING root fetch - processPackages [kolibri-explore-plugin]: Skipping package: exceeds size limit 16264518>=10485760
+[2023-05-03 00:11:51] INFO root fetch - main [MainThread]: End processing [kolibri-explore-plugin] error
+[2023-05-03 00:11:51] INFO root fetch - processPackages [aws-codeseeder]: Downloading https://files.pythonhosted.org/packages/c5/93/91008612424e73814de04397ae8f2e440e5161ee17e19dafabdcc3038ff3/aws_codeseeder-0.9.0-py3-none-any.whl
+[2023-05-03 00:11:51] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: executing diffoscope
+[2023-05-03 00:11:51] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz --markdown 20230503/p/pepperize.cdk-serverless-cluster-from-snapshot/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-03 00:11:51] INFO root fetch - processPackages [pycryptosat]: executing diffoscope
+[2023-05-03 00:11:51] INFO root fetch - processPackages [pycryptosat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycryptosat-5.11.8.tar.gz tmp/pycryptosat-5.11.9.tar.gz --markdown 20230503/p/pycryptosat/5.11.8-5.11.9/diff.md --exclude *.pyd
+[2023-05-03 00:11:51] INFO root fetch - processPackages [aws-codeseeder]: executing diffoscope
+[2023-05-03 00:11:51] INFO root fetch - processPackages [aws-codeseeder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_codeseeder-0.8.2-py3-none-any.whl.zip tmp/aws_codeseeder-0.9.0-py3-none-any.whl.zip --markdown 20230503/a/aws-codeseeder/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-05-03 00:11:51] INFO root fetch - processPackages [ix-aims]: Downloading https://files.pythonhosted.org/packages/78/3c/ae6bcdc9ff40cdca6964a2b53372ec8fc80a7e3de83ad8d0cc48f9af675e/ix_aims-0.1.1rc4.tar.gz
+[2023-05-03 00:11:51] INFO root fetch - processPackages [ix-aims]: Downloading https://files.pythonhosted.org/packages/78/3c/ae6bcdc9ff40cdca6964a2b53372ec8fc80a7e3de83ad8d0cc48f9af675e/ix_aims-0.1.1rc4.tar.gz
+[2023-05-03 00:11:51] INFO root fetch - processPackages [qwak-sdk]: executing diffoscope
+[2023-05-03 00:11:51] INFO root fetch - processPackages [qwak-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_sdk-0.2.28rc0.tar.gz tmp/qwak_sdk-0.2.29rc0.tar.gz --markdown 20230503/q/qwak-sdk/0.2.28rc0-0.2.29rc0/diff.md --exclude *.pyd
+[2023-05-03 00:11:51] INFO root fetch - processPackages [ix-aims]: executing diffoscope
+[2023-05-03 00:11:51] INFO root fetch - processPackages [ix-aims]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ix_aims-0.1.1rc3.tar.gz tmp/ix_aims-0.1.1rc4.tar.gz --markdown 20230503/i/ix-aims/0.1.1rc3-0.1.1rc4/diff.md --exclude *.pyd
+[2023-05-03 00:11:51] INFO root fetch - processPackages [ix-aims]: executing diffoscope
+[2023-05-03 00:11:51] INFO root fetch - processPackages [ix-aims]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ix_aims-0.1.1rc3.tar.gz tmp/ix_aims-0.1.1rc4.tar.gz --markdown 20230503/i/ix-aims/0.1.1rc3-0.1.1rc4/diff.md --exclude *.pyd
+[2023-05-03 00:11:51] INFO root fetch - processPackages [diamondback]: executing diffoscope
+[2023-05-03 00:11:51] INFO root fetch - processPackages [diamondback]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diamondback-4.1.8.tar.gz tmp/diamondback-4.1.9.tar.gz --markdown 20230503/d/diamondback/4.1.8-4.1.9/diff.md --exclude *.pyd
+[2023-05-03 00:11:52] INFO root fetch - main [MainThread]: End processing [ix-aims]: success
+[2023-05-03 00:11:52] INFO root fetch - main [MainThread]: End processing [ix-aims]: success
+[2023-05-03 00:11:52] INFO root fetch - main [MainThread]: End processing [aws-codeseeder]: success
+[2023-05-03 00:11:53] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-serverless-cluster-from-snapshot]: success
+[2023-05-03 00:11:53] INFO root fetch - main [MainThread]: End processing [diamondback]: success
+[2023-05-03 00:11:54] INFO root fetch - main [MainThread]: End processing [pycryptosat]: success
+[2023-05-03 00:11:55] INFO root fetch - main [MainThread]: End processing [qwak-sdk]: success
+[2023-05-03 00:11:55] INFO root fetch - main [MainThread]: Store serial: [17947706]
