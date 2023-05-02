@@ -78,3 +78,66 @@
 [2023-05-03 00:01:18] INFO root fetch - main [MainThread]: End processing [rocm-docs-core]: success
 [2023-05-03 00:01:20] INFO root fetch - main [MainThread]: End processing [rattail]: success
 [2023-05-03 00:01:20] INFO root fetch - main [MainThread]: Store serial: [17947584]
+[2023-05-03 00:06:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17947584]
+[2023-05-03 00:06:30] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-03 00:06:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flexsea
+[2023-05-03 00:06:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: netbox-plugin-dns
+[2023-05-03 00:06:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: OctoBot-Trading
+[2023-05-03 00:06:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: djangocms-simple-admin-style
+[2023-05-03 00:06:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mosaik.Web-SemVer
+[2023-05-03 00:06:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: diator
+[2023-05-03 00:06:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: inorbit-edge
+[2023-05-03 00:06:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tap-rest-api-msdk
+[2023-05-03 00:06:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: guidance
+[2023-05-03 00:06:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jq
+[2023-05-03 00:06:31] INFO root fetch - processPackages [djangocms-simple-admin-style]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-05-03 00:06:31] INFO root fetch - processPackages [diator]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-03 00:06:31] INFO root fetch - processPackages [flexsea]: New version: [9.1.1] Old Version: [9.1.0]
+[2023-05-03 00:06:31] WARNING root fetch - processPackages [netbox-plugin-dns]: Skipping, unable to determine old version
+[2023-05-03 00:06:31] INFO root fetch - processPackages [inorbit-edge]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-05-03 00:06:31] INFO root fetch - main [MainThread]: End processing [netbox-plugin-dns] error
+[2023-05-03 00:06:31] INFO root fetch - processPackages [guidance]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 00:06:31] INFO root fetch - processPackages [OctoBot-Trading]: New version: [2.4.0] Old Version: [2.3.7]
+[2023-05-03 00:06:31] INFO root fetch - processPackages [tap-rest-api-msdk]: New version: [1.1.1] Old Version: [1.0.0]
+[2023-05-03 00:06:31] INFO root fetch - processPackages [mosaik.Web-SemVer]: New version: [0.2.3rc20230502220306] Old Version: [0.2.3rc20230402220408]
+[2023-05-03 00:06:31] INFO root fetch - processPackages [flexsea]: Downloading https://files.pythonhosted.org/packages/73/13/5e6a24eca54dfb5d33c482a558ba5eec2335484350b7b286b306d01712b9/flexsea-9.1.0-py3-none-any.whl
+[2023-05-03 00:06:31] INFO root fetch - processPackages [guidance]: executing diffoscope
+[2023-05-03 00:06:31] INFO root fetch - processPackages [guidance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guidance-0.0.8.tar.gz tmp/guidance-0.0.9.tar.gz --markdown 20230503/g/guidance/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 00:06:31] INFO root fetch - processPackages [djangocms-simple-admin-style]: Downloading https://files.pythonhosted.org/packages/a4/71/f161fa5d96316ebed9e732f0dce6d58bfed1a3c62531c5544ec683d8b22c/djangocms-simple-admin-style-0.3.1.tar.gz
+[2023-05-03 00:06:31] WARNING root fetch - processPackages [flexsea]: Skipping package: exceeds size limit 13968448>=10485760
+[2023-05-03 00:06:31] INFO root fetch - main [MainThread]: End processing [flexsea] error
+[2023-05-03 00:06:31] INFO root fetch - processPackages [diator]: Downloading https://files.pythonhosted.org/packages/fc/37/edccdf46dc88568131c5716077d25dfa94b4aef34a9412869e30ec2d4a5a/diator-0.1.1.tar.gz
+[2023-05-03 00:06:31] INFO root fetch - processPackages [inorbit-edge]: Downloading https://files.pythonhosted.org/packages/44/57/557cc9e974461efb7fd4c05bf7378ad0b40a1fefdbe5c8727a18edeb702e/inorbit_edge-1.9.2.tar.gz
+[2023-05-03 00:06:31] INFO root fetch - processPackages [jq]: New version: [1.5.0a1] Old Version: [1.4.1]
+[2023-05-03 00:06:31] INFO root fetch - processPackages [mosaik.Web-SemVer]: Downloading https://files.pythonhosted.org/packages/e1/24/4b6aa16eeb0ae7bad95b4e1352e0ca10de8fba6747aaa067aa780fe2c989/mosaik.Web_SemVer-0.2.3rc20230402220408-py2.py3-none-any.whl
+[2023-05-03 00:06:31] INFO root fetch - processPackages [tap-rest-api-msdk]: Downloading https://files.pythonhosted.org/packages/2f/58/fdf27fda2012d1279aa8edeca1ab20078b2b53afdf6db2316a83d2da9aee/tap-rest-api-msdk-1.0.0.tar.gz
+[2023-05-03 00:06:31] INFO root fetch - processPackages [OctoBot-Trading]: Downloading https://files.pythonhosted.org/packages/8a/00/ab42a92cef0bb2a4cbc737dfb47df960777a75e4e21e5dd0be6a40946c57/OctoBot-Trading-2.4.0.tar.gz
+[2023-05-03 00:06:31] INFO root fetch - processPackages [djangocms-simple-admin-style]: Downloading https://files.pythonhosted.org/packages/1a/88/4aec2a3dc610c444c94f2c06283959d3d9f58e281f0974e9f6f11c397b59/djangocms-simple-admin-style-0.4.0.tar.gz
+[2023-05-03 00:06:31] INFO root fetch - processPackages [inorbit-edge]: executing diffoscope
+[2023-05-03 00:06:31] INFO root fetch - processPackages [inorbit-edge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inorbit_edge-1.9.1.tar.gz tmp/inorbit_edge-1.9.2.tar.gz --markdown 20230503/i/inorbit-edge/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-05-03 00:06:31] INFO root fetch - processPackages [jq]: Downloading https://files.pythonhosted.org/packages/6e/b1/44632550d22e1a151273ad0555c8149656c6fd019f5fad0b9cd789059a2b/jq-1.4.1.tar.gz
+[2023-05-03 00:06:31] INFO root fetch - processPackages [djangocms-simple-admin-style]: executing diffoscope
+[2023-05-03 00:06:31] INFO root fetch - processPackages [djangocms-simple-admin-style]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangocms-simple-admin-style-0.3.1.tar.gz tmp/djangocms-simple-admin-style-0.4.0.tar.gz --markdown 20230503/d/djangocms-simple-admin-style/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-05-03 00:06:31] INFO root fetch - processPackages [OctoBot-Trading]: executing diffoscope
+[2023-05-03 00:06:31] INFO root fetch - processPackages [OctoBot-Trading]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OctoBot-Trading-2.3.7.tar.gz tmp/OctoBot-Trading-2.4.0.tar.gz --markdown 20230503/O/OctoBot-Trading/2.3.7-2.4.0/diff.md --exclude *.pyd
+[2023-05-03 00:06:31] INFO root fetch - processPackages [tap-rest-api-msdk]: Downloading https://files.pythonhosted.org/packages/5e/19/726dc8d15f7589439f485084b251e04aa3fafe38b6b2935018fa83fb6949/tap_rest_api_msdk-1.1.1.tar.gz
+[2023-05-03 00:06:31] INFO root fetch - processPackages [diator]: Downloading https://files.pythonhosted.org/packages/7f/43/b908d8bc852fa275e80e54d9883b35f4f6326d36b815e006f9edce394388/diator-0.1.2.tar.gz
+[2023-05-03 00:06:31] INFO root fetch - processPackages [mosaik.Web-SemVer]: Downloading https://files.pythonhosted.org/packages/96/a6/08796e102d80eac72c908fc73a74d5f3dd0b0cb0140a2506cc2502988af2/mosaik.Web_SemVer-0.2.3rc20230502220306-py2.py3-none-any.whl
+[2023-05-03 00:06:31] INFO root fetch - processPackages [tap-rest-api-msdk]: executing diffoscope
+[2023-05-03 00:06:31] INFO root fetch - processPackages [tap-rest-api-msdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap-rest-api-msdk-1.0.0.tar.gz tmp/tap_rest_api_msdk-1.1.1.tar.gz --markdown 20230503/t/tap-rest-api-msdk/1.0.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-03 00:06:31] INFO root fetch - processPackages [diator]: executing diffoscope
+[2023-05-03 00:06:31] INFO root fetch - processPackages [diator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diator-0.1.1.tar.gz tmp/diator-0.1.2.tar.gz --markdown 20230503/d/diator/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-03 00:06:31] INFO root fetch - processPackages [mosaik.Web-SemVer]: executing diffoscope
+[2023-05-03 00:06:31] INFO root fetch - processPackages [mosaik.Web-SemVer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mosaik.Web_SemVer-0.2.3rc20230402220408-py2.py3-none-any.whl.zip tmp/mosaik.Web_SemVer-0.2.3rc20230502220306-py2.py3-none-any.whl.zip --markdown 20230503/m/mosaik.Web-SemVer/0.2.3rc20230402220408-0.2.3rc20230502220306/diff.md --exclude *.pyd
+[2023-05-03 00:06:31] INFO root fetch - processPackages [jq]: Downloading https://files.pythonhosted.org/packages/e5/85/1abf44063568964bb5444039ce5ce4944976410a2e3c1090f27ea7c2d7dd/jq-1.5.0a1.tar.gz
+[2023-05-03 00:06:32] INFO root fetch - processPackages [jq]: executing diffoscope
+[2023-05-03 00:06:32] INFO root fetch - processPackages [jq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jq-1.4.1.tar.gz tmp/jq-1.5.0a1.tar.gz --markdown 20230503/j/jq/1.4.1-1.5.0a1/diff.md --exclude *.pyd
+[2023-05-03 00:06:32] INFO root fetch - main [MainThread]: End processing [guidance]: success
+[2023-05-03 00:06:32] INFO root fetch - main [MainThread]: End processing [inorbit-edge]: success
+[2023-05-03 00:06:32] INFO root fetch - main [MainThread]: End processing [tap-rest-api-msdk]: success
+[2023-05-03 00:06:32] INFO root fetch - main [MainThread]: End processing [djangocms-simple-admin-style]: success
+[2023-05-03 00:06:33] INFO root fetch - main [MainThread]: End processing [diator]: success
+[2023-05-03 00:06:33] INFO root fetch - main [MainThread]: End processing [mosaik.Web-SemVer]: success
+[2023-05-03 00:06:33] INFO root fetch - main [MainThread]: End processing [jq]: success
+[2023-05-03 00:06:41] INFO root fetch - main [MainThread]: End processing [OctoBot-Trading]: success
+[2023-05-03 00:06:41] INFO root fetch - main [MainThread]: Store serial: [17947617]
