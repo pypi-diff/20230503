@@ -1258,3 +1258,19 @@
 [2023-05-03 01:26:53] INFO root fetch - main [MainThread]: End processing [prepup]: success
 [2023-05-03 01:26:54] INFO root fetch - main [MainThread]: End processing [aistac-foundation]: success
 [2023-05-03 01:26:54] INFO root fetch - main [MainThread]: Store serial: [17948358]
+[2023-05-03 01:31:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17948358]
+[2023-05-03 01:32:02] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-05-03 01:32:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bism
+[2023-05-03 01:32:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tryquests
+[2023-05-03 01:32:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aij-news-client
+[2023-05-03 01:32:02] WARNING root fetch - processPackages [tryquests]: Skipping, unable to determine old version
+[2023-05-03 01:32:02] INFO root fetch - processPackages [aij-news-client]: New version: [1.0.3] Old Version: [1.0.1]
+[2023-05-03 01:32:02] WARNING root fetch - processPackages [bism]: Skipping, unable to determine old version
+[2023-05-03 01:32:02] INFO root fetch - main [MainThread]: End processing [tryquests] error
+[2023-05-03 01:32:02] INFO root fetch - main [MainThread]: End processing [bism] error
+[2023-05-03 01:32:02] INFO root fetch - processPackages [aij-news-client]: Downloading https://files.pythonhosted.org/packages/ed/4a/31c2d1557122e28db9a2cc0c7ffa1bf51fe3cf26ddce0910b389394b29a1/aij-news-client-1.0.1.tar.gz
+[2023-05-03 01:32:03] INFO root fetch - processPackages [aij-news-client]: Downloading https://files.pythonhosted.org/packages/c0/da/19a7cca1c4759eedae948f15c80422dca29d241daeb8289bc9ba431d37fb/aij-news-client-1.0.3.tar.gz
+[2023-05-03 01:32:03] INFO root fetch - processPackages [aij-news-client]: executing diffoscope
+[2023-05-03 01:32:03] INFO root fetch - processPackages [aij-news-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aij-news-client-1.0.1.tar.gz tmp/aij-news-client-1.0.3.tar.gz --markdown 20230503/a/aij-news-client/1.0.1-1.0.3/diff.md --exclude *.pyd
+[2023-05-03 01:32:04] INFO root fetch - main [MainThread]: End processing [aij-news-client]: success
+[2023-05-03 01:32:04] INFO root fetch - main [MainThread]: Store serial: [17948372]
