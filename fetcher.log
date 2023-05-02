@@ -1144,3 +1144,81 @@
 [2023-05-03 01:16:26] INFO root fetch - main [MainThread]: End processing [ecopipeline]: success
 [2023-05-03 01:16:28] INFO root fetch - main [MainThread]: End processing [pyapproxmc]: success
 [2023-05-03 01:16:28] INFO root fetch - main [MainThread]: Store serial: [17948277]
+[2023-05-03 01:21:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17948277]
+[2023-05-03 01:21:38] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-03 01:21:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: FakeNewsClassifier
+[2023-05-03 01:21:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: digitalguide
+[2023-05-03 01:21:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: graphscope-client
+[2023-05-03 01:21:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gs-apps
+[2023-05-03 01:21:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gs-coordinator
+[2023-05-03 01:21:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gs-engine
+[2023-05-03 01:21:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gs-include
+[2023-05-03 01:21:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pythoncolouringslibV2
+[2023-05-03 01:21:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ghanashops-scraper
+[2023-05-03 01:21:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bism
+[2023-05-03 01:21:38] INFO root fetch - processPackages [graphscope-client]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-03 01:21:38] INFO root fetch - processPackages [pythoncolouringslibV2]: New version: [3.0.2] Old Version: [3.0.1]
+[2023-05-03 01:21:38] INFO root fetch - processPackages [ghanashops-scraper]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-03 01:21:38] INFO root fetch - processPackages [gs-coordinator]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-03 01:21:38] INFO root fetch - processPackages [gs-apps]: New version: [0.22.0a20230502] Old Version: [0.22.0a20230501]
+[2023-05-03 01:21:38] INFO root fetch - processPackages [gs-include]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-03 01:21:38] INFO root fetch - processPackages [digitalguide]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-03 01:21:38] INFO root fetch - processPackages [bism]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-03 01:21:38] WARNING root fetch - processPackages [FakeNewsClassifier]: Skipping, unable to determine old version
+[2023-05-03 01:21:38] INFO root fetch - processPackages [FakeNewsClassifier]: Start processing: bism
+[2023-05-03 01:21:38] INFO root fetch - main [MainThread]: End processing [FakeNewsClassifier] error
+[2023-05-03 01:21:38] INFO root fetch - processPackages [gs-engine]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-03 01:21:38] INFO root fetch - processPackages [ghanashops-scraper]: executing diffoscope
+[2023-05-03 01:21:38] INFO root fetch - processPackages [ghanashops-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghanashops-scraper-0.0.3.tar.gz tmp/ghanashops-scraper-0.0.4.tar.gz --markdown 20230503/g/ghanashops-scraper/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-03 01:21:38] INFO root fetch - processPackages [bism]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-03 01:21:38] INFO root fetch - processPackages [pythoncolouringslibV2]: Downloading https://files.pythonhosted.org/packages/07/f7/6233a991e74609f8da53b9473ee3df9d831e0505c2b1472a01e5fa243cd1/pythoncolouringslibV2-3.0.1.tar.gz
+[2023-05-03 01:21:38] INFO root fetch - processPackages [gs-apps]: Downloading https://files.pythonhosted.org/packages/cb/d1/c2c9a31dc1ac7dfa3fb1774db469a2c638320503702fb39553d219061d4d/gs_apps-0.22.0a20230501-py2.py3-none-macosx_10_9_x86_64.whl
+[2023-05-03 01:21:38] INFO root fetch - processPackages [bism]: Downloading https://files.pythonhosted.org/packages/34/7f/afef7bbdb9de4fc9dc351c157baf5ce386692376190ea8930f88ef0e387c/bism-0.0.2-py3.9.egg
+[2023-05-03 01:21:38] INFO root fetch - processPackages [bism]: Downloading https://files.pythonhosted.org/packages/34/7f/afef7bbdb9de4fc9dc351c157baf5ce386692376190ea8930f88ef0e387c/bism-0.0.2-py3.9.egg
+[2023-05-03 01:21:38] INFO root fetch - processPackages [graphscope-client]: Downloading https://files.pythonhosted.org/packages/f7/53/c1ffb245684956bc30883fd2945f3e1677b030e8d69945fbfca28db2b46a/graphscope_client-0.9.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-03 01:21:38] WARNING root fetch - processPackages [graphscope-client]: Skipping package: exceeds size limit 48560616>=10485760
+[2023-05-03 01:21:38] INFO root fetch - processPackages [graphscope-client]: Start processing: bism
+[2023-05-03 01:21:38] INFO root fetch - main [MainThread]: End processing [graphscope-client] error
+[2023-05-03 01:21:38] INFO root fetch - processPackages [gs-include]: Downloading https://files.pythonhosted.org/packages/14/24/6aa7d96461fb18c825639db76c5c3edc7abfca148e3e55cc010cbf4d9a02/gs_include-0.9.0-py2.py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-03 01:21:38] INFO root fetch - processPackages [bism]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-03 01:21:38] INFO root fetch - processPackages [gs-engine]: Downloading https://files.pythonhosted.org/packages/bd/b0/b9b1a1a65be3a78a220a726aa90bda0d1e1a17bbc47999c157c784a7320e/gs_engine-0.9.0-py2.py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-03 01:21:38] WARNING root fetch - processPackages [gs-engine]: Skipping package: exceeds size limit 88119450>=10485760
+[2023-05-03 01:21:38] INFO root fetch - processPackages [gs-engine]: Start processing: linumpy
+[2023-05-03 01:21:38] INFO root fetch - main [MainThread]: End processing [gs-engine] error
+[2023-05-03 01:21:38] INFO root fetch - processPackages [digitalguide]: executing diffoscope
+[2023-05-03 01:21:38] INFO root fetch - processPackages [digitalguide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalguide-0.0.98.tar.gz tmp/digitalguide-0.0.99.tar.gz --markdown 20230503/d/digitalguide/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-03 01:21:38] INFO root fetch - processPackages [bism]: Downloading https://files.pythonhosted.org/packages/34/7f/afef7bbdb9de4fc9dc351c157baf5ce386692376190ea8930f88ef0e387c/bism-0.0.2-py3.9.egg
+[2023-05-03 01:21:38] WARNING root fetch - processPackages [gs-apps]: Skipping package: exceeds size limit 42779161>=10485760
+[2023-05-03 01:21:38] INFO root fetch - processPackages [gs-apps]: Start processing: iambic-core
+[2023-05-03 01:21:38] INFO root fetch - main [MainThread]: End processing [gs-apps] error
+[2023-05-03 01:21:38] INFO root fetch - processPackages [pythoncolouringslibV2]: Downloading https://files.pythonhosted.org/packages/50/4a/4a927cefd8077b57b95c0bea885861e34c1b45fa654d5c482361075c4358/pythoncolouringslibV2-3.0.2.tar.gz
+[2023-05-03 01:21:38] WARNING root fetch - processPackages [gs-include]: Skipping package: exceeds size limit 73794505>=10485760
+[2023-05-03 01:21:38] INFO root fetch - processPackages [gs-coordinator]: executing diffoscope
+[2023-05-03 01:21:38] INFO root fetch - main [MainThread]: End processing [gs-include] error
+[2023-05-03 01:21:38] INFO root fetch - processPackages [gs-coordinator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs_coordinator-0.9.0-py2.py3-none-macosx_10_9_x86_64.whl.zip tmp/gs_coordinator-0.9.1-py2.py3-none-macosx_11_0_arm64.whl.zip --markdown 20230503/g/gs-coordinator/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-03 01:21:38] WARNING root fetch - processPackages [linumpy]: Skipping, unable to determine old version
+[2023-05-03 01:21:38] INFO root fetch - main [MainThread]: End processing [linumpy] error
+[2023-05-03 01:21:38] INFO root fetch - processPackages [iambic-core]: New version: [0.5.1] Old Version: [0.4.1]
+[2023-05-03 01:21:38] INFO root fetch - processPackages [bism]: Downloading https://files.pythonhosted.org/packages/aa/4b/15efae4e32c1a929fd99d627de079d7da6101302ffa19084eda769834acc/bism-0.0.3.tar.gz
+[2023-05-03 01:21:38] INFO root fetch - processPackages [bism]: Downloading https://files.pythonhosted.org/packages/aa/4b/15efae4e32c1a929fd99d627de079d7da6101302ffa19084eda769834acc/bism-0.0.3.tar.gz
+[2023-05-03 01:21:38] INFO root fetch - processPackages [bism]: Downloading https://files.pythonhosted.org/packages/aa/4b/15efae4e32c1a929fd99d627de079d7da6101302ffa19084eda769834acc/bism-0.0.3.tar.gz
+[2023-05-03 01:21:38] INFO root fetch - processPackages [pythoncolouringslibV2]: executing diffoscope
+[2023-05-03 01:21:38] INFO root fetch - processPackages [pythoncolouringslibV2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythoncolouringslibV2-3.0.1.tar.gz tmp/pythoncolouringslibV2-3.0.2.tar.gz --markdown 20230503/p/pythoncolouringslibV2/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2023-05-03 01:21:38] INFO root fetch - processPackages [bism]: executing diffoscope
+[2023-05-03 01:21:38] INFO root fetch - processPackages [bism]: executing diffoscope
+[2023-05-03 01:21:38] INFO root fetch - processPackages [bism]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bism-0.0.2-py3.9.egg tmp/bism-0.0.3.tar.gz --markdown 20230503/b/bism/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-03 01:21:38] INFO root fetch - processPackages [bism]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bism-0.0.2-py3.9.egg tmp/bism-0.0.3.tar.gz --markdown 20230503/b/bism/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-03 01:21:38] INFO root fetch - processPackages [bism]: executing diffoscope
+[2023-05-03 01:21:38] INFO root fetch - processPackages [bism]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bism-0.0.2-py3.9.egg tmp/bism-0.0.3.tar.gz --markdown 20230503/b/bism/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-03 01:21:38] INFO root fetch - processPackages [iambic-core]: Downloading https://files.pythonhosted.org/packages/fe/7c/f6f4d6d2a571091cb2f04612bad5e86f8bfc5b418d1dabea7c4329543103/iambic_core-0.5.1.tar.gz
+[2023-05-03 01:21:39] INFO root fetch - processPackages [iambic-core]: executing diffoscope
+[2023-05-03 01:21:39] INFO root fetch - processPackages [iambic-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iambic_core-0.4.1.tar.gz tmp/iambic_core-0.5.1.tar.gz --markdown 20230503/i/iambic-core/0.4.1-0.5.1/diff.md --exclude *.pyd
+[2023-05-03 01:21:39] INFO root fetch - main [MainThread]: End processing [ghanashops-scraper]: success
+[2023-05-03 01:21:39] INFO root fetch - main [MainThread]: End processing [pythoncolouringslibV2]: success
+[2023-05-03 01:21:40] INFO root fetch - main [MainThread]: End processing [digitalguide]: success
+[2023-05-03 01:21:40] INFO root fetch - main [MainThread]: End processing [gs-coordinator]: success
+[2023-05-03 01:21:40] INFO root fetch - main [MainThread]: End processing [bism]: success
+[2023-05-03 01:21:40] INFO root fetch - main [MainThread]: End processing [bism]: success
+[2023-05-03 01:21:40] INFO root fetch - main [MainThread]: End processing [bism]: success
+[2023-05-03 01:21:41] INFO root fetch - main [MainThread]: End processing [iambic-core]: success
+[2023-05-03 01:21:41] INFO root fetch - main [MainThread]: Store serial: [17948324]
