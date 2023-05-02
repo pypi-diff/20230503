@@ -443,3 +443,63 @@
 [2023-05-03 00:33:43] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
 [2023-05-03 00:33:54] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
 [2023-05-03 00:33:54] INFO root fetch - main [MainThread]: Store serial: [17947917]
+[2023-05-03 00:38:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17947917]
+[2023-05-03 00:39:03] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-03 00:39:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: evals-nightly
+[2023-05-03 00:39:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pgp-reconstruction
+[2023-05-03 00:39:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: televoice
+[2023-05-03 00:39:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: libf
+[2023-05-03 00:39:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gptdeploy
+[2023-05-03 00:39:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: evals-nightly
+[2023-05-03 00:39:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: soup2
+[2023-05-03 00:39:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: coursepy
+[2023-05-03 00:39:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pandasai
+[2023-05-03 00:39:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cyral-gimme-db-token
+[2023-05-03 00:39:03] INFO root fetch - processPackages [gptdeploy]: New version: [0.18.9] Old Version: [0.18.8]
+[2023-05-03 00:39:03] WARNING root fetch - processPackages [libf]: Skipping, unable to determine old version
+[2023-05-03 00:39:03] INFO root fetch - processPackages [libf]: Start processing: dreamai-pdf
+[2023-05-03 00:39:03] WARNING root fetch - processPackages [pgp-reconstruction]: Skipping, unable to determine old version
+[2023-05-03 00:39:03] WARNING root fetch - processPackages [televoice]: Skipping, unable to determine old version
+[2023-05-03 00:39:03] INFO root fetch - main [MainThread]: End processing [libf] error
+[2023-05-03 00:39:03] INFO root fetch - main [MainThread]: End processing [pgp-reconstruction] error
+[2023-05-03 00:39:03] WARNING root fetch - processPackages [soup2]: Skipping, unable to determine old version
+[2023-05-03 00:39:03] INFO root fetch - main [MainThread]: End processing [televoice] error
+[2023-05-03 00:39:03] INFO root fetch - main [MainThread]: End processing [soup2] error
+[2023-05-03 00:39:03] INFO root fetch - processPackages [cyral-gimme-db-token]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-05-03 00:39:03] INFO root fetch - processPackages [pandasai]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-05-03 00:39:03] INFO root fetch - processPackages [coursepy]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-03 00:39:03] INFO root fetch - processPackages [dreamai-pdf]: New version: [0.0.4] Old Version: [0.0.2]
+[2023-05-03 00:39:03] INFO root fetch - processPackages [evals-nightly]: New version: [1.0.3.dev1] Old Version: [1.0.3.dev0]
+[2023-05-03 00:39:03] INFO root fetch - processPackages [evals-nightly]: New version: [1.0.3.dev1] Old Version: [1.0.3.dev0]
+[2023-05-03 00:39:03] INFO root fetch - processPackages [coursepy]: Downloading https://files.pythonhosted.org/packages/6a/b8/e7c6035b6016f5d57ff8905dcdc7f801a278d7df7b0972a812aceb29be59/coursepy-0.1.2-py3-none-any.whl
+[2023-05-03 00:39:03] INFO root fetch - processPackages [cyral-gimme-db-token]: Downloading https://files.pythonhosted.org/packages/96/44/1810cb177f63217550a1cb0f38adf5652636167062e78dd6b1fb3207faf5/cyral-gimme-db-token-0.8.1.tar.gz
+[2023-05-03 00:39:03] INFO root fetch - processPackages [dreamai-pdf]: Downloading https://files.pythonhosted.org/packages/e3/c0/4ef63186d308a9f81fec98d54315f89c8127227ad0ece36ddb395178c6bc/dreamai_pdf-0.0.2.tar.gz
+[2023-05-03 00:39:04] INFO root fetch - processPackages [pandasai]: Downloading https://files.pythonhosted.org/packages/48/c7/18301f9febd6060d9022cc2fb69019cc5d2d12468eeb7ff862a136c481e6/pandasai-0.2.0.tar.gz
+[2023-05-03 00:39:04] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/1c/b8/58e6cde5d08990991cb19e90b9d4590e69d6cd4f2a428399dbb5b7800116/evals_nightly-1.0.3.dev0-py3-none-any.whl
+[2023-05-03 00:39:04] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/1c/b8/58e6cde5d08990991cb19e90b9d4590e69d6cd4f2a428399dbb5b7800116/evals_nightly-1.0.3.dev0-py3-none-any.whl
+[2023-05-03 00:39:04] INFO root fetch - processPackages [gptdeploy]: executing diffoscope
+[2023-05-03 00:39:04] INFO root fetch - processPackages [gptdeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptdeploy-0.18.8.tar.gz tmp/gptdeploy-0.18.9.tar.gz --markdown 20230503/g/gptdeploy/0.18.8-0.18.9/diff.md --exclude *.pyd
+[2023-05-03 00:39:04] INFO root fetch - processPackages [coursepy]: executing diffoscope
+[2023-05-03 00:39:04] INFO root fetch - processPackages [coursepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coursepy-0.1.1-py3-none-any.whl.zip tmp/coursepy-0.1.2-py3-none-any.whl.zip --markdown 20230503/c/coursepy/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-03 00:39:04] INFO root fetch - processPackages [pandasai]: executing diffoscope
+[2023-05-03 00:39:04] INFO root fetch - processPackages [pandasai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandasai-0.1.1.tar.gz tmp/pandasai-0.2.0.tar.gz --markdown 20230503/p/pandasai/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-05-03 00:39:04] INFO root fetch - processPackages [dreamai-pdf]: Downloading https://files.pythonhosted.org/packages/df/5e/bf44aa3a8d48795287eb80d75937a0d6470831fc26df1c20383ee1cd2e86/dreamai_pdf-0.0.4.tar.gz
+[2023-05-03 00:39:04] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/d6/a7/bd9a57d8f3ae522ccda21f910c3333e4956a467d13d083d8f64a5bf28168/evals-nightly-1.0.3.dev1.tar.gz
+[2023-05-03 00:39:04] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/d6/a7/bd9a57d8f3ae522ccda21f910c3333e4956a467d13d083d8f64a5bf28168/evals-nightly-1.0.3.dev1.tar.gz
+[2023-05-03 00:39:04] INFO root fetch - processPackages [dreamai-pdf]: executing diffoscope
+[2023-05-03 00:39:04] INFO root fetch - processPackages [dreamai-pdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dreamai_pdf-0.0.2.tar.gz tmp/dreamai_pdf-0.0.4.tar.gz --markdown 20230503/d/dreamai-pdf/0.0.2-0.0.4/diff.md --exclude *.pyd
+[2023-05-03 00:39:04] INFO root fetch - processPackages [cyral-gimme-db-token]: Downloading https://files.pythonhosted.org/packages/2d/a4/89c570d7939cf4560ee49017ba1dfe5e0174f15d18f60e532fbb2586d65d/cyral-gimme-db-token-0.8.2.tar.gz
+[2023-05-03 00:39:04] INFO root fetch - processPackages [evals-nightly]: executing diffoscope
+[2023-05-03 00:39:04] INFO root fetch - processPackages [evals-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evals_nightly-1.0.3.dev0-py3-none-any.whl.zip tmp/evals-nightly-1.0.3.dev1.tar.gz --markdown 20230503/e/evals-nightly/1.0.3.dev0-1.0.3.dev1/diff.md --exclude *.pyd
+[2023-05-03 00:39:04] INFO root fetch - processPackages [evals-nightly]: executing diffoscope
+[2023-05-03 00:39:04] INFO root fetch - processPackages [evals-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evals_nightly-1.0.3.dev0-py3-none-any.whl.zip tmp/evals-nightly-1.0.3.dev1.tar.gz --markdown 20230503/e/evals-nightly/1.0.3.dev0-1.0.3.dev1/diff.md --exclude *.pyd
+[2023-05-03 00:39:04] INFO root fetch - processPackages [cyral-gimme-db-token]: executing diffoscope
+[2023-05-03 00:39:04] INFO root fetch - processPackages [cyral-gimme-db-token]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyral-gimme-db-token-0.8.1.tar.gz tmp/cyral-gimme-db-token-0.8.2.tar.gz --markdown 20230503/c/cyral-gimme-db-token/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-05-03 00:39:05] INFO root fetch - main [MainThread]: End processing [coursepy]: success
+[2023-05-03 00:39:05] INFO root fetch - main [MainThread]: End processing [gptdeploy]: success
+[2023-05-03 00:39:05] INFO root fetch - main [MainThread]: End processing [pandasai]: success
+[2023-05-03 00:39:05] INFO root fetch - main [MainThread]: End processing [evals-nightly]: success
+[2023-05-03 00:39:05] INFO root fetch - main [MainThread]: End processing [evals-nightly]: success
+[2023-05-03 00:39:05] INFO root fetch - main [MainThread]: End processing [cyral-gimme-db-token]: success
+[2023-05-03 00:39:06] INFO root fetch - main [MainThread]: End processing [dreamai-pdf]: success
+[2023-05-03 00:39:06] INFO root fetch - main [MainThread]: Store serial: [17947956]
