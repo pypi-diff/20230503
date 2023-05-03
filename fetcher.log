@@ -2073,3 +2073,47 @@
 [2023-05-03 02:31:33] INFO root fetch - main [MainThread]: End processing [cli3]: success
 [2023-05-03 02:31:34] INFO root fetch - main [MainThread]: End processing [cdk-ecs-service-extensions]: success
 [2023-05-03 02:31:34] INFO root fetch - main [MainThread]: Store serial: [17948977]
+[2023-05-03 02:36:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17948977]
+[2023-05-03 02:36:42] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-03 02:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: moneycounter
+[2023-05-03 02:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jaaql-middleware-python
+[2023-05-03 02:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: meter-gear
+[2023-05-03 02:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdklabs.cdk-enterprise-iac
+[2023-05-03 02:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aiotieba
+[2023-05-03 02:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: state-machine-semaphore
+[2023-05-03 02:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: padacioso
+[2023-05-03 02:36:42] INFO root fetch - processPackages [state-machine-semaphore]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-03 02:36:42] INFO root fetch - processPackages [padacioso]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-03 02:36:42] INFO root fetch - processPackages [jaaql-middleware-python]: New version: [4.8.9] Old Version: [4.8.7]
+[2023-05-03 02:36:42] INFO root fetch - processPackages [meter-gear]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-03 02:36:42] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-03 02:36:42] INFO root fetch - processPackages [moneycounter]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-05-03 02:36:42] INFO root fetch - processPackages [aiotieba]: New version: [3.4.0] Old Version: [3.3.2]
+[2023-05-03 02:36:42] INFO root fetch - processPackages [jaaql-middleware-python]: executing diffoscope
+[2023-05-03 02:36:42] INFO root fetch - processPackages [jaaql-middleware-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaaql-middleware-python-4.8.7.tar.gz tmp/jaaql-middleware-python-4.8.9.tar.gz --markdown 20230503/j/jaaql-middleware-python/4.8.7-4.8.9/diff.md --exclude *.pyd
+[2023-05-03 02:36:42] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: executing diffoscope
+[2023-05-03 02:36:42] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-enterprise-iac-0.0.98.tar.gz tmp/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz --markdown 20230503/c/cdklabs.cdk-enterprise-iac/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-03 02:36:42] INFO root fetch - processPackages [meter-gear]: executing diffoscope
+[2023-05-03 02:36:42] INFO root fetch - processPackages [meter-gear]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meter-gear-1.2.8.tar.gz tmp/meter-gear-1.2.9.tar.gz --markdown 20230503/m/meter-gear/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-03 02:36:43] INFO root fetch - processPackages [state-machine-semaphore]: executing diffoscope
+[2023-05-03 02:36:43] INFO root fetch - processPackages [state-machine-semaphore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/state-machine-semaphore-0.1.98.tar.gz tmp/state-machine-semaphore-0.1.99.tar.gz --markdown 20230503/s/state-machine-semaphore/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-03 02:36:43] INFO root fetch - processPackages [moneycounter]: Downloading https://files.pythonhosted.org/packages/fb/ab/fbb67d046fcc03a7c90123692d448e2697738b5e863eae9a36357402b6cd/moneycounter-1.2.2.tar.gz
+[2023-05-03 02:36:43] INFO root fetch - processPackages [aiotieba]: Downloading https://files.pythonhosted.org/packages/10/f6/3d33bc401fbad937282e8a21c1e86cea6455b9962f85e7ecf907fda7fd11/aiotieba-3.3.2-pp39-pypy39_pp73-win_amd64.whl
+[2023-05-03 02:36:43] INFO root fetch - processPackages [padacioso]: Downloading https://files.pythonhosted.org/packages/7f/3d/292f14feaa17d724561d030616920e4dc4163aab13fd4e88d3071c1023a5/padacioso-0.1.1.tar.gz
+[2023-05-03 02:36:43] INFO root fetch - processPackages [moneycounter]: Downloading https://files.pythonhosted.org/packages/a4/f5/589208f823495eba8e34d14f0a5d5c18eac5483002b1467e140fd44ffd41/moneycounter-1.2.3.tar.gz
+[2023-05-03 02:36:43] INFO root fetch - processPackages [aiotieba]: Downloading https://files.pythonhosted.org/packages/7b/4a/873a13b87960858d31d5eae3569b2f0aea63e29c2851caab9c17c4096cf9/aiotieba-3.4.0-pp39-pypy39_pp73-win_amd64.whl
+[2023-05-03 02:36:43] INFO root fetch - processPackages [moneycounter]: executing diffoscope
+[2023-05-03 02:36:43] INFO root fetch - processPackages [moneycounter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moneycounter-1.2.2.tar.gz tmp/moneycounter-1.2.3.tar.gz --markdown 20230503/m/moneycounter/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-05-03 02:36:43] INFO root fetch - processPackages [padacioso]: Downloading https://files.pythonhosted.org/packages/27/a2/eab4eff46b37c7bd9072159725aae91c23999a505f8e186150e68d7e80f8/padacioso-0.1.2.tar.gz
+[2023-05-03 02:36:43] INFO root fetch - processPackages [aiotieba]: executing diffoscope
+[2023-05-03 02:36:43] INFO root fetch - processPackages [aiotieba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiotieba-3.3.2-pp39-pypy39_pp73-win_amd64.whl.zip tmp/aiotieba-3.4.0-pp39-pypy39_pp73-win_amd64.whl.zip --markdown 20230503/a/aiotieba/3.3.2-3.4.0/diff.md --exclude *.pyd
+[2023-05-03 02:36:43] INFO root fetch - processPackages [padacioso]: executing diffoscope
+[2023-05-03 02:36:43] INFO root fetch - processPackages [padacioso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/padacioso-0.1.1.tar.gz tmp/padacioso-0.1.2.tar.gz --markdown 20230503/p/padacioso/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-03 02:36:44] INFO root fetch - main [MainThread]: End processing [meter-gear]: success
+[2023-05-03 02:36:44] INFO root fetch - main [MainThread]: End processing [jaaql-middleware-python]: success
+[2023-05-03 02:36:44] INFO root fetch - main [MainThread]: End processing [moneycounter]: success
+[2023-05-03 02:36:44] INFO root fetch - main [MainThread]: End processing [padacioso]: success
+[2023-05-03 02:36:46] INFO root fetch - main [MainThread]: End processing [state-machine-semaphore]: success
+[2023-05-03 02:36:46] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-enterprise-iac]: success
+[2023-05-03 02:36:47] INFO root fetch - main [MainThread]: End processing [aiotieba]: success
+[2023-05-03 02:36:47] INFO root fetch - main [MainThread]: Store serial: [17949026]
