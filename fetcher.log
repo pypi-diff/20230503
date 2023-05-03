@@ -20640,3 +20640,122 @@ No space left on device. Diffoscope exiting.
 [2023-05-03 19:04:41] INFO root fetch - main [MainThread]: End processing [trytond-account-invoice]: success
 [2023-05-03 19:04:44] INFO root fetch - main [MainThread]: End processing [lohrasb]: success
 [2023-05-03 19:04:44] INFO root fetch - main [MainThread]: Store serial: [17960135]
+[2023-05-03 19:09:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17960135]
+[2023-05-03 19:09:54] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-03 19:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tunnelvision
+[2023-05-03 19:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trytond-account-dunning
+[2023-05-03 19:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: titan-iris
+[2023-05-03 19:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rum-with-telegram
+[2023-05-03 19:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: trytond-account-dunning
+[2023-05-03 19:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: civics-cdf-validator
+[2023-05-03 19:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: trytond-account
+[2023-05-03 19:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: TuoTuo
+[2023-05-03 19:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: amazon-textract-idp-cdk-constructs
+[2023-05-03 19:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: supylib
+[2023-05-03 19:09:54] INFO root fetch - processPackages [tunnelvision]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-05-03 19:09:54] INFO root fetch - processPackages [trytond-account-dunning]: New version: [6.8.0] Old Version: [6.6.1]
+[2023-05-03 19:09:54] INFO root fetch - processPackages [TuoTuo]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-03 19:09:54] INFO root fetch - processPackages [supylib]: New version: [0.31] Old Version: [0.3]
+[2023-05-03 19:09:54] INFO root fetch - processPackages [civics-cdf-validator]: New version: [1.9.dev1] Old Version: [1.9]
+[2023-05-03 19:09:54] INFO root fetch - processPackages [rum-with-telegram]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-03 19:09:54] INFO root fetch - processPackages [trytond-account-dunning]: New version: [6.8.0] Old Version: [6.6.1]
+[2023-05-03 19:09:54] INFO root fetch - processPackages [titan-iris]: New version: [0.3.9a2] Old Version: [0.3.9a1]
+[2023-05-03 19:09:54] INFO root fetch - processPackages [amazon-textract-idp-cdk-constructs]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 19:09:54] INFO root fetch - processPackages [trytond-account]: New version: [6.8.0] Old Version: [6.6.3]
+[2023-05-03 19:09:54] INFO root fetch - processPackages [trytond-account-dunning]: executing diffoscope
+[2023-05-03 19:09:54] INFO root fetch - processPackages [trytond-account-dunning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_account_dunning-6.6.1.tar.gz tmp/trytond_account_dunning-6.8.0.tar.gz --markdown 20230503/t/trytond-account-dunning/6.6.1-6.8.0/diff.md --exclude *.pyd
+[2023-05-03 19:09:54] INFO root fetch - processPackages [trytond-account-dunning]: executing diffoscope
+[2023-05-03 19:09:54] INFO root fetch - processPackages [trytond-account-dunning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_account_dunning-6.6.1.tar.gz tmp/trytond_account_dunning-6.8.0.tar.gz --markdown 20230503/t/trytond-account-dunning/6.6.1-6.8.0/diff.md --exclude *.pyd
+[2023-05-03 19:09:54] INFO root fetch - processPackages [rum-with-telegram]: Downloading https://files.pythonhosted.org/packages/a9/cd/0f4be7d43bf056c9c764cb219e476dc8c2f7f8a68a174f58733cd144f09c/rum_with_telegram-0.9.0.tar.gz
+[2023-05-03 19:09:54] INFO root fetch - processPackages [TuoTuo]: Downloading https://files.pythonhosted.org/packages/2b/36/5de6a90eee3a2730e1067dfd6d013f7ad577cb638dda66a7c576beb5224a/TuoTuo-0.2.2.tar.gz
+[2023-05-03 19:09:54] INFO root fetch - processPackages [tunnelvision]: Downloading https://files.pythonhosted.org/packages/dd/82/f59754f827de5cbdaabebd19aa8c655b3c04185370052c741f63c1ce74a6/tunnelvision-0.3.2-py3-none-manylinux1_x86_64.whl
+[2023-05-03 19:09:54] INFO root fetch - processPackages [civics-cdf-validator]: Downloading https://files.pythonhosted.org/packages/9c/33/4d75823e3c52ecc93964f231d752b79135d74aa9bcca07720045645bfe91/civics_cdf_validator-1.9.tar.gz
+[2023-05-03 19:09:54] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/44/d5/65facd9094b25df7ad98b3e18ba0615e010861081bf1b7fe7ca7cc35b0a7/titan-iris-0.3.9a1.tar.gz
+[2023-05-03 19:09:54] INFO root fetch - processPackages [amazon-textract-idp-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/39/f3/d4f702ac711deb309800f2f040e57ade042b374750e8d8439c4bcf8324f0/amazon-textract-idp-cdk-constructs-0.0.8.tar.gz
+[2023-05-03 19:09:54] INFO root fetch - processPackages [trytond-account]: Downloading https://files.pythonhosted.org/packages/6c/1d/7a9ec0eed20f6d623a3b2a0e85b536338158b761f46a56b343cad4e29cc1/trytond_account-6.6.3.tar.gz
+[2023-05-03 19:09:54] INFO root fetch - processPackages [rum-with-telegram]: Downloading https://files.pythonhosted.org/packages/76/21/05fdf4a4fd868f20c6ed968697d76496ebd1214788158ebbd04684ed99ce/rum_with_telegram-0.9.1.tar.gz
+[2023-05-03 19:09:54] INFO root fetch - processPackages [supylib]: Downloading https://files.pythonhosted.org/packages/a8/0d/aa8869a95bc949b5727af9e4e6d2b0f4317530372bc34b928f8cab05546b/supylib-0.31.tar.gz
+[2023-05-03 19:09:54] INFO root fetch - processPackages [TuoTuo]: Downloading https://files.pythonhosted.org/packages/45/54/cf4df95cab0421e3892f8275f8605985a9ea926b00de51aa5d45902139b9/TuoTuo-0.2.3.tar.gz
+[2023-05-03 19:09:54] INFO root fetch - processPackages [rum-with-telegram]: executing diffoscope
+[2023-05-03 19:09:54] INFO root fetch - processPackages [rum-with-telegram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rum_with_telegram-0.9.0.tar.gz tmp/rum_with_telegram-0.9.1.tar.gz --markdown 20230503/r/rum-with-telegram/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-03 19:09:54] INFO root fetch - processPackages [TuoTuo]: executing diffoscope
+[2023-05-03 19:09:54] INFO root fetch - processPackages [TuoTuo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TuoTuo-0.2.2.tar.gz tmp/TuoTuo-0.2.3.tar.gz --markdown 20230503/T/TuoTuo/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-03 19:09:54] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/6e/81/2a91a9be26df9651b2fc3a6054ccc6fbe32f3a3f990f2ffe9f5b67799541/titan-iris-0.3.9a2.tar.gz
+[2023-05-03 19:09:54] INFO root fetch - processPackages [supylib]: executing diffoscope
+[2023-05-03 19:09:54] INFO root fetch - processPackages [civics-cdf-validator]: Downloading https://files.pythonhosted.org/packages/49/52/f20d05b43acd0ba782bdb28e82a60591d9ca3edb1c39da7ec86f030521ac/civics_cdf_validator-1.9.dev1.tar.gz
+[2023-05-03 19:09:54] INFO root fetch - processPackages [supylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supylib-0.3.tar.gz tmp/supylib-0.31.tar.gz --markdown 20230503/s/supylib/0.3-0.31/diff.md --exclude *.pyd
+[2023-05-03 19:09:54] INFO root fetch - processPackages [tunnelvision]: Downloading https://files.pythonhosted.org/packages/f2/43/b93d51f4cb0e8216dfe22a2edc8f1b273b4a7b4505a03cc77f272d4144c2/tunnelvision-0.3.3-py3-none-manylinux1_x86_64.whl
+[2023-05-03 19:09:54] INFO root fetch - processPackages [civics-cdf-validator]: executing diffoscope
+[2023-05-03 19:09:54] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-05-03 19:09:54] INFO root fetch - processPackages [civics-cdf-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/civics_cdf_validator-1.9.tar.gz tmp/civics_cdf_validator-1.9.dev1.tar.gz --markdown 20230503/c/civics-cdf-validator/1.9-1.9.dev1/diff.md --exclude *.pyd
+[2023-05-03 19:09:54] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.3.9a1.tar.gz tmp/titan-iris-0.3.9a2.tar.gz --markdown 20230503/t/titan-iris/0.3.9a1-0.3.9a2/diff.md --exclude *.pyd
+[2023-05-03 19:09:54] INFO root fetch - processPackages [trytond-account]: executing diffoscope
+[2023-05-03 19:09:54] INFO root fetch - processPackages [trytond-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_account-6.6.3.tar.gz tmp/trytond_account-6.8.0.tar.gz --markdown 20230503/t/trytond-account/6.6.3-6.8.0/diff.md --exclude *.pyd
+[2023-05-03 19:09:54] INFO root fetch - processPackages [tunnelvision]: executing diffoscope
+[2023-05-03 19:09:54] INFO root fetch - processPackages [tunnelvision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tunnelvision-0.3.2-py3-none-manylinux1_x86_64.whl.zip tmp/tunnelvision-0.3.3-py3-none-manylinux1_x86_64.whl.zip --markdown 20230503/t/tunnelvision/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-05-03 19:09:55] INFO root fetch - processPackages [amazon-textract-idp-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/1f/b7/52ee38e3959d7f8eaa3f678d4682625ee16d35d87f0ef506883c7655a6f3/amazon-textract-idp-cdk-constructs-0.0.9.tar.gz
+[2023-05-03 19:09:55] INFO root fetch - processPackages [amazon-textract-idp-cdk-constructs]: executing diffoscope
+[2023-05-03 19:09:55] INFO root fetch - processPackages [amazon-textract-idp-cdk-constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon-textract-idp-cdk-constructs-0.0.8.tar.gz tmp/amazon-textract-idp-cdk-constructs-0.0.9.tar.gz --markdown 20230503/a/amazon-textract-idp-cdk-constructs/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 19:09:56] INFO root fetch - processPackages [rum-with-telegram]: Start processing: relenv
+[2023-05-03 19:09:56] INFO root fetch - main [MainThread]: End processing [rum-with-telegram]: success
+[2023-05-03 19:09:56] INFO root fetch - processPackages [relenv]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-05-03 19:09:56] INFO root fetch - processPackages [relenv]: executing diffoscope
+[2023-05-03 19:09:56] INFO root fetch - processPackages [relenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/relenv-0.8.2-py3-none-any.whl.zip tmp/relenv-0.9.0-py3-none-any.whl.zip --markdown 20230503/r/relenv/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-05-03 19:09:56] INFO root fetch - processPackages [civics-cdf-validator]: Start processing: pytest-frappe
+[2023-05-03 19:09:56] INFO root fetch - main [MainThread]: End processing [civics-cdf-validator]: success
+[2023-05-03 19:09:56] INFO root fetch - processPackages [pytest-frappe]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-03 19:09:56] INFO root fetch - processPackages [TuoTuo]: Start processing: trytond-account
+[2023-05-03 19:09:56] INFO root fetch - main [MainThread]: End processing [TuoTuo]: success
+[2023-05-03 19:09:56] INFO root fetch - processPackages [trytond-account]: New version: [6.8.0] Old Version: [6.6.3]
+[2023-05-03 19:09:56] INFO root fetch - processPackages [trytond-account]: executing diffoscope
+[2023-05-03 19:09:56] INFO root fetch - processPackages [trytond-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_account-6.6.3.tar.gz tmp/trytond_account-6.8.0.tar.gz --markdown 20230503/t/trytond-account/6.6.3-6.8.0/diff.md --exclude *.pyd
+[2023-05-03 19:09:56] INFO root fetch - processPackages [pytest-frappe]: Downloading https://files.pythonhosted.org/packages/fd/73/bf93989a318f0e68751fbdfc686ada690f48682ca025b68280d87b29e53d/pytest-frappe-0.1.2.tar.gz
+[2023-05-03 19:09:56] INFO root fetch - processPackages [pytest-frappe]: executing diffoscope
+[2023-05-03 19:09:56] INFO root fetch - processPackages [pytest-frappe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-frappe-0.1.1.tar.gz tmp/pytest-frappe-0.1.2.tar.gz --markdown 20230503/p/pytest-frappe/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-03 19:09:56] INFO root fetch - processPackages [tunnelvision]: Start processing: pythresh
+[2023-05-03 19:09:56] INFO root fetch - main [MainThread]: End processing [tunnelvision]: success
+[2023-05-03 19:09:56] INFO root fetch - processPackages [pythresh]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-03 19:09:56] INFO root fetch - processPackages [pythresh]: Downloading https://files.pythonhosted.org/packages/ec/d3/e2a9b4323e4eed5f8b9abecc68abf2dabc24797b7cc498f8152a8e23e690/pythresh-0.3.0.tar.gz
+[2023-05-03 19:09:56] INFO root fetch - processPackages [titan-iris]: Start processing: crelm
+[2023-05-03 19:09:56] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-05-03 19:09:56] INFO root fetch - processPackages [crelm]: New version: [0.0.32a0] Old Version: [0.0.30a3]
+[2023-05-03 19:09:57] INFO root fetch - processPackages [trytond-account-dunning]: Start processing: heaserver
+[2023-05-03 19:09:57] INFO root fetch - main [MainThread]: End processing [trytond-account-dunning]: success
+[2023-05-03 19:09:57] INFO root fetch - processPackages [trytond-account-dunning]: Start processing: robotframework-mailclient
+[2023-05-03 19:09:57] INFO root fetch - main [MainThread]: End processing [trytond-account-dunning]: success
+[2023-05-03 19:09:57] INFO root fetch - processPackages [heaserver]: New version: [1.0.0a99] Old Version: [1.0.0a98]
+[2023-05-03 19:09:57] INFO root fetch - processPackages [robotframework-mailclient]: New version: [0.0.11] Old Version: [0.0.10]
+[2023-05-03 19:09:57] INFO root fetch - processPackages [pythresh]: Downloading https://files.pythonhosted.org/packages/3c/51/f7768f50ed84c221fb145f961d873f54ad6d6fc92cbdf7ad7e2f99643bbd/pythresh-0.3.1.tar.gz
+[2023-05-03 19:09:57] INFO root fetch - processPackages [heaserver]: executing diffoscope
+[2023-05-03 19:09:57] INFO root fetch - processPackages [heaserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver-1.0.0a98.tar.gz tmp/heaserver-1.0.0a99.tar.gz --markdown 20230503/h/heaserver/1.0.0a98-1.0.0a99/diff.md --exclude *.pyd
+[2023-05-03 19:09:57] INFO root fetch - processPackages [crelm]: Downloading https://files.pythonhosted.org/packages/71/30/63e84518cad70d05acb07c9a72620373f17baa07f5d010c4258173dc2447/crelm-0.0.32a0.tar.gz
+[2023-05-03 19:09:57] INFO root fetch - processPackages [pythresh]: executing diffoscope
+[2023-05-03 19:09:57] INFO root fetch - processPackages [pythresh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythresh-0.3.0.tar.gz tmp/pythresh-0.3.1.tar.gz --markdown 20230503/p/pythresh/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-03 19:09:57] ERROR root fetch - processPackages [robotframework-mailclient]: Unable to fetch info: No such project/version 'robotframework-mailclient' 0.0.10
+[2023-05-03 19:09:57] INFO root fetch - processPackages [robotframework-mailclient]: Start processing: trytond-account
+[2023-05-03 19:09:57] INFO root fetch - main [MainThread]: End processing [robotframework-mailclient] error
+[2023-05-03 19:09:57] INFO root fetch - processPackages [trytond-account]: New version: [6.8.0] Old Version: [6.6.3]
+[2023-05-03 19:09:57] INFO root fetch - processPackages [crelm]: executing diffoscope
+[2023-05-03 19:09:57] INFO root fetch - processPackages [crelm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crelm-0.0.30a3.tar.gz tmp/crelm-0.0.32a0.tar.gz --markdown 20230503/c/crelm/0.0.30a3-0.0.32a0/diff.md --exclude *.pyd
+[2023-05-03 19:09:57] INFO root fetch - processPackages [trytond-account]: executing diffoscope
+[2023-05-03 19:09:57] INFO root fetch - processPackages [trytond-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_account-6.6.3.tar.gz tmp/trytond_account-6.8.0.tar.gz --markdown 20230503/t/trytond-account/6.6.3-6.8.0/diff.md --exclude *.pyd
+[2023-05-03 19:09:57] INFO root fetch - processPackages [supylib]: Start processing: circuitpython-bmp384
+[2023-05-03 19:09:57] INFO root fetch - main [MainThread]: End processing [supylib]: success
+[2023-05-03 19:09:57] INFO root fetch - processPackages [relenv]: Start processing: overloaded-iterables
+[2023-05-03 19:09:57] INFO root fetch - main [MainThread]: End processing [relenv]: success
+[2023-05-03 19:09:57] INFO root fetch - processPackages [overloaded-iterables]: New version: [0.7.32] Old Version: [0.7.16]
+[2023-05-03 19:09:57] WARNING root fetch - processPackages [circuitpython-bmp384]: Skipping, unable to determine old version
+[2023-05-03 19:09:57] INFO root fetch - main [MainThread]: End processing [circuitpython-bmp384] error
+[2023-05-03 19:09:57] INFO root fetch - main [MainThread]: End processing [pytest-frappe]: success
+[2023-05-03 19:09:58] INFO root fetch - processPackages [overloaded-iterables]: Downloading https://files.pythonhosted.org/packages/1f/21/72cd11b8b9b37e54757299053d7c2420023000b2f876ce2e78c5f46f67d3/overloaded-iterables-0.7.16.tar.gz
+[2023-05-03 19:09:58] INFO root fetch - processPackages [overloaded-iterables]: executing diffoscope
+[2023-05-03 19:09:58] INFO root fetch - processPackages [overloaded-iterables]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/overloaded-iterables-0.7.16.tar.gz tmp/overloaded-iterables-0.7.32.tar.gz --markdown 20230503/o/overloaded-iterables/0.7.16-0.7.32/diff.md --exclude *.pyd
+[2023-05-03 19:09:58] INFO root fetch - main [MainThread]: End processing [crelm]: success
+[2023-05-03 19:09:59] INFO root fetch - main [MainThread]: End processing [pythresh]: success
+[2023-05-03 19:09:59] INFO root fetch - main [MainThread]: End processing [heaserver]: success
+[2023-05-03 19:09:59] INFO root fetch - main [MainThread]: End processing [overloaded-iterables]: success
+[2023-05-03 19:10:00] INFO root fetch - main [MainThread]: End processing [trytond-account]: success
+[2023-05-03 19:10:02] INFO root fetch - main [MainThread]: End processing [trytond-account]: success
+[2023-05-03 19:10:03] INFO root fetch - main [MainThread]: End processing [trytond-account]: success
+[2023-05-03 19:10:07] INFO root fetch - main [MainThread]: End processing [amazon-textract-idp-cdk-constructs]: success
+[2023-05-03 19:10:07] INFO root fetch - main [MainThread]: Store serial: [17960197]
