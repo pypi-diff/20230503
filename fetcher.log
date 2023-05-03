@@ -7018,3 +7018,35 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-03 07:55:50] INFO root fetch - main [MainThread]: End processing [flux-python]: success
 [2023-05-03 07:56:12] INFO root fetch - main [MainThread]: End processing [NikeCA]: success
 [2023-05-03 07:56:12] INFO root fetch - main [MainThread]: Store serial: [17952019]
+[2023-05-03 08:01:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17952019]
+[2023-05-03 08:01:21] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-03 08:01:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: LHCbDIRAC
+[2023-05-03 08:01:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: name-genie
+[2023-05-03 08:01:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: amazon-captcha-0.1
+[2023-05-03 08:01:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: phomemo-p12-tools
+[2023-05-03 08:01:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: recent-state-summarizer
+[2023-05-03 08:01:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jaco2
+[2023-05-03 08:01:21] INFO root fetch - processPackages [phomemo-p12-tools]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-03 08:01:21] INFO root fetch - processPackages [name-genie]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-03 08:01:21] INFO root fetch - processPackages [jaco2]: New version: [3.8] Old Version: [3.7]
+[2023-05-03 08:01:21] INFO root fetch - processPackages [LHCbDIRAC]: New version: [11.1.0a1] Old Version: [11.0.9]
+[2023-05-03 08:01:21] WARNING root fetch - processPackages [amazon-captcha-0.1]: Skipping, unable to determine old version
+[2023-05-03 08:01:21] INFO root fetch - main [MainThread]: End processing [amazon-captcha-0.1] error
+[2023-05-03 08:01:21] WARNING root fetch - processPackages [recent-state-summarizer]: Skipping, unable to determine old version
+[2023-05-03 08:01:21] INFO root fetch - main [MainThread]: End processing [recent-state-summarizer] error
+[2023-05-03 08:01:21] INFO root fetch - processPackages [phomemo-p12-tools]: executing diffoscope
+[2023-05-03 08:01:21] INFO root fetch - processPackages [phomemo-p12-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phomemo-p12-tools-0.0.2.tar.gz tmp/phomemo-p12-tools-0.0.3.tar.gz --markdown 20230503/p/phomemo-p12-tools/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-03 08:01:21] INFO root fetch - processPackages [jaco2]: executing diffoscope
+[2023-05-03 08:01:21] INFO root fetch - processPackages [jaco2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaco2-3.7-cp311-cp311-win_amd64.whl.zip tmp/jaco2-3.8-cp311-cp311-win_amd64.whl.zip --markdown 20230503/j/jaco2/3.7-3.8/diff.md --exclude *.pyd
+[2023-05-03 08:01:21] INFO root fetch - processPackages [LHCbDIRAC]: Downloading https://files.pythonhosted.org/packages/82/a1/05449c2079660bb9e11f5cc09e8208f48d85f3a966bb6bc6da6e39e06f0f/LHCbDIRAC-11.0.9.tar.gz
+[2023-05-03 08:01:21] INFO root fetch - processPackages [name-genie]: Downloading https://files.pythonhosted.org/packages/5b/f7/01cc5b451c67e501c93052b3ae10f183771c41bf5e62cf2dbbc3520487ef/name_genie-0.0.2.tar.gz
+[2023-05-03 08:01:22] INFO root fetch - processPackages [name-genie]: executing diffoscope
+[2023-05-03 08:01:22] INFO root fetch - processPackages [name-genie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/name_genie-0.0.1.tar.gz tmp/name_genie-0.0.2.tar.gz --markdown 20230503/n/name-genie/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-03 08:01:22] INFO root fetch - processPackages [LHCbDIRAC]: Downloading https://files.pythonhosted.org/packages/2d/36/668ff5f5ebec9665852faf372694cb9a68fd05b6f3248d7104700635210e/LHCbDIRAC-11.1.0a1.tar.gz
+[2023-05-03 08:01:22] INFO root fetch - processPackages [LHCbDIRAC]: executing diffoscope
+[2023-05-03 08:01:22] INFO root fetch - processPackages [LHCbDIRAC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LHCbDIRAC-11.0.9.tar.gz tmp/LHCbDIRAC-11.1.0a1.tar.gz --markdown 20230503/L/LHCbDIRAC/11.0.9-11.1.0a1/diff.md --exclude *.pyd
+[2023-05-03 08:01:22] INFO root fetch - main [MainThread]: End processing [phomemo-p12-tools]: success
+[2023-05-03 08:01:22] INFO root fetch - main [MainThread]: End processing [jaco2]: success
+[2023-05-03 08:01:23] INFO root fetch - main [MainThread]: End processing [name-genie]: success
+[2023-05-03 08:01:26] INFO root fetch - main [MainThread]: End processing [LHCbDIRAC]: success
+[2023-05-03 08:01:26] INFO root fetch - main [MainThread]: Store serial: [17952038]
