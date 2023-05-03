@@ -17603,3 +17603,125 @@ No space left on device. Diffoscope exiting.
 [2023-05-03 16:51:50] INFO root fetch - main [MainThread]: End processing [retentioneering]: success
 [2023-05-03 16:51:53] INFO root fetch - main [MainThread]: End processing [trakt.py]: success
 [2023-05-03 16:51:53] INFO root fetch - main [MainThread]: Store serial: [17958123]
+[2023-05-03 16:56:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17958123]
+[2023-05-03 16:57:02] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-03 16:57:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: home-assistant-frontend
+[2023-05-03 16:57:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyowletapi
+[2023-05-03 16:57:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: testapptmlc
+[2023-05-03 16:57:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-eks-blueprint
+[2023-05-03 16:57:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pandasai
+[2023-05-03 16:57:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytorch-datastream
+[2023-05-03 16:57:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dbt-rpc
+[2023-05-03 16:57:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dxsp
+[2023-05-03 16:57:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pytonapi
+[2023-05-03 16:57:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: symphonai
+[2023-05-03 16:57:02] INFO root fetch - processPackages [testapptmlc]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-03 16:57:02] INFO root fetch - processPackages [pyowletapi]: New version: [2023.5.4] Old Version: [2023.5.3]
+[2023-05-03 16:57:02] INFO root fetch - processPackages [cdk-eks-blueprint]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-03 16:57:02] INFO root fetch - processPackages [pandasai]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-03 16:57:02] INFO root fetch - processPackages [pytorch-datastream]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-03 16:57:02] INFO root fetch - processPackages [dbt-rpc]: New version: [0.4.0rc1] Old Version: [0.4.0b1]
+[2023-05-03 16:57:02] INFO root fetch - processPackages [home-assistant-frontend]: New version: [20230503.1] Old Version: [20230503.0]
+[2023-05-03 16:57:02] INFO root fetch - processPackages [dxsp]: New version: [1.7.0] Old Version: [1.6.2]
+[2023-05-03 16:57:02] INFO root fetch - processPackages [dbt-rpc]: executing diffoscope
+[2023-05-03 16:57:02] INFO root fetch - processPackages [dbt-rpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-rpc-0.4.0b1.tar.gz tmp/dbt-rpc-0.4.0rc1.tar.gz --markdown 20230503/d/dbt-rpc/0.4.0b1-0.4.0rc1/diff.md --exclude *.pyd
+[2023-05-03 16:57:02] WARNING root fetch - processPackages [pytonapi]: Skipping, unable to determine old version
+[2023-05-03 16:57:02] INFO root fetch - processPackages [pytonapi]: Start processing: sphere-snap
+[2023-05-03 16:57:02] INFO root fetch - main [MainThread]: End processing [pytonapi] error
+[2023-05-03 16:57:02] WARNING root fetch - processPackages [symphonai]: Skipping, unable to determine old version
+[2023-05-03 16:57:02] INFO root fetch - processPackages [symphonai]: Start processing: periodogram
+[2023-05-03 16:57:02] INFO root fetch - main [MainThread]: End processing [symphonai] error
+[2023-05-03 16:57:02] INFO root fetch - processPackages [sphere-snap]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-03 16:57:02] INFO root fetch - processPackages [pytorch-datastream]: Downloading https://files.pythonhosted.org/packages/27/ac/0be718bc942475f45d9b69ad269e97b81bf9e486ffdfeb0db9ca9f9d706c/pytorch_datastream-0.4.8.tar.gz
+[2023-05-03 16:57:02] INFO root fetch - processPackages [home-assistant-frontend]: Downloading https://files.pythonhosted.org/packages/cc/b6/94e26877c087751a485bddbee48ba6ae97141341f7aa97e301e5a6c90120/home_assistant_frontend-20230503.0-py3-none-any.whl
+[2023-05-03 16:57:02] INFO root fetch - processPackages [dxsp]: executing diffoscope
+[2023-05-03 16:57:02] INFO root fetch - processPackages [dxsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxsp-1.6.2.tar.gz tmp/dxsp-1.7.0.tar.gz --markdown 20230503/d/dxsp/1.6.2-1.7.0/diff.md --exclude *.pyd
+[2023-05-03 16:57:02] INFO root fetch - processPackages [periodogram]: New version: [0.0.12] Old Version: [0.0.11]
+[2023-05-03 16:57:02] WARNING root fetch - processPackages [home-assistant-frontend]: Skipping package: exceeds size limit 52542969>=10485760
+[2023-05-03 16:57:02] INFO root fetch - processPackages [home-assistant-frontend]: Start processing: looqbox-components
+[2023-05-03 16:57:02] INFO root fetch - main [MainThread]: End processing [home-assistant-frontend] error
+[2023-05-03 16:57:02] INFO root fetch - processPackages [sphere-snap]: Downloading https://files.pythonhosted.org/packages/8d/7f/59e90546a4f3f9d4a21583a73a8c80539c03e6b16dd5463f9d84959423d2/sphere_snap-0.1.1-py3-none-any.whl
+[2023-05-03 16:57:02] INFO root fetch - processPackages [pyowletapi]: Downloading https://files.pythonhosted.org/packages/a2/69/64fc61e6907bdca170d3e32199a5a291f6fd17d0198f24bc8c7534cef17c/pyowletapi-2023.5.4.tar.gz
+[2023-05-03 16:57:02] INFO root fetch - processPackages [cdk-eks-blueprint]: Downloading https://files.pythonhosted.org/packages/3c/f5/b2fe3120a4253623d04d8756f17b174cf691ec63a440375898571875a7a3/cdk-eks-blueprint-0.0.8.tar.gz
+[2023-05-03 16:57:02] INFO root fetch - processPackages [looqbox-components]: New version: [1.3.0] Old Version: [1.2.5]
+[2023-05-03 16:57:02] INFO root fetch - processPackages [testapptmlc]: Downloading https://files.pythonhosted.org/packages/e8/96/2a205c1a71cb3a6e4980f2a68af5b5cf6d4bfb491d6d27f78ab2bd898f48/testapptmlc-0.0.8.tar.gz
+[2023-05-03 16:57:02] INFO root fetch - processPackages [pandasai]: Downloading https://files.pythonhosted.org/packages/7b/29/40b77abd158b4840f16d765c8f6c6bab903d7517bbb14f60bfc4a4a0c635/pandasai-0.2.1.tar.gz
+[2023-05-03 16:57:02] INFO root fetch - processPackages [pyowletapi]: executing diffoscope
+[2023-05-03 16:57:02] INFO root fetch - processPackages [pyowletapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyowletapi-2023.5.3.tar.gz tmp/pyowletapi-2023.5.4.tar.gz --markdown 20230503/p/pyowletapi/2023.5.3-2023.5.4/diff.md --exclude *.pyd
+[2023-05-03 16:57:02] INFO root fetch - processPackages [testapptmlc]: executing diffoscope
+[2023-05-03 16:57:02] INFO root fetch - processPackages [cdk-eks-blueprint]: executing diffoscope
+[2023-05-03 16:57:02] INFO root fetch - processPackages [testapptmlc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testapptmlc-0.0.7.tar.gz tmp/testapptmlc-0.0.8.tar.gz --markdown 20230503/t/testapptmlc/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-03 16:57:02] INFO root fetch - processPackages [cdk-eks-blueprint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-eks-blueprint-0.0.7.tar.gz tmp/cdk-eks-blueprint-0.0.8.tar.gz --markdown 20230503/c/cdk-eks-blueprint/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-03 16:57:02] INFO root fetch - processPackages [looqbox-components]: executing diffoscope
+[2023-05-03 16:57:02] INFO root fetch - processPackages [looqbox-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/looqbox_components-1.2.5-py3-none-any.whl.zip tmp/looqbox_components-1.3.0-py3-none-any.whl.zip --markdown 20230503/l/looqbox-components/1.2.5-1.3.0/diff.md --exclude *.pyd
+[2023-05-03 16:57:02] INFO root fetch - processPackages [pandasai]: executing diffoscope
+[2023-05-03 16:57:02] INFO root fetch - processPackages [pandasai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandasai-0.2.0.tar.gz tmp/pandasai-0.2.1.tar.gz --markdown 20230503/p/pandasai/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-03 16:57:02] INFO root fetch - processPackages [periodogram]: Downloading https://files.pythonhosted.org/packages/29/c7/7c26640be41a0c60ab563e7e3bd41f8180eecbf60b2b057b9da7a1d3092a/periodogram-0.0.11.tar.gz
+[2023-05-03 16:57:02] INFO root fetch - processPackages [pytorch-datastream]: Downloading https://files.pythonhosted.org/packages/84/75/bee62515346259a4dc70d0265abe2cc1838d3905e45b519ce3593e0bfc81/pytorch_datastream-0.4.9.tar.gz
+[2023-05-03 16:57:02] INFO root fetch - processPackages [pytorch-datastream]: executing diffoscope
+[2023-05-03 16:57:02] INFO root fetch - processPackages [pytorch-datastream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch_datastream-0.4.8.tar.gz tmp/pytorch_datastream-0.4.9.tar.gz --markdown 20230503/p/pytorch-datastream/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-03 16:57:02] INFO root fetch - processPackages [sphere-snap]: Downloading https://files.pythonhosted.org/packages/ad/86/ccd6cf27e4b60782de3957c03abf483b1b7d0c01f767fb6d94ae2b75e81d/sphere_snap-0.1.2-py3-none-any.whl
+[2023-05-03 16:57:02] INFO root fetch - processPackages [sphere-snap]: executing diffoscope
+[2023-05-03 16:57:02] INFO root fetch - processPackages [sphere-snap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphere_snap-0.1.1-py3-none-any.whl.zip tmp/sphere_snap-0.1.2-py3-none-any.whl.zip --markdown 20230503/s/sphere-snap/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-03 16:57:03] INFO root fetch - processPackages [periodogram]: Downloading https://files.pythonhosted.org/packages/b1/65/fbc1858f194494b50964daa48a730d551d4c945a2e34311c91bd6ca86d5a/periodogram-0.0.12.tar.gz
+[2023-05-03 16:57:03] INFO root fetch - processPackages [periodogram]: executing diffoscope
+[2023-05-03 16:57:03] INFO root fetch - processPackages [periodogram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/periodogram-0.0.11.tar.gz tmp/periodogram-0.0.12.tar.gz --markdown 20230503/p/periodogram/0.0.11-0.0.12/diff.md --exclude *.pyd
+[2023-05-03 16:57:03] INFO root fetch - processPackages [dxsp]: Start processing: irails
+[2023-05-03 16:57:03] INFO root fetch - main [MainThread]: End processing [dxsp]: success
+[2023-05-03 16:57:04] INFO root fetch - processPackages [irails]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-03 16:57:04] INFO root fetch - processPackages [testapptmlc]: Start processing: enalog-cli
+[2023-05-03 16:57:04] INFO root fetch - main [MainThread]: End processing [testapptmlc]: success
+[2023-05-03 16:57:04] INFO root fetch - processPackages [pyowletapi]: Start processing: localstack-core
+[2023-05-03 16:57:04] INFO root fetch - main [MainThread]: End processing [pyowletapi]: success
+[2023-05-03 16:57:04] WARNING root fetch - processPackages [enalog-cli]: Skipping, unable to determine old version
+[2023-05-03 16:57:04] INFO root fetch - processPackages [enalog-cli]: Start processing: py3d
+[2023-05-03 16:57:04] INFO root fetch - main [MainThread]: End processing [enalog-cli] error
+[2023-05-03 16:57:04] INFO root fetch - processPackages [localstack-core]: New version: [2.0.3.dev20230503144419] Old Version: [2.0.3.dev20230503143900]
+[2023-05-03 16:57:04] INFO root fetch - processPackages [looqbox-components]: Start processing: uplc
+[2023-05-03 16:57:04] INFO root fetch - main [MainThread]: End processing [looqbox-components]: success
+[2023-05-03 16:57:04] INFO root fetch - processPackages [irails]: Downloading https://files.pythonhosted.org/packages/fc/8e/314c30b1cf41c1256ef4fe3f4ca8d8b26d3ac0c0f3368ef7d9720ceacd47/irails-1.1.1.tar.gz
+[2023-05-03 16:57:04] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-05-03 16:57:04] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.0.3.dev20230503143900.tar.gz tmp/localstack-core-2.0.3.dev20230503144419.tar.gz --markdown 20230503/l/localstack-core/2.0.3.dev20230503143900-2.0.3.dev20230503144419/diff.md --exclude *.pyd
+[2023-05-03 16:57:04] INFO root fetch - processPackages [py3d]: New version: [0.0.9] Old Version: [0.0.82]
+[2023-05-03 16:57:04] INFO root fetch - processPackages [uplc]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-05-03 16:57:04] INFO root fetch - processPackages [pandasai]: Start processing: dbt-rpc
+[2023-05-03 16:57:04] INFO root fetch - main [MainThread]: End processing [pandasai]: success
+[2023-05-03 16:57:04] INFO root fetch - processPackages [dbt-rpc]: New version: [0.4.0rc1] Old Version: [0.4.0b1]
+[2023-05-03 16:57:04] INFO root fetch - processPackages [dbt-rpc]: executing diffoscope
+[2023-05-03 16:57:04] INFO root fetch - processPackages [dbt-rpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-rpc-0.4.0b1.tar.gz tmp/dbt-rpc-0.4.0rc1.tar.gz --markdown 20230503/d/dbt-rpc/0.4.0b1-0.4.0rc1/diff.md --exclude *.pyd
+[2023-05-03 16:57:04] INFO root fetch - processPackages [dbt-rpc]: Start processing: ledfx
+[2023-05-03 16:57:04] INFO root fetch - main [MainThread]: End processing [dbt-rpc]: success
+[2023-05-03 16:57:04] INFO root fetch - processPackages [py3d]: Downloading https://files.pythonhosted.org/packages/86/69/e746b4871c399849bc1bb69dacf2aa85e1e16084cbd0abb58c29de70f2ce/py3d-0.0.82.tar.gz
+[2023-05-03 16:57:04] INFO root fetch - processPackages [cdk-eks-blueprint]: Start processing: helium-positioning-api
+[2023-05-03 16:57:04] INFO root fetch - main [MainThread]: End processing [cdk-eks-blueprint]: success
+[2023-05-03 16:57:04] INFO root fetch - main [MainThread]: End processing [pytorch-datastream]: success
+[2023-05-03 16:57:04] INFO root fetch - processPackages [uplc]: Downloading https://files.pythonhosted.org/packages/bf/5c/f2b17c9f339edf76f0646a0ff79db9129871a71797ec54577c999b84a7b5/uplc-0.6.4.tar.gz
+[2023-05-03 16:57:04] INFO root fetch - processPackages [ledfx]: New version: [2.0.67] Old Version: [2.0.64]
+[2023-05-03 16:57:04] INFO root fetch - processPackages [helium-positioning-api]: New version: [0.0.2.dev1683125793] Old Version: [0.0.2.dev1678370622]
+[2023-05-03 16:57:04] INFO root fetch - main [MainThread]: End processing [sphere-snap]: success
+[2023-05-03 16:57:04] INFO root fetch - processPackages [irails]: Downloading https://files.pythonhosted.org/packages/3d/74/1cb8bec9b23b30807a00875f718b33da8d035e8243606af57d910894d657/irails-1.1.2.tar.gz
+[2023-05-03 16:57:04] INFO root fetch - processPackages [uplc]: Downloading https://files.pythonhosted.org/packages/c8/0f/77b317200587c1c749b914e6bb19036cca8ac21228bc216526f025a43bc0/uplc-0.6.5.tar.gz
+[2023-05-03 16:57:04] INFO root fetch - processPackages [helium-positioning-api]: Downloading https://files.pythonhosted.org/packages/8b/df/b6bc0e1d487bef7f5c734d7685924c6c887b7fb5ca60df1c8050aed4d471/helium_positioning_api-0.0.2.dev1678370622.tar.gz
+[2023-05-03 16:57:04] INFO root fetch - processPackages [irails]: executing diffoscope
+[2023-05-03 16:57:04] INFO root fetch - processPackages [irails]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irails-1.1.1.tar.gz tmp/irails-1.1.2.tar.gz --markdown 20230503/i/irails/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-03 16:57:04] INFO root fetch - processPackages [py3d]: Downloading https://files.pythonhosted.org/packages/42/7f/b468d9b3eb4a15d524dfa2757a79decc39cdb1d48240d423407d8440bb99/py3d-0.0.9.tar.gz
+[2023-05-03 16:57:04] INFO root fetch - processPackages [uplc]: executing diffoscope
+[2023-05-03 16:57:04] INFO root fetch - processPackages [uplc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uplc-0.6.4.tar.gz tmp/uplc-0.6.5.tar.gz --markdown 20230503/u/uplc/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-05-03 16:57:04] INFO root fetch - processPackages [ledfx]: Downloading https://files.pythonhosted.org/packages/78/95/0395ba1a101a970f16f6b7ca2d83cef5e8b2bb5104abf51fa686ccc801b5/ledfx-2.0.64.tar.gz
+[2023-05-03 16:57:04] INFO root fetch - processPackages [py3d]: executing diffoscope
+[2023-05-03 16:57:04] INFO root fetch - processPackages [py3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3d-0.0.82.tar.gz tmp/py3d-0.0.9.tar.gz --markdown 20230503/p/py3d/0.0.82-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 16:57:05] INFO root fetch - processPackages [helium-positioning-api]: Downloading https://files.pythonhosted.org/packages/93/37/570fb2199af8cc6783e87cdcbc2cbc5817456720e51e9ef9084fa8f1e0fc/helium_positioning_api-0.0.2.dev1683125793.tar.gz
+[2023-05-03 16:57:05] INFO root fetch - processPackages [helium-positioning-api]: executing diffoscope
+[2023-05-03 16:57:05] INFO root fetch - processPackages [helium-positioning-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helium_positioning_api-0.0.2.dev1678370622.tar.gz tmp/helium_positioning_api-0.0.2.dev1683125793.tar.gz --markdown 20230503/h/helium-positioning-api/0.0.2.dev1678370622-0.0.2.dev1683125793/diff.md --exclude *.pyd
+[2023-05-03 16:57:06] INFO root fetch - main [MainThread]: End processing [py3d]: success
+[2023-05-03 16:57:06] INFO root fetch - processPackages [ledfx]: Downloading https://files.pythonhosted.org/packages/ed/1e/8cdeb794dad5a5410e4f0ce070e2fbdba6c2a7bdf4bc8655465b6e3f454c/ledfx-2.0.67.tar.gz
+[2023-05-03 16:57:06] INFO root fetch - main [MainThread]: End processing [irails]: success
+[2023-05-03 16:57:06] INFO root fetch - main [MainThread]: End processing [helium-positioning-api]: success
+[2023-05-03 16:57:06] INFO root fetch - main [MainThread]: End processing [uplc]: success
+[2023-05-03 16:57:06] INFO root fetch - main [MainThread]: End processing [dbt-rpc]: success
+[2023-05-03 16:57:07] INFO root fetch - processPackages [ledfx]: executing diffoscope
+[2023-05-03 16:57:07] INFO root fetch - processPackages [ledfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ledfx-2.0.64.tar.gz tmp/ledfx-2.0.67.tar.gz --markdown 20230503/l/ledfx/2.0.64-2.0.67/diff.md --exclude *.pyd
+[2023-05-03 16:57:14] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-05-03 16:57:24] INFO root fetch - main [MainThread]: End processing [periodogram]: success
+[2023-05-03 17:00:05] INFO root fetch - main [MainThread]: End processing [ledfx]: success
+[2023-05-03 17:00:05] INFO root fetch - main [MainThread]: Store serial: [17958188]
