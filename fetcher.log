@@ -2158,3 +2158,65 @@
 [2023-05-03 02:42:00] INFO root fetch - processPackages [pykanto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pykanto-0.1.4.tar.gz tmp/pykanto-0.1.5.tar.gz --markdown 20230503/p/pykanto/0.1.4-0.1.5/diff.md --exclude *.pyd
 [2023-05-03 02:42:02] INFO root fetch - main [MainThread]: End processing [pykanto]: success
 [2023-05-03 02:42:02] INFO root fetch - main [MainThread]: Store serial: [17949049]
+[2023-05-03 02:47:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17949049]
+[2023-05-03 02:47:12] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-03 02:47:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: skbase
+[2023-05-03 02:47:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: amdgpu-stats
+[2023-05-03 02:47:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tfds-nightly
+[2023-05-03 02:47:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-comprehend-s3olap
+[2023-05-03 02:47:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-bcmr
+[2023-05-03 02:47:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sdmetrics
+[2023-05-03 02:47:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: airbyte
+[2023-05-03 02:47:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: credoai-lens
+[2023-05-03 02:47:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kubric-nightly
+[2023-05-03 02:47:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: c65faucet
+[2023-05-03 02:47:12] INFO root fetch - processPackages [amdgpu-stats]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-03 02:47:12] INFO root fetch - processPackages [cdk-comprehend-s3olap]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-03 02:47:12] INFO root fetch - processPackages [sdmetrics]: New version: [0.9.3.dev0] Old Version: [0.9.3]
+[2023-05-03 02:47:12] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.2.dev202305020045] Old Version: [4.9.2.dev202305010044]
+[2023-05-03 02:47:12] INFO root fetch - processPackages [kubric-nightly]: New version: [2023.5.2] Old Version: [2023.5.1]
+[2023-05-03 02:47:12] INFO root fetch - processPackages [cdk-comprehend-s3olap]: Downloading https://files.pythonhosted.org/packages/d2/64/ec00fce58a2563fe9a768f5ee5a77ecba74bfccf89b1ec489306be4a20a8/cdk_comprehend_s3olap-2.0.98.tar.gz
+[2023-05-03 02:47:12] INFO root fetch - processPackages [skbase]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-03 02:47:12] INFO root fetch - processPackages [c65faucet]: New version: [1.0.50] Old Version: [1.0.49]
+[2023-05-03 02:47:12] INFO root fetch - processPackages [airbyte]: New version: [1.8.0] Old Version: [1.7.2]
+[2023-05-03 02:47:12] INFO root fetch - processPackages [credoai-lens]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-05-03 02:47:12] INFO root fetch - processPackages [django-bcmr]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-03 02:47:12] INFO root fetch - processPackages [sdmetrics]: executing diffoscope
+[2023-05-03 02:47:12] INFO root fetch - processPackages [sdmetrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdmetrics-0.9.3.tar.gz tmp/sdmetrics-0.9.3.dev0.tar.gz --markdown 20230503/s/sdmetrics/0.9.3-0.9.3.dev0/diff.md --exclude *.pyd
+[2023-05-03 02:47:13] INFO root fetch - processPackages [amdgpu-stats]: executing diffoscope
+[2023-05-03 02:47:13] INFO root fetch - processPackages [amdgpu-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amdgpu_stats-0.1.8.tar.gz tmp/amdgpu_stats-0.1.9.tar.gz --markdown 20230503/a/amdgpu-stats/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-03 02:47:13] INFO root fetch - processPackages [c65faucet]: Downloading https://files.pythonhosted.org/packages/8e/1e/d40e4382730f701ab419dc11e1a10cd71c960a10b73df69e6aa303ad0b28/c65faucet-1.0.49.tar.gz
+[2023-05-03 02:47:13] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2023-05-03 02:47:13] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.2.dev202305010044.tar.gz tmp/tfds-nightly-4.9.2.dev202305020045.tar.gz --markdown 20230503/t/tfds-nightly/4.9.2.dev202305010044-4.9.2.dev202305020045/diff.md --exclude *.pyd
+[2023-05-03 02:47:13] INFO root fetch - processPackages [django-bcmr]: Downloading https://files.pythonhosted.org/packages/88/51/ed32933dc40357c87d7a58a88ceae7f44d6aab8e3d9f4af2f22ef7f14ade/django-bcmr-0.1.7.tar.gz
+[2023-05-03 02:47:13] INFO root fetch - processPackages [airbyte]: Downloading https://files.pythonhosted.org/packages/f0/d9/b9536c8f8584cace84ce9c005ae207f0a3943229daab208cda2c2832ecf9/airbyte-1.8.0.tar.gz
+[2023-05-03 02:47:13] INFO root fetch - processPackages [credoai-lens]: Downloading https://files.pythonhosted.org/packages/e4/05/540aecada810b3e452ee6d0398095581d8c2be35c6506523702658d23821/credoai-lens-1.1.7.tar.gz
+[2023-05-03 02:47:13] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/71/ec/eeb76cbc71182ed60051a8660d477c0827c1bc361431d350f9618f0e02dd/kubric-nightly-2023.5.2.tar.gz
+[2023-05-03 02:47:13] INFO root fetch - processPackages [airbyte]: executing diffoscope
+[2023-05-03 02:47:13] INFO root fetch - processPackages [airbyte]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-1.7.2.tar.gz tmp/airbyte-1.8.0.tar.gz --markdown 20230503/a/airbyte/1.7.2-1.8.0/diff.md --exclude *.pyd
+[2023-05-03 02:47:13] INFO root fetch - processPackages [skbase]: Downloading https://files.pythonhosted.org/packages/71/91/675067dd494d87ce03258ff51eb0a297e670697073734d7a93bedece70bf/skbase-0.4.2.tar.gz
+[2023-05-03 02:47:13] INFO root fetch - processPackages [kubric-nightly]: executing diffoscope
+[2023-05-03 02:47:13] INFO root fetch - processPackages [kubric-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubric-nightly-2023.5.1.tar.gz tmp/kubric-nightly-2023.5.2.tar.gz --markdown 20230503/k/kubric-nightly/2023.5.1-2023.5.2/diff.md --exclude *.pyd
+[2023-05-03 02:47:13] INFO root fetch - processPackages [skbase]: executing diffoscope
+[2023-05-03 02:47:13] INFO root fetch - processPackages [skbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skbase-0.4.1.tar.gz tmp/skbase-0.4.2.tar.gz --markdown 20230503/s/skbase/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-05-03 02:47:13] INFO root fetch - processPackages [django-bcmr]: Downloading https://files.pythonhosted.org/packages/7c/26/db336ba3b7636341085b4bbccdebb9ae05563f647093f660b855ff4a5188/django-bcmr-0.1.8.tar.gz
+[2023-05-03 02:47:13] INFO root fetch - processPackages [credoai-lens]: Downloading https://files.pythonhosted.org/packages/4c/18/153ae94bccc3e5e689c93b3275f89349fecae10444ee70efe714388fb07a/credoai-lens-1.1.8.tar.gz
+[2023-05-03 02:47:13] WARNING root fetch - processPackages [cdk-comprehend-s3olap]: Skipping package: exceeds size limit 14179128>=10485760
+[2023-05-03 02:47:13] INFO root fetch - main [MainThread]: End processing [cdk-comprehend-s3olap] error
+[2023-05-03 02:47:13] INFO root fetch - processPackages [django-bcmr]: executing diffoscope
+[2023-05-03 02:47:13] INFO root fetch - processPackages [django-bcmr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-bcmr-0.1.7.tar.gz tmp/django-bcmr-0.1.8.tar.gz --markdown 20230503/d/django-bcmr/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-03 02:47:13] INFO root fetch - processPackages [credoai-lens]: executing diffoscope
+[2023-05-03 02:47:13] INFO root fetch - processPackages [credoai-lens]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/credoai-lens-1.1.7.tar.gz tmp/credoai-lens-1.1.8.tar.gz --markdown 20230503/c/credoai-lens/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-05-03 02:47:14] INFO root fetch - processPackages [c65faucet]: Downloading https://files.pythonhosted.org/packages/8b/03/b71d100b56c3c9eb3429ebe96a6a62b718e6a5e41422772e0cb5603f7372/c65faucet-1.0.50.tar.gz
+[2023-05-03 02:47:14] INFO root fetch - main [MainThread]: End processing [amdgpu-stats]: success
+[2023-05-03 02:47:14] INFO root fetch - main [MainThread]: End processing [kubric-nightly]: success
+[2023-05-03 02:47:14] INFO root fetch - main [MainThread]: End processing [django-bcmr]: success
+[2023-05-03 02:47:14] INFO root fetch - processPackages [c65faucet]: executing diffoscope
+[2023-05-03 02:47:14] INFO root fetch - processPackages [c65faucet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c65faucet-1.0.49.tar.gz tmp/c65faucet-1.0.50.tar.gz --markdown 20230503/c/c65faucet/1.0.49-1.0.50/diff.md --exclude *.pyd
+[2023-05-03 02:47:15] INFO root fetch - main [MainThread]: End processing [sdmetrics]: success
+[2023-05-03 02:47:16] INFO root fetch - main [MainThread]: End processing [skbase]: success
+[2023-05-03 02:47:17] INFO root fetch - main [MainThread]: End processing [credoai-lens]: success
+[2023-05-03 02:47:19] INFO root fetch - main [MainThread]: End processing [c65faucet]: success
+[2023-05-03 02:47:19] INFO root fetch - main [MainThread]: End processing [airbyte]: success
+[2023-05-03 02:47:26] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2023-05-03 02:47:26] INFO root fetch - main [MainThread]: Store serial: [17949078]
