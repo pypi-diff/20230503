@@ -17979,3 +17979,156 @@ No space left on device. Diffoscope exiting.
 [2023-05-03 17:10:36] INFO root fetch - main [MainThread]: End processing [flowkey-dl]: success
 [2023-05-03 17:10:37] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
 [2023-05-03 17:10:37] INFO root fetch - main [MainThread]: Store serial: [17958388]
+[2023-05-03 17:15:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17958388]
+[2023-05-03 17:15:46] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-05-03 17:15:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dynamic-factory
+[2023-05-03 17:15:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: e-models
+[2023-05-03 17:15:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ipfabric
+[2023-05-03 17:15:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yjs_widgets
+[2023-05-03 17:15:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: headless
+[2023-05-03 17:15:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: quantecon-book-theme
+[2023-05-03 17:15:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sphere-snap
+[2023-05-03 17:15:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pypotlib
+[2023-05-03 17:15:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: visaplan.plone.tools
+[2023-05-03 17:15:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: encord-active-components
+[2023-05-03 17:15:46] INFO root fetch - processPackages [dynamic-factory]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-03 17:15:46] INFO root fetch - processPackages [e-models]: New version: [1.2.1.1] Old Version: [1.2.1]
+[2023-05-03 17:15:46] INFO root fetch - processPackages [ipfabric]: New version: [6.2.2] Old Version: [6.2.1]
+[2023-05-03 17:15:46] INFO root fetch - processPackages [encord-active-components]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 17:15:46] INFO root fetch - processPackages [pypotlib]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-03 17:15:46] INFO root fetch - processPackages [sphere-snap]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-03 17:15:46] INFO root fetch - processPackages [quantecon-book-theme]: New version: [0.5.0] Old Version: [0.4.3]
+[2023-05-03 17:15:46] INFO root fetch - processPackages [yjs_widgets]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-03 17:15:46] INFO root fetch - processPackages [headless]: New version: [2.0.0a9] Old Version: [2.0.0a8]
+[2023-05-03 17:15:46] INFO root fetch - processPackages [headless]: Downloading https://files.pythonhosted.org/packages/01/29/f491c1a0644d9df25cc0746859c9830d9b3f44d290ebd1e5de7b756b2490/headless-2.0.0a8.tar.gz
+[2023-05-03 17:15:46] INFO root fetch - processPackages [visaplan.plone.tools]: New version: [1.4.9] Old Version: [1.4.18.1]
+[2023-05-03 17:15:46] INFO root fetch - processPackages [dynamic-factory]: Downloading https://files.pythonhosted.org/packages/a4/08/8423204268bea6a4eadb053bbbc558653847ab2ff85e700783cf3b53eeb7/dynamic_factory-0.1.0.tar.gz
+[2023-05-03 17:15:46] INFO root fetch - processPackages [e-models]: Downloading https://files.pythonhosted.org/packages/f8/68/4e7908ab0ddd80fc39843d7975ccd80a562e5a709a898b906709e6bdaf1f/e-models-1.2.1.tar.gz
+[2023-05-03 17:15:46] INFO root fetch - processPackages [encord-active-components]: executing diffoscope
+[2023-05-03 17:15:46] INFO root fetch - processPackages [encord-active-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/encord_active_components-0.0.8.tar.gz tmp/encord_active_components-0.0.9.tar.gz --markdown 20230503/e/encord-active-components/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 17:15:46] INFO root fetch - processPackages [quantecon-book-theme]: Downloading https://files.pythonhosted.org/packages/0d/64/dd19cb92e84048857defd4e97409293844d872d09532e556bf12d7ae831b/quantecon-book-theme-0.4.3.tar.gz
+[2023-05-03 17:15:46] INFO root fetch - processPackages [yjs_widgets]: Downloading https://files.pythonhosted.org/packages/79/b2/ffa72ab4bbc4faec2257f2f5e042ec391c5b8abb9ae32459a1f473cb78ed/yjs_widgets-0.1.0.tar.gz
+[2023-05-03 17:15:46] INFO root fetch - processPackages [sphere-snap]: Downloading https://files.pythonhosted.org/packages/a9/6c/60613e4c86c55b1a1b2c9c0a520756778d771456e43e712aba2c3161a51b/sphere_snap-0.1.3-py3-none-any.whl
+[2023-05-03 17:15:46] INFO root fetch - processPackages [ipfabric]: Downloading https://files.pythonhosted.org/packages/99/90/290d3b3821d9ba4e6adeaec46d4d7daf216cf6972c79144cae6dbf96cddf/ipfabric-6.2.1.tar.gz
+[2023-05-03 17:15:46] INFO root fetch - processPackages [visaplan.plone.tools]: Downloading https://files.pythonhosted.org/packages/ce/a3/99eef07521ac002cf68dd67c81bc028e8d6a0a20d25755a8afe0dac8d0e8/visaplan.plone.tools-1.4.18.1.tar.gz
+[2023-05-03 17:15:46] WARNING root fetch - processPackages [yjs_widgets]: Skipping package: exceeds size limit 62025574>=10485760
+[2023-05-03 17:15:46] INFO root fetch - processPackages [yjs_widgets]: Start processing: idcode
+[2023-05-03 17:15:46] INFO root fetch - main [MainThread]: End processing [yjs_widgets] error
+[2023-05-03 17:15:46] WARNING root fetch - processPackages [idcode]: Skipping, unable to determine old version
+[2023-05-03 17:15:46] INFO root fetch - processPackages [idcode]: Start processing: FlexGet
+[2023-05-03 17:15:46] INFO root fetch - main [MainThread]: End processing [idcode] error
+[2023-05-03 17:15:46] INFO root fetch - processPackages [pypotlib]: executing diffoscope
+[2023-05-03 17:15:46] INFO root fetch - processPackages [pypotlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypotlib-0.0.7.tar.gz tmp/pypotlib-0.0.8.tar.gz --markdown 20230503/p/pypotlib/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-03 17:15:46] INFO root fetch - processPackages [FlexGet]: New version: [3.6.5] Old Version: [3.6.4]
+[2023-05-03 17:15:46] INFO root fetch - processPackages [sphere-snap]: executing diffoscope
+[2023-05-03 17:15:46] INFO root fetch - processPackages [sphere-snap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphere_snap-0.1.2-py3-none-any.whl.zip tmp/sphere_snap-0.1.3-py3-none-any.whl.zip --markdown 20230503/s/sphere-snap/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-03 17:15:46] INFO root fetch - processPackages [headless]: Downloading https://files.pythonhosted.org/packages/db/4e/49b62296a404c0b751546e8c9091d5f19f25932fffbf24e6927b8888f3d2/headless-2.0.0a9.tar.gz
+[2023-05-03 17:15:46] INFO root fetch - processPackages [FlexGet]: Downloading https://files.pythonhosted.org/packages/7b/4e/39d162026e3b26267174b861d40a700765bd1c1ad40a88f1bac72b183250/FlexGet-3.6.4.tar.gz
+[2023-05-03 17:15:46] INFO root fetch - processPackages [dynamic-factory]: Downloading https://files.pythonhosted.org/packages/8c/39/f0884e9fa2747f07d39f92fdda3a1ce4c2b70528477e54407385cceef995/dynamic_factory-0.1.1.tar.gz
+[2023-05-03 17:15:46] INFO root fetch - processPackages [e-models]: Downloading https://files.pythonhosted.org/packages/f3/81/882f93c8e7174889293f033539af0e10563ebed2a2bb755e7df45db54ab4/e-models-1.2.1.1.tar.gz
+[2023-05-03 17:15:47] INFO root fetch - processPackages [quantecon-book-theme]: Downloading https://files.pythonhosted.org/packages/ba/de/92d7944481b80988d2130f38bc6b5c4c4a055e94fded0756e20c4235eb92/quantecon-book-theme-0.5.0.tar.gz
+[2023-05-03 17:15:47] INFO root fetch - processPackages [ipfabric]: Downloading https://files.pythonhosted.org/packages/98/0e/bad0562475e15992ef74b587e8c2da5991a058cba1260fcfd702adae3063/ipfabric-6.2.2.tar.gz
+[2023-05-03 17:15:47] INFO root fetch - processPackages [dynamic-factory]: executing diffoscope
+[2023-05-03 17:15:47] INFO root fetch - processPackages [dynamic-factory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynamic_factory-0.1.0.tar.gz tmp/dynamic_factory-0.1.1.tar.gz --markdown 20230503/d/dynamic-factory/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-03 17:15:47] INFO root fetch - processPackages [visaplan.plone.tools]: Downloading https://files.pythonhosted.org/packages/09/5c/bcfb9946c19670b01479b2aafe8460da5087f623a2ac5a3005aa4a413ae4/visaplan.plone.tools-1.4.9.tar.gz
+[2023-05-03 17:15:47] INFO root fetch - processPackages [headless]: executing diffoscope
+[2023-05-03 17:15:47] INFO root fetch - processPackages [headless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/headless-2.0.0a8.tar.gz tmp/headless-2.0.0a9.tar.gz --markdown 20230503/h/headless/2.0.0a8-2.0.0a9/diff.md --exclude *.pyd
+[2023-05-03 17:15:47] INFO root fetch - processPackages [e-models]: executing diffoscope
+[2023-05-03 17:15:47] INFO root fetch - processPackages [e-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e-models-1.2.1.tar.gz tmp/e-models-1.2.1.1.tar.gz --markdown 20230503/e/e-models/1.2.1-1.2.1.1/diff.md --exclude *.pyd
+[2023-05-03 17:15:47] INFO root fetch - processPackages [quantecon-book-theme]: executing diffoscope
+[2023-05-03 17:15:47] INFO root fetch - processPackages [quantecon-book-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantecon-book-theme-0.4.3.tar.gz tmp/quantecon-book-theme-0.5.0.tar.gz --markdown 20230503/q/quantecon-book-theme/0.4.3-0.5.0/diff.md --exclude *.pyd
+[2023-05-03 17:15:47] INFO root fetch - processPackages [visaplan.plone.tools]: executing diffoscope
+[2023-05-03 17:15:47] INFO root fetch - processPackages [visaplan.plone.tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visaplan.plone.tools-1.4.18.1.tar.gz tmp/visaplan.plone.tools-1.4.9.tar.gz --markdown 20230503/v/visaplan.plone.tools/1.4.18.1-1.4.9/diff.md --exclude *.pyd
+[2023-05-03 17:15:47] INFO root fetch - processPackages [ipfabric]: executing diffoscope
+[2023-05-03 17:15:47] INFO root fetch - processPackages [ipfabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipfabric-6.2.1.tar.gz tmp/ipfabric-6.2.2.tar.gz --markdown 20230503/i/ipfabric/6.2.1-6.2.2/diff.md --exclude *.pyd
+[2023-05-03 17:15:48] INFO root fetch - processPackages [sphere-snap]: Start processing: html-generators
+[2023-05-03 17:15:48] INFO root fetch - main [MainThread]: End processing [sphere-snap]: success
+[2023-05-03 17:15:48] INFO root fetch - processPackages [dynamic-factory]: Start processing: n64img
+[2023-05-03 17:15:48] INFO root fetch - main [MainThread]: End processing [dynamic-factory]: success
+[2023-05-03 17:15:48] INFO root fetch - processPackages [html-generators]: New version: [2.7.0] Old Version: [2.6.0]
+[2023-05-03 17:15:48] INFO root fetch - processPackages [FlexGet]: executing diffoscope
+[2023-05-03 17:15:48] INFO root fetch - processPackages [FlexGet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FlexGet-3.6.4.tar.gz tmp/FlexGet-3.6.5.tar.gz --markdown 20230503/F/FlexGet/3.6.4-3.6.5/diff.md --exclude *.pyd
+[2023-05-03 17:15:48] INFO root fetch - processPackages [n64img]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-05-03 17:15:48] INFO root fetch - processPackages [html-generators]: Downloading https://files.pythonhosted.org/packages/61/83/c732ce15cb72e853f7caac1a312ad28bd33b3fe46864b22fda1cecee64cd/html_generators-2.6.0.tar.gz
+[2023-05-03 17:15:48] INFO root fetch - processPackages [n64img]: Downloading https://files.pythonhosted.org/packages/44/c1/224905c4fb1c5ab6fe75cd85d29fda9c9d3d02ff8c60b8bd094867e7d32e/n64img-0.2.2.tar.gz
+[2023-05-03 17:15:48] INFO root fetch - processPackages [pypotlib]: Start processing: chatblade
+[2023-05-03 17:15:48] INFO root fetch - main [MainThread]: End processing [pypotlib]: success
+[2023-05-03 17:15:48] INFO root fetch - processPackages [e-models]: Start processing: dactim-mri
+[2023-05-03 17:15:48] INFO root fetch - main [MainThread]: End processing [e-models]: success
+[2023-05-03 17:15:48] INFO root fetch - processPackages [chatblade]: New version: [0.3.0] Old Version: [0.2.3]
+[2023-05-03 17:15:48] INFO root fetch - processPackages [html-generators]: Downloading https://files.pythonhosted.org/packages/ab/a7/bf77b2ce73114b54c2cecb20eb9e1b13d80bd2ebacef2a5b4d9ab49e8748/html_generators-2.7.0.tar.gz
+[2023-05-03 17:15:48] INFO root fetch - processPackages [n64img]: Downloading https://files.pythonhosted.org/packages/a6/63/8ecdc18b8bea5b4f8ca7e306e65ac56a3a885b9f479d1cf6da1c02634809/n64img-0.3.0.tar.gz
+[2023-05-03 17:15:48] INFO root fetch - processPackages [dactim-mri]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-03 17:15:49] INFO root fetch - processPackages [html-generators]: executing diffoscope
+[2023-05-03 17:15:49] INFO root fetch - processPackages [html-generators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/html_generators-2.6.0.tar.gz tmp/html_generators-2.7.0.tar.gz --markdown 20230503/h/html-generators/2.6.0-2.7.0/diff.md --exclude *.pyd
+[2023-05-03 17:15:49] INFO root fetch - processPackages [n64img]: executing diffoscope
+[2023-05-03 17:15:49] INFO root fetch - processPackages [n64img]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/n64img-0.2.2.tar.gz tmp/n64img-0.3.0.tar.gz --markdown 20230503/n/n64img/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-05-03 17:15:49] INFO root fetch - processPackages [quantecon-book-theme]: Start processing: qwak-core
+[2023-05-03 17:15:49] INFO root fetch - main [MainThread]: End processing [quantecon-book-theme]: success
+[2023-05-03 17:15:49] INFO root fetch - processPackages [qwak-core]: New version: [0.0.48] Old Version: [0.0.47]
+[2023-05-03 17:15:49] INFO root fetch - processPackages [chatblade]: Downloading https://files.pythonhosted.org/packages/23/b9/31ee0c050069c212d09027129e37fb0e5392c1827770bfe046977cac9340/chatblade-0.2.3.tar.gz
+[2023-05-03 17:15:49] INFO root fetch - processPackages [dactim-mri]: Downloading https://files.pythonhosted.org/packages/b5/14/46462bda18d42c7b5084d50bcfa70a28989bf010f2715e315996e0e5065a/dactim_mri-0.0.4.tar.gz
+[2023-05-03 17:15:49] INFO root fetch - processPackages [headless]: Start processing: clip-bbox
+[2023-05-03 17:15:49] INFO root fetch - main [MainThread]: End processing [headless]: success
+[2023-05-03 17:15:49] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/07/d9/ba06847dcf511d053b5eb7629c11218ca2c7725066012dd3e83dd44f5af1/qwak_core-0.0.48.tar.gz
+[2023-05-03 17:15:49] INFO root fetch - processPackages [chatblade]: Downloading https://files.pythonhosted.org/packages/fc/f0/8b80162015ec3ac16ddba5003ae9bf6633b1f2051aea52c14a4649a65b85/chatblade-0.3.0.tar.gz
+[2023-05-03 17:15:49] INFO root fetch - processPackages [clip-bbox]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-03 17:15:49] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-05-03 17:15:49] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.47.tar.gz tmp/qwak_core-0.0.48.tar.gz --markdown 20230503/q/qwak-core/0.0.47-0.0.48/diff.md --exclude *.pyd
+[2023-05-03 17:15:49] INFO root fetch - processPackages [visaplan.plone.tools]: Start processing: certora-cli-alpha-otakar-single-race-mode2
+[2023-05-03 17:15:49] INFO root fetch - main [MainThread]: End processing [visaplan.plone.tools]: success
+[2023-05-03 17:15:49] INFO root fetch - processPackages [chatblade]: executing diffoscope
+[2023-05-03 17:15:49] INFO root fetch - processPackages [chatblade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatblade-0.2.3.tar.gz tmp/chatblade-0.3.0.tar.gz --markdown 20230503/c/chatblade/0.2.3-0.3.0/diff.md --exclude *.pyd
+[2023-05-03 17:15:49] INFO root fetch - processPackages [certora-cli-alpha-otakar-single-race-mode2]: New version: [20230503.8.53.191468] Old Version: [20230503.8.12.524686]
+[2023-05-03 17:15:49] INFO root fetch - processPackages [dactim-mri]: Downloading https://files.pythonhosted.org/packages/67/4a/4327b9ca201dc14105494f6796431c927266d1ae51a0665834be2dd2efa8/dactim_mri-0.0.5.tar.gz
+[2023-05-03 17:15:49] INFO root fetch - processPackages [certora-cli-alpha-otakar-single-race-mode2]: Downloading https://files.pythonhosted.org/packages/ca/cd/bc1aa10a53764171fa1a9f31e145decd35b74ca212a6dc16afbc594f18ac/certora-cli-alpha-otakar-single_race_mode2-20230503.8.12.524686.tar.gz
+[2023-05-03 17:15:49] INFO root fetch - processPackages [clip-bbox]: Downloading https://files.pythonhosted.org/packages/14/86/222878d8c89c50a393b86fbb6656f3d3e828d09abf878edc572379c351d4/clip_bbox-0.2.0.tar.gz
+[2023-05-03 17:15:49] WARNING root fetch - processPackages [certora-cli-alpha-otakar-single-race-mode2]: Skipping package: exceeds size limit 38381785>=10485760
+[2023-05-03 17:15:49] INFO root fetch - processPackages [certora-cli-alpha-otakar-single-race-mode2]: Start processing: nsloader
+[2023-05-03 17:15:49] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-otakar-single-race-mode2] error
+[2023-05-03 17:15:49] INFO root fetch - processPackages [dactim-mri]: executing diffoscope
+[2023-05-03 17:15:49] INFO root fetch - processPackages [dactim-mri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dactim_mri-0.0.4.tar.gz tmp/dactim_mri-0.0.5.tar.gz --markdown 20230503/d/dactim-mri/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-03 17:15:49] WARNING root fetch - processPackages [nsloader]: Skipping, unable to determine old version
+[2023-05-03 17:15:49] INFO root fetch - processPackages [nsloader]: Start processing: ftw-django-utils
+[2023-05-03 17:15:49] INFO root fetch - main [MainThread]: End processing [nsloader] error
+[2023-05-03 17:15:49] INFO root fetch - processPackages [ftw-django-utils]: New version: [2023.2.0] Old Version: [2023.1.1]
+[2023-05-03 17:15:49] INFO root fetch - processPackages [clip-bbox]: Downloading https://files.pythonhosted.org/packages/be/3f/c04a3532a115231f4baccd6b9ae3c18aea728857f8e20fb81ef6fd75d8ee/clip_bbox-0.3.0.tar.gz
+[2023-05-03 17:15:50] INFO root fetch - processPackages [ftw-django-utils]: Downloading https://files.pythonhosted.org/packages/a1/3f/8cc50e0a3c4ce9e84849c03bc20f91535e61a00d274007946b5f25f0351a/ftw_django_utils-2023.1.1.tar.gz
+[2023-05-03 17:15:50] INFO root fetch - processPackages [clip-bbox]: executing diffoscope
+[2023-05-03 17:15:50] INFO root fetch - processPackages [clip-bbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clip_bbox-0.2.0.tar.gz tmp/clip_bbox-0.3.0.tar.gz --markdown 20230503/c/clip-bbox/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-03 17:15:50] INFO root fetch - processPackages [n64img]: Start processing: types-paramiko
+[2023-05-03 17:15:50] INFO root fetch - main [MainThread]: End processing [n64img]: success
+[2023-05-03 17:15:50] INFO root fetch - processPackages [ftw-django-utils]: Downloading https://files.pythonhosted.org/packages/23/73/65e2f71ff6ece20116db6a94fb59460dcb4f09f1f87ee9738fc1ffdd8042/ftw_django_utils-2023.2.0.tar.gz
+[2023-05-03 17:15:50] INFO root fetch - processPackages [ftw-django-utils]: executing diffoscope
+[2023-05-03 17:15:50] INFO root fetch - processPackages [ftw-django-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ftw_django_utils-2023.1.1.tar.gz tmp/ftw_django_utils-2023.2.0.tar.gz --markdown 20230503/f/ftw-django-utils/2023.1.1-2023.2.0/diff.md --exclude *.pyd
+[2023-05-03 17:15:50] INFO root fetch - processPackages [types-paramiko]: New version: [3.0.0.9] Old Version: [3.0.0.8]
+[2023-05-03 17:15:50] INFO root fetch - processPackages [types-paramiko]: Downloading https://files.pythonhosted.org/packages/2b/1b/04ae0aef8a14c180f18eac97479d277050043cb66a4b25ccf32dfe85c3bc/types-paramiko-3.0.0.8.tar.gz
+[2023-05-03 17:15:50] INFO root fetch - processPackages [html-generators]: Start processing: types-fpdf2
+[2023-05-03 17:15:50] INFO root fetch - main [MainThread]: End processing [html-generators]: success
+[2023-05-03 17:15:50] INFO root fetch - processPackages [types-fpdf2]: New version: [2.7.1.0] Old Version: [2.6.1.9]
+[2023-05-03 17:15:50] INFO root fetch - processPackages [ipfabric]: Start processing: schubismomv2
+[2023-05-03 17:15:50] INFO root fetch - main [MainThread]: End processing [ipfabric]: success
+[2023-05-03 17:15:50] INFO root fetch - processPackages [types-paramiko]: Downloading https://files.pythonhosted.org/packages/ff/7a/fa7a650fd0b4457db07dea149e008f11746e96b5a59d14f833852906496e/types-paramiko-3.0.0.9.tar.gz
+[2023-05-03 17:15:50] INFO root fetch - processPackages [chatblade]: Start processing: bluetooth-auto-recovery
+[2023-05-03 17:15:50] INFO root fetch - main [MainThread]: End processing [chatblade]: success
+[2023-05-03 17:15:50] ERROR root fetch - processPackages [schubismomv2]: Unable to get metadata: No such project 'schubismomv2'
+[2023-05-03 17:15:50] INFO root fetch - main [MainThread]: End processing [schubismomv2] error
+[2023-05-03 17:15:50] INFO root fetch - processPackages [types-paramiko]: executing diffoscope
+[2023-05-03 17:15:50] INFO root fetch - processPackages [types-fpdf2]: Downloading https://files.pythonhosted.org/packages/29/13/df992efc7231eb32836ab10ee9bcd648648f59603c630c59f2006f00faee/types-fpdf2-2.6.1.9.tar.gz
+[2023-05-03 17:15:50] INFO root fetch - processPackages [types-paramiko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-paramiko-3.0.0.8.tar.gz tmp/types-paramiko-3.0.0.9.tar.gz --markdown 20230503/t/types-paramiko/3.0.0.8-3.0.0.9/diff.md --exclude *.pyd
+[2023-05-03 17:15:51] INFO root fetch - processPackages [bluetooth-auto-recovery]: New version: [1.1.0] Old Version: [1.0.3]
+[2023-05-03 17:15:51] INFO root fetch - processPackages [bluetooth-auto-recovery]: executing diffoscope
+[2023-05-03 17:15:51] INFO root fetch - processPackages [bluetooth-auto-recovery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluetooth_auto_recovery-1.0.3.tar.gz tmp/bluetooth_auto_recovery-1.1.0.tar.gz --markdown 20230503/b/bluetooth-auto-recovery/1.0.3-1.1.0/diff.md --exclude *.pyd
+[2023-05-03 17:15:51] INFO root fetch - main [MainThread]: End processing [dactim-mri]: success
+[2023-05-03 17:15:51] INFO root fetch - processPackages [types-fpdf2]: Downloading https://files.pythonhosted.org/packages/8e/9f/94950730137ac27a8ee89659ddb9b6a197e78435a50b348f0596d6e378a5/types-fpdf2-2.7.1.0.tar.gz
+[2023-05-03 17:15:51] INFO root fetch - processPackages [types-fpdf2]: executing diffoscope
+[2023-05-03 17:15:51] INFO root fetch - processPackages [types-fpdf2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-fpdf2-2.6.1.9.tar.gz tmp/types-fpdf2-2.7.1.0.tar.gz --markdown 20230503/t/types-fpdf2/2.6.1.9-2.7.1.0/diff.md --exclude *.pyd
+[2023-05-03 17:15:51] INFO root fetch - main [MainThread]: End processing [ftw-django-utils]: success
+[2023-05-03 17:15:52] INFO root fetch - main [MainThread]: End processing [bluetooth-auto-recovery]: success
+[2023-05-03 17:15:52] INFO root fetch - main [MainThread]: End processing [types-paramiko]: success
+[2023-05-03 17:15:52] INFO root fetch - main [MainThread]: End processing [types-fpdf2]: success
+[2023-05-03 17:15:53] INFO root fetch - main [MainThread]: End processing [clip-bbox]: success
+[2023-05-03 17:15:54] INFO root fetch - main [MainThread]: End processing [encord-active-components]: success
+[2023-05-03 17:15:55] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-05-03 17:15:59] INFO root fetch - main [MainThread]: End processing [FlexGet]: success
+[2023-05-03 17:15:59] INFO root fetch - main [MainThread]: Store serial: [17958463]
