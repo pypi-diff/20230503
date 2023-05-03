@@ -23545,3 +23545,150 @@ EOFError: EOF read where object expected
 [2023-05-03 21:52:19] INFO root fetch - main [MainThread]: End processing [cbra]: success
 [2023-05-03 21:52:22] INFO root fetch - main [MainThread]: End processing [ytsaurus-spyt]: success
 [2023-05-03 21:52:22] INFO root fetch - main [MainThread]: Store serial: [17961861]
+[2023-05-03 21:57:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17961861]
+[2023-05-03 21:57:31] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-05-03 21:57:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: heaserver
+[2023-05-03 21:57:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vortex-api
+[2023-05-03 21:57:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-drf-cms
+[2023-05-03 21:57:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ytsaurus-spyt
+[2023-05-03 21:57:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mvn
+[2023-05-03 21:57:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: negotium
+[2023-05-03 21:57:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: negotium
+[2023-05-03 21:57:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: negotium
+[2023-05-03 21:57:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: negotium-test
+[2023-05-03 21:57:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: glesys
+[2023-05-03 21:57:31] INFO root fetch - processPackages [heaserver]: New version: [1.0.0a99] Old Version: [1.0.0a98]
+[2023-05-03 21:57:31] INFO root fetch - processPackages [vortex-api]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-03 21:57:31] INFO root fetch - processPackages [negotium]: New version: [0.0.2] Old Version: [0.0.1a1]
+[2023-05-03 21:57:31] WARNING root fetch - processPackages [mvn]: Skipping, unable to determine old version
+[2023-05-03 21:57:31] INFO root fetch - processPackages [mvn]: Start processing: yam
+[2023-05-03 21:57:31] INFO root fetch - main [MainThread]: End processing [mvn] error
+[2023-05-03 21:57:31] INFO root fetch - processPackages [negotium]: New version: [0.0.2] Old Version: [0.0.1a1]
+[2023-05-03 21:57:31] INFO root fetch - processPackages [ytsaurus-spyt]: New version: [1.70.1b444.post15369525.dev8] Old Version: [1.70.1b444.post12006552.dev9]
+[2023-05-03 21:57:31] ERROR root fetch - processPackages [negotium-test]: Unable to get metadata: No such project 'negotium-test'
+[2023-05-03 21:57:31] INFO root fetch - processPackages [negotium]: New version: [0.0.2] Old Version: [0.0.1a1]
+[2023-05-03 21:57:31] INFO root fetch - processPackages [django-drf-cms]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-03 21:57:31] INFO root fetch - processPackages [negotium-test]: Start processing: synapse
+[2023-05-03 21:57:31] INFO root fetch - main [MainThread]: End processing [negotium-test] error
+[2023-05-03 21:57:31] INFO root fetch - processPackages [glesys]: New version: [0.2] Old Version: [0.1]
+[2023-05-03 21:57:31] INFO root fetch - processPackages [yam]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-05-03 21:57:31] INFO root fetch - processPackages [synapse]: New version: [2.99.0] Old Version: [2.98.0]
+[2023-05-03 21:57:31] INFO root fetch - processPackages [synapse]: Downloading https://files.pythonhosted.org/packages/a0/16/05b574cbcacea5a4e03b3992f83fa15d65e908bbe429c52c6c618808810e/synapse-2.98.0.tar.gz
+[2023-05-03 21:57:31] INFO root fetch - processPackages [negotium]: Downloading https://files.pythonhosted.org/packages/8e/9f/4029cec0848786a4c1949b0ef333aa47b508f9cf168a4e8e5b218560db5c/negotium-0.0.1a1.tar.gz
+[2023-05-03 21:57:31] INFO root fetch - processPackages [ytsaurus-spyt]: Downloading https://files.pythonhosted.org/packages/2e/d5/1004d47caa9b4e9966472e71172c3a2e0f49ab2af4dbb8217232c7d7f9cd/ytsaurus-spyt-1.70.1b444.post12006552.dev9.tar.gz
+[2023-05-03 21:57:31] INFO root fetch - processPackages [negotium]: Downloading https://files.pythonhosted.org/packages/8e/9f/4029cec0848786a4c1949b0ef333aa47b508f9cf168a4e8e5b218560db5c/negotium-0.0.1a1.tar.gz
+[2023-05-03 21:57:31] INFO root fetch - processPackages [negotium]: Downloading https://files.pythonhosted.org/packages/8e/9f/4029cec0848786a4c1949b0ef333aa47b508f9cf168a4e8e5b218560db5c/negotium-0.0.1a1.tar.gz
+[2023-05-03 21:57:31] INFO root fetch - processPackages [vortex-api]: Downloading https://files.pythonhosted.org/packages/d7/37/9739b3288d7ef0534a50084195b6dc71680a9e8f7d44228677aa59cf182a/vortex_api-1.0.1.tar.gz
+[2023-05-03 21:57:31] INFO root fetch - processPackages [glesys]: Downloading https://files.pythonhosted.org/packages/90/90/f827a45ae8b8bc02473e729f89ae3911e10b6f50e3a9d03f86ec1cfe4ac7/glesys-0.1.tar.gz
+[2023-05-03 21:57:32] INFO root fetch - processPackages [django-drf-cms]: executing diffoscope
+[2023-05-03 21:57:32] INFO root fetch - processPackages [django-drf-cms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-drf-cms-0.1.8.tar.gz tmp/django-drf-cms-0.1.9.tar.gz --markdown 20230503/d/django-drf-cms/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-03 21:57:32] INFO root fetch - processPackages [yam]: Downloading https://files.pythonhosted.org/packages/d4/dc/7e90b334ba4c695763ea2be89461fff1e33f4f568288659ecf4cd9f06b11/yam-0.7.1.tar.gz
+[2023-05-03 21:57:32] INFO root fetch - processPackages [negotium]: Downloading https://files.pythonhosted.org/packages/0b/50/d982ce64b8297ef6aa1a2176722fc6d5688dd8d2dd80ee2f247c049ab04a/negotium-0.0.2.tar.gz
+[2023-05-03 21:57:32] INFO root fetch - processPackages [negotium]: Downloading https://files.pythonhosted.org/packages/0b/50/d982ce64b8297ef6aa1a2176722fc6d5688dd8d2dd80ee2f247c049ab04a/negotium-0.0.2.tar.gz
+[2023-05-03 21:57:32] INFO root fetch - processPackages [negotium]: Downloading https://files.pythonhosted.org/packages/0b/50/d982ce64b8297ef6aa1a2176722fc6d5688dd8d2dd80ee2f247c049ab04a/negotium-0.0.2.tar.gz
+[2023-05-03 21:57:32] INFO root fetch - processPackages [heaserver]: executing diffoscope
+[2023-05-03 21:57:32] INFO root fetch - processPackages [heaserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver-1.0.0a98.tar.gz tmp/heaserver-1.0.0a99.tar.gz --markdown 20230503/h/heaserver/1.0.0a98-1.0.0a99/diff.md --exclude *.pyd
+[2023-05-03 21:57:32] INFO root fetch - processPackages [glesys]: Downloading https://files.pythonhosted.org/packages/9f/be/65057a5294242bdb7b0fe6fae749dc01c4af58e46b6a117a5975673b0a80/glesys-0.2.tar.gz
+[2023-05-03 21:57:32] INFO root fetch - processPackages [negotium]: executing diffoscope
+[2023-05-03 21:57:32] INFO root fetch - processPackages [negotium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/negotium-0.0.1a1.tar.gz tmp/negotium-0.0.2.tar.gz --markdown 20230503/n/negotium/0.0.1a1-0.0.2/diff.md --exclude *.pyd
+[2023-05-03 21:57:32] INFO root fetch - processPackages [negotium]: executing diffoscope
+[2023-05-03 21:57:32] INFO root fetch - processPackages [negotium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/negotium-0.0.1a1.tar.gz tmp/negotium-0.0.2.tar.gz --markdown 20230503/n/negotium/0.0.1a1-0.0.2/diff.md --exclude *.pyd
+[2023-05-03 21:57:32] INFO root fetch - processPackages [vortex-api]: Downloading https://files.pythonhosted.org/packages/ce/ce/aeb458cd6a1053871bc3b5668b20bf0acb6eef13ca595cc86f045d7061cc/vortex_api-1.0.2.tar.gz
+[2023-05-03 21:57:32] INFO root fetch - processPackages [negotium]: executing diffoscope
+[2023-05-03 21:57:32] INFO root fetch - processPackages [ytsaurus-spyt]: executing diffoscope
+[2023-05-03 21:57:32] INFO root fetch - processPackages [negotium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/negotium-0.0.1a1.tar.gz tmp/negotium-0.0.2.tar.gz --markdown 20230503/n/negotium/0.0.1a1-0.0.2/diff.md --exclude *.pyd
+[2023-05-03 21:57:32] INFO root fetch - processPackages [ytsaurus-spyt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ytsaurus-spyt-1.70.1b444.post12006552.dev9.tar.gz tmp/ytsaurus-spyt-1.70.1b444.post15369525.dev8.tar.gz --markdown 20230503/y/ytsaurus-spyt/1.70.1b444.post12006552.dev9-1.70.1b444.post15369525.dev8/diff.md --exclude *.pyd
+[2023-05-03 21:57:32] INFO root fetch - processPackages [yam]: Downloading https://files.pythonhosted.org/packages/36/8a/b2934db43679c13671a105f0fe5480f0624db64daab6b34888d1e4f88696/yam-0.7.2.tar.gz
+[2023-05-03 21:57:32] INFO root fetch - processPackages [glesys]: executing diffoscope
+[2023-05-03 21:57:32] INFO root fetch - processPackages [glesys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glesys-0.1.tar.gz tmp/glesys-0.2.tar.gz --markdown 20230503/g/glesys/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-03 21:57:32] INFO root fetch - processPackages [vortex-api]: executing diffoscope
+[2023-05-03 21:57:32] INFO root fetch - processPackages [vortex-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vortex_api-1.0.1.tar.gz tmp/vortex_api-1.0.2.tar.gz --markdown 20230503/v/vortex-api/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-03 21:57:32] INFO root fetch - processPackages [yam]: executing diffoscope
+[2023-05-03 21:57:32] INFO root fetch - processPackages [yam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yam-0.7.1.tar.gz tmp/yam-0.7.2.tar.gz --markdown 20230503/y/yam/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-05-03 21:57:32] INFO root fetch - processPackages [synapse]: Downloading https://files.pythonhosted.org/packages/6d/c7/9f83caee3522a85b4e4c80a4308801fb6bbbdcd7ba86efd93fd74ee3accf/synapse-2.99.0.tar.gz
+[2023-05-03 21:57:33] INFO root fetch - processPackages [django-drf-cms]: Start processing: cttd
+[2023-05-03 21:57:33] INFO root fetch - main [MainThread]: End processing [django-drf-cms]: success
+[2023-05-03 21:57:33] INFO root fetch - processPackages [cttd]: New version: [0.0.1a3] Old Version: [0.0.1a2]
+[2023-05-03 21:57:33] INFO root fetch - processPackages [synapse]: executing diffoscope
+[2023-05-03 21:57:33] INFO root fetch - processPackages [synapse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synapse-2.98.0.tar.gz tmp/synapse-2.99.0.tar.gz --markdown 20230503/s/synapse/2.98.0-2.99.0/diff.md --exclude *.pyd
+[2023-05-03 21:57:33] INFO root fetch - processPackages [cttd]: Downloading https://files.pythonhosted.org/packages/ec/ae/4620f0191815e7b7609722c002f9933d96f58ea0efa6a08154a248dc9dd8/cttd-0.0.1a2.tar.gz
+[2023-05-03 21:57:33] INFO root fetch - processPackages [negotium]: Start processing: datasketches
+[2023-05-03 21:57:33] INFO root fetch - main [MainThread]: End processing [negotium]: success
+[2023-05-03 21:57:33] INFO root fetch - processPackages [datasketches]: New version: [4.1.0] Old Version: [4.0.1]
+[2023-05-03 21:57:33] INFO root fetch - processPackages [negotium]: Start processing: mparticle
+[2023-05-03 21:57:33] INFO root fetch - main [MainThread]: End processing [negotium]: success
+[2023-05-03 21:57:33] INFO root fetch - processPackages [mparticle]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-05-03 21:57:33] INFO root fetch - processPackages [negotium]: Start processing: cttd
+[2023-05-03 21:57:33] INFO root fetch - main [MainThread]: End processing [negotium]: success
+[2023-05-03 21:57:33] INFO root fetch - processPackages [cttd]: New version: [0.0.1a3] Old Version: [0.0.1a2]
+[2023-05-03 21:57:33] INFO root fetch - processPackages [cttd]: Downloading https://files.pythonhosted.org/packages/62/cc/7ee512c0f1c31f29c946741ebd3179859fdd8020958e6f26ddf1f809a9ba/cttd-0.0.1a3.tar.gz
+[2023-05-03 21:57:34] INFO root fetch - processPackages [cttd]: Downloading https://files.pythonhosted.org/packages/62/cc/7ee512c0f1c31f29c946741ebd3179859fdd8020958e6f26ddf1f809a9ba/cttd-0.0.1a3.tar.gz
+[2023-05-03 21:57:34] INFO root fetch - processPackages [datasketches]: Downloading https://files.pythonhosted.org/packages/9e/7d/702404d490fabd8f6397e1a6544211e021d52a31445126139127713be194/datasketches-4.0.1.tar.gz
+[2023-05-03 21:57:34] INFO root fetch - processPackages [ytsaurus-spyt]: Start processing: nonebot-plugin-wordle-help
+[2023-05-03 21:57:34] INFO root fetch - main [MainThread]: End processing [ytsaurus-spyt]: success
+[2023-05-03 21:57:34] WARNING root fetch - processPackages [nonebot-plugin-wordle-help]: Skipping, unable to determine old version
+[2023-05-03 21:57:34] INFO root fetch - processPackages [nonebot-plugin-wordle-help]: Start processing: mystring
+[2023-05-03 21:57:34] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-wordle-help] error
+[2023-05-03 21:57:34] INFO root fetch - processPackages [mystring]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 21:57:34] INFO root fetch - processPackages [mparticle]: Downloading https://files.pythonhosted.org/packages/e0/83/22796d7ab0978ea18e26851e4541eb627cc4d7b5c85b22b1e15705782c4e/mparticle-0.9.5.tar.gz
+[2023-05-03 21:57:34] INFO root fetch - processPackages [vortex-api]: Start processing: pycmsgen
+[2023-05-03 21:57:34] INFO root fetch - main [MainThread]: End processing [vortex-api]: success
+[2023-05-03 21:57:34] INFO root fetch - processPackages [cttd]: executing diffoscope
+[2023-05-03 21:57:34] INFO root fetch - processPackages [cttd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cttd-0.0.1a2.tar.gz tmp/cttd-0.0.1a3.tar.gz --markdown 20230503/c/cttd/0.0.1a2-0.0.1a3/diff.md --exclude *.pyd
+[2023-05-03 21:57:34] INFO root fetch - processPackages [cttd]: executing diffoscope
+[2023-05-03 21:57:34] INFO root fetch - processPackages [cttd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cttd-0.0.1a2.tar.gz tmp/cttd-0.0.1a3.tar.gz --markdown 20230503/c/cttd/0.0.1a2-0.0.1a3/diff.md --exclude *.pyd
+[2023-05-03 21:57:34] INFO root fetch - processPackages [pycmsgen]: New version: [6.0.2] Old Version: [6.0.1]
+[2023-05-03 21:57:34] INFO root fetch - processPackages [mystring]: executing diffoscope
+[2023-05-03 21:57:34] INFO root fetch - processPackages [mystring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mystring-0.0.8.tar.gz tmp/mystring-0.0.9.tar.gz --markdown 20230503/m/mystring/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 21:57:34] INFO root fetch - processPackages [glesys]: Start processing: fastphrase
+[2023-05-03 21:57:34] INFO root fetch - main [MainThread]: End processing [glesys]: success
+[2023-05-03 21:57:34] INFO root fetch - processPackages [fastphrase]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-03 21:57:34] INFO root fetch - processPackages [pycmsgen]: Downloading https://files.pythonhosted.org/packages/c4/70/69dcd6dede25f3efa5feac13959d75160b11515246104c0771ab5035db15/pycmsgen-6.0.1.tar.gz
+[2023-05-03 21:57:34] INFO root fetch - processPackages [datasketches]: Downloading https://files.pythonhosted.org/packages/8d/f2/32b51b2c805506d3845bf8c8b482325d51420c4d4130f37e04d38076ef43/datasketches-4.1.0.tar.gz
+[2023-05-03 21:57:34] INFO root fetch - processPackages [mparticle]: Downloading https://files.pythonhosted.org/packages/94/a3/a70b0311e50bc67c44af89c96d178388c1fdb1a9b6acf96a73904ee945e2/mparticle-0.9.6.tar.gz
+[2023-05-03 21:57:34] INFO root fetch - processPackages [pycmsgen]: Downloading https://files.pythonhosted.org/packages/6c/40/319337ae1da0cc290f15cef5b8745c1d9fb2a91e086b6e2eee7598147c5a/pycmsgen-6.0.2.tar.gz
+[2023-05-03 21:57:34] INFO root fetch - processPackages [fastphrase]: executing diffoscope
+[2023-05-03 21:57:34] INFO root fetch - processPackages [fastphrase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastphrase-0.0.4.tar.gz tmp/fastphrase-0.0.5.tar.gz --markdown 20230503/f/fastphrase/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-03 21:57:34] INFO root fetch - processPackages [mparticle]: executing diffoscope
+[2023-05-03 21:57:34] INFO root fetch - processPackages [mparticle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mparticle-0.9.5.tar.gz tmp/mparticle-0.9.6.tar.gz --markdown 20230503/m/mparticle/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-05-03 21:57:34] INFO root fetch - processPackages [datasketches]: executing diffoscope
+[2023-05-03 21:57:34] INFO root fetch - processPackages [datasketches]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasketches-4.0.1.tar.gz tmp/datasketches-4.1.0.tar.gz --markdown 20230503/d/datasketches/4.0.1-4.1.0/diff.md --exclude *.pyd
+[2023-05-03 21:57:34] INFO root fetch - processPackages [pycmsgen]: executing diffoscope
+[2023-05-03 21:57:34] INFO root fetch - processPackages [pycmsgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycmsgen-6.0.1.tar.gz tmp/pycmsgen-6.0.2.tar.gz --markdown 20230503/p/pycmsgen/6.0.1-6.0.2/diff.md --exclude *.pyd
+[2023-05-03 21:57:34] INFO root fetch - processPackages [yam]: Start processing: e-qsl
+[2023-05-03 21:57:34] INFO root fetch - main [MainThread]: End processing [yam]: success
+[2023-05-03 21:57:34] INFO root fetch - processPackages [e-qsl]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-03 21:57:34] INFO root fetch - processPackages [heaserver]: Start processing: lil-nocap
+[2023-05-03 21:57:34] INFO root fetch - main [MainThread]: End processing [heaserver]: success
+[2023-05-03 21:57:34] INFO root fetch - processPackages [lil-nocap]: New version: [0.5.4] Old Version: [0.5.2]
+[2023-05-03 21:57:35] INFO root fetch - processPackages [e-qsl]: executing diffoscope
+[2023-05-03 21:57:35] INFO root fetch - processPackages [e-qsl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e-qsl-0.1.8.tar.gz tmp/e-qsl-0.1.9.tar.gz --markdown 20230503/e/e-qsl/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-03 21:57:35] INFO root fetch - processPackages [lil-nocap]: Downloading https://files.pythonhosted.org/packages/f6/ac/fdd8daa50fbe529ec0420312cd19e39cc814ac6d7b485aca9f494866a625/lil_nocap-0.5.2.tar.gz
+[2023-05-03 21:57:35] INFO root fetch - processPackages [lil-nocap]: Downloading https://files.pythonhosted.org/packages/56/78/6056a109a171c976f36de98aa1b804846373107460e97d14a137dc75a4d2/lil_nocap-0.5.4.tar.gz
+[2023-05-03 21:57:35] INFO root fetch - processPackages [cttd]: Start processing: omemo-dr
+[2023-05-03 21:57:35] INFO root fetch - main [MainThread]: End processing [cttd]: success
+[2023-05-03 21:57:35] INFO root fetch - processPackages [mystring]: Start processing: mecha
+[2023-05-03 21:57:35] INFO root fetch - main [MainThread]: End processing [mystring]: success
+[2023-05-03 21:57:35] INFO root fetch - processPackages [lil-nocap]: executing diffoscope
+[2023-05-03 21:57:35] INFO root fetch - processPackages [lil-nocap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lil_nocap-0.5.2.tar.gz tmp/lil_nocap-0.5.4.tar.gz --markdown 20230503/l/lil-nocap/0.5.2-0.5.4/diff.md --exclude *.pyd
+[2023-05-03 21:57:35] INFO root fetch - main [MainThread]: End processing [cttd]: success
+[2023-05-03 21:57:35] INFO root fetch - processPackages [omemo-dr]: New version: [0.99.1] Old Version: [0.99.0]
+[2023-05-03 21:57:35] INFO root fetch - processPackages [mecha]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-03 21:57:35] INFO root fetch - processPackages [omemo-dr]: Downloading https://files.pythonhosted.org/packages/ca/36/35ffe5e84134e01b16ec6086ace350297ea0755315707d99145db55f152e/omemo-dr-0.99.0.tar.gz
+[2023-05-03 21:57:35] INFO root fetch - processPackages [mecha]: Downloading https://files.pythonhosted.org/packages/28/57/da22dd551f33f6b582c19b734b74b26aee1d4803dcb574a2f1364532ba4d/mecha-0.9.1.tar.gz
+[2023-05-03 21:57:35] INFO root fetch - main [MainThread]: End processing [fastphrase]: success
+[2023-05-03 21:57:36] INFO root fetch - processPackages [omemo-dr]: Downloading https://files.pythonhosted.org/packages/3a/6f/71e575d9a84527af4c4f7968b0aa464ed61d12635a29f6701ba102cd0625/omemo-dr-0.99.1.tar.gz
+[2023-05-03 21:57:36] INFO root fetch - processPackages [mecha]: Downloading https://files.pythonhosted.org/packages/6f/a1/0f57164803886c9e226d6e5c23400fa86bc0a33db9e0dde0312bc627047f/mecha-0.9.2.tar.gz
+[2023-05-03 21:57:36] INFO root fetch - main [MainThread]: End processing [mparticle]: success
+[2023-05-03 21:57:36] INFO root fetch - processPackages [mecha]: executing diffoscope
+[2023-05-03 21:57:36] INFO root fetch - processPackages [mecha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mecha-0.9.1.tar.gz tmp/mecha-0.9.2.tar.gz --markdown 20230503/m/mecha/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-03 21:57:36] INFO root fetch - processPackages [omemo-dr]: executing diffoscope
+[2023-05-03 21:57:36] INFO root fetch - processPackages [omemo-dr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omemo-dr-0.99.0.tar.gz tmp/omemo-dr-0.99.1.tar.gz --markdown 20230503/o/omemo-dr/0.99.0-0.99.1/diff.md --exclude *.pyd
+[2023-05-03 21:57:36] INFO root fetch - main [MainThread]: End processing [lil-nocap]: success
+[2023-05-03 21:57:36] INFO root fetch - main [MainThread]: End processing [pycmsgen]: success
+[2023-05-03 21:57:37] INFO root fetch - main [MainThread]: End processing [mecha]: success
+[2023-05-03 21:57:38] INFO root fetch - main [MainThread]: End processing [e-qsl]: success
+[2023-05-03 21:57:38] INFO root fetch - main [MainThread]: End processing [omemo-dr]: success
+[2023-05-03 21:57:38] INFO root fetch - main [MainThread]: End processing [datasketches]: success
+[2023-05-03 21:57:41] INFO root fetch - main [MainThread]: End processing [synapse]: success
+[2023-05-03 21:57:41] INFO root fetch - main [MainThread]: Store serial: [17961986]
