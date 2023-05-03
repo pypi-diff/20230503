@@ -16144,3 +16144,135 @@ No space left on device. Diffoscope exiting.
 [2023-05-03 15:41:51] INFO root fetch - main [MainThread]: End processing [lti-consumer-xblock]: success
 [2023-05-03 15:41:52] INFO root fetch - main [MainThread]: End processing [camerahub]: success
 [2023-05-03 15:41:52] INFO root fetch - main [MainThread]: Store serial: [17957147]
+[2023-05-03 15:46:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17957147]
+[2023-05-03 15:47:01] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-05-03 15:47:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: saenopy
+[2023-05-03 15:47:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: localstack-core
+[2023-05-03 15:47:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: camerahub
+[2023-05-03 15:47:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kBmc
+[2023-05-03 15:47:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pfstools
+[2023-05-03 15:47:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ilpy
+[2023-05-03 15:47:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-pg-simple-hll
+[2023-05-03 15:47:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: CASTING
+[2023-05-03 15:47:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: plot-antenna
+[2023-05-03 15:47:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sphere-snap
+[2023-05-03 15:47:01] INFO root fetch - processPackages [localstack-core]: New version: [2.0.3.dev20230503134209] Old Version: [2.0.3.dev20230503120601]
+[2023-05-03 15:47:01] INFO root fetch - processPackages [saenopy]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-03 15:47:01] WARNING root fetch - processPackages [sphere-snap]: Skipping, unable to determine old version
+[2023-05-03 15:47:01] INFO root fetch - processPackages [sphere-snap]: Start processing: snapml
+[2023-05-03 15:47:01] INFO root fetch - main [MainThread]: End processing [sphere-snap] error
+[2023-05-03 15:47:01] INFO root fetch - processPackages [django-pg-simple-hll]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-05-03 15:47:01] INFO root fetch - processPackages [CASTING]: New version: [0.1.3] Old Version: [0.1.2b0]
+[2023-05-03 15:47:01] INFO root fetch - processPackages [pfstools]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-03 15:47:01] INFO root fetch - processPackages [kBmc]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-05-03 15:47:01] INFO root fetch - processPackages [ilpy]: New version: [0.3.0] Old Version: [0.2.3]
+[2023-05-03 15:47:01] INFO root fetch - processPackages [camerahub]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-05-03 15:47:01] INFO root fetch - processPackages [plot-antenna]: New version: [1.1] Old Version: [1.0]
+[2023-05-03 15:47:01] INFO root fetch - processPackages [camerahub]: executing diffoscope
+[2023-05-03 15:47:01] INFO root fetch - processPackages [camerahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camerahub-0.9.7.tar.gz tmp/camerahub-0.9.8.tar.gz --markdown 20230503/c/camerahub/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-05-03 15:47:01] INFO root fetch - processPackages [snapml]: New version: [1.9.7] Old Version: [1.9.6]
+[2023-05-03 15:47:01] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/10/71/e74645a35e8fe5838e015dd06287beae2bc647b31a215116a2b85e1df6d6/localstack-core-2.0.3.dev20230503120601.tar.gz
+[2023-05-03 15:47:01] INFO root fetch - processPackages [saenopy]: Downloading https://files.pythonhosted.org/packages/4d/3e/4e175a750ff19a34668452cf329b0ef98c6402ca2280acd73d4bd265e1ec/saenopy-0.8.0.tar.gz
+[2023-05-03 15:47:01] INFO root fetch - processPackages [CASTING]: Downloading https://files.pythonhosted.org/packages/8f/e4/2c768af3ce6dc76760b0a76b9fdff649f827e0712da47ac2c9b5fa1fc42a/CASTING-0.1.3.tar.gz
+[2023-05-03 15:47:01] INFO root fetch - processPackages [pfstools]: Downloading https://files.pythonhosted.org/packages/9d/5a/5eba9d9c26e65c45077f04d772cd62a2456c9838c0a226a4397b1c98db0e/pfstools-0.2.2.tar.gz
+[2023-05-03 15:47:01] INFO root fetch - processPackages [kBmc]: Downloading https://files.pythonhosted.org/packages/2b/de/249f78c2669bc02f7556068ddf04fbc11c896564b5727a852834f39241da/kBmc-2.1.8.tar.gz
+[2023-05-03 15:47:01] INFO root fetch - processPackages [ilpy]: Downloading https://files.pythonhosted.org/packages/cd/71/8f27224fd8bb0386d61968f45271aab2437c3aface7cd018f4c2fa25d029/ilpy-0.2.3.tar.gz
+[2023-05-03 15:47:01] INFO root fetch - processPackages [django-pg-simple-hll]: Downloading https://files.pythonhosted.org/packages/2d/f8/b7308a3ea8dbb72e059a2852a5d37a9660bd4a97c577091f55a29981579b/django_pg_simple_hll-0.0.1.tar.gz
+[2023-05-03 15:47:01] INFO root fetch - processPackages [plot-antenna]: Downloading https://files.pythonhosted.org/packages/03/21/9ec64d883c732907d1e26aeb6cf2b5af2352378676dc9ee7cdf05ed05498/plot-antenna-1.0.tar.gz
+[2023-05-03 15:47:01] INFO root fetch - processPackages [snapml]: Downloading https://files.pythonhosted.org/packages/be/59/77a58bda631d6b0bdd3679a1fdff70d785d19679a9d64509506aef5a57be/snapml-1.9.6-cp39-cp39-win_amd64.whl
+[2023-05-03 15:47:01] INFO root fetch - processPackages [CASTING]: executing diffoscope
+[2023-05-03 15:47:01] INFO root fetch - processPackages [CASTING]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CASTING-0.1.2b0.tar.gz tmp/CASTING-0.1.3.tar.gz --markdown 20230503/C/CASTING/0.1.2b0-0.1.3/diff.md --exclude *.pyd
+[2023-05-03 15:47:01] INFO root fetch - processPackages [pfstools]: Downloading https://files.pythonhosted.org/packages/6e/17/fde0947bd7ceac56411e42e2cd1c484381eb316bdcf89192ad2c9be1ef2f/pfstools-0.2.3.tar.gz
+[2023-05-03 15:47:01] INFO root fetch - processPackages [plot-antenna]: Downloading https://files.pythonhosted.org/packages/ce/45/ed0bbf75a8d0ecc94032b1c4a7fd4f8d48ee7aa811da2ff3ad1496e08035/plot-antenna-1.1.tar.gz
+[2023-05-03 15:47:01] INFO root fetch - processPackages [ilpy]: Downloading https://files.pythonhosted.org/packages/84/07/c8a79eaa4a46d6a717bdce8bec4b87d2b24d8a8b09fb3d9d762a177e0c53/ilpy-0.3.0.tar.gz
+[2023-05-03 15:47:01] INFO root fetch - processPackages [saenopy]: Downloading https://files.pythonhosted.org/packages/cb/c2/9a8b2b7de63bdd8ab824ce0f359a1b16b3b993dd4fb9c767da5a44335271/saenopy-0.9.0.tar.gz
+[2023-05-03 15:47:01] INFO root fetch - processPackages [django-pg-simple-hll]: Downloading https://files.pythonhosted.org/packages/32/8a/7115328838cb5729c7069e950d8c3aa6c39dde18f7d7281ad3c461a45313/django_pg_simple_hll-0.1.0.tar.gz
+[2023-05-03 15:47:01] INFO root fetch - processPackages [plot-antenna]: executing diffoscope
+[2023-05-03 15:47:01] INFO root fetch - processPackages [plot-antenna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plot-antenna-1.0.tar.gz tmp/plot-antenna-1.1.tar.gz --markdown 20230503/p/plot-antenna/1.0-1.1/diff.md --exclude *.pyd
+[2023-05-03 15:47:01] INFO root fetch - processPackages [pfstools]: executing diffoscope
+[2023-05-03 15:47:01] INFO root fetch - processPackages [pfstools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pfstools-0.2.2.tar.gz tmp/pfstools-0.2.3.tar.gz --markdown 20230503/p/pfstools/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-03 15:47:01] INFO root fetch - processPackages [django-pg-simple-hll]: executing diffoscope
+[2023-05-03 15:47:01] INFO root fetch - processPackages [django-pg-simple-hll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_pg_simple_hll-0.0.1.tar.gz tmp/django_pg_simple_hll-0.1.0.tar.gz --markdown 20230503/d/django-pg-simple-hll/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-05-03 15:47:01] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/53/a7/12cdc5eecb77c729c50d9f4695244e00ef9a34acb04178f5cd02c3413514/localstack-core-2.0.3.dev20230503134209.tar.gz
+[2023-05-03 15:47:01] INFO root fetch - processPackages [ilpy]: executing diffoscope
+[2023-05-03 15:47:01] INFO root fetch - processPackages [ilpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ilpy-0.2.3.tar.gz tmp/ilpy-0.3.0.tar.gz --markdown 20230503/i/ilpy/0.2.3-0.3.0/diff.md --exclude *.pyd
+[2023-05-03 15:47:01] INFO root fetch - processPackages [kBmc]: Downloading https://files.pythonhosted.org/packages/11/f3/0b422206b6dbb38439c6c57ef395a0592b89154eb63300ef3e20097bda82/kBmc-2.1.9.tar.gz
+[2023-05-03 15:47:01] INFO root fetch - processPackages [saenopy]: executing diffoscope
+[2023-05-03 15:47:01] INFO root fetch - processPackages [saenopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saenopy-0.8.0.tar.gz tmp/saenopy-0.9.0.tar.gz --markdown 20230503/s/saenopy/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-03 15:47:02] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-05-03 15:47:02] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.0.3.dev20230503120601.tar.gz tmp/localstack-core-2.0.3.dev20230503134209.tar.gz --markdown 20230503/l/localstack-core/2.0.3.dev20230503120601-2.0.3.dev20230503134209/diff.md --exclude *.pyd
+[2023-05-03 15:47:02] INFO root fetch - processPackages [kBmc]: executing diffoscope
+[2023-05-03 15:47:02] INFO root fetch - processPackages [kBmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kBmc-2.1.8.tar.gz tmp/kBmc-2.1.9.tar.gz --markdown 20230503/k/kBmc/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-05-03 15:47:02] INFO root fetch - processPackages [snapml]: Downloading https://files.pythonhosted.org/packages/b0/65/1d818f79ee216ba34baab95a23752267b640966817c79794e48b125155f2/snapml-1.9.7-cp39-cp39-win_amd64.whl
+[2023-05-03 15:47:03] INFO root fetch - processPackages [snapml]: executing diffoscope
+[2023-05-03 15:47:03] INFO root fetch - processPackages [snapml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snapml-1.9.6-cp39-cp39-win_amd64.whl.zip tmp/snapml-1.9.7-cp39-cp39-win_amd64.whl.zip --markdown 20230503/s/snapml/1.9.6-1.9.7/diff.md --exclude *.pyd
+[2023-05-03 15:47:03] INFO root fetch - processPackages [plot-antenna]: Start processing: krx-rigger
+[2023-05-03 15:47:03] INFO root fetch - main [MainThread]: End processing [plot-antenna]: success
+[2023-05-03 15:47:03] INFO root fetch - processPackages [django-pg-simple-hll]: Start processing: ubkg-api
+[2023-05-03 15:47:03] INFO root fetch - main [MainThread]: End processing [django-pg-simple-hll]: success
+[2023-05-03 15:47:03] INFO root fetch - processPackages [pfstools]: Start processing: je-editor
+[2023-05-03 15:47:03] INFO root fetch - main [MainThread]: End processing [pfstools]: success
+[2023-05-03 15:47:03] INFO root fetch - processPackages [krx-rigger]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-03 15:47:03] INFO root fetch - processPackages [je-editor]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-03 15:47:03] WARNING root fetch - processPackages [ubkg-api]: Skipping, unable to determine old version
+[2023-05-03 15:47:03] INFO root fetch - processPackages [ubkg-api]: Start processing: je-editor-dev
+[2023-05-03 15:47:03] INFO root fetch - main [MainThread]: End processing [ubkg-api] error
+[2023-05-03 15:47:03] INFO root fetch - processPackages [je-editor-dev]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-03 15:47:03] INFO root fetch - processPackages [je-editor]: executing diffoscope
+[2023-05-03 15:47:03] INFO root fetch - processPackages [je-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor-0.0.98.tar.gz tmp/je_editor-0.0.99.tar.gz --markdown 20230503/j/je-editor/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-03 15:47:03] INFO root fetch - processPackages [je-editor-dev]: executing diffoscope
+[2023-05-03 15:47:03] INFO root fetch - processPackages [je-editor-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor_dev-0.0.98.tar.gz tmp/je_editor_dev-0.0.99.tar.gz --markdown 20230503/j/je-editor-dev/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-03 15:47:03] INFO root fetch - processPackages [CASTING]: Start processing: psremoter
+[2023-05-03 15:47:03] INFO root fetch - main [MainThread]: End processing [CASTING]: success
+[2023-05-03 15:47:03] INFO root fetch - processPackages [kBmc]: Start processing: linguado
+[2023-05-03 15:47:03] INFO root fetch - main [MainThread]: End processing [kBmc]: success
+[2023-05-03 15:47:03] INFO root fetch - processPackages [krx-rigger]: Downloading https://files.pythonhosted.org/packages/3e/31/8dc8a87b18258eda03e1de3027ee5322fbe04568a7711de8b0fd9c69dd5f/krx_rigger-0.0.1.tar.gz
+[2023-05-03 15:47:03] INFO root fetch - processPackages [ilpy]: Start processing: pollination-streamlit-io
+[2023-05-03 15:47:03] INFO root fetch - main [MainThread]: End processing [ilpy]: success
+[2023-05-03 15:47:03] INFO root fetch - processPackages [psremoter]: New version: [2.0.0] Old Version: [1.0.4]
+[2023-05-03 15:47:03] WARNING root fetch - processPackages [linguado]: Skipping, unable to determine old version
+[2023-05-03 15:47:03] INFO root fetch - processPackages [linguado]: Start processing: clophfit
+[2023-05-03 15:47:03] INFO root fetch - main [MainThread]: End processing [linguado] error
+[2023-05-03 15:47:03] INFO root fetch - processPackages [clophfit]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-03 15:47:03] INFO root fetch - processPackages [pollination-streamlit-io]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-03 15:47:03] INFO root fetch - processPackages [clophfit]: executing diffoscope
+[2023-05-03 15:47:03] INFO root fetch - processPackages [clophfit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clophfit-0.4.8.tar.gz tmp/clophfit-0.4.9.tar.gz --markdown 20230503/c/clophfit/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-03 15:47:03] INFO root fetch - processPackages [psremoter]: Downloading https://files.pythonhosted.org/packages/13/e3/2bda423ef568ad881fd4c9ab6c5995687225f1298264600564e174dcb3b7/psremoter-1.0.4.tar.gz
+[2023-05-03 15:47:03] INFO root fetch - processPackages [krx-rigger]: Downloading https://files.pythonhosted.org/packages/85/0f/1b662d8fdbdcade3185df0bc6d6e20fd7d6a73955af84c71ff4b36d09a47/krx_rigger-0.0.2.tar.gz
+[2023-05-03 15:47:03] INFO root fetch - processPackages [pollination-streamlit-io]: Downloading https://files.pythonhosted.org/packages/17/15/4c33d16aa9b1c63a7b6d57fc304bcba87a36e17745b5767550a4159d02e4/pollination-streamlit-io-0.9.2.tar.gz
+[2023-05-03 15:47:04] INFO root fetch - processPackages [krx-rigger]: executing diffoscope
+[2023-05-03 15:47:04] INFO root fetch - processPackages [krx-rigger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krx_rigger-0.0.1.tar.gz tmp/krx_rigger-0.0.2.tar.gz --markdown 20230503/k/krx-rigger/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-03 15:47:04] INFO root fetch - processPackages [saenopy]: Start processing: merqube-client-lib
+[2023-05-03 15:47:04] INFO root fetch - main [MainThread]: End processing [saenopy]: success
+[2023-05-03 15:47:04] INFO root fetch - processPackages [psremoter]: Downloading https://files.pythonhosted.org/packages/9c/3d/60731f7af9eeecdac9305b5b74be3034802e58208a579638997e060ecd87/psremoter-2.0.0.tar.gz
+[2023-05-03 15:47:04] INFO root fetch - processPackages [merqube-client-lib]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-03 15:47:04] INFO root fetch - processPackages [psremoter]: executing diffoscope
+[2023-05-03 15:47:04] INFO root fetch - processPackages [psremoter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psremoter-1.0.4.tar.gz tmp/psremoter-2.0.0.tar.gz --markdown 20230503/p/psremoter/1.0.4-2.0.0/diff.md --exclude *.pyd
+[2023-05-03 15:47:04] INFO root fetch - processPackages [merqube-client-lib]: executing diffoscope
+[2023-05-03 15:47:04] INFO root fetch - processPackages [merqube-client-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/merqube_client_lib-0.2.2.tar.gz tmp/merqube_client_lib-0.2.3.tar.gz --markdown 20230503/m/merqube-client-lib/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-03 15:47:04] INFO root fetch - processPackages [snapml]: Start processing: pybgpasn
+[2023-05-03 15:47:04] INFO root fetch - main [MainThread]: End processing [snapml]: success
+[2023-05-03 15:47:04] INFO root fetch - processPackages [pybgpasn]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-03 15:47:04] INFO root fetch - processPackages [pollination-streamlit-io]: Downloading https://files.pythonhosted.org/packages/8f/88/39612cd1265361dd994ecd8d02ba175364afe8e50600f0d896b70d07b54c/pollination-streamlit-io-0.9.3.tar.gz
+[2023-05-03 15:47:04] INFO root fetch - processPackages [pybgpasn]: Downloading https://files.pythonhosted.org/packages/7c/ea/e73c1e1d508dedec0e3b470eb43be48b67e949f9c324b29a9fc98c6bb3ba/pybgpasn-1.0.6.tar.gz
+[2023-05-03 15:47:05] INFO root fetch - processPackages [pybgpasn]: executing diffoscope
+[2023-05-03 15:47:05] INFO root fetch - processPackages [pybgpasn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybgpasn-1.0.5.tar.gz tmp/pybgpasn-1.0.6.tar.gz --markdown 20230503/p/pybgpasn/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-03 15:47:05] INFO root fetch - processPackages [krx-rigger]: Start processing: sharetop
+[2023-05-03 15:47:05] INFO root fetch - main [MainThread]: End processing [krx-rigger]: success
+[2023-05-03 15:47:05] INFO root fetch - processPackages [sharetop]: New version: [1.1.3] Old Version: [1.0.3]
+[2023-05-03 15:47:05] INFO root fetch - processPackages [sharetop]: Downloading https://files.pythonhosted.org/packages/e8/e6/712ac695ef5d18d47fea21dadc0496f6509b130f3acff8b77c85d6094823/sharetop-1.0.3.tar.gz
+[2023-05-03 15:47:05] INFO root fetch - processPackages [pollination-streamlit-io]: executing diffoscope
+[2023-05-03 15:47:05] INFO root fetch - processPackages [pollination-streamlit-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pollination-streamlit-io-0.9.2.tar.gz tmp/pollination-streamlit-io-0.9.3.tar.gz --markdown 20230503/p/pollination-streamlit-io/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-03 15:47:05] INFO root fetch - main [MainThread]: End processing [psremoter]: success
+[2023-05-03 15:47:05] INFO root fetch - main [MainThread]: End processing [je-editor]: success
+[2023-05-03 15:47:05] INFO root fetch - processPackages [sharetop]: executing diffoscope
+[2023-05-03 15:47:05] INFO root fetch - processPackages [sharetop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sharetop-1.0.3.tar.gz tmp/sharetop-1.1.3.tar.gz --markdown 20230503/s/sharetop/1.0.3-1.1.3/diff.md --exclude *.pyd
+[2023-05-03 15:47:05] INFO root fetch - main [MainThread]: End processing [merqube-client-lib]: success
+[2023-05-03 15:47:05] INFO root fetch - main [MainThread]: End processing [je-editor-dev]: success
+[2023-05-03 15:47:06] INFO root fetch - main [MainThread]: End processing [camerahub]: success
+[2023-05-03 15:47:06] INFO root fetch - main [MainThread]: End processing [pybgpasn]: success
+[2023-05-03 15:47:06] INFO root fetch - main [MainThread]: End processing [clophfit]: success
+[2023-05-03 15:47:07] INFO root fetch - main [MainThread]: End processing [pollination-streamlit-io]: success
+[2023-05-03 15:47:09] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-05-03 15:47:33] INFO root fetch - main [MainThread]: End processing [sharetop]: success
+[2023-05-03 15:47:33] INFO root fetch - main [MainThread]: Store serial: [17957223]
