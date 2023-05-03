@@ -4918,3 +4918,26 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-03 04:32:02] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
 [2023-05-03 04:32:05] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
 [2023-05-03 04:32:05] INFO root fetch - main [MainThread]: Store serial: [17950704]
+[2023-05-03 04:37:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17950704]
+[2023-05-03 04:37:13] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-05-03 04:37:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyQt6-Fluent-Widgets
+[2023-05-03 04:37:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: firexapp
+[2023-05-03 04:37:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyPDPM
+[2023-05-03 04:37:13] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: New version: [0.8.4] Old Version: [0.8.3]
+[2023-05-03 04:37:13] INFO root fetch - processPackages [firexapp]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-05-03 04:37:13] INFO root fetch - processPackages [PyPDPM]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-03 04:37:13] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/af/a8/f987908492aa389262b0b955c0d476b930df5ac4d3537ff6aa3cd3e8c2cb/PyQt6-Fluent-Widgets-0.8.4.tar.gz
+[2023-05-03 04:37:13] INFO root fetch - processPackages [firexapp]: Downloading https://files.pythonhosted.org/packages/f2/43/aa574bf476ecc58f1fd61501f17b945ad21b0f53015b9e543401ba012782/firexapp-4.9.8.tar.gz
+[2023-05-03 04:37:13] INFO root fetch - processPackages [PyPDPM]: Downloading https://files.pythonhosted.org/packages/b2/49/a3b30a0ed4860bd7a21869ffcd287e25c8455cb8399aeaeea49203dfa1bd/PyPDPM-0.0.1-py3-none-any.whl
+[2023-05-03 04:37:13] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: executing diffoscope
+[2023-05-03 04:37:13] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQt6-Fluent-Widgets-0.8.3.tar.gz tmp/PyQt6-Fluent-Widgets-0.8.4.tar.gz --markdown 20230503/P/PyQt6-Fluent-Widgets/0.8.3-0.8.4/diff.md --exclude *.pyd
+[2023-05-03 04:37:14] INFO root fetch - processPackages [PyPDPM]: Downloading https://files.pythonhosted.org/packages/83/e7/28c768db7a8a06cf1917175fd145bbd462638097fe8273336e498c84449d/PyPDPM-0.0.2-py3-none-any.whl
+[2023-05-03 04:37:14] INFO root fetch - processPackages [firexapp]: Downloading https://files.pythonhosted.org/packages/b2/33/808b287149841ed771447613ba963c309ce0a1d8d2b5b83c0a66af9e60cc/firexapp-4.9.9.tar.gz
+[2023-05-03 04:37:14] INFO root fetch - processPackages [PyPDPM]: executing diffoscope
+[2023-05-03 04:37:14] INFO root fetch - processPackages [PyPDPM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyPDPM-0.0.1-py3-none-any.whl.zip tmp/PyPDPM-0.0.2-py3-none-any.whl.zip --markdown 20230503/P/PyPDPM/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-03 04:37:14] INFO root fetch - processPackages [firexapp]: executing diffoscope
+[2023-05-03 04:37:14] INFO root fetch - processPackages [firexapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firexapp-4.9.8.tar.gz tmp/firexapp-4.9.9.tar.gz --markdown 20230503/f/firexapp/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-05-03 04:37:15] INFO root fetch - main [MainThread]: End processing [PyPDPM]: success
+[2023-05-03 04:37:15] INFO root fetch - main [MainThread]: End processing [firexapp]: success
+[2023-05-03 04:37:16] INFO root fetch - main [MainThread]: End processing [PyQt6-Fluent-Widgets]: success
+[2023-05-03 04:37:16] INFO root fetch - main [MainThread]: Store serial: [17950712]
