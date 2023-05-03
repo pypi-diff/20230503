@@ -4821,3 +4821,58 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-03 04:21:31] INFO root fetch - main [MainThread]: End processing [iambic-core]: success
 [2023-05-03 04:21:32] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
 [2023-05-03 04:21:32] INFO root fetch - main [MainThread]: Store serial: [17950657]
+[2023-05-03 04:26:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17950657]
+[2023-05-03 04:26:42] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-03 04:26:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: minidatabase
+[2023-05-03 04:26:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oules
+[2023-05-03 04:26:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ricecooker
+[2023-05-03 04:26:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: snakemd
+[2023-05-03 04:26:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ddb-single
+[2023-05-03 04:26:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autosrt
+[2023-05-03 04:26:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lunchable
+[2023-05-03 04:26:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PyQt-Fluent-Widgets
+[2023-05-03 04:26:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: leclerc
+[2023-05-03 04:26:42] INFO root fetch - processPackages [minidatabase]: New version: [1.6] Old Version: [1.5.2]
+[2023-05-03 04:26:42] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-05-03 04:26:42] INFO root fetch - processPackages [autosrt]: New version: [1.2.8] Old Version: [1.2.4]
+[2023-05-03 04:26:42] INFO root fetch - processPackages [lunchable]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-05-03 04:26:42] WARNING root fetch - processPackages [oules]: Skipping, unable to determine old version
+[2023-05-03 04:26:42] INFO root fetch - main [MainThread]: End processing [oules] error
+[2023-05-03 04:26:42] INFO root fetch - processPackages [ddb-single]: New version: [0.3.5] Old Version: [0.3.3]
+[2023-05-03 04:26:42] INFO root fetch - processPackages [snakemd]: New version: [2.2.0b1] Old Version: [2.1.0]
+[2023-05-03 04:26:42] INFO root fetch - processPackages [leclerc]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-03 04:26:42] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: executing diffoscope
+[2023-05-03 04:26:42] INFO root fetch - processPackages [ricecooker]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-05-03 04:26:42] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQt-Fluent-Widgets-0.8.2.tar.gz tmp/PyQt-Fluent-Widgets-0.8.3.tar.gz --markdown 20230503/P/PyQt-Fluent-Widgets/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-05-03 04:26:42] INFO root fetch - processPackages [lunchable]: executing diffoscope
+[2023-05-03 04:26:42] INFO root fetch - processPackages [lunchable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lunchable-0.7.0.tar.gz tmp/lunchable-0.7.1.tar.gz --markdown 20230503/l/lunchable/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-05-03 04:26:42] INFO root fetch - processPackages [minidatabase]: Downloading https://files.pythonhosted.org/packages/90/4d/4e612f1330ce4b1e0749affc18c160ff03d7a2b982218ea91d41019616f3/minidatabase-1.5.2.tar.gz
+[2023-05-03 04:26:42] INFO root fetch - processPackages [autosrt]: executing diffoscope
+[2023-05-03 04:26:42] INFO root fetch - processPackages [autosrt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autosrt-1.2.4.tar.gz tmp/autosrt-1.2.8.tar.gz --markdown 20230503/a/autosrt/1.2.4-1.2.8/diff.md --exclude *.pyd
+[2023-05-03 04:26:42] INFO root fetch - processPackages [ddb-single]: Downloading https://files.pythonhosted.org/packages/31/ce/c4f83d53a4556bdc57080fcfbfd171f8eb71b1e6ca378963edf4f5a9e082/ddb_single-0.3.3.tar.gz
+[2023-05-03 04:26:42] INFO root fetch - processPackages [leclerc]: Downloading https://files.pythonhosted.org/packages/f4/f4/14286a3a86b4f777fd74a19591aba7702a117b7e7d9565bb5b6b38b5f21e/leclerc-0.1.0.tar.gz
+[2023-05-03 04:26:42] INFO root fetch - processPackages [minidatabase]: Downloading https://files.pythonhosted.org/packages/eb/43/ada8834f7a6edf1f97bb17586a443b15892b2054128678ad61cee51af8f1/minidatabase-1.6.tar.gz
+[2023-05-03 04:26:42] INFO root fetch - processPackages [ricecooker]: Downloading https://files.pythonhosted.org/packages/52/cd/eae9f52c19f337c0ce814f8fa9c67f4ac7a540b174442b76281844cb9810/ricecooker-0.7.1.tar.gz
+[2023-05-03 04:26:42] INFO root fetch - processPackages [minidatabase]: executing diffoscope
+[2023-05-03 04:26:42] INFO root fetch - processPackages [minidatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minidatabase-1.5.2.tar.gz tmp/minidatabase-1.6.tar.gz --markdown 20230503/m/minidatabase/1.5.2-1.6/diff.md --exclude *.pyd
+[2023-05-03 04:26:43] INFO root fetch - processPackages [ddb-single]: Downloading https://files.pythonhosted.org/packages/75/9a/388a2917b92967e4addcb2784c2be25981c7ee3026d487eb114fe6b8f74d/ddb_single-0.3.5.tar.gz
+[2023-05-03 04:26:43] INFO root fetch - processPackages [leclerc]: Downloading https://files.pythonhosted.org/packages/85/d3/5eb264ae63e15e33c0039004cd0d5ef69090566b828fd076ccb901df0174/leclerc-0.1.1.tar.gz
+[2023-05-03 04:26:43] INFO root fetch - processPackages [snakemd]: Downloading https://files.pythonhosted.org/packages/db/4e/99075623c06931618fd193ba19ce9255ed891a08409b1f19bb8af099c315/snakemd-2.2.0b1.tar.gz
+[2023-05-03 04:26:43] INFO root fetch - processPackages [ddb-single]: executing diffoscope
+[2023-05-03 04:26:43] INFO root fetch - processPackages [ddb-single]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddb_single-0.3.3.tar.gz tmp/ddb_single-0.3.5.tar.gz --markdown 20230503/d/ddb-single/0.3.3-0.3.5/diff.md --exclude *.pyd
+[2023-05-03 04:26:43] INFO root fetch - processPackages [leclerc]: executing diffoscope
+[2023-05-03 04:26:43] INFO root fetch - processPackages [leclerc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leclerc-0.1.0.tar.gz tmp/leclerc-0.1.1.tar.gz --markdown 20230503/l/leclerc/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-03 04:26:43] INFO root fetch - processPackages [snakemd]: executing diffoscope
+[2023-05-03 04:26:43] INFO root fetch - processPackages [snakemd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snakemd-2.1.0.tar.gz tmp/snakemd-2.2.0b1.tar.gz --markdown 20230503/s/snakemd/2.1.0-2.2.0b1/diff.md --exclude *.pyd
+[2023-05-03 04:26:44] INFO root fetch - main [MainThread]: End processing [autosrt]: success
+[2023-05-03 04:26:44] INFO root fetch - main [MainThread]: End processing [minidatabase]: success
+[2023-05-03 04:26:44] INFO root fetch - main [MainThread]: End processing [ddb-single]: success
+[2023-05-03 04:26:44] INFO root fetch - main [MainThread]: End processing [snakemd]: success
+[2023-05-03 04:26:44] INFO root fetch - main [MainThread]: End processing [leclerc]: success
+[2023-05-03 04:26:44] INFO root fetch - processPackages [ricecooker]: Downloading https://files.pythonhosted.org/packages/35/01/acdf8610000b7a4cd480677da03745c4bee884f1c6403d6addac4c923c17/ricecooker-0.7.2.tar.gz
+[2023-05-03 04:26:44] INFO root fetch - main [MainThread]: End processing [lunchable]: success
+[2023-05-03 04:26:45] INFO root fetch - processPackages [ricecooker]: executing diffoscope
+[2023-05-03 04:26:45] INFO root fetch - processPackages [ricecooker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ricecooker-0.7.1.tar.gz tmp/ricecooker-0.7.2.tar.gz --markdown 20230503/r/ricecooker/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-05-03 04:26:46] INFO root fetch - main [MainThread]: End processing [PyQt-Fluent-Widgets]: success
+[2023-05-03 04:26:48] INFO root fetch - main [MainThread]: End processing [ricecooker]: success
+[2023-05-03 04:26:48] INFO root fetch - main [MainThread]: Store serial: [17950684]
