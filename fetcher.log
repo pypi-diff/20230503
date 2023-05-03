@@ -15146,3 +15146,92 @@ No space left on device. Diffoscope exiting.
 [2023-05-03 14:50:50] INFO root fetch - main [MainThread]: End processing [scitools-iris]: success
 [2023-05-03 14:51:04] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
 [2023-05-03 14:51:04] INFO root fetch - main [MainThread]: Store serial: [17956565]
+[2023-05-03 14:56:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17956565]
+[2023-05-03 14:56:14] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-03 14:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ts-app
+[2023-05-03 14:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: carto-reader
+[2023-05-03 14:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: syncmaster
+[2023-05-03 14:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tala
+[2023-05-03 14:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pants-py-deploy
+[2023-05-03 14:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tum-esm-utils
+[2023-05-03 14:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gn2pg-client
+[2023-05-03 14:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: robolson
+[2023-05-03 14:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: curator-opensearch
+[2023-05-03 14:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bpf4
+[2023-05-03 14:56:14] INFO root fetch - processPackages [pants-py-deploy]: New version: [0.0.14rc2] Old Version: [0.0.14rc1]
+[2023-05-03 14:56:14] INFO root fetch - processPackages [curator-opensearch]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-05-03 14:56:14] INFO root fetch - processPackages [tala]: New version: [9.0.0] Old Version: [8.0.0]
+[2023-05-03 14:56:14] INFO root fetch - processPackages [tum-esm-utils]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-05-03 14:56:14] INFO root fetch - processPackages [bpf4]: New version: [1.8.6] Old Version: [1.8.5]
+[2023-05-03 14:56:14] INFO root fetch - processPackages [syncmaster]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-03 14:56:14] INFO root fetch - processPackages [ts-app]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-03 14:56:14] INFO root fetch - processPackages [pants-py-deploy]: executing diffoscope
+[2023-05-03 14:56:14] INFO root fetch - processPackages [pants-py-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pants_py_deploy-0.0.14rc1-py3-none-any.whl.zip tmp/pants_py_deploy-0.0.14rc2-py3-none-any.whl.zip --markdown 20230503/p/pants-py-deploy/0.0.14rc1-0.0.14rc2/diff.md --exclude *.pyd
+[2023-05-03 14:56:14] INFO root fetch - processPackages [curator-opensearch]: executing diffoscope
+[2023-05-03 14:56:14] INFO root fetch - processPackages [carto-reader]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-03 14:56:14] INFO root fetch - processPackages [curator-opensearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/curator-opensearch-0.0.7.tar.gz tmp/curator-opensearch-0.0.9.tar.gz --markdown 20230503/c/curator-opensearch/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 14:56:14] INFO root fetch - processPackages [gn2pg-client]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-05-03 14:56:14] INFO root fetch - processPackages [robolson]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-03 14:56:14] INFO root fetch - processPackages [tala]: executing diffoscope
+[2023-05-03 14:56:14] INFO root fetch - processPackages [tala]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tala-8.0.0-py3-none-any.whl.zip tmp/tala-9.0.0-py3-none-any.whl.zip --markdown 20230503/t/tala/8.0.0-9.0.0/diff.md --exclude *.pyd
+[2023-05-03 14:56:14] INFO root fetch - processPackages [tum-esm-utils]: Downloading https://files.pythonhosted.org/packages/66/22/70ab06cc547b34292cdafcbc6e82b58bc33362794f5e075aaa7ebf36b7ec/tum_esm_utils-1.4.0.tar.gz
+[2023-05-03 14:56:14] INFO root fetch - processPackages [syncmaster]: Downloading https://files.pythonhosted.org/packages/29/be/71aae1088b2bb3a2cbeeac9cde9bf69433d1b4fab6188a9f33e1d3c1cdb8/syncmaster-1.0.2.tar.gz
+[2023-05-03 14:56:15] INFO root fetch - processPackages [gn2pg-client]: Downloading https://files.pythonhosted.org/packages/bb/f5/fa2955505babf6bd4beba51a4e7604aba52740dbd551c5324bb609c83ff7/gn2pg_client-1.4.0.tar.gz
+[2023-05-03 14:56:15] INFO root fetch - processPackages [robolson]: Downloading https://files.pythonhosted.org/packages/2b/4a/f494d5cc604c33d1515753cfda5fdc6e960f47a9f5642bbd985be0596067/robolson-0.3.8.tar.gz
+[2023-05-03 14:56:15] INFO root fetch - processPackages [carto-reader]: Downloading https://files.pythonhosted.org/packages/a4/80/22567a1d8f38097b70ce3bd9f70d3171a51ceca67f031df46a68371a7ef4/carto_reader-0.0.7.tar.gz
+[2023-05-03 14:56:15] INFO root fetch - processPackages [ts-app]: Downloading https://files.pythonhosted.org/packages/46/a2/cfb10028ed691d1022bb8ad30b9f2d22836de8ad0438d60dc84d16aeba7c/ts_app-0.9.0.tar.gz
+[2023-05-03 14:56:15] INFO root fetch - processPackages [bpf4]: Downloading https://files.pythonhosted.org/packages/7b/31/a1d9a5c4b0134344c0cf8fb97c99dd9fb4cde1c47a9e98c258c3e000398e/bpf4-1.8.6-cp39-cp39-win_amd64.whl
+[2023-05-03 14:56:15] INFO root fetch - processPackages [syncmaster]: Downloading https://files.pythonhosted.org/packages/16/41/adbeab96707280ed22595f34db3ab4173f81eb749c71cbad5889ae294832/syncmaster-1.0.3.tar.gz
+[2023-05-03 14:56:15] INFO root fetch - processPackages [tum-esm-utils]: executing diffoscope
+[2023-05-03 14:56:15] INFO root fetch - processPackages [tum-esm-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tum_esm_utils-1.4.0.tar.gz tmp/tum_esm_utils-1.4.1.tar.gz --markdown 20230503/t/tum-esm-utils/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-05-03 14:56:15] INFO root fetch - processPackages [gn2pg-client]: Downloading https://files.pythonhosted.org/packages/69/2e/6d86ae2699a914d09db6f2d227c105a07e7128f27c21427652b782f99642/gn2pg_client-1.5.0.tar.gz
+[2023-05-03 14:56:15] INFO root fetch - processPackages [carto-reader]: Downloading https://files.pythonhosted.org/packages/1b/52/d94bc3ed2bf04da08df25f6e66442e9b88f55cbc4f0d00672a465c0310fb/carto_reader-0.0.8.tar.gz
+[2023-05-03 14:56:15] INFO root fetch - processPackages [bpf4]: executing diffoscope
+[2023-05-03 14:56:15] INFO root fetch - processPackages [bpf4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bpf4-1.8.5.tar.gz tmp/bpf4-1.8.6-cp39-cp39-win_amd64.whl.zip --markdown 20230503/b/bpf4/1.8.5-1.8.6/diff.md --exclude *.pyd
+[2023-05-03 14:56:15] INFO root fetch - processPackages [syncmaster]: executing diffoscope
+[2023-05-03 14:56:15] INFO root fetch - processPackages [syncmaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syncmaster-1.0.2.tar.gz tmp/syncmaster-1.0.3.tar.gz --markdown 20230503/s/syncmaster/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-03 14:56:15] INFO root fetch - processPackages [ts-app]: Downloading https://files.pythonhosted.org/packages/5d/b0/8da812c28f89dd0a7861c47f173e5ecf2a95131c8a7e908a4ccdb380531b/ts_app-0.9.1.tar.gz
+[2023-05-03 14:56:15] INFO root fetch - processPackages [robolson]: Downloading https://files.pythonhosted.org/packages/22/91/f1fcd3f95e908a50a67d506c3eb2566ba22a4a57c8627d799d8f4cfb2741/robolson-0.3.9.tar.gz
+[2023-05-03 14:56:15] INFO root fetch - processPackages [gn2pg-client]: executing diffoscope
+[2023-05-03 14:56:15] INFO root fetch - processPackages [gn2pg-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gn2pg_client-1.4.0.tar.gz tmp/gn2pg_client-1.5.0.tar.gz --markdown 20230503/g/gn2pg-client/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-05-03 14:56:15] INFO root fetch - processPackages [carto-reader]: executing diffoscope
+[2023-05-03 14:56:15] INFO root fetch - processPackages [carto-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carto_reader-0.0.7.tar.gz tmp/carto_reader-0.0.8.tar.gz --markdown 20230503/c/carto-reader/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-03 14:56:15] INFO root fetch - processPackages [robolson]: executing diffoscope
+[2023-05-03 14:56:15] INFO root fetch - processPackages [robolson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robolson-0.3.8.tar.gz tmp/robolson-0.3.9.tar.gz --markdown 20230503/r/robolson/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-03 14:56:15] INFO root fetch - processPackages [ts-app]: executing diffoscope
+[2023-05-03 14:56:15] INFO root fetch - processPackages [ts-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ts_app-0.9.0.tar.gz tmp/ts_app-0.9.1.tar.gz --markdown 20230503/t/ts-app/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-03 14:56:15] INFO root fetch - processPackages [pants-py-deploy]: Start processing: llmdet
+[2023-05-03 14:56:15] INFO root fetch - main [MainThread]: End processing [pants-py-deploy]: success
+[2023-05-03 14:56:15] WARNING root fetch - processPackages [llmdet]: Skipping, unable to determine old version
+[2023-05-03 14:56:15] INFO root fetch - processPackages [llmdet]: Start processing: returnn
+[2023-05-03 14:56:15] INFO root fetch - main [MainThread]: End processing [llmdet] error
+[2023-05-03 14:56:16] INFO root fetch - processPackages [returnn]: New version: [1.20230503.142906] Old Version: [1.20230501.4306]
+[2023-05-03 14:56:16] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/e5/fd/1bb3cabcf82964fbe964843e285e02a3b725bdc7fa3066f50bdcf5b6698d/returnn-1.20230501.4306.tar.gz
+[2023-05-03 14:56:16] INFO root fetch - processPackages [syncmaster]: Start processing: polyspace-report2excel
+[2023-05-03 14:56:16] INFO root fetch - main [MainThread]: End processing [syncmaster]: success
+[2023-05-03 14:56:16] INFO root fetch - processPackages [polyspace-report2excel]: New version: [1.0rc3] Old Version: [1.0rc2]
+[2023-05-03 14:56:16] INFO root fetch - processPackages [ts-app]: Start processing: pants-py-deploy
+[2023-05-03 14:56:16] INFO root fetch - main [MainThread]: End processing [ts-app]: success
+[2023-05-03 14:56:16] INFO root fetch - processPackages [pants-py-deploy]: New version: [0.0.14rc4] Old Version: [0.0.14rc3]
+[2023-05-03 14:56:16] INFO root fetch - main [MainThread]: End processing [robolson]: success
+[2023-05-03 14:56:17] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/89/c9/9080f1b4770bfd8b900c2c25a8957a775257131b1c9ed713e07557ccd258/returnn-1.20230503.142906.tar.gz
+[2023-05-03 14:56:17] INFO root fetch - processPackages [polyspace-report2excel]: Downloading https://files.pythonhosted.org/packages/c2/82/5e5972bf6590fd72430184d03295af5ff027c8c9cfcf4e835572bce896a2/polyspace-report2excel-1.0rc2.tar.gz
+[2023-05-03 14:56:17] INFO root fetch - main [MainThread]: End processing [curator-opensearch]: success
+[2023-05-03 14:56:17] INFO root fetch - processPackages [pants-py-deploy]: Downloading https://files.pythonhosted.org/packages/60/9d/ddff797e570cdb9399921991ea2d942885fefd05fa0add8a68826c06f885/pants_py_deploy-0.0.14rc3-py3-none-any.whl
+[2023-05-03 14:56:17] INFO root fetch - main [MainThread]: End processing [gn2pg-client]: success
+[2023-05-03 14:56:17] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-05-03 14:56:17] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230501.4306.tar.gz tmp/returnn-1.20230503.142906.tar.gz --markdown 20230503/r/returnn/1.20230501.4306-1.20230503.142906/diff.md --exclude *.pyd
+[2023-05-03 14:56:17] INFO root fetch - main [MainThread]: End processing [carto-reader]: success
+[2023-05-03 14:56:17] INFO root fetch - processPackages [pants-py-deploy]: Downloading https://files.pythonhosted.org/packages/10/f9/75142a5c14f8e577825540f7776fb0f5d53d02021debd34ccbe40138a09e/pants_py_deploy-0.0.14rc4-py3-none-any.whl
+[2023-05-03 14:56:17] INFO root fetch - processPackages [polyspace-report2excel]: Downloading https://files.pythonhosted.org/packages/57/4f/4acfa8c6ae5dc1a269bce60fd3eeb1447d6c99d66bd514f2b5d15e7c5903/polyspace-report2excel-1.0rc3.tar.gz
+[2023-05-03 14:56:17] INFO root fetch - processPackages [pants-py-deploy]: executing diffoscope
+[2023-05-03 14:56:17] INFO root fetch - processPackages [pants-py-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pants_py_deploy-0.0.14rc3-py3-none-any.whl.zip tmp/pants_py_deploy-0.0.14rc4-py3-none-any.whl.zip --markdown 20230503/p/pants-py-deploy/0.0.14rc3-0.0.14rc4/diff.md --exclude *.pyd
+[2023-05-03 14:56:17] INFO root fetch - processPackages [polyspace-report2excel]: executing diffoscope
+[2023-05-03 14:56:17] INFO root fetch - processPackages [polyspace-report2excel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polyspace-report2excel-1.0rc2.tar.gz tmp/polyspace-report2excel-1.0rc3.tar.gz --markdown 20230503/p/polyspace-report2excel/1.0rc2-1.0rc3/diff.md --exclude *.pyd
+[2023-05-03 14:56:17] INFO root fetch - main [MainThread]: End processing [tala]: success
+[2023-05-03 14:56:18] INFO root fetch - main [MainThread]: End processing [bpf4]: success
+[2023-05-03 14:56:18] INFO root fetch - main [MainThread]: End processing [polyspace-report2excel]: success
+[2023-05-03 14:56:18] INFO root fetch - main [MainThread]: End processing [pants-py-deploy]: success
+[2023-05-03 14:56:18] INFO root fetch - main [MainThread]: End processing [tum-esm-utils]: success
+[2023-05-03 14:56:21] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-05-03 14:56:21] INFO root fetch - main [MainThread]: Store serial: [17956609]
