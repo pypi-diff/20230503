@@ -17904,3 +17904,78 @@ No space left on device. Diffoscope exiting.
 [2023-05-03 17:05:23] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
 [2023-05-03 17:05:24] INFO root fetch - main [MainThread]: End processing [autobisect]: success
 [2023-05-03 17:05:24] INFO root fetch - main [MainThread]: Store serial: [17958326]
+[2023-05-03 17:10:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17958326]
+[2023-05-03 17:10:33] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-03 17:10:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: khoj-assistant
+[2023-05-03 17:10:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tradchat
+[2023-05-03 17:10:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: evina
+[2023-05-03 17:10:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: botanix
+[2023-05-03 17:10:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: orion-seismic-forecast
+[2023-05-03 17:10:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: decentralizedroutines
+[2023-05-03 17:10:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: eradiate-mitsuba
+[2023-05-03 17:10:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: melizalab-tools
+[2023-05-03 17:10:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: idcode
+[2023-05-03 17:10:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: testapptmlc
+[2023-05-03 17:10:33] INFO root fetch - processPackages [testapptmlc]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-03 17:10:33] INFO root fetch - processPackages [eradiate-mitsuba]: New version: [0.0.1rc9] Old Version: [0.0.1rc8]
+[2023-05-03 17:10:33] INFO root fetch - processPackages [botanix]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-03 17:10:33] WARNING root fetch - processPackages [tradchat]: Skipping, unable to determine old version
+[2023-05-03 17:10:33] INFO root fetch - processPackages [tradchat]: Start processing: semisup-segmentation
+[2023-05-03 17:10:33] INFO root fetch - main [MainThread]: End processing [tradchat] error
+[2023-05-03 17:10:33] INFO root fetch - processPackages [testapptmlc]: executing diffoscope
+[2023-05-03 17:10:33] INFO root fetch - processPackages [testapptmlc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testapptmlc-0.0.7.tar.gz tmp/testapptmlc-0.0.8.tar.gz --markdown 20230503/t/testapptmlc/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-03 17:10:33] WARNING root fetch - processPackages [evina]: Skipping, unable to determine old version
+[2023-05-03 17:10:33] WARNING root fetch - processPackages [orion-seismic-forecast]: Skipping, unable to determine old version
+[2023-05-03 17:10:33] INFO root fetch - processPackages [evina]: Start processing: CoLT5-attention
+[2023-05-03 17:10:33] INFO root fetch - processPackages [orion-seismic-forecast]: Start processing: findmyorder
+[2023-05-03 17:10:33] INFO root fetch - main [MainThread]: End processing [evina] error
+[2023-05-03 17:10:33] INFO root fetch - processPackages [melizalab-tools]: New version: [2023.5.3] Old Version: [2023.4.19]
+[2023-05-03 17:10:33] INFO root fetch - main [MainThread]: End processing [orion-seismic-forecast] error
+[2023-05-03 17:10:33] WARNING root fetch - processPackages [idcode]: Skipping, unable to determine old version
+[2023-05-03 17:10:33] INFO root fetch - processPackages [khoj-assistant]: New version: [0.6.2.dev6] Old Version: [0.6.2.dev18]
+[2023-05-03 17:10:33] INFO root fetch - processPackages [idcode]: Start processing: flowkey-dl
+[2023-05-03 17:10:33] INFO root fetch - main [MainThread]: End processing [idcode] error
+[2023-05-03 17:10:33] INFO root fetch - processPackages [decentralizedroutines]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-05-03 17:10:33] INFO root fetch - processPackages [semisup-segmentation]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 17:10:33] INFO root fetch - processPackages [findmyorder]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-05-03 17:10:33] INFO root fetch - processPackages [eradiate-mitsuba]: Downloading https://files.pythonhosted.org/packages/e3/c5/56f3d397e3d2ada3d122e18c196705c361cddfb67e060b7b459e70e6a38e/eradiate_mitsuba-0.0.1rc8-cp39-cp39-win_amd64.whl
+[2023-05-03 17:10:33] INFO root fetch - processPackages [semisup-segmentation]: executing diffoscope
+[2023-05-03 17:10:33] INFO root fetch - processPackages [semisup-segmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semisup-segmentation-0.0.8.tar.gz tmp/semisup-segmentation-0.0.9.tar.gz --markdown 20230503/s/semisup-segmentation/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 17:10:33] INFO root fetch - processPackages [CoLT5-attention]: New version: [0.4.7] Old Version: [0.4.6]
+[2023-05-03 17:10:33] WARNING root fetch - processPackages [eradiate-mitsuba]: Skipping package: exceeds size limit 22214638>=10485760
+[2023-05-03 17:10:33] INFO root fetch - main [MainThread]: End processing [eradiate-mitsuba] error
+[2023-05-03 17:10:33] INFO root fetch - processPackages [flowkey-dl]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-03 17:10:33] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/fb/3c/d76d21c18e4e03363e67dcb00c6d425b3ad380c971321b5732ce68d2bbd1/khoj_assistant-0.6.2.dev18.tar.gz
+[2023-05-03 17:10:33] INFO root fetch - processPackages [melizalab-tools]: Downloading https://files.pythonhosted.org/packages/e4/a6/d44e9d2e1e41c28f8931d8ecf2d31e207ca545383c14e173d845ed48c0fc/melizalab-tools-2023.4.19.tar.gz
+[2023-05-03 17:10:33] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/71/8a/7e8f0c21d977306feb8d01eb7c5aaf6f93b90228009041c4038b2c8138bd/findmyorder-1.1.3.tar.gz
+[2023-05-03 17:10:33] INFO root fetch - processPackages [botanix]: Downloading https://files.pythonhosted.org/packages/de/88/be094a28469667e88006dc2189b6282c60ce44770775da61ecd8e43cda44/botanix-0.1.0.tar.gz
+[2023-05-03 17:10:34] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-05-03 17:10:34] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-1.1.2.tar.gz tmp/findmyorder-1.1.3.tar.gz --markdown 20230503/f/findmyorder/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-05-03 17:10:34] INFO root fetch - processPackages [CoLT5-attention]: Downloading https://files.pythonhosted.org/packages/87/40/2935bcf527ad3680039ef29d9f94cd8b62666781ed411751d03c6380fa0d/CoLT5-attention-0.4.7.tar.gz
+[2023-05-03 17:10:34] INFO root fetch - processPackages [decentralizedroutines]: Downloading https://files.pythonhosted.org/packages/2e/ac/4099853ee985fa9fa3cbeb1781efae4e91a0d5f9d7d4bd975071acd868db/decentralizedroutines-2.0.2.tar.gz
+[2023-05-03 17:10:34] INFO root fetch - processPackages [flowkey-dl]: Downloading https://files.pythonhosted.org/packages/1d/4d/839ab7102d82b1426f01ef19f5ee39d8ea1076eae0eb16755bc20774e563/flowkey_dl-0.1.4.tar.gz
+[2023-05-03 17:10:34] INFO root fetch - processPackages [decentralizedroutines]: executing diffoscope
+[2023-05-03 17:10:34] INFO root fetch - processPackages [decentralizedroutines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decentralizedroutines-2.0.1.tar.gz tmp/decentralizedroutines-2.0.2.tar.gz --markdown 20230503/d/decentralizedroutines/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-05-03 17:10:34] INFO root fetch - processPackages [melizalab-tools]: Downloading https://files.pythonhosted.org/packages/fa/81/d445a3e75958ba890c3b8ea86a6a046be03613e803ff69f6f22a626af652/melizalab-tools-2023.5.3.tar.gz
+[2023-05-03 17:10:34] INFO root fetch - processPackages [botanix]: Downloading https://files.pythonhosted.org/packages/13/63/59c61383ddca75ec50af9afe47588edccd4064a34e6ea01bf27bba004cea/botanix-0.2.0.tar.gz
+[2023-05-03 17:10:34] INFO root fetch - processPackages [CoLT5-attention]: executing diffoscope
+[2023-05-03 17:10:34] INFO root fetch - processPackages [CoLT5-attention]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CoLT5-attention-0.4.6.tar.gz tmp/CoLT5-attention-0.4.7.tar.gz --markdown 20230503/C/CoLT5-attention/0.4.6-0.4.7/diff.md --exclude *.pyd
+[2023-05-03 17:10:34] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2023-05-03 17:10:34] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-0.6.2.dev18.tar.gz tmp/khoj_assistant-0.6.2.dev6.tar.gz --markdown 20230503/k/khoj-assistant/0.6.2.dev18-0.6.2.dev6/diff.md --exclude *.pyd
+[2023-05-03 17:10:34] INFO root fetch - processPackages [botanix]: executing diffoscope
+[2023-05-03 17:10:34] INFO root fetch - processPackages [botanix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botanix-0.1.0.tar.gz tmp/botanix-0.2.0.tar.gz --markdown 20230503/b/botanix/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-03 17:10:34] INFO root fetch - processPackages [flowkey-dl]: Downloading https://files.pythonhosted.org/packages/f1/31/c4b224a4ecf20b1bd59504624a8bbcdf40a8a4c510211b82478613566b5f/flowkey_dl-0.1.5.tar.gz
+[2023-05-03 17:10:34] INFO root fetch - processPackages [melizalab-tools]: executing diffoscope
+[2023-05-03 17:10:34] INFO root fetch - processPackages [melizalab-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/melizalab-tools-2023.4.19.tar.gz tmp/melizalab-tools-2023.5.3.tar.gz --markdown 20230503/m/melizalab-tools/2023.4.19-2023.5.3/diff.md --exclude *.pyd
+[2023-05-03 17:10:34] INFO root fetch - processPackages [flowkey-dl]: executing diffoscope
+[2023-05-03 17:10:34] INFO root fetch - processPackages [flowkey-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowkey_dl-0.1.4.tar.gz tmp/flowkey_dl-0.1.5.tar.gz --markdown 20230503/f/flowkey-dl/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-03 17:10:34] INFO root fetch - main [MainThread]: End processing [testapptmlc]: success
+[2023-05-03 17:10:35] INFO root fetch - main [MainThread]: End processing [semisup-segmentation]: success
+[2023-05-03 17:10:35] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-05-03 17:10:35] INFO root fetch - main [MainThread]: End processing [melizalab-tools]: success
+[2023-05-03 17:10:35] INFO root fetch - main [MainThread]: End processing [botanix]: success
+[2023-05-03 17:10:35] INFO root fetch - main [MainThread]: End processing [CoLT5-attention]: success
+[2023-05-03 17:10:35] INFO root fetch - main [MainThread]: End processing [decentralizedroutines]: success
+[2023-05-03 17:10:36] INFO root fetch - main [MainThread]: End processing [flowkey-dl]: success
+[2023-05-03 17:10:37] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2023-05-03 17:10:37] INFO root fetch - main [MainThread]: Store serial: [17958388]
