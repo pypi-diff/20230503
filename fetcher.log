@@ -15364,3 +15364,174 @@ No space left on device. Diffoscope exiting.
 [2023-05-03 15:04:37] ERROR root fetch - processPackages [Django]: Timeout during execution of pkgdiff
 [2023-05-03 15:04:37] INFO root fetch - main [MainThread]: End processing [Django] error
 [2023-05-03 15:04:37] INFO root fetch - main [MainThread]: Store serial: [17956678]
+[2023-05-03 15:09:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17956678]
+[2023-05-03 15:09:47] INFO root fetch - main [MainThread]: Found 26 changed packages
+[2023-05-03 15:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openmc-depletion-plotter
+[2023-05-03 15:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: certora-cli-alpha-eyalf-show-cvl-functions-in-calltrace
+[2023-05-03 15:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: emoji-generator
+[2023-05-03 15:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ambient-package-update
+[2023-05-03 15:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: djangocms-xliff
+[2023-05-03 15:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyzsf
+[2023-05-03 15:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pitchtools
+[2023-05-03 15:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: questdb-connect
+[2023-05-03 15:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: up-lpg
+[2023-05-03 15:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: robotframework-seleniumlibrary
+[2023-05-03 15:09:47] INFO root fetch - processPackages [emoji-generator]: New version: [0.7] Old Version: [0.5]
+[2023-05-03 15:09:47] INFO root fetch - processPackages [pyzsf]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-03 15:09:47] INFO root fetch - processPackages [openmc-depletion-plotter]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-03 15:09:47] INFO root fetch - processPackages [djangocms-xliff]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-05-03 15:09:47] INFO root fetch - processPackages [certora-cli-alpha-eyalf-show-cvl-functions-in-calltrace]: New version: [20230503.13.2.447001] Old Version: [20230502.10.36.685429]
+[2023-05-03 15:09:47] INFO root fetch - processPackages [ambient-package-update]: New version: [23.5.2] Old Version: [23.5.1]
+[2023-05-03 15:09:47] INFO root fetch - processPackages [pitchtools]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-05-03 15:09:47] INFO root fetch - processPackages [questdb-connect]: New version: [0.0.35] Old Version: [0.0.34]
+[2023-05-03 15:09:47] INFO root fetch - processPackages [robotframework-seleniumlibrary]: New version: [6.1.0rc1] Old Version: [6.1.0]
+[2023-05-03 15:09:48] INFO root fetch - processPackages [up-lpg]: New version: [0.0.6.4] Old Version: [0.0.6.3]
+[2023-05-03 15:09:48] ERROR root fetch - processPackages [emoji-generator]: Unable to fetch info: No such project/version 'emoji-generator' 0.5
+[2023-05-03 15:09:48] INFO root fetch - processPackages [emoji-generator]: Start processing: quarter-lib
+[2023-05-03 15:09:48] INFO root fetch - processPackages [questdb-connect]: Downloading https://files.pythonhosted.org/packages/78/14/a2d3fdef80a3c6fb3304a901724622c14f84e8ea79a44fbabb65c2287205/questdb-connect-0.0.34.tar.gz
+[2023-05-03 15:09:48] INFO root fetch - main [MainThread]: End processing [emoji-generator] error
+[2023-05-03 15:09:48] INFO root fetch - processPackages [certora-cli-alpha-eyalf-show-cvl-functions-in-calltrace]: Downloading https://files.pythonhosted.org/packages/9f/a4/7f1973dee1e1c8677c716c4757133f11ef0812823bc70ba77e2a1546cf97/certora-cli-alpha-eyalf-show-cvl-functions-in-calltrace-20230502.10.36.685429.tar.gz
+[2023-05-03 15:09:48] INFO root fetch - processPackages [quarter-lib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 15:09:48] INFO root fetch - processPackages [ambient-package-update]: Downloading https://files.pythonhosted.org/packages/40/65/4556da6b1089606d0efb86b656514af5dbfe079f14800369afaa6620cd7a/ambient-package-update-23.5.1.tar.gz
+[2023-05-03 15:09:48] INFO root fetch - processPackages [djangocms-xliff]: Downloading https://files.pythonhosted.org/packages/1b/62/5eed3797b7eab8f9ed1a9a38b2a9d8ef2c5ccd6b2277c4b98d1d1db591d4/djangocms_xliff-1.2.0.tar.gz
+[2023-05-03 15:09:48] INFO root fetch - processPackages [robotframework-seleniumlibrary]: Downloading https://files.pythonhosted.org/packages/a8/6b/579ff9b2933351a727c9b46b571c6f6cdde27c833dc41109f7cfca3b3468/robotframework-seleniumlibrary-6.1.0.tar.gz
+[2023-05-03 15:09:48] INFO root fetch - processPackages [pitchtools]: Downloading https://files.pythonhosted.org/packages/c6/21/7a3b2baa7de141d96a4dd12580a2b751d7426abdcd384e11d6b25fcb29e9/pitchtools-1.9.2.tar.gz
+[2023-05-03 15:09:48] INFO root fetch - processPackages [up-lpg]: Downloading https://files.pythonhosted.org/packages/ad/6e/aa3914c1c12a7fc506a7c637af9c19742e84e335429306a9ea9889ecd5c4/up_lpg-0.0.6.3-pp39-pypy39_pp73-win_amd64.whl
+[2023-05-03 15:09:48] INFO root fetch - processPackages [openmc-depletion-plotter]: Downloading https://files.pythonhosted.org/packages/c4/5c/a5f309e1776df06a191ffcae3721e4e309b65f513c8fe84732e2741bea1e/openmc_depletion_plotter-0.3.1.tar.gz
+[2023-05-03 15:09:48] WARNING root fetch - processPackages [certora-cli-alpha-eyalf-show-cvl-functions-in-calltrace]: Skipping package: exceeds size limit 38365298>=10485760
+[2023-05-03 15:09:48] INFO root fetch - processPackages [certora-cli-alpha-eyalf-show-cvl-functions-in-calltrace]: Start processing: digicloud
+[2023-05-03 15:09:48] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-eyalf-show-cvl-functions-in-calltrace] error
+[2023-05-03 15:09:48] INFO root fetch - processPackages [pyzsf]: Downloading https://files.pythonhosted.org/packages/f3/e1/bd5a18c2c35833c731d4ea96eeb4eddf70a9a472961f55e676a375b94a82/pyzsf-0.1.3-cp37-abi3-win_amd64.whl
+[2023-05-03 15:09:48] INFO root fetch - processPackages [digicloud]: New version: [2.5.9] Old Version: [2.5.8]
+[2023-05-03 15:09:48] INFO root fetch - processPackages [questdb-connect]: Downloading https://files.pythonhosted.org/packages/78/90/344ba2c7c090f3845609cfeb76d7f4f8c3a9022b3a967abcd1045bf4bff2/questdb-connect-0.0.35.tar.gz
+[2023-05-03 15:09:48] INFO root fetch - processPackages [pyzsf]: executing diffoscope
+[2023-05-03 15:09:48] INFO root fetch - processPackages [pyzsf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyzsf-0.1.2-cp36-abi3-win_amd64.whl.zip tmp/pyzsf-0.1.3-cp37-abi3-win_amd64.whl.zip --markdown 20230503/p/pyzsf/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-03 15:09:48] INFO root fetch - processPackages [djangocms-xliff]: Downloading https://files.pythonhosted.org/packages/b0/53/2015a171a2ee743befe4f1d2d08ba6194475e263a84c0b418a23e400583c/djangocms_xliff-1.3.0.tar.gz
+[2023-05-03 15:09:48] INFO root fetch - processPackages [quarter-lib]: Downloading https://files.pythonhosted.org/packages/9b/2c/e3bb99ac668b35c7fa2b66ee8d36052b84861b367a38bd7089b64806de1f/quarter_lib-0.0.8.tar.gz
+[2023-05-03 15:09:48] INFO root fetch - processPackages [questdb-connect]: executing diffoscope
+[2023-05-03 15:09:48] INFO root fetch - processPackages [questdb-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/questdb-connect-0.0.34.tar.gz tmp/questdb-connect-0.0.35.tar.gz --markdown 20230503/q/questdb-connect/0.0.34-0.0.35/diff.md --exclude *.pyd
+[2023-05-03 15:09:48] INFO root fetch - processPackages [pitchtools]: Downloading https://files.pythonhosted.org/packages/35/c6/ba0b53d7997b326fd7f4db708a3f6e1a935914c008354a5d64751da5c5b3/pitchtools-1.9.3.tar.gz
+[2023-05-03 15:09:48] INFO root fetch - processPackages [robotframework-seleniumlibrary]: Downloading https://files.pythonhosted.org/packages/ef/e4/7b996d23b12c965914155bcd2c34fb66753d528d3eec19d6c532bfa16ad7/robotframework-seleniumlibrary-6.1.0rc1.tar.gz
+[2023-05-03 15:09:48] INFO root fetch - processPackages [djangocms-xliff]: executing diffoscope
+[2023-05-03 15:09:48] INFO root fetch - processPackages [djangocms-xliff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangocms_xliff-1.2.0.tar.gz tmp/djangocms_xliff-1.3.0.tar.gz --markdown 20230503/d/djangocms-xliff/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-05-03 15:09:48] INFO root fetch - processPackages [ambient-package-update]: Downloading https://files.pythonhosted.org/packages/fe/2e/43efba7a2772c9e8ce2a957224c47c881a4e985da9ffa5324fc4cacb6839/ambient-package-update-23.5.2.tar.gz
+[2023-05-03 15:09:48] INFO root fetch - processPackages [pitchtools]: executing diffoscope
+[2023-05-03 15:09:48] INFO root fetch - processPackages [pitchtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pitchtools-1.9.2.tar.gz tmp/pitchtools-1.9.3.tar.gz --markdown 20230503/p/pitchtools/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-05-03 15:09:48] INFO root fetch - processPackages [digicloud]: Downloading https://files.pythonhosted.org/packages/90/3b/189f9304554d3f3f82eb788d2aad26bd1b21b158bf1d90d9b99eb0874f83/digicloud-2.5.8.tar.gz
+[2023-05-03 15:09:48] INFO root fetch - processPackages [robotframework-seleniumlibrary]: executing diffoscope
+[2023-05-03 15:09:48] INFO root fetch - processPackages [robotframework-seleniumlibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-seleniumlibrary-6.1.0.tar.gz tmp/robotframework-seleniumlibrary-6.1.0rc1.tar.gz --markdown 20230503/r/robotframework-seleniumlibrary/6.1.0-6.1.0rc1/diff.md --exclude *.pyd
+[2023-05-03 15:09:48] INFO root fetch - processPackages [ambient-package-update]: executing diffoscope
+[2023-05-03 15:09:48] INFO root fetch - processPackages [ambient-package-update]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ambient-package-update-23.5.1.tar.gz tmp/ambient-package-update-23.5.2.tar.gz --markdown 20230503/a/ambient-package-update/23.5.1-23.5.2/diff.md --exclude *.pyd
+[2023-05-03 15:09:48] INFO root fetch - processPackages [openmc-depletion-plotter]: Downloading https://files.pythonhosted.org/packages/1c/c9/5d691796b3740ea7f53bb97831e1dc1338f7e1ec3ccc5af3343834380fe9/openmc_depletion_plotter-0.3.2.tar.gz
+[2023-05-03 15:09:48] INFO root fetch - processPackages [quarter-lib]: Downloading https://files.pythonhosted.org/packages/de/35/0aa9b114fe985dd877df8c9134b9ee9dff07682aa29d20ca67048428916c/quarter_lib-0.0.9.tar.gz
+[2023-05-03 15:09:48] INFO root fetch - processPackages [openmc-depletion-plotter]: executing diffoscope
+[2023-05-03 15:09:48] INFO root fetch - processPackages [openmc-depletion-plotter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmc_depletion_plotter-0.3.1.tar.gz tmp/openmc_depletion_plotter-0.3.2.tar.gz --markdown 20230503/o/openmc-depletion-plotter/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-03 15:09:49] INFO root fetch - processPackages [up-lpg]: Downloading https://files.pythonhosted.org/packages/6f/8e/498cfd9389204ba08c57aa96f8bf1103ba114d1aa3066bddda117fb278e4/up_lpg-0.0.6.4-pp39-pypy39_pp73-win_amd64.whl
+[2023-05-03 15:09:49] INFO root fetch - processPackages [up-lpg]: executing diffoscope
+[2023-05-03 15:09:49] INFO root fetch - processPackages [up-lpg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/up_lpg-0.0.6.3-pp39-pypy39_pp73-win_amd64.whl.zip tmp/up_lpg-0.0.6.4-pp39-pypy39_pp73-win_amd64.whl.zip --markdown 20230503/u/up-lpg/0.0.6.3-0.0.6.4/diff.md --exclude *.pyd
+[2023-05-03 15:09:49] INFO root fetch - processPackages [digicloud]: Downloading https://files.pythonhosted.org/packages/03/e4/b2beb116721a47863cdc3dde8fd85d91ae7fc8c7a30a2ae5ceda21a1252d/digicloud-2.5.9.tar.gz
+[2023-05-03 15:09:49] INFO root fetch - processPackages [quarter-lib]: executing diffoscope
+[2023-05-03 15:09:49] INFO root fetch - processPackages [quarter-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quarter_lib-0.0.8.tar.gz tmp/quarter_lib-0.0.9.tar.gz --markdown 20230503/q/quarter-lib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 15:09:49] INFO root fetch - processPackages [digicloud]: executing diffoscope
+[2023-05-03 15:09:49] INFO root fetch - processPackages [digicloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digicloud-2.5.8.tar.gz tmp/digicloud-2.5.9.tar.gz --markdown 20230503/d/digicloud/2.5.8-2.5.9/diff.md --exclude *.pyd
+[2023-05-03 15:09:49] INFO root fetch - processPackages [pyzsf]: Start processing: openai-multi-client
+[2023-05-03 15:09:49] INFO root fetch - main [MainThread]: End processing [pyzsf]: success
+[2023-05-03 15:09:49] INFO root fetch - processPackages [openai-multi-client]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-03 15:09:49] INFO root fetch - processPackages [pitchtools]: Start processing: pycrafter
+[2023-05-03 15:09:49] INFO root fetch - main [MainThread]: End processing [pitchtools]: success
+[2023-05-03 15:09:49] INFO root fetch - processPackages [openai-multi-client]: Downloading https://files.pythonhosted.org/packages/ce/10/29b3ecf69d95cd329ba9dc4519c0f1f5ede4975b6ac5f7977a915f99ce9d/openai_multi_client-0.1.0.tar.gz
+[2023-05-03 15:09:50] INFO root fetch - processPackages [questdb-connect]: Start processing: chromedriver-binary
+[2023-05-03 15:09:50] INFO root fetch - main [MainThread]: End processing [questdb-connect]: success
+[2023-05-03 15:09:50] WARNING root fetch - processPackages [pycrafter]: Skipping, unable to determine old version
+[2023-05-03 15:09:50] INFO root fetch - processPackages [pycrafter]: Start processing: fwdviewpy
+[2023-05-03 15:09:50] INFO root fetch - main [MainThread]: End processing [pycrafter] error
+[2023-05-03 15:09:50] INFO root fetch - processPackages [ambient-package-update]: Start processing: chromedriver-binary-auto
+[2023-05-03 15:09:50] INFO root fetch - main [MainThread]: End processing [ambient-package-update]: success
+[2023-05-03 15:09:50] INFO root fetch - processPackages [chromedriver-binary]: New version: [99.0.4844.51.0] Old Version: [99.0.4844.35.0]
+[2023-05-03 15:09:50] INFO root fetch - processPackages [fwdviewpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-03 15:09:50] INFO root fetch - processPackages [chromedriver-binary-auto]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-05-03 15:09:50] INFO root fetch - processPackages [fwdviewpy]: executing diffoscope
+[2023-05-03 15:09:50] INFO root fetch - processPackages [fwdviewpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fwdviewpy-0.1.8.tar.gz tmp/fwdviewpy-0.1.9.tar.gz --markdown 20230503/f/fwdviewpy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-03 15:09:50] INFO root fetch - processPackages [openai-multi-client]: Downloading https://files.pythonhosted.org/packages/f9/6a/ae270d9b852d0971e435f55aff8e59b76de70abe64f7366a43418040cac2/openai_multi_client-0.1.1.tar.gz
+[2023-05-03 15:09:50] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/50/a2/f36a3d2f2aa37ccc496e5f81d594f06e3965b836712da14b4b01d2f05ca8/chromedriver-binary-99.0.4844.35.0.tar.gz
+[2023-05-03 15:09:50] INFO root fetch - processPackages [up-lpg]: Start processing: nbdev-stdlib
+[2023-05-03 15:09:50] INFO root fetch - main [MainThread]: End processing [up-lpg]: success
+[2023-05-03 15:09:50] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-03 15:09:50] INFO root fetch - processPackages [chromedriver-binary-auto]: Downloading https://files.pythonhosted.org/packages/17/c7/02270722d10c6e841f1f18a33449e92e1f773e0496d7a06204e4cc2254a1/chromedriver-binary-auto-0.2.5.tar.gz
+[2023-05-03 15:09:50] INFO root fetch - processPackages [openai-multi-client]: executing diffoscope
+[2023-05-03 15:09:50] INFO root fetch - processPackages [openai-multi-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_multi_client-0.1.0.tar.gz tmp/openai_multi_client-0.1.1.tar.gz --markdown 20230503/o/openai-multi-client/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-03 15:09:50] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/e8/48/ed43dbfa0bd5ca86a6a3f6ae0500b0cffb413b2c3f118e82da24ef3488f1/nbdev-stdlib-0.0.98.tar.gz
+[2023-05-03 15:09:50] INFO root fetch - processPackages [quarter-lib]: Start processing: dclab
+[2023-05-03 15:09:50] INFO root fetch - main [MainThread]: End processing [quarter-lib]: success
+[2023-05-03 15:09:50] INFO root fetch - processPackages [dclab]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-03 15:09:50] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/9b/0f/42944508859f820e43bf894814c5e9dbc7920a0caceef1828a31a9e5b599/nbdev-stdlib-0.0.99.tar.gz
+[2023-05-03 15:09:50] INFO root fetch - processPackages [djangocms-xliff]: Start processing: snakesay
+[2023-05-03 15:09:50] INFO root fetch - main [MainThread]: End processing [djangocms-xliff]: success
+[2023-05-03 15:09:50] INFO root fetch - processPackages [chromedriver-binary-auto]: Downloading https://files.pythonhosted.org/packages/56/95/e5af8347eef265b85e63c5c6366e9922d828e86e590ed705589a5de3da67/chromedriver-binary-auto-0.2.6.tar.gz
+[2023-05-03 15:09:50] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-05-03 15:09:50] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230503/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-03 15:09:50] INFO root fetch - processPackages [snakesay]: New version: [0.9.0] Old Version: [0.10.2]
+[2023-05-03 15:09:50] INFO root fetch - processPackages [chromedriver-binary-auto]: executing diffoscope
+[2023-05-03 15:09:50] INFO root fetch - processPackages [chromedriver-binary-auto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver-binary-auto-0.2.5.tar.gz tmp/chromedriver-binary-auto-0.2.6.tar.gz --markdown 20230503/c/chromedriver-binary-auto/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-05-03 15:09:50] INFO root fetch - processPackages [dclab]: Downloading https://files.pythonhosted.org/packages/7c/85/1e39b909a273589478001e4ea5a3df8fd5923e2dbc48bc5ded42f984a58f/dclab-0.9.0.tar.gz
+[2023-05-03 15:09:50] INFO root fetch - processPackages [snakesay]: Downloading https://files.pythonhosted.org/packages/b7/34/e6f02ad0fab8370fa14b8fb0a251a3157eecf49ca969a6df80b133d112ed/snakesay-0.10.2.tar.gz
+[2023-05-03 15:09:50] INFO root fetch - processPackages [digicloud]: Start processing: modelbit
+[2023-05-03 15:09:50] INFO root fetch - main [MainThread]: End processing [digicloud]: success
+[2023-05-03 15:09:50] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/d9/eb/3bd2a308b9e6f7441fbed7b759578bddade2cb983bb4ffe7fc3777863314/chromedriver-binary-99.0.4844.51.0.tar.gz
+[2023-05-03 15:09:50] INFO root fetch - processPackages [modelbit]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-05-03 15:09:51] INFO root fetch - processPackages [dclab]: Downloading https://files.pythonhosted.org/packages/b7/8f/20dd68d6e832776bab24a9ec17e74b4480bdf3b960f989ada95f9a4387cc/dclab-0.9.1.tar.gz
+[2023-05-03 15:09:51] INFO root fetch - processPackages [chromedriver-binary]: executing diffoscope
+[2023-05-03 15:09:51] INFO root fetch - processPackages [chromedriver-binary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver-binary-99.0.4844.35.0.tar.gz tmp/chromedriver-binary-99.0.4844.51.0.tar.gz --markdown 20230503/c/chromedriver-binary/99.0.4844.35.0-99.0.4844.51.0/diff.md --exclude *.pyd
+[2023-05-03 15:09:51] INFO root fetch - processPackages [snakesay]: Downloading https://files.pythonhosted.org/packages/8a/ab/ef743d52c07fbcf536a71669324789f2e19982414d9602a7d6e0428cc29b/snakesay-0.9.0.tar.gz
+[2023-05-03 15:09:51] INFO root fetch - processPackages [modelbit]: Downloading https://files.pythonhosted.org/packages/c9/f0/ed4cc6d7e8a055435d41e58b6ff37b6189ac3cb52e6383b72c12aa4e605f/modelbit-0.9.6.tar.gz
+[2023-05-03 15:09:51] INFO root fetch - processPackages [snakesay]: executing diffoscope
+[2023-05-03 15:09:51] INFO root fetch - processPackages [snakesay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snakesay-0.10.2.tar.gz tmp/snakesay-0.9.0.tar.gz --markdown 20230503/s/snakesay/0.10.2-0.9.0/diff.md --exclude *.pyd
+[2023-05-03 15:09:51] INFO root fetch - processPackages [modelbit]: Downloading https://files.pythonhosted.org/packages/55/0f/8d19e66368fbaa57d08deb9b9d12c445c2e2451e77490d39dfff1e70698a/modelbit-0.9.7.tar.gz
+[2023-05-03 15:09:51] INFO root fetch - processPackages [modelbit]: executing diffoscope
+[2023-05-03 15:09:51] INFO root fetch - processPackages [modelbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelbit-0.9.6.tar.gz tmp/modelbit-0.9.7.tar.gz --markdown 20230503/m/modelbit/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-05-03 15:09:51] INFO root fetch - processPackages [fwdviewpy]: Start processing: tuxsuite
+[2023-05-03 15:09:51] INFO root fetch - main [MainThread]: End processing [fwdviewpy]: success
+[2023-05-03 15:09:51] INFO root fetch - processPackages [dclab]: executing diffoscope
+[2023-05-03 15:09:51] INFO root fetch - processPackages [dclab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dclab-0.9.0.tar.gz tmp/dclab-0.9.1.tar.gz --markdown 20230503/d/dclab/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-03 15:09:51] INFO root fetch - processPackages [tuxsuite]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-03 15:09:51] INFO root fetch - processPackages [openai-multi-client]: Start processing: DMU
+[2023-05-03 15:09:51] INFO root fetch - main [MainThread]: End processing [openai-multi-client]: success
+[2023-05-03 15:09:51] INFO root fetch - processPackages [chromedriver-binary-auto]: Start processing: nbdev-numpy
+[2023-05-03 15:09:51] INFO root fetch - main [MainThread]: End processing [chromedriver-binary-auto]: success
+[2023-05-03 15:09:51] INFO root fetch - processPackages [tuxsuite]: Downloading https://files.pythonhosted.org/packages/27/14/f25c40bc531aff32551c08e4d9c8b6894d4749d5ad96f37b58cc307cfb29/tuxsuite-1.8.0.tar.gz
+[2023-05-03 15:09:51] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-03 15:09:51] INFO root fetch - processPackages [DMU]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-03 15:09:51] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-05-03 15:09:51] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-05-03 15:09:52] INFO root fetch - processPackages [DMU]: Downloading https://files.pythonhosted.org/packages/f7/af/7def58fd42d6f5830a3abf9454c683f45cc59fef923ef6d026d91c8e97fc/DMU-0.0.4.tar.gz
+[2023-05-03 15:09:52] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-05-03 15:09:52] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230503/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-03 15:09:52] INFO root fetch - processPackages [tuxsuite]: Downloading https://files.pythonhosted.org/packages/4d/5e/8be806f24d5782026eef566b71100557104f363339b8917671132eadf1ea/tuxsuite-1.9.0.tar.gz
+[2023-05-03 15:09:52] INFO root fetch - processPackages [chromedriver-binary]: Start processing: dcentrapi
+[2023-05-03 15:09:52] INFO root fetch - main [MainThread]: End processing [chromedriver-binary]: success
+[2023-05-03 15:09:52] INFO root fetch - processPackages [snakesay]: Start processing: jnt-django-toolbox
+[2023-05-03 15:09:52] INFO root fetch - main [MainThread]: End processing [snakesay]: success
+[2023-05-03 15:09:52] INFO root fetch - processPackages [DMU]: Downloading https://files.pythonhosted.org/packages/eb/eb/26fb36274750923532609e685d768d664402eb45391fa0472f0428965936/DMU-0.0.5.tar.gz
+[2023-05-03 15:09:52] INFO root fetch - processPackages [tuxsuite]: executing diffoscope
+[2023-05-03 15:09:52] INFO root fetch - processPackages [tuxsuite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuxsuite-1.8.0.tar.gz tmp/tuxsuite-1.9.0.tar.gz --markdown 20230503/t/tuxsuite/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-03 15:09:52] INFO root fetch - processPackages [jnt-django-toolbox]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-05-03 15:09:52] INFO root fetch - processPackages [dcentrapi]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-03 15:09:52] INFO root fetch - main [MainThread]: End processing [robotframework-seleniumlibrary]: success
+[2023-05-03 15:09:52] INFO root fetch - processPackages [jnt-django-toolbox]: executing diffoscope
+[2023-05-03 15:09:52] INFO root fetch - processPackages [jnt-django-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jnt_django_toolbox-0.9.7.tar.gz tmp/jnt_django_toolbox-0.9.8.tar.gz --markdown 20230503/j/jnt-django-toolbox/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-05-03 15:09:52] INFO root fetch - processPackages [DMU]: executing diffoscope
+[2023-05-03 15:09:52] INFO root fetch - processPackages [DMU]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DMU-0.0.4.tar.gz tmp/DMU-0.0.5.tar.gz --markdown 20230503/D/DMU/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-03 15:09:52] INFO root fetch - processPackages [dcentrapi]: Downloading https://files.pythonhosted.org/packages/4b/60/6854c06e9d5e1eaaac42e802f5c8b081ddcc92658a96ecf294267ab28b02/dcentrapi-0.1.8.tar.gz
+[2023-05-03 15:09:52] INFO root fetch - processPackages [dcentrapi]: Downloading https://files.pythonhosted.org/packages/ab/7e/b83c45279b50af45e70f3f36ec6788aa7d5b9bde558a4750eff0c1b241ae/dcentrapi-0.1.9.tar.gz
+[2023-05-03 15:09:52] INFO root fetch - processPackages [dcentrapi]: executing diffoscope
+[2023-05-03 15:09:52] INFO root fetch - processPackages [dcentrapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcentrapi-0.1.8.tar.gz tmp/dcentrapi-0.1.9.tar.gz --markdown 20230503/d/dcentrapi/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-03 15:09:53] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-05-03 15:09:53] INFO root fetch - main [MainThread]: End processing [modelbit]: success
+[2023-05-03 15:09:53] INFO root fetch - main [MainThread]: End processing [DMU]: success
+[2023-05-03 15:09:53] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-05-03 15:09:53] INFO root fetch - main [MainThread]: End processing [jnt-django-toolbox]: success
+[2023-05-03 15:09:53] INFO root fetch - main [MainThread]: End processing [dcentrapi]: success
+[2023-05-03 15:09:54] INFO root fetch - main [MainThread]: End processing [tuxsuite]: success
+[2023-05-03 15:09:54] INFO root fetch - main [MainThread]: End processing [openmc-depletion-plotter]: success
+[2023-05-03 15:09:55] INFO root fetch - main [MainThread]: End processing [dclab]: success
+[2023-05-03 15:09:55] INFO root fetch - main [MainThread]: Store serial: [17956781]
