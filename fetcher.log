@@ -15992,3 +15992,155 @@ No space left on device. Diffoscope exiting.
 [2023-05-03 15:36:34] INFO root fetch - main [MainThread]: End processing [openhab-pythonrule-engine]: success
 [2023-05-03 15:36:34] INFO root fetch - main [MainThread]: End processing [ferveo]: success
 [2023-05-03 15:36:34] INFO root fetch - main [MainThread]: Store serial: [17957057]
+[2023-05-03 15:41:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17957057]
+[2023-05-03 15:41:43] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-05-03 15:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quarter-lib
+[2023-05-03 15:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coretex
+[2023-05-03 15:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sphere-snap
+[2023-05-03 15:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openlineage-airflow
+[2023-05-03 15:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openlineage-dagster
+[2023-05-03 15:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openlineage-dbt
+[2023-05-03 15:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openlineage-integration-common
+[2023-05-03 15:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ABSmartly
+[2023-05-03 15:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: openlineage-python
+[2023-05-03 15:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: eulerpi
+[2023-05-03 15:41:43] INFO root fetch - processPackages [quarter-lib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 15:41:43] INFO root fetch - processPackages [quarter-lib]: executing diffoscope
+[2023-05-03 15:41:43] INFO root fetch - processPackages [quarter-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quarter_lib-0.0.8.tar.gz tmp/quarter_lib-0.0.9.tar.gz --markdown 20230503/q/quarter-lib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 15:41:43] WARNING root fetch - processPackages [sphere-snap]: Skipping, unable to determine old version
+[2023-05-03 15:41:43] INFO root fetch - processPackages [sphere-snap]: Start processing: openlineage-sql
+[2023-05-03 15:41:43] INFO root fetch - main [MainThread]: End processing [sphere-snap] error
+[2023-05-03 15:41:43] INFO root fetch - processPackages [openlineage-dagster]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-05-03 15:41:43] INFO root fetch - processPackages [openlineage-airflow]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-05-03 15:41:43] INFO root fetch - processPackages [coretex]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 15:41:43] INFO root fetch - processPackages [ABSmartly]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-03 15:41:43] INFO root fetch - processPackages [eulerpi]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-03 15:41:43] INFO root fetch - processPackages [openlineage-python]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-05-03 15:41:43] INFO root fetch - processPackages [openlineage-dbt]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-05-03 15:41:43] INFO root fetch - processPackages [openlineage-integration-common]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-05-03 15:41:44] INFO root fetch - processPackages [openlineage-sql]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-05-03 15:41:44] INFO root fetch - processPackages [openlineage-dbt]: Downloading https://files.pythonhosted.org/packages/26/27/cc4b641d34d29e86ad58db25ce999c56af25bcb41fbd2fec3e2697af285c/openlineage-dbt-0.8.2.tar.gz
+[2023-05-03 15:41:44] INFO root fetch - processPackages [openlineage-dagster]: Downloading https://files.pythonhosted.org/packages/13/67/488fb7516c358e4b285740fb863a79d1279d25d7244a7fe90e6963233d2b/openlineage-dagster-0.8.2.tar.gz
+[2023-05-03 15:41:44] INFO root fetch - processPackages [coretex]: Downloading https://files.pythonhosted.org/packages/21/1d/980c6d21dbe2d503de34a1993b1e0e9c69167b0ab6e7aae2d6ebf057e8ed/coretex-0.0.8.tar.gz
+[2023-05-03 15:41:44] INFO root fetch - processPackages [ABSmartly]: Downloading https://files.pythonhosted.org/packages/d3/87/07efcf3a2bb2659d469b95df099c53f02499512298f4ceeaa7ef8bd717fc/ABSmartly-0.1.3.tar.gz
+[2023-05-03 15:41:44] INFO root fetch - processPackages [openlineage-airflow]: Downloading https://files.pythonhosted.org/packages/58/51/5a84326e4010eb9ee60f5b640b6c588e174ea364fa3cfe42eea82118e396/openlineage-airflow-0.8.2.tar.gz
+[2023-05-03 15:41:44] INFO root fetch - processPackages [openlineage-python]: Downloading https://files.pythonhosted.org/packages/08/53/fdaf56bed58ad60fb148f28a32df1da172c9439f400c0c4b7ac52e704b22/openlineage-python-0.8.2.tar.gz
+[2023-05-03 15:41:44] INFO root fetch - processPackages [openlineage-integration-common]: Downloading https://files.pythonhosted.org/packages/e0/42/f729f76f601645e57193d6994aa8db54a5279a5e789fcfa8585b09ea1b40/openlineage-integration-common-0.8.2.tar.gz
+[2023-05-03 15:41:44] INFO root fetch - processPackages [openlineage-sql]: Downloading https://files.pythonhosted.org/packages/aa/a1/31b29e16decda21831cc5847fbfb18ad2ce154cd5480301286e7f8f24cfd/openlineage_sql-0.8.2.tar.gz
+[2023-05-03 15:41:44] INFO root fetch - processPackages [eulerpi]: Downloading https://files.pythonhosted.org/packages/6e/52/8598a24a5985a5172dfcd2a76257e7a8a8508ef980bc95a158a58cb75a95/eulerpi-0.3.1.tar.gz
+[2023-05-03 15:41:44] INFO root fetch - processPackages [eulerpi]: executing diffoscope
+[2023-05-03 15:41:44] INFO root fetch - processPackages [eulerpi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eulerpi-0.3.0.tar.gz tmp/eulerpi-0.3.1.tar.gz --markdown 20230503/e/eulerpi/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-03 15:41:44] INFO root fetch - processPackages [ABSmartly]: Downloading https://files.pythonhosted.org/packages/e9/08/41bf7b6530cff6bf0e2f991f6baad16b8d3c88bb9b99a1dc774b115e028b/ABSmartly-0.1.4.tar.gz
+[2023-05-03 15:41:44] INFO root fetch - processPackages [coretex]: Downloading https://files.pythonhosted.org/packages/93/86/1cf39d4988d7419e88a27e0ad1b3c4872a93a11dfc4bccd1a80ad2c687c7/coretex-0.0.9.tar.gz
+[2023-05-03 15:41:44] INFO root fetch - processPackages [ABSmartly]: executing diffoscope
+[2023-05-03 15:41:44] INFO root fetch - processPackages [ABSmartly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ABSmartly-0.1.3.tar.gz tmp/ABSmartly-0.1.4.tar.gz --markdown 20230503/A/ABSmartly/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-03 15:41:44] INFO root fetch - processPackages [openlineage-dagster]: Downloading https://files.pythonhosted.org/packages/09/1d/f6da3bb3846b35fe97c0530ff4d933757b4c64053a3cc89537356ba447db/openlineage-dagster-0.9.0.tar.gz
+[2023-05-03 15:41:44] INFO root fetch - processPackages [openlineage-integration-common]: Downloading https://files.pythonhosted.org/packages/ca/7a/0647ff9e01ce6ecdd6ea6498013c9701a74381ad8fdff70e97159d75283a/openlineage-integration-common-0.9.0.tar.gz
+[2023-05-03 15:41:44] INFO root fetch - processPackages [openlineage-python]: Downloading https://files.pythonhosted.org/packages/cd/7a/48f3382f357e7538a2586aa82728311e2406eacf4d0a93f8113e9eada999/openlineage-python-0.9.0.tar.gz
+[2023-05-03 15:41:44] INFO root fetch - processPackages [openlineage-dbt]: Downloading https://files.pythonhosted.org/packages/b0/8f/d5e86853bcc3cdf42b220813ce6ff098d95f6257d611c19a151e17257688/openlineage-dbt-0.9.0.tar.gz
+[2023-05-03 15:41:44] INFO root fetch - processPackages [coretex]: executing diffoscope
+[2023-05-03 15:41:44] INFO root fetch - processPackages [coretex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coretex-0.0.8.tar.gz tmp/coretex-0.0.9.tar.gz --markdown 20230503/c/coretex/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 15:41:44] INFO root fetch - processPackages [openlineage-airflow]: Downloading https://files.pythonhosted.org/packages/fb/61/19a68d46754130a3be40f2dea560fa5df992a6e95e8efd602f5e96f59fef/openlineage-airflow-0.9.0.tar.gz
+[2023-05-03 15:41:44] INFO root fetch - processPackages [openlineage-sql]: Downloading https://files.pythonhosted.org/packages/46/a5/42019f5764d165c482529b27de537970858fa948b02049ba31b37eea5d01/openlineage_sql-0.9.0.tar.gz
+[2023-05-03 15:41:44] INFO root fetch - processPackages [openlineage-dbt]: executing diffoscope
+[2023-05-03 15:41:44] INFO root fetch - processPackages [openlineage-dbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlineage-dbt-0.8.2.tar.gz tmp/openlineage-dbt-0.9.0.tar.gz --markdown 20230503/o/openlineage-dbt/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-05-03 15:41:44] INFO root fetch - processPackages [openlineage-dagster]: executing diffoscope
+[2023-05-03 15:41:44] INFO root fetch - processPackages [openlineage-dagster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlineage-dagster-0.8.2.tar.gz tmp/openlineage-dagster-0.9.0.tar.gz --markdown 20230503/o/openlineage-dagster/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-05-03 15:41:44] INFO root fetch - processPackages [openlineage-python]: executing diffoscope
+[2023-05-03 15:41:44] INFO root fetch - processPackages [openlineage-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlineage-python-0.8.2.tar.gz tmp/openlineage-python-0.9.0.tar.gz --markdown 20230503/o/openlineage-python/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-05-03 15:41:44] INFO root fetch - processPackages [openlineage-airflow]: executing diffoscope
+[2023-05-03 15:41:44] INFO root fetch - processPackages [openlineage-airflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlineage-airflow-0.8.2.tar.gz tmp/openlineage-airflow-0.9.0.tar.gz --markdown 20230503/o/openlineage-airflow/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-05-03 15:41:44] INFO root fetch - processPackages [openlineage-integration-common]: executing diffoscope
+[2023-05-03 15:41:44] INFO root fetch - processPackages [openlineage-integration-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlineage-integration-common-0.8.2.tar.gz tmp/openlineage-integration-common-0.9.0.tar.gz --markdown 20230503/o/openlineage-integration-common/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-05-03 15:41:44] INFO root fetch - processPackages [openlineage-sql]: executing diffoscope
+[2023-05-03 15:41:44] INFO root fetch - processPackages [openlineage-sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlineage_sql-0.8.2.tar.gz tmp/openlineage_sql-0.9.0.tar.gz --markdown 20230503/o/openlineage-sql/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-05-03 15:41:45] INFO root fetch - processPackages [quarter-lib]: Start processing: mediacatch-s2t
+[2023-05-03 15:41:45] INFO root fetch - main [MainThread]: End processing [quarter-lib]: success
+[2023-05-03 15:41:45] INFO root fetch - processPackages [mediacatch-s2t]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-03 15:41:45] INFO root fetch - processPackages [mediacatch-s2t]: Downloading https://files.pythonhosted.org/packages/78/1f/53d5f87abd115a011fc5646aebb718da68697e8a06df0911b0bbecd3c8b8/mediacatch-s2t-0.0.5.tar.gz
+[2023-05-03 15:41:45] INFO root fetch - processPackages [mediacatch-s2t]: Downloading https://files.pythonhosted.org/packages/8b/33/28ba55446e3ae605a74d0c418296b520ae304c2987b17af9708da245433d/mediacatch-s2t-0.0.6.tar.gz
+[2023-05-03 15:41:45] INFO root fetch - processPackages [eulerpi]: Start processing: griffe
+[2023-05-03 15:41:45] INFO root fetch - main [MainThread]: End processing [eulerpi]: success
+[2023-05-03 15:41:46] INFO root fetch - processPackages [mediacatch-s2t]: executing diffoscope
+[2023-05-03 15:41:46] INFO root fetch - processPackages [mediacatch-s2t]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mediacatch-s2t-0.0.5.tar.gz tmp/mediacatch-s2t-0.0.6.tar.gz --markdown 20230503/m/mediacatch-s2t/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-03 15:41:46] INFO root fetch - processPackages [griffe]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-03 15:41:46] INFO root fetch - processPackages [openlineage-dbt]: Start processing: odoo-addon-account-payment-order
+[2023-05-03 15:41:46] INFO root fetch - main [MainThread]: End processing [openlineage-dbt]: success
+[2023-05-03 15:41:46] INFO root fetch - processPackages [odoo-addon-account-payment-order]: New version: [16.0.1.1.0] Old Version: [16.0.1.0.2.2]
+[2023-05-03 15:41:46] INFO root fetch - processPackages [griffe]: Downloading https://files.pythonhosted.org/packages/32/dd/bc07e7e6b53772e9c44c34a18ca7e4ceb99b58bfb2c2f72f7913e3f0d303/griffe-0.8.0.tar.gz
+[2023-05-03 15:41:46] INFO root fetch - processPackages [openlineage-python]: Start processing: jnt-django-toolbox
+[2023-05-03 15:41:46] INFO root fetch - main [MainThread]: End processing [openlineage-python]: success
+[2023-05-03 15:41:46] INFO root fetch - processPackages [jnt-django-toolbox]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-03 15:41:46] INFO root fetch - processPackages [openlineage-dagster]: Start processing: testmsg
+[2023-05-03 15:41:46] INFO root fetch - main [MainThread]: End processing [openlineage-dagster]: success
+[2023-05-03 15:41:46] INFO root fetch - processPackages [openlineage-integration-common]: Start processing: lti-consumer-xblock
+[2023-05-03 15:41:46] INFO root fetch - main [MainThread]: End processing [openlineage-integration-common]: success
+[2023-05-03 15:41:46] INFO root fetch - processPackages [openlineage-sql]: Start processing: empaia-app-test-suite
+[2023-05-03 15:41:46] INFO root fetch - main [MainThread]: End processing [openlineage-sql]: success
+[2023-05-03 15:41:46] WARNING root fetch - processPackages [testmsg]: Skipping, unable to determine old version
+[2023-05-03 15:41:46] INFO root fetch - processPackages [testmsg]: Start processing: lesscode-tool
+[2023-05-03 15:41:46] INFO root fetch - main [MainThread]: End processing [testmsg] error
+[2023-05-03 15:41:46] INFO root fetch - processPackages [odoo-addon-account-payment-order]: Downloading https://files.pythonhosted.org/packages/08/57/4538b8196e4b80e4c6f43e7b49d8b7f969df0a901bb8ea7edfd2ef5a3309/odoo_addon_account_payment_order-16.0.1.0.2.2-py3-none-any.whl
+[2023-05-03 15:41:46] INFO root fetch - processPackages [lesscode-tool]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 15:41:46] INFO root fetch - processPackages [lti-consumer-xblock]: New version: [9.2.0] Old Version: [9.1.0]
+[2023-05-03 15:41:46] INFO root fetch - processPackages [empaia-app-test-suite]: New version: [3.2.1] Old Version: [3.2.0]
+[2023-05-03 15:41:46] INFO root fetch - processPackages [openlineage-airflow]: Start processing: camerahub
+[2023-05-03 15:41:46] INFO root fetch - main [MainThread]: End processing [openlineage-airflow]: success
+[2023-05-03 15:41:46] INFO root fetch - processPackages [lesscode-tool]: executing diffoscope
+[2023-05-03 15:41:46] INFO root fetch - processPackages [lti-consumer-xblock]: executing diffoscope
+[2023-05-03 15:41:46] INFO root fetch - processPackages [lesscode-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesscode_tool-0.0.8.tar.gz tmp/lesscode_tool-0.0.9.tar.gz --markdown 20230503/l/lesscode-tool/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 15:41:46] INFO root fetch - processPackages [lti-consumer-xblock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lti-consumer-xblock-9.1.0.tar.gz tmp/lti-consumer-xblock-9.2.0.tar.gz --markdown 20230503/l/lti-consumer-xblock/9.1.0-9.2.0/diff.md --exclude *.pyd
+[2023-05-03 15:41:46] INFO root fetch - processPackages [jnt-django-toolbox]: Downloading https://files.pythonhosted.org/packages/4e/1f/734b9115282f9b5de600037b87ba17aa02115460d3288b5300bb41b55a25/jnt_django_toolbox-0.9.9.tar.gz
+[2023-05-03 15:41:46] INFO root fetch - processPackages [jnt-django-toolbox]: executing diffoscope
+[2023-05-03 15:41:46] INFO root fetch - processPackages [jnt-django-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jnt_django_toolbox-0.9.8.tar.gz tmp/jnt_django_toolbox-0.9.9.tar.gz --markdown 20230503/j/jnt-django-toolbox/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-03 15:41:46] INFO root fetch - processPackages [griffe]: Downloading https://files.pythonhosted.org/packages/97/67/6905162d0aeccc0a65143c6fda9d6510d04561725f6df7df71457a053c3d/griffe-0.9.0.tar.gz
+[2023-05-03 15:41:46] INFO root fetch - processPackages [camerahub]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-05-03 15:41:46] INFO root fetch - processPackages [empaia-app-test-suite]: Downloading https://files.pythonhosted.org/packages/d1/2a/2d0d845f2e6e0e33b5bf2b952ea572eb0b735c6edb63b05ca60767d404c8/empaia_app_test_suite-3.2.0.tar.gz
+[2023-05-03 15:41:46] INFO root fetch - processPackages [odoo-addon-account-payment-order]: Downloading https://files.pythonhosted.org/packages/ac/e0/2de9e8277c1d13785d1e8d715befd33145834229dbae5f463305fbde0afd/odoo_addon_account_payment_order-16.0.1.1.0-py3-none-any.whl
+[2023-05-03 15:41:46] INFO root fetch - processPackages [ABSmartly]: Start processing: tala
+[2023-05-03 15:41:46] INFO root fetch - main [MainThread]: End processing [ABSmartly]: success
+[2023-05-03 15:41:46] INFO root fetch - processPackages [tala]: New version: [9.0.0] Old Version: [8.0.0]
+[2023-05-03 15:41:46] INFO root fetch - processPackages [odoo-addon-account-payment-order]: executing diffoscope
+[2023-05-03 15:41:46] INFO root fetch - processPackages [odoo-addon-account-payment-order]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_payment_order-16.0.1.0.2.2-py3-none-any.whl.zip tmp/odoo_addon_account_payment_order-16.0.1.1.0-py3-none-any.whl.zip --markdown 20230503/o/odoo-addon-account-payment-order/16.0.1.0.2.2-16.0.1.1.0/diff.md --exclude *.pyd
+[2023-05-03 15:41:46] INFO root fetch - processPackages [camerahub]: Downloading https://files.pythonhosted.org/packages/1f/05/ce7482dd7d55541ee214da65ecb5938f222af58095bee62f16e637f1eed0/camerahub-0.9.7.tar.gz
+[2023-05-03 15:41:46] INFO root fetch - processPackages [tala]: executing diffoscope
+[2023-05-03 15:41:46] INFO root fetch - processPackages [tala]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tala-8.0.0-py3-none-any.whl.zip tmp/tala-9.0.0-py3-none-any.whl.zip --markdown 20230503/t/tala/8.0.0-9.0.0/diff.md --exclude *.pyd
+[2023-05-03 15:41:47] INFO root fetch - processPackages [griffe]: executing diffoscope
+[2023-05-03 15:41:47] INFO root fetch - processPackages [griffe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/griffe-0.8.0.tar.gz tmp/griffe-0.9.0.tar.gz --markdown 20230503/g/griffe/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-03 15:41:47] INFO root fetch - processPackages [empaia-app-test-suite]: Downloading https://files.pythonhosted.org/packages/c1/1b/d1678e6581805fac354d60bf657770041e56096c6de5a245bc7a291904d8/empaia_app_test_suite-3.2.1.tar.gz
+[2023-05-03 15:41:47] INFO root fetch - processPackages [mediacatch-s2t]: Start processing: sanssouci
+[2023-05-03 15:41:47] INFO root fetch - main [MainThread]: End processing [mediacatch-s2t]: success
+[2023-05-03 15:41:47] INFO root fetch - processPackages [sanssouci]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-03 15:41:47] INFO root fetch - processPackages [empaia-app-test-suite]: executing diffoscope
+[2023-05-03 15:41:47] INFO root fetch - processPackages [empaia-app-test-suite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/empaia_app_test_suite-3.2.0.tar.gz tmp/empaia_app_test_suite-3.2.1.tar.gz --markdown 20230503/e/empaia-app-test-suite/3.2.0-3.2.1/diff.md --exclude *.pyd
+[2023-05-03 15:41:47] INFO root fetch - processPackages [sanssouci]: executing diffoscope
+[2023-05-03 15:41:47] INFO root fetch - processPackages [sanssouci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sanssouci-0.1.1-py3-none-any.whl.zip tmp/sanssouci-0.1.2.tar.gz --markdown 20230503/s/sanssouci/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-03 15:41:47] INFO root fetch - processPackages [coretex]: Start processing: priceloop-api
+[2023-05-03 15:41:47] INFO root fetch - main [MainThread]: End processing [coretex]: success
+[2023-05-03 15:41:47] INFO root fetch - processPackages [priceloop-api]: New version: [0.97.0] Old Version: [0.95.0]
+[2023-05-03 15:41:47] INFO root fetch - processPackages [priceloop-api]: executing diffoscope
+[2023-05-03 15:41:47] INFO root fetch - processPackages [priceloop-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/priceloop-api-0.95.0.tar.gz tmp/priceloop-api-0.97.0.tar.gz --markdown 20230503/p/priceloop-api/0.95.0-0.97.0/diff.md --exclude *.pyd
+[2023-05-03 15:41:47] INFO root fetch - processPackages [camerahub]: Downloading https://files.pythonhosted.org/packages/94/74/b0a2caca9cf5b6725997b75a9e904eabd5a2e28fc8d03a2c5b6973e7ed31/camerahub-0.9.8.tar.gz
+[2023-05-03 15:41:47] INFO root fetch - processPackages [camerahub]: executing diffoscope
+[2023-05-03 15:41:47] INFO root fetch - processPackages [camerahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camerahub-0.9.7.tar.gz tmp/camerahub-0.9.8.tar.gz --markdown 20230503/c/camerahub/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-05-03 15:41:48] INFO root fetch - processPackages [lesscode-tool]: Start processing: pyowletapi
+[2023-05-03 15:41:48] INFO root fetch - main [MainThread]: End processing [lesscode-tool]: success
+[2023-05-03 15:41:48] INFO root fetch - processPackages [pyowletapi]: New version: [2023.5.3] Old Version: [2022.11.3]
+[2023-05-03 15:41:48] INFO root fetch - processPackages [pyowletapi]: Downloading https://files.pythonhosted.org/packages/7c/e3/07006e1c4625a6527b210273404e00803cef27ddeb01fb7bbd0747f1cb6a/pyowletapi-2022.11.3.tar.gz
+[2023-05-03 15:41:48] INFO root fetch - processPackages [sanssouci]: Start processing: odoo14-addon-metadata
+[2023-05-03 15:41:48] INFO root fetch - main [MainThread]: End processing [sanssouci]: success
+[2023-05-03 15:41:48] INFO root fetch - processPackages [pyowletapi]: Downloading https://files.pythonhosted.org/packages/e9/1b/d4480a458d92e22c0a9571f191bbfc0280c253f63fab85880a18efe27587/pyowletapi-2023.5.3.tar.gz
+[2023-05-03 15:41:48] WARNING root fetch - processPackages [odoo14-addon-metadata]: Skipping, unable to determine old version
+[2023-05-03 15:41:48] INFO root fetch - main [MainThread]: End processing [odoo14-addon-metadata] error
+[2023-05-03 15:41:48] INFO root fetch - processPackages [pyowletapi]: executing diffoscope
+[2023-05-03 15:41:48] INFO root fetch - processPackages [pyowletapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyowletapi-2022.11.3.tar.gz tmp/pyowletapi-2023.5.3.tar.gz --markdown 20230503/p/pyowletapi/2022.11.3-2023.5.3/diff.md --exclude *.pyd
+[2023-05-03 15:41:48] INFO root fetch - main [MainThread]: End processing [griffe]: success
+[2023-05-03 15:41:49] INFO root fetch - main [MainThread]: End processing [jnt-django-toolbox]: success
+[2023-05-03 15:41:49] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-payment-order]: success
+[2023-05-03 15:41:49] INFO root fetch - main [MainThread]: End processing [pyowletapi]: success
+[2023-05-03 15:41:49] INFO root fetch - main [MainThread]: End processing [tala]: success
+[2023-05-03 15:41:50] INFO root fetch - main [MainThread]: End processing [priceloop-api]: success
+[2023-05-03 15:41:51] INFO root fetch - main [MainThread]: End processing [empaia-app-test-suite]: success
+[2023-05-03 15:41:51] INFO root fetch - main [MainThread]: End processing [lti-consumer-xblock]: success
+[2023-05-03 15:41:52] INFO root fetch - main [MainThread]: End processing [camerahub]: success
+[2023-05-03 15:41:52] INFO root fetch - main [MainThread]: Store serial: [17957147]
