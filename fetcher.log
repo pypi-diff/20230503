@@ -5657,3 +5657,99 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-03 06:02:17] INFO root fetch - main [MainThread]: End processing [graphsignal]: success
 [2023-05-03 06:02:18] INFO root fetch - main [MainThread]: End processing [PyPDPM]: success
 [2023-05-03 06:02:18] INFO root fetch - main [MainThread]: Store serial: [17951186]
+[2023-05-03 06:07:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17951186]
+[2023-05-03 06:07:27] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-03 06:07:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gpyt
+[2023-05-03 06:07:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: geowatch
+[2023-05-03 06:07:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yandexcloud
+[2023-05-03 06:07:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dank-mids
+[2023-05-03 06:07:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: SpotifyPictureHelper
+[2023-05-03 06:07:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lifelib
+[2023-05-03 06:07:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rom
+[2023-05-03 06:07:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: MNIST-dir
+[2023-05-03 06:07:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo13-addon-fieldservice
+[2023-05-03 06:07:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: azure-functions
+[2023-05-03 06:07:27] INFO root fetch - processPackages [gpyt]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-03 06:07:27] INFO root fetch - processPackages [SpotifyPictureHelper]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-03 06:07:27] INFO root fetch - processPackages [lifelib]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-05-03 06:07:27] INFO root fetch - processPackages [geowatch]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-05-03 06:07:27] INFO root fetch - processPackages [odoo13-addon-fieldservice]: New version: [13.0.1.2.2.dev6] Old Version: [13.0.1.2.2.dev5]
+[2023-05-03 06:07:27] INFO root fetch - processPackages [rom]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-03 06:07:27] INFO root fetch - processPackages [MNIST-dir]: New version: [0.2] Old Version: [0.1]
+[2023-05-03 06:07:27] INFO root fetch - processPackages [azure-functions]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-03 06:07:27] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-05-03 06:07:27] INFO root fetch - processPackages [yandexcloud]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-05-03 06:07:27] INFO root fetch - processPackages [azure-functions]: executing diffoscope
+[2023-05-03 06:07:27] INFO root fetch - processPackages [azure-functions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-functions-1.8.0.tar.gz tmp/azure-functions-1.9.0.tar.gz --markdown 20230503/a/azure-functions/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-03 06:07:27] INFO root fetch - processPackages [MNIST-dir]: Downloading https://files.pythonhosted.org/packages/b2/e5/cd671a402e6b9fec4d1353a95324071e7be95e15e8527aebb8adb57caaad/MNIST_dir-0.1.tar.gz
+[2023-05-03 06:07:27] INFO root fetch - processPackages [lifelib]: Downloading https://files.pythonhosted.org/packages/27/7e/b9c5c2d55f2ad323eb8dffe11b9a34ee450f065daa82583fddc09485f720/lifelib-0.8.0.tar.gz
+[2023-05-03 06:07:27] INFO root fetch - processPackages [gpyt]: Downloading https://files.pythonhosted.org/packages/be/a5/8fc2463098b56a2d80a564f2b8abbe279974cc3d063cbb8cd4643bc250af/gpyt-0.2.2.tar.gz
+[2023-05-03 06:07:27] INFO root fetch - processPackages [SpotifyPictureHelper]: Downloading https://files.pythonhosted.org/packages/f0/26/2ce4590b906fa0704c433818d9ffc430f89e3c657fdd5af16d5b7c3caf09/SpotifyPictureHelper-0.1.0.tar.gz
+[2023-05-03 06:07:27] INFO root fetch - processPackages [rom]: Downloading https://files.pythonhosted.org/packages/61/6a/4afb11aa61dded724b12a1336abe6d4514125c4d4bec88dd4f36dd842ac9/rom-1.0.5.tar.gz
+[2023-05-03 06:07:27] INFO root fetch - processPackages [geowatch]: Downloading https://files.pythonhosted.org/packages/cd/e4/f84f19f8891597aeec0984ec6bcde0aaf5c03c33fac98ddb91e2ab552a2a/geowatch-0.6.3.tar.gz
+[2023-05-03 06:07:27] INFO root fetch - processPackages [gpyt]: executing diffoscope
+[2023-05-03 06:07:27] INFO root fetch - processPackages [gpyt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpyt-0.2.1.tar.gz tmp/gpyt-0.2.2.tar.gz --markdown 20230503/g/gpyt/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-03 06:07:27] WARNING root fetch - processPackages [lifelib]: Skipping package: exceeds size limit 14986439>=10485760
+[2023-05-03 06:07:27] INFO root fetch - processPackages [lifelib]: Start processing: visualblocks
+[2023-05-03 06:07:27] INFO root fetch - main [MainThread]: End processing [lifelib] error
+[2023-05-03 06:07:27] INFO root fetch - processPackages [geowatch]: executing diffoscope
+[2023-05-03 06:07:27] INFO root fetch - processPackages [geowatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geowatch-0.6.2.tar.gz tmp/geowatch-0.6.3.tar.gz --markdown 20230503/g/geowatch/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-05-03 06:07:27] INFO root fetch - processPackages [odoo13-addon-fieldservice]: Downloading https://files.pythonhosted.org/packages/f5/01/8a74598c52ef5759ef1bfc3a0c3ee466d4cf29180e87fc1e0e2de22a6a2f/odoo13_addon_fieldservice-13.0.1.2.2.dev6-py3-none-any.whl
+[2023-05-03 06:07:27] INFO root fetch - processPackages [visualblocks]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-03 06:07:27] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-05-03 06:07:27] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230503/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-05-03 06:07:27] INFO root fetch - processPackages [yandexcloud]: executing diffoscope
+[2023-05-03 06:07:27] INFO root fetch - processPackages [yandexcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yandexcloud-0.98.0.tar.gz tmp/yandexcloud-0.99.0.tar.gz --markdown 20230503/y/yandexcloud/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-05-03 06:07:27] INFO root fetch - processPackages [MNIST-dir]: Downloading https://files.pythonhosted.org/packages/1f/a8/181fb894115c8efdb4f9412b301c6048bb105d55d68eeab5f680a53def5c/MNIST_dir-0.2-py3-none-any.whl
+[2023-05-03 06:07:27] INFO root fetch - processPackages [rom]: Downloading https://files.pythonhosted.org/packages/1d/7b/a6122906ae7fa4ac829030c745803d9b7d092273dcecd82d980d0a58a1cb/rom-1.0.6.tar.gz
+[2023-05-03 06:07:27] INFO root fetch - processPackages [odoo13-addon-fieldservice]: executing diffoscope
+[2023-05-03 06:07:27] INFO root fetch - processPackages [odoo13-addon-fieldservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_fieldservice-13.0.1.2.2.dev5-py3-none-any.whl.zip tmp/odoo13_addon_fieldservice-13.0.1.2.2.dev6-py3-none-any.whl.zip --markdown 20230503/o/odoo13-addon-fieldservice/13.0.1.2.2.dev5-13.0.1.2.2.dev6/diff.md --exclude *.pyd
+[2023-05-03 06:07:27] WARNING root fetch - processPackages [MNIST-dir]: Skipping package: exceeds size limit 11498038>=10485760
+[2023-05-03 06:07:27] INFO root fetch - processPackages [MNIST-dir]: Start processing: odoo12-addon-fieldservice
+[2023-05-03 06:07:27] INFO root fetch - main [MainThread]: End processing [MNIST-dir] error
+[2023-05-03 06:07:27] INFO root fetch - processPackages [odoo12-addon-fieldservice]: New version: [12.0.2.9.0.99.dev1] Old Version: [12.0.2.9.0]
+[2023-05-03 06:07:27] INFO root fetch - processPackages [SpotifyPictureHelper]: Downloading https://files.pythonhosted.org/packages/6d/e4/61fcce2fa5e07360da2cc13c39026198fda70e1de6b2ee37085655dac747/SpotifyPictureHelper-0.2.0.tar.gz
+[2023-05-03 06:07:27] INFO root fetch - processPackages [rom]: executing diffoscope
+[2023-05-03 06:07:27] INFO root fetch - processPackages [rom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rom-1.0.5.tar.gz tmp/rom-1.0.6.tar.gz --markdown 20230503/r/rom/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-03 06:07:27] INFO root fetch - processPackages [visualblocks]: Downloading https://files.pythonhosted.org/packages/a2/02/7417d58806ebe42e219f738048c20ea2e7c285b30e7dfe6f813acda2e9d6/visualblocks-0.0.4.tar.gz
+[2023-05-03 06:07:27] INFO root fetch - processPackages [SpotifyPictureHelper]: executing diffoscope
+[2023-05-03 06:07:27] INFO root fetch - processPackages [SpotifyPictureHelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SpotifyPictureHelper-0.1.0.tar.gz tmp/SpotifyPictureHelper-0.2.0.tar.gz --markdown 20230503/S/SpotifyPictureHelper/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-03 06:07:27] INFO root fetch - processPackages [visualblocks]: executing diffoscope
+[2023-05-03 06:07:27] INFO root fetch - processPackages [visualblocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visualblocks-0.0.3.tar.gz tmp/visualblocks-0.0.4.tar.gz --markdown 20230503/v/visualblocks/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-03 06:07:28] INFO root fetch - processPackages [odoo12-addon-fieldservice]: executing diffoscope
+[2023-05-03 06:07:28] INFO root fetch - processPackages [odoo12-addon-fieldservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_fieldservice-12.0.2.9.0-py3-none-any.whl.zip tmp/odoo12_addon_fieldservice-12.0.2.9.0.99.dev1-py3-none-any.whl.zip --markdown 20230503/o/odoo12-addon-fieldservice/12.0.2.9.0-12.0.2.9.0.99.dev1/diff.md --exclude *.pyd
+[2023-05-03 06:07:29] INFO root fetch - processPackages [dank-mids]: Start processing: dataset-viewer
+[2023-05-03 06:07:29] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-05-03 06:07:29] INFO root fetch - processPackages [dataset-viewer]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-03 06:07:29] INFO root fetch - processPackages [gpyt]: Start processing: PlatitudeTerminal
+[2023-05-03 06:07:29] INFO root fetch - main [MainThread]: End processing [gpyt]: success
+[2023-05-03 06:07:29] INFO root fetch - processPackages [PlatitudeTerminal]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-03 06:07:29] INFO root fetch - processPackages [PlatitudeTerminal]: Downloading https://files.pythonhosted.org/packages/e9/e5/19e2041866f8f2d322a105c498c8ed20a7efbeb0bed8ee0c8cd297fbb648/PlatitudeTerminal-1.0.1.tar.gz
+[2023-05-03 06:07:29] INFO root fetch - processPackages [dataset-viewer]: Downloading https://files.pythonhosted.org/packages/a3/42/08867390b8d43c7ed32782e64340a2d0aeb2de3810b03ced35475c890317/dataset-viewer-0.0.3.tar.gz
+[2023-05-03 06:07:29] INFO root fetch - processPackages [visualblocks]: Start processing: ggp-template
+[2023-05-03 06:07:29] INFO root fetch - main [MainThread]: End processing [visualblocks]: success
+[2023-05-03 06:07:29] WARNING root fetch - processPackages [ggp-template]: Skipping, unable to determine old version
+[2023-05-03 06:07:29] INFO root fetch - processPackages [ggp-template]: Start processing: odoo14-addon-fieldservice
+[2023-05-03 06:07:29] INFO root fetch - main [MainThread]: End processing [ggp-template] error
+[2023-05-03 06:07:29] INFO root fetch - processPackages [SpotifyPictureHelper]: Start processing: syscolourtoolkit
+[2023-05-03 06:07:29] INFO root fetch - main [MainThread]: End processing [SpotifyPictureHelper]: success
+[2023-05-03 06:07:29] INFO root fetch - processPackages [dataset-viewer]: executing diffoscope
+[2023-05-03 06:07:29] INFO root fetch - processPackages [dataset-viewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataset-viewer-0.0.2.tar.gz tmp/dataset-viewer-0.0.3.tar.gz --markdown 20230503/d/dataset-viewer/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-03 06:07:29] INFO root fetch - processPackages [odoo14-addon-fieldservice]: New version: [14.0.1.9.0] Old Version: [14.0.1.8.1.dev2]
+[2023-05-03 06:07:29] ERROR root fetch - processPackages [syscolourtoolkit]: Unable to get metadata: No such project 'syscolourtoolkit'
+[2023-05-03 06:07:29] INFO root fetch - main [MainThread]: End processing [syscolourtoolkit] error
+[2023-05-03 06:07:29] INFO root fetch - processPackages [PlatitudeTerminal]: Downloading https://files.pythonhosted.org/packages/5f/1b/c263692a9ed0d8aa903f17a3f90939649323109216097f0e2362eef09d02/PlatitudeTerminal-1.0.2.tar.gz
+[2023-05-03 06:07:29] INFO root fetch - processPackages [PlatitudeTerminal]: executing diffoscope
+[2023-05-03 06:07:29] INFO root fetch - processPackages [PlatitudeTerminal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PlatitudeTerminal-1.0.1.tar.gz tmp/PlatitudeTerminal-1.0.2.tar.gz --markdown 20230503/P/PlatitudeTerminal/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-03 06:07:29] INFO root fetch - processPackages [odoo14-addon-fieldservice]: executing diffoscope
+[2023-05-03 06:07:29] INFO root fetch - processPackages [odoo14-addon-fieldservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_fieldservice-14.0.1.8.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_fieldservice-14.0.1.9.0-py3-none-any.whl.zip --markdown 20230503/o/odoo14-addon-fieldservice/14.0.1.8.1.dev2-14.0.1.9.0/diff.md --exclude *.pyd
+[2023-05-03 06:07:30] INFO root fetch - main [MainThread]: End processing [odoo13-addon-fieldservice]: success
+[2023-05-03 06:07:30] INFO root fetch - main [MainThread]: End processing [azure-functions]: success
+[2023-05-03 06:07:30] INFO root fetch - main [MainThread]: End processing [rom]: success
+[2023-05-03 06:07:30] INFO root fetch - main [MainThread]: End processing [odoo12-addon-fieldservice]: success
+[2023-05-03 06:07:30] INFO root fetch - main [MainThread]: End processing [dataset-viewer]: success
+[2023-05-03 06:07:30] INFO root fetch - main [MainThread]: End processing [PlatitudeTerminal]: success
+[2023-05-03 06:07:31] INFO root fetch - main [MainThread]: End processing [odoo14-addon-fieldservice]: success
+[2023-05-03 06:07:35] INFO root fetch - main [MainThread]: End processing [yandexcloud]: success
+[2023-05-03 06:07:40] INFO root fetch - main [MainThread]: End processing [geowatch]: success
+[2023-05-03 06:07:40] INFO root fetch - main [MainThread]: Store serial: [17951245]
