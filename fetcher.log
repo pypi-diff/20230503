@@ -6912,3 +6912,12 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-03 07:40:13] INFO root fetch - main [MainThread]: End processing [spaceone-supervisor]: success
 [2023-05-03 07:40:14] INFO root fetch - main [MainThread]: End processing [k1lib]: success
 [2023-05-03 07:40:14] INFO root fetch - main [MainThread]: Store serial: [17951969]
+[2023-05-03 07:45:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17951969]
+[2023-05-03 07:45:22] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-05-03 07:45:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jaco2
+[2023-05-03 07:45:22] INFO root fetch - processPackages [jaco2]: New version: [3.8] Old Version: [3.7]
+[2023-05-03 07:45:23] INFO root fetch - processPackages [jaco2]: Downloading https://files.pythonhosted.org/packages/03/02/ad90961588d6108e5b6c8b20e3bc545d7cc78733e3db4b20bf3c6a7894f2/jaco2-3.8-cp311-cp311-win_amd64.whl
+[2023-05-03 07:45:23] INFO root fetch - processPackages [jaco2]: executing diffoscope
+[2023-05-03 07:45:23] INFO root fetch - processPackages [jaco2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaco2-3.7-cp311-cp311-win_amd64.whl.zip tmp/jaco2-3.8-cp311-cp311-win_amd64.whl.zip --markdown 20230503/j/jaco2/3.7-3.8/diff.md --exclude *.pyd
+[2023-05-03 07:45:24] INFO root fetch - main [MainThread]: End processing [jaco2]: success
+[2023-05-03 07:45:24] INFO root fetch - main [MainThread]: Store serial: [17951972]
