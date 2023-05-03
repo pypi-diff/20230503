@@ -16831,3 +16831,112 @@ No space left on device. Diffoscope exiting.
 [2023-05-03 16:14:40] INFO root fetch - main [MainThread]: End processing [typos]: success
 [2023-05-03 16:14:40] INFO root fetch - main [MainThread]: End processing [wagtail-heroicons]: success
 [2023-05-03 16:14:40] INFO root fetch - main [MainThread]: Store serial: [17957570]
+[2023-05-03 16:19:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17957570]
+[2023-05-03 16:19:49] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-03 16:19:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: testmsg
+[2023-05-03 16:19:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iqm-client
+[2023-05-03 16:19:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cirq-iqm
+[2023-05-03 16:19:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Pyckson
+[2023-05-03 16:19:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: verstack
+[2023-05-03 16:19:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: data-repo-client
+[2023-05-03 16:19:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: deep-clone
+[2023-05-03 16:19:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qiskit-iqm
+[2023-05-03 16:19:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: iqm-cortex-cli
+[2023-05-03 16:19:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: malbench
+[2023-05-03 16:19:49] INFO root fetch - processPackages [testmsg]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-03 16:19:49] INFO root fetch - processPackages [verstack]: New version: [3.7.0] Old Version: [3.6.7]
+[2023-05-03 16:19:49] INFO root fetch - processPackages [malbench]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-05-03 16:19:49] INFO root fetch - processPackages [Pyckson]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-05-03 16:19:49] INFO root fetch - processPackages [verstack]: executing diffoscope
+[2023-05-03 16:19:49] INFO root fetch - processPackages [malbench]: executing diffoscope
+[2023-05-03 16:19:49] INFO root fetch - processPackages [verstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/verstack-3.6.7.tar.gz tmp/verstack-3.7.0.tar.gz --markdown 20230503/v/verstack/3.6.7-3.7.0/diff.md --exclude *.pyd
+[2023-05-03 16:19:49] INFO root fetch - processPackages [malbench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/malbench-0.3.3.tar.gz tmp/malbench-0.3.4.tar.gz --markdown 20230503/m/malbench/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-05-03 16:19:49] INFO root fetch - processPackages [qiskit-iqm]: New version: [7.9] Old Version: [7.8]
+[2023-05-03 16:19:49] WARNING root fetch - processPackages [deep-clone]: Skipping, unable to determine old version
+[2023-05-03 16:19:49] INFO root fetch - processPackages [deep-clone]: Start processing: tj-kits-mount
+[2023-05-03 16:19:49] INFO root fetch - processPackages [cirq-iqm]: New version: [9.0] Old Version: [8.2]
+[2023-05-03 16:19:49] INFO root fetch - main [MainThread]: End processing [deep-clone] error
+[2023-05-03 16:19:49] INFO root fetch - processPackages [iqm-cortex-cli]: New version: [4.1] Old Version: [4.0]
+[2023-05-03 16:19:49] INFO root fetch - processPackages [iqm-client]: New version: [9.8] Old Version: [9.7]
+[2023-05-03 16:19:49] INFO root fetch - processPackages [data-repo-client]: New version: [1.64.0] Old Version: [1.477.0]
+[2023-05-03 16:19:49] INFO root fetch - processPackages [testmsg]: Downloading https://files.pythonhosted.org/packages/ab/75/887eade311de8a1cc169505d53fd565ec97f007e01a32ecfd05b206e1d2e/testmsg-0.0.3.tar.gz
+[2023-05-03 16:19:49] WARNING root fetch - processPackages [tj-kits-mount]: Skipping, unable to determine old version
+[2023-05-03 16:19:49] INFO root fetch - processPackages [tj-kits-mount]: Start processing: credentialdigger
+[2023-05-03 16:19:49] INFO root fetch - main [MainThread]: End processing [tj-kits-mount] error
+[2023-05-03 16:19:49] INFO root fetch - processPackages [data-repo-client]: Downloading https://files.pythonhosted.org/packages/67/94/cbe336961c298a12c08ba73b1b0aa67660bac7a1a2e2f37a75b1e0c4a463/data-repo-client-1.477.0.tar.gz
+[2023-05-03 16:19:49] INFO root fetch - processPackages [Pyckson]: Downloading https://files.pythonhosted.org/packages/ca/2a/3835085eed365007a6dd4013e1bb5581ccb6e42c4e8c9088eb87036e9548/Pyckson-1.8.1.tar.gz
+[2023-05-03 16:19:49] INFO root fetch - processPackages [cirq-iqm]: Downloading https://files.pythonhosted.org/packages/c5/07/e11f5769922d666fcc6be4432d682434c208c53885cdf780e84578593a10/cirq-iqm-8.2.tar.gz
+[2023-05-03 16:19:49] INFO root fetch - processPackages [iqm-client]: Downloading https://files.pythonhosted.org/packages/99/fc/f098b725596fbe26c658967e1c14b848d3a2c90549099d038fea031556f6/iqm-client-9.7.tar.gz
+[2023-05-03 16:19:49] INFO root fetch - processPackages [qiskit-iqm]: Downloading https://files.pythonhosted.org/packages/50/f3/438034ada363b262b311979eb137fd32e97e1a74a241222b4131d644697f/qiskit-iqm-7.8.tar.gz
+[2023-05-03 16:19:49] INFO root fetch - processPackages [testmsg]: executing diffoscope
+[2023-05-03 16:19:49] INFO root fetch - processPackages [testmsg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testmsg-0.0.2.tar.gz tmp/testmsg-0.0.3.tar.gz --markdown 20230503/t/testmsg/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-03 16:19:49] INFO root fetch - processPackages [iqm-cortex-cli]: Downloading https://files.pythonhosted.org/packages/e9/cc/299537571cf40489a62b564a70f727faf36637305310b8b2632c6f79a6f4/iqm-cortex-cli-4.0.tar.gz
+[2023-05-03 16:19:49] INFO root fetch - processPackages [credentialdigger]: New version: [4.9.5] Old Version: [4.9.4]
+[2023-05-03 16:19:49] INFO root fetch - processPackages [credentialdigger]: Downloading https://files.pythonhosted.org/packages/8d/9d/9043c3fa963a5beeadd30f40bcdf11f057a83edde2b408a39bfe9e4296c9/credentialdigger-4.9.4-py3-none-any.whl
+[2023-05-03 16:19:49] INFO root fetch - processPackages [iqm-cortex-cli]: Downloading https://files.pythonhosted.org/packages/f4/dc/849813931e08f549f40156ce57e0148333a549cbaf88a24e9ba0e1333825/iqm-cortex-cli-4.1.tar.gz
+[2023-05-03 16:19:49] INFO root fetch - processPackages [Pyckson]: Downloading https://files.pythonhosted.org/packages/e6/4f/d0b40a7dd69b10d64c4393d5226f81c6b70170b5e500b4333fc9c097e554/Pyckson-1.9.0.tar.gz
+[2023-05-03 16:19:49] INFO root fetch - processPackages [cirq-iqm]: Downloading https://files.pythonhosted.org/packages/42/ae/5cd7add9610b459bc1fabc8b26e110edbba64d7062ec795d9acd9637f35a/cirq-iqm-9.0.tar.gz
+[2023-05-03 16:19:50] INFO root fetch - processPackages [data-repo-client]: Downloading https://files.pythonhosted.org/packages/19/fa/5b70d821d8c8a059d230c6bfc9611cca8674093f2e0058fe6c06a5041daf/data-repo-client-1.64.0.tar.gz
+[2023-05-03 16:19:50] INFO root fetch - processPackages [qiskit-iqm]: Downloading https://files.pythonhosted.org/packages/c8/36/5bf315a4e64b3e5a2846e2935846a1437955465c645831ae6964faa4d339/qiskit-iqm-7.9.tar.gz
+[2023-05-03 16:19:50] INFO root fetch - processPackages [iqm-cortex-cli]: executing diffoscope
+[2023-05-03 16:19:50] INFO root fetch - processPackages [iqm-cortex-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iqm-cortex-cli-4.0.tar.gz tmp/iqm-cortex-cli-4.1.tar.gz --markdown 20230503/i/iqm-cortex-cli/4.0-4.1/diff.md --exclude *.pyd
+[2023-05-03 16:19:50] INFO root fetch - processPackages [iqm-client]: Downloading https://files.pythonhosted.org/packages/b5/0c/bc58a77ae5654da6f56e104c9317e6de8a82e0c8c546c5291848649874db/iqm-client-9.8.tar.gz
+[2023-05-03 16:19:50] INFO root fetch - processPackages [cirq-iqm]: executing diffoscope
+[2023-05-03 16:19:50] INFO root fetch - processPackages [cirq-iqm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq-iqm-8.2.tar.gz tmp/cirq-iqm-9.0.tar.gz --markdown 20230503/c/cirq-iqm/8.2-9.0/diff.md --exclude *.pyd
+[2023-05-03 16:19:50] INFO root fetch - processPackages [credentialdigger]: Downloading https://files.pythonhosted.org/packages/ab/85/2e1c8d484b898c52c4e71b1c389c5760e1405a56d1529861c12f9bd8ce64/credentialdigger-4.9.5-py3-none-any.whl
+[2023-05-03 16:19:50] INFO root fetch - processPackages [data-repo-client]: executing diffoscope
+[2023-05-03 16:19:50] INFO root fetch - processPackages [data-repo-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data-repo-client-1.477.0.tar.gz tmp/data-repo-client-1.64.0.tar.gz --markdown 20230503/d/data-repo-client/1.477.0-1.64.0/diff.md --exclude *.pyd
+[2023-05-03 16:19:50] INFO root fetch - processPackages [Pyckson]: executing diffoscope
+[2023-05-03 16:19:50] INFO root fetch - processPackages [Pyckson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pyckson-1.8.1.tar.gz tmp/Pyckson-1.9.0.tar.gz --markdown 20230503/P/Pyckson/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-05-03 16:19:50] INFO root fetch - processPackages [iqm-client]: executing diffoscope
+[2023-05-03 16:19:50] INFO root fetch - processPackages [iqm-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iqm-client-9.7.tar.gz tmp/iqm-client-9.8.tar.gz --markdown 20230503/i/iqm-client/9.7-9.8/diff.md --exclude *.pyd
+[2023-05-03 16:19:50] INFO root fetch - processPackages [malbench]: Start processing: Flask-First
+[2023-05-03 16:19:50] INFO root fetch - main [MainThread]: End processing [malbench]: success
+[2023-05-03 16:19:50] INFO root fetch - processPackages [credentialdigger]: executing diffoscope
+[2023-05-03 16:19:50] INFO root fetch - processPackages [credentialdigger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/credentialdigger-4.9.4-py3-none-any.whl.zip tmp/credentialdigger-4.9.5-py3-none-any.whl.zip --markdown 20230503/c/credentialdigger/4.9.4-4.9.5/diff.md --exclude *.pyd
+[2023-05-03 16:19:50] INFO root fetch - processPackages [qiskit-iqm]: executing diffoscope
+[2023-05-03 16:19:50] INFO root fetch - processPackages [qiskit-iqm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit-iqm-7.8.tar.gz tmp/qiskit-iqm-7.9.tar.gz --markdown 20230503/q/qiskit-iqm/7.8-7.9/diff.md --exclude *.pyd
+[2023-05-03 16:19:50] INFO root fetch - processPackages [Flask-First]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-03 16:19:50] INFO root fetch - processPackages [Flask-First]: Downloading https://files.pythonhosted.org/packages/48/f8/233f7dd3d5a172a7e3c676a5cda441509f265d1af4468da86753e5ed3e38/Flask-First-0.9.3.tar.gz
+[2023-05-03 16:19:50] INFO root fetch - processPackages [testmsg]: Start processing: capeditor
+[2023-05-03 16:19:50] INFO root fetch - main [MainThread]: End processing [testmsg]: success
+[2023-05-03 16:19:50] INFO root fetch - processPackages [capeditor]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-03 16:19:50] INFO root fetch - processPackages [capeditor]: executing diffoscope
+[2023-05-03 16:19:50] INFO root fetch - processPackages [capeditor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capeditor-0.1.2.tar.gz tmp/capeditor-0.1.3.tar.gz --markdown 20230503/c/capeditor/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-03 16:19:51] INFO root fetch - processPackages [Flask-First]: Downloading https://files.pythonhosted.org/packages/f7/af/ebec4ea6900f2f584091cf80f54246444e01b9fe23e4ae6020e49d23bbb7/Flask-First-0.9.4.tar.gz
+[2023-05-03 16:19:51] INFO root fetch - processPackages [Flask-First]: executing diffoscope
+[2023-05-03 16:19:51] INFO root fetch - processPackages [Flask-First]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Flask-First-0.9.3.tar.gz tmp/Flask-First-0.9.4.tar.gz --markdown 20230503/F/Flask-First/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-03 16:19:51] INFO root fetch - processPackages [Pyckson]: Start processing: pybgpasn
+[2023-05-03 16:19:51] INFO root fetch - main [MainThread]: End processing [Pyckson]: success
+[2023-05-03 16:19:51] INFO root fetch - processPackages [pybgpasn]: New version: [1.0.9] Old Version: [1.0.7]
+[2023-05-03 16:19:51] INFO root fetch - processPackages [pybgpasn]: executing diffoscope
+[2023-05-03 16:19:51] INFO root fetch - processPackages [pybgpasn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybgpasn-1.0.7.tar.gz tmp/pybgpasn-1.0.9.tar.gz --markdown 20230503/p/pybgpasn/1.0.7-1.0.9/diff.md --exclude *.pyd
+[2023-05-03 16:19:52] INFO root fetch - processPackages [cirq-iqm]: Start processing: krx-rigger
+[2023-05-03 16:19:52] INFO root fetch - main [MainThread]: End processing [cirq-iqm]: success
+[2023-05-03 16:19:52] INFO root fetch - processPackages [krx-rigger]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-03 16:19:52] INFO root fetch - processPackages [credentialdigger]: Start processing: pyGrained
+[2023-05-03 16:19:52] INFO root fetch - main [MainThread]: End processing [credentialdigger]: success
+[2023-05-03 16:19:52] INFO root fetch - processPackages [krx-rigger]: Downloading https://files.pythonhosted.org/packages/ab/fb/0f64036b9f035b0c1bc21ddb8d8bd8d78b447d31a0338503cc77ec434441/krx_rigger-0.0.3.tar.gz
+[2023-05-03 16:19:52] INFO root fetch - processPackages [capeditor]: Start processing: findmyorder
+[2023-05-03 16:19:52] INFO root fetch - main [MainThread]: End processing [capeditor]: success
+[2023-05-03 16:19:52] WARNING root fetch - processPackages [pyGrained]: Skipping, unable to determine old version
+[2023-05-03 16:19:52] INFO root fetch - processPackages [pyGrained]: Start processing: pyswtools
+[2023-05-03 16:19:52] INFO root fetch - main [MainThread]: End processing [pyGrained] error
+[2023-05-03 16:19:52] INFO root fetch - main [MainThread]: End processing [qiskit-iqm]: success
+[2023-05-03 16:19:52] INFO root fetch - processPackages [krx-rigger]: executing diffoscope
+[2023-05-03 16:19:52] INFO root fetch - processPackages [krx-rigger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krx_rigger-0.0.2.tar.gz tmp/krx_rigger-0.0.3.tar.gz --markdown 20230503/k/krx-rigger/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-03 16:19:52] INFO root fetch - processPackages [findmyorder]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-03 16:19:52] WARNING root fetch - processPackages [pyswtools]: Skipping, unable to determine old version
+[2023-05-03 16:19:52] INFO root fetch - main [MainThread]: End processing [pyswtools] error
+[2023-05-03 16:19:52] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/26/54/11c3306f79a1cf176462c3d1d00641bf0e16e0a73127616e295f284e829c/findmyorder-1.1.2.tar.gz
+[2023-05-03 16:19:52] INFO root fetch - main [MainThread]: End processing [Flask-First]: success
+[2023-05-03 16:19:52] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-05-03 16:19:52] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-1.1.1.tar.gz tmp/findmyorder-1.1.2.tar.gz --markdown 20230503/f/findmyorder/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-03 16:19:53] INFO root fetch - main [MainThread]: End processing [pybgpasn]: success
+[2023-05-03 16:19:53] INFO root fetch - main [MainThread]: End processing [krx-rigger]: success
+[2023-05-03 16:19:53] INFO root fetch - main [MainThread]: End processing [data-repo-client]: success
+[2023-05-03 16:19:53] INFO root fetch - main [MainThread]: End processing [iqm-cortex-cli]: success
+[2023-05-03 16:19:53] INFO root fetch - main [MainThread]: End processing [iqm-client]: success
+[2023-05-03 16:19:53] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-05-03 16:19:55] INFO root fetch - main [MainThread]: End processing [verstack]: success
+[2023-05-03 16:19:55] INFO root fetch - main [MainThread]: Store serial: [17957634]
