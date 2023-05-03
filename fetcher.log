@@ -5753,3 +5753,47 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-03 06:07:35] INFO root fetch - main [MainThread]: End processing [yandexcloud]: success
 [2023-05-03 06:07:40] INFO root fetch - main [MainThread]: End processing [geowatch]: success
 [2023-05-03 06:07:40] INFO root fetch - main [MainThread]: Store serial: [17951245]
+[2023-05-03 06:12:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17951245]
+[2023-05-03 06:12:49] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-03 06:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-fieldservice
+[2023-05-03 06:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-fieldservice
+[2023-05-03 06:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: proteinTools
+[2023-05-03 06:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hao
+[2023-05-03 06:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: visualblocks
+[2023-05-03 06:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: drca
+[2023-05-03 06:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: safe-eth-py-suraneti
+[2023-05-03 06:12:49] INFO root fetch - processPackages [hao]: New version: [3.7.9] Old Version: [3.7.8]
+[2023-05-03 06:12:49] INFO root fetch - processPackages [visualblocks]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-03 06:12:49] INFO root fetch - processPackages [drca]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-03 06:12:49] INFO root fetch - processPackages [odoo-addon-fieldservice]: New version: [16.0.1.0.1.6] Old Version: [16.0.1.0.1.5]
+[2023-05-03 06:12:49] INFO root fetch - processPackages [proteinTools]: New version: [1.4.4] Old Version: [1.3.4]
+[2023-05-03 06:12:49] WARNING root fetch - processPackages [safe-eth-py-suraneti]: Skipping, unable to determine old version
+[2023-05-03 06:12:49] INFO root fetch - main [MainThread]: End processing [safe-eth-py-suraneti] error
+[2023-05-03 06:12:49] INFO root fetch - processPackages [odoo-addon-fieldservice]: New version: [16.0.1.0.1.6] Old Version: [16.0.1.0.1.5]
+[2023-05-03 06:12:49] INFO root fetch - processPackages [visualblocks]: Downloading https://files.pythonhosted.org/packages/64/30/3c3f8c4aad36fa253a3c65c80e066b9ad5e3d92c349f271fe333ba71bd41/visualblocks-0.0.5.tar.gz
+[2023-05-03 06:12:49] INFO root fetch - processPackages [hao]: Downloading https://files.pythonhosted.org/packages/17/69/fb1ed565a2338e1820434f269f2d177e080721bb06eadd5906138f6beee5/hao-3.7.8.tar.gz
+[2023-05-03 06:12:49] INFO root fetch - processPackages [drca]: Downloading https://files.pythonhosted.org/packages/7c/db/0a8d43819d12eeafcd3b05e618a1d3d51bca5c3327e352e977f71d73d264/drca-0.2.3-py3-none-any.whl
+[2023-05-03 06:12:49] INFO root fetch - processPackages [odoo-addon-fieldservice]: Downloading https://files.pythonhosted.org/packages/0c/15/beb2b60218da3dddd149393b597a62bfc8d1b95d335b8522cdcb2a1df1e8/odoo_addon_fieldservice-16.0.1.0.1.6-py3-none-any.whl
+[2023-05-03 06:12:49] INFO root fetch - processPackages [odoo-addon-fieldservice]: Downloading https://files.pythonhosted.org/packages/0c/15/beb2b60218da3dddd149393b597a62bfc8d1b95d335b8522cdcb2a1df1e8/odoo_addon_fieldservice-16.0.1.0.1.6-py3-none-any.whl
+[2023-05-03 06:12:49] INFO root fetch - processPackages [proteinTools]: Downloading https://files.pythonhosted.org/packages/85/64/1599236dcae51c9be8a00b6e6f4788837fba8059267c85bf24be6344b9e0/proteinTools-1.4.4.tar.gz
+[2023-05-03 06:12:49] INFO root fetch - processPackages [visualblocks]: executing diffoscope
+[2023-05-03 06:12:49] INFO root fetch - processPackages [visualblocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visualblocks-0.0.4.tar.gz tmp/visualblocks-0.0.5.tar.gz --markdown 20230503/v/visualblocks/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-03 06:12:49] INFO root fetch - processPackages [odoo-addon-fieldservice]: executing diffoscope
+[2023-05-03 06:12:49] INFO root fetch - processPackages [odoo-addon-fieldservice]: executing diffoscope
+[2023-05-03 06:12:49] INFO root fetch - processPackages [odoo-addon-fieldservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fieldservice-16.0.1.0.1.5-py3-none-any.whl.zip tmp/odoo_addon_fieldservice-16.0.1.0.1.6-py3-none-any.whl.zip --markdown 20230503/o/odoo-addon-fieldservice/16.0.1.0.1.5-16.0.1.0.1.6/diff.md --exclude *.pyd
+[2023-05-03 06:12:49] INFO root fetch - processPackages [odoo-addon-fieldservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fieldservice-16.0.1.0.1.5-py3-none-any.whl.zip tmp/odoo_addon_fieldservice-16.0.1.0.1.6-py3-none-any.whl.zip --markdown 20230503/o/odoo-addon-fieldservice/16.0.1.0.1.5-16.0.1.0.1.6/diff.md --exclude *.pyd
+[2023-05-03 06:12:49] INFO root fetch - processPackages [proteinTools]: executing diffoscope
+[2023-05-03 06:12:49] INFO root fetch - processPackages [proteinTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proteinTools-1.3.4.tar.gz tmp/proteinTools-1.4.4.tar.gz --markdown 20230503/p/proteinTools/1.3.4-1.4.4/diff.md --exclude *.pyd
+[2023-05-03 06:12:50] INFO root fetch - processPackages [drca]: Downloading https://files.pythonhosted.org/packages/60/c7/c7b8264b3802e008b5c1b5d3a100f33fdf64b6c9ad5f73251f48b435f838/drca-0.2.4-py3-none-any.whl
+[2023-05-03 06:12:50] INFO root fetch - processPackages [hao]: Downloading https://files.pythonhosted.org/packages/f3/18/39775cc0b33aff460c38ad911af0b5fdbf79bb65311de2b2d64f1e3591d5/hao-3.7.9.tar.gz
+[2023-05-03 06:12:50] INFO root fetch - processPackages [drca]: executing diffoscope
+[2023-05-03 06:12:50] INFO root fetch - processPackages [drca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drca-0.2.3-py3-none-any.whl.zip tmp/drca-0.2.4-py3-none-any.whl.zip --markdown 20230503/d/drca/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-03 06:12:50] INFO root fetch - processPackages [hao]: executing diffoscope
+[2023-05-03 06:12:50] INFO root fetch - processPackages [hao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hao-3.7.8.tar.gz tmp/hao-3.7.9.tar.gz --markdown 20230503/h/hao/3.7.8-3.7.9/diff.md --exclude *.pyd
+[2023-05-03 06:12:50] INFO root fetch - main [MainThread]: End processing [visualblocks]: success
+[2023-05-03 06:12:51] INFO root fetch - main [MainThread]: End processing [proteinTools]: success
+[2023-05-03 06:12:51] INFO root fetch - main [MainThread]: End processing [drca]: success
+[2023-05-03 06:12:51] INFO root fetch - main [MainThread]: End processing [hao]: success
+[2023-05-03 06:12:51] INFO root fetch - main [MainThread]: End processing [odoo-addon-fieldservice]: success
+[2023-05-03 06:12:51] INFO root fetch - main [MainThread]: End processing [odoo-addon-fieldservice]: success
+[2023-05-03 06:12:51] INFO root fetch - main [MainThread]: Store serial: [17951277]
