@@ -1500,3 +1500,81 @@
 [2023-05-03 01:58:12] INFO root fetch - main [MainThread]: End processing [aij-news-publisher]: success
 [2023-05-03 01:58:13] INFO root fetch - main [MainThread]: End processing [whylogs]: success
 [2023-05-03 01:58:13] INFO root fetch - main [MainThread]: Store serial: [17948510]
+[2023-05-03 02:03:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17948510]
+[2023-05-03 02:03:22] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-03 02:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dbt-rpc
+[2023-05-03 02:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: extr
+[2023-05-03 02:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: auto-build-minecraft
+[2023-05-03 02:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ddtrace
+[2023-05-03 02:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: isitoff
+[2023-05-03 02:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tensorrt-dispatch-libs
+[2023-05-03 02:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: isitoff
+[2023-05-03 02:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pygptj
+[2023-05-03 02:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tensorrt-lean-libs
+[2023-05-03 02:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rover-arm
+[2023-05-03 02:03:22] INFO root fetch - processPackages [extr]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 02:03:22] INFO root fetch - processPackages [rover-arm]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-03 02:03:22] INFO root fetch - processPackages [pygptj]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-05-03 02:03:22] INFO root fetch - processPackages [extr]: executing diffoscope
+[2023-05-03 02:03:22] INFO root fetch - processPackages [extr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extr-0.0.8.tar.gz tmp/extr-0.0.9.tar.gz --markdown 20230503/e/extr/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 02:03:22] INFO root fetch - processPackages [dbt-rpc]: New version: [0.4.0rc1] Old Version: [0.4.0b1]
+[2023-05-03 02:03:22] INFO root fetch - processPackages [auto-build-minecraft]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-03 02:03:22] WARNING root fetch - processPackages [tensorrt-dispatch-libs]: Skipping, unable to determine old version
+[2023-05-03 02:03:22] WARNING root fetch - processPackages [isitoff]: Skipping, unable to determine old version
+[2023-05-03 02:03:22] INFO root fetch - processPackages [tensorrt-dispatch-libs]: Start processing: measure-dist
+[2023-05-03 02:03:22] WARNING root fetch - processPackages [isitoff]: Skipping, unable to determine old version
+[2023-05-03 02:03:22] INFO root fetch - processPackages [isitoff]: Start processing: ghanashops-scraper
+[2023-05-03 02:03:22] INFO root fetch - main [MainThread]: End processing [tensorrt-dispatch-libs] error
+[2023-05-03 02:03:22] WARNING root fetch - processPackages [tensorrt-lean-libs]: Skipping, unable to determine old version
+[2023-05-03 02:03:22] INFO root fetch - processPackages [isitoff]: Start processing: torchdatasets-nightly
+[2023-05-03 02:03:22] INFO root fetch - main [MainThread]: End processing [isitoff] error
+[2023-05-03 02:03:22] INFO root fetch - processPackages [tensorrt-lean-libs]: Start processing: yuna-db
+[2023-05-03 02:03:22] INFO root fetch - main [MainThread]: End processing [isitoff] error
+[2023-05-03 02:03:22] INFO root fetch - main [MainThread]: End processing [tensorrt-lean-libs] error
+[2023-05-03 02:03:22] INFO root fetch - processPackages [ghanashops-scraper]: New version: [1.0.0] Old Version: [0.1.1]
+[2023-05-03 02:03:22] INFO root fetch - processPackages [measure-dist]: New version: [1.1.0.post3] Old Version: [1.1.0.post2]
+[2023-05-03 02:03:22] INFO root fetch - processPackages [torchdatasets-nightly]: New version: [1682985798] Old Version: [1682899403]
+[2023-05-03 02:03:22] INFO root fetch - processPackages [ddtrace]: New version: [1.9.6] Old Version: [1.9.5]
+[2023-05-03 02:03:22] INFO root fetch - processPackages [yuna-db]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-03 02:03:22] INFO root fetch - processPackages [rover-arm]: Downloading https://files.pythonhosted.org/packages/cc/5e/7fdf13e1a5995a271434a626246cb3aaf47f0dd508eca0d5906212fba2d3/rover_arm-1.1.1.tar.gz
+[2023-05-03 02:03:22] INFO root fetch - processPackages [auto-build-minecraft]: Downloading https://files.pythonhosted.org/packages/54/f5/17f2346339b0f10a44ad9953b199b52c9bb5ce589868534f9b5d5b4fd059/auto_build_minecraft-1.0.0.tar.gz
+[2023-05-03 02:03:22] INFO root fetch - processPackages [pygptj]: executing diffoscope
+[2023-05-03 02:03:22] INFO root fetch - processPackages [pygptj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygptj-2.0.0.tar.gz tmp/pygptj-2.0.1.tar.gz --markdown 20230503/p/pygptj/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-05-03 02:03:22] INFO root fetch - processPackages [measure-dist]: Downloading https://files.pythonhosted.org/packages/1b/39/5d01fd05a7daabdcf19f5f398b6b0f658c4b51aa527c4fea84c2a86133fe/measure_dist-1.1.0.post3.tar.gz
+[2023-05-03 02:03:22] INFO root fetch - processPackages [ghanashops-scraper]: Downloading https://files.pythonhosted.org/packages/fe/c0/ca18cb8d7797cdcac23a0286bed6d91c5ebf45c5e355dbd26d69568177e7/ghanashops-scraper-1.0.0.tar.gz
+[2023-05-03 02:03:22] INFO root fetch - processPackages [ghanashops-scraper]: executing diffoscope
+[2023-05-03 02:03:22] INFO root fetch - processPackages [ghanashops-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghanashops-scraper-0.1.1.tar.gz tmp/ghanashops-scraper-1.0.0.tar.gz --markdown 20230503/g/ghanashops-scraper/0.1.1-1.0.0/diff.md --exclude *.pyd
+[2023-05-03 02:03:22] INFO root fetch - processPackages [yuna-db]: Downloading https://files.pythonhosted.org/packages/91/3a/956fb941ad561c7e50503e2fe6facdd897f594ad24773fd2f0ac8314fc9a/yuna-db-0.2.1.tar.gz
+[2023-05-03 02:03:22] INFO root fetch - processPackages [rover-arm]: executing diffoscope
+[2023-05-03 02:03:22] INFO root fetch - processPackages [rover-arm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rover_arm-1.1.0.tar.gz tmp/rover_arm-1.1.1.tar.gz --markdown 20230503/r/rover-arm/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-03 02:03:22] INFO root fetch - processPackages [measure-dist]: executing diffoscope
+[2023-05-03 02:03:22] INFO root fetch - processPackages [measure-dist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/measure_dist-1.1.0.post2.tar.gz tmp/measure_dist-1.1.0.post3.tar.gz --markdown 20230503/m/measure-dist/1.1.0.post2-1.1.0.post3/diff.md --exclude *.pyd
+[2023-05-03 02:03:23] INFO root fetch - processPackages [dbt-rpc]: executing diffoscope
+[2023-05-03 02:03:23] INFO root fetch - processPackages [dbt-rpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-rpc-0.4.0b1.tar.gz tmp/dbt-rpc-0.4.0rc1.tar.gz --markdown 20230503/d/dbt-rpc/0.4.0b1-0.4.0rc1/diff.md --exclude *.pyd
+[2023-05-03 02:03:23] INFO root fetch - processPackages [auto-build-minecraft]: Downloading https://files.pythonhosted.org/packages/c6/68/7478bd25ca81ecb039b2d5a76d29b931f147db7a042817d6b738569fca7b/auto_build_minecraft-1.0.1.tar.gz
+[2023-05-03 02:03:23] INFO root fetch - processPackages [ddtrace]: executing diffoscope
+[2023-05-03 02:03:23] INFO root fetch - processPackages [ddtrace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddtrace-1.9.5.tar.gz tmp/ddtrace-1.9.6.tar.gz --markdown 20230503/d/ddtrace/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2023-05-03 02:03:23] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/4c/df/9f104c0aecb92f20b68d0bf3d425188aa8bf17d7e8c892651e1a58e62855/torchdatasets-nightly-1682985798.tar.gz
+[2023-05-03 02:03:23] INFO root fetch - processPackages [auto-build-minecraft]: executing diffoscope
+[2023-05-03 02:03:23] INFO root fetch - processPackages [auto-build-minecraft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto_build_minecraft-1.0.0.tar.gz tmp/auto_build_minecraft-1.0.1.tar.gz --markdown 20230503/a/auto-build-minecraft/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-03 02:03:23] INFO root fetch - processPackages [yuna-db]: Downloading https://files.pythonhosted.org/packages/fa/eb/c4723fbc7d55c8dcc26d949f79c1701a94e030bb3f3d00f25ffe2b9ecd29/yuna-db-0.2.2.tar.gz
+[2023-05-03 02:03:23] INFO root fetch - processPackages [torchdatasets-nightly]: executing diffoscope
+[2023-05-03 02:03:23] INFO root fetch - processPackages [torchdatasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchdatasets-nightly-1682899403.tar.gz tmp/torchdatasets-nightly-1682985798.tar.gz --markdown 20230503/t/torchdatasets-nightly/1682899403-1682985798/diff.md --exclude *.pyd
+[2023-05-03 02:03:23] INFO root fetch - processPackages [yuna-db]: executing diffoscope
+[2023-05-03 02:03:23] INFO root fetch - processPackages [yuna-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yuna-db-0.2.1.tar.gz tmp/yuna-db-0.2.2.tar.gz --markdown 20230503/y/yuna-db/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-03 02:03:23] INFO root fetch - processPackages [extr]: Start processing: mosaicml-cli
+[2023-05-03 02:03:23] INFO root fetch - main [MainThread]: End processing [extr]: success
+[2023-05-03 02:03:24] INFO root fetch - processPackages [mosaicml-cli]: New version: [0.4.0a4] Old Version: [0.4.0a3]
+[2023-05-03 02:03:24] INFO root fetch - main [MainThread]: End processing [ghanashops-scraper]: success
+[2023-05-03 02:03:24] INFO root fetch - processPackages [mosaicml-cli]: executing diffoscope
+[2023-05-03 02:03:24] INFO root fetch - processPackages [mosaicml-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mosaicml-cli-0.4.0a3.tar.gz tmp/mosaicml-cli-0.4.0a4.tar.gz --markdown 20230503/m/mosaicml-cli/0.4.0a3-0.4.0a4/diff.md --exclude *.pyd
+[2023-05-03 02:03:24] INFO root fetch - main [MainThread]: End processing [dbt-rpc]: success
+[2023-05-03 02:03:24] INFO root fetch - main [MainThread]: End processing [torchdatasets-nightly]: success
+[2023-05-03 02:03:24] INFO root fetch - main [MainThread]: End processing [yuna-db]: success
+[2023-05-03 02:03:24] INFO root fetch - main [MainThread]: End processing [auto-build-minecraft]: success
+[2023-05-03 02:03:25] INFO root fetch - main [MainThread]: End processing [rover-arm]: success
+[2023-05-03 02:03:26] INFO root fetch - main [MainThread]: End processing [mosaicml-cli]: success
+[2023-05-03 02:03:26] INFO root fetch - main [MainThread]: End processing [pygptj]: success
+[2023-05-03 02:03:39] INFO root fetch - main [MainThread]: End processing [measure-dist]: success
+[2023-05-03 02:04:32] INFO root fetch - main [MainThread]: End processing [ddtrace]: success
+[2023-05-03 02:04:32] INFO root fetch - main [MainThread]: Store serial: [17948645]
