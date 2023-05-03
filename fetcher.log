@@ -22702,3 +22702,91 @@ No space left on device. Diffoscope exiting.
 [2023-05-03 21:12:12] INFO root fetch - main [MainThread]: End processing [cybersource-rest-client-python]: success
 [2023-05-03 21:13:02] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-05-03 21:13:02] INFO root fetch - main [MainThread]: Store serial: [17961452]
+[2023-05-03 21:18:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17961452]
+[2023-05-03 21:18:12] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-03 21:18:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pear-xai
+[2023-05-03 21:18:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: braincube-aws-core-alpha
+[2023-05-03 21:18:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Pequena
+[2023-05-03 21:18:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo12-addon-l10n-it-fatturapa-pec
+[2023-05-03 21:18:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo12-addon-l10n-it-sdi-channel
+[2023-05-03 21:18:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo12-addon-l10n-it-fatturapa-out
+[2023-05-03 21:18:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dcicsnovault
+[2023-05-03 21:18:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: appsurifyci
+[2023-05-03 21:18:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vellum-ai
+[2023-05-03 21:18:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: skoots
+[2023-05-03 21:18:12] INFO root fetch - processPackages [pear-xai]: New version: [0.2] Old Version: [0.1]
+[2023-05-03 21:18:12] INFO root fetch - processPackages [Pequena]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 21:18:12] INFO root fetch - processPackages [odoo12-addon-l10n-it-fatturapa-pec]: New version: [12.0.2.2.0] Old Version: [12.0.2.1.1.99.dev3]
+[2023-05-03 21:18:12] INFO root fetch - processPackages [odoo12-addon-l10n-it-sdi-channel]: New version: [12.0.2.3.0] Old Version: [12.0.2.2.4]
+[2023-05-03 21:18:12] WARNING root fetch - processPackages [skoots]: Skipping, unable to determine old version
+[2023-05-03 21:18:12] INFO root fetch - processPackages [skoots]: Start processing: ipymock
+[2023-05-03 21:18:12] INFO root fetch - processPackages [braincube-aws-core-alpha]: New version: [0.0.15] Old Version: [0.0.14]
+[2023-05-03 21:18:12] INFO root fetch - main [MainThread]: End processing [skoots] error
+[2023-05-03 21:18:12] INFO root fetch - processPackages [odoo12-addon-l10n-it-fatturapa-out]: New version: [12.0.3.2.0] Old Version: [12.0.3.1.2.99.dev9]
+[2023-05-03 21:18:12] INFO root fetch - processPackages [vellum-ai]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-03 21:18:12] INFO root fetch - processPackages [dcicsnovault]: New version: [8.0.1.1b4] Old Version: [8.0.1.0b3]
+[2023-05-03 21:18:12] INFO root fetch - processPackages [appsurifyci]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-03 21:18:12] INFO root fetch - processPackages [ipymock]: New version: [1.1.0] Old Version: [1.0.4]
+[2023-05-03 21:18:12] INFO root fetch - processPackages [pear-xai]: Downloading https://files.pythonhosted.org/packages/a2/36/34b20716682980c3ac9f3f7f360f6a010d2431eff06332e113a75f0414a5/pear-xai-0.1.tar.gz
+[2023-05-03 21:18:12] INFO root fetch - processPackages [braincube-aws-core-alpha]: Downloading https://files.pythonhosted.org/packages/8c/a6/5962ad37a6c471a7004c534c4d7f3c59c22ca5287726dcbeb2248771b4aa/braincube-aws-core-alpha-0.0.14.tar.gz
+[2023-05-03 21:18:12] INFO root fetch - processPackages [vellum-ai]: Downloading https://files.pythonhosted.org/packages/10/53/cb88e1d56c13332024c060a8fd7412ccb5c4a03dc487ecbaa51e0df15f11/vellum_ai-0.0.5.tar.gz
+[2023-05-03 21:18:12] INFO root fetch - processPackages [appsurifyci]: executing diffoscope
+[2023-05-03 21:18:12] INFO root fetch - processPackages [appsurifyci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appsurifyci-0.1.8.tar.gz tmp/appsurifyci-0.1.9.tar.gz --markdown 20230503/a/appsurifyci/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-03 21:18:12] INFO root fetch - processPackages [odoo12-addon-l10n-it-sdi-channel]: Downloading https://files.pythonhosted.org/packages/27/0b/40619a887c130ffd82022eb4fcb73d999885c11705a065ab054851f0cb0a/odoo12_addon_l10n_it_sdi_channel-12.0.2.3.0-py3-none-any.whl
+[2023-05-03 21:18:12] INFO root fetch - processPackages [odoo12-addon-l10n-it-fatturapa-pec]: Downloading https://files.pythonhosted.org/packages/f4/d7/a4d816119fb9fa483e5da46553d4f425e20b8bc8fde5b7f2d4b4f920349b/odoo12_addon_l10n_it_fatturapa_pec-12.0.2.2.0-py3-none-any.whl
+[2023-05-03 21:18:12] INFO root fetch - processPackages [odoo12-addon-l10n-it-fatturapa-out]: Downloading https://files.pythonhosted.org/packages/c1/6c/db088bbf9f1fc7d2afc631d54e30f893a490f7dd9f6ded0d0ac653ce715d/odoo12_addon_l10n_it_fatturapa_out-12.0.3.1.2.99.dev9-py3-none-any.whl
+[2023-05-03 21:18:12] INFO root fetch - processPackages [ipymock]: Downloading https://files.pythonhosted.org/packages/46/c7/e2bf6f5053a0b43e8a158c9ed41f98811f59ea2120c26f823eb0888bebe3/ipymock-1.0.4.tar.gz
+[2023-05-03 21:18:12] INFO root fetch - processPackages [odoo12-addon-l10n-it-fatturapa-pec]: executing diffoscope
+[2023-05-03 21:18:12] INFO root fetch - processPackages [odoo12-addon-l10n-it-fatturapa-pec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_l10n_it_fatturapa_pec-12.0.2.1.1.99.dev3-py3-none-any.whl.zip tmp/odoo12_addon_l10n_it_fatturapa_pec-12.0.2.2.0-py3-none-any.whl.zip --markdown 20230503/o/odoo12-addon-l10n-it-fatturapa-pec/12.0.2.1.1.99.dev3-12.0.2.2.0/diff.md --exclude *.pyd
+[2023-05-03 21:18:12] INFO root fetch - processPackages [odoo12-addon-l10n-it-sdi-channel]: executing diffoscope
+[2023-05-03 21:18:12] INFO root fetch - processPackages [odoo12-addon-l10n-it-sdi-channel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_l10n_it_sdi_channel-12.0.2.2.4-py3-none-any.whl.zip tmp/odoo12_addon_l10n_it_sdi_channel-12.0.2.3.0-py3-none-any.whl.zip --markdown 20230503/o/odoo12-addon-l10n-it-sdi-channel/12.0.2.2.4-12.0.2.3.0/diff.md --exclude *.pyd
+[2023-05-03 21:18:12] INFO root fetch - processPackages [dcicsnovault]: Downloading https://files.pythonhosted.org/packages/84/f2/0fefd21d005465cc8c66df01cf007cce4b00f90dc2979844801957fe2979/dcicsnovault-8.0.1.1b4.tar.gz
+[2023-05-03 21:18:12] INFO root fetch - processPackages [Pequena]: executing diffoscope
+[2023-05-03 21:18:12] INFO root fetch - processPackages [Pequena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pequena-0.0.8.tar.gz tmp/Pequena-0.0.9.tar.gz --markdown 20230503/P/Pequena/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 21:18:12] INFO root fetch - processPackages [pear-xai]: Downloading https://files.pythonhosted.org/packages/53/9c/2a30701c378095121ef42ff3d43156caf9b9911bf8d555a9043c0406b425/pear-xai-0.2.tar.gz
+[2023-05-03 21:18:12] INFO root fetch - processPackages [ipymock]: Downloading https://files.pythonhosted.org/packages/60/50/39877e3910590f3558afb48fb3824291688c3113653d8b0265c69261e5c5/ipymock-1.1.0.tar.gz
+[2023-05-03 21:18:12] INFO root fetch - processPackages [braincube-aws-core-alpha]: Downloading https://files.pythonhosted.org/packages/d2/9f/de131f0a5f85c2d954a122124b02ca183ce10c3d261e56248f3271076d72/braincube-aws-core-alpha-0.0.15.tar.gz
+[2023-05-03 21:18:12] INFO root fetch - processPackages [vellum-ai]: Downloading https://files.pythonhosted.org/packages/02/ad/259b1a1f50a4552fdd7093173b5928eb984730c82722119b4ba3dd454faf/vellum_ai-0.0.6.tar.gz
+[2023-05-03 21:18:12] INFO root fetch - processPackages [pear-xai]: executing diffoscope
+[2023-05-03 21:18:12] INFO root fetch - processPackages [pear-xai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pear-xai-0.1.tar.gz tmp/pear-xai-0.2.tar.gz --markdown 20230503/p/pear-xai/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-03 21:18:12] INFO root fetch - processPackages [dcicsnovault]: executing diffoscope
+[2023-05-03 21:18:12] INFO root fetch - processPackages [dcicsnovault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicsnovault-8.0.1.0b3.tar.gz tmp/dcicsnovault-8.0.1.1b4.tar.gz --markdown 20230503/d/dcicsnovault/8.0.1.0b3-8.0.1.1b4/diff.md --exclude *.pyd
+[2023-05-03 21:18:12] INFO root fetch - processPackages [ipymock]: executing diffoscope
+[2023-05-03 21:18:12] INFO root fetch - processPackages [ipymock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipymock-1.0.4.tar.gz tmp/ipymock-1.1.0.tar.gz --markdown 20230503/i/ipymock/1.0.4-1.1.0/diff.md --exclude *.pyd
+[2023-05-03 21:18:12] INFO root fetch - processPackages [braincube-aws-core-alpha]: executing diffoscope
+[2023-05-03 21:18:12] INFO root fetch - processPackages [braincube-aws-core-alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/braincube-aws-core-alpha-0.0.14.tar.gz tmp/braincube-aws-core-alpha-0.0.15.tar.gz --markdown 20230503/b/braincube-aws-core-alpha/0.0.14-0.0.15/diff.md --exclude *.pyd
+[2023-05-03 21:18:12] INFO root fetch - processPackages [vellum-ai]: executing diffoscope
+[2023-05-03 21:18:12] INFO root fetch - processPackages [vellum-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vellum_ai-0.0.5.tar.gz tmp/vellum_ai-0.0.6.tar.gz --markdown 20230503/v/vellum-ai/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-03 21:18:12] INFO root fetch - processPackages [odoo12-addon-l10n-it-fatturapa-out]: Downloading https://files.pythonhosted.org/packages/d3/39/c205a88801586f7277b7d9422f3be9f5d544cf05b27f86de6ed3c8d9d270/odoo12_addon_l10n_it_fatturapa_out-12.0.3.2.0-py3-none-any.whl
+[2023-05-03 21:18:12] INFO root fetch - processPackages [odoo12-addon-l10n-it-fatturapa-out]: executing diffoscope
+[2023-05-03 21:18:12] INFO root fetch - processPackages [odoo12-addon-l10n-it-fatturapa-out]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_l10n_it_fatturapa_out-12.0.3.1.2.99.dev9-py3-none-any.whl.zip tmp/odoo12_addon_l10n_it_fatturapa_out-12.0.3.2.0-py3-none-any.whl.zip --markdown 20230503/o/odoo12-addon-l10n-it-fatturapa-out/12.0.3.1.2.99.dev9-12.0.3.2.0/diff.md --exclude *.pyd
+[2023-05-03 21:18:14] INFO root fetch - processPackages [Pequena]: Start processing: actoolkit
+[2023-05-03 21:18:14] INFO root fetch - main [MainThread]: End processing [Pequena]: success
+[2023-05-03 21:18:14] INFO root fetch - processPackages [actoolkit]: New version: [2.6.4b3] Old Version: [2.6.4b2]
+[2023-05-03 21:18:14] INFO root fetch - processPackages [odoo12-addon-l10n-it-sdi-channel]: Start processing: cbmc-starter-kit
+[2023-05-03 21:18:14] INFO root fetch - main [MainThread]: End processing [odoo12-addon-l10n-it-sdi-channel]: success
+[2023-05-03 21:18:14] INFO root fetch - processPackages [actoolkit]: executing diffoscope
+[2023-05-03 21:18:14] INFO root fetch - processPackages [actoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/actoolkit-2.6.4b2-py3-none-any.whl.zip tmp/actoolkit-2.6.4b3-py3-none-any.whl.zip --markdown 20230503/a/actoolkit/2.6.4b2-2.6.4b3/diff.md --exclude *.pyd
+[2023-05-03 21:18:14] INFO root fetch - processPackages [cbmc-starter-kit]: New version: [2.9] Old Version: [2.8.8]
+[2023-05-03 21:18:14] INFO root fetch - processPackages [pear-xai]: Start processing: nibe
+[2023-05-03 21:18:14] INFO root fetch - main [MainThread]: End processing [pear-xai]: success
+[2023-05-03 21:18:14] INFO root fetch - processPackages [cbmc-starter-kit]: Downloading https://files.pythonhosted.org/packages/23/7c/a00afa4e1a10a9c1ebabb15659804a207533e3fec1293d5a5890cbd4d2cc/cbmc-starter-kit-2.8.8.tar.gz
+[2023-05-03 21:18:14] INFO root fetch - processPackages [nibe]: New version: [2.2.0] Old Version: [2.1.4]
+[2023-05-03 21:18:14] INFO root fetch - main [MainThread]: End processing [ipymock]: success
+[2023-05-03 21:18:14] INFO root fetch - main [MainThread]: End processing [braincube-aws-core-alpha]: success
+[2023-05-03 21:18:14] INFO root fetch - main [MainThread]: End processing [odoo12-addon-l10n-it-fatturapa-pec]: success
+[2023-05-03 21:18:14] INFO root fetch - main [MainThread]: End processing [appsurifyci]: success
+[2023-05-03 21:18:14] INFO root fetch - processPackages [nibe]: Downloading https://files.pythonhosted.org/packages/fc/94/40efbc0b6b68abc76d7b862b12f48b5fde4b3027ad6e2cb04cc880e02b84/nibe-2.1.4.tar.gz
+[2023-05-03 21:18:14] INFO root fetch - processPackages [cbmc-starter-kit]: Downloading https://files.pythonhosted.org/packages/26/a8/8bf5f06a6b8a335330c83c801a9cbfd059c1a5adedc48cc1350b43da39e6/cbmc-starter-kit-2.9.tar.gz
+[2023-05-03 21:18:14] INFO root fetch - processPackages [cbmc-starter-kit]: executing diffoscope
+[2023-05-03 21:18:14] INFO root fetch - processPackages [cbmc-starter-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbmc-starter-kit-2.8.8.tar.gz tmp/cbmc-starter-kit-2.9.tar.gz --markdown 20230503/c/cbmc-starter-kit/2.8.8-2.9/diff.md --exclude *.pyd
+[2023-05-03 21:18:15] INFO root fetch - main [MainThread]: End processing [vellum-ai]: success
+[2023-05-03 21:18:15] INFO root fetch - main [MainThread]: End processing [odoo12-addon-l10n-it-fatturapa-out]: success
+[2023-05-03 21:18:15] INFO root fetch - processPackages [nibe]: Downloading https://files.pythonhosted.org/packages/cc/97/7b5c94029deccecfc8268360da75377f02e4ffe7f097e043a1ad2d7cb7ce/nibe-2.2.0.tar.gz
+[2023-05-03 21:18:15] INFO root fetch - processPackages [nibe]: executing diffoscope
+[2023-05-03 21:18:15] INFO root fetch - processPackages [nibe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nibe-2.1.4.tar.gz tmp/nibe-2.2.0.tar.gz --markdown 20230503/n/nibe/2.1.4-2.2.0/diff.md --exclude *.pyd
+[2023-05-03 21:18:15] INFO root fetch - main [MainThread]: End processing [actoolkit]: success
+[2023-05-03 21:18:16] INFO root fetch - main [MainThread]: End processing [cbmc-starter-kit]: success
+[2023-05-03 21:18:17] INFO root fetch - main [MainThread]: End processing [nibe]: success
+[2023-05-03 21:18:18] INFO root fetch - main [MainThread]: End processing [dcicsnovault]: success
+[2023-05-03 21:18:18] INFO root fetch - main [MainThread]: Store serial: [17961500]
