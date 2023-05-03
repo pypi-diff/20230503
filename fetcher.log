@@ -13173,3 +13173,104 @@ No space left on device. Diffoscope exiting.
 [2023-05-03 13:07:11] INFO root fetch - main [MainThread]: End processing [tsaugmentation]: success
 [2023-05-03 13:07:12] INFO root fetch - main [MainThread]: End processing [EOxServer]: success
 [2023-05-03 13:07:12] INFO root fetch - main [MainThread]: Store serial: [17955415]
+[2023-05-03 13:12:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17955415]
+[2023-05-03 13:12:23] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-03 13:12:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyfem
+[2023-05-03 13:12:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dop-integration-libs
+[2023-05-03 13:12:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rerun-sdk
+[2023-05-03 13:12:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: skyndo
+[2023-05-03 13:12:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: woe-scoring
+[2023-05-03 13:12:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bed-annotation
+[2023-05-03 13:12:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: oneai
+[2023-05-03 13:12:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyasd
+[2023-05-03 13:12:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: attack-dashboard
+[2023-05-03 13:12:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: toolnew32
+[2023-05-03 13:12:23] WARNING root fetch - processPackages [bed-annotation]: Skipping, unable to determine old version
+[2023-05-03 13:12:23] INFO root fetch - processPackages [bed-annotation]: Start processing: pybgpasn
+[2023-05-03 13:12:23] INFO root fetch - main [MainThread]: End processing [bed-annotation] error
+[2023-05-03 13:12:23] INFO root fetch - processPackages [dop-integration-libs]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-03 13:12:23] INFO root fetch - processPackages [pyasd]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-03 13:12:23] INFO root fetch - processPackages [oneai]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-03 13:12:23] INFO root fetch - processPackages [attack-dashboard]: New version: [0.11.3] Old Version: [0.11.1]
+[2023-05-03 13:12:23] WARNING root fetch - processPackages [toolnew32]: Skipping, unable to determine old version
+[2023-05-03 13:12:23] INFO root fetch - processPackages [skyndo]: New version: [0.7] Old Version: [0.6]
+[2023-05-03 13:12:23] INFO root fetch - processPackages [toolnew32]: Start processing: qa-keys-test
+[2023-05-03 13:12:23] INFO root fetch - main [MainThread]: End processing [toolnew32] error
+[2023-05-03 13:12:23] INFO root fetch - processPackages [woe-scoring]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-03 13:12:23] INFO root fetch - processPackages [rerun-sdk]: New version: [0.5.1a1] Old Version: [0.5.1]
+[2023-05-03 13:12:23] INFO root fetch - processPackages [pybgpasn]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-03 13:12:23] INFO root fetch - processPackages [qa-keys-test]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-03 13:12:23] WARNING root fetch - processPackages [pyfem]: Skipping, unable to determine old version
+[2023-05-03 13:12:23] INFO root fetch - processPackages [pyfem]: Start processing: khloraascaf-utils
+[2023-05-03 13:12:23] INFO root fetch - main [MainThread]: End processing [pyfem] error
+[2023-05-03 13:12:23] INFO root fetch - processPackages [woe-scoring]: executing diffoscope
+[2023-05-03 13:12:23] INFO root fetch - processPackages [woe-scoring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/woe_scoring-0.8.0.tar.gz tmp/woe_scoring-0.9.0.tar.gz --markdown 20230503/w/woe-scoring/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-03 13:12:23] INFO root fetch - processPackages [khloraascaf-utils]: New version: [0.6.0] Old Version: [0.5.3]
+[2023-05-03 13:12:23] INFO root fetch - processPackages [rerun-sdk]: Downloading https://files.pythonhosted.org/packages/b2/0d/15f3824a283ee11ba61137201abf79099cad278cd95a02aa8b0506b176fb/rerun_sdk-0.5.1-cp38-abi3-win_amd64.whl
+[2023-05-03 13:12:23] INFO root fetch - processPackages [attack-dashboard]: Downloading https://files.pythonhosted.org/packages/54/4b/e6536750ae67baf98750ef041f6402a73e247fd062c531535b317fcc0f27/attack_dashboard-0.11.1.tar.gz
+[2023-05-03 13:12:23] INFO root fetch - processPackages [qa-keys-test]: Downloading https://files.pythonhosted.org/packages/d2/81/347a6360c1ad76a8357526c42f14f7d9efe12dd74c4e06e1cf21a7a7bbb8/qa-keys-test-0.0.3.tar.gz
+[2023-05-03 13:12:23] INFO root fetch - processPackages [dop-integration-libs]: Downloading https://files.pythonhosted.org/packages/38/f1/bc23be91e084aa547e8c34ae1a7861c50b6e729c3885a6de0dd44e75ec72/dop_integration_libs-0.1.8.tar.gz
+[2023-05-03 13:12:23] INFO root fetch - processPackages [skyndo]: Downloading https://files.pythonhosted.org/packages/8f/c4/e034527036731e29b6c44f342328e7643b8175a36b17d43595a8244ca5d7/skyndo-0.7.tar.gz
+[2023-05-03 13:12:23] INFO root fetch - processPackages [oneai]: Downloading https://files.pythonhosted.org/packages/89/0a/916602909edf1a6e1b661edd45fea91d4c79d5b47c0e06ab35b279a9464b/oneai-0.9.8.tar.gz
+[2023-05-03 13:12:23] INFO root fetch - processPackages [pyasd]: Downloading https://files.pythonhosted.org/packages/8d/bb/7f4db594aea27425fb4c410abeeb6e555b3da54713c53920c08797a4e329/pyasd-0.0.4.tar.gz
+[2023-05-03 13:12:23] INFO root fetch - processPackages [pybgpasn]: Downloading https://files.pythonhosted.org/packages/6f/92/febe3d952719391804e043eccd131a515b06eb5ec75e643fd20489d6fce9/pybgpasn-1.0.3.tar.gz
+[2023-05-03 13:12:23] WARNING root fetch - processPackages [rerun-sdk]: Skipping package: exceeds size limit 19683170>=10485760
+[2023-05-03 13:12:23] INFO root fetch - processPackages [rerun-sdk]: Start processing: topologicpy
+[2023-05-03 13:12:23] INFO root fetch - main [MainThread]: End processing [rerun-sdk] error
+[2023-05-03 13:12:23] INFO root fetch - processPackages [topologicpy]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-03 13:12:23] INFO root fetch - processPackages [pybgpasn]: executing diffoscope
+[2023-05-03 13:12:23] INFO root fetch - processPackages [pybgpasn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybgpasn-1.0.2.tar.gz tmp/pybgpasn-1.0.3.tar.gz --markdown 20230503/p/pybgpasn/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-03 13:12:23] INFO root fetch - processPackages [khloraascaf-utils]: Downloading https://files.pythonhosted.org/packages/a0/ee/b93ec53dafbc39bd64c4030eda10f3ee1bc355c6113e5b8cff5f85fbfd13/khloraascaf_utils-0.5.3.tar.gz
+[2023-05-03 13:12:23] INFO root fetch - processPackages [pyasd]: executing diffoscope
+[2023-05-03 13:12:24] INFO root fetch - processPackages [pyasd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyasd-0.0.3.tar.gz tmp/pyasd-0.0.4.tar.gz --markdown 20230503/p/pyasd/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-03 13:12:24] INFO root fetch - processPackages [skyndo]: executing diffoscope
+[2023-05-03 13:12:24] INFO root fetch - processPackages [skyndo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skyndo-0.6.tar.gz tmp/skyndo-0.7.tar.gz --markdown 20230503/s/skyndo/0.6-0.7/diff.md --exclude *.pyd
+[2023-05-03 13:12:24] INFO root fetch - processPackages [topologicpy]: Downloading https://files.pythonhosted.org/packages/15/86/57531994fc339da6f12a8b31d70791471b40b34a717f26ba7d8fd2452a79/topologicpy-0.4.8.tar.gz
+[2023-05-03 13:12:24] INFO root fetch - processPackages [attack-dashboard]: Downloading https://files.pythonhosted.org/packages/90/a8/7ee303b55a58db035f5055e9f2f162282605f5e24a0c19beba0257b65c56/attack_dashboard-0.11.3.tar.gz
+[2023-05-03 13:12:24] INFO root fetch - processPackages [qa-keys-test]: Downloading https://files.pythonhosted.org/packages/c3/23/2ec9855105fcef9ea7ef9b053c3f450b0396dcdb2d44da04baaa2ee38bee/qa-keys-test-0.0.4.tar.gz
+[2023-05-03 13:12:24] INFO root fetch - processPackages [attack-dashboard]: executing diffoscope
+[2023-05-03 13:12:24] INFO root fetch - processPackages [attack-dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/attack_dashboard-0.11.1.tar.gz tmp/attack_dashboard-0.11.3.tar.gz --markdown 20230503/a/attack-dashboard/0.11.1-0.11.3/diff.md --exclude *.pyd
+[2023-05-03 13:12:24] INFO root fetch - processPackages [qa-keys-test]: executing diffoscope
+[2023-05-03 13:12:24] INFO root fetch - processPackages [qa-keys-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qa-keys-test-0.0.3.tar.gz tmp/qa-keys-test-0.0.4.tar.gz --markdown 20230503/q/qa-keys-test/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-03 13:12:24] INFO root fetch - processPackages [dop-integration-libs]: Downloading https://files.pythonhosted.org/packages/e7/f0/39af1af4e964476dc9c3ae6c1ab240702fef5edc6306252ed5b3a40574c7/dop_integration_libs-0.1.9.tar.gz
+[2023-05-03 13:12:24] INFO root fetch - processPackages [oneai]: Downloading https://files.pythonhosted.org/packages/a8/be/4f8d749fd967478a2b1fff1577b187c9e85d1892517acbe16a8cdf91e094/oneai-0.9.9.tar.gz
+[2023-05-03 13:12:24] INFO root fetch - processPackages [khloraascaf-utils]: Downloading https://files.pythonhosted.org/packages/65/7f/04bc452732ecbbe9c34a825cb7067aa8f238e6ec6d33543e6fc622ba9b4c/khloraascaf_utils-0.6.0.tar.gz
+[2023-05-03 13:12:24] INFO root fetch - processPackages [dop-integration-libs]: executing diffoscope
+[2023-05-03 13:12:24] INFO root fetch - processPackages [dop-integration-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dop_integration_libs-0.1.8.tar.gz tmp/dop_integration_libs-0.1.9.tar.gz --markdown 20230503/d/dop-integration-libs/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-03 13:12:24] INFO root fetch - processPackages [oneai]: executing diffoscope
+[2023-05-03 13:12:24] INFO root fetch - processPackages [khloraascaf-utils]: executing diffoscope
+[2023-05-03 13:12:24] INFO root fetch - processPackages [oneai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oneai-0.9.8.tar.gz tmp/oneai-0.9.9.tar.gz --markdown 20230503/o/oneai/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-03 13:12:24] INFO root fetch - processPackages [khloraascaf-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khloraascaf_utils-0.5.3.tar.gz tmp/khloraascaf_utils-0.6.0.tar.gz --markdown 20230503/k/khloraascaf-utils/0.5.3-0.6.0/diff.md --exclude *.pyd
+[2023-05-03 13:12:24] INFO root fetch - processPackages [topologicpy]: Downloading https://files.pythonhosted.org/packages/c5/85/1c4479b468dd8447a392da1fb4879881f139f70892e1015a6f377c4cea2b/topologicpy-0.4.9.tar.gz
+[2023-05-03 13:12:24] WARNING root fetch - processPackages [topologicpy]: Skipping package: exceeds size limit 34020520>=10485760
+[2023-05-03 13:12:24] INFO root fetch - processPackages [topologicpy]: Start processing: fwdviewpy
+[2023-05-03 13:12:24] INFO root fetch - main [MainThread]: End processing [topologicpy] error
+[2023-05-03 13:12:25] INFO root fetch - processPackages [fwdviewpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-03 13:12:25] INFO root fetch - processPackages [fwdviewpy]: executing diffoscope
+[2023-05-03 13:12:25] INFO root fetch - processPackages [fwdviewpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fwdviewpy-0.1.8.tar.gz tmp/fwdviewpy-0.1.9.tar.gz --markdown 20230503/f/fwdviewpy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-03 13:12:25] INFO root fetch - processPackages [pybgpasn]: Start processing: smiley-package
+[2023-05-03 13:12:25] INFO root fetch - main [MainThread]: End processing [pybgpasn]: success
+[2023-05-03 13:12:25] WARNING root fetch - processPackages [smiley-package]: Skipping, unable to determine old version
+[2023-05-03 13:12:25] INFO root fetch - processPackages [smiley-package]: Start processing: tts-arranger
+[2023-05-03 13:12:25] INFO root fetch - main [MainThread]: End processing [smiley-package] error
+[2023-05-03 13:12:25] INFO root fetch - processPackages [woe-scoring]: Start processing: semisup-segmentation
+[2023-05-03 13:12:25] INFO root fetch - main [MainThread]: End processing [woe-scoring]: success
+[2023-05-03 13:12:25] INFO root fetch - main [MainThread]: End processing [skyndo]: success
+[2023-05-03 13:12:25] INFO root fetch - processPackages [tts-arranger]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-03 13:12:25] INFO root fetch - processPackages [semisup-segmentation]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-03 13:12:26] INFO root fetch - processPackages [semisup-segmentation]: executing diffoscope
+[2023-05-03 13:12:26] INFO root fetch - processPackages [semisup-segmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semisup-segmentation-0.0.2.tar.gz tmp/semisup-segmentation-0.0.3.tar.gz --markdown 20230503/s/semisup-segmentation/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-03 13:12:26] INFO root fetch - processPackages [tts-arranger]: Downloading https://files.pythonhosted.org/packages/b6/d5/b91f213bcf7016ed92dbd3884f8b7775b3b2fa1d91cf1a3b7c2153a1be8d/tts_arranger-0.3.1.tar.gz
+[2023-05-03 13:12:26] INFO root fetch - main [MainThread]: End processing [dop-integration-libs]: success
+[2023-05-03 13:12:26] INFO root fetch - main [MainThread]: End processing [qa-keys-test]: success
+[2023-05-03 13:12:26] INFO root fetch - processPackages [tts-arranger]: Downloading https://files.pythonhosted.org/packages/e4/c8/9735855e1e7193bb1b942817e07cc131216ed77c268037328069272b3cb6/tts_arranger-0.3.2.tar.gz
+[2023-05-03 13:12:26] INFO root fetch - main [MainThread]: End processing [attack-dashboard]: success
+[2023-05-03 13:12:26] INFO root fetch - processPackages [tts-arranger]: executing diffoscope
+[2023-05-03 13:12:26] INFO root fetch - processPackages [tts-arranger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tts_arranger-0.3.1.tar.gz tmp/tts_arranger-0.3.2.tar.gz --markdown 20230503/t/tts-arranger/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-03 13:12:26] INFO root fetch - main [MainThread]: End processing [fwdviewpy]: success
+[2023-05-03 13:12:26] INFO root fetch - main [MainThread]: End processing [khloraascaf-utils]: success
+[2023-05-03 13:12:27] INFO root fetch - main [MainThread]: End processing [oneai]: success
+[2023-05-03 13:12:27] INFO root fetch - main [MainThread]: End processing [semisup-segmentation]: success
+[2023-05-03 13:12:27] INFO root fetch - main [MainThread]: End processing [tts-arranger]: success
+[2023-05-03 13:12:28] INFO root fetch - main [MainThread]: End processing [pyasd]: success
+[2023-05-03 13:12:28] INFO root fetch - main [MainThread]: Store serial: [17955481]
