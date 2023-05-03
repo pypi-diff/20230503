@@ -4439,3 +4439,57 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-03 03:39:11] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-wget]: success
 [2023-05-03 03:39:11] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
 [2023-05-03 03:39:11] INFO root fetch - main [MainThread]: Store serial: [17950458]
+[2023-05-03 03:44:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17950458]
+[2023-05-03 03:44:21] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-03 03:44:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: faucetconfrpc
+[2023-05-03 03:44:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbdev-scipy
+[2023-05-03 03:44:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: intel-transfer-learning-tool
+[2023-05-03 03:44:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tarvis-exchange-dydx
+[2023-05-03 03:44:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ghanashops-scraper
+[2023-05-03 03:44:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: proactive
+[2023-05-03 03:44:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nbdev-sphinx
+[2023-05-03 03:44:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tl2cgen
+[2023-05-03 03:44:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: proactive-jupyter-kernel
+[2023-05-03 03:44:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nbdev-django
+[2023-05-03 03:44:21] INFO root fetch - processPackages [ghanashops-scraper]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-03 03:44:21] WARNING root fetch - processPackages [intel-transfer-learning-tool]: Skipping, unable to determine old version
+[2023-05-03 03:44:21] INFO root fetch - main [MainThread]: End processing [intel-transfer-learning-tool] error
+[2023-05-03 03:44:21] INFO root fetch - processPackages [tarvis-exchange-dydx]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-05-03 03:44:21] INFO root fetch - processPackages [proactive]: New version: [8.4.11] Old Version: [8.4.10]
+[2023-05-03 03:44:21] WARNING root fetch - processPackages [tl2cgen]: Skipping, unable to determine old version
+[2023-05-03 03:44:21] INFO root fetch - processPackages [proactive-jupyter-kernel]: New version: [13.1.1.2212191832.dev0] Old Version: [13.1.1.2212191149.dev0]
+[2023-05-03 03:44:21] INFO root fetch - main [MainThread]: End processing [tl2cgen] error
+[2023-05-03 03:44:21] INFO root fetch - processPackages [faucetconfrpc]: New version: [0.9] Old Version: [0.8]
+[2023-05-03 03:44:21] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-03 03:44:21] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-03 03:44:21] INFO root fetch - processPackages [proactive]: Downloading https://files.pythonhosted.org/packages/36/67/8f2441cbc911f3a57a2168b0e419b0751450a04c18791e6ba642af1085d8/proactive-8.4.10.zip
+[2023-05-03 03:44:21] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-03 03:44:21] WARNING root fetch - processPackages [proactive]: Skipping package: exceeds size limit 18979361>=10485760
+[2023-05-03 03:44:21] INFO root fetch - main [MainThread]: End processing [proactive] error
+[2023-05-03 03:44:21] INFO root fetch - processPackages [ghanashops-scraper]: Downloading https://files.pythonhosted.org/packages/d4/9a/fb72c3705f9e949e25388bce45f6deed0f68e3c7de3b753975bd79cdcb4d/ghanashops-scraper-1.0.4.tar.gz
+[2023-05-03 03:44:21] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-05-03 03:44:21] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230503/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-03 03:44:21] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-05-03 03:44:21] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230503/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-03 03:44:21] INFO root fetch - processPackages [proactive-jupyter-kernel]: executing diffoscope
+[2023-05-03 03:44:21] INFO root fetch - processPackages [proactive-jupyter-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip --markdown 20230503/p/proactive-jupyter-kernel/13.1.1.2212191149.dev0-13.1.1.2212191832.dev0/diff.md --exclude *.pyd
+[2023-05-03 03:44:21] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-05-03 03:44:21] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230503/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-03 03:44:21] INFO root fetch - processPackages [faucetconfrpc]: Downloading https://files.pythonhosted.org/packages/04/ab/9211c7bc1a14ae84b63427b94b9eff1fa292cf14afa607f6264bd6631dbf/faucetconfrpc-0.8.tar.gz
+[2023-05-03 03:44:22] INFO root fetch - processPackages [tarvis-exchange-dydx]: Downloading https://files.pythonhosted.org/packages/93/77/f82d841cac6da96e698b2e44b83c3e62ecb58872acd7072aef6f62a5ccd0/tarvis-exchange-dydx-0.9.5.tar.gz
+[2023-05-03 03:44:22] INFO root fetch - processPackages [ghanashops-scraper]: Downloading https://files.pythonhosted.org/packages/a6/25/89d7d0beb4d53a78541fb5323d11cdb22de83ff1fa1ee6f1052f0b8addfd/ghanashops-scraper-1.0.5.tar.gz
+[2023-05-03 03:44:22] INFO root fetch - processPackages [tarvis-exchange-dydx]: executing diffoscope
+[2023-05-03 03:44:22] INFO root fetch - processPackages [tarvis-exchange-dydx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tarvis-exchange-dydx-0.9.4.tar.gz tmp/tarvis-exchange-dydx-0.9.5.tar.gz --markdown 20230503/t/tarvis-exchange-dydx/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-05-03 03:44:22] INFO root fetch - processPackages [ghanashops-scraper]: executing diffoscope
+[2023-05-03 03:44:22] INFO root fetch - processPackages [ghanashops-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghanashops-scraper-1.0.4.tar.gz tmp/ghanashops-scraper-1.0.5.tar.gz --markdown 20230503/g/ghanashops-scraper/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-03 03:44:22] INFO root fetch - processPackages [faucetconfrpc]: Downloading https://files.pythonhosted.org/packages/65/6c/3d6a93f305a4a5dd20e2ec3b3ff84c4af817bb3de6b7f4de59eaf6342e35/faucetconfrpc-0.9.tar.gz
+[2023-05-03 03:44:22] INFO root fetch - processPackages [faucetconfrpc]: executing diffoscope
+[2023-05-03 03:44:22] INFO root fetch - processPackages [faucetconfrpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faucetconfrpc-0.8.tar.gz tmp/faucetconfrpc-0.9.tar.gz --markdown 20230503/f/faucetconfrpc/0.8-0.9/diff.md --exclude *.pyd
+[2023-05-03 03:44:23] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel]: success
+[2023-05-03 03:44:23] INFO root fetch - main [MainThread]: End processing [tarvis-exchange-dydx]: success
+[2023-05-03 03:44:23] INFO root fetch - main [MainThread]: End processing [ghanashops-scraper]: success
+[2023-05-03 03:44:23] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-05-03 03:44:23] INFO root fetch - main [MainThread]: End processing [faucetconfrpc]: success
+[2023-05-03 03:44:23] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-05-03 03:44:24] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-05-03 03:44:24] INFO root fetch - main [MainThread]: Store serial: [17950498]
