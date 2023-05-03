@@ -20535,3 +20535,108 @@ No space left on device. Diffoscope exiting.
 [2023-05-03 18:59:21] INFO root fetch - main [MainThread]: End processing [dpsa4fl-bindings]: success
 [2023-05-03 18:59:24] INFO root fetch - main [MainThread]: End processing [django-ndr-core]: success
 [2023-05-03 18:59:24] INFO root fetch - main [MainThread]: Store serial: [17960044]
+[2023-05-03 19:04:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17960044]
+[2023-05-03 19:04:33] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-03 19:04:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trytond-account-invoice
+[2023-05-03 19:04:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: siliconcompiler
+[2023-05-03 19:04:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyCBA
+[2023-05-03 19:04:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: trytond-account-invoice
+[2023-05-03 19:04:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: blond
+[2023-05-03 19:04:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: igbpyutils
+[2023-05-03 19:04:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hledger-lots
+[2023-05-03 19:04:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: CoLT5-attention
+[2023-05-03 19:04:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lohrasb
+[2023-05-03 19:04:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: trytond-account-invoice
+[2023-05-03 19:04:33] INFO root fetch - processPackages [PyCBA]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-05-03 19:04:33] INFO root fetch - processPackages [trytond-account-invoice]: New version: [6.8.0] Old Version: [6.6.5]
+[2023-05-03 19:04:33] INFO root fetch - processPackages [CoLT5-attention]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-05-03 19:04:33] INFO root fetch - processPackages [trytond-account-invoice]: New version: [6.8.0] Old Version: [6.6.5]
+[2023-05-03 19:04:33] INFO root fetch - processPackages [siliconcompiler]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-05-03 19:04:33] INFO root fetch - processPackages [trytond-account-invoice]: New version: [6.8.0] Old Version: [6.6.5]
+[2023-05-03 19:04:33] INFO root fetch - processPackages [blond]: New version: [2.1.0] Old Version: [2.0.12]
+[2023-05-03 19:04:33] INFO root fetch - processPackages [lohrasb]: New version: [3.5.0] Old Version: [3.4.0]
+[2023-05-03 19:04:33] INFO root fetch - processPackages [hledger-lots]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-03 19:04:33] INFO root fetch - processPackages [igbpyutils]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-03 19:04:33] INFO root fetch - processPackages [CoLT5-attention]: executing diffoscope
+[2023-05-03 19:04:33] INFO root fetch - processPackages [CoLT5-attention]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CoLT5-attention-0.4.7.tar.gz tmp/CoLT5-attention-0.4.8.tar.gz --markdown 20230503/C/CoLT5-attention/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2023-05-03 19:04:33] INFO root fetch - processPackages [trytond-account-invoice]: Downloading https://files.pythonhosted.org/packages/d0/80/005a7819267f2904764fd799abca028ab19b90dd5baaabc67d7b429fe923/trytond_account_invoice-6.6.5.tar.gz
+[2023-05-03 19:04:33] INFO root fetch - processPackages [trytond-account-invoice]: Downloading https://files.pythonhosted.org/packages/d0/80/005a7819267f2904764fd799abca028ab19b90dd5baaabc67d7b429fe923/trytond_account_invoice-6.6.5.tar.gz
+[2023-05-03 19:04:33] INFO root fetch - processPackages [trytond-account-invoice]: Downloading https://files.pythonhosted.org/packages/d0/80/005a7819267f2904764fd799abca028ab19b90dd5baaabc67d7b429fe923/trytond_account_invoice-6.6.5.tar.gz
+[2023-05-03 19:04:33] INFO root fetch - processPackages [PyCBA]: Downloading https://files.pythonhosted.org/packages/1e/41/4dd4a86a7b8236bd1a1b6bbb0f1d4392d300ceb1b7a15dd72ea77d206001/PyCBA-0.1.1.tar.gz
+[2023-05-03 19:04:34] INFO root fetch - processPackages [lohrasb]: Downloading https://files.pythonhosted.org/packages/5c/31/a416cd6ce63e55036bbfd49498eb28662130217bd81bce7c44c507b43d6b/lohrasb-3.4.0.tar.gz
+[2023-05-03 19:04:34] INFO root fetch - processPackages [siliconcompiler]: Downloading https://files.pythonhosted.org/packages/b9/1b/75d159a709f869a85649ecb4b589235a2e3cdda4ac924dcf9ed44ebb71f2/siliconcompiler-0.9.5-cp39-cp39-win_amd64.whl
+[2023-05-03 19:04:34] INFO root fetch - processPackages [hledger-lots]: Downloading https://files.pythonhosted.org/packages/d4/07/c933ccaefb8b2f6f90a5e99775fe97cb07b3a1ee205df78e36b6aadcc7c6/hledger_lots-0.2.0.tar.gz
+[2023-05-03 19:04:34] INFO root fetch - processPackages [igbpyutils]: Downloading https://files.pythonhosted.org/packages/3a/50/a43b5f8694fcc7d58f821ead4d337b01c3b6a2939bff6b8d7189e0fc5c10/igbpyutils-0.0.3.tar.gz
+[2023-05-03 19:04:34] INFO root fetch - processPackages [blond]: Downloading https://files.pythonhosted.org/packages/12/f0/d430849286c581eb3cc205c5896196834e85d798e882196a751865acdfc3/blond-2.1.0.tar.gz
+[2023-05-03 19:04:34] INFO root fetch - processPackages [PyCBA]: Downloading https://files.pythonhosted.org/packages/2b/b8/a67f66e75bdfb6cd6486e65bf4d93b32bc0598d467007cd2ab78eb50addd/PyCBA-0.2.0.tar.gz
+[2023-05-03 19:04:34] INFO root fetch - processPackages [trytond-account-invoice]: executing diffoscope
+[2023-05-03 19:04:34] INFO root fetch - processPackages [trytond-account-invoice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_account_invoice-6.6.5.tar.gz tmp/trytond_account_invoice-6.8.0.tar.gz --markdown 20230503/t/trytond-account-invoice/6.6.5-6.8.0/diff.md --exclude *.pyd
+[2023-05-03 19:04:34] INFO root fetch - processPackages [trytond-account-invoice]: executing diffoscope
+[2023-05-03 19:04:34] INFO root fetch - processPackages [trytond-account-invoice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_account_invoice-6.6.5.tar.gz tmp/trytond_account_invoice-6.8.0.tar.gz --markdown 20230503/t/trytond-account-invoice/6.6.5-6.8.0/diff.md --exclude *.pyd
+[2023-05-03 19:04:34] INFO root fetch - processPackages [trytond-account-invoice]: executing diffoscope
+[2023-05-03 19:04:34] INFO root fetch - processPackages [trytond-account-invoice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_account_invoice-6.6.5.tar.gz tmp/trytond_account_invoice-6.8.0.tar.gz --markdown 20230503/t/trytond-account-invoice/6.6.5-6.8.0/diff.md --exclude *.pyd
+[2023-05-03 19:04:34] INFO root fetch - processPackages [PyCBA]: executing diffoscope
+[2023-05-03 19:04:34] INFO root fetch - processPackages [PyCBA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyCBA-0.1.1.tar.gz tmp/PyCBA-0.2.0.tar.gz --markdown 20230503/P/PyCBA/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-05-03 19:04:34] INFO root fetch - processPackages [blond]: executing diffoscope
+[2023-05-03 19:04:34] INFO root fetch - processPackages [blond]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blond-2.0.12.tar.gz tmp/blond-2.1.0.tar.gz --markdown 20230503/b/blond/2.0.12-2.1.0/diff.md --exclude *.pyd
+[2023-05-03 19:04:34] INFO root fetch - processPackages [igbpyutils]: Downloading https://files.pythonhosted.org/packages/b5/e7/55f8a3f1648f8c773be891191ada3109a19bb4384c1116b834f58d28013d/igbpyutils-0.0.4.tar.gz
+[2023-05-03 19:04:34] INFO root fetch - processPackages [hledger-lots]: Downloading https://files.pythonhosted.org/packages/9b/bf/840611e4312c6ca2ad542ebadd6217bf09e61299c6ca71b2340a4c3acd4c/hledger_lots-0.3.0.tar.gz
+[2023-05-03 19:04:34] INFO root fetch - processPackages [igbpyutils]: executing diffoscope
+[2023-05-03 19:04:34] INFO root fetch - processPackages [igbpyutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/igbpyutils-0.0.3.tar.gz tmp/igbpyutils-0.0.4.tar.gz --markdown 20230503/i/igbpyutils/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-03 19:04:34] INFO root fetch - processPackages [lohrasb]: Downloading https://files.pythonhosted.org/packages/e4/4d/31a1a37e1899cb77d0ca5b5a06053dd3d02e533da2895415b7077a04c864/lohrasb-3.5.0.tar.gz
+[2023-05-03 19:04:34] INFO root fetch - processPackages [hledger-lots]: executing diffoscope
+[2023-05-03 19:04:34] INFO root fetch - processPackages [hledger-lots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hledger_lots-0.2.0.tar.gz tmp/hledger_lots-0.3.0.tar.gz --markdown 20230503/h/hledger-lots/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-03 19:04:34] INFO root fetch - processPackages [lohrasb]: executing diffoscope
+[2023-05-03 19:04:34] INFO root fetch - processPackages [lohrasb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lohrasb-3.4.0.tar.gz tmp/lohrasb-3.5.0.tar.gz --markdown 20230503/l/lohrasb/3.4.0-3.5.0/diff.md --exclude *.pyd
+[2023-05-03 19:04:35] INFO root fetch - processPackages [siliconcompiler]: Downloading https://files.pythonhosted.org/packages/a8/9e/5a4bc1cc4a24cd9394b181819bbc3e7094009e594403bc9bc0abb5147ff4/siliconcompiler-0.9.6-cp39-cp39-win_amd64.whl
+[2023-05-03 19:04:35] INFO root fetch - processPackages [CoLT5-attention]: Start processing: pytest-frappe
+[2023-05-03 19:04:35] INFO root fetch - main [MainThread]: End processing [CoLT5-attention]: success
+[2023-05-03 19:04:35] INFO root fetch - processPackages [pytest-frappe]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-03 19:04:35] WARNING root fetch - processPackages [siliconcompiler]: Skipping package: exceeds size limit 37222537>=10485760
+[2023-05-03 19:04:35] INFO root fetch - processPackages [siliconcompiler]: Start processing: navigation-utilities
+[2023-05-03 19:04:35] INFO root fetch - main [MainThread]: End processing [siliconcompiler] error
+[2023-05-03 19:04:35] INFO root fetch - processPackages [pytest-frappe]: Downloading https://files.pythonhosted.org/packages/4a/50/d7ed3b2c169588821506bb10d3225190faebc91326d1aed038e630ae632c/pytest-frappe-0.1.0.tar.gz
+[2023-05-03 19:04:35] INFO root fetch - processPackages [navigation-utilities]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-03 19:04:35] INFO root fetch - processPackages [pytest-frappe]: Downloading https://files.pythonhosted.org/packages/1e/cf/a7d4aec852c795487dcb7ef74daec2163ed1f24fc61f85f0c889b6573962/pytest-frappe-0.1.1.tar.gz
+[2023-05-03 19:04:35] INFO root fetch - processPackages [igbpyutils]: Start processing: trytond-account-dunning
+[2023-05-03 19:04:35] INFO root fetch - main [MainThread]: End processing [igbpyutils]: success
+[2023-05-03 19:04:35] INFO root fetch - processPackages [PyCBA]: Start processing: neurotechdevkit
+[2023-05-03 19:04:35] INFO root fetch - main [MainThread]: End processing [PyCBA]: success
+[2023-05-03 19:04:36] INFO root fetch - processPackages [neurotechdevkit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 19:04:36] INFO root fetch - processPackages [pytest-frappe]: executing diffoscope
+[2023-05-03 19:04:36] INFO root fetch - processPackages [pytest-frappe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-frappe-0.1.0.tar.gz tmp/pytest-frappe-0.1.1.tar.gz --markdown 20230503/p/pytest-frappe/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-03 19:04:36] INFO root fetch - processPackages [navigation-utilities]: Downloading https://files.pythonhosted.org/packages/4c/03/c65735adf4b98941841e6f419ab27ef9dd39056e3c11fb80a8c8ed2153a3/navigation-utilities-0.2.1.tar.gz
+[2023-05-03 19:04:36] INFO root fetch - processPackages [trytond-account-dunning]: New version: [6.8.0] Old Version: [6.6.1]
+[2023-05-03 19:04:36] INFO root fetch - processPackages [neurotechdevkit]: executing diffoscope
+[2023-05-03 19:04:36] INFO root fetch - processPackages [neurotechdevkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neurotechdevkit-0.0.8.tar.gz tmp/neurotechdevkit-0.0.9.tar.gz --markdown 20230503/n/neurotechdevkit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 19:04:36] INFO root fetch - processPackages [hledger-lots]: Start processing: john
+[2023-05-03 19:04:36] INFO root fetch - main [MainThread]: End processing [hledger-lots]: success
+[2023-05-03 19:04:36] INFO root fetch - processPackages [navigation-utilities]: executing diffoscope
+[2023-05-03 19:04:36] INFO root fetch - processPackages [navigation-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/navigation-utilities-0.2.0.tar.gz tmp/navigation-utilities-0.2.1.tar.gz --markdown 20230503/n/navigation-utilities/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-03 19:04:36] INFO root fetch - processPackages [trytond-account-dunning]: Downloading https://files.pythonhosted.org/packages/16/2d/9c5c9929c97b2aa02efd22cb3c87a1bb5ce8f0087e77862c319afffb3870/trytond_account_dunning-6.6.1.tar.gz
+[2023-05-03 19:04:36] INFO root fetch - processPackages [john]: New version: [0.1.5a0] Old Version: [0.1.4a1]
+[2023-05-03 19:04:36] INFO root fetch - processPackages [john]: Downloading https://files.pythonhosted.org/packages/d1/38/ae2189904fd7703df5949dee71fec6135976d960e1eed65d225569145d16/john-0.1.4a1.tar.gz
+[2023-05-03 19:04:36] INFO root fetch - processPackages [trytond-account-dunning]: executing diffoscope
+[2023-05-03 19:04:36] INFO root fetch - processPackages [trytond-account-dunning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_account_dunning-6.6.1.tar.gz tmp/trytond_account_dunning-6.8.0.tar.gz --markdown 20230503/t/trytond-account-dunning/6.6.1-6.8.0/diff.md --exclude *.pyd
+[2023-05-03 19:04:36] INFO root fetch - processPackages [john]: Downloading https://files.pythonhosted.org/packages/af/91/2c26a83238ad2237919d2840d95ded454c98ae9c98b406268fbebddc1417/john-0.1.5a0.tar.gz
+[2023-05-03 19:04:36] INFO root fetch - processPackages [john]: executing diffoscope
+[2023-05-03 19:04:36] INFO root fetch - processPackages [john]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/john-0.1.4a1.tar.gz tmp/john-0.1.5a0.tar.gz --markdown 20230503/j/john/0.1.4a1-0.1.5a0/diff.md --exclude *.pyd
+[2023-05-03 19:04:37] INFO root fetch - processPackages [pytest-frappe]: Start processing: trytond-account-dunning
+[2023-05-03 19:04:37] INFO root fetch - main [MainThread]: End processing [pytest-frappe]: success
+[2023-05-03 19:04:37] INFO root fetch - processPackages [trytond-account-dunning]: New version: [6.8.0] Old Version: [6.6.1]
+[2023-05-03 19:04:37] INFO root fetch - processPackages [trytond-account-dunning]: executing diffoscope
+[2023-05-03 19:04:37] INFO root fetch - processPackages [trytond-account-dunning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_account_dunning-6.6.1.tar.gz tmp/trytond_account_dunning-6.8.0.tar.gz --markdown 20230503/t/trytond-account-dunning/6.6.1-6.8.0/diff.md --exclude *.pyd
+[2023-05-03 19:04:37] INFO root fetch - processPackages [trytond-account-invoice]: Start processing: agent-link
+[2023-05-03 19:04:37] INFO root fetch - main [MainThread]: End processing [trytond-account-invoice]: success
+[2023-05-03 19:04:37] INFO root fetch - main [MainThread]: End processing [navigation-utilities]: success
+[2023-05-03 19:04:37] WARNING root fetch - processPackages [agent-link]: Skipping, unable to determine old version
+[2023-05-03 19:04:37] INFO root fetch - main [MainThread]: End processing [agent-link] error
+[2023-05-03 19:04:37] INFO root fetch - main [MainThread]: End processing [neurotechdevkit]: success
+[2023-05-03 19:04:37] INFO root fetch - main [MainThread]: End processing [trytond-account-dunning]: success
+[2023-05-03 19:04:37] INFO root fetch - main [MainThread]: End processing [john]: success
+[2023-05-03 19:04:38] INFO root fetch - main [MainThread]: End processing [trytond-account-dunning]: success
+[2023-05-03 19:04:38] INFO root fetch - main [MainThread]: End processing [blond]: success
+[2023-05-03 19:04:39] INFO root fetch - main [MainThread]: End processing [trytond-account-invoice]: success
+[2023-05-03 19:04:41] INFO root fetch - main [MainThread]: End processing [trytond-account-invoice]: success
+[2023-05-03 19:04:44] INFO root fetch - main [MainThread]: End processing [lohrasb]: success
+[2023-05-03 19:04:44] INFO root fetch - main [MainThread]: Store serial: [17960135]
