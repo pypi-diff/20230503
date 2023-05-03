@@ -19865,3 +19865,85 @@ No space left on device. Diffoscope exiting.
 [2023-05-03 18:38:04] INFO root fetch - main [MainThread]: End processing [tryton]: success
 [2023-05-03 18:38:10] INFO root fetch - main [MainThread]: End processing [azure-functions-durable]: success
 [2023-05-03 18:38:10] INFO root fetch - main [MainThread]: Store serial: [17959633]
+[2023-05-03 18:43:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17959633]
+[2023-05-03 18:43:20] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-03 18:43:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ensembleperturbation
+[2023-05-03 18:43:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pds.sumo-tools
+[2023-05-03 18:43:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: logChecker
+[2023-05-03 18:43:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mxproc
+[2023-05-03 18:43:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pydantic-core
+[2023-05-03 18:43:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cycad
+[2023-05-03 18:43:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: OWR
+[2023-05-03 18:43:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: macadamia
+[2023-05-03 18:43:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lava-nc
+[2023-05-03 18:43:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: watch-bot
+[2023-05-03 18:43:20] INFO root fetch - processPackages [pds.sumo-tools]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-03 18:43:20] INFO root fetch - processPackages [lava-nc]: New version: [0.7.0.post1] Old Version: [0.7.0]
+[2023-05-03 18:43:20] WARNING root fetch - processPackages [mxproc]: Skipping, unable to determine old version
+[2023-05-03 18:43:20] INFO root fetch - processPackages [mxproc]: Start processing: spkrepo
+[2023-05-03 18:43:20] INFO root fetch - main [MainThread]: End processing [mxproc] error
+[2023-05-03 18:43:20] INFO root fetch - processPackages [cycad]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-05-03 18:43:20] INFO root fetch - processPackages [ensembleperturbation]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-05-03 18:43:20] INFO root fetch - processPackages [logChecker]: New version: [3.7.1] Old Version: [3.6.1]
+[2023-05-03 18:43:20] INFO root fetch - processPackages [macadamia]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-03 18:43:20] INFO root fetch - processPackages [OWR]: New version: [2.2] Old Version: [2.1]
+[2023-05-03 18:43:20] WARNING root fetch - processPackages [watch-bot]: Skipping, unable to determine old version
+[2023-05-03 18:43:20] INFO root fetch - processPackages [watch-bot]: Start processing: trytond-sale-point
+[2023-05-03 18:43:20] INFO root fetch - main [MainThread]: End processing [watch-bot] error
+[2023-05-03 18:43:20] INFO root fetch - processPackages [pydantic-core]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-05-03 18:43:20] INFO root fetch - processPackages [spkrepo]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-03 18:43:20] INFO root fetch - processPackages [lava-nc]: Downloading https://files.pythonhosted.org/packages/6a/b1/ac18da917a8baf42e7137a2da61f34735845388eb6c45829d743b0a8c305/lava_nc-0.7.0.tar.gz
+[2023-05-03 18:43:20] INFO root fetch - processPackages [ensembleperturbation]: executing diffoscope
+[2023-05-03 18:43:20] INFO root fetch - processPackages [ensembleperturbation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ensembleperturbation-1.2.0.tar.gz tmp/ensembleperturbation-1.2.1.tar.gz --markdown 20230503/e/ensembleperturbation/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-05-03 18:43:20] INFO root fetch - processPackages [trytond-sale-point]: New version: [6.8.0] Old Version: [6.6.2]
+[2023-05-03 18:43:20] INFO root fetch - processPackages [macadamia]: Downloading https://files.pythonhosted.org/packages/a2/2d/33569da781093140fc9927364a96882da48e7eed6113cc28c49a7a2f2570/macadamia-0.1.0.tar.gz
+[2023-05-03 18:43:20] INFO root fetch - processPackages [logChecker]: Downloading https://files.pythonhosted.org/packages/ab/8a/43fac7d6a053f0f84fc968e5586771d0aba52e8471e48d225ba7bc5a5e60/logChecker-3.6.1.tar.gz
+[2023-05-03 18:43:20] INFO root fetch - processPackages [OWR]: Downloading https://files.pythonhosted.org/packages/32/bd/290eff17f580f6e7bbf619a42f07389ba1cd95de035190faee2dc9da9873/OWR-2.2.tar.gz
+[2023-05-03 18:43:20] INFO root fetch - processPackages [pds.sumo-tools]: Downloading https://files.pythonhosted.org/packages/48/c4/7f0aa865312acb94ad804d261f87e936a7de106748df4c41eb928ad08076/pds.sumo_tools-0.2.3-py3-none-any.whl
+[2023-05-03 18:43:20] INFO root fetch - processPackages [cycad]: Downloading https://files.pythonhosted.org/packages/fa/c3/7350ce4b462c538ceff4d3a243f38689f2408d7f300a53699076f3aff574/cycad-1.0.2.tar.gz
+[2023-05-03 18:43:20] INFO root fetch - processPackages [pydantic-core]: Downloading https://files.pythonhosted.org/packages/ec/21/c8889a7018bc7a93463884087ac6e4cc1af5a54f974b442c9b7a8f26829f/pydantic_core-0.8.2.tar.gz
+[2023-05-03 18:43:20] INFO root fetch - processPackages [OWR]: executing diffoscope
+[2023-05-03 18:43:20] INFO root fetch - processPackages [OWR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OWR-2.1.tar.gz tmp/OWR-2.2.tar.gz --markdown 20230503/O/OWR/2.1-2.2/diff.md --exclude *.pyd
+[2023-05-03 18:43:20] INFO root fetch - processPackages [spkrepo]: Downloading https://files.pythonhosted.org/packages/1c/19/6b331c014f813e59355f1aca45f41e798d8f5ef4d51fcf4a031812baca21/spkrepo-0.2.2.tar.gz
+[2023-05-03 18:43:20] INFO root fetch - processPackages [trytond-sale-point]: Downloading https://files.pythonhosted.org/packages/b8/76/0c7141827d9e75f76eca2948c5710dc53874008ec4a5f5da8b550e99c81f/trytond_sale_point-6.6.2.tar.gz
+[2023-05-03 18:43:20] INFO root fetch - processPackages [pds.sumo-tools]: Downloading https://files.pythonhosted.org/packages/85/d8/741435a0ba3b1c090a9631cf1791c10fc5c2a707ef3c0c2ddaf65d8ace74/pds.sumo_tools-0.2.4-py3-none-any.whl
+[2023-05-03 18:43:20] INFO root fetch - processPackages [logChecker]: Downloading https://files.pythonhosted.org/packages/43/c1/acd74461296f40e4c818444d95f7bb0bbecb23c17bf03859176d3d4bc72d/logChecker-3.7.1.tar.gz
+[2023-05-03 18:43:20] INFO root fetch - processPackages [macadamia]: Downloading https://files.pythonhosted.org/packages/82/ac/ffa980a7f3acc2aa44ff0aca0f45ad5e4eea71ae4d0f5d9743c3605f0091/macadamia-0.2.0.tar.gz
+[2023-05-03 18:43:20] INFO root fetch - processPackages [cycad]: Downloading https://files.pythonhosted.org/packages/67/45/1b5b1d71f24cd7a4155ca73cff9b5c76eb1f4b792464d7d312ae502d8ea8/cycad-1.1.0.tar.gz
+[2023-05-03 18:43:20] INFO root fetch - processPackages [pds.sumo-tools]: executing diffoscope
+[2023-05-03 18:43:20] INFO root fetch - processPackages [pds.sumo-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pds.sumo_tools-0.2.3-py3-none-any.whl.zip tmp/pds.sumo_tools-0.2.4-py3-none-any.whl.zip --markdown 20230503/p/pds.sumo-tools/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-03 18:43:20] INFO root fetch - processPackages [logChecker]: executing diffoscope
+[2023-05-03 18:43:20] INFO root fetch - processPackages [logChecker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logChecker-3.6.1.tar.gz tmp/logChecker-3.7.1.tar.gz --markdown 20230503/l/logChecker/3.6.1-3.7.1/diff.md --exclude *.pyd
+[2023-05-03 18:43:20] INFO root fetch - processPackages [pydantic-core]: Downloading https://files.pythonhosted.org/packages/73/d2/71067fc29dbd97ad9dc288b715da55c8dfaa72d17617642f96c30d880981/pydantic_core-0.9.0.tar.gz
+[2023-05-03 18:43:20] INFO root fetch - processPackages [macadamia]: executing diffoscope
+[2023-05-03 18:43:20] INFO root fetch - processPackages [macadamia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macadamia-0.1.0.tar.gz tmp/macadamia-0.2.0.tar.gz --markdown 20230503/m/macadamia/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-03 18:43:20] INFO root fetch - processPackages [lava-nc]: Downloading https://files.pythonhosted.org/packages/72/f4/bbab0d08c0305b0cd22bd3a98b667ffa344d4182cb7c7f77c151da168b26/lava_nc-0.7.0.post1.tar.gz
+[2023-05-03 18:43:20] INFO root fetch - processPackages [cycad]: executing diffoscope
+[2023-05-03 18:43:20] INFO root fetch - processPackages [cycad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cycad-1.0.2.tar.gz tmp/cycad-1.1.0.tar.gz --markdown 20230503/c/cycad/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-05-03 18:43:20] INFO root fetch - processPackages [spkrepo]: Downloading https://files.pythonhosted.org/packages/98/af/c60020bb0105a1398a998e8a31584093efffe090aa180d5451e570865bb9/spkrepo-0.2.3.tar.gz
+[2023-05-03 18:43:20] INFO root fetch - processPackages [trytond-sale-point]: executing diffoscope
+[2023-05-03 18:43:20] INFO root fetch - processPackages [trytond-sale-point]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_sale_point-6.6.2.tar.gz tmp/trytond_sale_point-6.8.0.tar.gz --markdown 20230503/t/trytond-sale-point/6.6.2-6.8.0/diff.md --exclude *.pyd
+[2023-05-03 18:43:21] INFO root fetch - processPackages [spkrepo]: executing diffoscope
+[2023-05-03 18:43:21] INFO root fetch - processPackages [spkrepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spkrepo-0.2.2.tar.gz tmp/spkrepo-0.2.3.tar.gz --markdown 20230503/s/spkrepo/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-03 18:43:21] INFO root fetch - processPackages [pydantic-core]: executing diffoscope
+[2023-05-03 18:43:21] INFO root fetch - processPackages [pydantic-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_core-0.8.2.tar.gz tmp/pydantic_core-0.9.0.tar.gz --markdown 20230503/p/pydantic-core/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-05-03 18:43:21] INFO root fetch - processPackages [ensembleperturbation]: Start processing: deprecate-kwargs
+[2023-05-03 18:43:21] INFO root fetch - main [MainThread]: End processing [ensembleperturbation]: success
+[2023-05-03 18:43:22] INFO root fetch - processPackages [deprecate-kwargs]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-03 18:43:22] INFO root fetch - main [MainThread]: End processing [OWR]: success
+[2023-05-03 18:43:22] INFO root fetch - main [MainThread]: End processing [pds.sumo-tools]: success
+[2023-05-03 18:43:22] INFO root fetch - processPackages [deprecate-kwargs]: Downloading https://files.pythonhosted.org/packages/da/f8/8f91ed2ab0bece25146226d1328e55f1324ce8cc159ab84ab5caa0b10189/deprecate_kwargs-0.0.2.tar.gz
+[2023-05-03 18:43:22] INFO root fetch - main [MainThread]: End processing [cycad]: success
+[2023-05-03 18:43:22] INFO root fetch - main [MainThread]: End processing [macadamia]: success
+[2023-05-03 18:43:22] INFO root fetch - main [MainThread]: End processing [logChecker]: success
+[2023-05-03 18:43:22] INFO root fetch - processPackages [deprecate-kwargs]: Downloading https://files.pythonhosted.org/packages/83/d8/973cbe44f3bca46b4ac31816e7f93c129f0c69e03a9784cb4c7f176b8934/deprecate_kwargs-0.0.3.tar.gz
+[2023-05-03 18:43:22] INFO root fetch - processPackages [lava-nc]: executing diffoscope
+[2023-05-03 18:43:22] INFO root fetch - processPackages [lava-nc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lava_nc-0.7.0.tar.gz tmp/lava_nc-0.7.0.post1.tar.gz --markdown 20230503/l/lava-nc/0.7.0-0.7.0.post1/diff.md --exclude *.pyd
+[2023-05-03 18:43:22] INFO root fetch - processPackages [deprecate-kwargs]: executing diffoscope
+[2023-05-03 18:43:22] INFO root fetch - processPackages [deprecate-kwargs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deprecate_kwargs-0.0.2.tar.gz tmp/deprecate_kwargs-0.0.3.tar.gz --markdown 20230503/d/deprecate-kwargs/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-03 18:43:23] INFO root fetch - main [MainThread]: End processing [trytond-sale-point]: success
+[2023-05-03 18:43:23] INFO root fetch - main [MainThread]: End processing [deprecate-kwargs]: success
+[2023-05-03 18:43:23] INFO root fetch - main [MainThread]: End processing [pydantic-core]: success
+[2023-05-03 18:43:23] INFO root fetch - main [MainThread]: End processing [spkrepo]: success
+[2023-05-03 18:43:25] INFO root fetch - main [MainThread]: End processing [lava-nc]: success
+[2023-05-03 18:43:25] INFO root fetch - main [MainThread]: Store serial: [17959757]
