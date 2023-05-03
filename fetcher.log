@@ -12664,3 +12664,94 @@ No space left on device. Diffoscope exiting.
 [2023-05-03 12:38:48] INFO root fetch - main [MainThread]: End processing [ichika]: success
 [2023-05-03 12:38:48] INFO root fetch - main [MainThread]: End processing [babylog]: success
 [2023-05-03 12:38:48] INFO root fetch - main [MainThread]: Store serial: [17955121]
+[2023-05-03 12:43:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17955121]
+[2023-05-03 12:43:57] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-03 12:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: frida-tools
+[2023-05-03 12:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hitchstory
+[2023-05-03 12:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyfem
+[2023-05-03 12:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: idtrackerai
+[2023-05-03 12:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: netbox-plugin-dns
+[2023-05-03 12:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: regpredict
+[2023-05-03 12:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: databricks-sdk
+[2023-05-03 12:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: open-autonomy
+[2023-05-03 12:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: open-aea-test-autonomy
+[2023-05-03 12:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: strawberry-graphql
+[2023-05-03 12:43:57] INFO root fetch - processPackages [hitchstory]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-03 12:43:57] INFO root fetch - processPackages [frida-tools]: New version: [9.2.5] Old Version: [9.2.4]
+[2023-05-03 12:43:57] INFO root fetch - processPackages [pyfem]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-03 12:43:58] INFO root fetch - processPackages [idtrackerai]: New version: [5.1.3] Old Version: [5.1.2]
+[2023-05-03 12:43:58] INFO root fetch - processPackages [netbox-plugin-dns]: New version: [0.18.0b5] Old Version: [0.18.0b1]
+[2023-05-03 12:43:58] INFO root fetch - processPackages [open-aea-test-autonomy]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-03 12:43:58] INFO root fetch - processPackages [regpredict]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 12:43:58] INFO root fetch - processPackages [databricks-sdk]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-03 12:43:58] INFO root fetch - processPackages [open-autonomy]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-03 12:43:58] INFO root fetch - processPackages [strawberry-graphql]: New version: [0.99.3] Old Version: [0.99.2]
+[2023-05-03 12:43:58] INFO root fetch - processPackages [hitchstory]: Downloading https://files.pythonhosted.org/packages/11/1d/52b18e89f2a99b571eba49a6214c5dbac1e7c1fffb228b2d41deee3d8b64/hitchstory-0.9.0.tar.gz
+[2023-05-03 12:43:58] INFO root fetch - processPackages [regpredict]: Downloading https://files.pythonhosted.org/packages/0a/f5/db3a1fa69360930599889257d2545d57d75927c3650bf12743511ccef501/regpredict-0.0.8.tar.gz
+[2023-05-03 12:43:58] INFO root fetch - processPackages [strawberry-graphql]: Downloading https://files.pythonhosted.org/packages/dd/38/4efb20ccf1f04c0901e6d5de6eb222b8a9e74692ae34f6f4618b0f0cc8b3/strawberry-graphql-0.99.2.tar.gz
+[2023-05-03 12:43:58] INFO root fetch - processPackages [netbox-plugin-dns]: Downloading https://files.pythonhosted.org/packages/7a/2b/c388ba7b717823687089bfff7e5bab3141f83020cb999189a86616e15de8/netbox_plugin_dns-0.18.0b1.tar.gz
+[2023-05-03 12:43:58] INFO root fetch - processPackages [frida-tools]: Downloading https://files.pythonhosted.org/packages/23/a5/de53e1703514a1b4e21489c6b9ecf7804bcc024254a2520ff855187789e1/frida-tools-9.2.4.tar.gz
+[2023-05-03 12:43:58] INFO root fetch - processPackages [idtrackerai]: Downloading https://files.pythonhosted.org/packages/77/5d/c711649a3908d59cc8459cf43d3fde84d4da8fd6603aa5295228be42e3d1/idtrackerai-5.1.2.tar.gz
+[2023-05-03 12:43:58] INFO root fetch - processPackages [open-aea-test-autonomy]: Downloading https://files.pythonhosted.org/packages/a0/6e/9c4d67ce36ee527c11b4a9025747f46b827bb71545592e7f3c4e627c3088/open-aea-test-autonomy-0.9.0.tar.gz
+[2023-05-03 12:43:58] INFO root fetch - processPackages [pyfem]: Downloading https://files.pythonhosted.org/packages/5c/82/7b0e42520f94a937c5fd29b19a7c86b1fe03e24e8a7096e71469b0945f27/pyfem-0.0.1.tar.gz
+[2023-05-03 12:43:58] INFO root fetch - processPackages [open-autonomy]: Downloading https://files.pythonhosted.org/packages/26/db/68ff36c112427aa8da36a891a4d5aabb3a68713130bb62425cb8bbdb402e/open-autonomy-0.9.0.tar.gz
+[2023-05-03 12:43:58] INFO root fetch - processPackages [databricks-sdk]: Downloading https://files.pythonhosted.org/packages/b8/29/2b9df8affca4ce0dbe43e25130705617a77eb114b6f6c78735ea693f3517/databricks_sdk-0.1.1-py3-none-any.whl
+[2023-05-03 12:43:58] INFO root fetch - processPackages [hitchstory]: Downloading https://files.pythonhosted.org/packages/30/26/45b9d9b30fe461c6b7e29402af44c5ce1e347d823b622649392152f60de8/hitchstory-0.9.1.tar.gz
+[2023-05-03 12:43:58] INFO root fetch - processPackages [netbox-plugin-dns]: Downloading https://files.pythonhosted.org/packages/5f/6b/9769b12df7fb2569e92e64aba6f02669e77bba5ec901245551554729b341/netbox_plugin_dns-0.18.0b5.tar.gz
+[2023-05-03 12:43:58] INFO root fetch - processPackages [frida-tools]: Downloading https://files.pythonhosted.org/packages/d8/c0/4d00f9e85b499bed8857971040e9a5b9e6f1a995fb3569d25984eaf5294c/frida-tools-9.2.5.tar.gz
+[2023-05-03 12:43:58] INFO root fetch - processPackages [strawberry-graphql]: Downloading https://files.pythonhosted.org/packages/e8/62/3a58fe3751e9dc961f72fbe825e32f12e9cd544dafd44bc5fdddb290b881/strawberry-graphql-0.99.3.tar.gz
+[2023-05-03 12:43:58] INFO root fetch - processPackages [hitchstory]: executing diffoscope
+[2023-05-03 12:43:58] INFO root fetch - processPackages [hitchstory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hitchstory-0.9.0.tar.gz tmp/hitchstory-0.9.1.tar.gz --markdown 20230503/h/hitchstory/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-03 12:43:58] INFO root fetch - processPackages [netbox-plugin-dns]: executing diffoscope
+[2023-05-03 12:43:58] INFO root fetch - processPackages [netbox-plugin-dns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox_plugin_dns-0.18.0b1.tar.gz tmp/netbox_plugin_dns-0.18.0b5.tar.gz --markdown 20230503/n/netbox-plugin-dns/0.18.0b1-0.18.0b5/diff.md --exclude *.pyd
+[2023-05-03 12:43:58] INFO root fetch - processPackages [databricks-sdk]: Downloading https://files.pythonhosted.org/packages/62/57/8eb9dee290f02146652e66e249ca5348b08162f753e08554aa0154de8faf/databricks_sdk-0.1.2-py3-none-any.whl
+[2023-05-03 12:43:58] INFO root fetch - processPackages [pyfem]: Downloading https://files.pythonhosted.org/packages/14/8e/968cccfaa23e23a770792a135e08c9651dcaf0ae56ad3a0cd4391a2bb0da/pyfem-0.0.2.tar.gz
+[2023-05-03 12:43:58] INFO root fetch - processPackages [regpredict]: Downloading https://files.pythonhosted.org/packages/f1/2d/99f43cff649258e263b708870c40897d0e236ed1fb5ad32bc7c7fde634ab/regpredict-0.0.9.tar.gz
+[2023-05-03 12:43:58] INFO root fetch - processPackages [pyfem]: executing diffoscope
+[2023-05-03 12:43:58] INFO root fetch - processPackages [pyfem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfem-0.0.1.tar.gz tmp/pyfem-0.0.2.tar.gz --markdown 20230503/p/pyfem/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-03 12:43:58] INFO root fetch - processPackages [databricks-sdk]: executing diffoscope
+[2023-05-03 12:43:58] INFO root fetch - processPackages [databricks-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databricks_sdk-0.1.1-py3-none-any.whl.zip tmp/databricks_sdk-0.1.2-py3-none-any.whl.zip --markdown 20230503/d/databricks-sdk/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-03 12:43:58] INFO root fetch - processPackages [frida-tools]: executing diffoscope
+[2023-05-03 12:43:58] INFO root fetch - processPackages [frida-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frida-tools-9.2.4.tar.gz tmp/frida-tools-9.2.5.tar.gz --markdown 20230503/f/frida-tools/9.2.4-9.2.5/diff.md --exclude *.pyd
+[2023-05-03 12:43:58] INFO root fetch - processPackages [open-aea-test-autonomy]: Downloading https://files.pythonhosted.org/packages/16/ed/042bfa918bbe47dbe3fb43f396481d4f74ef1a90ac067516913c9fc8c2b7/open-aea-test-autonomy-0.9.1.tar.gz
+[2023-05-03 12:43:58] INFO root fetch - processPackages [open-autonomy]: Downloading https://files.pythonhosted.org/packages/d2/14/e7bb8dec5be3ae2caf12a3a77abe5eb849912ee6ab113bbb753fb27c75bf/open-autonomy-0.9.1.tar.gz
+[2023-05-03 12:43:58] INFO root fetch - processPackages [open-aea-test-autonomy]: executing diffoscope
+[2023-05-03 12:43:58] INFO root fetch - processPackages [open-aea-test-autonomy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open-aea-test-autonomy-0.9.0.tar.gz tmp/open-aea-test-autonomy-0.9.1.tar.gz --markdown 20230503/o/open-aea-test-autonomy/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-03 12:43:59] INFO root fetch - processPackages [regpredict]: executing diffoscope
+[2023-05-03 12:43:59] INFO root fetch - processPackages [regpredict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/regpredict-0.0.8.tar.gz tmp/regpredict-0.0.9.tar.gz --markdown 20230503/r/regpredict/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 12:43:59] INFO root fetch - processPackages [strawberry-graphql]: executing diffoscope
+[2023-05-03 12:43:59] INFO root fetch - processPackages [strawberry-graphql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strawberry-graphql-0.99.2.tar.gz tmp/strawberry-graphql-0.99.3.tar.gz --markdown 20230503/s/strawberry-graphql/0.99.2-0.99.3/diff.md --exclude *.pyd
+[2023-05-03 12:43:59] INFO root fetch - processPackages [open-autonomy]: executing diffoscope
+[2023-05-03 12:43:59] INFO root fetch - processPackages [open-autonomy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open-autonomy-0.9.0.tar.gz tmp/open-autonomy-0.9.1.tar.gz --markdown 20230503/o/open-autonomy/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-03 12:43:59] INFO root fetch - processPackages [idtrackerai]: Downloading https://files.pythonhosted.org/packages/47/41/debe9c61049d8b4af5fca1eae6de1631c256e70318333fb591e435729488/idtrackerai-5.1.3.tar.gz
+[2023-05-03 12:43:59] INFO root fetch - processPackages [idtrackerai]: executing diffoscope
+[2023-05-03 12:43:59] INFO root fetch - processPackages [idtrackerai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idtrackerai-5.1.2.tar.gz tmp/idtrackerai-5.1.3.tar.gz --markdown 20230503/i/idtrackerai/5.1.2-5.1.3/diff.md --exclude *.pyd
+[2023-05-03 12:44:00] INFO root fetch - processPackages [hitchstory]: Start processing: sdkit
+[2023-05-03 12:44:00] INFO root fetch - main [MainThread]: End processing [hitchstory]: success
+[2023-05-03 12:44:00] INFO root fetch - processPackages [sdkit]: New version: [1.0.9] Old Version: [1.0.84]
+[2023-05-03 12:44:00] INFO root fetch - processPackages [databricks-sdk]: Start processing: airrship
+[2023-05-03 12:44:00] INFO root fetch - main [MainThread]: End processing [databricks-sdk]: success
+[2023-05-03 12:44:00] INFO root fetch - processPackages [airrship]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-03 12:44:00] INFO root fetch - processPackages [pyfem]: Start processing: extr-ds
+[2023-05-03 12:44:00] INFO root fetch - main [MainThread]: End processing [pyfem]: success
+[2023-05-03 12:44:00] INFO root fetch - main [MainThread]: End processing [open-aea-test-autonomy]: success
+[2023-05-03 12:44:00] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/76/38/b3b33fcba045566a7858e6105250c0d9c00c8520e53f30c05fea8b32865c/sdkit-1.0.84.tar.gz
+[2023-05-03 12:44:00] INFO root fetch - processPackages [extr-ds]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 12:44:00] INFO root fetch - main [MainThread]: End processing [regpredict]: success
+[2023-05-03 12:44:00] INFO root fetch - processPackages [extr-ds]: executing diffoscope
+[2023-05-03 12:44:00] INFO root fetch - processPackages [extr-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extr-ds-0.0.8.tar.gz tmp/extr-ds-0.0.9.tar.gz --markdown 20230503/e/extr-ds/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 12:44:00] INFO root fetch - processPackages [airrship]: Downloading https://files.pythonhosted.org/packages/34/82/64013caf338cd2586057edf9b456f6365b0b4e68ec1be5d45320ccb17db4/airrship-0.1.5.tar.gz
+[2023-05-03 12:44:00] INFO root fetch - main [MainThread]: End processing [frida-tools]: success
+[2023-05-03 12:44:01] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/b9/a9/05feb86839622b5b309a0677852dca34c39d0e0f0827e0180289f33d7e1b/sdkit-1.0.9.tar.gz
+[2023-05-03 12:44:01] INFO root fetch - main [MainThread]: End processing [netbox-plugin-dns]: success
+[2023-05-03 12:44:01] INFO root fetch - processPackages [airrship]: executing diffoscope
+[2023-05-03 12:44:01] INFO root fetch - processPackages [airrship]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airrship-0.1.4.tar.gz tmp/airrship-0.1.5.tar.gz --markdown 20230503/a/airrship/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-03 12:44:01] INFO root fetch - processPackages [sdkit]: executing diffoscope
+[2023-05-03 12:44:01] INFO root fetch - processPackages [sdkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkit-1.0.84.tar.gz tmp/sdkit-1.0.9.tar.gz --markdown 20230503/s/sdkit/1.0.84-1.0.9/diff.md --exclude *.pyd
+[2023-05-03 12:44:01] INFO root fetch - main [MainThread]: End processing [strawberry-graphql]: success
+[2023-05-03 12:44:01] INFO root fetch - main [MainThread]: End processing [extr-ds]: success
+[2023-05-03 12:44:02] INFO root fetch - main [MainThread]: End processing [sdkit]: success
+[2023-05-03 12:44:02] INFO root fetch - main [MainThread]: End processing [idtrackerai]: success
+[2023-05-03 12:44:02] INFO root fetch - main [MainThread]: End processing [airrship]: success
+[2023-05-03 12:44:13] INFO root fetch - main [MainThread]: End processing [open-autonomy]: success
+[2023-05-03 12:44:13] INFO root fetch - main [MainThread]: Store serial: [17955166]
