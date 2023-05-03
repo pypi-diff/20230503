@@ -8422,3 +8422,118 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-03 09:55:22] INFO root fetch - main [MainThread]: End processing [thinc]: success
 [2023-05-03 09:55:56] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-05-03 09:55:56] INFO root fetch - main [MainThread]: Store serial: [17952869]
+[2023-05-03 10:01:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17952869]
+[2023-05-03 10:01:05] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-03 10:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lighthouseweb3
+[2023-05-03 10:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-sale-customer-rank
+[2023-05-03 10:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gaia-lib
+[2023-05-03 10:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ASCE
+[2023-05-03 10:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyccl
+[2023-05-03 10:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gaia-lib
+[2023-05-03 10:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: volworld-aws-api-common
+[2023-05-03 10:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zero-3rdparty
+[2023-05-03 10:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: je-editor
+[2023-05-03 10:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: je-editor-dev
+[2023-05-03 10:01:06] INFO root fetch - processPackages [lighthouseweb3]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-03 10:01:06] WARNING root fetch - processPackages [ASCE]: Skipping, unable to determine old version
+[2023-05-03 10:01:06] INFO root fetch - processPackages [gaia-lib]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-03 10:01:06] WARNING root fetch - processPackages [odoo14-addon-sale-customer-rank]: Skipping, unable to determine old version
+[2023-05-03 10:01:06] INFO root fetch - processPackages [ASCE]: Start processing: model-lib
+[2023-05-03 10:01:06] INFO root fetch - main [MainThread]: End processing [ASCE] error
+[2023-05-03 10:01:06] INFO root fetch - processPackages [odoo14-addon-sale-customer-rank]: Start processing: docker-compose-parser
+[2023-05-03 10:01:06] INFO root fetch - processPackages [gaia-lib]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-03 10:01:06] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-customer-rank] error
+[2023-05-03 10:01:06] INFO root fetch - processPackages [zero-3rdparty]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 10:01:06] INFO root fetch - processPackages [pyccl]: New version: [2.7.0] Old Version: [2.6.1]
+[2023-05-03 10:01:06] INFO root fetch - processPackages [volworld-aws-api-common]: New version: [0.1.9] Old Version: [0.1.88]
+[2023-05-03 10:01:06] INFO root fetch - processPackages [model-lib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 10:01:06] INFO root fetch - processPackages [je-editor]: New version: [0.0.96] Old Version: [0.0.95]
+[2023-05-03 10:01:06] INFO root fetch - processPackages [je-editor-dev]: New version: [0.0.96] Old Version: [0.0.95]
+[2023-05-03 10:01:06] INFO root fetch - processPackages [docker-compose-parser]: New version: [0.0.14] Old Version: [0.0.13]
+[2023-05-03 10:01:06] INFO root fetch - processPackages [model-lib]: executing diffoscope
+[2023-05-03 10:01:06] INFO root fetch - processPackages [model-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_lib-0.0.8-py3-none-any.whl.zip tmp/model_lib-0.0.9-py3-none-any.whl.zip --markdown 20230503/m/model-lib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 10:01:06] INFO root fetch - processPackages [gaia-lib]: Downloading https://files.pythonhosted.org/packages/e9/e3/93f8c3698da50ba72d45b1b247f25259eaa88e990dca63decb938fea93be/gaia-lib-0.0.1.tar.gz
+[2023-05-03 10:01:06] INFO root fetch - processPackages [gaia-lib]: Downloading https://files.pythonhosted.org/packages/e9/e3/93f8c3698da50ba72d45b1b247f25259eaa88e990dca63decb938fea93be/gaia-lib-0.0.1.tar.gz
+[2023-05-03 10:01:06] INFO root fetch - processPackages [docker-compose-parser]: Downloading https://files.pythonhosted.org/packages/e4/7b/13bd21c9276eedaa5fd063ec0613d374459ed25c02f6bf4542205110dda1/docker_compose_parser-0.0.13-py3-none-any.whl
+[2023-05-03 10:01:06] INFO root fetch - processPackages [volworld-aws-api-common]: Downloading https://files.pythonhosted.org/packages/6b/04/4a0a69f8bcba0310d5be786275d70ac906ab298d18cec8a38f909bf30db0/volworld_aws_api_common-0.1.88.tar.gz
+[2023-05-03 10:01:06] INFO root fetch - processPackages [je-editor]: Downloading https://files.pythonhosted.org/packages/6f/51/c939a3fc88eb82a7887ec4097f29fe1550f5878b062da431354090ee54ae/je_editor-0.0.96.tar.gz
+[2023-05-03 10:01:06] INFO root fetch - processPackages [pyccl]: Downloading https://files.pythonhosted.org/packages/e4/1e/c8db8b4c21d2b6fe8850b2ec0928107eeb109f7039564764431794d92c13/pyccl-2.6.1.tar.gz
+[2023-05-03 10:01:06] INFO root fetch - processPackages [zero-3rdparty]: executing diffoscope
+[2023-05-03 10:01:06] INFO root fetch - processPackages [zero-3rdparty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zero_3rdparty-0.0.8-py3-none-any.whl.zip tmp/zero_3rdparty-0.0.9-py3-none-any.whl.zip --markdown 20230503/z/zero-3rdparty/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 10:01:06] INFO root fetch - processPackages [lighthouseweb3]: Downloading https://files.pythonhosted.org/packages/22/76/dc4a6d3755587f4d18eb5e1e04fb3a42402c1b28cba765301cf708e176a7/lighthouseweb3-0.1.1.tar.gz
+[2023-05-03 10:01:06] INFO root fetch - processPackages [je-editor-dev]: Downloading https://files.pythonhosted.org/packages/ff/84/4db028c5e88c8710d625986694d27af7af75ef6dbc35ab8c7c3bfc0ab116/je_editor_dev-0.0.96.tar.gz
+[2023-05-03 10:01:06] WARNING root fetch - processPackages [pyccl]: Skipping package: exceeds size limit 12570508>=10485760
+[2023-05-03 10:01:06] INFO root fetch - processPackages [pyccl]: Start processing: pants-py-deploy
+[2023-05-03 10:01:06] INFO root fetch - main [MainThread]: End processing [pyccl] error
+[2023-05-03 10:01:06] INFO root fetch - processPackages [pants-py-deploy]: New version: [0.0.14] Old Version: [0.0.13]
+[2023-05-03 10:01:06] INFO root fetch - processPackages [gaia-lib]: Downloading https://files.pythonhosted.org/packages/d3/6d/0c64fdfcbe9053767d138f355fe3edb4481a65727b286ac9cf3b781d425a/gaia-lib-0.0.2.tar.gz
+[2023-05-03 10:01:06] INFO root fetch - processPackages [gaia-lib]: Downloading https://files.pythonhosted.org/packages/d3/6d/0c64fdfcbe9053767d138f355fe3edb4481a65727b286ac9cf3b781d425a/gaia-lib-0.0.2.tar.gz
+[2023-05-03 10:01:06] INFO root fetch - processPackages [docker-compose-parser]: Downloading https://files.pythonhosted.org/packages/c8/a3/cc7836fab4c177a135a3c9dde32ad4b6344df2eea1caf666fbe3f93971e2/docker_compose_parser-0.0.14-py3-none-any.whl
+[2023-05-03 10:01:06] INFO root fetch - processPackages [je-editor]: executing diffoscope
+[2023-05-03 10:01:06] INFO root fetch - processPackages [je-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor-0.0.95.tar.gz tmp/je_editor-0.0.96.tar.gz --markdown 20230503/j/je-editor/0.0.95-0.0.96/diff.md --exclude *.pyd
+[2023-05-03 10:01:06] INFO root fetch - processPackages [volworld-aws-api-common]: executing diffoscope
+[2023-05-03 10:01:06] INFO root fetch - processPackages [volworld-aws-api-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volworld_aws_api_common-0.1.88.tar.gz tmp/volworld_aws_api_common-0.1.9.tar.gz --markdown 20230503/v/volworld-aws-api-common/0.1.88-0.1.9/diff.md --exclude *.pyd
+[2023-05-03 10:01:06] INFO root fetch - processPackages [lighthouseweb3]: executing diffoscope
+[2023-05-03 10:01:06] INFO root fetch - processPackages [lighthouseweb3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lighthouseweb3-0.1.0.tar.gz tmp/lighthouseweb3-0.1.1.tar.gz --markdown 20230503/l/lighthouseweb3/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-03 10:01:06] INFO root fetch - processPackages [je-editor-dev]: executing diffoscope
+[2023-05-03 10:01:06] INFO root fetch - processPackages [je-editor-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor_dev-0.0.95.tar.gz tmp/je_editor_dev-0.0.96.tar.gz --markdown 20230503/j/je-editor-dev/0.0.95-0.0.96/diff.md --exclude *.pyd
+[2023-05-03 10:01:06] INFO root fetch - processPackages [docker-compose-parser]: executing diffoscope
+[2023-05-03 10:01:06] INFO root fetch - processPackages [docker-compose-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docker_compose_parser-0.0.13-py3-none-any.whl.zip tmp/docker_compose_parser-0.0.14-py3-none-any.whl.zip --markdown 20230503/d/docker-compose-parser/0.0.13-0.0.14/diff.md --exclude *.pyd
+[2023-05-03 10:01:06] INFO root fetch - processPackages [pants-py-deploy]: Downloading https://files.pythonhosted.org/packages/0b/9b/3cd7b38c007aa85b20669557d24480855f6a2e354b004942f58703390f04/pants_py_deploy-0.0.14-py3-none-any.whl
+[2023-05-03 10:01:06] INFO root fetch - processPackages [gaia-lib]: executing diffoscope
+[2023-05-03 10:01:06] INFO root fetch - processPackages [gaia-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaia-lib-0.0.1.tar.gz tmp/gaia-lib-0.0.2.tar.gz --markdown 20230503/g/gaia-lib/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-03 10:01:06] INFO root fetch - processPackages [gaia-lib]: executing diffoscope
+[2023-05-03 10:01:06] INFO root fetch - processPackages [gaia-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaia-lib-0.0.1.tar.gz tmp/gaia-lib-0.0.2.tar.gz --markdown 20230503/g/gaia-lib/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-03 10:01:06] INFO root fetch - processPackages [pants-py-deploy]: executing diffoscope
+[2023-05-03 10:01:06] INFO root fetch - processPackages [pants-py-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pants_py_deploy-0.0.13-py3-none-any.whl.zip tmp/pants_py_deploy-0.0.14-py3-none-any.whl.zip --markdown 20230503/p/pants-py-deploy/0.0.13-0.0.14/diff.md --exclude *.pyd
+[2023-05-03 10:01:07] INFO root fetch - processPackages [zero-3rdparty]: Start processing: ondewo-s2t-client
+[2023-05-03 10:01:07] INFO root fetch - main [MainThread]: End processing [zero-3rdparty]: success
+[2023-05-03 10:01:07] INFO root fetch - processPackages [ondewo-s2t-client]: New version: [5.4.0] Old Version: [5.3.0]
+[2023-05-03 10:01:07] INFO root fetch - processPackages [model-lib]: Start processing: odoo-addon-l10n-es-aeat-mod111
+[2023-05-03 10:01:07] INFO root fetch - main [MainThread]: End processing [model-lib]: success
+[2023-05-03 10:01:07] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod111]: New version: [16.0.1.0.0.2] Old Version: [15.0.2.0.0.2]
+[2023-05-03 10:01:08] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod111]: Downloading https://files.pythonhosted.org/packages/9a/b8/295350db7a787101ab8ae032588feead5e84726bd3d8e10efd386ad916a4/odoo_addon_l10n_es_aeat_mod111-15.0.2.0.0.2-py3-none-any.whl
+[2023-05-03 10:01:08] INFO root fetch - processPackages [ondewo-s2t-client]: Downloading https://files.pythonhosted.org/packages/72/a4/bde5753cc7ac2773fd2be0f0527bd178ddd1f63cce28ea04c20f6d0d0c50/ondewo-s2t-client-5.4.0.tar.gz
+[2023-05-03 10:01:08] INFO root fetch - processPackages [docker-compose-parser]: Start processing: modoboa
+[2023-05-03 10:01:08] INFO root fetch - main [MainThread]: End processing [docker-compose-parser]: success
+[2023-05-03 10:01:08] INFO root fetch - processPackages [modoboa]: New version: [2.1.3.dev0] Old Version: [2.1.2.dev0]
+[2023-05-03 10:01:08] INFO root fetch - processPackages [ondewo-s2t-client]: executing diffoscope
+[2023-05-03 10:01:08] INFO root fetch - processPackages [ondewo-s2t-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ondewo-s2t-client-5.3.0.tar.gz tmp/ondewo-s2t-client-5.4.0.tar.gz --markdown 20230503/o/ondewo-s2t-client/5.3.0-5.4.0/diff.md --exclude *.pyd
+[2023-05-03 10:01:08] INFO root fetch - processPackages [je-editor]: Start processing: dbt-athena-community
+[2023-05-03 10:01:08] INFO root fetch - main [MainThread]: End processing [je-editor]: success
+[2023-05-03 10:01:08] INFO root fetch - processPackages [dbt-athena-community]: New version: [1.4.4] Old Version: [1.4.3]
+[2023-05-03 10:01:08] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod111]: Downloading https://files.pythonhosted.org/packages/4f/14/2c4ed900171b745aa01ff62083b59d522d860937a15e2e7e1209fa040645/odoo_addon_l10n_es_aeat_mod111-16.0.1.0.0.2-py3-none-any.whl
+[2023-05-03 10:01:08] INFO root fetch - processPackages [modoboa]: Downloading https://files.pythonhosted.org/packages/88/64/2b146a0105816c837d201760902c06170d85260a1d0ab297dbdb7cae189e/modoboa-2.1.2.dev0.tar.gz
+[2023-05-03 10:01:08] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod111]: executing diffoscope
+[2023-05-03 10:01:08] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod111]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_mod111-15.0.2.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_mod111-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230503/o/odoo-addon-l10n-es-aeat-mod111/15.0.2.0.0.2-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-05-03 10:01:08] INFO root fetch - processPackages [volworld-aws-api-common]: Start processing: sanskarinfo
+[2023-05-03 10:01:08] INFO root fetch - main [MainThread]: End processing [volworld-aws-api-common]: success
+[2023-05-03 10:01:08] INFO root fetch - processPackages [pants-py-deploy]: Start processing: nashbanksync
+[2023-05-03 10:01:08] INFO root fetch - main [MainThread]: End processing [pants-py-deploy]: success
+[2023-05-03 10:01:08] INFO root fetch - processPackages [lighthouseweb3]: Start processing: tobiko
+[2023-05-03 10:01:08] INFO root fetch - main [MainThread]: End processing [lighthouseweb3]: success
+[2023-05-03 10:01:08] INFO root fetch - processPackages [dbt-athena-community]: Downloading https://files.pythonhosted.org/packages/41/7b/04a88cda03351a501d9d11cb83eb93de9198e3986bddbd6922df41b45d60/dbt-athena-community-1.4.3.tar.gz
+[2023-05-03 10:01:08] INFO root fetch - processPackages [nashbanksync]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-03 10:01:08] WARNING root fetch - processPackages [modoboa]: Skipping package: exceeds size limit 11884233>=10485760
+[2023-05-03 10:01:08] INFO root fetch - main [MainThread]: End processing [modoboa] error
+[2023-05-03 10:01:08] WARNING root fetch - processPackages [sanskarinfo]: Skipping, unable to determine old version
+[2023-05-03 10:01:08] INFO root fetch - main [MainThread]: End processing [sanskarinfo] error
+[2023-05-03 10:01:08] INFO root fetch - processPackages [tobiko]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-05-03 10:01:08] INFO root fetch - processPackages [nashbanksync]: executing diffoscope
+[2023-05-03 10:01:08] INFO root fetch - processPackages [nashbanksync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nashbanksync-0.1.8.tar.gz tmp/nashbanksync-0.1.9.tar.gz --markdown 20230503/n/nashbanksync/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-03 10:01:08] INFO root fetch - processPackages [dbt-athena-community]: Downloading https://files.pythonhosted.org/packages/0e/36/17f53d82ad7bdeec285353a2de1f5fdef8db24c910052f5367f160ce1709/dbt-athena-community-1.4.4.tar.gz
+[2023-05-03 10:01:08] INFO root fetch - processPackages [tobiko]: Downloading https://files.pythonhosted.org/packages/be/fb/e23dccc53e79193fad6f2fcfbc00b6af424cc18f71375544230edbbd3429/tobiko-0.6.8.tar.gz
+[2023-05-03 10:01:08] INFO root fetch - main [MainThread]: End processing [je-editor-dev]: success
+[2023-05-03 10:01:08] INFO root fetch - processPackages [dbt-athena-community]: executing diffoscope
+[2023-05-03 10:01:08] INFO root fetch - processPackages [dbt-athena-community]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-athena-community-1.4.3.tar.gz tmp/dbt-athena-community-1.4.4.tar.gz --markdown 20230503/d/dbt-athena-community/1.4.3-1.4.4/diff.md --exclude *.pyd
+[2023-05-03 10:01:09] INFO root fetch - processPackages [tobiko]: Downloading https://files.pythonhosted.org/packages/99/3b/3ec8126c69bc585bc0da43591c1101aa35555f83db98a807e52dc7f1965e/tobiko-0.6.9.tar.gz
+[2023-05-03 10:01:09] INFO root fetch - main [MainThread]: End processing [gaia-lib]: success
+[2023-05-03 10:01:09] INFO root fetch - main [MainThread]: End processing [gaia-lib]: success
+[2023-05-03 10:01:09] INFO root fetch - processPackages [tobiko]: executing diffoscope
+[2023-05-03 10:01:09] INFO root fetch - processPackages [tobiko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tobiko-0.6.8.tar.gz tmp/tobiko-0.6.9.tar.gz --markdown 20230503/t/tobiko/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-05-03 10:01:10] INFO root fetch - main [MainThread]: End processing [ondewo-s2t-client]: success
+[2023-05-03 10:01:10] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-mod111]: success
+[2023-05-03 10:01:10] INFO root fetch - main [MainThread]: End processing [dbt-athena-community]: success
+[2023-05-03 10:01:10] INFO root fetch - main [MainThread]: End processing [nashbanksync]: success
+[2023-05-03 10:01:16] INFO root fetch - main [MainThread]: End processing [tobiko]: success
+[2023-05-03 10:01:16] INFO root fetch - main [MainThread]: Store serial: [17952948]
