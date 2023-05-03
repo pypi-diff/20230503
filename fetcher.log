@@ -7708,3 +7708,68 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-03 09:01:24] INFO root fetch - main [MainThread]: End processing [constellate]: success
 [2023-05-03 09:02:02] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-05-03 09:02:02] INFO root fetch - main [MainThread]: Store serial: [17952400]
+[2023-05-03 09:07:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17952400]
+[2023-05-03 09:07:12] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-03 09:07:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: q-random-number-generator
+[2023-05-03 09:07:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-models-nightly
+[2023-05-03 09:07:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: seqio-nightly
+[2023-05-03 09:07:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ddparo
+[2023-05-03 09:07:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tl-typewriter
+[2023-05-03 09:07:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: commonroad-crime
+[2023-05-03 09:07:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ddparo
+[2023-05-03 09:07:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyella
+[2023-05-03 09:07:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jaco2
+[2023-05-03 09:07:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: citros
+[2023-05-03 09:07:12] INFO root fetch - processPackages [ddparo]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-05-03 09:07:12] INFO root fetch - processPackages [q-random-number-generator]: New version: [0.1.0] Old Version: [0.0.7]
+[2023-05-03 09:07:12] INFO root fetch - processPackages [commonroad-crime]: New version: [0.2.2] Old Version: [0.2.0]
+[2023-05-03 09:07:12] INFO root fetch - processPackages [tl-typewriter]: New version: [0.2] Old Version: [0.1.9]
+[2023-05-03 09:07:12] INFO root fetch - processPackages [pyella]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-05-03 09:07:12] INFO root fetch - processPackages [jaco2]: New version: [4.5] Old Version: [4.4]
+[2023-05-03 09:07:12] INFO root fetch - processPackages [ddparo]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-05-03 09:07:12] INFO root fetch - processPackages [citros]: New version: [23.17.9] Old Version: [23.17.8]
+[2023-05-03 09:07:12] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2023-05-03 09:07:12] INFO root fetch - processPackages [citros]: executing diffoscope
+[2023-05-03 09:07:12] INFO root fetch - processPackages [citros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citros-23.17.8.tar.gz tmp/citros-23.17.9.tar.gz --markdown 20230503/c/citros/23.17.8-23.17.9/diff.md --exclude *.pyd
+[2023-05-03 09:07:12] INFO root fetch - processPackages [ddparo]: Downloading https://files.pythonhosted.org/packages/32/78/45b913e1ccd5af30413109053168574de8254321579c0ffa38b82d97ff5f/ddparo-0.4.0.tar.gz
+[2023-05-03 09:07:12] INFO root fetch - processPackages [tf-models-nightly]: New version: [2.9.0.dev20220920] Old Version: [2.9.0.dev20220919]
+[2023-05-03 09:07:12] INFO root fetch - processPackages [ddparo]: Downloading https://files.pythonhosted.org/packages/32/78/45b913e1ccd5af30413109053168574de8254321579c0ffa38b82d97ff5f/ddparo-0.4.0.tar.gz
+[2023-05-03 09:07:12] INFO root fetch - processPackages [q-random-number-generator]: Downloading https://files.pythonhosted.org/packages/aa/20/0d4cdcdab21f9aae8c9f97c001c59687d53329aa5476eb9b2f47dde651b8/q_random_number_generator-0.0.7.tar.gz
+[2023-05-03 09:07:13] INFO root fetch - processPackages [tl-typewriter]: Downloading https://files.pythonhosted.org/packages/8e/5c/0ccbc8f467b8c1f4bdf773c261caf25848e69a2adea9ede684db2296ee56/tl_typewriter-0.1.9.tar.gz
+[2023-05-03 09:07:13] INFO root fetch - processPackages [commonroad-crime]: Downloading https://files.pythonhosted.org/packages/a9/06/25776d5c256c16bb32c93b610adf0915db14ce076c541596699a564080a7/commonroad-crime-0.2.2.tar.gz
+[2023-05-03 09:07:13] INFO root fetch - processPackages [jaco2]: Downloading https://files.pythonhosted.org/packages/d7/bc/9a98a748332daf0dd07c3d6c8dc8ec9d3a1cf005d4ef29c1279610c116b3/jaco2-4.4-cp311-cp311-win_amd64.whl
+[2023-05-03 09:07:13] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2023-05-03 09:07:13] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20230503/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/diff.md --exclude *.pyd
+[2023-05-03 09:07:13] INFO root fetch - processPackages [commonroad-crime]: executing diffoscope
+[2023-05-03 09:07:13] INFO root fetch - processPackages [commonroad-crime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commonroad-crime-0.2.0.tar.gz tmp/commonroad-crime-0.2.2.tar.gz --markdown 20230503/c/commonroad-crime/0.2.0-0.2.2/diff.md --exclude *.pyd
+[2023-05-03 09:07:13] INFO root fetch - processPackages [ddparo]: Downloading https://files.pythonhosted.org/packages/84/c0/d98d9b25a05885f8fa4e47fc3101e05a5aa6616bb670be743ae43de56bbc/ddparo-0.5.0.tar.gz
+[2023-05-03 09:07:13] INFO root fetch - processPackages [ddparo]: Downloading https://files.pythonhosted.org/packages/84/c0/d98d9b25a05885f8fa4e47fc3101e05a5aa6616bb670be743ae43de56bbc/ddparo-0.5.0.tar.gz
+[2023-05-03 09:07:13] INFO root fetch - processPackages [q-random-number-generator]: Downloading https://files.pythonhosted.org/packages/05/ed/cf0ab60eaa33b5ee7f3f2d0b8d5e362534b2c13ad0f35ec40abc9c302fad/q_random_number_generator-0.1.0.tar.gz
+[2023-05-03 09:07:13] INFO root fetch - processPackages [ddparo]: executing diffoscope
+[2023-05-03 09:07:13] INFO root fetch - processPackages [ddparo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddparo-0.4.0.tar.gz tmp/ddparo-0.5.0.tar.gz --markdown 20230503/d/ddparo/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-05-03 09:07:13] INFO root fetch - processPackages [ddparo]: executing diffoscope
+[2023-05-03 09:07:13] INFO root fetch - processPackages [ddparo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddparo-0.4.0.tar.gz tmp/ddparo-0.5.0.tar.gz --markdown 20230503/d/ddparo/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-05-03 09:07:13] INFO root fetch - processPackages [pyella]: Downloading https://files.pythonhosted.org/packages/83/74/1e6fd9fefbfa2bb780de0ae14ce8c743a50682d9dc9d55b07a4ea9c8f927/pyella-1.4.0.tar.gz
+[2023-05-03 09:07:13] INFO root fetch - processPackages [q-random-number-generator]: executing diffoscope
+[2023-05-03 09:07:13] INFO root fetch - processPackages [q-random-number-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/q_random_number_generator-0.0.7.tar.gz tmp/q_random_number_generator-0.1.0.tar.gz --markdown 20230503/q/q-random-number-generator/0.0.7-0.1.0/diff.md --exclude *.pyd
+[2023-05-03 09:07:13] INFO root fetch - processPackages [jaco2]: Downloading https://files.pythonhosted.org/packages/02/2c/227cef1c081a4bf318818efb40ca5214870e572e0a212bfeaa4d27f4f84d/jaco2-4.5-cp311-cp311-win_amd64.whl
+[2023-05-03 09:07:13] INFO root fetch - processPackages [pyella]: executing diffoscope
+[2023-05-03 09:07:13] INFO root fetch - processPackages [pyella]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyella-1.3.0.tar.gz tmp/pyella-1.4.0.tar.gz --markdown 20230503/p/pyella/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-05-03 09:07:13] INFO root fetch - processPackages [tl-typewriter]: Downloading https://files.pythonhosted.org/packages/1c/8b/4d562a7fdee6408e4036ea402a17802ba58a10a3ca9a6935056b926eb374/tl_typewriter-0.2.tar.gz
+[2023-05-03 09:07:13] INFO root fetch - processPackages [jaco2]: executing diffoscope
+[2023-05-03 09:07:13] INFO root fetch - processPackages [jaco2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaco2-4.4-cp311-cp311-win_amd64.whl.zip tmp/jaco2-4.5-cp311-cp311-win_amd64.whl.zip --markdown 20230503/j/jaco2/4.4-4.5/diff.md --exclude *.pyd
+[2023-05-03 09:07:13] INFO root fetch - processPackages [tl-typewriter]: executing diffoscope
+[2023-05-03 09:07:13] INFO root fetch - processPackages [tl-typewriter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tl_typewriter-0.1.9.tar.gz tmp/tl_typewriter-0.2.tar.gz --markdown 20230503/t/tl-typewriter/0.1.9-0.2/diff.md --exclude *.pyd
+[2023-05-03 09:07:13] INFO root fetch - processPackages [tf-models-nightly]: executing diffoscope
+[2023-05-03 09:07:13] INFO root fetch - processPackages [tf-models-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl.zip tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip --markdown 20230503/t/tf-models-nightly/2.9.0.dev20220919-2.9.0.dev20220920/diff.md --exclude *.pyd
+[2023-05-03 09:07:14] INFO root fetch - main [MainThread]: End processing [citros]: success
+[2023-05-03 09:07:14] INFO root fetch - main [MainThread]: End processing [ddparo]: success
+[2023-05-03 09:07:14] INFO root fetch - main [MainThread]: End processing [ddparo]: success
+[2023-05-03 09:07:15] INFO root fetch - main [MainThread]: End processing [tl-typewriter]: success
+[2023-05-03 09:07:15] INFO root fetch - main [MainThread]: End processing [q-random-number-generator]: success
+[2023-05-03 09:07:15] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2023-05-03 09:07:15] INFO root fetch - main [MainThread]: End processing [pyella]: success
+[2023-05-03 09:07:16] INFO root fetch - main [MainThread]: End processing [jaco2]: success
+[2023-05-03 09:07:16] INFO root fetch - main [MainThread]: End processing [commonroad-crime]: success
+[2023-05-03 09:07:28] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
+[2023-05-03 09:07:28] INFO root fetch - main [MainThread]: Store serial: [17952433]
