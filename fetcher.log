@@ -7773,3 +7773,52 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-03 09:07:16] INFO root fetch - main [MainThread]: End processing [commonroad-crime]: success
 [2023-05-03 09:07:28] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
 [2023-05-03 09:07:28] INFO root fetch - main [MainThread]: Store serial: [17952433]
+[2023-05-03 09:12:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17952433]
+[2023-05-03 09:12:39] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-03 09:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chatapi-translate
+[2023-05-03 09:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: polymatica-api
+[2023-05-03 09:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-05-03 09:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: paper-qa
+[2023-05-03 09:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lisf
+[2023-05-03 09:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bivalve
+[2023-05-03 09:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nashbanksync
+[2023-05-03 09:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: permmod
+[2023-05-03 09:12:39] INFO root fetch - processPackages [polymatica-api]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-03 09:12:39] INFO root fetch - processPackages [bivalve]: New version: [0.2] Old Version: [0.1]
+[2023-05-03 09:12:39] INFO root fetch - processPackages [lisf]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-03 09:12:39] WARNING root fetch - processPackages [chatapi-translate]: Skipping, unable to determine old version
+[2023-05-03 09:12:39] INFO root fetch - processPackages [paper-qa]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-05-03 09:12:39] INFO root fetch - main [MainThread]: End processing [chatapi-translate] error
+[2023-05-03 09:12:39] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-03 09:12:39] INFO root fetch - processPackages [permmod]: New version: [0.2] Old Version: [0.1]
+[2023-05-03 09:12:39] INFO root fetch - processPackages [nashbanksync]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-03 09:12:39] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-05-03 09:12:39] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230503/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-03 09:12:39] INFO root fetch - processPackages [lisf]: Downloading https://files.pythonhosted.org/packages/80/33/4f08743bfb74d830a395a1c102802e4dda18e8a4a486b1becbb07a344650/lisf-0.1.3.tar.gz
+[2023-05-03 09:12:39] INFO root fetch - processPackages [bivalve]: Downloading https://files.pythonhosted.org/packages/4b/36/11808b99563bb07dd03161d3d5574f6999edf420aef8ed420a40962fc9e5/bivalve-0.1.tar.gz
+[2023-05-03 09:12:39] INFO root fetch - processPackages [polymatica-api]: Downloading https://files.pythonhosted.org/packages/db/a2/c48d89b66edde602819cdf607f6b4104505198776da08660906e1fc88fa6/polymatica_api-0.0.7.tar.gz
+[2023-05-03 09:12:39] INFO root fetch - processPackages [permmod]: Downloading https://files.pythonhosted.org/packages/79/6f/db1f0355ffed51846b257253dd058d3c80b1645ce919577d080b305b0ea6/permmod-0.1.tar.gz
+[2023-05-03 09:12:39] INFO root fetch - processPackages [polymatica-api]: executing diffoscope
+[2023-05-03 09:12:39] INFO root fetch - processPackages [polymatica-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polymatica_api-0.0.6.tar.gz tmp/polymatica_api-0.0.7.tar.gz --markdown 20230503/p/polymatica-api/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-03 09:12:39] INFO root fetch - processPackages [paper-qa]: Downloading https://files.pythonhosted.org/packages/2d/8e/7c564aa9bada3418249ceb673092f66db596ca47eb905d41530154f11c80/paper-qa-1.4.0.tar.gz
+[2023-05-03 09:12:39] INFO root fetch - processPackages [lisf]: Downloading https://files.pythonhosted.org/packages/58/d9/84faf79ce8ee9bf6a8dbe8395c6ccc85a4ca7781580d8ee8b7474479a5f5/lisf-0.1.4.tar.gz
+[2023-05-03 09:12:39] INFO root fetch - processPackages [paper-qa]: executing diffoscope
+[2023-05-03 09:12:39] INFO root fetch - processPackages [paper-qa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paper-qa-1.3.0.tar.gz tmp/paper-qa-1.4.0.tar.gz --markdown 20230503/p/paper-qa/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-05-03 09:12:39] INFO root fetch - processPackages [lisf]: executing diffoscope
+[2023-05-03 09:12:39] INFO root fetch - processPackages [lisf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lisf-0.1.3.tar.gz tmp/lisf-0.1.4.tar.gz --markdown 20230503/l/lisf/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-03 09:12:39] INFO root fetch - processPackages [nashbanksync]: executing diffoscope
+[2023-05-03 09:12:39] INFO root fetch - processPackages [nashbanksync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nashbanksync-0.1.8.tar.gz tmp/nashbanksync-0.1.9.tar.gz --markdown 20230503/n/nashbanksync/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-03 09:12:39] INFO root fetch - processPackages [bivalve]: Downloading https://files.pythonhosted.org/packages/09/d6/96ca297e0bcf87774b14b4766b5925a8a0f9ff8d7ad8518d4a683cc0fb39/bivalve-0.2.tar.gz
+[2023-05-03 09:12:40] INFO root fetch - processPackages [permmod]: Downloading https://files.pythonhosted.org/packages/1a/67/6c92eec7dc77c2725f132b79810c2801550a11546c621fc5f7d895dd22d0/permmod-0.2.tar.gz
+[2023-05-03 09:12:40] INFO root fetch - processPackages [bivalve]: executing diffoscope
+[2023-05-03 09:12:40] INFO root fetch - processPackages [bivalve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bivalve-0.1.tar.gz tmp/bivalve-0.2.tar.gz --markdown 20230503/b/bivalve/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-03 09:12:40] INFO root fetch - processPackages [permmod]: executing diffoscope
+[2023-05-03 09:12:40] INFO root fetch - processPackages [permmod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/permmod-0.1.tar.gz tmp/permmod-0.2.tar.gz --markdown 20230503/p/permmod/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-03 09:12:40] INFO root fetch - main [MainThread]: End processing [polymatica-api]: success
+[2023-05-03 09:12:41] INFO root fetch - main [MainThread]: End processing [lisf]: success
+[2023-05-03 09:12:41] INFO root fetch - main [MainThread]: End processing [paper-qa]: success
+[2023-05-03 09:12:41] INFO root fetch - main [MainThread]: End processing [nashbanksync]: success
+[2023-05-03 09:12:41] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-05-03 09:12:41] INFO root fetch - main [MainThread]: End processing [permmod]: success
+[2023-05-03 09:12:41] INFO root fetch - main [MainThread]: End processing [bivalve]: success
+[2023-05-03 09:12:41] INFO root fetch - main [MainThread]: Store serial: [17952456]
