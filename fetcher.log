@@ -11836,3 +11836,118 @@ No space left on device. Diffoscope exiting.
 [2023-05-03 11:54:15] INFO root fetch - main [MainThread]: End processing [bycon]: success
 [2023-05-03 11:54:32] INFO root fetch - main [MainThread]: End processing [Geode-Simplex]: success
 [2023-05-03 11:54:32] INFO root fetch - main [MainThread]: Store serial: [17954549]
+[2023-05-03 11:59:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17954549]
+[2023-05-03 11:59:57] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-03 11:59:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: syamaguc
+[2023-05-03 11:59:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: certora-cli-alpha-dominik-debug-of-mus-tests
+[2023-05-03 11:59:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ghastoolkit
+[2023-05-03 11:59:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Geode-Viewables
+[2023-05-03 11:59:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: proteus-runtime
+[2023-05-03 11:59:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hmp-utils
+[2023-05-03 11:59:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: skill-sdk
+[2023-05-03 11:59:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: extr-ds
+[2023-05-03 11:59:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xia-scw-instance
+[2023-05-03 11:59:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mepe
+[2023-05-03 11:59:58] WARNING root fetch - processPackages [hmp-utils]: Skipping, unable to determine old version
+[2023-05-03 11:59:58] INFO root fetch - processPackages [hmp-utils]: Start processing: spotPython
+[2023-05-03 11:59:58] INFO root fetch - main [MainThread]: End processing [hmp-utils] error
+[2023-05-03 11:59:58] INFO root fetch - processPackages [Geode-Viewables]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-05-03 11:59:58] INFO root fetch - processPackages [certora-cli-alpha-dominik-debug-of-mus-tests]: New version: [20230503.9.54.550795] Old Version: [20230502.14.44.961700]
+[2023-05-03 11:59:58] INFO root fetch - processPackages [syamaguc]: New version: [0.1.0.post2305030954] Old Version: [0.1.0.post2305030943]
+[2023-05-03 11:59:58] INFO root fetch - processPackages [ghastoolkit]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-03 11:59:58] INFO root fetch - processPackages [proteus-runtime]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-03 11:59:58] INFO root fetch - processPackages [skill-sdk]: New version: [2.1] Old Version: [2.0b3]
+[2023-05-03 11:59:58] INFO root fetch - processPackages [mepe]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-03 11:59:58] INFO root fetch - processPackages [extr-ds]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 11:59:58] INFO root fetch - processPackages [ghastoolkit]: Downloading https://files.pythonhosted.org/packages/49/d0/6814d5bb413f3e7f3aae8b0bc91add19e08105197c262fec1cf01379db57/ghastoolkit-0.1.8.tar.gz
+[2023-05-03 11:59:58] INFO root fetch - processPackages [spotPython]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 11:59:58] INFO root fetch - processPackages [extr-ds]: executing diffoscope
+[2023-05-03 11:59:58] INFO root fetch - processPackages [extr-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extr-ds-0.0.8.tar.gz tmp/extr-ds-0.0.9.tar.gz --markdown 20230503/e/extr-ds/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 11:59:58] INFO root fetch - processPackages [xia-scw-instance]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 11:59:58] INFO root fetch - processPackages [mepe]: executing diffoscope
+[2023-05-03 11:59:58] INFO root fetch - processPackages [mepe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mepe-0.1.3.tar.gz tmp/mepe-0.1.4.tar.gz --markdown 20230503/m/mepe/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-03 11:59:58] INFO root fetch - processPackages [certora-cli-alpha-dominik-debug-of-mus-tests]: Downloading https://files.pythonhosted.org/packages/3d/16/46267f0b97cf627b0f93391ef7ba6d2390efc7bb122f3cb2af2ba0d6ad5a/certora-cli-alpha-dominik-debug_of_mus_tests-20230502.14.44.961700.tar.gz
+[2023-05-03 11:59:58] WARNING root fetch - processPackages [certora-cli-alpha-dominik-debug-of-mus-tests]: Skipping package: exceeds size limit 38364523>=10485760
+[2023-05-03 11:59:58] INFO root fetch - processPackages [certora-cli-alpha-dominik-debug-of-mus-tests]: Start processing: elevenlabs
+[2023-05-03 11:59:58] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-dominik-debug-of-mus-tests] error
+[2023-05-03 11:59:58] INFO root fetch - processPackages [proteus-runtime]: Downloading https://files.pythonhosted.org/packages/93/28/d72c4aaa19ca486949e4b0f1d446ebd45eed9dd84cc961a9be9069a56491/proteus_runtime-0.2.8.tar.gz
+[2023-05-03 11:59:58] INFO root fetch - processPackages [Geode-Viewables]: Downloading https://files.pythonhosted.org/packages/e0/e7/932f3475648d979e3c8b8f799e61c7ad825459f21d12b760b176e6ae3cc7/Geode_Viewables-2.0.1-cp39-cp39-win_amd64.whl
+[2023-05-03 11:59:58] INFO root fetch - processPackages [skill-sdk]: Downloading https://files.pythonhosted.org/packages/77/93/ad868c99da93c4b5a32458b6a8793f7105d28079d93a9a9d61e2c7aa3834/skill-sdk-2.0b3.tar.gz
+[2023-05-03 11:59:58] INFO root fetch - processPackages [ghastoolkit]: Downloading https://files.pythonhosted.org/packages/94/1e/4e2392052873fa888c0bb2c8ea13581c184886dc4c151f5a7da4e9d62e29/ghastoolkit-0.1.9.tar.gz
+[2023-05-03 11:59:58] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/6e/02/b62c43753db71f5d9f38ae7283b794e6f74a68fb4ed705d99cefd2253532/spotPython-0.0.8.tar.gz
+[2023-05-03 11:59:58] INFO root fetch - processPackages [elevenlabs]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-03 11:59:58] INFO root fetch - processPackages [syamaguc]: Downloading https://files.pythonhosted.org/packages/94/9e/24314fa986e0abbc41f2d927d4ae46ad173452333083d9c8356fb1ced269/syamaguc-0.1.0.post2305030954-py3-none-any.whl
+[2023-05-03 11:59:58] INFO root fetch - processPackages [xia-scw-instance]: Downloading https://files.pythonhosted.org/packages/0b/3e/ccfa017cadbf93a4c9d841ceedca7d4d8fecdb2cf5b89da243b87595ccc0/xia_scw_instance-0.0.8-cp39-none-win_amd64.whl
+[2023-05-03 11:59:58] INFO root fetch - processPackages [syamaguc]: executing diffoscope
+[2023-05-03 11:59:58] INFO root fetch - processPackages [syamaguc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syamaguc-0.1.0.post2305030943-py3-none-any.whl.zip tmp/syamaguc-0.1.0.post2305030954-py3-none-any.whl.zip --markdown 20230503/s/syamaguc/0.1.0.post2305030943-0.1.0.post2305030954/diff.md --exclude *.pyd
+[2023-05-03 11:59:58] INFO root fetch - processPackages [ghastoolkit]: executing diffoscope
+[2023-05-03 11:59:58] INFO root fetch - processPackages [ghastoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghastoolkit-0.1.8.tar.gz tmp/ghastoolkit-0.1.9.tar.gz --markdown 20230503/g/ghastoolkit/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-03 11:59:58] INFO root fetch - processPackages [proteus-runtime]: Downloading https://files.pythonhosted.org/packages/0e/b1/dd567093ce7a35e89ab7d89887be300efe9572cd0de898bd5389347b84fa/proteus_runtime-0.2.9.tar.gz
+[2023-05-03 11:59:58] INFO root fetch - processPackages [elevenlabs]: Downloading https://files.pythonhosted.org/packages/46/3f/b8e0406e419eb934f54340b894bec0c1ca046f6ddeb273e7a3f7b7411f78/elevenlabs-0.2.9.tar.gz
+[2023-05-03 11:59:58] INFO root fetch - processPackages [elevenlabs]: executing diffoscope
+[2023-05-03 11:59:58] INFO root fetch - processPackages [elevenlabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elevenlabs-0.2.8.tar.gz tmp/elevenlabs-0.2.9.tar.gz --markdown 20230503/e/elevenlabs/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-03 11:59:58] INFO root fetch - processPackages [proteus-runtime]: executing diffoscope
+[2023-05-03 11:59:58] INFO root fetch - processPackages [proteus-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proteus_runtime-0.2.8.tar.gz tmp/proteus_runtime-0.2.9.tar.gz --markdown 20230503/p/proteus-runtime/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-03 11:59:58] INFO root fetch - processPackages [xia-scw-instance]: Downloading https://files.pythonhosted.org/packages/c7/25/3328fe3f28177852fbeba064922c0fed329475f10862da2ccec6ee47e0de/xia_scw_instance-0.0.9-cp39-none-win_amd64.whl
+[2023-05-03 11:59:58] INFO root fetch - processPackages [Geode-Viewables]: Downloading https://files.pythonhosted.org/packages/36/d7/6321d12b378d18bc45ffe0c89b159807f6957418d914fe4b61c7ba1fb305/Geode_Viewables-2.0.2-cp39-cp39-win_amd64.whl
+[2023-05-03 11:59:59] INFO root fetch - processPackages [xia-scw-instance]: executing diffoscope
+[2023-05-03 11:59:59] INFO root fetch - processPackages [xia-scw-instance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_scw_instance-0.0.8-cp39-none-win_amd64.whl.zip tmp/xia_scw_instance-0.0.9-cp39-none-win_amd64.whl.zip --markdown 20230503/x/xia-scw-instance/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 11:59:59] INFO root fetch - processPackages [skill-sdk]: Downloading https://files.pythonhosted.org/packages/33/e3/02e7ee7d1697567f1e54ece434609d63ce0220f68a9f118c1b99db6a48fc/skill-sdk-2.1.tar.gz
+[2023-05-03 11:59:59] INFO root fetch - processPackages [Geode-Viewables]: executing diffoscope
+[2023-05-03 11:59:59] INFO root fetch - processPackages [Geode-Viewables]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Viewables-2.0.1-cp39-cp39-win_amd64.whl.zip tmp/Geode_Viewables-2.0.2-cp39-cp39-win_amd64.whl.zip --markdown 20230503/G/Geode-Viewables/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-05-03 11:59:59] INFO root fetch - processPackages [skill-sdk]: executing diffoscope
+[2023-05-03 11:59:59] INFO root fetch - processPackages [skill-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skill-sdk-2.0b3.tar.gz tmp/skill-sdk-2.1.tar.gz --markdown 20230503/s/skill-sdk/2.0b3-2.1/diff.md --exclude *.pyd
+[2023-05-03 11:59:59] INFO root fetch - processPackages [extr-ds]: Start processing: minidatabase
+[2023-05-03 11:59:59] INFO root fetch - main [MainThread]: End processing [extr-ds]: success
+[2023-05-03 11:59:59] INFO root fetch - processPackages [minidatabase]: New version: [1.6.1] Old Version: [1.6]
+[2023-05-03 11:59:59] INFO root fetch - processPackages [syamaguc]: Start processing: peaqevcore
+[2023-05-03 11:59:59] INFO root fetch - main [MainThread]: End processing [syamaguc]: success
+[2023-05-03 11:59:59] INFO root fetch - processPackages [mepe]: Start processing: fcm-django
+[2023-05-03 11:59:59] INFO root fetch - main [MainThread]: End processing [mepe]: success
+[2023-05-03 11:59:59] INFO root fetch - processPackages [peaqevcore]: New version: [9.2.3] Old Version: [9.2.2]
+[2023-05-03 11:59:59] INFO root fetch - processPackages [minidatabase]: Downloading https://files.pythonhosted.org/packages/1f/b1/76a5e9a80caf258facdba5953433b7c94a6cc4add7dd71758a1273aa3176/minidatabase-1.6.1.tar.gz
+[2023-05-03 11:59:59] INFO root fetch - processPackages [peaqevcore]: Downloading https://files.pythonhosted.org/packages/d3/3a/d595706eb589ecf59a8cba9b6d5b0456fc65fe7e1d2c1e2aec7feee838b8/peaqevcore-9.2.2.tar.gz
+[2023-05-03 11:59:59] INFO root fetch - processPackages [fcm-django]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-03 11:59:59] INFO root fetch - processPackages [minidatabase]: executing diffoscope
+[2023-05-03 11:59:59] INFO root fetch - processPackages [minidatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minidatabase-1.6.tar.gz tmp/minidatabase-1.6.1.tar.gz --markdown 20230503/m/minidatabase/1.6-1.6.1/diff.md --exclude *.pyd
+[2023-05-03 11:59:59] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/4b/fe/e18dc9bcd7946a695352c3bdf34b95776e2ad6d970f7a8b6ff4368e7e2fe/spotPython-0.0.9.tar.gz
+[2023-05-03 12:00:00] INFO root fetch - processPackages [peaqevcore]: Downloading https://files.pythonhosted.org/packages/7d/ed/173dd45b11e856f6a0a37a2fe90750405b19807684a9c94bd5e9388c29a2/peaqevcore-9.2.3.tar.gz
+[2023-05-03 12:00:00] INFO root fetch - processPackages [fcm-django]: Downloading https://files.pythonhosted.org/packages/66/34/a1f1d584acd87d670d558edfeedc14d3dc2251692584eedc79657e71f3d5/fcm-django-1.0.8.tar.gz
+[2023-05-03 12:00:00] INFO root fetch - processPackages [elevenlabs]: Start processing: AnisoCADO
+[2023-05-03 12:00:00] INFO root fetch - main [MainThread]: End processing [elevenlabs]: success
+[2023-05-03 12:00:00] INFO root fetch - processPackages [proteus-runtime]: Start processing: airrship
+[2023-05-03 12:00:00] INFO root fetch - main [MainThread]: End processing [proteus-runtime]: success
+[2023-05-03 12:00:00] INFO root fetch - processPackages [peaqevcore]: executing diffoscope
+[2023-05-03 12:00:00] INFO root fetch - processPackages [peaqevcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peaqevcore-9.2.2.tar.gz tmp/peaqevcore-9.2.3.tar.gz --markdown 20230503/p/peaqevcore/9.2.2-9.2.3/diff.md --exclude *.pyd
+[2023-05-03 12:00:00] INFO root fetch - processPackages [AnisoCADO]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-03 12:00:00] INFO root fetch - processPackages [airrship]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-03 12:00:00] INFO root fetch - processPackages [xia-scw-instance]: Start processing: weatherly
+[2023-05-03 12:00:00] INFO root fetch - main [MainThread]: End processing [xia-scw-instance]: success
+[2023-05-03 12:00:00] INFO root fetch - processPackages [fcm-django]: Downloading https://files.pythonhosted.org/packages/58/77/2b0ee102017a84fadf6dcf1e6bad19cd9609cd67f29dab456bd006773de4/fcm-django-1.0.9.tar.gz
+[2023-05-03 12:00:00] INFO root fetch - main [MainThread]: End processing [ghastoolkit]: success
+[2023-05-03 12:00:00] INFO root fetch - processPackages [AnisoCADO]: Downloading https://files.pythonhosted.org/packages/75/03/ab62f10c80e29b0046103773d41b840d714ee2caf74d4d4fd4d1e64fa833/anisocado-0.2.2.tar.gz
+[2023-05-03 12:00:00] INFO root fetch - processPackages [weatherly]: New version: [0.6.0] Old Version: [0.5.1]
+[2023-05-03 12:00:00] INFO root fetch - processPackages [airrship]: Downloading https://files.pythonhosted.org/packages/cb/1c/9fa7fd5c7cdb88acc40e9990e809a001e95fc83a9713ddee3f527652a4f5/airrship-0.1.3.tar.gz
+[2023-05-03 12:00:00] INFO root fetch - processPackages [AnisoCADO]: Downloading https://files.pythonhosted.org/packages/a0/4a/a540cda71d59b02a8c311b328ca9835fdd1cc82a827821bcd4b2a1c74f1e/AnisoCADO-0.2.3.tar.gz
+[2023-05-03 12:00:00] INFO root fetch - main [MainThread]: End processing [Geode-Viewables]: success
+[2023-05-03 12:00:00] INFO root fetch - processPackages [fcm-django]: executing diffoscope
+[2023-05-03 12:00:00] INFO root fetch - processPackages [fcm-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fcm-django-1.0.8.tar.gz tmp/fcm-django-1.0.9.tar.gz --markdown 20230503/f/fcm-django/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-03 12:00:00] INFO root fetch - processPackages [AnisoCADO]: executing diffoscope
+[2023-05-03 12:00:00] INFO root fetch - processPackages [AnisoCADO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anisocado-0.2.2.tar.gz tmp/AnisoCADO-0.2.3.tar.gz --markdown 20230503/A/AnisoCADO/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-03 12:00:00] INFO root fetch - processPackages [weatherly]: Downloading https://files.pythonhosted.org/packages/f7/a7/c340d454a04046e16d8c3c4bb377ae8c00abf6ac357a9afd28e051e7161b/weatherly-0.6.0.tar.gz
+[2023-05-03 12:00:00] INFO root fetch - processPackages [airrship]: Downloading https://files.pythonhosted.org/packages/80/42/320b8372c7ecce7774afe95079779186f06fe2dff5f0be1032dad43f0041/airrship-0.1.4.tar.gz
+[2023-05-03 12:00:01] INFO root fetch - main [MainThread]: End processing [minidatabase]: success
+[2023-05-03 12:00:01] INFO root fetch - processPackages [weatherly]: executing diffoscope
+[2023-05-03 12:00:01] INFO root fetch - processPackages [weatherly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weatherly-0.5.1.tar.gz tmp/weatherly-0.6.0.tar.gz --markdown 20230503/w/weatherly/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2023-05-03 12:00:01] INFO root fetch - processPackages [airrship]: executing diffoscope
+[2023-05-03 12:00:01] INFO root fetch - processPackages [airrship]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airrship-0.1.3.tar.gz tmp/airrship-0.1.4.tar.gz --markdown 20230503/a/airrship/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-03 12:00:01] INFO root fetch - processPackages [spotPython]: executing diffoscope
+[2023-05-03 12:00:01] INFO root fetch - processPackages [spotPython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotPython-0.0.8.tar.gz tmp/spotPython-0.0.9.tar.gz --markdown 20230503/s/spotPython/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 12:00:02] INFO root fetch - main [MainThread]: End processing [fcm-django]: success
+[2023-05-03 12:00:02] INFO root fetch - main [MainThread]: End processing [AnisoCADO]: success
+[2023-05-03 12:00:02] INFO root fetch - main [MainThread]: End processing [weatherly]: success
+[2023-05-03 12:00:02] INFO root fetch - main [MainThread]: End processing [airrship]: success
+[2023-05-03 12:00:02] INFO root fetch - main [MainThread]: End processing [peaqevcore]: success
+[2023-05-03 12:00:03] INFO root fetch - main [MainThread]: End processing [spotPython]: success
+[2023-05-03 12:00:03] INFO root fetch - main [MainThread]: End processing [skill-sdk]: success
+[2023-05-03 12:00:03] INFO root fetch - main [MainThread]: Store serial: [17954633]
