@@ -12284,3 +12284,106 @@ No space left on device. Diffoscope exiting.
 [2023-05-03 12:17:01] INFO root fetch - main [MainThread]: End processing [rucio]: success
 [2023-05-03 12:17:41] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
 [2023-05-03 12:17:41] INFO root fetch - main [MainThread]: Store serial: [17954858]
+[2023-05-03 12:22:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17954858]
+[2023-05-03 12:22:50] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-03 12:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: relenv
+[2023-05-03 12:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Pipx40
+[2023-05-03 12:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: guify
+[2023-05-03 12:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lch
+[2023-05-03 12:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bridgecrew
+[2023-05-03 12:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fwdviewpy
+[2023-05-03 12:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyzsf
+[2023-05-03 12:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: certora-cli-alpha-roy-CERT-1891-allocId-c
+[2023-05-03 12:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: stream-read-xbrl
+[2023-05-03 12:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cmeel
+[2023-05-03 12:22:50] INFO root fetch - processPackages [relenv]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-05-03 12:22:50] WARNING root fetch - processPackages [lch]: Skipping, unable to determine old version
+[2023-05-03 12:22:50] INFO root fetch - processPackages [lch]: Start processing: easys-ordermanager
+[2023-05-03 12:22:50] INFO root fetch - main [MainThread]: End processing [lch] error
+[2023-05-03 12:22:50] INFO root fetch - processPackages [Pipx40]: New version: [1.32] Old Version: [1.31]
+[2023-05-03 12:22:50] INFO root fetch - processPackages [fwdviewpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-03 12:22:50] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1891-allocId-c]: New version: [20230503.10.18.829591] Old Version: [20230502.16.21.634845]
+[2023-05-03 12:22:50] INFO root fetch - processPackages [easys-ordermanager]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-05-03 12:22:50] INFO root fetch - processPackages [cmeel]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-03 12:22:50] INFO root fetch - processPackages [pyzsf]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-03 12:22:50] INFO root fetch - processPackages [guify]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-05-03 12:22:50] INFO root fetch - processPackages [stream-read-xbrl]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 12:22:50] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-05-03 12:22:50] INFO root fetch - processPackages [pyzsf]: executing diffoscope
+[2023-05-03 12:22:50] INFO root fetch - processPackages [pyzsf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyzsf-0.1.1-cp36-abi3-win_amd64.whl.zip tmp/pyzsf-0.1.2-cp36-abi3-win_amd64.whl.zip --markdown 20230503/p/pyzsf/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-03 12:22:50] INFO root fetch - processPackages [cmeel]: Downloading https://files.pythonhosted.org/packages/ed/8a/d29a6e9da9e45e610f6471fd3de81893747ee83b15735baeec2768396a3b/cmeel-0.8.0.tar.gz
+[2023-05-03 12:22:50] INFO root fetch - processPackages [fwdviewpy]: executing diffoscope
+[2023-05-03 12:22:50] INFO root fetch - processPackages [fwdviewpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fwdviewpy-0.1.8.tar.gz tmp/fwdviewpy-0.1.9.tar.gz --markdown 20230503/f/fwdviewpy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-03 12:22:50] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-05-03 12:22:50] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230503/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-05-03 12:22:50] INFO root fetch - processPackages [relenv]: Downloading https://files.pythonhosted.org/packages/0c/d5/97c45b457073cb4e184305fe8ccdc6d0269f1bfafec501d37d491139a2b0/relenv-0.8.2-py3-none-any.whl
+[2023-05-03 12:22:50] INFO root fetch - processPackages [Pipx40]: Downloading https://files.pythonhosted.org/packages/40/ed/ab827c46570415b1c6ad0686dccde16e6bc82814d11f701e805bbee4ee87/Pipx40-1.31.tar.gz
+[2023-05-03 12:22:50] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1891-allocId-c]: Downloading https://files.pythonhosted.org/packages/2e/f2/40b3eb36e89c8e269f9ac6904abdd9c3a9945b86f498648d65b4225dd0a4/certora-cli-alpha-roy-CERT-1891-allocId-c-20230502.16.21.634845.tar.gz
+[2023-05-03 12:22:50] INFO root fetch - processPackages [easys-ordermanager]: Downloading https://files.pythonhosted.org/packages/67/1d/1338bfa18390cae9116974d0682a30041d20445c03715352f69db4e15d4c/easys-ordermanager-2.1.2.tar.gz
+[2023-05-03 12:22:50] INFO root fetch - processPackages [stream-read-xbrl]: Downloading https://files.pythonhosted.org/packages/cb/01/79f21f957ba2c972f760a478736725869548d44085bea99c8f94e5a7e85f/stream_read_xbrl-0.0.8.tar.gz
+[2023-05-03 12:22:50] WARNING root fetch - processPackages [certora-cli-alpha-roy-CERT-1891-allocId-c]: Skipping package: exceeds size limit 38373678>=10485760
+[2023-05-03 12:22:50] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1891-allocId-c]: Start processing: digitalguide
+[2023-05-03 12:22:50] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-roy-CERT-1891-allocId-c] error
+[2023-05-03 12:22:50] INFO root fetch - processPackages [digitalguide]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-03 12:22:51] INFO root fetch - processPackages [guify]: Downloading https://files.pythonhosted.org/packages/ff/e8/8e0aafbe2900c8d3d64ca2ca187bda4244cb0639544c88cdb64bccfd6c38/guify-0.2.7.tar.gz
+[2023-05-03 12:22:51] INFO root fetch - processPackages [digitalguide]: executing diffoscope
+[2023-05-03 12:22:51] INFO root fetch - processPackages [digitalguide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalguide-0.0.98.tar.gz tmp/digitalguide-0.0.99.tar.gz --markdown 20230503/d/digitalguide/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-03 12:22:51] INFO root fetch - processPackages [guify]: executing diffoscope
+[2023-05-03 12:22:51] INFO root fetch - processPackages [guify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guify-0.2.6.tar.gz tmp/guify-0.2.7.tar.gz --markdown 20230503/g/guify/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-05-03 12:22:51] INFO root fetch - processPackages [easys-ordermanager]: Downloading https://files.pythonhosted.org/packages/42/f1/b98049c02cf225018b94020b1284bacaefd999d94ac310d512e3051caac7/easys-ordermanager-2.1.3.tar.gz
+[2023-05-03 12:22:51] INFO root fetch - processPackages [Pipx40]: Downloading https://files.pythonhosted.org/packages/82/de/6944f4f5045c6dc1f53c71f2d0fd46df9036f35788c6901fed9d0fb34c17/Pipx40-1.32.tar.gz
+[2023-05-03 12:22:51] INFO root fetch - processPackages [relenv]: Downloading https://files.pythonhosted.org/packages/04/91/998d91dcc3df027619800fcef9a4d6de71c3976d23450216e6ebd6055f57/relenv-0.9.0-py3-none-any.whl
+[2023-05-03 12:22:51] INFO root fetch - processPackages [cmeel]: Downloading https://files.pythonhosted.org/packages/fc/ea/e47f058dfc21dfc32b83322874ada8ae5d6c4124222c380e01f6bc1a969b/cmeel-0.9.0.tar.gz
+[2023-05-03 12:22:51] INFO root fetch - processPackages [easys-ordermanager]: executing diffoscope
+[2023-05-03 12:22:51] INFO root fetch - processPackages [easys-ordermanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easys-ordermanager-2.1.2.tar.gz tmp/easys-ordermanager-2.1.3.tar.gz --markdown 20230503/e/easys-ordermanager/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2023-05-03 12:22:51] INFO root fetch - processPackages [Pipx40]: executing diffoscope
+[2023-05-03 12:22:51] INFO root fetch - processPackages [Pipx40]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pipx40-1.31.tar.gz tmp/Pipx40-1.32.tar.gz --markdown 20230503/P/Pipx40/1.31-1.32/diff.md --exclude *.pyd
+[2023-05-03 12:22:51] INFO root fetch - processPackages [relenv]: executing diffoscope
+[2023-05-03 12:22:51] INFO root fetch - processPackages [relenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/relenv-0.8.2-py3-none-any.whl.zip tmp/relenv-0.9.0-py3-none-any.whl.zip --markdown 20230503/r/relenv/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-05-03 12:22:51] INFO root fetch - processPackages [cmeel]: executing diffoscope
+[2023-05-03 12:22:51] INFO root fetch - processPackages [cmeel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmeel-0.8.0.tar.gz tmp/cmeel-0.9.0.tar.gz --markdown 20230503/c/cmeel/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-03 12:22:51] INFO root fetch - processPackages [stream-read-xbrl]: Downloading https://files.pythonhosted.org/packages/4b/59/5369f824554b070f94e4c4afc9e824c5d1eb0f8636a43018acbe6f118628/stream_read_xbrl-0.0.9.tar.gz
+[2023-05-03 12:22:51] INFO root fetch - processPackages [stream-read-xbrl]: executing diffoscope
+[2023-05-03 12:22:51] INFO root fetch - processPackages [stream-read-xbrl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stream_read_xbrl-0.0.8.tar.gz tmp/stream_read_xbrl-0.0.9.tar.gz --markdown 20230503/s/stream-read-xbrl/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 12:22:52] INFO root fetch - processPackages [pyzsf]: Start processing: omero2pandas
+[2023-05-03 12:22:52] INFO root fetch - main [MainThread]: End processing [pyzsf]: success
+[2023-05-03 12:22:52] WARNING root fetch - processPackages [omero2pandas]: Skipping, unable to determine old version
+[2023-05-03 12:22:52] INFO root fetch - processPackages [omero2pandas]: Start processing: testapptmlc
+[2023-05-03 12:22:52] INFO root fetch - main [MainThread]: End processing [omero2pandas] error
+[2023-05-03 12:22:52] INFO root fetch - processPackages [fwdviewpy]: Start processing: liteindex
+[2023-05-03 12:22:52] INFO root fetch - main [MainThread]: End processing [fwdviewpy]: success
+[2023-05-03 12:22:52] INFO root fetch - processPackages [testapptmlc]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-03 12:22:52] INFO root fetch - processPackages [liteindex]: New version: [0.0.1.dev5] Old Version: [0.0.1.dev4]
+[2023-05-03 12:22:52] INFO root fetch - processPackages [bridgecrew]: Start processing: omega-wp
+[2023-05-03 12:22:52] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-05-03 12:22:52] INFO root fetch - processPackages [omega-wp]: New version: [2.6.post1] Old Version: [2.6]
+[2023-05-03 12:22:52] INFO root fetch - processPackages [testapptmlc]: Downloading https://files.pythonhosted.org/packages/5f/69/8e1f27a67c97ccd2e5cef043c33a785de427eaad0137e9a2a29a3aedaefb/testapptmlc-0.0.4.tar.gz
+[2023-05-03 12:22:52] INFO root fetch - processPackages [liteindex]: Downloading https://files.pythonhosted.org/packages/48/f6/565f53eac575e50cbdc0d19f355ea2fdf9ba3508220b92dc8b659bd745c6/liteindex-0.0.1.dev5.tar.gz
+[2023-05-03 12:22:52] INFO root fetch - processPackages [testapptmlc]: executing diffoscope
+[2023-05-03 12:22:52] INFO root fetch - processPackages [testapptmlc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testapptmlc-0.0.3.tar.gz tmp/testapptmlc-0.0.4.tar.gz --markdown 20230503/t/testapptmlc/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-03 12:22:52] INFO root fetch - processPackages [digitalguide]: Start processing: yunpancli
+[2023-05-03 12:22:52] INFO root fetch - main [MainThread]: End processing [digitalguide]: success
+[2023-05-03 12:22:52] INFO root fetch - processPackages [omega-wp]: Downloading https://files.pythonhosted.org/packages/45/77/9c426e953357e77253a2b7e0917495852a5d379ac519e00042296a626456/omega_wp-2.6.tar.gz
+[2023-05-03 12:22:52] WARNING root fetch - processPackages [yunpancli]: Skipping, unable to determine old version
+[2023-05-03 12:22:52] INFO root fetch - processPackages [yunpancli]: Start processing: toolnew45
+[2023-05-03 12:22:52] INFO root fetch - main [MainThread]: End processing [yunpancli] error
+[2023-05-03 12:22:52] WARNING root fetch - processPackages [toolnew45]: Skipping, unable to determine old version
+[2023-05-03 12:22:52] INFO root fetch - processPackages [toolnew45]: Start processing: llmdet
+[2023-05-03 12:22:52] INFO root fetch - main [MainThread]: End processing [toolnew45] error
+[2023-05-03 12:22:52] INFO root fetch - processPackages [liteindex]: executing diffoscope
+[2023-05-03 12:22:52] INFO root fetch - processPackages [liteindex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liteindex-0.0.1.dev4.tar.gz tmp/liteindex-0.0.1.dev5.tar.gz --markdown 20230503/l/liteindex/0.0.1.dev4-0.0.1.dev5/diff.md --exclude *.pyd
+[2023-05-03 12:22:52] INFO root fetch - processPackages [omega-wp]: Downloading https://files.pythonhosted.org/packages/44/a5/9c9d5358a99efc22bbdacef1559526063e51e51e40a4084cb8c83764dd21/omega_wp-2.6.post1.tar.gz
+[2023-05-03 12:22:52] WARNING root fetch - processPackages [llmdet]: Skipping, unable to determine old version
+[2023-05-03 12:22:52] INFO root fetch - main [MainThread]: End processing [llmdet] error
+[2023-05-03 12:22:52] INFO root fetch - processPackages [omega-wp]: executing diffoscope
+[2023-05-03 12:22:52] INFO root fetch - processPackages [omega-wp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omega_wp-2.6.tar.gz tmp/omega_wp-2.6.post1.tar.gz --markdown 20230503/o/omega-wp/2.6-2.6.post1/diff.md --exclude *.pyd
+[2023-05-03 12:22:52] INFO root fetch - main [MainThread]: End processing [cmeel]: success
+[2023-05-03 12:22:53] INFO root fetch - main [MainThread]: End processing [Pipx40]: success
+[2023-05-03 12:22:53] INFO root fetch - main [MainThread]: End processing [relenv]: success
+[2023-05-03 12:22:53] INFO root fetch - main [MainThread]: End processing [stream-read-xbrl]: success
+[2023-05-03 12:22:53] INFO root fetch - main [MainThread]: End processing [testapptmlc]: success
+[2023-05-03 12:22:53] INFO root fetch - main [MainThread]: End processing [liteindex]: success
+[2023-05-03 12:22:53] INFO root fetch - main [MainThread]: End processing [easys-ordermanager]: success
+[2023-05-03 12:22:54] INFO root fetch - main [MainThread]: End processing [omega-wp]: success
+[2023-05-03 12:22:59] INFO root fetch - main [MainThread]: End processing [guify]: success
+[2023-05-03 12:22:59] INFO root fetch - main [MainThread]: Store serial: [17954921]
