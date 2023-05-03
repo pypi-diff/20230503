@@ -11423,3 +11423,141 @@ No space left on device. Diffoscope exiting.
 [2023-05-03 11:34:43] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-05-03 11:37:03] INFO root fetch - main [MainThread]: End processing [pandocker-lua-filters]: success
 [2023-05-03 11:37:03] INFO root fetch - main [MainThread]: Store serial: [17954161]
+[2023-05-03 11:42:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17954161]
+[2023-05-03 11:42:28] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-05-03 11:42:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Geode-Conversion
+[2023-05-03 11:42:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-product-product-template-navigation
+[2023-05-03 11:42:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hyperfetch
+[2023-05-03 11:42:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Geode-Numerics
+[2023-05-03 11:42:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Geode-Background
+[2023-05-03 11:42:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: c2cciutils
+[2023-05-03 11:42:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: halborn-ctf
+[2023-05-03 11:42:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: OpenGeode-GeosciencesIO
+[2023-05-03 11:42:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: haplopy
+[2023-05-03 11:42:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ensmallen
+[2023-05-03 11:42:28] INFO root fetch - processPackages [Geode-Numerics]: New version: [3.0.2] Old Version: [3.0.1]
+[2023-05-03 11:42:28] WARNING root fetch - processPackages [odoo14-addon-product-product-template-navigation]: Skipping, unable to determine old version
+[2023-05-03 11:42:28] INFO root fetch - processPackages [odoo14-addon-product-product-template-navigation]: Start processing: mkdocs-snakemake-rule-plugin
+[2023-05-03 11:42:28] INFO root fetch - main [MainThread]: End processing [odoo14-addon-product-product-template-navigation] error
+[2023-05-03 11:42:28] INFO root fetch - processPackages [hyperfetch]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-03 11:42:28] INFO root fetch - processPackages [Geode-Background]: New version: [7.1.2] Old Version: [7.1.1]
+[2023-05-03 11:42:28] INFO root fetch - processPackages [haplopy]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-03 11:42:28] INFO root fetch - processPackages [halborn-ctf]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-03 11:42:28] INFO root fetch - processPackages [Geode-Conversion]: New version: [5.0.3] Old Version: [5.0.2]
+[2023-05-03 11:42:28] INFO root fetch - processPackages [c2cciutils]: New version: [1.6.0.dev80] Old Version: [1.6.0.dev8]
+[2023-05-03 11:42:28] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: New version: [4.1.2] Old Version: [4.1.1]
+[2023-05-03 11:42:28] INFO root fetch - processPackages [ensmallen]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-05-03 11:42:28] INFO root fetch - processPackages [mkdocs-snakemake-rule-plugin]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-05-03 11:42:29] INFO root fetch - processPackages [Geode-Numerics]: Downloading https://files.pythonhosted.org/packages/0e/ec/d4e3962a34a5f5fd61324ac91c91105fcf4d6fc54ec7f6a36d3c61a52e0a/Geode_Numerics-3.0.1-cp39-cp39-win_amd64.whl
+[2023-05-03 11:42:29] INFO root fetch - processPackages [Geode-Background]: Downloading https://files.pythonhosted.org/packages/59/ff/b0bb18a4b12479e5b9a992a759e4a342a881ef3e8d30c753d40181a458b6/Geode_Background-7.1.1-cp39-cp39-win_amd64.whl
+[2023-05-03 11:42:29] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: Downloading https://files.pythonhosted.org/packages/95/82/aac46f1172971f4f8c68dc0b12830926786d142d63e158ada049456aea95/OpenGeode_GeosciencesIO-4.1.1-cp39-cp39-win_amd64.whl
+[2023-05-03 11:42:29] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/85/ac/438a8d47b9773c665dfa7ed618436075e474a44520762bf53561424ea021/c2cciutils-1.6.0.dev8.tar.gz
+[2023-05-03 11:42:29] INFO root fetch - processPackages [mkdocs-snakemake-rule-plugin]: Downloading https://files.pythonhosted.org/packages/85/fe/c42891adb9a8e3559e9d9e90357adc06c3b59ba11a1a61ad21f5ac8c88d2/mkdocs-snakemake-rule-plugin-0.3.0.tar.gz
+[2023-05-03 11:42:29] INFO root fetch - processPackages [ensmallen]: Downloading https://files.pythonhosted.org/packages/75/07/70c25877db695ae02b4a944b722513282eaca44b6bec77e09bed7e8bea0c/ensmallen-0.8.8-cp37-abi3-manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+[2023-05-03 11:42:29] INFO root fetch - processPackages [Geode-Conversion]: Downloading https://files.pythonhosted.org/packages/1a/1e/6a84cb42234b2b86c571587b56223ec2b9b9f7a8f4a98fd3f9a56c8df76c/Geode_Conversion-5.0.2-cp39-cp39-win_amd64.whl
+[2023-05-03 11:42:29] INFO root fetch - processPackages [halborn-ctf]: Downloading https://files.pythonhosted.org/packages/a5/a7/28b4513d195e60aa9a082507a9fc704d321706bdbdfcd4072aaba48444f4/halborn_ctf-0.1.5.tar.gz
+[2023-05-03 11:42:29] INFO root fetch - processPackages [hyperfetch]: Downloading https://files.pythonhosted.org/packages/86/b8/52bc489a6d157e4b3816d01dca7ac6cd6264d160fa46a9d1416de657977b/hyperfetch-1.0.8.tar.gz
+[2023-05-03 11:42:29] INFO root fetch - processPackages [halborn-ctf]: executing diffoscope
+[2023-05-03 11:42:29] INFO root fetch - processPackages [halborn-ctf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/halborn_ctf-0.1.4.tar.gz tmp/halborn_ctf-0.1.5.tar.gz --markdown 20230503/h/halborn-ctf/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-03 11:42:29] WARNING root fetch - processPackages [c2cciutils]: Skipping package: exceeds size limit 12821161>=10485760
+[2023-05-03 11:42:29] INFO root fetch - processPackages [c2cciutils]: Start processing: uztagger
+[2023-05-03 11:42:29] INFO root fetch - main [MainThread]: End processing [c2cciutils] error
+[2023-05-03 11:42:29] INFO root fetch - processPackages [haplopy]: Downloading https://files.pythonhosted.org/packages/4b/d5/05e1095eec5e0a0d9f886a8d80be862f79a23accbaec92c599e96f8895c3/haplopy-0.1.2.tar.gz
+[2023-05-03 11:42:29] INFO root fetch - processPackages [uztagger]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 11:42:29] INFO root fetch - processPackages [mkdocs-snakemake-rule-plugin]: executing diffoscope
+[2023-05-03 11:42:29] INFO root fetch - processPackages [mkdocs-snakemake-rule-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-snakemake-rule-plugin-0.2.1.tar.gz tmp/mkdocs-snakemake-rule-plugin-0.3.0.tar.gz --markdown 20230503/m/mkdocs-snakemake-rule-plugin/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-05-03 11:42:29] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: Downloading https://files.pythonhosted.org/packages/ba/7a/b8137b36b0c1fc050e75342159b2fb1ea99e2f7ce35dcf9011e5511a21f0/OpenGeode_GeosciencesIO-4.1.2-cp39-cp39-win_amd64.whl
+[2023-05-03 11:42:29] INFO root fetch - processPackages [uztagger]: executing diffoscope
+[2023-05-03 11:42:29] INFO root fetch - processPackages [uztagger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uztagger-0.0.8-py3-none-any.whl.zip tmp/uztagger-0.0.9-py3-none-any.whl.zip --markdown 20230503/u/uztagger/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 11:42:29] INFO root fetch - processPackages [haplopy]: executing diffoscope
+[2023-05-03 11:42:29] INFO root fetch - processPackages [haplopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haplopy-0.1.1.tar.gz tmp/haplopy-0.1.2.tar.gz --markdown 20230503/h/haplopy/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-03 11:42:29] INFO root fetch - processPackages [hyperfetch]: Downloading https://files.pythonhosted.org/packages/52/63/9980e7ef444fa9cc15631fb1c0c24b36ec153c589ca9c0b399d82de0be31/hyperfetch-1.0.9.tar.gz
+[2023-05-03 11:42:29] INFO root fetch - processPackages [hyperfetch]: executing diffoscope
+[2023-05-03 11:42:29] INFO root fetch - processPackages [hyperfetch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperfetch-1.0.8.tar.gz tmp/hyperfetch-1.0.9.tar.gz --markdown 20230503/h/hyperfetch/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-03 11:42:29] INFO root fetch - processPackages [Geode-Conversion]: Downloading https://files.pythonhosted.org/packages/fe/87/0fc1f601382ef355a6a8da2d20d96cb1d271bb3702427b1a646ae6f03a28/Geode_Conversion-5.0.3-cp39-cp39-win_amd64.whl
+[2023-05-03 11:42:29] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: executing diffoscope
+[2023-05-03 11:42:29] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenGeode_GeosciencesIO-4.1.1-cp39-cp39-win_amd64.whl.zip tmp/OpenGeode_GeosciencesIO-4.1.2-cp39-cp39-win_amd64.whl.zip --markdown 20230503/O/OpenGeode-GeosciencesIO/4.1.1-4.1.2/diff.md --exclude *.pyd
+[2023-05-03 11:42:29] INFO root fetch - processPackages [Geode-Conversion]: executing diffoscope
+[2023-05-03 11:42:29] INFO root fetch - processPackages [Geode-Conversion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Conversion-5.0.2-cp39-cp39-win_amd64.whl.zip tmp/Geode_Conversion-5.0.3-cp39-cp39-win_amd64.whl.zip --markdown 20230503/G/Geode-Conversion/5.0.2-5.0.3/diff.md --exclude *.pyd
+[2023-05-03 11:42:29] WARNING root fetch - processPackages [ensmallen]: Skipping package: exceeds size limit 18826030>=10485760
+[2023-05-03 11:42:29] INFO root fetch - processPackages [ensmallen]: Start processing: MKN-third-codes
+[2023-05-03 11:42:29] INFO root fetch - main [MainThread]: End processing [ensmallen] error
+[2023-05-03 11:42:29] INFO root fetch - processPackages [MKN-third-codes]: New version: [0.6.5] Old Version: [0.6.4.6]
+[2023-05-03 11:42:29] INFO root fetch - processPackages [Geode-Numerics]: Downloading https://files.pythonhosted.org/packages/ce/2f/af1ef554c73113d5847301ecc777727e8ef18bba63c4d24ca87f8b56c406/Geode_Numerics-3.0.2-cp39-cp39-win_amd64.whl
+[2023-05-03 11:42:29] INFO root fetch - processPackages [MKN-third-codes]: Downloading https://files.pythonhosted.org/packages/c5/f5/cf1fabc243321dbb64cdf4144e9e52245f18529878c67aca27d252adf34d/MKN_third_codes-0.6.4.6.tar.gz
+[2023-05-03 11:42:29] INFO root fetch - processPackages [Geode-Background]: Downloading https://files.pythonhosted.org/packages/72/f8/eb58bb970fde86be28665485fa251f97078f95ce449d293042932dbf2dde/Geode_Background-7.1.2-cp39-cp39-win_amd64.whl
+[2023-05-03 11:42:30] INFO root fetch - processPackages [MKN-third-codes]: Downloading https://files.pythonhosted.org/packages/b5/38/9d1a7da4859804787089ae93376b562b3db9ee96da6d12d42c5c90ed81bf/MKN_third_codes-0.6.5.tar.gz
+[2023-05-03 11:42:30] INFO root fetch - processPackages [MKN-third-codes]: executing diffoscope
+[2023-05-03 11:42:30] INFO root fetch - processPackages [MKN-third-codes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MKN_third_codes-0.6.4.6.tar.gz tmp/MKN_third_codes-0.6.5.tar.gz --markdown 20230503/M/MKN-third-codes/0.6.4.6-0.6.5/diff.md --exclude *.pyd
+[2023-05-03 11:42:30] INFO root fetch - processPackages [Geode-Background]: executing diffoscope
+[2023-05-03 11:42:30] INFO root fetch - processPackages [Geode-Background]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Background-7.1.1-cp39-cp39-win_amd64.whl.zip tmp/Geode_Background-7.1.2-cp39-cp39-win_amd64.whl.zip --markdown 20230503/G/Geode-Background/7.1.1-7.1.2/diff.md --exclude *.pyd
+[2023-05-03 11:42:30] INFO root fetch - processPackages [Geode-Numerics]: executing diffoscope
+[2023-05-03 11:42:30] INFO root fetch - processPackages [Geode-Numerics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Numerics-3.0.1-cp39-cp39-win_amd64.whl.zip tmp/Geode_Numerics-3.0.2-cp39-cp39-win_amd64.whl.zip --markdown 20230503/G/Geode-Numerics/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2023-05-03 11:42:31] INFO root fetch - processPackages [haplopy]: Start processing: docker-image-size-limit
+[2023-05-03 11:42:31] INFO root fetch - main [MainThread]: End processing [haplopy]: success
+[2023-05-03 11:42:31] INFO root fetch - processPackages [docker-image-size-limit]: New version: [1.0.0] Old Version: [0.4.1]
+[2023-05-03 11:42:31] INFO root fetch - processPackages [docker-image-size-limit]: Downloading https://files.pythonhosted.org/packages/15/d9/b08c5c089d1625003d648184da67f632c96238016da9dc2f82ebf828f4ff/docker-image-size-limit-0.4.1.tar.gz
+[2023-05-03 11:42:31] INFO root fetch - processPackages [hyperfetch]: Start processing: dr-converter
+[2023-05-03 11:42:31] INFO root fetch - main [MainThread]: End processing [hyperfetch]: success
+[2023-05-03 11:42:31] WARNING root fetch - processPackages [dr-converter]: Skipping, unable to determine old version
+[2023-05-03 11:42:31] INFO root fetch - processPackages [dr-converter]: Start processing: qwak-core
+[2023-05-03 11:42:31] INFO root fetch - main [MainThread]: End processing [dr-converter] error
+[2023-05-03 11:42:31] INFO root fetch - processPackages [qwak-core]: New version: [0.0.44] Old Version: [0.0.43]
+[2023-05-03 11:42:31] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-05-03 11:42:31] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.43.tar.gz tmp/qwak_core-0.0.44.tar.gz --markdown 20230503/q/qwak-core/0.0.43-0.0.44/diff.md --exclude *.pyd
+[2023-05-03 11:42:31] INFO root fetch - processPackages [docker-image-size-limit]: Downloading https://files.pythonhosted.org/packages/43/f6/abdd3856c3a086645b4d480a41f3f03dcab7804db666cedee4aacd086b73/docker_image_size_limit-1.0.0.tar.gz
+[2023-05-03 11:42:31] INFO root fetch - processPackages [halborn-ctf]: Start processing: dialogy
+[2023-05-03 11:42:31] INFO root fetch - main [MainThread]: End processing [halborn-ctf]: success
+[2023-05-03 11:42:31] INFO root fetch - processPackages [docker-image-size-limit]: executing diffoscope
+[2023-05-03 11:42:31] INFO root fetch - processPackages [docker-image-size-limit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docker-image-size-limit-0.4.1.tar.gz tmp/docker_image_size_limit-1.0.0.tar.gz --markdown 20230503/d/docker-image-size-limit/0.4.1-1.0.0/diff.md --exclude *.pyd
+[2023-05-03 11:42:31] INFO root fetch - processPackages [mkdocs-snakemake-rule-plugin]: Start processing: django-mails
+[2023-05-03 11:42:31] INFO root fetch - main [MainThread]: End processing [mkdocs-snakemake-rule-plugin]: success
+[2023-05-03 11:42:31] INFO root fetch - processPackages [django-mails]: New version: [2.7] Old Version: [2.6]
+[2023-05-03 11:42:31] INFO root fetch - processPackages [dialogy]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-05-03 11:42:31] INFO root fetch - processPackages [django-mails]: executing diffoscope
+[2023-05-03 11:42:31] INFO root fetch - processPackages [django-mails]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-mails-2.6.tar.gz tmp/django-mails-2.7.tar.gz --markdown 20230503/d/django-mails/2.6-2.7/diff.md --exclude *.pyd
+[2023-05-03 11:42:32] INFO root fetch - processPackages [dialogy]: Downloading https://files.pythonhosted.org/packages/17/e2/86dc63015cc388702199ee448ed0908953d088e6cea55241607a845c79ef/dialogy-2.0.2.tar.gz
+[2023-05-03 11:42:32] INFO root fetch - processPackages [MKN-third-codes]: Start processing: fastapi-async-langchain
+[2023-05-03 11:42:32] INFO root fetch - main [MainThread]: End processing [MKN-third-codes]: success
+[2023-05-03 11:42:32] INFO root fetch - processPackages [fastapi-async-langchain]: New version: [0.4.0] Old Version: [0.3.3]
+[2023-05-03 11:42:32] INFO root fetch - processPackages [fastapi-async-langchain]: Downloading https://files.pythonhosted.org/packages/04/d0/12d161f19094a11ecbb66cfb4217ec86c71adcce7ed80a1041fc2006d5fa/fastapi_async_langchain-0.3.3.tar.gz
+[2023-05-03 11:42:32] INFO root fetch - processPackages [fastapi-async-langchain]: executing diffoscope
+[2023-05-03 11:42:32] INFO root fetch - processPackages [fastapi-async-langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_async_langchain-0.3.3.tar.gz tmp/fastapi_async_langchain-0.4.0.tar.gz --markdown 20230503/f/fastapi-async-langchain/0.3.3-0.4.0/diff.md --exclude *.pyd
+[2023-05-03 11:42:32] INFO root fetch - processPackages [dialogy]: Downloading https://files.pythonhosted.org/packages/2f/c4/6b6bc5b10b613c1f061e8bb110937258dd7f4a6ea12266415aba1568b88e/dialogy-2.0.3.tar.gz
+[2023-05-03 11:42:32] INFO root fetch - processPackages [dialogy]: executing diffoscope
+[2023-05-03 11:42:32] INFO root fetch - processPackages [dialogy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dialogy-2.0.2.tar.gz tmp/dialogy-2.0.3.tar.gz --markdown 20230503/d/dialogy/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-05-03 11:42:32] INFO root fetch - processPackages [uztagger]: Start processing: recon-lw
+[2023-05-03 11:42:32] INFO root fetch - main [MainThread]: End processing [uztagger]: success
+[2023-05-03 11:42:33] INFO root fetch - processPackages [recon-lw]: New version: [2.0.0.dev4870468547] Old Version: [2.0.0.dev4859625658]
+[2023-05-03 11:42:33] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/57/c2/e80f682c72dbffbb9f759c2746ef0feb6df3054e8d5d8a53e5eb3de7d562/recon_lw-2.0.0.dev4859625658.tar.gz
+[2023-05-03 11:42:33] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/d7/37/ee69df472bee067fe27a229f4984dd22935d0ca8cf5057b9b07aff11267b/recon_lw-2.0.0.dev4870468547.tar.gz
+[2023-05-03 11:42:33] INFO root fetch - processPackages [qwak-core]: Start processing: taxonomy-connector
+[2023-05-03 11:42:33] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-05-03 11:42:33] INFO root fetch - processPackages [recon-lw]: executing diffoscope
+[2023-05-03 11:42:33] INFO root fetch - processPackages [recon-lw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recon_lw-2.0.0.dev4859625658.tar.gz tmp/recon_lw-2.0.0.dev4870468547.tar.gz --markdown 20230503/r/recon-lw/2.0.0.dev4859625658-2.0.0.dev4870468547/diff.md --exclude *.pyd
+[2023-05-03 11:42:33] INFO root fetch - processPackages [taxonomy-connector]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-03 11:42:33] INFO root fetch - processPackages [docker-image-size-limit]: Start processing: qa-keys-test
+[2023-05-03 11:42:33] INFO root fetch - main [MainThread]: End processing [docker-image-size-limit]: success
+[2023-05-03 11:42:33] WARNING root fetch - processPackages [qa-keys-test]: Skipping, unable to determine old version
+[2023-05-03 11:42:33] INFO root fetch - processPackages [qa-keys-test]: Start processing: pyxll
+[2023-05-03 11:42:33] INFO root fetch - main [MainThread]: End processing [qa-keys-test] error
+[2023-05-03 11:42:33] INFO root fetch - processPackages [taxonomy-connector]: Downloading https://files.pythonhosted.org/packages/86/d4/cc43cca65b5c3a1ffb7ae8e713f7aa52c9f9dbb7b0c7e2655457762c6d7b/taxonomy-connector-1.8.0.tar.gz
+[2023-05-03 11:42:33] INFO root fetch - processPackages [pyxll]: New version: [5.6.1] Old Version: [5.6.0]
+[2023-05-03 11:42:34] INFO root fetch - main [MainThread]: End processing [django-mails]: success
+[2023-05-03 11:42:34] INFO root fetch - processPackages [taxonomy-connector]: Downloading https://files.pythonhosted.org/packages/60/82/6933c49b21a0da5d910b384c5a3e2d4e588fb3ed4771a25beb40febc3ed4/taxonomy-connector-1.9.0.tar.gz
+[2023-05-03 11:42:34] INFO root fetch - processPackages [pyxll]: Downloading https://files.pythonhosted.org/packages/1f/95/8bbe4257a97ebed5decac2098ff1ab3bfb8813a86bbf8eefba10d3a8696f/pyxll-5.6.0-cp39-none-any.whl
+[2023-05-03 11:42:34] INFO root fetch - processPackages [taxonomy-connector]: executing diffoscope
+[2023-05-03 11:42:34] INFO root fetch - processPackages [taxonomy-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taxonomy-connector-1.8.0.tar.gz tmp/taxonomy-connector-1.9.0.tar.gz --markdown 20230503/t/taxonomy-connector/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-03 11:42:34] INFO root fetch - main [MainThread]: End processing [OpenGeode-GeosciencesIO]: success
+[2023-05-03 11:42:34] INFO root fetch - main [MainThread]: End processing [fastapi-async-langchain]: success
+[2023-05-03 11:42:34] INFO root fetch - processPackages [pyxll]: Downloading https://files.pythonhosted.org/packages/40/7a/dde3fa90030fbe0dd25d9fc27145b5605d15f5e2119d22b672b5a2276381/pyxll-5.6.1-cp39-none-any.whl
+[2023-05-03 11:42:34] INFO root fetch - processPackages [pyxll]: executing diffoscope
+[2023-05-03 11:42:34] INFO root fetch - processPackages [pyxll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxll-5.6.0-cp39-none-any.whl.zip tmp/pyxll-5.6.1-cp39-none-any.whl.zip --markdown 20230503/p/pyxll/5.6.0-5.6.1/diff.md --exclude *.pyd
+[2023-05-03 11:42:34] INFO root fetch - main [MainThread]: End processing [dialogy]: success
+[2023-05-03 11:42:35] INFO root fetch - main [MainThread]: End processing [recon-lw]: success
+[2023-05-03 11:42:35] INFO root fetch - main [MainThread]: End processing [pyxll]: success
+[2023-05-03 11:42:35] INFO root fetch - main [MainThread]: End processing [taxonomy-connector]: success
+[2023-05-03 11:42:42] INFO root fetch - main [MainThread]: End processing [Geode-Conversion]: success
+[2023-05-03 11:42:50] INFO root fetch - main [MainThread]: End processing [Geode-Numerics]: success
+[2023-05-03 11:43:00] INFO root fetch - main [MainThread]: End processing [Geode-Background]: success
+[2023-05-03 11:43:00] INFO root fetch - main [MainThread]: Store serial: [17954328]
