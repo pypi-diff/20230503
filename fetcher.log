@@ -5087,3 +5087,47 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-03 04:58:09] INFO root fetch - main [MainThread]: End processing [ralf-jhuapl]: success
 [2023-05-03 04:58:12] INFO root fetch - main [MainThread]: End processing [PySide2-Fluent-Widgets]: success
 [2023-05-03 04:58:12] INFO root fetch - main [MainThread]: Store serial: [17950817]
+[2023-05-03 05:03:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17950817]
+[2023-05-03 05:03:23] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-03 05:03:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: summerepi
+[2023-05-03 05:03:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: KMMTR
+[2023-05-03 05:03:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cygnsslib
+[2023-05-03 05:03:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: DLStudio
+[2023-05-03 05:03:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: discord-ext-pager
+[2023-05-03 05:03:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wxtrio
+[2023-05-03 05:03:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PyPDPM
+[2023-05-03 05:03:23] INFO root fetch - processPackages [summerepi]: New version: [4.2.0a0] Old Version: [4.1.0a0]
+[2023-05-03 05:03:23] INFO root fetch - processPackages [cygnsslib]: New version: [1.3.0] Old Version: [1.2.3]
+[2023-05-03 05:03:23] INFO root fetch - processPackages [PyPDPM]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-03 05:03:23] INFO root fetch - processPackages [wxtrio]: New version: [0.2.1] Old Version: [0.2]
+[2023-05-03 05:03:24] INFO root fetch - processPackages [DLStudio]: New version: [2.3.0] Old Version: [2.2.8]
+[2023-05-03 05:03:24] INFO root fetch - processPackages [discord-ext-pager]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-03 05:03:24] INFO root fetch - processPackages [summerepi]: executing diffoscope
+[2023-05-03 05:03:24] INFO root fetch - processPackages [summerepi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/summerepi-4.1.0a0.tar.gz tmp/summerepi-4.2.0a0.tar.gz --markdown 20230503/s/summerepi/4.1.0a0-4.2.0a0/diff.md --exclude *.pyd
+[2023-05-03 05:03:24] INFO root fetch - processPackages [KMMTR]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-03 05:03:24] INFO root fetch - processPackages [PyPDPM]: executing diffoscope
+[2023-05-03 05:03:24] INFO root fetch - processPackages [PyPDPM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyPDPM-0.0.3-py3-none-any.whl.zip tmp/PyPDPM-0.0.4.tar.gz --markdown 20230503/P/PyPDPM/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-03 05:03:24] INFO root fetch - processPackages [cygnsslib]: executing diffoscope
+[2023-05-03 05:03:24] INFO root fetch - processPackages [cygnsslib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cygnsslib-1.2.3.tar.gz tmp/cygnsslib-1.3.0.tar.gz --markdown 20230503/c/cygnsslib/1.2.3-1.3.0/diff.md --exclude *.pyd
+[2023-05-03 05:03:24] INFO root fetch - processPackages [wxtrio]: Downloading https://files.pythonhosted.org/packages/11/dc/cf3700ed956e06dceaf3d846a8e96578ecad3f86d49e193d4eb6206c30c8/wxtrio-0.2.tar.gz
+[2023-05-03 05:03:24] INFO root fetch - processPackages [discord-ext-pager]: Downloading https://files.pythonhosted.org/packages/d4/ec/7c49467d6e8439ee856d324cc19470d9b59c61013cc0f3f912e9b2a2b888/discord-ext-pager-1.0.1.tar.gz
+[2023-05-03 05:03:24] INFO root fetch - processPackages [KMMTR]: Downloading https://files.pythonhosted.org/packages/90/1e/9b920e17463ed92c0f544d92eb91cefee7089176b70e8cd2bb73852277b8/KMMTR-0.0.1.tar.gz
+[2023-05-03 05:03:24] INFO root fetch - processPackages [DLStudio]: Downloading https://files.pythonhosted.org/packages/ae/26/6a35924fcfc6ec824cffc3f252dea8f4dcf02e6d52fd16f2e66580c1c059/DLStudio-2.2.8.tar.gz
+[2023-05-03 05:03:24] WARNING root fetch - processPackages [DLStudio]: Skipping package: exceeds size limit 19632621>=10485760
+[2023-05-03 05:03:24] INFO root fetch - main [MainThread]: End processing [DLStudio] error
+[2023-05-03 05:03:24] INFO root fetch - processPackages [wxtrio]: Downloading https://files.pythonhosted.org/packages/f9/0c/79519d3ed1cae21cab10cfba49335eb46c79eae547a783806e32df62fb20/wxtrio-0.2.1.tar.gz
+[2023-05-03 05:03:24] INFO root fetch - processPackages [KMMTR]: Downloading https://files.pythonhosted.org/packages/85/50/1b41f1351ac69a0a7caad6ce1515f1277f7c364c92e3d15918edfdc57f74/KMMTR-0.0.2.tar.gz
+[2023-05-03 05:03:24] INFO root fetch - processPackages [discord-ext-pager]: Downloading https://files.pythonhosted.org/packages/3e/d0/12ab365a878370868e45b59942241b68696da5b6e0f8a2b7cadcdd243fcd/discord-ext-pager-1.0.2.tar.gz
+[2023-05-03 05:03:24] INFO root fetch - processPackages [KMMTR]: executing diffoscope
+[2023-05-03 05:03:24] INFO root fetch - processPackages [KMMTR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KMMTR-0.0.1.tar.gz tmp/KMMTR-0.0.2.tar.gz --markdown 20230503/K/KMMTR/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-03 05:03:24] INFO root fetch - processPackages [discord-ext-pager]: executing diffoscope
+[2023-05-03 05:03:24] INFO root fetch - processPackages [discord-ext-pager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discord-ext-pager-1.0.1.tar.gz tmp/discord-ext-pager-1.0.2.tar.gz --markdown 20230503/d/discord-ext-pager/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-03 05:03:24] INFO root fetch - processPackages [wxtrio]: executing diffoscope
+[2023-05-03 05:03:24] INFO root fetch - processPackages [wxtrio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wxtrio-0.2.tar.gz tmp/wxtrio-0.2.1.tar.gz --markdown 20230503/w/wxtrio/0.2-0.2.1/diff.md --exclude *.pyd
+[2023-05-03 05:03:25] INFO root fetch - main [MainThread]: End processing [PyPDPM]: success
+[2023-05-03 05:03:25] INFO root fetch - main [MainThread]: End processing [summerepi]: success
+[2023-05-03 05:03:25] INFO root fetch - main [MainThread]: End processing [cygnsslib]: success
+[2023-05-03 05:03:25] INFO root fetch - main [MainThread]: End processing [KMMTR]: success
+[2023-05-03 05:03:25] INFO root fetch - main [MainThread]: End processing [discord-ext-pager]: success
+[2023-05-03 05:03:25] INFO root fetch - main [MainThread]: End processing [wxtrio]: success
+[2023-05-03 05:03:25] INFO root fetch - main [MainThread]: Store serial: [17950839]
