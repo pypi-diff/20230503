@@ -7391,3 +7391,64 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-03 08:34:05] INFO root fetch - main [MainThread]: End processing [sapx]: success
 [2023-05-03 08:34:05] INFO root fetch - main [MainThread]: End processing [adaflow-python]: success
 [2023-05-03 08:34:05] INFO root fetch - main [MainThread]: Store serial: [17952234]
+[2023-05-03 08:39:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17952234]
+[2023-05-03 08:39:14] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-03 08:39:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: magic-module-skaffolder
+[2023-05-03 08:39:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: thriftpy2-httpx-client
+[2023-05-03 08:39:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jaco2
+[2023-05-03 08:39:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gpyt
+[2023-05-03 08:39:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chalk-harness
+[2023-05-03 08:39:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tf-nightly-macos
+[2023-05-03 08:39:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rmrkl
+[2023-05-03 08:39:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: browsr
+[2023-05-03 08:39:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: csst-ifs-gehong
+[2023-05-03 08:39:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gpt-review
+[2023-05-03 08:39:14] WARNING root fetch - processPackages [magic-module-skaffolder]: Skipping, unable to determine old version
+[2023-05-03 08:39:14] INFO root fetch - processPackages [magic-module-skaffolder]: Start processing: customized-chart
+[2023-05-03 08:39:14] INFO root fetch - main [MainThread]: End processing [magic-module-skaffolder] error
+[2023-05-03 08:39:14] WARNING root fetch - processPackages [browsr]: Skipping, unable to determine old version
+[2023-05-03 08:39:14] INFO root fetch - main [MainThread]: End processing [browsr] error
+[2023-05-03 08:39:14] INFO root fetch - processPackages [gpyt]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-03 08:39:14] INFO root fetch - processPackages [thriftpy2-httpx-client]: New version: [0.3] Old Version: [0.2.5]
+[2023-05-03 08:39:14] WARNING root fetch - processPackages [csst-ifs-gehong]: Skipping, unable to determine old version
+[2023-05-03 08:39:14] INFO root fetch - processPackages [rmrkl]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-03 08:39:14] INFO root fetch - main [MainThread]: End processing [csst-ifs-gehong] error
+[2023-05-03 08:39:14] INFO root fetch - processPackages [customized-chart]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-03 08:39:14] INFO root fetch - processPackages [gpt-review]: New version: [0.2.3rc315.post1] Old Version: [0.2.3rc314.post1]
+[2023-05-03 08:39:14] INFO root fetch - processPackages [jaco2]: New version: [4.1] Old Version: [3.9]
+[2023-05-03 08:39:14] INFO root fetch - processPackages [chalk-harness]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-03 08:39:14] INFO root fetch - processPackages [tf-nightly-macos]: New version: [2.14.0.dev20230502] Old Version: [2.13.0.dev20230501]
+[2023-05-03 08:39:14] INFO root fetch - processPackages [customized-chart]: executing diffoscope
+[2023-05-03 08:39:14] INFO root fetch - processPackages [customized-chart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/customized_chart-0.1.8.tar.gz tmp/customized_chart-0.1.9.tar.gz --markdown 20230503/c/customized-chart/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-03 08:39:14] INFO root fetch - processPackages [tf-nightly-macos]: Downloading https://files.pythonhosted.org/packages/5d/28/803baf761f124ae84c59485f2f87f46d415f03c875eca7864495dd5c8e13/tf_nightly_macos-2.13.0.dev20230501-cp39-cp39-macosx_12_0_arm64.whl
+[2023-05-03 08:39:14] INFO root fetch - processPackages [gpt-review]: Downloading https://files.pythonhosted.org/packages/bf/9c/cd4760db8319e27b0ec232d80bc3d980a3a4f1714fc727a6f24947a03294/gpt-review-0.2.3rc314.post1.tar.gz
+[2023-05-03 08:39:14] INFO root fetch - processPackages [jaco2]: Downloading https://files.pythonhosted.org/packages/3b/b9/6ac9a8d285bba84e0c33c1b04bbcc5ca346dab208c9cc4ab7763316df6f4/jaco2-3.9-cp311-cp311-win_amd64.whl
+[2023-05-03 08:39:14] INFO root fetch - processPackages [chalk-harness]: executing diffoscope
+[2023-05-03 08:39:14] INFO root fetch - processPackages [chalk-harness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalk-harness-0.9.8.tar.gz tmp/chalk-harness-0.9.9.tar.gz --markdown 20230503/c/chalk-harness/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-03 08:39:14] INFO root fetch - processPackages [rmrkl]: Downloading https://files.pythonhosted.org/packages/0c/07/933e2b9b13c53e5b50d9ec54d43c25c2576ef76ac79605be799f81f871c6/rmrkl-0.0.1.tar.gz
+[2023-05-03 08:39:14] INFO root fetch - processPackages [thriftpy2-httpx-client]: Downloading https://files.pythonhosted.org/packages/82/f9/1a6eb522fb4d0511c8f8e90bf8f10fca33472e94560ecbb1c102f393aebf/thriftpy2-httpx-client-0.2.5.tar.gz
+[2023-05-03 08:39:14] INFO root fetch - processPackages [gpyt]: Downloading https://files.pythonhosted.org/packages/39/c0/473822117b0d6acd16de7653776a03aac8f55ff3fc05731ce83869cf0e0d/gpyt-0.2.3.tar.gz
+[2023-05-03 08:39:14] WARNING root fetch - processPackages [tf-nightly-macos]: Skipping package: exceeds size limit 189278857>=10485760
+[2023-05-03 08:39:14] INFO root fetch - main [MainThread]: End processing [tf-nightly-macos] error
+[2023-05-03 08:39:14] INFO root fetch - processPackages [gpyt]: executing diffoscope
+[2023-05-03 08:39:14] INFO root fetch - processPackages [gpyt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpyt-0.2.2.tar.gz tmp/gpyt-0.2.3.tar.gz --markdown 20230503/g/gpyt/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-03 08:39:14] INFO root fetch - processPackages [gpt-review]: Downloading https://files.pythonhosted.org/packages/76/21/68a30ce2e0b45dee6881cd41c99f728b7aa88b1dd35b1a5d23633eca11d8/gpt-review-0.2.3rc315.post1.tar.gz
+[2023-05-03 08:39:14] INFO root fetch - processPackages [jaco2]: Downloading https://files.pythonhosted.org/packages/3f/08/f067d52b6a6c5606726e573560b891e60ec5a03635c5562c5d2ca2c8bb7a/jaco2-4.1-cp311-cp311-win_amd64.whl
+[2023-05-03 08:39:14] INFO root fetch - processPackages [rmrkl]: Downloading https://files.pythonhosted.org/packages/6c/bd/b07198302d63309535305607995a5c24baba01b90c78db952a860db136bd/rmrkl-0.0.2.tar.gz
+[2023-05-03 08:39:14] INFO root fetch - processPackages [thriftpy2-httpx-client]: Downloading https://files.pythonhosted.org/packages/8d/2b/e72dc97e323d2fab49e63f204848b49eb27dc36e79a4d2d3f459438416e4/thriftpy2-httpx-client-0.3.tar.gz
+[2023-05-03 08:39:14] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-05-03 08:39:14] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-review-0.2.3rc314.post1.tar.gz tmp/gpt-review-0.2.3rc315.post1.tar.gz --markdown 20230503/g/gpt-review/0.2.3rc314.post1-0.2.3rc315.post1/diff.md --exclude *.pyd
+[2023-05-03 08:39:14] INFO root fetch - processPackages [rmrkl]: executing diffoscope
+[2023-05-03 08:39:14] INFO root fetch - processPackages [rmrkl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rmrkl-0.0.1.tar.gz tmp/rmrkl-0.0.2.tar.gz --markdown 20230503/r/rmrkl/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-03 08:39:14] INFO root fetch - processPackages [jaco2]: executing diffoscope
+[2023-05-03 08:39:14] INFO root fetch - processPackages [jaco2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaco2-3.9-cp311-cp311-win_amd64.whl.zip tmp/jaco2-4.1-cp311-cp311-win_amd64.whl.zip --markdown 20230503/j/jaco2/3.9-4.1/diff.md --exclude *.pyd
+[2023-05-03 08:39:14] INFO root fetch - processPackages [thriftpy2-httpx-client]: executing diffoscope
+[2023-05-03 08:39:14] INFO root fetch - processPackages [thriftpy2-httpx-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thriftpy2-httpx-client-0.2.5.tar.gz tmp/thriftpy2-httpx-client-0.3.tar.gz --markdown 20230503/t/thriftpy2-httpx-client/0.2.5-0.3/diff.md --exclude *.pyd
+[2023-05-03 08:39:15] INFO root fetch - main [MainThread]: End processing [chalk-harness]: success
+[2023-05-03 08:39:15] INFO root fetch - main [MainThread]: End processing [gpyt]: success
+[2023-05-03 08:39:15] INFO root fetch - main [MainThread]: End processing [customized-chart]: success
+[2023-05-03 08:39:16] INFO root fetch - main [MainThread]: End processing [rmrkl]: success
+[2023-05-03 08:39:16] INFO root fetch - main [MainThread]: End processing [jaco2]: success
+[2023-05-03 08:39:16] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-05-03 08:39:16] INFO root fetch - main [MainThread]: End processing [thriftpy2-httpx-client]: success
+[2023-05-03 08:39:16] INFO root fetch - main [MainThread]: Store serial: [17952272]
