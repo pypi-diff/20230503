@@ -12956,3 +12956,122 @@ No space left on device. Diffoscope exiting.
 [2023-05-03 12:54:43] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
 [2023-05-03 12:56:25] INFO root fetch - main [MainThread]: End processing [pandocker-lua-filters]: success
 [2023-05-03 12:56:25] INFO root fetch - main [MainThread]: Store serial: [17955271]
+[2023-05-03 13:01:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17955271]
+[2023-05-03 13:01:34] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-03 13:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dataplaybook
+[2023-05-03 13:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pycart
+[2023-05-03 13:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyzsf
+[2023-05-03 13:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qa-keys-test
+[2023-05-03 13:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: onlinepayments-sdk-python2
+[2023-05-03 13:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: onlinepayments-sdk-python3
+[2023-05-03 13:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vpnkillswitch
+[2023-05-03 13:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PyBerries
+[2023-05-03 13:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ibllib
+[2023-05-03 13:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: maus
+[2023-05-03 13:01:34] INFO root fetch - processPackages [vpnkillswitch]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-03 13:01:34] INFO root fetch - processPackages [onlinepayments-sdk-python3]: New version: [4.9.0] Old Version: [4.8.0]
+[2023-05-03 13:01:34] INFO root fetch - processPackages [dataplaybook]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-03 13:01:34] INFO root fetch - processPackages [pycart]: New version: [0.2.0] Old Version: [0.1.22]
+[2023-05-03 13:01:34] INFO root fetch - processPackages [onlinepayments-sdk-python2]: New version: [4.9.0] Old Version: [4.8.0]
+[2023-05-03 13:01:34] WARNING root fetch - processPackages [qa-keys-test]: Skipping, unable to determine old version
+[2023-05-03 13:01:34] INFO root fetch - processPackages [qa-keys-test]: Start processing: harborapi
+[2023-05-03 13:01:34] INFO root fetch - main [MainThread]: End processing [qa-keys-test] error
+[2023-05-03 13:01:34] INFO root fetch - processPackages [pyzsf]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-03 13:01:34] WARNING root fetch - processPackages [PyBerries]: Skipping, unable to determine old version
+[2023-05-03 13:01:34] INFO root fetch - processPackages [PyBerries]: Start processing: ampltools
+[2023-05-03 13:01:34] INFO root fetch - main [MainThread]: End processing [PyBerries] error
+[2023-05-03 13:01:34] INFO root fetch - processPackages [maus]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-03 13:01:34] INFO root fetch - processPackages [ibllib]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-05-03 13:01:34] INFO root fetch - processPackages [harborapi]: New version: [0.9.0] Old Version: [0.8.6]
+[2023-05-03 13:01:34] INFO root fetch - processPackages [ampltools]: New version: [0.5.3b0] Old Version: [0.5.2]
+[2023-05-03 13:01:34] INFO root fetch - processPackages [maus]: Downloading https://files.pythonhosted.org/packages/a4/23/5ac39406dc701aee5fdafeb6350a30fef179218b19107073277eb52e9478/maus-0.3.8.tar.gz
+[2023-05-03 13:01:35] INFO root fetch - processPackages [ibllib]: executing diffoscope
+[2023-05-03 13:01:35] INFO root fetch - processPackages [ibllib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibllib-2.9.0.tar.gz tmp/ibllib-2.9.1.tar.gz --markdown 20230503/i/ibllib/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-05-03 13:01:35] INFO root fetch - processPackages [onlinepayments-sdk-python2]: Downloading https://files.pythonhosted.org/packages/43/c7/7ad08f50743b8a1bcdcbeec11af7b20b4393a657c09a98069fd77af21b4c/onlinepayments-sdk-python2-4.8.0.zip
+[2023-05-03 13:01:35] INFO root fetch - processPackages [vpnkillswitch]: Downloading https://files.pythonhosted.org/packages/92/39/7e2e778d8ded21fe793d1a8941a91d07cb03b4843ec6933d89dca3b9d376/vpnkillswitch-0.1.8.tar.gz
+[2023-05-03 13:01:35] INFO root fetch - processPackages [pycart]: Downloading https://files.pythonhosted.org/packages/1b/ea/055e4b87a5c341e17bc5218e5fdcbcf5d641e387f690d3e980cc027efed9/pycart-0.1.22.tar.gz
+[2023-05-03 13:01:35] INFO root fetch - processPackages [dataplaybook]: Downloading https://files.pythonhosted.org/packages/88/ba/815f4a51f893d73f757a50f949cca8907fd8d36729e80b0789b513d54f0a/dataplaybook-1.0.8.tar.gz
+[2023-05-03 13:01:35] INFO root fetch - processPackages [onlinepayments-sdk-python3]: Downloading https://files.pythonhosted.org/packages/e0/ef/4acd5fb2defed529b138b70b00cd735addd1359fc93e39c030792ae47d75/onlinepayments-sdk-python3-4.8.0.zip
+[2023-05-03 13:01:35] INFO root fetch - processPackages [harborapi]: Downloading https://files.pythonhosted.org/packages/5c/2a/58d6ecd57c3d1b448b9dc47dc94b6192a2d2a954d42fc450e4d4e9ac2017/harborapi-0.8.6.tar.gz
+[2023-05-03 13:01:35] INFO root fetch - processPackages [ampltools]: Downloading https://files.pythonhosted.org/packages/63/3a/1d444b9801aa43c3219136337739a9d942d748fdf49ba86632265edbc69a/ampltools-0.5.2.tar.gz
+[2023-05-03 13:01:35] INFO root fetch - processPackages [maus]: Downloading https://files.pythonhosted.org/packages/11/45/026d34b52f83a6417b7fafbe9c0acbf0025b3260ec976596144262094a61/maus-0.3.9.tar.gz
+[2023-05-03 13:01:35] INFO root fetch - processPackages [maus]: executing diffoscope
+[2023-05-03 13:01:35] INFO root fetch - processPackages [maus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maus-0.3.8.tar.gz tmp/maus-0.3.9.tar.gz --markdown 20230503/m/maus/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-03 13:01:35] INFO root fetch - processPackages [onlinepayments-sdk-python2]: Downloading https://files.pythonhosted.org/packages/cc/33/2f415c744846f4834d26c13b66ec4921a450327e503ec7dac50ae61999de/onlinepayments-sdk-python2-4.9.0.zip
+[2023-05-03 13:01:35] INFO root fetch - processPackages [pyzsf]: executing diffoscope
+[2023-05-03 13:01:35] INFO root fetch - processPackages [pyzsf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyzsf-0.1.1-cp36-abi3-win_amd64.whl.zip tmp/pyzsf-0.1.2-cp36-abi3-win_amd64.whl.zip --markdown 20230503/p/pyzsf/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-03 13:01:35] INFO root fetch - processPackages [ampltools]: Downloading https://files.pythonhosted.org/packages/6d/f2/6d74275ebca43a1a72acfd54c3e153c8cc760a4cd4024da23abaf0e4e6e7/ampltools-0.5.3b0.tar.gz
+[2023-05-03 13:01:35] INFO root fetch - processPackages [onlinepayments-sdk-python3]: Downloading https://files.pythonhosted.org/packages/f8/2c/057a23ec03d5071c342bba2674df06d7cf30756ddae130c30aeeb20937b5/onlinepayments-sdk-python3-4.9.0.zip
+[2023-05-03 13:01:35] INFO root fetch - processPackages [onlinepayments-sdk-python2]: executing diffoscope
+[2023-05-03 13:01:35] INFO root fetch - processPackages [onlinepayments-sdk-python2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onlinepayments-sdk-python2-4.8.0.zip tmp/onlinepayments-sdk-python2-4.9.0.zip --markdown 20230503/o/onlinepayments-sdk-python2/4.8.0-4.9.0/diff.md --exclude *.pyd
+[2023-05-03 13:01:35] INFO root fetch - processPackages [harborapi]: Downloading https://files.pythonhosted.org/packages/27/2c/7ea076b0aa166efe412bad3f442cd6278d311f903fcb51e89039fee40d71/harborapi-0.9.0.tar.gz
+[2023-05-03 13:01:35] INFO root fetch - processPackages [pycart]: Downloading https://files.pythonhosted.org/packages/d5/99/82cf54a8b03566b4d58c6a3129cbf0a57b61712b0f4e160ca025a5449641/pycart-0.2.0.tar.gz
+[2023-05-03 13:01:35] INFO root fetch - processPackages [onlinepayments-sdk-python3]: executing diffoscope
+[2023-05-03 13:01:35] INFO root fetch - processPackages [onlinepayments-sdk-python3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onlinepayments-sdk-python3-4.8.0.zip tmp/onlinepayments-sdk-python3-4.9.0.zip --markdown 20230503/o/onlinepayments-sdk-python3/4.8.0-4.9.0/diff.md --exclude *.pyd
+[2023-05-03 13:01:35] INFO root fetch - processPackages [vpnkillswitch]: Downloading https://files.pythonhosted.org/packages/e9/29/ea3c23be2d1dd1f20773e2fb481f30808dc13000e74e77bfef5e74d6e099/vpnkillswitch-0.1.9.tar.gz
+[2023-05-03 13:01:35] INFO root fetch - processPackages [pycart]: executing diffoscope
+[2023-05-03 13:01:35] INFO root fetch - processPackages [pycart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycart-0.1.22.tar.gz tmp/pycart-0.2.0.tar.gz --markdown 20230503/p/pycart/0.1.22-0.2.0/diff.md --exclude *.pyd
+[2023-05-03 13:01:35] INFO root fetch - processPackages [dataplaybook]: Downloading https://files.pythonhosted.org/packages/f9/3d/9f8cf1f88880af8844d89c3356039be31b1240205a1b486c16744952f341/dataplaybook-1.0.9.tar.gz
+[2023-05-03 13:01:35] INFO root fetch - processPackages [harborapi]: executing diffoscope
+[2023-05-03 13:01:35] INFO root fetch - processPackages [harborapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/harborapi-0.8.6.tar.gz tmp/harborapi-0.9.0.tar.gz --markdown 20230503/h/harborapi/0.8.6-0.9.0/diff.md --exclude *.pyd
+[2023-05-03 13:01:35] INFO root fetch - processPackages [ampltools]: executing diffoscope
+[2023-05-03 13:01:35] INFO root fetch - processPackages [ampltools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ampltools-0.5.2.tar.gz tmp/ampltools-0.5.3b0.tar.gz --markdown 20230503/a/ampltools/0.5.2-0.5.3b0/diff.md --exclude *.pyd
+[2023-05-03 13:01:35] INFO root fetch - processPackages [vpnkillswitch]: executing diffoscope
+[2023-05-03 13:01:35] INFO root fetch - processPackages [vpnkillswitch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vpnkillswitch-0.1.8.tar.gz tmp/vpnkillswitch-0.1.9.tar.gz --markdown 20230503/v/vpnkillswitch/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-03 13:01:35] INFO root fetch - processPackages [dataplaybook]: executing diffoscope
+[2023-05-03 13:01:35] INFO root fetch - processPackages [dataplaybook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataplaybook-1.0.8.tar.gz tmp/dataplaybook-1.0.9.tar.gz --markdown 20230503/d/dataplaybook/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-03 13:01:36] INFO root fetch - processPackages [pyzsf]: Start processing: fwdviewpy
+[2023-05-03 13:01:36] INFO root fetch - main [MainThread]: End processing [pyzsf]: success
+[2023-05-03 13:01:36] INFO root fetch - processPackages [fwdviewpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-03 13:01:37] INFO root fetch - processPackages [fwdviewpy]: executing diffoscope
+[2023-05-03 13:01:37] INFO root fetch - processPackages [fwdviewpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fwdviewpy-0.1.8.tar.gz tmp/fwdviewpy-0.1.9.tar.gz --markdown 20230503/f/fwdviewpy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-03 13:01:37] INFO root fetch - processPackages [pycart]: Start processing: pybgpasn
+[2023-05-03 13:01:37] INFO root fetch - main [MainThread]: End processing [pycart]: success
+[2023-05-03 13:01:37] INFO root fetch - processPackages [pybgpasn]: New version: [1.0.2] Old Version: [0.0.0]
+[2023-05-03 13:01:37] INFO root fetch - processPackages [vpnkillswitch]: Start processing: mdata
+[2023-05-03 13:01:37] INFO root fetch - main [MainThread]: End processing [vpnkillswitch]: success
+[2023-05-03 13:01:37] WARNING root fetch - processPackages [mdata]: Skipping, unable to determine old version
+[2023-05-03 13:01:37] INFO root fetch - processPackages [mdata]: Start processing: lesscode-tool
+[2023-05-03 13:01:37] INFO root fetch - main [MainThread]: End processing [mdata] error
+[2023-05-03 13:01:37] INFO root fetch - processPackages [lesscode-tool]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 13:01:37] INFO root fetch - processPackages [pybgpasn]: Downloading https://files.pythonhosted.org/packages/b8/3d/d0ff5d8af8618394297d1d3d243b354e13c2169780e07f6b13c3dfb9ccc3/pybgpasn-0.0.0.tar.gz
+[2023-05-03 13:01:37] INFO root fetch - processPackages [ampltools]: Start processing: promptbot
+[2023-05-03 13:01:37] INFO root fetch - main [MainThread]: End processing [ampltools]: success
+[2023-05-03 13:01:37] INFO root fetch - processPackages [lesscode-tool]: executing diffoscope
+[2023-05-03 13:01:37] INFO root fetch - processPackages [lesscode-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesscode_tool-0.0.8.tar.gz tmp/lesscode_tool-0.0.9.tar.gz --markdown 20230503/l/lesscode-tool/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 13:01:37] INFO root fetch - processPackages [promptbot]: New version: [0.0.1a6] Old Version: [0.0.1a5]
+[2023-05-03 13:01:37] INFO root fetch - processPackages [pybgpasn]: Downloading https://files.pythonhosted.org/packages/c7/47/206e5f9df5a95f21f744cf81ab7bbfa2d4d4d4ba56c512854488129f77c8/pybgpasn-1.0.2.tar.gz
+[2023-05-03 13:01:37] INFO root fetch - processPackages [pybgpasn]: executing diffoscope
+[2023-05-03 13:01:37] INFO root fetch - processPackages [pybgpasn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybgpasn-0.0.0.tar.gz tmp/pybgpasn-1.0.2.tar.gz --markdown 20230503/p/pybgpasn/0.0.0-1.0.2/diff.md --exclude *.pyd
+[2023-05-03 13:01:37] INFO root fetch - processPackages [promptbot]: Downloading https://files.pythonhosted.org/packages/48/a5/de8fb9481b737e4340aadae15455ccdbb2719bc6e8b99ea62f7648849a59/promptbot-0.0.1a5.tar.gz
+[2023-05-03 13:01:37] INFO root fetch - processPackages [promptbot]: Downloading https://files.pythonhosted.org/packages/4d/0d/9983cafa1c340312be04303dbdfd941dee2563ffa08606cef28ef531ff4a/promptbot-0.0.1a6.tar.gz
+[2023-05-03 13:01:38] INFO root fetch - processPackages [harborapi]: Start processing: toolnew30
+[2023-05-03 13:01:38] INFO root fetch - main [MainThread]: End processing [harborapi]: success
+[2023-05-03 13:01:38] WARNING root fetch - processPackages [toolnew30]: Skipping, unable to determine old version
+[2023-05-03 13:01:38] INFO root fetch - processPackages [toolnew30]: Start processing: cs.resources
+[2023-05-03 13:01:38] INFO root fetch - main [MainThread]: End processing [toolnew30] error
+[2023-05-03 13:01:38] INFO root fetch - processPackages [promptbot]: executing diffoscope
+[2023-05-03 13:01:38] INFO root fetch - processPackages [promptbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptbot-0.0.1a5.tar.gz tmp/promptbot-0.0.1a6.tar.gz --markdown 20230503/p/promptbot/0.0.1a5-0.0.1a6/diff.md --exclude *.pyd
+[2023-05-03 13:01:38] INFO root fetch - processPackages [cs.resources]: New version: [20230503] Old Version: [20230331]
+[2023-05-03 13:01:38] INFO root fetch - processPackages [cs.resources]: Downloading https://files.pythonhosted.org/packages/e1/85/d2f4c9c696d3956043756a28aada4f5eab5f42e657f31432097721e8ae6f/cs.resources-20230331.tar.gz
+[2023-05-03 13:01:38] INFO root fetch - processPackages [fwdviewpy]: Start processing: pylebai
+[2023-05-03 13:01:38] INFO root fetch - main [MainThread]: End processing [fwdviewpy]: success
+[2023-05-03 13:01:38] INFO root fetch - processPackages [cs.resources]: Downloading https://files.pythonhosted.org/packages/5d/af/ddedc969d3960c7aa3f79a565a1b7d6085b2c1b11d8863d5dca22952f29f/cs.resources-20230503.tar.gz
+[2023-05-03 13:01:38] INFO root fetch - processPackages [pylebai]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-03 13:01:38] INFO root fetch - processPackages [cs.resources]: executing diffoscope
+[2023-05-03 13:01:38] INFO root fetch - processPackages [cs.resources]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs.resources-20230331.tar.gz tmp/cs.resources-20230503.tar.gz --markdown 20230503/c/cs.resources/20230331-20230503/diff.md --exclude *.pyd
+[2023-05-03 13:01:38] INFO root fetch - main [MainThread]: End processing [maus]: success
+[2023-05-03 13:01:38] INFO root fetch - main [MainThread]: End processing [lesscode-tool]: success
+[2023-05-03 13:01:38] INFO root fetch - processPackages [pylebai]: Downloading https://files.pythonhosted.org/packages/39/04/63f53f4c3f32d001a60962996720d289a886446d16ca2b102d0465b2bfd4/pylebai-1.0.8-pp38-pypy38_pp73-manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+[2023-05-03 13:01:38] INFO root fetch - main [MainThread]: End processing [dataplaybook]: success
+[2023-05-03 13:01:39] INFO root fetch - main [MainThread]: End processing [pybgpasn]: success
+[2023-05-03 13:01:39] INFO root fetch - processPackages [pylebai]: Downloading https://files.pythonhosted.org/packages/71/27/26c3d81460d00fe753045d1b935b8623f6e9953872fa4953a8577a2e8b1b/pylebai-1.0.9-pp38-pypy38_pp73-manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+[2023-05-03 13:01:39] INFO root fetch - main [MainThread]: End processing [promptbot]: success
+[2023-05-03 13:01:39] INFO root fetch - processPackages [pylebai]: executing diffoscope
+[2023-05-03 13:01:39] INFO root fetch - processPackages [pylebai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylebai-1.0.8-pp38-pypy38_pp73-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip tmp/pylebai-1.0.9-pp38-pypy38_pp73-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip --markdown 20230503/p/pylebai/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-03 13:01:39] INFO root fetch - main [MainThread]: End processing [onlinepayments-sdk-python3]: success
+[2023-05-03 13:01:39] INFO root fetch - main [MainThread]: End processing [onlinepayments-sdk-python2]: success
+[2023-05-03 13:01:40] INFO root fetch - main [MainThread]: End processing [cs.resources]: success
+[2023-05-03 13:01:44] INFO root fetch - main [MainThread]: End processing [ibllib]: success
+[2023-05-03 13:01:55] INFO root fetch - main [MainThread]: End processing [pylebai]: success
+[2023-05-03 13:01:55] INFO root fetch - main [MainThread]: Store serial: [17955357]
