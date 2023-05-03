@@ -6487,3 +6487,72 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-03 07:00:51] INFO root fetch - main [MainThread]: End processing [volworld-aws-api-common]: success
 [2023-05-03 07:00:51] INFO root fetch - main [MainThread]: End processing [easy-crud-repo-service]: success
 [2023-05-03 07:00:51] INFO root fetch - main [MainThread]: Store serial: [17951738]
+[2023-05-03 07:05:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17951738]
+[2023-05-03 07:06:00] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-03 07:06:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: imageidentify
+[2023-05-03 07:06:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: phomemo-p12-tools
+[2023-05-03 07:06:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dask-cuda
+[2023-05-03 07:06:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xchembku
+[2023-05-03 07:06:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rescupybs
+[2023-05-03 07:06:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tensorflow-dataset
+[2023-05-03 07:06:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ftrixminer
+[2023-05-03 07:06:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PyPDPM
+[2023-05-03 07:06:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: decanter-ai-sdk
+[2023-05-03 07:06:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ghanashops-scraper
+[2023-05-03 07:06:00] INFO root fetch - processPackages [rescupybs]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-03 07:06:00] WARNING root fetch - processPackages [imageidentify]: Skipping, unable to determine old version
+[2023-05-03 07:06:00] INFO root fetch - processPackages [imageidentify]: Start processing: rapid-pe
+[2023-05-03 07:06:00] INFO root fetch - main [MainThread]: End processing [imageidentify] error
+[2023-05-03 07:06:00] INFO root fetch - processPackages [phomemo-p12-tools]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-03 07:06:00] INFO root fetch - processPackages [ftrixminer]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-05-03 07:06:00] INFO root fetch - processPackages [PyPDPM]: New version: [0.0.5.9] Old Version: [0.0.5.8]
+[2023-05-03 07:06:00] INFO root fetch - processPackages [decanter-ai-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-03 07:06:00] INFO root fetch - processPackages [tensorflow-dataset]: New version: [0.4.2] Old Version: [0.4.11]
+[2023-05-03 07:06:00] INFO root fetch - processPackages [xchembku]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-05-03 07:06:00] WARNING root fetch - processPackages [ghanashops-scraper]: Skipping, unable to determine old version
+[2023-05-03 07:06:00] INFO root fetch - processPackages [ghanashops-scraper]: Start processing: pyasd
+[2023-05-03 07:06:00] INFO root fetch - main [MainThread]: End processing [ghanashops-scraper] error
+[2023-05-03 07:06:00] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.1.dev20230503] Old Version: [0.1.1.dev20230502]
+[2023-05-03 07:06:00] INFO root fetch - processPackages [dask-cuda]: New version: [23.6.0a230503] Old Version: [23.6.0a230428]
+[2023-05-03 07:06:00] INFO root fetch - processPackages [tensorflow-dataset]: Downloading https://files.pythonhosted.org/packages/c8/e5/20c5e022472fbb88266756e641c26039f37d4eee6d396ec945793648ae77/tensorflow-dataset-0.4.11.tar.gz
+[2023-05-03 07:06:00] INFO root fetch - processPackages [phomemo-p12-tools]: Downloading https://files.pythonhosted.org/packages/3b/76/ac903452f3ff6a8e04305d907786ec31f77271c008fc2700c65cade161a5/phomemo-p12-tools-0.0.1.tar.gz
+[2023-05-03 07:06:00] INFO root fetch - processPackages [pyasd]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-03 07:06:00] INFO root fetch - processPackages [ftrixminer]: Downloading https://files.pythonhosted.org/packages/ac/bb/450ad13d0cae534e794db7159e4ab23582630f6e3c972785300893f4c5c5/ftrixminer-1.2.1.tar.gz
+[2023-05-03 07:06:00] INFO root fetch - processPackages [PyPDPM]: executing diffoscope
+[2023-05-03 07:06:00] INFO root fetch - processPackages [PyPDPM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyPDPM-0.0.5.8.tar.gz tmp/PyPDPM-0.0.5.9.tar.gz --markdown 20230503/P/PyPDPM/0.0.5.8-0.0.5.9/diff.md --exclude *.pyd
+[2023-05-03 07:06:00] INFO root fetch - processPackages [rescupybs]: Downloading https://files.pythonhosted.org/packages/1d/ea/02faada0f1c8ea74b8ec18e99adf1cd491a31e791385ae2b43cf10f46207/rescupybs-0.1.1-py3-none-any.whl
+[2023-05-03 07:06:00] INFO root fetch - processPackages [xchembku]: Downloading https://files.pythonhosted.org/packages/b5/ca/6ac06b1df6df021008bd089e2b5115731c4ccd9a9c00440df09379f5503c/xchembku-1.5.1.tar.gz
+[2023-05-03 07:06:01] INFO root fetch - processPackages [rescupybs]: executing diffoscope
+[2023-05-03 07:06:01] INFO root fetch - processPackages [rescupybs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rescupybs-0.1.0-py3-none-any.whl.zip tmp/rescupybs-0.1.1-py3-none-any.whl.zip --markdown 20230503/r/rescupybs/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-03 07:06:01] INFO root fetch - processPackages [xchembku]: executing diffoscope
+[2023-05-03 07:06:01] INFO root fetch - processPackages [xchembku]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xchembku-1.5.0.tar.gz tmp/xchembku-1.5.1.tar.gz --markdown 20230503/x/xchembku/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-05-03 07:06:01] INFO root fetch - processPackages [tensorflow-dataset]: executing diffoscope
+[2023-05-03 07:06:01] INFO root fetch - processPackages [tensorflow-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow-dataset-0.4.11.tar.gz tmp/tensorflow-dataset-0.4.2.tar.gz --markdown 20230503/t/tensorflow-dataset/0.4.11-0.4.2/diff.md --exclude *.pyd
+[2023-05-03 07:06:01] INFO root fetch - processPackages [ftrixminer]: executing diffoscope
+[2023-05-03 07:06:01] INFO root fetch - processPackages [ftrixminer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ftrixminer-1.2.0.tar.gz tmp/ftrixminer-1.2.1.tar.gz --markdown 20230503/f/ftrixminer/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-05-03 07:06:01] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/40/62/0892a24664ef0670885e7204b1f357d1a95a803c7cd994ecd3f1dd886911/rapid_pe-0.1.1.dev20230503.tar.gz
+[2023-05-03 07:06:01] INFO root fetch - processPackages [pyasd]: Downloading https://files.pythonhosted.org/packages/77/bd/79cbacbeb270f5541b56f5dd9be065312b77b9ad72b71dca598b1fbc10fa/pyasd-0.0.2.tar.gz
+[2023-05-03 07:06:01] INFO root fetch - processPackages [decanter-ai-sdk]: executing diffoscope
+[2023-05-03 07:06:01] INFO root fetch - processPackages [decanter-ai-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decanter-ai-sdk-0.1.8.tar.gz tmp/decanter-ai-sdk-0.1.9.tar.gz --markdown 20230503/d/decanter-ai-sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-03 07:06:01] INFO root fetch - processPackages [phomemo-p12-tools]: Downloading https://files.pythonhosted.org/packages/00/33/f55113d487143a6213247feb0b682602d023b8e349c82990037a155bfcbf/phomemo-p12-tools-0.0.2.tar.gz
+[2023-05-03 07:06:01] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/c1/db/d4167781ebda8f70e54fe85fbeb813b52cd2a0a57589ebeb8e86bf9a1136/dask-cuda-23.6.0a230503.tar.gz
+[2023-05-03 07:06:01] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2023-05-03 07:06:01] INFO root fetch - processPackages [phomemo-p12-tools]: executing diffoscope
+[2023-05-03 07:06:01] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.1.dev20230502.tar.gz tmp/rapid_pe-0.1.1.dev20230503.tar.gz --markdown 20230503/r/rapid-pe/0.1.1.dev20230502-0.1.1.dev20230503/diff.md --exclude *.pyd
+[2023-05-03 07:06:01] INFO root fetch - processPackages [phomemo-p12-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phomemo-p12-tools-0.0.1.tar.gz tmp/phomemo-p12-tools-0.0.2.tar.gz --markdown 20230503/p/phomemo-p12-tools/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-03 07:06:01] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-05-03 07:06:01] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.6.0a230428.tar.gz tmp/dask-cuda-23.6.0a230503.tar.gz --markdown 20230503/d/dask-cuda/23.6.0a230428-23.6.0a230503/diff.md --exclude *.pyd
+[2023-05-03 07:06:02] INFO root fetch - processPackages [pyasd]: Downloading https://files.pythonhosted.org/packages/b7/e3/656fcbfcdd62b7a1fc8ff392d11fb692037fce0bc1810783fc2b2e4f11a5/pyasd-0.0.3-py3-none-any.whl
+[2023-05-03 07:06:02] INFO root fetch - processPackages [pyasd]: executing diffoscope
+[2023-05-03 07:06:02] INFO root fetch - processPackages [pyasd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyasd-0.0.2.tar.gz tmp/pyasd-0.0.3-py3-none-any.whl.zip --markdown 20230503/p/pyasd/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-03 07:06:02] INFO root fetch - main [MainThread]: End processing [rescupybs]: success
+[2023-05-03 07:06:02] INFO root fetch - main [MainThread]: End processing [tensorflow-dataset]: success
+[2023-05-03 07:06:02] INFO root fetch - main [MainThread]: End processing [decanter-ai-sdk]: success
+[2023-05-03 07:06:02] INFO root fetch - main [MainThread]: End processing [phomemo-p12-tools]: success
+[2023-05-03 07:06:02] INFO root fetch - main [MainThread]: End processing [xchembku]: success
+[2023-05-03 07:06:03] INFO root fetch - main [MainThread]: End processing [ftrixminer]: success
+[2023-05-03 07:06:03] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-05-03 07:06:03] INFO root fetch - main [MainThread]: End processing [pyasd]: success
+[2023-05-03 07:06:03] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2023-05-03 07:06:03] INFO root fetch - main [MainThread]: End processing [PyPDPM]: success
+[2023-05-03 07:06:03] INFO root fetch - main [MainThread]: Store serial: [17951784]
