@@ -4993,3 +4993,43 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-03 04:42:30] INFO root fetch - main [MainThread]: End processing [module-utilities]: success
 [2023-05-03 04:42:33] INFO root fetch - main [MainThread]: End processing [PySide6-Fluent-Widgets]: success
 [2023-05-03 04:42:33] INFO root fetch - main [MainThread]: Store serial: [17950735]
+[2023-05-03 04:47:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17950735]
+[2023-05-03 04:47:42] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-03 04:47:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wombat
+[2023-05-03 04:47:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: homeassistant
+[2023-05-03 04:47:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flake8-annotations
+[2023-05-03 04:47:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: certora-cli-alpha-jtoman-gmx-init
+[2023-05-03 04:47:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Shark-sac-Korean-editor
+[2023-05-03 04:47:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: uproot-browser
+[2023-05-03 04:47:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ddb-single
+[2023-05-03 04:47:42] INFO root fetch - processPackages [Shark-sac-Korean-editor]: New version: [2.0.5] Old Version: [0.0.1]
+[2023-05-03 04:47:42] INFO root fetch - processPackages [wombat]: New version: [0.7.0] Old Version: [0.6.2]
+[2023-05-03 04:47:42] INFO root fetch - processPackages [uproot-browser]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-05-03 04:47:42] INFO root fetch - processPackages [ddb-single]: New version: [0.3.5] Old Version: [0.3.3]
+[2023-05-03 04:47:42] INFO root fetch - processPackages [flake8-annotations]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-05-03 04:47:43] INFO root fetch - processPackages [homeassistant]: New version: [2023.5.0b8] Old Version: [2023.5.0b7]
+[2023-05-03 04:47:43] WARNING root fetch - processPackages [certora-cli-alpha-jtoman-gmx-init]: Skipping, unable to determine old version
+[2023-05-03 04:47:43] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-jtoman-gmx-init] error
+[2023-05-03 04:47:43] INFO root fetch - processPackages [Shark-sac-Korean-editor]: executing diffoscope
+[2023-05-03 04:47:43] INFO root fetch - processPackages [Shark-sac-Korean-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Shark sac Korean editor-0.0.1.tar.gz tmp/Shark sac Korean editor-2.0.5.tar.gz --markdown 20230503/S/Shark-sac-Korean-editor/0.0.1-2.0.5/diff.md --exclude *.pyd
+[2023-05-03 04:47:43] INFO root fetch - processPackages [ddb-single]: executing diffoscope
+[2023-05-03 04:47:43] INFO root fetch - processPackages [ddb-single]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddb_single-0.3.3.tar.gz tmp/ddb_single-0.3.5.tar.gz --markdown 20230503/d/ddb-single/0.3.3-0.3.5/diff.md --exclude *.pyd
+[2023-05-03 04:47:43] INFO root fetch - processPackages [uproot-browser]: executing diffoscope
+[2023-05-03 04:47:43] INFO root fetch - processPackages [uproot-browser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uproot_browser-0.5.0.tar.gz tmp/uproot_browser-0.6.0.tar.gz --markdown 20230503/u/uproot-browser/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-05-03 04:47:43] INFO root fetch - processPackages [wombat]: Downloading https://files.pythonhosted.org/packages/f3/b2/cadb962cdef6bf5977e6ee1731f3370cb8ee3e2aedfc872dd716907e2694/wombat-0.6.2.tar.gz
+[2023-05-03 04:47:43] INFO root fetch - processPackages [flake8-annotations]: Downloading https://files.pythonhosted.org/packages/0d/20/6e9f19f645d4a084351cd38e4b1b4896bddddc92aced9e01fb8a7eaf737c/flake8_annotations-3.0.0.tar.gz
+[2023-05-03 04:47:43] INFO root fetch - processPackages [homeassistant]: Downloading https://files.pythonhosted.org/packages/b6/e4/61f65550dfe9201f2dff3e38174a823f9c97be18c165f6179d9e8a19ce89/homeassistant-2023.5.0b7.tar.gz
+[2023-05-03 04:47:43] WARNING root fetch - processPackages [homeassistant]: Skipping package: exceeds size limit 13729488>=10485760
+[2023-05-03 04:47:43] INFO root fetch - main [MainThread]: End processing [homeassistant] error
+[2023-05-03 04:47:43] INFO root fetch - processPackages [flake8-annotations]: Downloading https://files.pythonhosted.org/packages/4a/1c/61f759cc427138603a3b2b9aee875193987e74a9c289b79bc9aa6c661687/flake8_annotations-3.0.1.tar.gz
+[2023-05-03 04:47:43] INFO root fetch - processPackages [flake8-annotations]: executing diffoscope
+[2023-05-03 04:47:43] INFO root fetch - processPackages [flake8-annotations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flake8_annotations-3.0.0.tar.gz tmp/flake8_annotations-3.0.1.tar.gz --markdown 20230503/f/flake8-annotations/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-05-03 04:47:44] INFO root fetch - processPackages [wombat]: Downloading https://files.pythonhosted.org/packages/3a/6e/2e709ba0482ef718d98e4313811cc398f544fd8402b264ff130d28115fc5/wombat-0.7.0.tar.gz
+[2023-05-03 04:47:44] INFO root fetch - main [MainThread]: End processing [uproot-browser]: success
+[2023-05-03 04:47:44] INFO root fetch - processPackages [wombat]: executing diffoscope
+[2023-05-03 04:47:44] INFO root fetch - processPackages [wombat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wombat-0.6.2.tar.gz tmp/wombat-0.7.0.tar.gz --markdown 20230503/w/wombat/0.6.2-0.7.0/diff.md --exclude *.pyd
+[2023-05-03 04:47:44] INFO root fetch - main [MainThread]: End processing [Shark-sac-Korean-editor]: success
+[2023-05-03 04:47:44] INFO root fetch - main [MainThread]: End processing [ddb-single]: success
+[2023-05-03 04:47:44] INFO root fetch - main [MainThread]: End processing [flake8-annotations]: success
+[2023-05-03 04:47:47] INFO root fetch - main [MainThread]: End processing [wombat]: success
+[2023-05-03 04:47:47] INFO root fetch - main [MainThread]: Store serial: [17950768]
