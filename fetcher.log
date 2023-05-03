@@ -5376,3 +5376,49 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-03 05:35:01] INFO root fetch - main [MainThread]: End processing [netbox-lists]: success
 [2023-05-03 05:35:01] INFO root fetch - main [MainThread]: End processing [heaobject]: success
 [2023-05-03 05:35:01] INFO root fetch - main [MainThread]: Store serial: [17951010]
+[2023-05-03 05:40:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17951010]
+[2023-05-03 05:40:11] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-03 05:40:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mojo-runtime
+[2023-05-03 05:40:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: AnimeCrawler
+[2023-05-03 05:40:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyPDPM
+[2023-05-03 05:40:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ogsapi
+[2023-05-03 05:40:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mojo-xmodules
+[2023-05-03 05:40:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PyPDPM
+[2023-05-03 05:40:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wtt02
+[2023-05-03 05:40:11] INFO root fetch - processPackages [AnimeCrawler]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-03 05:40:11] INFO root fetch - processPackages [PyPDPM]: New version: [0.0.5.5] Old Version: [0.0.5.4]
+[2023-05-03 05:40:11] INFO root fetch - processPackages [mojo-runtime]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 05:40:11] INFO root fetch - processPackages [PyPDPM]: New version: [0.0.5.5] Old Version: [0.0.5.4]
+[2023-05-03 05:40:11] INFO root fetch - processPackages [ogsapi]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-05-03 05:40:11] INFO root fetch - processPackages [mojo-xmodules]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 05:40:11] INFO root fetch - processPackages [wtt02]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-05-03 05:40:11] INFO root fetch - processPackages [AnimeCrawler]: Downloading https://files.pythonhosted.org/packages/d0/aa/6c8e997c2df3956417873f771a4b4c1e44822bb8fa81397fd32fd810f56a/AnimeCrawler-0.1.1.tar.gz
+[2023-05-03 05:40:11] INFO root fetch - processPackages [PyPDPM]: Downloading https://files.pythonhosted.org/packages/0d/ca/73e31cf1d5c741c309e6d4ac95569b5105e5a50c58fc0d94567fdcf10dfa/PyPDPM-0.0.5.4.tar.gz
+[2023-05-03 05:40:11] INFO root fetch - processPackages [PyPDPM]: Downloading https://files.pythonhosted.org/packages/0d/ca/73e31cf1d5c741c309e6d4ac95569b5105e5a50c58fc0d94567fdcf10dfa/PyPDPM-0.0.5.4.tar.gz
+[2023-05-03 05:40:12] INFO root fetch - processPackages [ogsapi]: Downloading https://files.pythonhosted.org/packages/f2/18/4beb8c863de516f2d6ff8c41e124fcb8df55203193f7faaaf3192dcdd6a1/ogsapi-0.5.0.tar.gz
+[2023-05-03 05:40:12] INFO root fetch - processPackages [mojo-runtime]: executing diffoscope
+[2023-05-03 05:40:12] INFO root fetch - processPackages [mojo-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_runtime-0.0.8.tar.gz tmp/mojo_runtime-0.0.9.tar.gz --markdown 20230503/m/mojo-runtime/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 05:40:12] INFO root fetch - processPackages [wtt02]: Downloading https://files.pythonhosted.org/packages/aa/e4/0dd6358cc5c42da77d32d3a35d4669867844343ab381109a23ab5df9a409/wtt02-0.3.4.tar.gz
+[2023-05-03 05:40:12] INFO root fetch - processPackages [PyPDPM]: Downloading https://files.pythonhosted.org/packages/e5/65/555ca297764b7c0e09b58e524c78e1446e83563f8acaf5dfd2e742a26bff/PyPDPM-0.0.5.5.tar.gz
+[2023-05-03 05:40:12] INFO root fetch - processPackages [PyPDPM]: Downloading https://files.pythonhosted.org/packages/e5/65/555ca297764b7c0e09b58e524c78e1446e83563f8acaf5dfd2e742a26bff/PyPDPM-0.0.5.5.tar.gz
+[2023-05-03 05:40:12] INFO root fetch - processPackages [ogsapi]: executing diffoscope
+[2023-05-03 05:40:12] INFO root fetch - processPackages [ogsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ogsapi-0.4.1.tar.gz tmp/ogsapi-0.5.0.tar.gz --markdown 20230503/o/ogsapi/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-05-03 05:40:12] INFO root fetch - processPackages [mojo-xmodules]: executing diffoscope
+[2023-05-03 05:40:12] INFO root fetch - processPackages [mojo-xmodules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_xmodules-0.0.8.tar.gz tmp/mojo_xmodules-0.0.9.tar.gz --markdown 20230503/m/mojo-xmodules/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 05:40:12] INFO root fetch - processPackages [AnimeCrawler]: Downloading https://files.pythonhosted.org/packages/f7/04/84d44ed9566b8909f8500ecba3e5145feaea44b5465b8c137932d12df204/AnimeCrawler-0.1.2.tar.gz
+[2023-05-03 05:40:12] INFO root fetch - processPackages [AnimeCrawler]: executing diffoscope
+[2023-05-03 05:40:12] INFO root fetch - processPackages [AnimeCrawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AnimeCrawler-0.1.1.tar.gz tmp/AnimeCrawler-0.1.2.tar.gz --markdown 20230503/A/AnimeCrawler/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-03 05:40:12] INFO root fetch - processPackages [wtt02]: executing diffoscope
+[2023-05-03 05:40:12] INFO root fetch - processPackages [wtt02]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wtt02-0.3.3.tar.gz tmp/wtt02-0.3.4.tar.gz --markdown 20230503/w/wtt02/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-05-03 05:40:12] INFO root fetch - processPackages [PyPDPM]: executing diffoscope
+[2023-05-03 05:40:12] INFO root fetch - processPackages [PyPDPM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyPDPM-0.0.5.4.tar.gz tmp/PyPDPM-0.0.5.5.tar.gz --markdown 20230503/P/PyPDPM/0.0.5.4-0.0.5.5/diff.md --exclude *.pyd
+[2023-05-03 05:40:12] INFO root fetch - processPackages [PyPDPM]: executing diffoscope
+[2023-05-03 05:40:12] INFO root fetch - processPackages [PyPDPM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyPDPM-0.0.5.4.tar.gz tmp/PyPDPM-0.0.5.5.tar.gz --markdown 20230503/P/PyPDPM/0.0.5.4-0.0.5.5/diff.md --exclude *.pyd
+[2023-05-03 05:40:13] INFO root fetch - main [MainThread]: End processing [mojo-runtime]: success
+[2023-05-03 05:40:13] INFO root fetch - main [MainThread]: End processing [ogsapi]: success
+[2023-05-03 05:40:13] INFO root fetch - main [MainThread]: End processing [AnimeCrawler]: success
+[2023-05-03 05:40:13] INFO root fetch - main [MainThread]: End processing [wtt02]: success
+[2023-05-03 05:40:13] INFO root fetch - main [MainThread]: End processing [mojo-xmodules]: success
+[2023-05-03 05:40:14] INFO root fetch - main [MainThread]: End processing [PyPDPM]: success
+[2023-05-03 05:40:16] INFO root fetch - main [MainThread]: End processing [PyPDPM]: success
+[2023-05-03 05:40:16] INFO root fetch - main [MainThread]: Store serial: [17951035]
