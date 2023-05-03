@@ -19203,3 +19203,126 @@ No space left on device. Diffoscope exiting.
 [2023-05-03 18:05:52] INFO root fetch - main [MainThread]: End processing [pynamer]: success
 [2023-05-03 18:05:55] INFO root fetch - main [MainThread]: End processing [discovery-transition-ds]: success
 [2023-05-03 18:05:55] INFO root fetch - main [MainThread]: Store serial: [17959184]
+[2023-05-03 18:11:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17959184]
+[2023-05-03 18:11:11] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-03 18:11:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: letipy
+[2023-05-03 18:11:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-adapter-minecraft
+[2023-05-03 18:11:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deadnews-template-python
+[2023-05-03 18:11:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rum-with-telegram
+[2023-05-03 18:11:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gaylogger
+[2023-05-03 18:11:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wikihowapi-pk
+[2023-05-03 18:11:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: notification-service-nightly
+[2023-05-03 18:11:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: batpy
+[2023-05-03 18:11:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ai-flow-nightly
+[2023-05-03 18:11:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: biocypher
+[2023-05-03 18:11:11] WARNING root fetch - processPackages [nonebot-adapter-minecraft]: Skipping, unable to determine old version
+[2023-05-03 18:11:11] INFO root fetch - processPackages [nonebot-adapter-minecraft]: Start processing: quantconnect-stubs
+[2023-05-03 18:11:11] INFO root fetch - main [MainThread]: End processing [nonebot-adapter-minecraft] error
+[2023-05-03 18:11:11] INFO root fetch - processPackages [wikihowapi-pk]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-03 18:11:11] INFO root fetch - processPackages [rum-with-telegram]: New version: [0.8.8] Old Version: [0.8.7]
+[2023-05-03 18:11:11] INFO root fetch - processPackages [ai-flow-nightly]: New version: [2023.5.2] Old Version: [2023.5.1]
+[2023-05-03 18:11:11] INFO root fetch - processPackages [notification-service-nightly]: New version: [2023.5.2] Old Version: [2023.5.1]
+[2023-05-03 18:11:11] INFO root fetch - processPackages [batpy]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-03 18:11:11] INFO root fetch - processPackages [quantconnect-stubs]: New version: [9998] Old Version: [9997]
+[2023-05-03 18:11:11] INFO root fetch - processPackages [letipy]: New version: [0.2.0] Old Version: [0.1.5]
+[2023-05-03 18:11:11] WARNING root fetch - processPackages [gaylogger]: Skipping, unable to determine old version
+[2023-05-03 18:11:11] INFO root fetch - processPackages [gaylogger]: Start processing: simple-aws-ec2
+[2023-05-03 18:11:11] INFO root fetch - processPackages [wikihowapi-pk]: executing diffoscope
+[2023-05-03 18:11:11] WARNING root fetch - processPackages [deadnews-template-python]: Skipping, unable to determine old version
+[2023-05-03 18:11:11] INFO root fetch - processPackages [wikihowapi-pk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wikihowapi_pk-0.0.1.tar.gz tmp/wikihowapi_pk-0.0.2.tar.gz --markdown 20230503/w/wikihowapi-pk/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-03 18:11:11] INFO root fetch - main [MainThread]: End processing [gaylogger] error
+[2023-05-03 18:11:11] INFO root fetch - processPackages [deadnews-template-python]: Start processing: MT5TrdHelper
+[2023-05-03 18:11:11] INFO root fetch - main [MainThread]: End processing [deadnews-template-python] error
+[2023-05-03 18:11:11] INFO root fetch - processPackages [biocypher]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-03 18:11:11] WARNING root fetch - processPackages [simple-aws-ec2]: Skipping, unable to determine old version
+[2023-05-03 18:11:11] INFO root fetch - processPackages [simple-aws-ec2]: Start processing: cmap
+[2023-05-03 18:11:11] INFO root fetch - main [MainThread]: End processing [simple-aws-ec2] error
+[2023-05-03 18:11:11] INFO root fetch - processPackages [quantconnect-stubs]: Downloading https://files.pythonhosted.org/packages/c1/05/f15c16a3f852decfd032ce1688dfdf02fd7289f1780742453533e8c55209/quantconnect-stubs-9997.tar.gz
+[2023-05-03 18:11:11] INFO root fetch - processPackages [rum-with-telegram]: executing diffoscope
+[2023-05-03 18:11:11] INFO root fetch - processPackages [rum-with-telegram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rum_with_telegram-0.8.7.tar.gz tmp/rum_with_telegram-0.8.8.tar.gz --markdown 20230503/r/rum-with-telegram/0.8.7-0.8.8/diff.md --exclude *.pyd
+[2023-05-03 18:11:11] INFO root fetch - processPackages [letipy]: Downloading https://files.pythonhosted.org/packages/f0/40/7aa8359b162e55d2e6be7d35e7a4f1ed9784b936a16b5a336f346ea303f0/letipy-0.1.5.tar.gz
+[2023-05-03 18:11:11] INFO root fetch - processPackages [MT5TrdHelper]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-03 18:11:11] INFO root fetch - processPackages [cmap]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-03 18:11:11] INFO root fetch - processPackages [ai-flow-nightly]: Downloading https://files.pythonhosted.org/packages/b2/c8/cc9c104bbcd67d97bb07affb1d0257b76e440b2b9d2d702a896fa6268788/ai_flow_nightly-2023.5.2.tar.gz
+[2023-05-03 18:11:11] INFO root fetch - processPackages [notification-service-nightly]: Downloading https://files.pythonhosted.org/packages/50/f1/cb0aee3c1f17d3e5765798c108ed026b7e80d77418a5829fc785266e9bd9/notification_service_nightly-2023.5.2.tar.gz
+[2023-05-03 18:11:11] INFO root fetch - processPackages [batpy]: Downloading https://files.pythonhosted.org/packages/59/05/e6a9f54de609c3b49ff7cde1fb40714323242239bff8db8ca6973db196e0/batpy-0.0.6.tar.gz
+[2023-05-03 18:11:11] INFO root fetch - processPackages [biocypher]: Downloading https://files.pythonhosted.org/packages/05/44/6a698ee7a3f25cac7ac85f9065432566d172eb7d6e302338dbee1acb6708/biocypher-0.5.8.tar.gz
+[2023-05-03 18:11:11] INFO root fetch - processPackages [ai-flow-nightly]: executing diffoscope
+[2023-05-03 18:11:11] INFO root fetch - processPackages [ai-flow-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_flow_nightly-2023.5.1.tar.gz tmp/ai_flow_nightly-2023.5.2.tar.gz --markdown 20230503/a/ai-flow-nightly/2023.5.1-2023.5.2/diff.md --exclude *.pyd
+[2023-05-03 18:11:11] INFO root fetch - processPackages [notification-service-nightly]: executing diffoscope
+[2023-05-03 18:11:11] INFO root fetch - processPackages [notification-service-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notification_service_nightly-2023.5.1.tar.gz tmp/notification_service_nightly-2023.5.2.tar.gz --markdown 20230503/n/notification-service-nightly/2023.5.1-2023.5.2/diff.md --exclude *.pyd
+[2023-05-03 18:11:11] INFO root fetch - processPackages [batpy]: executing diffoscope
+[2023-05-03 18:11:11] INFO root fetch - processPackages [batpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/batpy-0.0.5.tar.gz tmp/batpy-0.0.6.tar.gz --markdown 20230503/b/batpy/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-03 18:11:11] INFO root fetch - processPackages [MT5TrdHelper]: Downloading https://files.pythonhosted.org/packages/6c/2d/4233392804cad4435493584e099230f22d9f826f92ec57c2147e293bc27e/MT5TrdHelper-0.1.2.tar.gz
+[2023-05-03 18:11:11] INFO root fetch - processPackages [cmap]: Downloading https://files.pythonhosted.org/packages/b9/00/f84ba37fa77b0ab5ab44ed79ccb68ac83c4cf7c186978649ce3f7e65d3b9/cmap-0.0.1.tar.gz
+[2023-05-03 18:11:11] INFO root fetch - processPackages [letipy]: Downloading https://files.pythonhosted.org/packages/fe/6a/ec364987bb2eb7814378b8c2ef945ee61e020f2822d964e1ee3ef6a2c6f9/letipy-0.2.0.tar.gz
+[2023-05-03 18:11:11] INFO root fetch - processPackages [letipy]: executing diffoscope
+[2023-05-03 18:11:11] INFO root fetch - processPackages [letipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/letipy-0.1.5.tar.gz tmp/letipy-0.2.0.tar.gz --markdown 20230503/l/letipy/0.1.5-0.2.0/diff.md --exclude *.pyd
+[2023-05-03 18:11:11] INFO root fetch - processPackages [biocypher]: Downloading https://files.pythonhosted.org/packages/80/4a/28f3088067da67049a9b777015a3aa4326f5782b2be3e17c661232fe6b8d/biocypher-0.5.9.tar.gz
+[2023-05-03 18:11:11] INFO root fetch - processPackages [MT5TrdHelper]: Downloading https://files.pythonhosted.org/packages/57/62/acd0737f5012722c75e0f8f24cbf048e474f4cbe63deec886933c905da57/MT5TrdHelper-0.1.3.tar.gz
+[2023-05-03 18:11:11] INFO root fetch - processPackages [biocypher]: executing diffoscope
+[2023-05-03 18:11:11] INFO root fetch - processPackages [biocypher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biocypher-0.5.8.tar.gz tmp/biocypher-0.5.9.tar.gz --markdown 20230503/b/biocypher/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-05-03 18:11:11] INFO root fetch - processPackages [cmap]: Downloading https://files.pythonhosted.org/packages/9e/4c/0edad870cbaeb4a2aa722cd577516bf09b4b7b04778bf1890e9c6e6d6554/cmap-0.0.2.tar.gz
+[2023-05-03 18:11:11] INFO root fetch - processPackages [MT5TrdHelper]: executing diffoscope
+[2023-05-03 18:11:11] INFO root fetch - processPackages [MT5TrdHelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MT5TrdHelper-0.1.2.tar.gz tmp/MT5TrdHelper-0.1.3.tar.gz --markdown 20230503/M/MT5TrdHelper/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-03 18:11:12] INFO root fetch - processPackages [cmap]: executing diffoscope
+[2023-05-03 18:11:12] INFO root fetch - processPackages [cmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmap-0.0.1.tar.gz tmp/cmap-0.0.2.tar.gz --markdown 20230503/c/cmap/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-03 18:11:12] INFO root fetch - processPackages [quantconnect-stubs]: Downloading https://files.pythonhosted.org/packages/b7/4c/71e6bb724f14efcd8865f2aa692528a4c45877c58f5cf8c964a8e0fc0e74/quantconnect-stubs-9998.tar.gz
+[2023-05-03 18:11:12] INFO root fetch - processPackages [wikihowapi-pk]: Start processing: plot-data
+[2023-05-03 18:11:12] INFO root fetch - main [MainThread]: End processing [wikihowapi-pk]: success
+[2023-05-03 18:11:12] INFO root fetch - processPackages [plot-data]: New version: [0.9.0] Old Version: [0.8.5]
+[2023-05-03 18:11:12] INFO root fetch - processPackages [rum-with-telegram]: Start processing: eagerx
+[2023-05-03 18:11:12] INFO root fetch - main [MainThread]: End processing [rum-with-telegram]: success
+[2023-05-03 18:11:12] INFO root fetch - processPackages [plot-data]: Downloading https://files.pythonhosted.org/packages/f5/97/88a721d0d6c1136ebbf372e962fb09f9351a66e3df60534183e048807066/plot_data-0.8.5.tar.gz
+[2023-05-03 18:11:12] INFO root fetch - processPackages [batpy]: Start processing: waveforms
+[2023-05-03 18:11:12] INFO root fetch - main [MainThread]: End processing [batpy]: success
+[2023-05-03 18:11:12] INFO root fetch - processPackages [eagerx]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-03 18:11:13] INFO root fetch - processPackages [letipy]: Start processing: Riskfolio-Lib
+[2023-05-03 18:11:13] INFO root fetch - main [MainThread]: End processing [letipy]: success
+[2023-05-03 18:11:13] INFO root fetch - processPackages [waveforms]: New version: [1.5.95] Old Version: [1.5.94]
+[2023-05-03 18:11:13] INFO root fetch - processPackages [quantconnect-stubs]: executing diffoscope
+[2023-05-03 18:11:13] INFO root fetch - processPackages [quantconnect-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantconnect-stubs-9997.tar.gz tmp/quantconnect-stubs-9998.tar.gz --markdown 20230503/q/quantconnect-stubs/9997-9998/diff.md --exclude *.pyd
+[2023-05-03 18:11:13] INFO root fetch - processPackages [Riskfolio-Lib]: New version: [4.2.0] Old Version: [4.1.1]
+[2023-05-03 18:11:13] INFO root fetch - processPackages [eagerx]: Downloading https://files.pythonhosted.org/packages/f6/2d/da679a65eca09874d2e3a2e991c8900c5605cd3856e392d831fef2a41d56/eagerx-0.1.8.tar.gz
+[2023-05-03 18:11:13] INFO root fetch - processPackages [MT5TrdHelper]: Start processing: kolo
+[2023-05-03 18:11:13] INFO root fetch - main [MainThread]: End processing [MT5TrdHelper]: success
+[2023-05-03 18:11:13] INFO root fetch - processPackages [plot-data]: Downloading https://files.pythonhosted.org/packages/81/3d/cfa1a3804b97d4a1d5d69b1c148fc999d8e5b2ec19dc1d579f9d605f86d0/plot_data-0.9.0.tar.gz
+[2023-05-03 18:11:13] INFO root fetch - processPackages [waveforms]: Downloading https://files.pythonhosted.org/packages/f9/0d/eef48c1f64daaa36159ef942a0ace3894d05a47e7eaf3b4a7ba9c893ee94/waveforms-1.5.95.tar.gz
+[2023-05-03 18:11:13] INFO root fetch - processPackages [Riskfolio-Lib]: Downloading https://files.pythonhosted.org/packages/5f/2f/52050d0463374aee14fe382dca4522a7a8f7cbdefc45d6d2edce06ce2c68/Riskfolio-Lib-4.1.1.tar.gz
+[2023-05-03 18:11:13] INFO root fetch - processPackages [waveforms]: executing diffoscope
+[2023-05-03 18:11:13] INFO root fetch - processPackages [waveforms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waveforms-1.5.94.tar.gz tmp/waveforms-1.5.95.tar.gz --markdown 20230503/w/waveforms/1.5.94-1.5.95/diff.md --exclude *.pyd
+[2023-05-03 18:11:13] INFO root fetch - processPackages [kolo]: New version: [2.8.0] Old Version: [2.7.0]
+[2023-05-03 18:11:13] INFO root fetch - processPackages [plot-data]: executing diffoscope
+[2023-05-03 18:11:13] INFO root fetch - processPackages [plot-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plot_data-0.8.5.tar.gz tmp/plot_data-0.9.0.tar.gz --markdown 20230503/p/plot-data/0.8.5-0.9.0/diff.md --exclude *.pyd
+[2023-05-03 18:11:13] INFO root fetch - processPackages [eagerx]: Downloading https://files.pythonhosted.org/packages/9a/ea/fe478d363bf8b7633fe189e84dd235d5f626fab647004e47865df0326e4f/eagerx-0.1.9.tar.gz
+[2023-05-03 18:11:13] INFO root fetch - processPackages [kolo]: Downloading https://files.pythonhosted.org/packages/87/7d/7906f1561e8e340270b1a7ca406bda1a684ae5981badf254e503cce33715/kolo-2.7.0.tar.gz
+[2023-05-03 18:11:13] INFO root fetch - processPackages [notification-service-nightly]: Start processing: pysqa
+[2023-05-03 18:11:13] INFO root fetch - main [MainThread]: End processing [notification-service-nightly]: success
+[2023-05-03 18:11:13] INFO root fetch - processPackages [eagerx]: executing diffoscope
+[2023-05-03 18:11:13] INFO root fetch - processPackages [eagerx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eagerx-0.1.8.tar.gz tmp/eagerx-0.1.9.tar.gz --markdown 20230503/e/eagerx/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-03 18:11:13] INFO root fetch - processPackages [pysqa]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 18:11:13] INFO root fetch - processPackages [biocypher]: Start processing: krx-rigger
+[2023-05-03 18:11:13] INFO root fetch - main [MainThread]: End processing [biocypher]: success
+[2023-05-03 18:11:13] INFO root fetch - processPackages [krx-rigger]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-03 18:11:13] WARNING root fetch - processPackages [Riskfolio-Lib]: Skipping package: exceeds size limit 12934851>=10485760
+[2023-05-03 18:11:13] INFO root fetch - main [MainThread]: End processing [Riskfolio-Lib] error
+[2023-05-03 18:11:14] INFO root fetch - processPackages [pysqa]: Downloading https://files.pythonhosted.org/packages/ce/29/1aaf49c6d72cf1faafd5248fe0bd23fc22c33b4062b7a3459123ac4d6f34/pysqa-0.0.8.tar.gz
+[2023-05-03 18:11:14] INFO root fetch - processPackages [kolo]: Downloading https://files.pythonhosted.org/packages/bc/9e/137edca87668d636a51b5226c465d45fc6573b3f5d7abdda26a7235f220a/kolo-2.8.0-cp39-cp39-manylinux_2_17_s390x.manylinux2014_s390x.whl
+[2023-05-03 18:11:14] INFO root fetch - processPackages [krx-rigger]: Downloading https://files.pythonhosted.org/packages/ac/ff/86ccb056cc058f33daa580e7cc4b4d5208ca964df44ea76bf522c1f37ac0/krx_rigger-0.0.5.tar.gz
+[2023-05-03 18:11:14] INFO root fetch - processPackages [krx-rigger]: executing diffoscope
+[2023-05-03 18:11:14] INFO root fetch - processPackages [krx-rigger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krx_rigger-0.0.4.tar.gz tmp/krx_rigger-0.0.5.tar.gz --markdown 20230503/k/krx-rigger/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-03 18:11:14] INFO root fetch - processPackages [kolo]: executing diffoscope
+[2023-05-03 18:11:14] INFO root fetch - processPackages [kolo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kolo-2.7.0.tar.gz tmp/kolo-2.8.0-cp39-cp39-manylinux_2_17_s390x.manylinux2014_s390x.whl.zip --markdown 20230503/k/kolo/2.7.0-2.8.0/diff.md --exclude *.pyd
+[2023-05-03 18:11:14] INFO root fetch - processPackages [pysqa]: Downloading https://files.pythonhosted.org/packages/6d/fe/cf384a21afece9117f865ca30291a6256fbf642b8576346fdced7f78d52e/pysqa-0.0.9.tar.gz
+[2023-05-03 18:11:14] INFO root fetch - processPackages [pysqa]: executing diffoscope
+[2023-05-03 18:11:14] INFO root fetch - processPackages [pysqa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysqa-0.0.8.tar.gz tmp/pysqa-0.0.9.tar.gz --markdown 20230503/p/pysqa/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 18:11:14] INFO root fetch - main [MainThread]: End processing [ai-flow-nightly]: success
+[2023-05-03 18:11:14] INFO root fetch - main [MainThread]: End processing [plot-data]: success
+[2023-05-03 18:11:15] INFO root fetch - main [MainThread]: End processing [cmap]: success
+[2023-05-03 18:11:15] INFO root fetch - main [MainThread]: End processing [eagerx]: success
+[2023-05-03 18:11:15] INFO root fetch - main [MainThread]: End processing [krx-rigger]: success
+[2023-05-03 18:11:15] INFO root fetch - main [MainThread]: End processing [kolo]: success
+[2023-05-03 18:11:15] INFO root fetch - main [MainThread]: End processing [waveforms]: success
+[2023-05-03 18:11:15] INFO root fetch - main [MainThread]: End processing [pysqa]: success
+[2023-05-03 18:11:20] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
+[2023-05-03 18:11:20] INFO root fetch - main [MainThread]: Store serial: [17959313]
