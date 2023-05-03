@@ -16276,3 +16276,148 @@ No space left on device. Diffoscope exiting.
 [2023-05-03 15:47:09] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-05-03 15:47:33] INFO root fetch - main [MainThread]: End processing [sharetop]: success
 [2023-05-03 15:47:33] INFO root fetch - main [MainThread]: Store serial: [17957223]
+[2023-05-03 15:52:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17957223]
+[2023-05-03 15:52:44] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-05-03 15:52:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pikachu-chem
+[2023-05-03 15:52:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cmdint
+[2023-05-03 15:52:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: akshare
+[2023-05-03 15:52:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sphere-snap
+[2023-05-03 15:52:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: certora-cli-alpha-dominik-debug-of-mus-tests
+[2023-05-03 15:52:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: c2cciutils
+[2023-05-03 15:52:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tsaugmentation
+[2023-05-03 15:52:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: celerity
+[2023-05-03 15:52:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pytket-qir
+[2023-05-03 15:52:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: psremoter
+[2023-05-03 15:52:44] INFO root fetch - processPackages [psremoter]: New version: [2.0.0] Old Version: [1.0.4]
+[2023-05-03 15:52:44] INFO root fetch - processPackages [certora-cli-alpha-dominik-debug-of-mus-tests]: New version: [20230503.9.54.550795] Old Version: [20230503.13.11.737115]
+[2023-05-03 15:52:44] INFO root fetch - processPackages [tsaugmentation]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-03 15:52:44] INFO root fetch - processPackages [c2cciutils]: New version: [1.6.0.dev89] Old Version: [1.6.0.dev86]
+[2023-05-03 15:52:44] WARNING root fetch - processPackages [sphere-snap]: Skipping, unable to determine old version
+[2023-05-03 15:52:44] INFO root fetch - processPackages [sphere-snap]: Start processing: pywellcad
+[2023-05-03 15:52:44] INFO root fetch - main [MainThread]: End processing [sphere-snap] error
+[2023-05-03 15:52:44] INFO root fetch - processPackages [akshare]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-03 15:52:44] INFO root fetch - processPackages [pikachu-chem]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-03 15:52:44] INFO root fetch - processPackages [celerity]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-03 15:52:44] INFO root fetch - processPackages [psremoter]: executing diffoscope
+[2023-05-03 15:52:44] INFO root fetch - processPackages [psremoter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psremoter-1.0.4.tar.gz tmp/psremoter-2.0.0.tar.gz --markdown 20230503/p/psremoter/1.0.4-2.0.0/diff.md --exclude *.pyd
+[2023-05-03 15:52:44] INFO root fetch - processPackages [cmdint]: New version: [3.0.6] Old Version: [3.0.5]
+[2023-05-03 15:52:44] INFO root fetch - processPackages [certora-cli-alpha-dominik-debug-of-mus-tests]: Downloading https://files.pythonhosted.org/packages/3e/2d/8d3ae4e2fda5825e6cc0108d388eb50276b12a4c00cae1bb79562db91bda/certora-cli-alpha-dominik-debug_of_mus_tests-20230503.13.11.737115.tar.gz
+[2023-05-03 15:52:44] INFO root fetch - processPackages [pytket-qir]: New version: [0.2.0rc0] Old Version: [0.1.5]
+[2023-05-03 15:52:44] INFO root fetch - processPackages [tsaugmentation]: executing diffoscope
+[2023-05-03 15:52:44] INFO root fetch - processPackages [tsaugmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsaugmentation-0.5.8.tar.gz tmp/tsaugmentation-0.5.9.tar.gz --markdown 20230503/t/tsaugmentation/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-05-03 15:52:44] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2023-05-03 15:52:44] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.8.tar.gz tmp/akshare-1.9.9.tar.gz --markdown 20230503/a/akshare/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-03 15:52:44] WARNING root fetch - processPackages [certora-cli-alpha-dominik-debug-of-mus-tests]: Skipping package: exceeds size limit 38364571>=10485760
+[2023-05-03 15:52:44] INFO root fetch - processPackages [certora-cli-alpha-dominik-debug-of-mus-tests]: Start processing: molecule
+[2023-05-03 15:52:44] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-dominik-debug-of-mus-tests] error
+[2023-05-03 15:52:44] INFO root fetch - processPackages [pywellcad]: New version: [0.2.0] Old Version: [0.1.0a0]
+[2023-05-03 15:52:44] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/18/69/9478d574124d4f37574df35da9a7ceb4dc7ac28cf28128875933130996d5/c2cciutils-1.6.0.dev89.tar.gz
+[2023-05-03 15:52:44] INFO root fetch - processPackages [celerity]: Downloading https://files.pythonhosted.org/packages/ef/4e/74f586ee68a3aeed234b110d9066a4199f85dc6e7b62bccc6d0972fd1ea8/celerity-0.1.0.tar.gz
+[2023-05-03 15:52:44] INFO root fetch - processPackages [cmdint]: Downloading https://files.pythonhosted.org/packages/17/82/cee65c37e7377006d36939dee802b0e7d54580f6a87b008e47d5d850fd94/cmdint-3.0.5.tar.gz
+[2023-05-03 15:52:44] INFO root fetch - processPackages [pikachu-chem]: Downloading https://files.pythonhosted.org/packages/4d/96/d8f4f7f24839ac6387bc6338ec67b7fcc7356e88f5417ffc42d3ae8ba815/pikachu-chem-1.0.8.tar.gz
+[2023-05-03 15:52:44] INFO root fetch - processPackages [molecule]: New version: [5.0.1] Old Version: [5.0.0a1]
+[2023-05-03 15:52:44] INFO root fetch - processPackages [pytket-qir]: Downloading https://files.pythonhosted.org/packages/90/66/10f84563c7d5cf2095400ec2871d433ac6451af1febf9d75b58bc999490c/pytket_qir-0.1.5.tar.gz
+[2023-05-03 15:52:44] INFO root fetch - processPackages [pywellcad]: Downloading https://files.pythonhosted.org/packages/91/20/3a8b9ab91f5daf651c0422e53eb85691344a9f832f77ad9318e54884bde3/pywellcad-0.1.0a0.tar.gz
+[2023-05-03 15:52:44] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2023-05-03 15:52:44] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.6.0.dev86.tar.gz tmp/c2cciutils-1.6.0.dev89.tar.gz --markdown 20230503/c/c2cciutils/1.6.0.dev86-1.6.0.dev89/diff.md --exclude *.pyd
+[2023-05-03 15:52:44] INFO root fetch - processPackages [molecule]: Downloading https://files.pythonhosted.org/packages/4f/b5/f8efbe2fbac29f23a57b16ca38f476e9c59404fdc8ff4286fad91e94549d/molecule-5.0.0a1.tar.gz
+[2023-05-03 15:52:44] INFO root fetch - processPackages [celerity]: Downloading https://files.pythonhosted.org/packages/6c/cf/331bb1f6eca4644fd752ee8ff8863a35900da369ae87b83a2ae608bc5c60/celerity-0.2.0.tar.gz
+[2023-05-03 15:52:44] INFO root fetch - processPackages [celerity]: executing diffoscope
+[2023-05-03 15:52:44] INFO root fetch - processPackages [celerity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/celerity-0.1.0.tar.gz tmp/celerity-0.2.0.tar.gz --markdown 20230503/c/celerity/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-03 15:52:44] INFO root fetch - processPackages [cmdint]: Downloading https://files.pythonhosted.org/packages/8a/05/ccdc87b44a0295c112975999f416fba209ec23527af67fd1394a4ac29240/cmdint-3.0.6.tar.gz
+[2023-05-03 15:52:44] INFO root fetch - processPackages [pytket-qir]: Downloading https://files.pythonhosted.org/packages/05/b0/8d645d6b4988f16af972008d324046b718fcc1532229b793b7fe592460f5/pytket_qir-0.2.0rc0-py3-none-any.whl
+[2023-05-03 15:52:44] INFO root fetch - processPackages [pywellcad]: Downloading https://files.pythonhosted.org/packages/c2/a0/55e92466948f7e8e8ed8db2a641ac9bf17f0af5189c67ca6bc081b2fb4dc/pywellcad-0.2.0.tar.gz
+[2023-05-03 15:52:44] INFO root fetch - processPackages [pytket-qir]: executing diffoscope
+[2023-05-03 15:52:44] INFO root fetch - processPackages [pytket-qir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytket_qir-0.1.5.tar.gz tmp/pytket_qir-0.2.0rc0-py3-none-any.whl.zip --markdown 20230503/p/pytket-qir/0.1.5-0.2.0rc0/diff.md --exclude *.pyd
+[2023-05-03 15:52:44] INFO root fetch - processPackages [cmdint]: executing diffoscope
+[2023-05-03 15:52:44] INFO root fetch - processPackages [cmdint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmdint-3.0.5.tar.gz tmp/cmdint-3.0.6.tar.gz --markdown 20230503/c/cmdint/3.0.5-3.0.6/diff.md --exclude *.pyd
+[2023-05-03 15:52:45] INFO root fetch - processPackages [pikachu-chem]: Downloading https://files.pythonhosted.org/packages/41/1c/8ea0700c1c4a19854ebbe7e997fae77039d1c9011c9c2157b0f362b43e8b/pikachu-chem-1.0.9.tar.gz
+[2023-05-03 15:52:45] INFO root fetch - processPackages [pywellcad]: executing diffoscope
+[2023-05-03 15:52:45] INFO root fetch - processPackages [pywellcad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywellcad-0.1.0a0.tar.gz tmp/pywellcad-0.2.0.tar.gz --markdown 20230503/p/pywellcad/0.1.0a0-0.2.0/diff.md --exclude *.pyd
+[2023-05-03 15:52:45] INFO root fetch - processPackages [pikachu-chem]: executing diffoscope
+[2023-05-03 15:52:45] INFO root fetch - processPackages [pikachu-chem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pikachu-chem-1.0.8.tar.gz tmp/pikachu-chem-1.0.9.tar.gz --markdown 20230503/p/pikachu-chem/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-03 15:52:45] INFO root fetch - processPackages [molecule]: Downloading https://files.pythonhosted.org/packages/e4/55/66648b26f1ea76127ff976dae906a74eccb6807ac27ff7645c046b78e195/molecule-5.0.1.tar.gz
+[2023-05-03 15:52:45] INFO root fetch - processPackages [psremoter]: Start processing: AMDirT
+[2023-05-03 15:52:45] INFO root fetch - main [MainThread]: End processing [psremoter]: success
+[2023-05-03 15:52:45] INFO root fetch - processPackages [molecule]: executing diffoscope
+[2023-05-03 15:52:45] INFO root fetch - processPackages [molecule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molecule-5.0.0a1.tar.gz tmp/molecule-5.0.1.tar.gz --markdown 20230503/m/molecule/5.0.0a1-5.0.1/diff.md --exclude *.pyd
+[2023-05-03 15:52:45] INFO root fetch - processPackages [AMDirT]: New version: [1.4.1] Old Version: [1.4]
+[2023-05-03 15:52:45] INFO root fetch - processPackages [AMDirT]: executing diffoscope
+[2023-05-03 15:52:45] INFO root fetch - processPackages [AMDirT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AMDirT-1.4.tar.gz tmp/AMDirT-1.4.1.tar.gz --markdown 20230503/A/AMDirT/1.4-1.4.1/diff.md --exclude *.pyd
+[2023-05-03 15:52:46] INFO root fetch - processPackages [tsaugmentation]: Start processing: starbug2
+[2023-05-03 15:52:46] INFO root fetch - main [MainThread]: End processing [tsaugmentation]: success
+[2023-05-03 15:52:46] INFO root fetch - processPackages [starbug2]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-03 15:52:46] INFO root fetch - processPackages [celerity]: Start processing: spectralib
+[2023-05-03 15:52:46] INFO root fetch - main [MainThread]: End processing [celerity]: success
+[2023-05-03 15:52:46] INFO root fetch - processPackages [spectralib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 15:52:46] INFO root fetch - processPackages [starbug2]: Downloading https://files.pythonhosted.org/packages/9b/fe/9e4940df221244032a159cb6441b95405a1c9908fcd415cb0fa4ad0a178c/starbug2-0.3.8.tar.gz
+[2023-05-03 15:52:46] INFO root fetch - processPackages [pytket-qir]: Start processing: aloso
+[2023-05-03 15:52:46] INFO root fetch - main [MainThread]: End processing [pytket-qir]: success
+[2023-05-03 15:52:46] INFO root fetch - processPackages [cmdint]: Start processing: tsaugmentation
+[2023-05-03 15:52:46] INFO root fetch - main [MainThread]: End processing [cmdint]: success
+[2023-05-03 15:52:46] INFO root fetch - processPackages [spectralib]: Downloading https://files.pythonhosted.org/packages/63/e5/f58544b329e81fb42e235c9ba0fcacb08bb47a47ca6520962153332c8c26/spectralib-0.0.8.tar.gz
+[2023-05-03 15:52:46] INFO root fetch - processPackages [tsaugmentation]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-03 15:52:46] INFO root fetch - processPackages [aloso]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 15:52:46] INFO root fetch - processPackages [tsaugmentation]: executing diffoscope
+[2023-05-03 15:52:46] INFO root fetch - processPackages [tsaugmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsaugmentation-0.5.8.tar.gz tmp/tsaugmentation-0.5.9.tar.gz --markdown 20230503/t/tsaugmentation/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-05-03 15:52:46] INFO root fetch - processPackages [starbug2]: Downloading https://files.pythonhosted.org/packages/33/2f/64b15085237a2f7290cb049bfb325c771259658d1bf001c9420c5872d444/starbug2-0.3.9.tar.gz
+[2023-05-03 15:52:46] INFO root fetch - processPackages [pywellcad]: Start processing: climetlab
+[2023-05-03 15:52:46] INFO root fetch - main [MainThread]: End processing [pywellcad]: success
+[2023-05-03 15:52:46] INFO root fetch - processPackages [starbug2]: executing diffoscope
+[2023-05-03 15:52:46] INFO root fetch - processPackages [starbug2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starbug2-0.3.8.tar.gz tmp/starbug2-0.3.9.tar.gz --markdown 20230503/s/starbug2/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-03 15:52:46] INFO root fetch - processPackages [aloso]: Downloading https://files.pythonhosted.org/packages/50/9d/0ff14b1bc5f2263235cdcf24ed3d3350aa202844d04965c4926ec9b0c09b/aloso-0.0.8-py3-none-any.whl
+[2023-05-03 15:52:46] INFO root fetch - processPackages [climetlab]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-03 15:52:46] INFO root fetch - processPackages [spectralib]: Downloading https://files.pythonhosted.org/packages/87/c9/0974eddac8d93df12e61a6584559e86593aa7e4375c5e8288bf56e7013f3/spectralib-0.0.9.tar.gz
+[2023-05-03 15:52:47] INFO root fetch - processPackages [spectralib]: executing diffoscope
+[2023-05-03 15:52:47] INFO root fetch - processPackages [spectralib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spectralib-0.0.8.tar.gz tmp/spectralib-0.0.9.tar.gz --markdown 20230503/s/spectralib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 15:52:47] INFO root fetch - processPackages [AMDirT]: Start processing: multicrypto
+[2023-05-03 15:52:47] INFO root fetch - main [MainThread]: End processing [AMDirT]: success
+[2023-05-03 15:52:47] INFO root fetch - processPackages [climetlab]: Downloading https://files.pythonhosted.org/packages/db/6d/a65baa433c96d08ee4c6d1cfbe1c0a5763bc35da5ded747d4a8eddebb428/climetlab-0.9.8.tar.gz
+[2023-05-03 15:52:47] INFO root fetch - processPackages [multicrypto]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-03 15:52:47] INFO root fetch - processPackages [aloso]: Downloading https://files.pythonhosted.org/packages/8d/c7/4327030a3a76e4d5eb22fc9af6b920dd9d50887fe3bd59e743a9e7b1ac9d/aloso-0.0.9-py3-none-any.whl
+[2023-05-03 15:52:47] INFO root fetch - processPackages [multicrypto]: Downloading https://files.pythonhosted.org/packages/9c/bf/3a7c5bbb81cc3fce5ea897a6ac664a1ae72529a7427dc15f1c8f5f550174/multicrypto-0.1.8.tar.gz
+[2023-05-03 15:52:47] INFO root fetch - processPackages [aloso]: executing diffoscope
+[2023-05-03 15:52:47] INFO root fetch - processPackages [aloso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aloso-0.0.8-py3-none-any.whl.zip tmp/aloso-0.0.9-py3-none-any.whl.zip --markdown 20230503/a/aloso/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 15:52:47] INFO root fetch - processPackages [multicrypto]: Downloading https://files.pythonhosted.org/packages/f4/48/0b74a7cba22fced2b232626918afe9026a3d5ce4a8e7b0e2d44df4ba5038/multicrypto-0.1.9.tar.gz
+[2023-05-03 15:52:47] INFO root fetch - processPackages [climetlab]: Downloading https://files.pythonhosted.org/packages/83/c3/c4d839d84ba4b462b80d34c1f967286e0291e6a2bf10ae84af528abaff6f/climetlab-0.9.9.tar.gz
+[2023-05-03 15:52:47] INFO root fetch - processPackages [multicrypto]: executing diffoscope
+[2023-05-03 15:52:47] INFO root fetch - processPackages [multicrypto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multicrypto-0.1.8.tar.gz tmp/multicrypto-0.1.9.tar.gz --markdown 20230503/m/multicrypto/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-03 15:52:48] INFO root fetch - processPackages [spectralib]: Start processing: ukis-metrics
+[2023-05-03 15:52:48] INFO root fetch - main [MainThread]: End processing [spectralib]: success
+[2023-05-03 15:52:48] INFO root fetch - processPackages [ukis-metrics]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-03 15:52:48] INFO root fetch - processPackages [climetlab]: executing diffoscope
+[2023-05-03 15:52:48] INFO root fetch - processPackages [climetlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/climetlab-0.9.8.tar.gz tmp/climetlab-0.9.9.tar.gz --markdown 20230503/c/climetlab/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-03 15:52:48] INFO root fetch - processPackages [ukis-metrics]: Downloading https://files.pythonhosted.org/packages/9a/e5/f504293279b0351c74fa679c5bd3bcaaa4ff557e9a30957e667445bc6a23/ukis_metrics-0.1.3.tar.gz
+[2023-05-03 15:52:48] INFO root fetch - processPackages [pikachu-chem]: Start processing: gptdeploy
+[2023-05-03 15:52:48] INFO root fetch - main [MainThread]: End processing [pikachu-chem]: success
+[2023-05-03 15:52:48] INFO root fetch - processPackages [gptdeploy]: New version: [0.18.9] Old Version: [0.18.8]
+[2023-05-03 15:52:48] INFO root fetch - processPackages [tsaugmentation]: Start processing: frinx-conductor-workers
+[2023-05-03 15:52:48] INFO root fetch - main [MainThread]: End processing [tsaugmentation]: success
+[2023-05-03 15:52:48] INFO root fetch - processPackages [gptdeploy]: executing diffoscope
+[2023-05-03 15:52:48] INFO root fetch - processPackages [gptdeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptdeploy-0.18.8.tar.gz tmp/gptdeploy-0.18.9.tar.gz --markdown 20230503/g/gptdeploy/0.18.8-0.18.9/diff.md --exclude *.pyd
+[2023-05-03 15:52:48] INFO root fetch - processPackages [frinx-conductor-workers]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-03 15:52:48] INFO root fetch - processPackages [ukis-metrics]: Downloading https://files.pythonhosted.org/packages/cf/a3/7d0856f367790297e56597860d682f1544a7fab4cb27b198a13533660f40/ukis_metrics-0.1.4.tar.gz
+[2023-05-03 15:52:48] INFO root fetch - processPackages [starbug2]: Start processing: psremoter
+[2023-05-03 15:52:48] INFO root fetch - main [MainThread]: End processing [starbug2]: success
+[2023-05-03 15:52:48] INFO root fetch - processPackages [psremoter]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-05-03 15:52:48] INFO root fetch - main [MainThread]: End processing [aloso]: success
+[2023-05-03 15:52:48] INFO root fetch - processPackages [ukis-metrics]: executing diffoscope
+[2023-05-03 15:52:48] INFO root fetch - processPackages [ukis-metrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ukis_metrics-0.1.3.tar.gz tmp/ukis_metrics-0.1.4.tar.gz --markdown 20230503/u/ukis-metrics/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-03 15:52:48] INFO root fetch - processPackages [frinx-conductor-workers]: Downloading https://files.pythonhosted.org/packages/f6/23/961ed269aec9d7f55aa26aeb36be9b34127b0f27cf0222b02821f778b925/frinx_conductor_workers-1.1.8.tar.gz
+[2023-05-03 15:52:48] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2023-05-03 15:52:48] INFO root fetch - processPackages [psremoter]: Downloading https://files.pythonhosted.org/packages/a1/c7/80417848093e83afe790eacb8b6a602cf9446f5ef577fa11d399fef46fca/psremoter-2.0.1.tar.gz
+[2023-05-03 15:52:49] INFO root fetch - processPackages [frinx-conductor-workers]: Downloading https://files.pythonhosted.org/packages/f5/0f/f4429e8ab1c0fd36ea1a54feef0bf2641cd68be9061a9893f3c72d4be432/frinx_conductor_workers-1.1.9.tar.gz
+[2023-05-03 15:52:49] INFO root fetch - processPackages [psremoter]: Downloading https://files.pythonhosted.org/packages/02/37/e8607fbaba918ee1484c9c1000aaa2710bcccb2d7f340fbdb748a744b11e/psremoter-2.0.2.tar.gz
+[2023-05-03 15:52:49] INFO root fetch - processPackages [frinx-conductor-workers]: executing diffoscope
+[2023-05-03 15:52:49] INFO root fetch - processPackages [frinx-conductor-workers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frinx_conductor_workers-1.1.8.tar.gz tmp/frinx_conductor_workers-1.1.9.tar.gz --markdown 20230503/f/frinx-conductor-workers/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-03 15:52:49] INFO root fetch - main [MainThread]: End processing [multicrypto]: success
+[2023-05-03 15:52:49] INFO root fetch - processPackages [psremoter]: executing diffoscope
+[2023-05-03 15:52:49] INFO root fetch - processPackages [psremoter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psremoter-2.0.1.tar.gz tmp/psremoter-2.0.2.tar.gz --markdown 20230503/p/psremoter/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-05-03 15:52:49] INFO root fetch - main [MainThread]: End processing [ukis-metrics]: success
+[2023-05-03 15:52:49] INFO root fetch - main [MainThread]: End processing [gptdeploy]: success
+[2023-05-03 15:52:50] INFO root fetch - main [MainThread]: End processing [frinx-conductor-workers]: success
+[2023-05-03 15:52:50] INFO root fetch - main [MainThread]: End processing [climetlab]: success
+[2023-05-03 15:52:50] INFO root fetch - main [MainThread]: End processing [psremoter]: success
+[2023-05-03 15:52:51] INFO root fetch - main [MainThread]: End processing [molecule]: success
+[2023-05-03 15:52:52] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2023-05-03 15:52:52] INFO root fetch - main [MainThread]: Store serial: [17957297]
