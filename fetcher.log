@@ -15845,3 +15845,79 @@ No space left on device. Diffoscope exiting.
 [2023-05-03 15:26:08] INFO root fetch - main [MainThread]: End processing [qq.py]: success
 [2023-05-03 15:26:08] INFO root fetch - main [MainThread]: End processing [splight-lib]: success
 [2023-05-03 15:26:08] INFO root fetch - main [MainThread]: Store serial: [17956954]
+[2023-05-03 15:31:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17956954]
+[2023-05-03 15:31:17] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-03 15:31:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quarter-lib
+[2023-05-03 15:31:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tts-arranger
+[2023-05-03 15:31:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: doc-to-readme
+[2023-05-03 15:31:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: seesus
+[2023-05-03 15:31:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sanssouci
+[2023-05-03 15:31:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pysui
+[2023-05-03 15:31:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-roy-CERT-1891-allocId-c
+[2023-05-03 15:31:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dune-harmonizer
+[2023-05-03 15:31:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: npyx
+[2023-05-03 15:31:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mask2bbox
+[2023-05-03 15:31:17] INFO root fetch - processPackages [tts-arranger]: New version: [0.3.3] Old Version: [0.3.2b0]
+[2023-05-03 15:31:17] INFO root fetch - processPackages [quarter-lib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 15:31:17] WARNING root fetch - processPackages [seesus]: Skipping, unable to determine old version
+[2023-05-03 15:31:17] INFO root fetch - processPackages [seesus]: Start processing: ign-gpao-client
+[2023-05-03 15:31:17] INFO root fetch - main [MainThread]: End processing [seesus] error
+[2023-05-03 15:31:17] INFO root fetch - processPackages [pysui]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-03 15:31:17] INFO root fetch - processPackages [doc-to-readme]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-03 15:31:17] INFO root fetch - processPackages [sanssouci]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-03 15:31:17] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1891-allocId-c]: New version: [20230503.10.18.829591] Old Version: [20230502.16.21.634845]
+[2023-05-03 15:31:17] INFO root fetch - processPackages [npyx]: New version: [2.8.4] Old Version: [2.8.3]
+[2023-05-03 15:31:17] INFO root fetch - processPackages [npyx]: Downloading https://files.pythonhosted.org/packages/3f/20/e02c36b781edb92b44cf4a1bd66053ecd9d9ac9ba0dbd9c952fd4a85ff54/npyx-2.8.3.tar.gz
+[2023-05-03 15:31:17] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1891-allocId-c]: Downloading https://files.pythonhosted.org/packages/2e/f2/40b3eb36e89c8e269f9ac6904abdd9c3a9945b86f498648d65b4225dd0a4/certora-cli-alpha-roy-CERT-1891-allocId-c-20230502.16.21.634845.tar.gz
+[2023-05-03 15:31:17] INFO root fetch - processPackages [pysui]: executing diffoscope
+[2023-05-03 15:31:17] INFO root fetch - processPackages [pysui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysui-0.8.0-py3-none-any.whl.zip tmp/pysui-0.9.0-py3-none-any.whl.zip --markdown 20230503/p/pysui/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-03 15:31:17] INFO root fetch - processPackages [dune-harmonizer]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-03 15:31:17] INFO root fetch - processPackages [mask2bbox]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-03 15:31:17] WARNING root fetch - processPackages [certora-cli-alpha-roy-CERT-1891-allocId-c]: Skipping package: exceeds size limit 38373678>=10485760
+[2023-05-03 15:31:17] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1891-allocId-c]: Start processing: django-deep-translator
+[2023-05-03 15:31:17] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-roy-CERT-1891-allocId-c] error
+[2023-05-03 15:31:17] INFO root fetch - processPackages [ign-gpao-client]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-03 15:31:17] WARNING root fetch - processPackages [django-deep-translator]: Skipping, unable to determine old version
+[2023-05-03 15:31:17] INFO root fetch - processPackages [django-deep-translator]: Start processing: omero-figure
+[2023-05-03 15:31:17] INFO root fetch - main [MainThread]: End processing [django-deep-translator] error
+[2023-05-03 15:31:17] INFO root fetch - processPackages [doc-to-readme]: Downloading https://files.pythonhosted.org/packages/17/56/a13356461d5d1f380dc25138848405ae60972e9b004a40e737958bc94f90/doc-to-readme-1.1.0.tar.gz
+[2023-05-03 15:31:17] INFO root fetch - processPackages [omero-figure]: New version: [6.0.0] Old Version: [5.1.0]
+[2023-05-03 15:31:17] INFO root fetch - processPackages [npyx]: executing diffoscope
+[2023-05-03 15:31:17] INFO root fetch - processPackages [npyx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/npyx-2.8.3.tar.gz tmp/npyx-2.8.4.tar.gz --markdown 20230503/n/npyx/2.8.3-2.8.4/diff.md --exclude *.pyd
+[2023-05-03 15:31:17] INFO root fetch - processPackages [sanssouci]: Downloading https://files.pythonhosted.org/packages/e1/ad/eb54264a7db5c54e31f4f11c572869b85e7564ecd61cd7524f1f01a24285/sanssouci-0.1.1-py3-none-any.whl
+[2023-05-03 15:31:17] INFO root fetch - processPackages [tts-arranger]: Downloading https://files.pythonhosted.org/packages/30/38/73d9ceec9bb97a06bbcff69fb798a90694998f3515b6f808299a41b032be/tts_arranger-0.3.3.tar.gz
+[2023-05-03 15:31:17] INFO root fetch - processPackages [ign-gpao-client]: Downloading https://files.pythonhosted.org/packages/19/58/da8ddd14bb8b2e0efed18be809457239829a9d383bffd429e15ee586341d/ign-gpao-client-0.8.0.tar.gz
+[2023-05-03 15:31:17] INFO root fetch - processPackages [mask2bbox]: Downloading https://files.pythonhosted.org/packages/ad/88/48f8d8252b6bddc7d39223b28381aa7e8def84b2e14a2b0115b1c9fa6f06/mask2bbox-0.0.4.tar.gz
+[2023-05-03 15:31:17] INFO root fetch - processPackages [quarter-lib]: executing diffoscope
+[2023-05-03 15:31:17] INFO root fetch - processPackages [quarter-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quarter_lib-0.0.8.tar.gz tmp/quarter_lib-0.0.9.tar.gz --markdown 20230503/q/quarter-lib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 15:31:17] INFO root fetch - processPackages [dune-harmonizer]: executing diffoscope
+[2023-05-03 15:31:17] INFO root fetch - processPackages [dune-harmonizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dune_harmonizer-0.8.0.tar.gz tmp/dune_harmonizer-0.9.0.tar.gz --markdown 20230503/d/dune-harmonizer/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-03 15:31:17] INFO root fetch - processPackages [tts-arranger]: executing diffoscope
+[2023-05-03 15:31:17] INFO root fetch - processPackages [tts-arranger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tts_arranger-0.3.2b0.tar.gz tmp/tts_arranger-0.3.3.tar.gz --markdown 20230503/t/tts-arranger/0.3.2b0-0.3.3/diff.md --exclude *.pyd
+[2023-05-03 15:31:17] INFO root fetch - processPackages [omero-figure]: Downloading https://files.pythonhosted.org/packages/be/f7/6df306ce7fba678305c152e3f1a89b1515ebfc96db8371b90c304059075d/omero-figure-5.1.0.tar.gz
+[2023-05-03 15:31:17] INFO root fetch - processPackages [doc-to-readme]: Downloading https://files.pythonhosted.org/packages/38/a1/b6dee12b4f5da418ecd5b4433b57854d45b714cef8d4d647ce1ac6175afa/doc-to-readme-1.1.1.tar.gz
+[2023-05-03 15:31:18] INFO root fetch - processPackages [doc-to-readme]: executing diffoscope
+[2023-05-03 15:31:18] INFO root fetch - processPackages [doc-to-readme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doc-to-readme-1.1.0.tar.gz tmp/doc-to-readme-1.1.1.tar.gz --markdown 20230503/d/doc-to-readme/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-03 15:31:18] INFO root fetch - processPackages [sanssouci]: Downloading https://files.pythonhosted.org/packages/56/8b/00daa5b7bb2ce411615772d619441d64736ac4bc048954648013b78358e7/sanssouci-0.1.2.tar.gz
+[2023-05-03 15:31:18] INFO root fetch - processPackages [mask2bbox]: Downloading https://files.pythonhosted.org/packages/05/18/713e52e7ec9adbbd06314a708104e54074e3238023ce300415d63df84fd4/mask2bbox-0.0.5.tar.gz
+[2023-05-03 15:31:18] INFO root fetch - processPackages [ign-gpao-client]: Downloading https://files.pythonhosted.org/packages/c0/f1/95b90e8ebd5ab62512fa3f4007cdca8cc81c685e691c2326fde428d948e2/ign-gpao-client-0.9.0.tar.gz
+[2023-05-03 15:31:18] INFO root fetch - processPackages [sanssouci]: executing diffoscope
+[2023-05-03 15:31:18] INFO root fetch - processPackages [sanssouci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sanssouci-0.1.1-py3-none-any.whl.zip tmp/sanssouci-0.1.2.tar.gz --markdown 20230503/s/sanssouci/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-03 15:31:18] INFO root fetch - processPackages [omero-figure]: Downloading https://files.pythonhosted.org/packages/a6/38/246b85b574090d9e6dde3c796a87b8c736a55d6011677d1d4210849a1fae/omero-figure-6.0.0.tar.gz
+[2023-05-03 15:31:18] INFO root fetch - processPackages [mask2bbox]: executing diffoscope
+[2023-05-03 15:31:18] INFO root fetch - processPackages [mask2bbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mask2bbox-0.0.4.tar.gz tmp/mask2bbox-0.0.5.tar.gz --markdown 20230503/m/mask2bbox/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-03 15:31:18] INFO root fetch - processPackages [omero-figure]: executing diffoscope
+[2023-05-03 15:31:18] INFO root fetch - processPackages [omero-figure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omero-figure-5.1.0.tar.gz tmp/omero-figure-6.0.0.tar.gz --markdown 20230503/o/omero-figure/5.1.0-6.0.0/diff.md --exclude *.pyd
+[2023-05-03 15:31:18] INFO root fetch - processPackages [ign-gpao-client]: executing diffoscope
+[2023-05-03 15:31:18] INFO root fetch - processPackages [ign-gpao-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ign-gpao-client-0.8.0.tar.gz tmp/ign-gpao-client-0.9.0.tar.gz --markdown 20230503/i/ign-gpao-client/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-03 15:31:18] INFO root fetch - main [MainThread]: End processing [pysui]: success
+[2023-05-03 15:31:19] INFO root fetch - main [MainThread]: End processing [quarter-lib]: success
+[2023-05-03 15:31:19] INFO root fetch - main [MainThread]: End processing [dune-harmonizer]: success
+[2023-05-03 15:31:19] INFO root fetch - main [MainThread]: End processing [sanssouci]: success
+[2023-05-03 15:31:19] INFO root fetch - main [MainThread]: End processing [doc-to-readme]: success
+[2023-05-03 15:31:19] INFO root fetch - main [MainThread]: End processing [tts-arranger]: success
+[2023-05-03 15:31:19] INFO root fetch - main [MainThread]: End processing [mask2bbox]: success
+[2023-05-03 15:31:19] INFO root fetch - main [MainThread]: End processing [ign-gpao-client]: success
+[2023-05-03 15:31:20] INFO root fetch - main [MainThread]: End processing [npyx]: success
+[2023-05-03 15:31:22] INFO root fetch - main [MainThread]: End processing [omero-figure]: success
+[2023-05-03 15:31:22] INFO root fetch - main [MainThread]: Store serial: [17957008]
