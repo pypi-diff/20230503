@@ -15535,3 +15535,144 @@ No space left on device. Diffoscope exiting.
 [2023-05-03 15:09:54] INFO root fetch - main [MainThread]: End processing [openmc-depletion-plotter]: success
 [2023-05-03 15:09:55] INFO root fetch - main [MainThread]: End processing [dclab]: success
 [2023-05-03 15:09:55] INFO root fetch - main [MainThread]: Store serial: [17956781]
+[2023-05-03 15:15:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17956781]
+[2023-05-03 15:15:04] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-05-03 15:15:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-l10n-br-fiscal
+[2023-05-03 15:15:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: contxt-sdk
+[2023-05-03 15:15:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbdev-pandas
+[2023-05-03 15:15:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wagtail-meta-preview
+[2023-05-03 15:15:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bitmovin-api-sdk
+[2023-05-03 15:15:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: koyo
+[2023-05-03 15:15:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pythonSCHED
+[2023-05-03 15:15:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: certora-cli-alpha-dominik-debug-of-mus-tests
+[2023-05-03 15:15:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ngspice-tools
+[2023-05-03 15:15:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nbdev-pytorch
+[2023-05-03 15:15:04] INFO root fetch - processPackages [certora-cli-alpha-dominik-debug-of-mus-tests]: New version: [20230503.9.54.550795] Old Version: [20230503.13.11.737115]
+[2023-05-03 15:15:04] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: New version: [14.0.9.2.1.dev3] Old Version: [14.0.9.2.1.dev2]
+[2023-05-03 15:15:04] INFO root fetch - processPackages [wagtail-meta-preview]: New version: [2.0.0] Old Version: [1.1.1]
+[2023-05-03 15:15:04] WARNING root fetch - processPackages [ngspice-tools]: Skipping, unable to determine old version
+[2023-05-03 15:15:04] INFO root fetch - processPackages [ngspice-tools]: Start processing: nonebot-plugin-groupmate-waifu
+[2023-05-03 15:15:04] INFO root fetch - main [MainThread]: End processing [ngspice-tools] error
+[2023-05-03 15:15:04] INFO root fetch - processPackages [koyo]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-03 15:15:04] INFO root fetch - processPackages [contxt-sdk]: New version: [6.2.2] Old Version: [6.2.1]
+[2023-05-03 15:15:04] INFO root fetch - processPackages [pythonSCHED]: New version: [1.9.0] Old Version: [1.8.2]
+[2023-05-03 15:15:04] INFO root fetch - processPackages [bitmovin-api-sdk]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-05-03 15:15:04] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-03 15:15:04] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-03 15:15:04] INFO root fetch - processPackages [nonebot-plugin-groupmate-waifu]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-05-03 15:15:04] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/e4/e4/cd3df65f7d13a8e8dfa1592e08d78574793d38384b1c92993ce920dcd0df/nbdev-pandas-0.0.98.tar.gz
+[2023-05-03 15:15:04] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/f8/45/4613a0137d296a1960d76ded45b0af15a8fd578bf48df103c50675b49136/nbdev-pytorch-0.0.98.tar.gz
+[2023-05-03 15:15:05] INFO root fetch - processPackages [certora-cli-alpha-dominik-debug-of-mus-tests]: Downloading https://files.pythonhosted.org/packages/3e/2d/8d3ae4e2fda5825e6cc0108d388eb50276b12a4c00cae1bb79562db91bda/certora-cli-alpha-dominik-debug_of_mus_tests-20230503.13.11.737115.tar.gz
+[2023-05-03 15:15:05] WARNING root fetch - processPackages [certora-cli-alpha-dominik-debug-of-mus-tests]: Skipping package: exceeds size limit 38364571>=10485760
+[2023-05-03 15:15:05] INFO root fetch - processPackages [certora-cli-alpha-dominik-debug-of-mus-tests]: Start processing: oarepo-runtime
+[2023-05-03 15:15:05] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-dominik-debug-of-mus-tests] error
+[2023-05-03 15:15:05] INFO root fetch - processPackages [koyo]: Downloading https://files.pythonhosted.org/packages/95/ec/0a23a4c2dadf5a93c145e625d88264ec55e39152127660f97e5cf801d760/koyo-0.2.3.tar.gz
+[2023-05-03 15:15:05] INFO root fetch - processPackages [nonebot-plugin-groupmate-waifu]: Downloading https://files.pythonhosted.org/packages/72/3d/259cb0cacfab589aa0c8c60d56a4be7e1629b2c52d96dcb2f29d30ab7994/nonebot_plugin_groupmate_waifu-1.2.5.tar.gz
+[2023-05-03 15:15:05] INFO root fetch - processPackages [wagtail-meta-preview]: Downloading https://files.pythonhosted.org/packages/62/2c/d365ae481db5e826123236cd0572117d5e2bd9e235abddca67032c257f85/wagtail-meta-preview-1.1.1.tar.gz
+[2023-05-03 15:15:05] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: Downloading https://files.pythonhosted.org/packages/b6/ae/9800d777e4d7166c8a0ee02cd7c2602421433738397b582d529f48db7c5b/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev2-py3-none-any.whl
+[2023-05-03 15:15:05] INFO root fetch - processPackages [pythonSCHED]: Downloading https://files.pythonhosted.org/packages/25/b6/6a87eda00b67735d0c12cf1b2e794b4c6e6771e790f960a0c510101c0f34/pythonSCHED-1.8.2.tar.gz
+[2023-05-03 15:15:05] INFO root fetch - processPackages [bitmovin-api-sdk]: Downloading https://files.pythonhosted.org/packages/99/5f/f312c7ae4e19c02c92be74787a5b90e06fd5c451af1d3ae05598ba30e3b1/bitmovin-api-sdk-1.98.0.tar.gz
+[2023-05-03 15:15:05] INFO root fetch - processPackages [oarepo-runtime]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-03 15:15:05] INFO root fetch - processPackages [contxt-sdk]: Downloading https://files.pythonhosted.org/packages/3c/5b/a0e87a0c92f1579954f35f6af4055f88fa2ec1410382382a19d0bc5d1d69/contxt_sdk-6.2.1.tar.gz
+[2023-05-03 15:15:05] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/b0/37/5921f26bef4d07ebb5599f7ccb4d57ab1a847950edaa615ebcf9ef228690/nbdev-pytorch-0.0.99.tar.gz
+[2023-05-03 15:15:05] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/cf/b5/493c8e89c5cb4fcc7db248f99868f931ca6389f6e411e63c97bb22c6f1b0/nbdev-pandas-0.0.99.tar.gz
+[2023-05-03 15:15:05] INFO root fetch - processPackages [oarepo-runtime]: Downloading https://files.pythonhosted.org/packages/41/14/51493f50f9af6de7498f3f74b164213e2afbd9e3ec763cef6aef183e8691/oarepo-runtime-1.2.8.tar.gz
+[2023-05-03 15:15:05] INFO root fetch - processPackages [nonebot-plugin-groupmate-waifu]: Downloading https://files.pythonhosted.org/packages/41/57/951aa6378c0f228b3035aedbc146665fc92301a46169a7fb4765780edb23/nonebot_plugin_groupmate_waifu-1.2.6.tar.gz
+[2023-05-03 15:15:05] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-05-03 15:15:05] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230503/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-03 15:15:05] INFO root fetch - processPackages [contxt-sdk]: Downloading https://files.pythonhosted.org/packages/c7/ca/df096a39a1895a201c67b84f4ce3dcb49672c9ea5ed0badcb8c5915c914a/contxt_sdk-6.2.2.tar.gz
+[2023-05-03 15:15:05] INFO root fetch - processPackages [wagtail-meta-preview]: Downloading https://files.pythonhosted.org/packages/08/40/5e78654810c91495d7ab99be34b0b3f91c5140081af88d201907608f6055/wagtail-meta-preview-2.0.0.tar.gz
+[2023-05-03 15:15:05] INFO root fetch - processPackages [koyo]: Downloading https://files.pythonhosted.org/packages/52/94/601a48586d695e98b19d98fc0dbba64b0722ed1b4eb858de222c7c1af1d4/koyo-0.2.4.tar.gz
+[2023-05-03 15:15:05] INFO root fetch - processPackages [nonebot-plugin-groupmate-waifu]: executing diffoscope
+[2023-05-03 15:15:05] INFO root fetch - processPackages [nonebot-plugin-groupmate-waifu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_groupmate_waifu-1.2.5.tar.gz tmp/nonebot_plugin_groupmate_waifu-1.2.6.tar.gz --markdown 20230503/n/nonebot-plugin-groupmate-waifu/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-05-03 15:15:05] INFO root fetch - processPackages [contxt-sdk]: executing diffoscope
+[2023-05-03 15:15:05] INFO root fetch - processPackages [contxt-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contxt_sdk-6.2.1.tar.gz tmp/contxt_sdk-6.2.2.tar.gz --markdown 20230503/c/contxt-sdk/6.2.1-6.2.2/diff.md --exclude *.pyd
+[2023-05-03 15:15:05] INFO root fetch - processPackages [wagtail-meta-preview]: executing diffoscope
+[2023-05-03 15:15:05] INFO root fetch - processPackages [wagtail-meta-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail-meta-preview-1.1.1.tar.gz tmp/wagtail-meta-preview-2.0.0.tar.gz --markdown 20230503/w/wagtail-meta-preview/1.1.1-2.0.0/diff.md --exclude *.pyd
+[2023-05-03 15:15:05] INFO root fetch - processPackages [koyo]: executing diffoscope
+[2023-05-03 15:15:05] INFO root fetch - processPackages [koyo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/koyo-0.2.3.tar.gz tmp/koyo-0.2.4.tar.gz --markdown 20230503/k/koyo/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-03 15:15:05] INFO root fetch - processPackages [bitmovin-api-sdk]: Downloading https://files.pythonhosted.org/packages/34/91/b3a6a32567ee1b2b10fdb861f77466abd3a7b2db538088f87351199da0bc/bitmovin-api-sdk-1.99.0.tar.gz
+[2023-05-03 15:15:05] INFO root fetch - processPackages [oarepo-runtime]: Downloading https://files.pythonhosted.org/packages/4f/62/3e8e2e0a8b93184437084b6d1e063f3f668c1d63b8cb6d50a4265d60b92e/oarepo-runtime-1.2.9.tar.gz
+[2023-05-03 15:15:05] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-05-03 15:15:05] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230503/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-03 15:15:05] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: Downloading https://files.pythonhosted.org/packages/3e/9d/f06739d0fc5ac83076dbdce19b1fc1ffc33e068724d0f81d8a08b9fed2ef/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev3-py3-none-any.whl
+[2023-05-03 15:15:05] INFO root fetch - processPackages [oarepo-runtime]: executing diffoscope
+[2023-05-03 15:15:05] INFO root fetch - processPackages [oarepo-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-runtime-1.2.8.tar.gz tmp/oarepo-runtime-1.2.9.tar.gz --markdown 20230503/o/oarepo-runtime/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-03 15:15:06] INFO root fetch - processPackages [pythonSCHED]: Downloading https://files.pythonhosted.org/packages/00/05/0b00038420bf1e143dff877685143274d4c6702818a3077b6c706e5878b0/pythonSCHED-1.9.0.tar.gz
+[2023-05-03 15:15:06] INFO root fetch - processPackages [bitmovin-api-sdk]: executing diffoscope
+[2023-05-03 15:15:06] INFO root fetch - processPackages [bitmovin-api-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitmovin-api-sdk-1.98.0.tar.gz tmp/bitmovin-api-sdk-1.99.0.tar.gz --markdown 20230503/b/bitmovin-api-sdk/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-05-03 15:15:06] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: executing diffoscope
+[2023-05-03 15:15:06] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev3-py3-none-any.whl.zip --markdown 20230503/o/odoo14-addon-l10n-br-fiscal/14.0.9.2.1.dev2-14.0.9.2.1.dev3/diff.md --exclude *.pyd
+[2023-05-03 15:15:06] INFO root fetch - processPackages [nonebot-plugin-groupmate-waifu]: Start processing: pycrafter
+[2023-05-03 15:15:06] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-groupmate-waifu]: success
+[2023-05-03 15:15:06] WARNING root fetch - processPackages [pycrafter]: Skipping, unable to determine old version
+[2023-05-03 15:15:06] INFO root fetch - processPackages [pycrafter]: Start processing: dragonfile
+[2023-05-03 15:15:06] INFO root fetch - main [MainThread]: End processing [pycrafter] error
+[2023-05-03 15:15:06] INFO root fetch - processPackages [dragonfile]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-03 15:15:06] INFO root fetch - processPackages [nbdev-pandas]: Start processing: nbdev-scipy
+[2023-05-03 15:15:06] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-05-03 15:15:06] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-03 15:15:07] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/94/a7/9596b1506d5fc0b0ceb265f8bbd5e0919fc146eb6df0916b4e546e9f074f/nbdev-scipy-0.0.98.tar.gz
+[2023-05-03 15:15:07] INFO root fetch - processPackages [contxt-sdk]: Start processing: verstack
+[2023-05-03 15:15:07] INFO root fetch - main [MainThread]: End processing [contxt-sdk]: success
+[2023-05-03 15:15:07] INFO root fetch - processPackages [dragonfile]: Downloading https://files.pythonhosted.org/packages/d0/24/ff6f67cf7c9f00bfb3b0f516b6175f1b84d7eb5576aecf60b35e157b6d0f/dragonfile-1.0.5.tar.gz
+[2023-05-03 15:15:07] INFO root fetch - processPackages [pythonSCHED]: executing diffoscope
+[2023-05-03 15:15:07] INFO root fetch - processPackages [pythonSCHED]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythonSCHED-1.8.2.tar.gz tmp/pythonSCHED-1.9.0.tar.gz --markdown 20230503/p/pythonSCHED/1.8.2-1.9.0/diff.md --exclude *.pyd
+[2023-05-03 15:15:07] INFO root fetch - processPackages [wagtail-meta-preview]: Start processing: pkilint
+[2023-05-03 15:15:07] INFO root fetch - main [MainThread]: End processing [wagtail-meta-preview]: success
+[2023-05-03 15:15:07] INFO root fetch - processPackages [verstack]: New version: [3.7.0] Old Version: [3.6.7]
+[2023-05-03 15:15:07] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/d4/25/482f9160692bdd2d374401b19f8b4700ae91c179761991cee076e37aae0d/nbdev-scipy-0.0.99.tar.gz
+[2023-05-03 15:15:07] INFO root fetch - processPackages [pkilint]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-05-03 15:15:07] INFO root fetch - processPackages [oarepo-runtime]: Start processing: extr-ds
+[2023-05-03 15:15:07] INFO root fetch - main [MainThread]: End processing [oarepo-runtime]: success
+[2023-05-03 15:15:07] INFO root fetch - processPackages [extr-ds]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 15:15:07] INFO root fetch - processPackages [dragonfile]: Downloading https://files.pythonhosted.org/packages/c0/58/5f7dee855d13a0daff174a332dfefc6a87fd9ae5b5ac53bd1cee01c480c1/dragonfile-1.0.6.tar.gz
+[2023-05-03 15:15:07] INFO root fetch - processPackages [verstack]: Downloading https://files.pythonhosted.org/packages/72/1a/7d425b3c8dab1a171a518549f2a4c1a3d8b918ab5d7008a9c6975fb4187a/verstack-3.6.7.tar.gz
+[2023-05-03 15:15:07] INFO root fetch - processPackages [extr-ds]: executing diffoscope
+[2023-05-03 15:15:07] INFO root fetch - processPackages [extr-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extr-ds-0.0.8.tar.gz tmp/extr-ds-0.0.9.tar.gz --markdown 20230503/e/extr-ds/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 15:15:07] INFO root fetch - processPackages [pkilint]: Downloading https://files.pythonhosted.org/packages/e6/cb/4d7add84559fdc510a2d823492a298eba9f7210651a45c5703026e91e431/pkilint-0.8.0.tar.gz
+[2023-05-03 15:15:07] INFO root fetch - processPackages [dragonfile]: executing diffoscope
+[2023-05-03 15:15:07] INFO root fetch - processPackages [dragonfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfile-1.0.5.tar.gz tmp/dragonfile-1.0.6.tar.gz --markdown 20230503/d/dragonfile/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-03 15:15:07] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-05-03 15:15:07] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230503/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-03 15:15:07] INFO root fetch - processPackages [koyo]: Start processing: inkstone
+[2023-05-03 15:15:07] INFO root fetch - main [MainThread]: End processing [koyo]: success
+[2023-05-03 15:15:07] INFO root fetch - processPackages [pkilint]: Downloading https://files.pythonhosted.org/packages/05/ec/16306562ff643ada1a61c3dae724d965c470e6243a24dcf633a2e284feb7/pkilint-0.8.1.tar.gz
+[2023-05-03 15:15:07] INFO root fetch - processPackages [inkstone]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-03 15:15:07] INFO root fetch - processPackages [verstack]: Downloading https://files.pythonhosted.org/packages/f4/bd/a99cc6a3391558acd84f67b9112e009d40906f44ce39a8c1695053f8dc54/verstack-3.7.0.tar.gz
+[2023-05-03 15:15:07] INFO root fetch - processPackages [pkilint]: executing diffoscope
+[2023-05-03 15:15:07] INFO root fetch - processPackages [pkilint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkilint-0.8.0.tar.gz tmp/pkilint-0.8.1.tar.gz --markdown 20230503/p/pkilint/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-05-03 15:15:08] INFO root fetch - processPackages [verstack]: executing diffoscope
+[2023-05-03 15:15:08] INFO root fetch - processPackages [verstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/verstack-3.6.7.tar.gz tmp/verstack-3.7.0.tar.gz --markdown 20230503/v/verstack/3.6.7-3.7.0/diff.md --exclude *.pyd
+[2023-05-03 15:15:08] INFO root fetch - processPackages [nbdev-pytorch]: Start processing: lusid-sdk
+[2023-05-03 15:15:08] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-05-03 15:15:08] INFO root fetch - processPackages [lusid-sdk]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-05-03 15:15:08] INFO root fetch - processPackages [inkstone]: executing diffoscope
+[2023-05-03 15:15:08] INFO root fetch - processPackages [inkstone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inkstone-0.2.8.tar.gz tmp/inkstone-0.2.9.tar.gz --markdown 20230503/i/inkstone/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-03 15:15:08] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/be/34/7662f651750d07513450337ca9275481d00381ada330eaaa7e365fdde135/lusid-sdk-1.0.91.tar.gz
+[2023-05-03 15:15:08] INFO root fetch - processPackages [extr-ds]: Start processing: lusid-sdk-preview
+[2023-05-03 15:15:08] INFO root fetch - main [MainThread]: End processing [extr-ds]: success
+[2023-05-03 15:15:08] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/14/c8/523a5d4f9c0dcabd6883ffe308d0ecf41ed93c1f7e1cdc4baced16ec67c6/lusid-sdk-1.0.98.tar.gz
+[2023-05-03 15:15:08] INFO root fetch - processPackages [lusid-sdk-preview]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-05-03 15:15:08] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/49/7a/a2c137408aeb27bd4c7f6dd83e907217e3962f825b96448437c4cfa4e0ea/lusid-sdk-preview-1.0.91.tar.gz
+[2023-05-03 15:15:08] INFO root fetch - processPackages [dragonfile]: Start processing: extended-json-schema-validator
+[2023-05-03 15:15:08] INFO root fetch - main [MainThread]: End processing [dragonfile]: success
+[2023-05-03 15:15:08] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2023-05-03 15:15:08] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-1.0.91.tar.gz tmp/lusid-sdk-1.0.98.tar.gz --markdown 20230503/l/lusid-sdk/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-05-03 15:15:08] INFO root fetch - processPackages [extended-json-schema-validator]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-03 15:15:09] INFO root fetch - processPackages [extended-json-schema-validator]: executing diffoscope
+[2023-05-03 15:15:09] INFO root fetch - processPackages [extended-json-schema-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extended_json_schema_validator-0.9.8.tar.gz tmp/extended_json_schema_validator-0.9.9.tar.gz --markdown 20230503/e/extended-json-schema-validator/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-03 15:15:09] INFO root fetch - main [MainThread]: End processing [inkstone]: success
+[2023-05-03 15:15:09] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/98/81/36672596a28f997865bee76ba030a446e52a68b56b9e297ed56f9a8fb301/lusid-sdk-preview-1.0.98.tar.gz
+[2023-05-03 15:15:09] INFO root fetch - processPackages [lusid-sdk-preview]: executing diffoscope
+[2023-05-03 15:15:09] INFO root fetch - processPackages [lusid-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-preview-1.0.91.tar.gz tmp/lusid-sdk-preview-1.0.98.tar.gz --markdown 20230503/l/lusid-sdk-preview/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-05-03 15:15:10] INFO root fetch - main [MainThread]: End processing [extended-json-schema-validator]: success
+[2023-05-03 15:15:10] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-05-03 15:15:10] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-fiscal]: success
+[2023-05-03 15:15:11] INFO root fetch - main [MainThread]: End processing [pkilint]: success
+[2023-05-03 15:15:17] INFO root fetch - main [MainThread]: End processing [verstack]: success
+[2023-05-03 15:15:20] INFO root fetch - main [MainThread]: End processing [pythonSCHED]: success
+[2023-05-03 15:15:25] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2023-05-03 15:15:37] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
+[2023-05-03 15:15:41] INFO root fetch - main [MainThread]: End processing [bitmovin-api-sdk]: success
+[2023-05-03 15:15:41] INFO root fetch - main [MainThread]: Store serial: [17956846]
