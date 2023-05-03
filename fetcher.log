@@ -21387,3 +21387,103 @@ No space left on device. Diffoscope exiting.
 [2023-05-03 19:52:03] INFO root fetch - main [MainThread]: End processing [cashfree-lrs-client]: success
 [2023-05-03 19:52:09] INFO root fetch - main [MainThread]: End processing [ethyca-fides]: success
 [2023-05-03 19:52:09] INFO root fetch - main [MainThread]: Store serial: [17960582]
+[2023-05-03 19:57:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17960582]
+[2023-05-03 19:57:19] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-03 19:57:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ligo-followup-advocate
+[2023-05-03 19:57:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: metaphor-connectors
+[2023-05-03 19:57:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: griptape-tools
+[2023-05-03 19:57:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: foggyday
+[2023-05-03 19:57:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py-sls-lambda-toolkit
+[2023-05-03 19:57:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ft-package-42-jekim
+[2023-05-03 19:57:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dbt-redshift
+[2023-05-03 19:57:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyopp
+[2023-05-03 19:57:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wrapanapi
+[2023-05-03 19:57:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: inverter-connect
+[2023-05-03 19:57:19] INFO root fetch - processPackages [py-sls-lambda-toolkit]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-03 19:57:19] INFO root fetch - processPackages [griptape-tools]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-03 19:57:19] INFO root fetch - processPackages [ft-package-42-jekim]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-03 19:57:19] INFO root fetch - processPackages [ligo-followup-advocate]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-05-03 19:57:19] INFO root fetch - processPackages [metaphor-connectors]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-03 19:57:19] INFO root fetch - processPackages [dbt-redshift]: New version: [1.5.1] Old Version: [1.5.0rc1]
+[2023-05-03 19:57:19] INFO root fetch - processPackages [pyopp]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-03 19:57:19] INFO root fetch - processPackages [wrapanapi]: New version: [3.5.9] Old Version: [3.5.8]
+[2023-05-03 19:57:19] WARNING root fetch - processPackages [foggyday]: Skipping, unable to determine old version
+[2023-05-03 19:57:19] INFO root fetch - processPackages [foggyday]: Start processing: luminesce-sdk-preview
+[2023-05-03 19:57:19] INFO root fetch - main [MainThread]: End processing [foggyday] error
+[2023-05-03 19:57:19] INFO root fetch - processPackages [inverter-connect]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-05-03 19:57:19] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2023-05-03 19:57:19] INFO root fetch - processPackages [metaphor-connectors]: executing diffoscope
+[2023-05-03 19:57:19] INFO root fetch - processPackages [metaphor-connectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaphor-connectors-0.9.3.tar.gz tmp/metaphor-connectors-0.9.4.tar.gz --markdown 20230503/m/metaphor-connectors/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-03 19:57:19] INFO root fetch - processPackages [griptape-tools]: Downloading https://files.pythonhosted.org/packages/93/f3/cee260713c8847e2863876ce5fdb8817ed49bd31ce80cd349a8276389733/griptape_tools-0.9.2.tar.gz
+[2023-05-03 19:57:19] INFO root fetch - processPackages [py-sls-lambda-toolkit]: Downloading https://files.pythonhosted.org/packages/7f/7e/740c030d150a5eb0dcd4ffde3fdc454e24a2f7a25a232d9b1991f9e0629d/py-sls-lambda-toolkit-0.1.2.tar.gz
+[2023-05-03 19:57:19] INFO root fetch - processPackages [ft-package-42-jekim]: Downloading https://files.pythonhosted.org/packages/c0/f2/d9ed301df2b5ff19f97f8fd6b20e7ad8c7e23645fe42c16608b6c0af97e8/ft_package_42_jekim-0.0.7.tar.gz
+[2023-05-03 19:57:19] INFO root fetch - processPackages [pyopp]: Downloading https://files.pythonhosted.org/packages/ad/e5/5b6698ee94de415b3011ed541371994ae1b4b18ee313358dce89eda1e2e4/pyopp-0.0.6.tar.gz
+[2023-05-03 19:57:19] INFO root fetch - processPackages [dbt-redshift]: Downloading https://files.pythonhosted.org/packages/64/0d/22b2b65ef67ee8ac46cb234bccc6ebf6e1d2ea26e6fa3cba0d59cb54ac7e/dbt-redshift-1.5.0rc1.tar.gz
+[2023-05-03 19:57:19] INFO root fetch - processPackages [ligo-followup-advocate]: Downloading https://files.pythonhosted.org/packages/f8/7a/8768ff029ca148df170de5e2b9b4a4e1b0aaef4b75a43627f4dce62ba81e/ligo-followup-advocate-1.2.1.tar.gz
+[2023-05-03 19:57:19] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2023-05-03 19:57:19] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20230503/l/luminesce-sdk-preview/1.9.88-1.9.92/diff.md --exclude *.pyd
+[2023-05-03 19:57:19] INFO root fetch - processPackages [griptape-tools]: executing diffoscope
+[2023-05-03 19:57:19] INFO root fetch - processPackages [py-sls-lambda-toolkit]: executing diffoscope
+[2023-05-03 19:57:19] INFO root fetch - processPackages [griptape-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/griptape_tools-0.9.1.tar.gz tmp/griptape_tools-0.9.2.tar.gz --markdown 20230503/g/griptape-tools/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-03 19:57:19] INFO root fetch - processPackages [ft-package-42-jekim]: executing diffoscope
+[2023-05-03 19:57:19] INFO root fetch - processPackages [py-sls-lambda-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-sls-lambda-toolkit-0.1.1.tar.gz tmp/py-sls-lambda-toolkit-0.1.2.tar.gz --markdown 20230503/p/py-sls-lambda-toolkit/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-03 19:57:19] INFO root fetch - processPackages [ft-package-42-jekim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ft_package_42_jekim-0.0.6.tar.gz tmp/ft_package_42_jekim-0.0.7.tar.gz --markdown 20230503/f/ft-package-42-jekim/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-03 19:57:19] INFO root fetch - processPackages [inverter-connect]: Downloading https://files.pythonhosted.org/packages/75/f4/12eaa37d674457fc21a3228679568f667d68371ca57c095096491fa79848/inverter-connect-0.3.1.tar.gz
+[2023-05-03 19:57:19] INFO root fetch - processPackages [wrapanapi]: Downloading https://files.pythonhosted.org/packages/82/e5/e79c495062a0c7f4a71ebac2ed3f5c04ecb5415e42afe4a543c6ebc85dfe/wrapanapi-3.5.8.tar.gz
+[2023-05-03 19:57:20] INFO root fetch - processPackages [pyopp]: Downloading https://files.pythonhosted.org/packages/d2/dc/5ec029d8f2d36174991f0a2ea45fd7ee4369d635f3603c2242392a14f521/pyopp-0.0.7.tar.gz
+[2023-05-03 19:57:20] INFO root fetch - processPackages [dbt-redshift]: Downloading https://files.pythonhosted.org/packages/e4/77/0ce6cb09dc79f7bf192115b300e1ffc0a8aa0b8be097af9f0b62ef0fa42a/dbt-redshift-1.5.1.tar.gz
+[2023-05-03 19:57:20] INFO root fetch - processPackages [pyopp]: executing diffoscope
+[2023-05-03 19:57:20] INFO root fetch - processPackages [pyopp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyopp-0.0.6.tar.gz tmp/pyopp-0.0.7.tar.gz --markdown 20230503/p/pyopp/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-03 19:57:20] INFO root fetch - processPackages [dbt-redshift]: executing diffoscope
+[2023-05-03 19:57:20] INFO root fetch - processPackages [dbt-redshift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-redshift-1.5.0rc1.tar.gz tmp/dbt-redshift-1.5.1.tar.gz --markdown 20230503/d/dbt-redshift/1.5.0rc1-1.5.1/diff.md --exclude *.pyd
+[2023-05-03 19:57:20] INFO root fetch - processPackages [inverter-connect]: Downloading https://files.pythonhosted.org/packages/33/3c/75e52c82173ef87c2e252f2c26af7e2ea17d82c65bcc5d64b6c1c19bf791/inverter-connect-0.4.0.tar.gz
+[2023-05-03 19:57:20] INFO root fetch - processPackages [wrapanapi]: Downloading https://files.pythonhosted.org/packages/a5/d2/d012976881c2c6c94bd8abc4ce5562ebf996029bccdcaf9ac2c74a114d49/wrapanapi-3.5.9.tar.gz
+[2023-05-03 19:57:20] INFO root fetch - processPackages [inverter-connect]: executing diffoscope
+[2023-05-03 19:57:20] INFO root fetch - processPackages [inverter-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inverter-connect-0.3.1.tar.gz tmp/inverter-connect-0.4.0.tar.gz --markdown 20230503/i/inverter-connect/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-05-03 19:57:20] INFO root fetch - processPackages [wrapanapi]: executing diffoscope
+[2023-05-03 19:57:20] INFO root fetch - processPackages [wrapanapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wrapanapi-3.5.8.tar.gz tmp/wrapanapi-3.5.9.tar.gz --markdown 20230503/w/wrapanapi/3.5.8-3.5.9/diff.md --exclude *.pyd
+[2023-05-03 19:57:21] INFO root fetch - processPackages [ft-package-42-jekim]: Start processing: bottle-jwt3
+[2023-05-03 19:57:21] INFO root fetch - main [MainThread]: End processing [ft-package-42-jekim]: success
+[2023-05-03 19:57:21] INFO root fetch - processPackages [py-sls-lambda-toolkit]: Start processing: sefazetllib
+[2023-05-03 19:57:21] INFO root fetch - main [MainThread]: End processing [py-sls-lambda-toolkit]: success
+[2023-05-03 19:57:21] WARNING root fetch - processPackages [bottle-jwt3]: Skipping, unable to determine old version
+[2023-05-03 19:57:21] INFO root fetch - processPackages [bottle-jwt3]: Start processing: modal-client
+[2023-05-03 19:57:21] INFO root fetch - main [MainThread]: End processing [bottle-jwt3] error
+[2023-05-03 19:57:21] INFO root fetch - processPackages [griptape-tools]: Start processing: widgets-lib
+[2023-05-03 19:57:21] INFO root fetch - main [MainThread]: End processing [griptape-tools]: success
+[2023-05-03 19:57:21] INFO root fetch - processPackages [modal-client]: New version: [0.49.2091] Old Version: [0.49.2081]
+[2023-05-03 19:57:21] INFO root fetch - processPackages [widgets-lib]: New version: [2.7.4] Old Version: [2.7.3]
+[2023-05-03 19:57:21] INFO root fetch - processPackages [sefazetllib]: New version: [0.1.25] Old Version: [0.1.24]
+[2023-05-03 19:57:21] INFO root fetch - processPackages [ligo-followup-advocate]: Downloading https://files.pythonhosted.org/packages/a5/94/ef292ff6cb4a5d66498927e206c7cfc67115be5156349594c0295705ada5/ligo-followup-advocate-1.2.2.tar.gz
+[2023-05-03 19:57:21] INFO root fetch - processPackages [pyopp]: Start processing: docformatter
+[2023-05-03 19:57:21] INFO root fetch - main [MainThread]: End processing [pyopp]: success
+[2023-05-03 19:57:21] INFO root fetch - processPackages [widgets-lib]: executing diffoscope
+[2023-05-03 19:57:21] INFO root fetch - processPackages [widgets-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/widgets-lib-2.7.3.tar.gz tmp/widgets-lib-2.7.4.tar.gz --markdown 20230503/w/widgets-lib/2.7.3-2.7.4/diff.md --exclude *.pyd
+[2023-05-03 19:57:21] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/96/32/455c0fde126c7a79c6a8368eb921de4e1ca3bd29bd67f578bedd4fc10104/modal_client-0.49.2091-py3-none-any.whl
+[2023-05-03 19:57:21] INFO root fetch - processPackages [sefazetllib]: Downloading https://files.pythonhosted.org/packages/55/aa/35a981a5c61b6f457de9e46a47fa2997ef96cd7b8f960e3b8c06496ecb19/sefazetllib-0.1.24.tar.gz
+[2023-05-03 19:57:21] INFO root fetch - processPackages [docformatter]: New version: [1.6.5] Old Version: [1.6.4]
+[2023-05-03 19:57:21] INFO root fetch - processPackages [dbt-redshift]: Start processing: docs-ranking-metrics
+[2023-05-03 19:57:21] INFO root fetch - main [MainThread]: End processing [dbt-redshift]: success
+[2023-05-03 19:57:21] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2023-05-03 19:57:21] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.49.2081-py3-none-any.whl.zip tmp/modal_client-0.49.2091-py3-none-any.whl.zip --markdown 20230503/m/modal-client/0.49.2081-0.49.2091/diff.md --exclude *.pyd
+[2023-05-03 19:57:21] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2023-05-03 19:57:21] WARNING root fetch - processPackages [docs-ranking-metrics]: Skipping, unable to determine old version
+[2023-05-03 19:57:21] INFO root fetch - main [MainThread]: End processing [docs-ranking-metrics] error
+[2023-05-03 19:57:21] INFO root fetch - processPackages [docformatter]: Downloading https://files.pythonhosted.org/packages/b2/eb/3aec9ec753f23958d3e6975989b5cf2e459f388fc8e8724e8c0128236773/docformatter-1.6.4.tar.gz
+[2023-05-03 19:57:21] INFO root fetch - processPackages [sefazetllib]: Downloading https://files.pythonhosted.org/packages/35/ff/97f9f9ea9243cdc4a2b2f38e040a12e168eaa7c1fc954ae4686d940a571a/sefazetllib-0.1.25.tar.gz
+[2023-05-03 19:57:22] INFO root fetch - processPackages [docformatter]: Downloading https://files.pythonhosted.org/packages/ce/21/a211e3df9dc734e2b8fb81dee44b61af6b8a9c3267d38ab3444b4f5da851/docformatter-1.6.5.tar.gz
+[2023-05-03 19:57:22] INFO root fetch - processPackages [sefazetllib]: executing diffoscope
+[2023-05-03 19:57:22] INFO root fetch - processPackages [sefazetllib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sefazetllib-0.1.24.tar.gz tmp/sefazetllib-0.1.25.tar.gz --markdown 20230503/s/sefazetllib/0.1.24-0.1.25/diff.md --exclude *.pyd
+[2023-05-03 19:57:22] INFO root fetch - processPackages [docformatter]: executing diffoscope
+[2023-05-03 19:57:22] INFO root fetch - processPackages [docformatter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docformatter-1.6.4.tar.gz tmp/docformatter-1.6.5.tar.gz --markdown 20230503/d/docformatter/1.6.4-1.6.5/diff.md --exclude *.pyd
+[2023-05-03 19:57:22] INFO root fetch - main [MainThread]: End processing [wrapanapi]: success
+[2023-05-03 19:57:22] INFO root fetch - main [MainThread]: End processing [inverter-connect]: success
+[2023-05-03 19:57:22] INFO root fetch - main [MainThread]: End processing [widgets-lib]: success
+[2023-05-03 19:57:22] INFO root fetch - main [MainThread]: End processing [metaphor-connectors]: success
+[2023-05-03 19:57:23] INFO root fetch - processPackages [ligo-followup-advocate]: executing diffoscope
+[2023-05-03 19:57:23] INFO root fetch - processPackages [ligo-followup-advocate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ligo-followup-advocate-1.2.1.tar.gz tmp/ligo-followup-advocate-1.2.2.tar.gz --markdown 20230503/l/ligo-followup-advocate/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-05-03 19:57:23] INFO root fetch - main [MainThread]: End processing [docformatter]: success
+[2023-05-03 19:57:23] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2023-05-03 19:57:24] INFO root fetch - main [MainThread]: End processing [sefazetllib]: success
+[2023-05-03 19:57:25] INFO root fetch - main [MainThread]: End processing [ligo-followup-advocate]: success
+[2023-05-03 19:57:25] INFO root fetch - main [MainThread]: Store serial: [17960647]
