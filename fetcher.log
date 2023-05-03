@@ -13274,3 +13274,67 @@ No space left on device. Diffoscope exiting.
 [2023-05-03 13:12:27] INFO root fetch - main [MainThread]: End processing [tts-arranger]: success
 [2023-05-03 13:12:28] INFO root fetch - main [MainThread]: End processing [pyasd]: success
 [2023-05-03 13:12:28] INFO root fetch - main [MainThread]: Store serial: [17955481]
+[2023-05-03 13:17:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17955481]
+[2023-05-03 13:17:37] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-03 13:17:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytest-dbt-core
+[2023-05-03 13:17:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyBerries
+[2023-05-03 13:17:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pygame-gameover
+[2023-05-03 13:17:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: syamaguc
+[2023-05-03 13:17:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: phc-ingestion
+[2023-05-03 13:17:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bluepyopt
+[2023-05-03 13:17:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tracknado
+[2023-05-03 13:17:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: daily-py-fun
+[2023-05-03 13:17:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: metabeaver
+[2023-05-03 13:17:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: circuitpython-mag-cal
+[2023-05-03 13:17:37] INFO root fetch - processPackages [PyBerries]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-03 13:17:37] INFO root fetch - processPackages [pygame-gameover]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-03 13:17:37] INFO root fetch - processPackages [syamaguc]: New version: [0.1.0.post2305032013] Old Version: [0.1.0.post2305031102]
+[2023-05-03 13:17:37] INFO root fetch - processPackages [pytest-dbt-core]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-03 13:17:37] INFO root fetch - processPackages [metabeaver]: New version: [0.1.2] Old Version: [0.1.11]
+[2023-05-03 13:17:37] INFO root fetch - processPackages [phc-ingestion]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-03 13:17:37] INFO root fetch - processPackages [phc-ingestion]: Downloading https://files.pythonhosted.org/packages/7c/50/dddee5ed9f37b0a223816dbcded72773737dfa9dda1c606fdb575b27a1f8/phc-ingestion-0.3.8.tar.gz
+[2023-05-03 13:17:37] INFO root fetch - processPackages [tracknado]: New version: [0.2] Old Version: [0.1]
+[2023-05-03 13:17:37] INFO root fetch - processPackages [metabeaver]: executing diffoscope
+[2023-05-03 13:17:37] INFO root fetch - processPackages [metabeaver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metabeaver-0.1.11.tar.gz tmp/metabeaver-0.1.2.tar.gz --markdown 20230503/m/metabeaver/0.1.11-0.1.2/diff.md --exclude *.pyd
+[2023-05-03 13:17:37] WARNING root fetch - processPackages [daily-py-fun]: Skipping, unable to determine old version
+[2023-05-03 13:17:37] INFO root fetch - main [MainThread]: End processing [daily-py-fun] error
+[2023-05-03 13:17:37] INFO root fetch - processPackages [bluepyopt]: New version: [1.9.98] Old Version: [1.9.96]
+[2023-05-03 13:17:37] WARNING root fetch - processPackages [phc-ingestion]: Skipping package: exceeds size limit 55817200>=10485760
+[2023-05-03 13:17:37] INFO root fetch - main [MainThread]: End processing [phc-ingestion] error
+[2023-05-03 13:17:37] INFO root fetch - processPackages [circuitpython-mag-cal]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-03 13:17:37] INFO root fetch - processPackages [pygame-gameover]: Downloading https://files.pythonhosted.org/packages/95/04/cba4aef7cefb2b9edbf5f08d38937c6c40fb2ff5b8a46ddf3723a39625c1/pygame_gameover-0.0.1.tar.gz
+[2023-05-03 13:17:37] INFO root fetch - processPackages [PyBerries]: Downloading https://files.pythonhosted.org/packages/8e/d1/2b477411887cf9582ac8a4630692c620506f296d53960b7bf6661255896f/PyBerries-0.2.1.tar.gz
+[2023-05-03 13:17:37] INFO root fetch - processPackages [syamaguc]: Downloading https://files.pythonhosted.org/packages/bc/5e/5406aac05759af39419a616e8f9876779a0d4ea97843c1e7279534664577/syamaguc-0.1.0.post2305032013.tar.gz
+[2023-05-03 13:17:37] INFO root fetch - processPackages [pytest-dbt-core]: Downloading https://files.pythonhosted.org/packages/fb/2d/94c8b19032c55f3644914793af346cd1f9660eb1ecc58d6394876996132e/pytest-dbt-core-0.2.0.tar.gz
+[2023-05-03 13:17:37] INFO root fetch - processPackages [tracknado]: Downloading https://files.pythonhosted.org/packages/30/eb/9ccff992fb07d24fa449c243a67ae8ecc4f53e7285944a2496e589b066a6/tracknado-0.1.tar.gz
+[2023-05-03 13:17:37] INFO root fetch - processPackages [syamaguc]: executing diffoscope
+[2023-05-03 13:17:37] INFO root fetch - processPackages [syamaguc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syamaguc-0.1.0.post2305031102-py3-none-any.whl.zip tmp/syamaguc-0.1.0.post2305032013.tar.gz --markdown 20230503/s/syamaguc/0.1.0.post2305031102-0.1.0.post2305032013/diff.md --exclude *.pyd
+[2023-05-03 13:17:37] INFO root fetch - processPackages [bluepyopt]: Downloading https://files.pythonhosted.org/packages/02/51/e461071d827d1fafd2af5fbddbf633fa8ec6fe1cb1a547cb8afe2b45c2ef/bluepyopt-1.9.96.tar.gz
+[2023-05-03 13:17:37] INFO root fetch - processPackages [circuitpython-mag-cal]: Downloading https://files.pythonhosted.org/packages/2d/69/0f7683bc968a2087e90c3c9cb7f9c38cdc462668858e383a03f8a81b8501/circuitpython-mag-cal-1.1.0.tar.gz
+[2023-05-03 13:17:37] INFO root fetch - processPackages [PyBerries]: Downloading https://files.pythonhosted.org/packages/4c/0b/7f72eb08ee2075739df0c7d63bcab9d47a9a816cf9dd487d722f54fcb323/PyBerries-0.2.2.tar.gz
+[2023-05-03 13:17:37] INFO root fetch - processPackages [pygame-gameover]: Downloading https://files.pythonhosted.org/packages/ef/42/4eeeb70e13804c136a12432d9982d6878dd6c394c14d255f06faaa894174/pygame_gameover-0.0.2.tar.gz
+[2023-05-03 13:17:37] INFO root fetch - processPackages [pygame-gameover]: executing diffoscope
+[2023-05-03 13:17:37] INFO root fetch - processPackages [pygame-gameover]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygame_gameover-0.0.1.tar.gz tmp/pygame_gameover-0.0.2.tar.gz --markdown 20230503/p/pygame-gameover/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-03 13:17:37] INFO root fetch - processPackages [PyBerries]: executing diffoscope
+[2023-05-03 13:17:37] INFO root fetch - processPackages [PyBerries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyBerries-0.2.1.tar.gz tmp/PyBerries-0.2.2.tar.gz --markdown 20230503/P/PyBerries/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-03 13:17:37] INFO root fetch - processPackages [pytest-dbt-core]: Downloading https://files.pythonhosted.org/packages/90/54/b4ff50efd6b66478875d25df7d75747f1dccb7601293a19ce1c31d697074/pytest-dbt-core-0.2.1.tar.gz
+[2023-05-03 13:17:37] INFO root fetch - processPackages [tracknado]: Downloading https://files.pythonhosted.org/packages/d3/24/322914471096b64b4971699e746cd40b724f853a6521a4e588944841fb8c/tracknado-0.2.tar.gz
+[2023-05-03 13:17:37] INFO root fetch - processPackages [circuitpython-mag-cal]: Downloading https://files.pythonhosted.org/packages/d1/28/ecd636e43e5f071ff29b23704f271add9ed3bc2c94ace2143519bb28591e/circuitpython-mag-cal-1.1.1.tar.gz
+[2023-05-03 13:17:37] INFO root fetch - processPackages [pytest-dbt-core]: executing diffoscope
+[2023-05-03 13:17:37] INFO root fetch - processPackages [pytest-dbt-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-dbt-core-0.2.0.tar.gz tmp/pytest-dbt-core-0.2.1.tar.gz --markdown 20230503/p/pytest-dbt-core/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-03 13:17:37] INFO root fetch - processPackages [tracknado]: executing diffoscope
+[2023-05-03 13:17:37] INFO root fetch - processPackages [tracknado]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tracknado-0.1.tar.gz tmp/tracknado-0.2.tar.gz --markdown 20230503/t/tracknado/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-03 13:17:37] INFO root fetch - processPackages [bluepyopt]: Downloading https://files.pythonhosted.org/packages/65/0f/18a17694624fbea4932495e5caf19dd6d774a835d6a79289130c89a06a5e/bluepyopt-1.9.98.tar.gz
+[2023-05-03 13:17:38] INFO root fetch - processPackages [circuitpython-mag-cal]: executing diffoscope
+[2023-05-03 13:17:38] INFO root fetch - processPackages [circuitpython-mag-cal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circuitpython-mag-cal-1.1.0.tar.gz tmp/circuitpython-mag-cal-1.1.1.tar.gz --markdown 20230503/c/circuitpython-mag-cal/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-03 13:17:38] INFO root fetch - processPackages [bluepyopt]: executing diffoscope
+[2023-05-03 13:17:38] INFO root fetch - processPackages [bluepyopt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluepyopt-1.9.96.tar.gz tmp/bluepyopt-1.9.98.tar.gz --markdown 20230503/b/bluepyopt/1.9.96-1.9.98/diff.md --exclude *.pyd
+[2023-05-03 13:17:38] INFO root fetch - main [MainThread]: End processing [syamaguc]: success
+[2023-05-03 13:17:38] INFO root fetch - main [MainThread]: End processing [metabeaver]: success
+[2023-05-03 13:17:38] INFO root fetch - main [MainThread]: End processing [pygame-gameover]: success
+[2023-05-03 13:17:39] INFO root fetch - main [MainThread]: End processing [tracknado]: success
+[2023-05-03 13:17:39] INFO root fetch - main [MainThread]: End processing [PyBerries]: success
+[2023-05-03 13:17:39] INFO root fetch - main [MainThread]: End processing [pytest-dbt-core]: success
+[2023-05-03 13:17:39] INFO root fetch - main [MainThread]: End processing [bluepyopt]: success
+[2023-05-03 13:17:40] INFO root fetch - main [MainThread]: End processing [circuitpython-mag-cal]: success
+[2023-05-03 13:17:40] INFO root fetch - main [MainThread]: Store serial: [17955514]
