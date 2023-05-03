@@ -5297,3 +5297,48 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-03 05:24:25] INFO root fetch - main [MainThread]: End processing [pybash]: success
 [2023-05-03 05:24:31] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-digitalocean]: success
 [2023-05-03 05:24:31] INFO root fetch - main [MainThread]: Store serial: [17950928]
+[2023-05-03 05:29:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17950928]
+[2023-05-03 05:29:40] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-03 05:29:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SeleniumGridServer
+[2023-05-03 05:29:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdktf-cdktf-provider-cloudflare
+[2023-05-03 05:29:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: safe-eth-py-suraneti
+[2023-05-03 05:29:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: konfuzio-sdk
+[2023-05-03 05:29:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyPDPM
+[2023-05-03 05:29:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: arraymap
+[2023-05-03 05:29:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: FuzzyPySeg
+[2023-05-03 05:29:40] INFO root fetch - processPackages [PyPDPM]: New version: [0.0.5.2] Old Version: [0.0.5.1]
+[2023-05-03 05:29:40] INFO root fetch - processPackages [konfuzio-sdk]: New version: [0.2.9.dev20230104175944] Old Version: [0.2.9.dev20221227125623]
+[2023-05-03 05:29:40] INFO root fetch - processPackages [SeleniumGridServer]: New version: [0.0.2a3] Old Version: [0.0.2a1]
+[2023-05-03 05:29:40] INFO root fetch - processPackages [safe-eth-py-suraneti]: New version: [5.3.0] Old Version: [0.0.2]
+[2023-05-03 05:29:40] WARNING root fetch - processPackages [FuzzyPySeg]: Skipping, unable to determine old version
+[2023-05-03 05:29:40] INFO root fetch - main [MainThread]: End processing [FuzzyPySeg] error
+[2023-05-03 05:29:40] INFO root fetch - processPackages [arraymap]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-03 05:29:40] INFO root fetch - processPackages [cdktf-cdktf-provider-cloudflare]: New version: [6.0.2] Old Version: [6.0.1]
+[2023-05-03 05:29:40] INFO root fetch - processPackages [konfuzio-sdk]: executing diffoscope
+[2023-05-03 05:29:40] INFO root fetch - processPackages [konfuzio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz --markdown 20230503/k/konfuzio-sdk/0.2.9.dev20221227125623-0.2.9.dev20230104175944/diff.md --exclude *.pyd
+[2023-05-03 05:29:41] INFO root fetch - processPackages [PyPDPM]: Downloading https://files.pythonhosted.org/packages/98/d1/65161ca3e50cde8822df7874e25cf33ff78588e43e84155a29f7d541d9f9/PyPDPM-0.0.5.2.tar.gz
+[2023-05-03 05:29:41] INFO root fetch - processPackages [SeleniumGridServer]: Downloading https://files.pythonhosted.org/packages/33/e3/67d3da397e630e03c9530797b66ac6ba307d7674074cbe8d33b8b118d21a/SeleniumGridServer-0.0.2a1.tar.gz
+[2023-05-03 05:29:41] INFO root fetch - processPackages [safe-eth-py-suraneti]: Downloading https://files.pythonhosted.org/packages/f5/00/86af0ead5ce0ecd677b88ccaccc5221e80cd5e8dc72ccccee6b528ae3f8f/safe-eth-py_suraneti-0.0.2.tar.gz
+[2023-05-03 05:29:41] INFO root fetch - processPackages [arraymap]: Downloading https://files.pythonhosted.org/packages/f8/46/2f6f03444df2eb726807fd0767e3e91f7b3ea20ec7dc92d34f18dfeaa24f/arraymap-0.1.5.tar.gz
+[2023-05-03 05:29:41] INFO root fetch - processPackages [cdktf-cdktf-provider-cloudflare]: Downloading https://files.pythonhosted.org/packages/ed/d3/937e2f0b39d23f9fea5e24c4cadb970e28803294e68b1f6a1644f3f007b4/cdktf-cdktf-provider-cloudflare-6.0.1.tar.gz
+[2023-05-03 05:29:41] INFO root fetch - processPackages [PyPDPM]: executing diffoscope
+[2023-05-03 05:29:41] INFO root fetch - processPackages [PyPDPM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyPDPM-0.0.5.1.tar.gz tmp/PyPDPM-0.0.5.2.tar.gz --markdown 20230503/P/PyPDPM/0.0.5.1-0.0.5.2/diff.md --exclude *.pyd
+[2023-05-03 05:29:41] INFO root fetch - processPackages [SeleniumGridServer]: Downloading https://files.pythonhosted.org/packages/e7/55/108a2dd60a0e30c4288d593559d6012696518da781effcc4e4c26d0addca/SeleniumGridServer-0.0.2a3.tar.gz
+[2023-05-03 05:29:41] INFO root fetch - processPackages [arraymap]: Downloading https://files.pythonhosted.org/packages/72/d2/0ed7a5fd960bc788bebb9d7c1fa544b3d142936df61eaa542adee021ad8f/arraymap-0.1.6.tar.gz
+[2023-05-03 05:29:41] INFO root fetch - processPackages [safe-eth-py-suraneti]: Downloading https://files.pythonhosted.org/packages/13/6e/ed58cfbd4fbab2a4731b494fd2d046109331aae5bf2741d432b1a7c32b61/safe-eth-py_suraneti-5.3.0.tar.gz
+[2023-05-03 05:29:41] INFO root fetch - processPackages [SeleniumGridServer]: executing diffoscope
+[2023-05-03 05:29:41] INFO root fetch - processPackages [SeleniumGridServer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SeleniumGridServer-0.0.2a1.tar.gz tmp/SeleniumGridServer-0.0.2a3.tar.gz --markdown 20230503/S/SeleniumGridServer/0.0.2a1-0.0.2a3/diff.md --exclude *.pyd
+[2023-05-03 05:29:41] INFO root fetch - processPackages [arraymap]: executing diffoscope
+[2023-05-03 05:29:41] INFO root fetch - processPackages [arraymap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arraymap-0.1.5.tar.gz tmp/arraymap-0.1.6.tar.gz --markdown 20230503/a/arraymap/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-03 05:29:41] INFO root fetch - processPackages [safe-eth-py-suraneti]: executing diffoscope
+[2023-05-03 05:29:41] INFO root fetch - processPackages [safe-eth-py-suraneti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/safe-eth-py_suraneti-0.0.2.tar.gz tmp/safe-eth-py_suraneti-5.3.0.tar.gz --markdown 20230503/s/safe-eth-py-suraneti/0.0.2-5.3.0/diff.md --exclude *.pyd
+[2023-05-03 05:29:42] INFO root fetch - processPackages [cdktf-cdktf-provider-cloudflare]: Downloading https://files.pythonhosted.org/packages/3c/58/fee774874a95e5376ab4f4c858c76bf9f89d3ec415c0487a149842dfdd63/cdktf-cdktf-provider-cloudflare-6.0.2.tar.gz
+[2023-05-03 05:29:42] INFO root fetch - processPackages [cdktf-cdktf-provider-cloudflare]: executing diffoscope
+[2023-05-03 05:29:42] INFO root fetch - processPackages [cdktf-cdktf-provider-cloudflare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-cloudflare-6.0.1.tar.gz tmp/cdktf-cdktf-provider-cloudflare-6.0.2.tar.gz --markdown 20230503/c/cdktf-cdktf-provider-cloudflare/6.0.1-6.0.2/diff.md --exclude *.pyd
+[2023-05-03 05:29:42] INFO root fetch - main [MainThread]: End processing [SeleniumGridServer]: success
+[2023-05-03 05:29:42] INFO root fetch - main [MainThread]: End processing [arraymap]: success
+[2023-05-03 05:29:43] INFO root fetch - main [MainThread]: End processing [PyPDPM]: success
+[2023-05-03 05:29:44] INFO root fetch - main [MainThread]: End processing [konfuzio-sdk]: success
+[2023-05-03 05:29:44] INFO root fetch - main [MainThread]: End processing [safe-eth-py-suraneti]: success
+[2023-05-03 05:29:50] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-cloudflare]: success
+[2023-05-03 05:29:50] INFO root fetch - main [MainThread]: Store serial: [17950993]
