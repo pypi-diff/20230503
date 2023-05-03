@@ -14352,3 +14352,68 @@ No space left on device. Diffoscope exiting.
 [2023-05-03 14:06:45] INFO root fetch - main [MainThread]: End processing [capellambse]: success
 [2023-05-03 14:06:55] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
 [2023-05-03 14:06:55] INFO root fetch - main [MainThread]: Store serial: [17956102]
+[2023-05-03 14:12:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17956102]
+[2023-05-03 14:12:05] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-03 14:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-agents-nightly
+[2023-05-03 14:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: napari-sam
+[2023-05-03 14:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qa-keys-test
+[2023-05-03 14:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: limepkg-getaccept
+[2023-05-03 14:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: landingzone-organization
+[2023-05-03 14:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bloqs
+[2023-05-03 14:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dop-integration-libs
+[2023-05-03 14:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dnanew
+[2023-05-03 14:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: modernmt
+[2023-05-03 14:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: yfiles-jupyter-graphs
+[2023-05-03 14:12:05] INFO root fetch - processPackages [qa-keys-test]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-03 14:12:05] INFO root fetch - processPackages [dop-integration-libs]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-03 14:12:05] INFO root fetch - processPackages [qa-keys-test]: executing diffoscope
+[2023-05-03 14:12:05] INFO root fetch - processPackages [qa-keys-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qa-keys-test-0.0.6.tar.gz tmp/qa-keys-test-0.0.7.tar.gz --markdown 20230503/q/qa-keys-test/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-03 14:12:05] INFO root fetch - processPackages [limepkg-getaccept]: New version: [1.1.5.dev0] Old Version: [1.1.4]
+[2023-05-03 14:12:05] INFO root fetch - processPackages [dop-integration-libs]: executing diffoscope
+[2023-05-03 14:12:05] INFO root fetch - processPackages [dop-integration-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dop_integration_libs-0.1.8.tar.gz tmp/dop_integration_libs-0.1.9.tar.gz --markdown 20230503/d/dop-integration-libs/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-03 14:12:05] WARNING root fetch - processPackages [bloqs]: Skipping, unable to determine old version
+[2023-05-03 14:12:05] INFO root fetch - processPackages [bloqs]: Start processing: uniprot-redis
+[2023-05-03 14:12:05] INFO root fetch - processPackages [landingzone-organization]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-03 14:12:05] INFO root fetch - main [MainThread]: End processing [bloqs] error
+[2023-05-03 14:12:05] INFO root fetch - processPackages [modernmt]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-05-03 14:12:05] WARNING root fetch - processPackages [dnanew]: Skipping, unable to determine old version
+[2023-05-03 14:12:05] INFO root fetch - processPackages [yfiles-jupyter-graphs]: New version: [1.4.4] Old Version: [1.4.3]
+[2023-05-03 14:12:05] INFO root fetch - main [MainThread]: End processing [dnanew] error
+[2023-05-03 14:12:05] INFO root fetch - processPackages [tf-agents-nightly]: New version: [0.9.0.dev20210812] Old Version: [0.9.0.dev20210811]
+[2023-05-03 14:12:05] INFO root fetch - processPackages [napari-sam]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-03 14:12:05] INFO root fetch - processPackages [uniprot-redis]: New version: [1.2.0] Old Version: [1.1.3]
+[2023-05-03 14:12:05] INFO root fetch - processPackages [landingzone-organization]: Downloading https://files.pythonhosted.org/packages/4b/40/5fc9a9e8651f1082ef5fc2e3577caa7b1355517349723039c0cb5483725c/landingzone_organization-0.2.0.tar.gz
+[2023-05-03 14:12:05] INFO root fetch - processPackages [uniprot-redis]: executing diffoscope
+[2023-05-03 14:12:05] INFO root fetch - processPackages [uniprot-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uniprot_redis-1.1.3.tar.gz tmp/uniprot_redis-1.2.0.tar.gz --markdown 20230503/u/uniprot-redis/1.1.3-1.2.0/diff.md --exclude *.pyd
+[2023-05-03 14:12:05] INFO root fetch - processPackages [limepkg-getaccept]: Downloading https://files.pythonhosted.org/packages/c6/6f/ca77d30698ca4dff7fa687eb28d56455dd886623cc9d14dc4776ff119d73/limepkg_getaccept-1.1.4-py3-none-any.whl
+[2023-05-03 14:12:05] INFO root fetch - processPackages [yfiles-jupyter-graphs]: Downloading https://files.pythonhosted.org/packages/8f/59/ece681e78693bc694fe96d558a61bad4222ff55f1cb1a97f37cafee2379b/yfiles_jupyter_graphs-1.4.3.tar.gz
+[2023-05-03 14:12:05] INFO root fetch - processPackages [modernmt]: Downloading https://files.pythonhosted.org/packages/6f/95/2fe8a54e79bd20a17237d293656caff53e29f78ebd3b7dfb36a988935102/modernmt-1.1.0.tar.gz
+[2023-05-03 14:12:05] INFO root fetch - processPackages [tf-agents-nightly]: Downloading https://files.pythonhosted.org/packages/2f/8e/5b1259fdcefcc564c90842a0c1206b58d6abfbb7914bcbd38710ba780d40/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl
+[2023-05-03 14:12:05] INFO root fetch - processPackages [napari-sam]: Downloading https://files.pythonhosted.org/packages/f7/2c/8af073430719e6e4c848162406273fc20241eff1c5cdedf1a92f09da8450/napari-sam-0.4.2.tar.gz
+[2023-05-03 14:12:05] INFO root fetch - processPackages [landingzone-organization]: Downloading https://files.pythonhosted.org/packages/bc/85/abf9dfe19a1b87297a24ad0f95b6fc9ce5fcba495ad50991dc524587a348/landingzone_organization-0.2.1.tar.gz
+[2023-05-03 14:12:05] INFO root fetch - processPackages [modernmt]: Downloading https://files.pythonhosted.org/packages/3b/ab/afc1c31b0a2a2b18a88973ac9e932200ae9ca92569c504a220044fd68dc1/modernmt-1.2.0.tar.gz
+[2023-05-03 14:12:05] INFO root fetch - processPackages [landingzone-organization]: executing diffoscope
+[2023-05-03 14:12:05] INFO root fetch - processPackages [landingzone-organization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/landingzone_organization-0.2.0.tar.gz tmp/landingzone_organization-0.2.1.tar.gz --markdown 20230503/l/landingzone-organization/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-03 14:12:05] INFO root fetch - processPackages [napari-sam]: executing diffoscope
+[2023-05-03 14:12:05] INFO root fetch - processPackages [napari-sam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-sam-0.4.1.tar.gz tmp/napari-sam-0.4.2.tar.gz --markdown 20230503/n/napari-sam/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-05-03 14:12:05] INFO root fetch - processPackages [limepkg-getaccept]: Downloading https://files.pythonhosted.org/packages/99/e7/b6090d5e67c854fb38f512bc3308d8eb11025b7ccf7c8f5a704332d6118c/limepkg_getaccept-1.1.5.dev0-py3-none-any.whl
+[2023-05-03 14:12:05] INFO root fetch - processPackages [modernmt]: executing diffoscope
+[2023-05-03 14:12:05] INFO root fetch - processPackages [modernmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modernmt-1.1.0.tar.gz tmp/modernmt-1.2.0.tar.gz --markdown 20230503/m/modernmt/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-05-03 14:12:05] INFO root fetch - processPackages [limepkg-getaccept]: executing diffoscope
+[2023-05-03 14:12:05] INFO root fetch - processPackages [limepkg-getaccept]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/limepkg_getaccept-1.1.4-py3-none-any.whl.zip tmp/limepkg_getaccept-1.1.5.dev0-py3-none-any.whl.zip --markdown 20230503/l/limepkg-getaccept/1.1.4-1.1.5.dev0/diff.md --exclude *.pyd
+[2023-05-03 14:12:06] INFO root fetch - processPackages [tf-agents-nightly]: Downloading https://files.pythonhosted.org/packages/ae/8c/d1e1b7b8f7b6ceee69bbf569ab3bd6f79ffd9963ff66079303942550d03d/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl
+[2023-05-03 14:12:06] INFO root fetch - main [MainThread]: End processing [qa-keys-test]: success
+[2023-05-03 14:12:06] INFO root fetch - processPackages [tf-agents-nightly]: executing diffoscope
+[2023-05-03 14:12:06] INFO root fetch - processPackages [tf-agents-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl.zip tmp/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl.zip --markdown 20230503/t/tf-agents-nightly/0.9.0.dev20210811-0.9.0.dev20210812/diff.md --exclude *.pyd
+[2023-05-03 14:12:06] INFO root fetch - main [MainThread]: End processing [dop-integration-libs]: success
+[2023-05-03 14:12:06] INFO root fetch - main [MainThread]: End processing [uniprot-redis]: success
+[2023-05-03 14:12:07] INFO root fetch - main [MainThread]: End processing [modernmt]: success
+[2023-05-03 14:12:07] INFO root fetch - main [MainThread]: End processing [napari-sam]: success
+[2023-05-03 14:12:07] INFO root fetch - main [MainThread]: End processing [landingzone-organization]: success
+[2023-05-03 14:12:07] INFO root fetch - processPackages [yfiles-jupyter-graphs]: Downloading https://files.pythonhosted.org/packages/25/9d/2837ccc2559197c90b5b62037d8b2283b008f96930eb622abe6509a1f7b5/yfiles_jupyter_graphs-1.4.4.tar.gz
+[2023-05-03 14:12:08] INFO root fetch - processPackages [yfiles-jupyter-graphs]: executing diffoscope
+[2023-05-03 14:12:08] INFO root fetch - processPackages [yfiles-jupyter-graphs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yfiles_jupyter_graphs-1.4.3.tar.gz tmp/yfiles_jupyter_graphs-1.4.4.tar.gz --markdown 20230503/y/yfiles-jupyter-graphs/1.4.3-1.4.4/diff.md --exclude *.pyd
+[2023-05-03 14:12:13] INFO root fetch - main [MainThread]: End processing [tf-agents-nightly]: success
+[2023-05-03 14:13:02] INFO root fetch - main [MainThread]: End processing [limepkg-getaccept]: success
+[2023-05-03 14:15:02] INFO root fetch - main [MainThread]: End processing [yfiles-jupyter-graphs]: success
+[2023-05-03 14:15:02] INFO root fetch - main [MainThread]: Store serial: [17956145]
