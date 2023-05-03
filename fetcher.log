@@ -19423,3 +19423,93 @@ No space left on device. Diffoscope exiting.
 [2023-05-03 18:16:37] INFO root fetch - main [MainThread]: End processing [prismstudio]: success
 [2023-05-03 18:16:38] INFO root fetch - main [MainThread]: End processing [bitfount]: success
 [2023-05-03 18:16:38] INFO root fetch - main [MainThread]: Store serial: [17959390]
+[2023-05-03 18:21:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17959390]
+[2023-05-03 18:21:48] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-03 18:21:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: simple-aws-rds
+[2023-05-03 18:21:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: LibreriaItzel
+[2023-05-03 18:21:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: timml
+[2023-05-03 18:21:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torch-simple-timing
+[2023-05-03 18:21:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vgs-api-client
+[2023-05-03 18:21:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jaxsim
+[2023-05-03 18:21:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: osim-utils
+[2023-05-03 18:21:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: secenv
+[2023-05-03 18:21:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: py-sls-lambda-toolkit
+[2023-05-03 18:21:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: krkn-lib-kubernetes
+[2023-05-03 18:21:48] INFO root fetch - processPackages [osim-utils]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-03 18:21:48] WARNING root fetch - processPackages [LibreriaItzel]: Skipping, unable to determine old version
+[2023-05-03 18:21:48] INFO root fetch - processPackages [LibreriaItzel]: Start processing: dop-integration-libs
+[2023-05-03 18:21:48] INFO root fetch - main [MainThread]: End processing [LibreriaItzel] error
+[2023-05-03 18:21:48] WARNING root fetch - processPackages [simple-aws-rds]: Skipping, unable to determine old version
+[2023-05-03 18:21:48] INFO root fetch - processPackages [simple-aws-rds]: Start processing: rum-with-telegram
+[2023-05-03 18:21:48] INFO root fetch - main [MainThread]: End processing [simple-aws-rds] error
+[2023-05-03 18:21:48] INFO root fetch - processPackages [torch-simple-timing]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-03 18:21:48] INFO root fetch - processPackages [jaxsim]: New version: [0.1.dev149] Old Version: [0.1.dev142]
+[2023-05-03 18:21:48] INFO root fetch - processPackages [py-sls-lambda-toolkit]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-05-03 18:21:48] WARNING root fetch - processPackages [krkn-lib-kubernetes]: Skipping, unable to determine old version
+[2023-05-03 18:21:48] INFO root fetch - processPackages [krkn-lib-kubernetes]: Start processing: pyvpsolver
+[2023-05-03 18:21:48] INFO root fetch - processPackages [timml]: New version: [6.1.2] Old Version: [6.1.0]
+[2023-05-03 18:21:48] INFO root fetch - main [MainThread]: End processing [krkn-lib-kubernetes] error
+[2023-05-03 18:21:48] INFO root fetch - processPackages [dop-integration-libs]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-03 18:21:48] INFO root fetch - processPackages [rum-with-telegram]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-05-03 18:21:48] INFO root fetch - processPackages [secenv]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-05-03 18:21:48] INFO root fetch - processPackages [vgs-api-client]: New version: [0.0.45] Old Version: [0.0.44]
+[2023-05-03 18:21:48] INFO root fetch - processPackages [osim-utils]: Downloading https://files.pythonhosted.org/packages/94/dd/78057b8840398cb2c9da70ac29ef4ac3d5117bc491dcfafe4502520398bb/osim_utils-0.3.1.tar.gz
+[2023-05-03 18:21:48] INFO root fetch - processPackages [torch-simple-timing]: Downloading https://files.pythonhosted.org/packages/50/34/d0a33738ade61b316f42c742cf5c3d2ce943987714c000ac26f8f311b637/torch_simple_timing-0.1.2.tar.gz
+[2023-05-03 18:21:48] INFO root fetch - processPackages [dop-integration-libs]: executing diffoscope
+[2023-05-03 18:21:48] INFO root fetch - processPackages [dop-integration-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dop_integration_libs-0.1.8.tar.gz tmp/dop_integration_libs-0.1.9.tar.gz --markdown 20230503/d/dop-integration-libs/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-03 18:21:48] INFO root fetch - processPackages [pyvpsolver]: New version: [3.1.4] Old Version: [3.1.3]
+[2023-05-03 18:21:48] INFO root fetch - processPackages [osim-utils]: executing diffoscope
+[2023-05-03 18:21:48] INFO root fetch - processPackages [osim-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osim_utils-0.3.0.tar.gz tmp/osim_utils-0.3.1.tar.gz --markdown 20230503/o/osim-utils/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-03 18:21:48] INFO root fetch - processPackages [py-sls-lambda-toolkit]: Downloading https://files.pythonhosted.org/packages/4b/21/1aa1160ac33ac55391ef545c5839138bc7b44645df4447304c86fa8d6121/py-sls-lambda-toolkit-0.0.9.tar.gz
+[2023-05-03 18:21:48] INFO root fetch - processPackages [jaxsim]: Downloading https://files.pythonhosted.org/packages/52/3c/d8656b8b513c6b87d1c413370bd13d60c4c86f579a8ccd60ae61b8112387/jaxsim-0.1.dev142.tar.gz
+[2023-05-03 18:21:48] INFO root fetch - processPackages [timml]: Downloading https://files.pythonhosted.org/packages/71/df/087a0dcd731f22d7814277c0a266cf6e581c836eab63434e085a2b8b731f/timml-6.1.0.tar.gz
+[2023-05-03 18:21:48] INFO root fetch - processPackages [secenv]: Downloading https://files.pythonhosted.org/packages/d5/fa/698b7086e656e736b0dfa02f8d0e018f5c4514f1a898bb4618dd4fcc45e8/secenv-1.2.1.tar.gz
+[2023-05-03 18:21:48] INFO root fetch - processPackages [rum-with-telegram]: Downloading https://files.pythonhosted.org/packages/1d/bb/ffe76a85c73a973a4b725ab9084e571adaad5f16b866ec78f360de9b9b41/rum_with_telegram-0.8.9.tar.gz
+[2023-05-03 18:21:48] INFO root fetch - processPackages [vgs-api-client]: Downloading https://files.pythonhosted.org/packages/04/7e/dbe7b48fb43cd257360210eb902664720b9a0bd0a7c2e48ccf5ca12b974e/vgs_api_client-0.0.44-py3-none-any.whl
+[2023-05-03 18:21:48] INFO root fetch - processPackages [rum-with-telegram]: executing diffoscope
+[2023-05-03 18:21:48] INFO root fetch - processPackages [rum-with-telegram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rum_with_telegram-0.8.8.tar.gz tmp/rum_with_telegram-0.8.9.tar.gz --markdown 20230503/r/rum-with-telegram/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-05-03 18:21:49] INFO root fetch - processPackages [pyvpsolver]: Downloading https://files.pythonhosted.org/packages/52/ae/ed045a292d29790f04b64af89c32eeedd4eaf9d19bcd6888a9b98ad3b13b/pyvpsolver-3.1.3.tar.gz
+[2023-05-03 18:21:49] INFO root fetch - processPackages [torch-simple-timing]: Downloading https://files.pythonhosted.org/packages/46/0e/cefe935261bb30b4fa4c1dfbf031ccf5f189da4bb09b55db8e09e56328a8/torch_simple_timing-0.1.3.tar.gz
+[2023-05-03 18:21:49] INFO root fetch - processPackages [torch-simple-timing]: executing diffoscope
+[2023-05-03 18:21:49] INFO root fetch - processPackages [torch-simple-timing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_simple_timing-0.1.2.tar.gz tmp/torch_simple_timing-0.1.3.tar.gz --markdown 20230503/t/torch-simple-timing/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-03 18:21:49] INFO root fetch - processPackages [py-sls-lambda-toolkit]: Downloading https://files.pythonhosted.org/packages/c1/93/5f552ff0a59d84e5ed84341acb1052fd704e214ee00b3d30fc34c29a6c32/py-sls-lambda-toolkit-0.1.0.tar.gz
+[2023-05-03 18:21:49] INFO root fetch - processPackages [secenv]: Downloading https://files.pythonhosted.org/packages/4e/61/b90b844a160cfac22cd1fd942ea2ee7725c1a7c7a6ddd654bc94c5c1b0b2/secenv-1.2.2.tar.gz
+[2023-05-03 18:21:49] INFO root fetch - processPackages [jaxsim]: Downloading https://files.pythonhosted.org/packages/8a/a8/19a5a166b0fc6962dfb7c75c64c9d5a23eba0521ea6fdd3d5fc9e5e86e47/jaxsim-0.1.dev149.tar.gz
+[2023-05-03 18:21:49] INFO root fetch - processPackages [timml]: Downloading https://files.pythonhosted.org/packages/a2/cb/223df855e6d53ac9d012b9e6d4eecaf0ce78e347b945e45f8e7640721da7/timml-6.1.2.tar.gz
+[2023-05-03 18:21:49] INFO root fetch - processPackages [py-sls-lambda-toolkit]: executing diffoscope
+[2023-05-03 18:21:49] INFO root fetch - processPackages [py-sls-lambda-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-sls-lambda-toolkit-0.0.9.tar.gz tmp/py-sls-lambda-toolkit-0.1.0.tar.gz --markdown 20230503/p/py-sls-lambda-toolkit/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-05-03 18:21:49] INFO root fetch - processPackages [secenv]: executing diffoscope
+[2023-05-03 18:21:49] INFO root fetch - processPackages [secenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secenv-1.2.1.tar.gz tmp/secenv-1.2.2.tar.gz --markdown 20230503/s/secenv/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-05-03 18:21:49] INFO root fetch - processPackages [pyvpsolver]: Downloading https://files.pythonhosted.org/packages/15/8f/ed98636f98c67201ee997bf3289886023f3f1907efd67a6ed0d41f01b42c/pyvpsolver-3.1.4.tar.gz
+[2023-05-03 18:21:49] INFO root fetch - processPackages [jaxsim]: executing diffoscope
+[2023-05-03 18:21:49] INFO root fetch - processPackages [jaxsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxsim-0.1.dev142.tar.gz tmp/jaxsim-0.1.dev149.tar.gz --markdown 20230503/j/jaxsim/0.1.dev142-0.1.dev149/diff.md --exclude *.pyd
+[2023-05-03 18:21:49] INFO root fetch - processPackages [timml]: executing diffoscope
+[2023-05-03 18:21:49] INFO root fetch - processPackages [timml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timml-6.1.0.tar.gz tmp/timml-6.1.2.tar.gz --markdown 20230503/t/timml/6.1.0-6.1.2/diff.md --exclude *.pyd
+[2023-05-03 18:21:49] INFO root fetch - processPackages [vgs-api-client]: Downloading https://files.pythonhosted.org/packages/f3/ed/7a97156ce2d911c52393a8c6c2a834d8ee54030cb2fed24ff0bed8589019/vgs_api_client-0.0.45-py3-none-any.whl
+[2023-05-03 18:21:49] INFO root fetch - processPackages [pyvpsolver]: executing diffoscope
+[2023-05-03 18:21:49] INFO root fetch - processPackages [pyvpsolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvpsolver-3.1.3.tar.gz tmp/pyvpsolver-3.1.4.tar.gz --markdown 20230503/p/pyvpsolver/3.1.3-3.1.4/diff.md --exclude *.pyd
+[2023-05-03 18:21:49] INFO root fetch - processPackages [vgs-api-client]: executing diffoscope
+[2023-05-03 18:21:49] INFO root fetch - processPackages [vgs-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vgs_api_client-0.0.44-py3-none-any.whl.zip tmp/vgs_api_client-0.0.45-py3-none-any.whl.zip --markdown 20230503/v/vgs-api-client/0.0.44-0.0.45/diff.md --exclude *.pyd
+[2023-05-03 18:21:50] INFO root fetch - processPackages [dop-integration-libs]: Start processing: CmonCrawl
+[2023-05-03 18:21:50] INFO root fetch - main [MainThread]: End processing [dop-integration-libs]: success
+[2023-05-03 18:21:50] INFO root fetch - processPackages [osim-utils]: Start processing: dynamic-factory
+[2023-05-03 18:21:50] INFO root fetch - main [MainThread]: End processing [osim-utils]: success
+[2023-05-03 18:21:50] INFO root fetch - processPackages [dynamic-factory]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-03 18:21:50] INFO root fetch - processPackages [CmonCrawl]: New version: [0.8.6] Old Version: [0.8.5]
+[2023-05-03 18:21:50] INFO root fetch - main [MainThread]: End processing [rum-with-telegram]: success
+[2023-05-03 18:21:50] INFO root fetch - processPackages [dynamic-factory]: Downloading https://files.pythonhosted.org/packages/32/3c/edf99df413996b86d9229ee4730a99de929c02198e168f0e1d647c39c2d4/dynamic_factory-0.1.8.tar.gz
+[2023-05-03 18:21:50] INFO root fetch - processPackages [CmonCrawl]: Downloading https://files.pythonhosted.org/packages/61/76/813b70d3373d5a45a93b759503c00f778374d1030eedbb10ba368e9b2b35/CmonCrawl-0.8.6.tar.gz
+[2023-05-03 18:21:50] INFO root fetch - processPackages [dynamic-factory]: executing diffoscope
+[2023-05-03 18:21:50] INFO root fetch - processPackages [dynamic-factory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynamic_factory-0.1.7.tar.gz tmp/dynamic_factory-0.1.8.tar.gz --markdown 20230503/d/dynamic-factory/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-03 18:21:50] INFO root fetch - processPackages [CmonCrawl]: executing diffoscope
+[2023-05-03 18:21:50] INFO root fetch - processPackages [CmonCrawl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CmonCrawl-0.8.5.tar.gz tmp/CmonCrawl-0.8.6.tar.gz --markdown 20230503/C/CmonCrawl/0.8.5-0.8.6/diff.md --exclude *.pyd
+[2023-05-03 18:21:50] INFO root fetch - main [MainThread]: End processing [torch-simple-timing]: success
+[2023-05-03 18:21:50] INFO root fetch - main [MainThread]: End processing [py-sls-lambda-toolkit]: success
+[2023-05-03 18:21:50] INFO root fetch - main [MainThread]: End processing [secenv]: success
+[2023-05-03 18:21:51] INFO root fetch - main [MainThread]: End processing [timml]: success
+[2023-05-03 18:21:51] INFO root fetch - main [MainThread]: End processing [pyvpsolver]: success
+[2023-05-03 18:21:51] INFO root fetch - main [MainThread]: End processing [vgs-api-client]: success
+[2023-05-03 18:21:51] INFO root fetch - main [MainThread]: End processing [dynamic-factory]: success
+[2023-05-03 18:21:51] INFO root fetch - main [MainThread]: End processing [jaxsim]: success
+[2023-05-03 18:21:58] INFO root fetch - main [MainThread]: End processing [CmonCrawl]: success
+[2023-05-03 18:21:58] INFO root fetch - main [MainThread]: Store serial: [17959462]
