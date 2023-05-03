@@ -17150,3 +17150,87 @@ No space left on device. Diffoscope exiting.
 [2023-05-03 16:30:25] INFO root fetch - main [MainThread]: End processing [retentioneering]: success
 [2023-05-03 16:30:28] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
 [2023-05-03 16:30:28] INFO root fetch - main [MainThread]: Store serial: [17957858]
+[2023-05-03 16:35:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17957858]
+[2023-05-03 16:35:37] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-03 16:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: monotonic-derivative
+[2023-05-03 16:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ukmon-meteortools
+[2023-05-03 16:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pypotlib
+[2023-05-03 16:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: findmyorder
+[2023-05-03 16:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fastapi-nextauth-jwt
+[2023-05-03 16:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openmc-depletion-plotter
+[2023-05-03 16:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: splight-lib
+[2023-05-03 16:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: localstack-core
+[2023-05-03 16:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: syncmaster
+[2023-05-03 16:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: enterprise-platform-compute
+[2023-05-03 16:35:37] INFO root fetch - processPackages [ukmon-meteortools]: New version: [2023.5.1] Old Version: [2023.5.0]
+[2023-05-03 16:35:37] WARNING root fetch - processPackages [monotonic-derivative]: Skipping, unable to determine old version
+[2023-05-03 16:35:37] INFO root fetch - processPackages [monotonic-derivative]: Start processing: dna-audit-tool
+[2023-05-03 16:35:37] INFO root fetch - main [MainThread]: End processing [monotonic-derivative] error
+[2023-05-03 16:35:37] INFO root fetch - processPackages [pypotlib]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-03 16:35:37] INFO root fetch - processPackages [syncmaster]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-03 16:35:37] INFO root fetch - processPackages [findmyorder]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-03 16:35:37] INFO root fetch - processPackages [openmc-depletion-plotter]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-03 16:35:37] INFO root fetch - processPackages [splight-lib]: New version: [2.3.7] Old Version: [2.3.6]
+[2023-05-03 16:35:37] INFO root fetch - processPackages [localstack-core]: New version: [2.0.3.dev20230503134209] Old Version: [2.0.3.dev20230503120601]
+[2023-05-03 16:35:37] WARNING root fetch - processPackages [fastapi-nextauth-jwt]: Skipping, unable to determine old version
+[2023-05-03 16:35:37] INFO root fetch - processPackages [fastapi-nextauth-jwt]: Start processing: cybrid-api-bank-python
+[2023-05-03 16:35:37] INFO root fetch - main [MainThread]: End processing [fastapi-nextauth-jwt] error
+[2023-05-03 16:35:37] INFO root fetch - processPackages [enterprise-platform-compute]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-03 16:35:37] INFO root fetch - processPackages [syncmaster]: executing diffoscope
+[2023-05-03 16:35:37] INFO root fetch - processPackages [syncmaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syncmaster-1.0.2.tar.gz tmp/syncmaster-1.0.3.tar.gz --markdown 20230503/s/syncmaster/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-03 16:35:37] WARNING root fetch - processPackages [dna-audit-tool]: Skipping, unable to determine old version
+[2023-05-03 16:35:37] INFO root fetch - processPackages [dna-audit-tool]: Start processing: cybrid-api-organization-python
+[2023-05-03 16:35:37] INFO root fetch - main [MainThread]: End processing [dna-audit-tool] error
+[2023-05-03 16:35:37] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-05-03 16:35:37] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-1.1.1.tar.gz tmp/findmyorder-1.1.2.tar.gz --markdown 20230503/f/findmyorder/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-03 16:35:37] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-03 16:35:37] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-05-03 16:35:37] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.0.3.dev20230503120601.tar.gz tmp/localstack-core-2.0.3.dev20230503134209.tar.gz --markdown 20230503/l/localstack-core/2.0.3.dev20230503120601-2.0.3.dev20230503134209/diff.md --exclude *.pyd
+[2023-05-03 16:35:37] INFO root fetch - processPackages [openmc-depletion-plotter]: executing diffoscope
+[2023-05-03 16:35:37] INFO root fetch - processPackages [openmc-depletion-plotter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmc_depletion_plotter-0.3.1.tar.gz tmp/openmc_depletion_plotter-0.3.2.tar.gz --markdown 20230503/o/openmc-depletion-plotter/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-03 16:35:37] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/20/58/83595c25956605935aa08227f1f01b1c02743825aca19e267bc95d1b4928/cybrid-api-bank-python-0.9.8.tar.gz
+[2023-05-03 16:35:37] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-03 16:35:37] INFO root fetch - processPackages [splight-lib]: executing diffoscope
+[2023-05-03 16:35:37] INFO root fetch - processPackages [splight-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splight-lib-2.3.6.tar.gz tmp/splight-lib-2.3.7.tar.gz --markdown 20230503/s/splight-lib/2.3.6-2.3.7/diff.md --exclude *.pyd
+[2023-05-03 16:35:37] INFO root fetch - processPackages [ukmon-meteortools]: Downloading https://files.pythonhosted.org/packages/a6/f4/5e6e98a97d3d0f0c13c7304555ba3b1ef98347f67833dc1975e5dce3565c/ukmon_meteortools-2023.5.1.tar.gz
+[2023-05-03 16:35:37] INFO root fetch - processPackages [pypotlib]: Downloading https://files.pythonhosted.org/packages/38/a5/045046a8e4fe0c2bf6162cf44b58e855365e811eb10f4be9a71c4d5a830e/pypotlib-0.0.8.tar.gz
+[2023-05-03 16:35:37] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/8c/f9/11b3397de980d7217c6b56728b693a302080844e78e135a12319c23d1e09/cybrid-api-organization-python-0.9.8.tar.gz
+[2023-05-03 16:35:38] INFO root fetch - processPackages [ukmon-meteortools]: executing diffoscope
+[2023-05-03 16:35:38] INFO root fetch - processPackages [ukmon-meteortools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ukmon_meteortools-2023.5.0.tar.gz tmp/ukmon_meteortools-2023.5.1.tar.gz --markdown 20230503/u/ukmon-meteortools/2023.5.0-2023.5.1/diff.md --exclude *.pyd
+[2023-05-03 16:35:38] INFO root fetch - processPackages [enterprise-platform-compute]: Downloading https://files.pythonhosted.org/packages/01/15/14626866c802d55cdc449140aee3d4833dca12dd810dc04d2fdbbd9235b2/enterprise-platform-compute-0.0.2.tar.gz
+[2023-05-03 16:35:38] INFO root fetch - processPackages [pypotlib]: executing diffoscope
+[2023-05-03 16:35:38] INFO root fetch - processPackages [pypotlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypotlib-0.0.7.tar.gz tmp/pypotlib-0.0.8.tar.gz --markdown 20230503/p/pypotlib/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-03 16:35:38] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/89/0b/5831e52f1895b5ffe4c5b8862788216f9cf6c8554dfffa92e8805799baaf/cybrid-api-bank-python-0.9.9.tar.gz
+[2023-05-03 16:35:38] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/6e/9a/cba8516138af9b31af978d1cb5ac08501052b56ac24c59f876cc7432e4cd/cybrid-api-organization-python-0.9.9.tar.gz
+[2023-05-03 16:35:38] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2023-05-03 16:35:38] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.9.8.tar.gz tmp/cybrid-api-bank-python-0.9.9.tar.gz --markdown 20230503/c/cybrid-api-bank-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-03 16:35:38] INFO root fetch - processPackages [enterprise-platform-compute]: Downloading https://files.pythonhosted.org/packages/f7/f9/60c7d080e23d4fa1dd3322565f94db94069b6a69dceaea9eb59abd1c71d8/enterprise-platform-compute-0.0.3.tar.gz
+[2023-05-03 16:35:38] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2023-05-03 16:35:38] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.9.8.tar.gz tmp/cybrid-api-organization-python-0.9.9.tar.gz --markdown 20230503/c/cybrid-api-organization-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-03 16:35:38] INFO root fetch - processPackages [enterprise-platform-compute]: executing diffoscope
+[2023-05-03 16:35:38] INFO root fetch - processPackages [enterprise-platform-compute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enterprise-platform-compute-0.0.2.tar.gz tmp/enterprise-platform-compute-0.0.3.tar.gz --markdown 20230503/e/enterprise-platform-compute/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-03 16:35:39] INFO root fetch - processPackages [syncmaster]: Start processing: cybrid-api-id-python
+[2023-05-03 16:35:39] INFO root fetch - main [MainThread]: End processing [syncmaster]: success
+[2023-05-03 16:35:39] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-03 16:35:39] INFO root fetch - processPackages [findmyorder]: Start processing: fabrique-nodes-core
+[2023-05-03 16:35:39] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-05-03 16:35:39] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/50/b7/b977148f4fc829a75a0b07e5a1a330568bf4060c71cf5e0e0a6449ffed87/cybrid-api-id-python-0.9.8.tar.gz
+[2023-05-03 16:35:39] INFO root fetch - processPackages [fabrique-nodes-core]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-05-03 16:35:39] INFO root fetch - processPackages [fabrique-nodes-core]: Downloading https://files.pythonhosted.org/packages/59/21/5347bdae23e1f4486334f037f76d34b2023effebb750f85fb4e5d087fdc9/fabrique_nodes_core-0.9.7-py3-none-any.whl
+[2023-05-03 16:35:39] INFO root fetch - main [MainThread]: End processing [enterprise-platform-compute]: success
+[2023-05-03 16:35:39] INFO root fetch - main [MainThread]: End processing [splight-lib]: success
+[2023-05-03 16:35:39] INFO root fetch - main [MainThread]: End processing [pypotlib]: success
+[2023-05-03 16:35:39] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/df/0b/f41ef37cacb50f16ff72d759b9fe9a5fd7fe8bde214833a5c722ba07e136/cybrid-api-id-python-0.9.9.tar.gz
+[2023-05-03 16:35:39] INFO root fetch - processPackages [fabrique-nodes-core]: Downloading https://files.pythonhosted.org/packages/82/20/2f588d230e810ce50e4b1f27f47a5ff3114cba10e64659f1208874ac1396/fabrique_nodes_core-0.9.8-py3-none-any.whl
+[2023-05-03 16:35:39] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2023-05-03 16:35:40] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2023-05-03 16:35:40] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.9.8.tar.gz tmp/cybrid-api-id-python-0.9.9.tar.gz --markdown 20230503/c/cybrid-api-id-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-03 16:35:40] INFO root fetch - main [MainThread]: End processing [ukmon-meteortools]: success
+[2023-05-03 16:35:40] INFO root fetch - processPackages [fabrique-nodes-core]: executing diffoscope
+[2023-05-03 16:35:40] INFO root fetch - processPackages [fabrique-nodes-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabrique_nodes_core-0.9.7-py3-none-any.whl.zip tmp/fabrique_nodes_core-0.9.8-py3-none-any.whl.zip --markdown 20230503/f/fabrique-nodes-core/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-05-03 16:35:40] INFO root fetch - main [MainThread]: End processing [openmc-depletion-plotter]: success
+[2023-05-03 16:35:40] INFO root fetch - main [MainThread]: End processing [fabrique-nodes-core]: success
+[2023-05-03 16:35:41] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2023-05-03 16:35:44] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2023-05-03 16:35:47] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-05-03 16:35:47] INFO root fetch - main [MainThread]: Store serial: [17957907]
