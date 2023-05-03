@@ -5033,3 +5033,40 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-03 04:47:44] INFO root fetch - main [MainThread]: End processing [flake8-annotations]: success
 [2023-05-03 04:47:47] INFO root fetch - main [MainThread]: End processing [wombat]: success
 [2023-05-03 04:47:47] INFO root fetch - main [MainThread]: Store serial: [17950768]
+[2023-05-03 04:52:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17950768]
+[2023-05-03 04:52:56] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-03 04:52:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dexie-rewards
+[2023-05-03 04:52:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: summerepi
+[2023-05-03 04:52:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: clams-python
+[2023-05-03 04:52:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mrx-link-core
+[2023-05-03 04:52:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alacorder
+[2023-05-03 04:52:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PyPDPM
+[2023-05-03 04:52:56] WARNING root fetch - processPackages [dexie-rewards]: Skipping, unable to determine old version
+[2023-05-03 04:52:56] INFO root fetch - main [MainThread]: End processing [dexie-rewards] error
+[2023-05-03 04:52:56] INFO root fetch - processPackages [clams-python]: New version: [0.6.0] Old Version: [0.5.3]
+[2023-05-03 04:52:56] INFO root fetch - processPackages [summerepi]: New version: [4.2.0a0] Old Version: [4.1.0a0]
+[2023-05-03 04:52:56] INFO root fetch - processPackages [mrx-link-core]: New version: [1.1.0.dev9] Old Version: [1.1.0.dev8]
+[2023-05-03 04:52:56] INFO root fetch - processPackages [alacorder]: New version: [80.1.5] Old Version: [80.1.4]
+[2023-05-03 04:52:56] INFO root fetch - processPackages [PyPDPM]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-03 04:52:56] INFO root fetch - processPackages [clams-python]: Downloading https://files.pythonhosted.org/packages/42/a6/4872c8e5e89509bcf3c8f2dc5bb5bad8c03c6658b12f4d0f36758339b6a9/clams-python-0.5.3.tar.gz
+[2023-05-03 04:52:56] INFO root fetch - processPackages [summerepi]: Downloading https://files.pythonhosted.org/packages/0d/31/a447753397474cc58de127e4e630fab9911be5413451c4ec2b3a3a6e422a/summerepi-4.1.0a0.tar.gz
+[2023-05-03 04:52:57] INFO root fetch - processPackages [alacorder]: Downloading https://files.pythonhosted.org/packages/07/9f/1dd2358ef61268996a41fee0b31ad49da4f4f082ca911c74234e01dfd3d6/alacorder-80.1.5.tar.gz
+[2023-05-03 04:52:57] INFO root fetch - processPackages [PyPDPM]: Downloading https://files.pythonhosted.org/packages/08/48/37e1df7fafc65ab9c09e10fffb4a10327bd46dd96c6a664a8e8f94c103ea/PyPDPM-0.0.4.tar.gz
+[2023-05-03 04:52:57] INFO root fetch - processPackages [mrx-link-core]: executing diffoscope
+[2023-05-03 04:52:57] INFO root fetch - processPackages [mrx-link-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrx_link_core-1.1.0.dev8-cp39-cp39-win_amd64.whl.zip tmp/mrx_link_core-1.1.0.dev9-cp39-cp39-win_amd64.whl.zip --markdown 20230503/m/mrx-link-core/1.1.0.dev8-1.1.0.dev9/diff.md --exclude *.pyd
+[2023-05-03 04:52:57] INFO root fetch - processPackages [clams-python]: Downloading https://files.pythonhosted.org/packages/52/40/98834416cc587e1012f179e2e8e85d32b6bf62d8d0fc2b60c73ee3c5b55f/clams-python-0.6.0.tar.gz
+[2023-05-03 04:52:57] INFO root fetch - processPackages [alacorder]: executing diffoscope
+[2023-05-03 04:52:57] INFO root fetch - processPackages [alacorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alacorder-80.1.4.tar.gz tmp/alacorder-80.1.5.tar.gz --markdown 20230503/a/alacorder/80.1.4-80.1.5/diff.md --exclude *.pyd
+[2023-05-03 04:52:57] INFO root fetch - processPackages [PyPDPM]: executing diffoscope
+[2023-05-03 04:52:57] INFO root fetch - processPackages [PyPDPM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyPDPM-0.0.3-py3-none-any.whl.zip tmp/PyPDPM-0.0.4.tar.gz --markdown 20230503/P/PyPDPM/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-03 04:52:57] INFO root fetch - processPackages [summerepi]: Downloading https://files.pythonhosted.org/packages/a1/17/c2cebb8e536d3624b08a0395644ed26fb62ca475cd5a6ab4b72ab91b62ee/summerepi-4.2.0a0.tar.gz
+[2023-05-03 04:52:57] INFO root fetch - processPackages [clams-python]: executing diffoscope
+[2023-05-03 04:52:57] INFO root fetch - processPackages [clams-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clams-python-0.5.3.tar.gz tmp/clams-python-0.6.0.tar.gz --markdown 20230503/c/clams-python/0.5.3-0.6.0/diff.md --exclude *.pyd
+[2023-05-03 04:52:57] INFO root fetch - processPackages [summerepi]: executing diffoscope
+[2023-05-03 04:52:57] INFO root fetch - processPackages [summerepi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/summerepi-4.1.0a0.tar.gz tmp/summerepi-4.2.0a0.tar.gz --markdown 20230503/s/summerepi/4.1.0a0-4.2.0a0/diff.md --exclude *.pyd
+[2023-05-03 04:52:58] INFO root fetch - main [MainThread]: End processing [PyPDPM]: success
+[2023-05-03 04:52:58] INFO root fetch - main [MainThread]: End processing [mrx-link-core]: success
+[2023-05-03 04:52:58] INFO root fetch - main [MainThread]: End processing [clams-python]: success
+[2023-05-03 04:52:58] INFO root fetch - main [MainThread]: End processing [alacorder]: success
+[2023-05-03 04:52:58] INFO root fetch - main [MainThread]: End processing [summerepi]: success
+[2023-05-03 04:52:58] INFO root fetch - main [MainThread]: Store serial: [17950808]
