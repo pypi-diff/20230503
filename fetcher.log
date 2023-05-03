@@ -13338,3 +13338,122 @@ No space left on device. Diffoscope exiting.
 [2023-05-03 13:17:39] INFO root fetch - main [MainThread]: End processing [bluepyopt]: success
 [2023-05-03 13:17:40] INFO root fetch - main [MainThread]: End processing [circuitpython-mag-cal]: success
 [2023-05-03 13:17:40] INFO root fetch - main [MainThread]: Store serial: [17955514]
+[2023-05-03 13:22:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17955514]
+[2023-05-03 13:22:49] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-03 13:22:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pybgpasn
+[2023-05-03 13:22:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: marpdown
+[2023-05-03 13:22:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aipha-geo-solutions
+[2023-05-03 13:22:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyrew
+[2023-05-03 13:22:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: areixio
+[2023-05-03 13:22:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wiretap
+[2023-05-03 13:22:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qwak-core
+[2023-05-03 13:22:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: syamaguc
+[2023-05-03 13:22:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: emojigen
+[2023-05-03 13:22:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: oceano-algos
+[2023-05-03 13:22:49] INFO root fetch - processPackages [aipha-geo-solutions]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-03 13:22:49] INFO root fetch - processPackages [marpdown]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-03 13:22:49] INFO root fetch - processPackages [pybgpasn]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-03 13:22:49] INFO root fetch - processPackages [wiretap]: New version: [3.0.1] Old Version: [2.4.2]
+[2023-05-03 13:22:49] INFO root fetch - processPackages [pyrew]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-03 13:22:49] INFO root fetch - processPackages [syamaguc]: New version: [0.1.0.post2305032013] Old Version: [0.1.0.post2305031119]
+[2023-05-03 13:22:49] WARNING root fetch - processPackages [emojigen]: Skipping, unable to determine old version
+[2023-05-03 13:22:49] INFO root fetch - processPackages [qwak-core]: New version: [0.0.46] Old Version: [0.0.45]
+[2023-05-03 13:22:49] INFO root fetch - processPackages [emojigen]: Start processing: lesscode-tool
+[2023-05-03 13:22:49] INFO root fetch - main [MainThread]: End processing [emojigen] error
+[2023-05-03 13:22:49] INFO root fetch - processPackages [oceano-algos]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-03 13:22:49] INFO root fetch - processPackages [areixio]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-03 13:22:49] INFO root fetch - processPackages [lesscode-tool]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 13:22:49] INFO root fetch - processPackages [oceano-algos]: Downloading https://files.pythonhosted.org/packages/7c/86/fa1e34f3f2b1a445edd276795af0bb760952c128f07d270af929b89e1cea/oceano_algos-0.0.98.tar.gz
+[2023-05-03 13:22:49] INFO root fetch - processPackages [pyrew]: executing diffoscope
+[2023-05-03 13:22:49] INFO root fetch - processPackages [pyrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrew-0.9.2.tar.gz tmp/pyrew-0.9.3.tar.gz --markdown 20230503/p/pyrew/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-03 13:22:49] INFO root fetch - processPackages [lesscode-tool]: executing diffoscope
+[2023-05-03 13:22:49] INFO root fetch - processPackages [lesscode-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesscode_tool-0.0.8.tar.gz tmp/lesscode_tool-0.0.9.tar.gz --markdown 20230503/l/lesscode-tool/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 13:22:49] INFO root fetch - processPackages [syamaguc]: Downloading https://files.pythonhosted.org/packages/6f/1d/c05b2b50fb26061cc8115205e47335e5ad7ad2211312d72eaf8ba46fc32d/syamaguc-0.1.0.post2305031119-py3-none-any.whl
+[2023-05-03 13:22:49] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/7f/47/98daee0f3bf60242f2dcf8d1698f91d53fa98fd9af38e299a34435873ecb/qwak_core-0.0.45.tar.gz
+[2023-05-03 13:22:49] INFO root fetch - processPackages [oceano-algos]: Downloading https://files.pythonhosted.org/packages/83/a4/d9e4d84d0b1d04e29a556b683f50c95a60a02dea91e4cc072d3195e1058b/oceano_algos-0.0.99.tar.gz
+[2023-05-03 13:22:49] INFO root fetch - processPackages [pybgpasn]: Downloading https://files.pythonhosted.org/packages/fa/7c/102e9a8856a1db0cde0f118a51a0130c73bcaaa4a0900e3c00723b97e03f/pybgpasn-1.0.4.tar.gz
+[2023-05-03 13:22:49] INFO root fetch - processPackages [aipha-geo-solutions]: Downloading https://files.pythonhosted.org/packages/e8/b3/ff5c38a51a91e7901ab1e1e09b2c9312b42a11cfea230db8efbe7b01b9b6/aipha_geo_solutions-0.1.8.tar.gz
+[2023-05-03 13:22:49] INFO root fetch - processPackages [marpdown]: Downloading https://files.pythonhosted.org/packages/95/67/b4c4da4ffcfb0613129d4461ccf7f6fc06d58ee116e897123c18413f71d6/marpdown-0.3.0.tar.gz
+[2023-05-03 13:22:49] INFO root fetch - processPackages [wiretap]: Downloading https://files.pythonhosted.org/packages/a0/a8/6efa340f9d278c0694278e61ba095ca581e23769889978810da35942b3b5/wiretap-2.4.2-py3-none-any.whl
+[2023-05-03 13:22:49] INFO root fetch - processPackages [oceano-algos]: executing diffoscope
+[2023-05-03 13:22:49] INFO root fetch - processPackages [oceano-algos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oceano_algos-0.0.98.tar.gz tmp/oceano_algos-0.0.99.tar.gz --markdown 20230503/o/oceano-algos/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-03 13:22:49] INFO root fetch - processPackages [areixio]: Downloading https://files.pythonhosted.org/packages/c4/91/5a3b1feda3385e907a43cbf462c489d3515930893925430b210d5c7cf7ec/areixio-0.2.8.tar.gz
+[2023-05-03 13:22:49] INFO root fetch - processPackages [pybgpasn]: executing diffoscope
+[2023-05-03 13:22:49] INFO root fetch - processPackages [pybgpasn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybgpasn-1.0.3.tar.gz tmp/pybgpasn-1.0.4.tar.gz --markdown 20230503/p/pybgpasn/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-03 13:22:49] INFO root fetch - processPackages [syamaguc]: executing diffoscope
+[2023-05-03 13:22:49] INFO root fetch - processPackages [syamaguc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syamaguc-0.1.0.post2305031119-py3-none-any.whl.zip tmp/syamaguc-0.1.0.post2305032013.tar.gz --markdown 20230503/s/syamaguc/0.1.0.post2305031119-0.1.0.post2305032013/diff.md --exclude *.pyd
+[2023-05-03 13:22:49] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/d5/81/ada3ce38e92a1ab3fc42cfbb57d9774baadccf3be2c1c2f3435ee0bb127a/qwak_core-0.0.46.tar.gz
+[2023-05-03 13:22:49] INFO root fetch - processPackages [aipha-geo-solutions]: Downloading https://files.pythonhosted.org/packages/cb/c8/937f481bdc98284eb81f7b271cae9b4629af7a97a0b5e7f3610a365f78d2/aipha_geo_solutions-0.1.9.tar.gz
+[2023-05-03 13:22:49] INFO root fetch - processPackages [aipha-geo-solutions]: executing diffoscope
+[2023-05-03 13:22:49] INFO root fetch - processPackages [aipha-geo-solutions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aipha_geo_solutions-0.1.8.tar.gz tmp/aipha_geo_solutions-0.1.9.tar.gz --markdown 20230503/a/aipha-geo-solutions/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-03 13:22:49] INFO root fetch - processPackages [marpdown]: Downloading https://files.pythonhosted.org/packages/d5/cb/5768ad85781a580762a3c3768335b8e44bada0c262b67cf6648b1c3f72bd/marpdown-0.4.0.tar.gz
+[2023-05-03 13:22:49] INFO root fetch - processPackages [wiretap]: Downloading https://files.pythonhosted.org/packages/48/ce/f103d01dec400bb78a7bf4b094ccace7a2abd95626f08e9e0400280e3ac7/wiretap-3.0.1-py3-none-any.whl
+[2023-05-03 13:22:49] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-05-03 13:22:49] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.45.tar.gz tmp/qwak_core-0.0.46.tar.gz --markdown 20230503/q/qwak-core/0.0.45-0.0.46/diff.md --exclude *.pyd
+[2023-05-03 13:22:50] INFO root fetch - processPackages [marpdown]: executing diffoscope
+[2023-05-03 13:22:50] INFO root fetch - processPackages [marpdown]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marpdown-0.3.0.tar.gz tmp/marpdown-0.4.0.tar.gz --markdown 20230503/m/marpdown/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-03 13:22:50] INFO root fetch - processPackages [wiretap]: executing diffoscope
+[2023-05-03 13:22:50] INFO root fetch - processPackages [wiretap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiretap-2.4.2-py3-none-any.whl.zip tmp/wiretap-3.0.1-py3-none-any.whl.zip --markdown 20230503/w/wiretap/2.4.2-3.0.1/diff.md --exclude *.pyd
+[2023-05-03 13:22:50] INFO root fetch - processPackages [areixio]: Downloading https://files.pythonhosted.org/packages/b6/2c/9db3134c3fd073a3fdfaf56d0fb236a19d3888fb5a806ebdfb891c5dc09b/areixio-0.2.9.tar.gz
+[2023-05-03 13:22:50] INFO root fetch - processPackages [oceano-algos]: Start processing: c2cciutils
+[2023-05-03 13:22:50] INFO root fetch - main [MainThread]: End processing [oceano-algos]: success
+[2023-05-03 13:22:50] INFO root fetch - processPackages [c2cciutils]: New version: [1.6.0.dev80] Old Version: [1.6.0.dev8]
+[2023-05-03 13:22:50] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/85/ac/438a8d47b9773c665dfa7ed618436075e474a44520762bf53561424ea021/c2cciutils-1.6.0.dev8.tar.gz
+[2023-05-03 13:22:51] WARNING root fetch - processPackages [c2cciutils]: Skipping package: exceeds size limit 12821161>=10485760
+[2023-05-03 13:22:51] INFO root fetch - processPackages [c2cciutils]: Start processing: certora-cli-alpha-naftali-CERT-1936-multiple-envfree-errors
+[2023-05-03 13:22:51] INFO root fetch - main [MainThread]: End processing [c2cciutils] error
+[2023-05-03 13:22:51] WARNING root fetch - processPackages [certora-cli-alpha-naftali-CERT-1936-multiple-envfree-errors]: Skipping, unable to determine old version
+[2023-05-03 13:22:51] INFO root fetch - processPackages [certora-cli-alpha-naftali-CERT-1936-multiple-envfree-errors]: Start processing: astrojs-aws.construct
+[2023-05-03 13:22:51] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-naftali-CERT-1936-multiple-envfree-errors] error
+[2023-05-03 13:22:51] INFO root fetch - processPackages [astrojs-aws.construct]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 13:22:51] INFO root fetch - processPackages [lesscode-tool]: Start processing: tb-nightly
+[2023-05-03 13:22:51] INFO root fetch - main [MainThread]: End processing [lesscode-tool]: success
+[2023-05-03 13:22:51] INFO root fetch - processPackages [pyrew]: Start processing: astrojs-aws.construct
+[2023-05-03 13:22:51] INFO root fetch - main [MainThread]: End processing [pyrew]: success
+[2023-05-03 13:22:51] INFO root fetch - processPackages [astrojs-aws.construct]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 13:22:51] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2023-05-03 13:22:51] INFO root fetch - processPackages [astrojs-aws.construct]: Downloading https://files.pythonhosted.org/packages/8e/f4/c1d44dc1287369855ef79176e08711d05638d897eae6fb0509aec8278b29/astrojs-aws.construct-0.0.8.tar.gz
+[2023-05-03 13:22:51] INFO root fetch - processPackages [astrojs-aws.construct]: Downloading https://files.pythonhosted.org/packages/8e/f4/c1d44dc1287369855ef79176e08711d05638d897eae6fb0509aec8278b29/astrojs-aws.construct-0.0.8.tar.gz
+[2023-05-03 13:22:51] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2023-05-03 13:22:51] INFO root fetch - processPackages [aipha-geo-solutions]: Start processing: random-emojigen
+[2023-05-03 13:22:51] INFO root fetch - main [MainThread]: End processing [aipha-geo-solutions]: success
+[2023-05-03 13:22:51] INFO root fetch - processPackages [syamaguc]: Start processing: sampo
+[2023-05-03 13:22:51] INFO root fetch - main [MainThread]: End processing [syamaguc]: success
+[2023-05-03 13:22:51] WARNING root fetch - processPackages [random-emojigen]: Skipping, unable to determine old version
+[2023-05-03 13:22:51] INFO root fetch - processPackages [random-emojigen]: Start processing: playwright
+[2023-05-03 13:22:51] INFO root fetch - main [MainThread]: End processing [random-emojigen] error
+[2023-05-03 13:22:51] INFO root fetch - processPackages [sampo]: New version: [0.1.1.99] Old Version: [0.1.1.98]
+[2023-05-03 13:22:51] INFO root fetch - processPackages [pybgpasn]: Start processing: astrojs-aws.construct
+[2023-05-03 13:22:51] INFO root fetch - main [MainThread]: End processing [pybgpasn]: success
+[2023-05-03 13:22:51] INFO root fetch - processPackages [astrojs-aws.construct]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 13:22:51] INFO root fetch - main [MainThread]: End processing [marpdown]: success
+[2023-05-03 13:22:51] INFO root fetch - processPackages [astrojs-aws.construct]: Downloading https://files.pythonhosted.org/packages/04/f5/c570b6fa2b76b0356ed15981f4a4be7530485c1d3ec475026ad7d65c6693/astrojs-aws.construct-0.0.9.tar.gz
+[2023-05-03 13:22:51] INFO root fetch - processPackages [astrojs-aws.construct]: Downloading https://files.pythonhosted.org/packages/04/f5/c570b6fa2b76b0356ed15981f4a4be7530485c1d3ec475026ad7d65c6693/astrojs-aws.construct-0.0.9.tar.gz
+[2023-05-03 13:22:51] INFO root fetch - processPackages [areixio]: executing diffoscope
+[2023-05-03 13:22:51] INFO root fetch - processPackages [playwright]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-05-03 13:22:51] INFO root fetch - processPackages [areixio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/areixio-0.2.8.tar.gz tmp/areixio-0.2.9.tar.gz --markdown 20230503/a/areixio/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-03 13:22:51] INFO root fetch - processPackages [astrojs-aws.construct]: executing diffoscope
+[2023-05-03 13:22:51] INFO root fetch - processPackages [astrojs-aws.construct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astrojs-aws.construct-0.0.8.tar.gz tmp/astrojs-aws.construct-0.0.9.tar.gz --markdown 20230503/a/astrojs-aws.construct/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 13:22:51] INFO root fetch - processPackages [astrojs-aws.construct]: executing diffoscope
+[2023-05-03 13:22:51] INFO root fetch - processPackages [astrojs-aws.construct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astrojs-aws.construct-0.0.8.tar.gz tmp/astrojs-aws.construct-0.0.9.tar.gz --markdown 20230503/a/astrojs-aws.construct/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 13:22:51] INFO root fetch - processPackages [astrojs-aws.construct]: executing diffoscope
+[2023-05-03 13:22:51] INFO root fetch - processPackages [astrojs-aws.construct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astrojs-aws.construct-0.0.8.tar.gz tmp/astrojs-aws.construct-0.0.9.tar.gz --markdown 20230503/a/astrojs-aws.construct/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 13:22:51] INFO root fetch - processPackages [sampo]: Downloading https://files.pythonhosted.org/packages/c0/f0/691fad5ee7a8eae5d9b71eb531e4b6d414959a5afcc9811977263994bd77/sampo-0.1.1.98.tar.gz
+[2023-05-03 13:22:51] INFO root fetch - main [MainThread]: End processing [wiretap]: success
+[2023-05-03 13:22:51] INFO root fetch - processPackages [playwright]: Downloading https://files.pythonhosted.org/packages/e3/40/d00479d326a7f3bcf068a06934da13619aa1e2575194a45d36ee0fe8f869/playwright-1.9.1-py3-none-win_amd64.whl
+[2023-05-03 13:22:51] INFO root fetch - processPackages [sampo]: Downloading https://files.pythonhosted.org/packages/28/10/7f07e18ca3b08fef3d13985a88344883d8eaf53be7daeda7186b282872a8/sampo-0.1.1.99.tar.gz
+[2023-05-03 13:22:51] WARNING root fetch - processPackages [playwright]: Skipping package: exceeds size limit 39899667>=10485760
+[2023-05-03 13:22:51] INFO root fetch - main [MainThread]: End processing [playwright] error
+[2023-05-03 13:22:51] INFO root fetch - processPackages [sampo]: executing diffoscope
+[2023-05-03 13:22:51] INFO root fetch - processPackages [sampo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sampo-0.1.1.98.tar.gz tmp/sampo-0.1.1.99.tar.gz --markdown 20230503/s/sampo/0.1.1.98-0.1.1.99/diff.md --exclude *.pyd
+[2023-05-03 13:22:52] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2023-05-03 13:22:52] INFO root fetch - main [MainThread]: End processing [astrojs-aws.construct]: success
+[2023-05-03 13:22:52] INFO root fetch - main [MainThread]: End processing [astrojs-aws.construct]: success
+[2023-05-03 13:22:52] INFO root fetch - main [MainThread]: End processing [astrojs-aws.construct]: success
+[2023-05-03 13:22:53] INFO root fetch - main [MainThread]: End processing [sampo]: success
+[2023-05-03 13:22:53] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2023-05-03 13:22:53] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20230503/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/diff.md --exclude *.pyd
+[2023-05-03 13:22:58] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-05-03 13:22:58] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2023-05-03 13:23:02] INFO root fetch - main [MainThread]: End processing [areixio]: success
+[2023-05-03 13:23:02] INFO root fetch - main [MainThread]: Store serial: [17955576]
