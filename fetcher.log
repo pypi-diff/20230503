@@ -21695,3 +21695,55 @@ No space left on device. Diffoscope exiting.
 [2023-05-03 20:07:54] INFO root fetch - main [MainThread]: End processing [java-test-genie]: success
 [2023-05-03 20:07:56] INFO root fetch - main [MainThread]: End processing [piperider-nightly]: success
 [2023-05-03 20:07:56] INFO root fetch - main [MainThread]: Store serial: [17960818]
+[2023-05-03 20:13:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17960818]
+[2023-05-03 20:13:05] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-03 20:13:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certora-cli-alpha-alexstolr-events-metadata-json
+[2023-05-03 20:13:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scoobi
+[2023-05-03 20:13:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ft-package-42-jekim
+[2023-05-03 20:13:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alacorder
+[2023-05-03 20:13:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: icloudtogcal
+[2023-05-03 20:13:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: veda-cli
+[2023-05-03 20:13:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: service-configuration-lib
+[2023-05-03 20:13:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: envidat-utils
+[2023-05-03 20:13:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hordelib
+[2023-05-03 20:13:06] INFO root fetch - processPackages [scoobi]: New version: [0.0.1.3] Old Version: [0.0.1.2]
+[2023-05-03 20:13:06] INFO root fetch - processPackages [ft-package-42-jekim]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 20:13:06] INFO root fetch - processPackages [veda-cli]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 20:13:06] INFO root fetch - processPackages [alacorder]: New version: [80.1.6] Old Version: [80.1.5]
+[2023-05-03 20:13:06] INFO root fetch - processPackages [envidat-utils]: New version: [1.4.0] Old Version: [1.2.4]
+[2023-05-03 20:13:06] WARNING root fetch - processPackages [icloudtogcal]: Skipping, unable to determine old version
+[2023-05-03 20:13:06] INFO root fetch - main [MainThread]: End processing [icloudtogcal] error
+[2023-05-03 20:13:06] INFO root fetch - processPackages [scoobi]: executing diffoscope
+[2023-05-03 20:13:06] INFO root fetch - processPackages [scoobi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scoobi-0.0.1.2.tar.gz tmp/scoobi-0.0.1.3.tar.gz --markdown 20230503/s/scoobi/0.0.1.2-0.0.1.3/diff.md --exclude *.pyd
+[2023-05-03 20:13:06] INFO root fetch - processPackages [service-configuration-lib]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-05-03 20:13:06] WARNING root fetch - processPackages [certora-cli-alpha-alexstolr-events-metadata-json]: Skipping, unable to determine old version
+[2023-05-03 20:13:06] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-alexstolr-events-metadata-json] error
+[2023-05-03 20:13:06] INFO root fetch - processPackages [hordelib]: New version: [0.9.5] Old Version: [0.9.2]
+[2023-05-03 20:13:06] INFO root fetch - processPackages [veda-cli]: executing diffoscope
+[2023-05-03 20:13:06] INFO root fetch - processPackages [veda-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veda_cli-0.0.8.tar.gz tmp/veda_cli-0.0.9.tar.gz --markdown 20230503/v/veda-cli/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 20:13:06] INFO root fetch - processPackages [ft-package-42-jekim]: Downloading https://files.pythonhosted.org/packages/cd/8f/dcf794dea2323fb32a9d2a48e985e0ef6804357ffc37d0e127bd26aa3b9f/ft_package_42_jekim-0.0.9.tar.gz
+[2023-05-03 20:13:06] INFO root fetch - processPackages [envidat-utils]: Downloading https://files.pythonhosted.org/packages/16/5a/e7f04fc594388659b7131f9341ac8d6a642d6b9b21de7e9d51a4049adf17/envidat-utils-1.2.4.tar.gz
+[2023-05-03 20:13:06] INFO root fetch - processPackages [service-configuration-lib]: Downloading https://files.pythonhosted.org/packages/32/bc/50c0c486ef8868d70e1ede030d9152799090473991e4384059539a9b1e98/service-configuration-lib-2.8.0.tar.gz
+[2023-05-03 20:13:06] INFO root fetch - processPackages [alacorder]: Downloading https://files.pythonhosted.org/packages/b8/96/e5d9014e487fc02e8ef525d48a2e2820d34074d0d0c24e87c2a7638460c9/alacorder-80.1.6.tar.gz
+[2023-05-03 20:13:06] INFO root fetch - processPackages [hordelib]: Downloading https://files.pythonhosted.org/packages/fd/a2/adcbb07401fbedfb5e142d1a138de62bf94227ad2e238ea5a5b6eb5033f4/hordelib-0.9.2.tar.gz
+[2023-05-03 20:13:06] INFO root fetch - processPackages [ft-package-42-jekim]: executing diffoscope
+[2023-05-03 20:13:06] INFO root fetch - processPackages [ft-package-42-jekim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ft_package_42_jekim-0.0.8.tar.gz tmp/ft_package_42_jekim-0.0.9.tar.gz --markdown 20230503/f/ft-package-42-jekim/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 20:13:06] INFO root fetch - processPackages [alacorder]: executing diffoscope
+[2023-05-03 20:13:06] INFO root fetch - processPackages [alacorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alacorder-80.1.5.tar.gz tmp/alacorder-80.1.6.tar.gz --markdown 20230503/a/alacorder/80.1.5-80.1.6/diff.md --exclude *.pyd
+[2023-05-03 20:13:06] INFO root fetch - processPackages [service-configuration-lib]: Downloading https://files.pythonhosted.org/packages/08/ad/99858a3ee1fce3071381a61c7a2502b9fd908605783332e4af449df36153/service-configuration-lib-2.9.0.tar.gz
+[2023-05-03 20:13:06] INFO root fetch - processPackages [envidat-utils]: Downloading https://files.pythonhosted.org/packages/7b/68/005b533bb771e8c562b00dc180ab30750c7cfec276fcbfc5a7c4023e5fb2/envidat-utils-1.4.0.tar.gz
+[2023-05-03 20:13:06] INFO root fetch - processPackages [service-configuration-lib]: executing diffoscope
+[2023-05-03 20:13:06] INFO root fetch - processPackages [service-configuration-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/service-configuration-lib-2.8.0.tar.gz tmp/service-configuration-lib-2.9.0.tar.gz --markdown 20230503/s/service-configuration-lib/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-05-03 20:13:06] INFO root fetch - processPackages [envidat-utils]: executing diffoscope
+[2023-05-03 20:13:06] INFO root fetch - processPackages [envidat-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/envidat-utils-1.2.4.tar.gz tmp/envidat-utils-1.4.0.tar.gz --markdown 20230503/e/envidat-utils/1.2.4-1.4.0/diff.md --exclude *.pyd
+[2023-05-03 20:13:07] INFO root fetch - main [MainThread]: End processing [veda-cli]: success
+[2023-05-03 20:13:07] INFO root fetch - main [MainThread]: End processing [scoobi]: success
+[2023-05-03 20:13:07] INFO root fetch - main [MainThread]: End processing [ft-package-42-jekim]: success
+[2023-05-03 20:13:07] INFO root fetch - main [MainThread]: End processing [service-configuration-lib]: success
+[2023-05-03 20:13:08] INFO root fetch - main [MainThread]: End processing [envidat-utils]: success
+[2023-05-03 20:13:09] INFO root fetch - main [MainThread]: End processing [alacorder]: success
+[2023-05-03 20:13:09] INFO root fetch - processPackages [hordelib]: Downloading https://files.pythonhosted.org/packages/9c/6a/e948a22abe1306f081d00e441c84b24d63987802f65e7372d1c5dc75061a/hordelib-0.9.5.tar.gz
+[2023-05-03 20:13:10] INFO root fetch - processPackages [hordelib]: executing diffoscope
+[2023-05-03 20:13:10] INFO root fetch - processPackages [hordelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hordelib-0.9.2.tar.gz tmp/hordelib-0.9.5.tar.gz --markdown 20230503/h/hordelib/0.9.2-0.9.5/diff.md --exclude *.pyd
+[2023-05-03 20:13:20] INFO root fetch - main [MainThread]: End processing [hordelib]: success
+[2023-05-03 20:13:20] INFO root fetch - main [MainThread]: Store serial: [17960928]
