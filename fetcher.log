@@ -18798,3 +18798,95 @@ No space left on device. Diffoscope exiting.
 [2023-05-03 17:44:15] INFO root fetch - main [MainThread]: End processing [simplebox]: success
 [2023-05-03 17:44:16] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
 [2023-05-03 17:44:16] INFO root fetch - main [MainThread]: Store serial: [17958897]
+[2023-05-03 17:49:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17958897]
+[2023-05-03 17:49:25] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-03 17:49:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: expiringsqlitedict
+[2023-05-03 17:49:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pangeamt-nlp
+[2023-05-03 17:49:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qcs-sdk-python
+[2023-05-03 17:49:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qmenta-client
+[2023-05-03 17:49:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dynamic-factory
+[2023-05-03 17:49:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Mirolyubov-lab3-new-version
+[2023-05-03 17:49:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pypotlib
+[2023-05-03 17:49:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyap-beauhurst
+[2023-05-03 17:49:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: quorum-data-py
+[2023-05-03 17:49:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: heaserver-registry
+[2023-05-03 17:49:25] INFO root fetch - processPackages [dynamic-factory]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-03 17:49:25] INFO root fetch - processPackages [heaserver-registry]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-05-03 17:49:25] INFO root fetch - processPackages [dynamic-factory]: executing diffoscope
+[2023-05-03 17:49:25] INFO root fetch - processPackages [dynamic-factory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynamic_factory-0.1.5.tar.gz tmp/dynamic_factory-0.1.6.tar.gz --markdown 20230503/d/dynamic-factory/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-03 17:49:25] INFO root fetch - processPackages [expiringsqlitedict]: New version: [6.2.0] Old Version: [6.1.0]
+[2023-05-03 17:49:25] INFO root fetch - processPackages [qmenta-client]: New version: [0.9.1] Old Version: [0.9]
+[2023-05-03 17:49:25] INFO root fetch - processPackages [heaserver-registry]: executing diffoscope
+[2023-05-03 17:49:25] INFO root fetch - processPackages [heaserver-registry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver-registry-1.0.0a8.tar.gz tmp/heaserver-registry-1.0.0a9.tar.gz --markdown 20230503/h/heaserver-registry/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-05-03 17:49:25] WARNING root fetch - processPackages [pyap-beauhurst]: Skipping, unable to determine old version
+[2023-05-03 17:49:25] WARNING root fetch - processPackages [Mirolyubov-lab3-new-version]: Skipping, unable to determine old version
+[2023-05-03 17:49:25] INFO root fetch - processPackages [pyap-beauhurst]: Start processing: addressable-sql-queries
+[2023-05-03 17:49:25] INFO root fetch - main [MainThread]: End processing [pyap-beauhurst] error
+[2023-05-03 17:49:25] INFO root fetch - processPackages [quorum-data-py]: New version: [1.2.7] Old Version: [1.2.6]
+[2023-05-03 17:49:25] INFO root fetch - processPackages [Mirolyubov-lab3-new-version]: Start processing: django-vendor
+[2023-05-03 17:49:25] INFO root fetch - main [MainThread]: End processing [Mirolyubov-lab3-new-version] error
+[2023-05-03 17:49:25] INFO root fetch - processPackages [pypotlib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 17:49:25] INFO root fetch - processPackages [pangeamt-nlp]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-03 17:49:25] INFO root fetch - processPackages [qcs-sdk-python]: New version: [0.5.0rc6] Old Version: [0.5.0rc5]
+[2023-05-03 17:49:25] WARNING root fetch - processPackages [addressable-sql-queries]: Skipping, unable to determine old version
+[2023-05-03 17:49:25] INFO root fetch - processPackages [django-vendor]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-03 17:49:25] INFO root fetch - processPackages [addressable-sql-queries]: Start processing: mosaicml
+[2023-05-03 17:49:25] INFO root fetch - main [MainThread]: End processing [addressable-sql-queries] error
+[2023-05-03 17:49:25] INFO root fetch - processPackages [qmenta-client]: Downloading https://files.pythonhosted.org/packages/19/32/575867a7890dbbd49201fbd76db285063d2cda96ef59ab9ed53d2ef3aea2/qmenta_client-0.9-py2.py3-none-any.whl
+[2023-05-03 17:49:25] INFO root fetch - processPackages [quorum-data-py]: Downloading https://files.pythonhosted.org/packages/1a/b9/9c38a2a4016a76eed08c7f26ba0dca4141151d90907c5ca3fb750c8aeca9/quorum_data_py-1.2.6.tar.gz
+[2023-05-03 17:49:25] INFO root fetch - processPackages [pangeamt-nlp]: Downloading https://files.pythonhosted.org/packages/c6/63/90a05d8afa2e60a42c4b790d5da8f149da330d252d82554552c102d33865/pangeamt-nlp-1.0.8.tar.gz
+[2023-05-03 17:49:25] INFO root fetch - processPackages [mosaicml]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-05-03 17:49:25] INFO root fetch - processPackages [expiringsqlitedict]: Downloading https://files.pythonhosted.org/packages/37/ed/5c9a555afad7afc997558b9625d907fb08a84bf88ccebdd6e51fe249eb7a/expiringsqlitedict-6.2.0.tar.gz
+[2023-05-03 17:49:25] INFO root fetch - processPackages [pypotlib]: Downloading https://files.pythonhosted.org/packages/4d/1a/d689306b0dc6e6c6ff9cefabc009624c79d9fe0a5515af78a1a2e3d60260/pypotlib-0.0.9.tar.gz
+[2023-05-03 17:49:25] INFO root fetch - processPackages [expiringsqlitedict]: executing diffoscope
+[2023-05-03 17:49:25] INFO root fetch - processPackages [expiringsqlitedict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/expiringsqlitedict-6.1.0.tar.gz tmp/expiringsqlitedict-6.2.0.tar.gz --markdown 20230503/e/expiringsqlitedict/6.1.0-6.2.0/diff.md --exclude *.pyd
+[2023-05-03 17:49:25] INFO root fetch - processPackages [pypotlib]: executing diffoscope
+[2023-05-03 17:49:25] INFO root fetch - processPackages [pypotlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypotlib-0.0.8.tar.gz tmp/pypotlib-0.0.9.tar.gz --markdown 20230503/p/pypotlib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 17:49:25] INFO root fetch - processPackages [qcs-sdk-python]: executing diffoscope
+[2023-05-03 17:49:25] INFO root fetch - processPackages [qcs-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qcs_sdk_python-0.5.0rc5.tar.gz tmp/qcs_sdk_python-0.5.0rc6.tar.gz --markdown 20230503/q/qcs-sdk-python/0.5.0rc5-0.5.0rc6/diff.md --exclude *.pyd
+[2023-05-03 17:49:25] INFO root fetch - processPackages [django-vendor]: Downloading https://files.pythonhosted.org/packages/43/dc/bccc1b46e8c7260a01170a29620c3cd947d920bf7fd7d761032b46c3a788/django-vendor-0.3.8.tar.gz
+[2023-05-03 17:49:25] INFO root fetch - processPackages [mosaicml]: Downloading https://files.pythonhosted.org/packages/4a/0d/f859787a1af116665b2c57f455de98003faad15fd0cf246aac8ccd3b7317/mosaicml-0.8.2.tar.gz
+[2023-05-03 17:49:25] INFO root fetch - processPackages [quorum-data-py]: Downloading https://files.pythonhosted.org/packages/b7/ca/753af29a77535d1a0e6dfa4260cf3fc1aea828763ed8b1e4b6cc4141b137/quorum_data_py-1.2.7.tar.gz
+[2023-05-03 17:49:25] INFO root fetch - processPackages [qmenta-client]: Downloading https://files.pythonhosted.org/packages/24/76/7bc53e9011fe96ef4476f7e4e37fb9238f732de8be8cd11c50c37f67c8ac/qmenta_client-0.9.1-py2.py3-none-any.whl
+[2023-05-03 17:49:25] INFO root fetch - processPackages [quorum-data-py]: executing diffoscope
+[2023-05-03 17:49:25] INFO root fetch - processPackages [quorum-data-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quorum_data_py-1.2.6.tar.gz tmp/quorum_data_py-1.2.7.tar.gz --markdown 20230503/q/quorum-data-py/1.2.6-1.2.7/diff.md --exclude *.pyd
+[2023-05-03 17:49:25] WARNING root fetch - processPackages [pangeamt-nlp]: Skipping package: exceeds size limit 14587887>=10485760
+[2023-05-03 17:49:25] INFO root fetch - processPackages [pangeamt-nlp]: Start processing: rq-dashboard-compatible
+[2023-05-03 17:49:25] INFO root fetch - main [MainThread]: End processing [pangeamt-nlp] error
+[2023-05-03 17:49:26] INFO root fetch - processPackages [qmenta-client]: executing diffoscope
+[2023-05-03 17:49:26] INFO root fetch - processPackages [qmenta-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qmenta_client-0.9-py2.py3-none-any.whl.zip tmp/qmenta_client-0.9.1-py2.py3-none-any.whl.zip --markdown 20230503/q/qmenta-client/0.9-0.9.1/diff.md --exclude *.pyd
+[2023-05-03 17:49:26] WARNING root fetch - processPackages [rq-dashboard-compatible]: Skipping, unable to determine old version
+[2023-05-03 17:49:26] INFO root fetch - processPackages [rq-dashboard-compatible]: Start processing: composer
+[2023-05-03 17:49:26] INFO root fetch - main [MainThread]: End processing [rq-dashboard-compatible] error
+[2023-05-03 17:49:26] INFO root fetch - processPackages [django-vendor]: Downloading https://files.pythonhosted.org/packages/70/19/fd195d1c65df31b178e1b3de2ac659cf8ceb30efd94d571056e1da463eb1/django-vendor-0.3.9.tar.gz
+[2023-05-03 17:49:26] INFO root fetch - processPackages [dynamic-factory]: Start processing: pytorch-lantern
+[2023-05-03 17:49:26] INFO root fetch - main [MainThread]: End processing [dynamic-factory]: success
+[2023-05-03 17:49:26] INFO root fetch - processPackages [pytorch-lantern]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-03 17:49:26] INFO root fetch - processPackages [composer]: New version: [0.14.0] Old Version: [0.13.5]
+[2023-05-03 17:49:26] INFO root fetch - processPackages [django-vendor]: executing diffoscope
+[2023-05-03 17:49:26] INFO root fetch - processPackages [django-vendor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-vendor-0.3.8.tar.gz tmp/django-vendor-0.3.9.tar.gz --markdown 20230503/d/django-vendor/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-03 17:49:26] INFO root fetch - processPackages [pytorch-lantern]: executing diffoscope
+[2023-05-03 17:49:26] INFO root fetch - processPackages [pytorch-lantern]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch-lantern-0.9.3.tar.gz tmp/pytorch-lantern-0.9.4.tar.gz --markdown 20230503/p/pytorch-lantern/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-03 17:49:26] INFO root fetch - processPackages [mosaicml]: Downloading https://files.pythonhosted.org/packages/d4/94/9f3bde8318895c050d35f3ea3d3da8c1f48dd35207933f8b0eaca33cf4fd/mosaicml-0.9.0.tar.gz
+[2023-05-03 17:49:26] INFO root fetch - processPackages [heaserver-registry]: Start processing: batpy
+[2023-05-03 17:49:26] INFO root fetch - main [MainThread]: End processing [heaserver-registry]: success
+[2023-05-03 17:49:26] INFO root fetch - processPackages [composer]: Downloading https://files.pythonhosted.org/packages/0b/aa/d8ff90492bb54d1e07e78e654fdeb681a8a8a94a2bdc6a5617f3d9d8b950/composer-0.13.5.tar.gz
+[2023-05-03 17:49:26] INFO root fetch - processPackages [batpy]: New version: [0.0.5] Old Version: [0.0.2]
+[2023-05-03 17:49:26] INFO root fetch - processPackages [batpy]: executing diffoscope
+[2023-05-03 17:49:26] INFO root fetch - processPackages [batpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/batpy-0.0.2.tar.gz tmp/batpy-0.0.5.tar.gz --markdown 20230503/b/batpy/0.0.2-0.0.5/diff.md --exclude *.pyd
+[2023-05-03 17:49:26] INFO root fetch - processPackages [mosaicml]: executing diffoscope
+[2023-05-03 17:49:26] INFO root fetch - processPackages [mosaicml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mosaicml-0.8.2.tar.gz tmp/mosaicml-0.9.0.tar.gz --markdown 20230503/m/mosaicml/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-05-03 17:49:26] INFO root fetch - processPackages [composer]: Downloading https://files.pythonhosted.org/packages/08/cb/3f12159036d66e71b8aa1862642a0db6129df6516e6905480fb2e5c0e010/composer-0.14.0.tar.gz
+[2023-05-03 17:49:26] INFO root fetch - processPackages [composer]: executing diffoscope
+[2023-05-03 17:49:26] INFO root fetch - processPackages [composer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composer-0.13.5.tar.gz tmp/composer-0.14.0.tar.gz --markdown 20230503/c/composer/0.13.5-0.14.0/diff.md --exclude *.pyd
+[2023-05-03 17:49:27] INFO root fetch - main [MainThread]: End processing [pypotlib]: success
+[2023-05-03 17:49:27] INFO root fetch - main [MainThread]: End processing [expiringsqlitedict]: success
+[2023-05-03 17:49:27] INFO root fetch - main [MainThread]: End processing [quorum-data-py]: success
+[2023-05-03 17:49:27] INFO root fetch - main [MainThread]: End processing [qmenta-client]: success
+[2023-05-03 17:49:27] INFO root fetch - main [MainThread]: End processing [qcs-sdk-python]: success
+[2023-05-03 17:49:27] INFO root fetch - main [MainThread]: End processing [batpy]: success
+[2023-05-03 17:49:28] INFO root fetch - main [MainThread]: End processing [pytorch-lantern]: success
+[2023-05-03 17:49:30] INFO root fetch - main [MainThread]: End processing [django-vendor]: success
+[2023-05-03 17:49:30] INFO root fetch - main [MainThread]: End processing [composer]: success
+[2023-05-03 17:49:30] INFO root fetch - main [MainThread]: End processing [mosaicml]: success
+[2023-05-03 17:49:30] INFO root fetch - main [MainThread]: Store serial: [17958968]
