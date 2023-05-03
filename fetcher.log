@@ -11326,3 +11326,100 @@ No space left on device. Diffoscope exiting.
 [2023-05-03 11:29:12] INFO root fetch - main [MainThread]: End processing [nanosurf]: success
 [2023-05-03 11:29:16] INFO root fetch - main [MainThread]: End processing [Geode-Common]: success
 [2023-05-03 11:29:16] INFO root fetch - main [MainThread]: Store serial: [17954019]
+[2023-05-03 11:34:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17954019]
+[2023-05-03 11:34:35] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-03 11:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: evina
+[2023-05-03 11:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cercis
+[2023-05-03 11:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: types-graphene
+[2023-05-03 11:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sparkmeasure
+[2023-05-03 11:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: colmet
+[2023-05-03 11:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: djsphinx
+[2023-05-03 11:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: paper-admin
+[2023-05-03 11:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: frogmouth
+[2023-05-03 11:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: unitrack
+[2023-05-03 11:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nanomock
+[2023-05-03 11:34:35] WARNING root fetch - processPackages [nanomock]: Skipping, unable to determine old version
+[2023-05-03 11:34:35] INFO root fetch - processPackages [nanomock]: Start processing: pandocker-lua-filters
+[2023-05-03 11:34:35] INFO root fetch - main [MainThread]: End processing [nanomock] error
+[2023-05-03 11:34:35] INFO root fetch - processPackages [pandocker-lua-filters]: New version: [0.0.20] Old Version: [0.0.19]
+[2023-05-03 11:34:35] INFO root fetch - processPackages [types-graphene]: New version: [0.21] Old Version: [0.2]
+[2023-05-03 11:34:35] INFO root fetch - processPackages [cercis]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-03 11:34:35] INFO root fetch - processPackages [sparkmeasure]: New version: [0.23.0] Old Version: [0.21.1]
+[2023-05-03 11:34:35] INFO root fetch - processPackages [djsphinx]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 11:34:35] INFO root fetch - processPackages [frogmouth]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-05-03 11:34:35] WARNING root fetch - processPackages [evina]: Skipping, unable to determine old version
+[2023-05-03 11:34:35] WARNING root fetch - processPackages [unitrack]: Skipping, unable to determine old version
+[2023-05-03 11:34:35] INFO root fetch - processPackages [colmet]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-05-03 11:34:35] INFO root fetch - processPackages [evina]: Start processing: kcli
+[2023-05-03 11:34:35] INFO root fetch - main [MainThread]: End processing [evina] error
+[2023-05-03 11:34:35] INFO root fetch - processPackages [unitrack]: Start processing: skyndo
+[2023-05-03 11:34:35] INFO root fetch - main [MainThread]: End processing [unitrack] error
+[2023-05-03 11:34:35] INFO root fetch - processPackages [paper-admin]: New version: [6.0.0rc5] Old Version: [6.0.0rc4]
+[2023-05-03 11:34:35] INFO root fetch - processPackages [pandocker-lua-filters]: executing diffoscope
+[2023-05-03 11:34:35] INFO root fetch - processPackages [pandocker-lua-filters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandocker_lua_filters-0.0.19-py3-none-any.whl.zip tmp/pandocker_lua_filters-0.0.20-py3-none-any.whl.zip --markdown 20230503/p/pandocker-lua-filters/0.0.19-0.0.20/diff.md --exclude *.pyd
+[2023-05-03 11:34:35] INFO root fetch - processPackages [skyndo]: New version: [0.2] Old Version: [0.1]
+[2023-05-03 11:34:35] INFO root fetch - processPackages [kcli]: New version: [99.0.202305022015] Old Version: [99.0.202304301944]
+[2023-05-03 11:34:35] INFO root fetch - processPackages [types-graphene]: Downloading https://files.pythonhosted.org/packages/7c/0c/fcc64b9561a41de4d23715ee6a866ae88274456f943e89e6498e903b6ea9/types-graphene-0.2.tar.gz
+[2023-05-03 11:34:35] INFO root fetch - processPackages [sparkmeasure]: Downloading https://files.pythonhosted.org/packages/9d/8f/39e504fa3582c1ea5a636457ac3b2f75eb02f5d05fcb519d1ce4ff9e85ce/sparkmeasure-0.21.1.tar.gz
+[2023-05-03 11:34:35] INFO root fetch - processPackages [cercis]: Downloading https://files.pythonhosted.org/packages/cf/0c/f640774589438e2574b8ad76353ec3b546430d5c189f4b6164687e8aa810/cercis-0.1.0.tar.gz
+[2023-05-03 11:34:35] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/b0/7d/aebee7c7790853fdf77d8817e09bfb8b6f76418fb44fe48d485e1c89427b/kcli-99.0.202304301944-py3-none-any.whl
+[2023-05-03 11:34:35] INFO root fetch - processPackages [colmet]: Downloading https://files.pythonhosted.org/packages/1d/2f/1481fe347dfdc700ff94a8db450bdadc7285f410a038df002b02a8aa5dc0/colmet-0.6.8.tar.gz
+[2023-05-03 11:34:35] INFO root fetch - processPackages [paper-admin]: Downloading https://files.pythonhosted.org/packages/96/e9/860f1e9a2bc64e383b12ec4e3e1940d33d57b94fd699350a3ba3d6cb7fc9/paper-admin-6.0.0rc4.tar.gz
+[2023-05-03 11:34:35] INFO root fetch - processPackages [frogmouth]: Downloading https://files.pythonhosted.org/packages/9d/3f/afe8e5e65e981ea222fbcf71ec555fa7eced9e3c71c0fe9132dd65a83ea5/frogmouth-0.3.2.tar.gz
+[2023-05-03 11:34:35] INFO root fetch - processPackages [djsphinx]: Downloading https://files.pythonhosted.org/packages/59/74/26c8c7ee1631b5d9c17babcdbcc319ada0aca3141377d0f6ea8e4c3d4fab/djsphinx-0.0.8.tar.gz
+[2023-05-03 11:34:35] INFO root fetch - processPackages [skyndo]: executing diffoscope
+[2023-05-03 11:34:35] INFO root fetch - processPackages [skyndo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skyndo-0.1.tar.gz tmp/skyndo-0.2.tar.gz --markdown 20230503/s/skyndo/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-03 11:34:35] INFO root fetch - processPackages [types-graphene]: Downloading https://files.pythonhosted.org/packages/0c/a2/1f1ac99be5e5592684ec9bc12c45131b35db339ad36f9ced352bc6f6d5e3/types-graphene-0.21.tar.gz
+[2023-05-03 11:34:35] INFO root fetch - processPackages [cercis]: Downloading https://files.pythonhosted.org/packages/94/e2/ce91a9736b56da0cbef6a3f2a4011ba4f99af2f5c02f8bfb652fea5ca9a4/cercis-0.1.1.tar.gz
+[2023-05-03 11:34:35] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-05-03 11:34:35] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202304301944-py3-none-any.whl.zip tmp/kcli-99.0.202305022015-py3-none-any.whl.zip --markdown 20230503/k/kcli/99.0.202304301944-99.0.202305022015/diff.md --exclude *.pyd
+[2023-05-03 11:34:35] INFO root fetch - processPackages [sparkmeasure]: Downloading https://files.pythonhosted.org/packages/47/b0/29aa7e015450d362ad71cd848930824e2dff0246a7f09819c94c307369e1/sparkmeasure-0.23.0.tar.gz
+[2023-05-03 11:34:35] INFO root fetch - processPackages [frogmouth]: Downloading https://files.pythonhosted.org/packages/f0/fa/5ada6d508c3e9c8bbcb672a8553f54c2181b9377d354a7cba01da2f90fde/frogmouth-0.4.0.tar.gz
+[2023-05-03 11:34:35] INFO root fetch - processPackages [types-graphene]: executing diffoscope
+[2023-05-03 11:34:35] INFO root fetch - processPackages [types-graphene]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-graphene-0.2.tar.gz tmp/types-graphene-0.21.tar.gz --markdown 20230503/t/types-graphene/0.2-0.21/diff.md --exclude *.pyd
+[2023-05-03 11:34:35] INFO root fetch - processPackages [colmet]: Downloading https://files.pythonhosted.org/packages/0f/6d/02012e8d75dd91fac3984f72e0ed97a0856a01a21b98394170416bc92a44/colmet-0.6.9.tar.gz
+[2023-05-03 11:34:35] INFO root fetch - processPackages [cercis]: executing diffoscope
+[2023-05-03 11:34:35] INFO root fetch - processPackages [cercis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cercis-0.1.0.tar.gz tmp/cercis-0.1.1.tar.gz --markdown 20230503/c/cercis/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-03 11:34:35] INFO root fetch - processPackages [frogmouth]: executing diffoscope
+[2023-05-03 11:34:35] INFO root fetch - processPackages [frogmouth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frogmouth-0.3.2.tar.gz tmp/frogmouth-0.4.0.tar.gz --markdown 20230503/f/frogmouth/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-05-03 11:34:36] INFO root fetch - processPackages [djsphinx]: Downloading https://files.pythonhosted.org/packages/e7/f3/a0b036625f2ae1348a20c8488ddae166c6eed13baf78372cc8b3b8077ccd/djsphinx-0.0.9.tar.gz
+[2023-05-03 11:34:36] INFO root fetch - processPackages [colmet]: executing diffoscope
+[2023-05-03 11:34:36] INFO root fetch - processPackages [colmet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colmet-0.6.8.tar.gz tmp/colmet-0.6.9.tar.gz --markdown 20230503/c/colmet/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-05-03 11:34:36] INFO root fetch - processPackages [sparkmeasure]: executing diffoscope
+[2023-05-03 11:34:36] INFO root fetch - processPackages [sparkmeasure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparkmeasure-0.21.1.tar.gz tmp/sparkmeasure-0.23.0.tar.gz --markdown 20230503/s/sparkmeasure/0.21.1-0.23.0/diff.md --exclude *.pyd
+[2023-05-03 11:34:36] INFO root fetch - processPackages [djsphinx]: executing diffoscope
+[2023-05-03 11:34:36] INFO root fetch - processPackages [djsphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djsphinx-0.0.8.tar.gz tmp/djsphinx-0.0.9.tar.gz --markdown 20230503/d/djsphinx/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 11:34:36] INFO root fetch - processPackages [paper-admin]: Downloading https://files.pythonhosted.org/packages/39/47/a20b15bf037dd355e559de65bebd1fafacc50921739d0d96e6322d147897/paper-admin-6.0.0rc5.tar.gz
+[2023-05-03 11:34:36] INFO root fetch - processPackages [paper-admin]: executing diffoscope
+[2023-05-03 11:34:36] INFO root fetch - processPackages [paper-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paper-admin-6.0.0rc4.tar.gz tmp/paper-admin-6.0.0rc5.tar.gz --markdown 20230503/p/paper-admin/6.0.0rc4-6.0.0rc5/diff.md --exclude *.pyd
+[2023-05-03 11:34:37] INFO root fetch - processPackages [skyndo]: Start processing: chatapi-translate
+[2023-05-03 11:34:37] INFO root fetch - main [MainThread]: End processing [skyndo]: success
+[2023-05-03 11:34:37] INFO root fetch - processPackages [chatapi-translate]: New version: [0.3] Old Version: [0.2]
+[2023-05-03 11:34:37] INFO root fetch - processPackages [chatapi-translate]: executing diffoscope
+[2023-05-03 11:34:37] INFO root fetch - processPackages [chatapi-translate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatapi-translate-0.2.tar.gz tmp/chatapi-translate-0.3.tar.gz --markdown 20230503/c/chatapi-translate/0.2-0.3/diff.md --exclude *.pyd
+[2023-05-03 11:34:37] INFO root fetch - processPackages [sparkmeasure]: Start processing: MKN-third-codes
+[2023-05-03 11:34:37] INFO root fetch - main [MainThread]: End processing [sparkmeasure]: success
+[2023-05-03 11:34:38] INFO root fetch - processPackages [MKN-third-codes]: New version: [0.6.4.5] Old Version: [0.6.4.4]
+[2023-05-03 11:34:38] INFO root fetch - processPackages [MKN-third-codes]: executing diffoscope
+[2023-05-03 11:34:38] INFO root fetch - processPackages [MKN-third-codes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MKN_third_codes-0.6.4.4.tar.gz tmp/MKN_third_codes-0.6.4.5.tar.gz --markdown 20230503/M/MKN-third-codes/0.6.4.4-0.6.4.5/diff.md --exclude *.pyd
+[2023-05-03 11:34:38] INFO root fetch - processPackages [djsphinx]: Start processing: django-mails
+[2023-05-03 11:34:38] INFO root fetch - main [MainThread]: End processing [djsphinx]: success
+[2023-05-03 11:34:38] INFO root fetch - processPackages [django-mails]: New version: [2.7] Old Version: [2.6]
+[2023-05-03 11:34:38] INFO root fetch - processPackages [django-mails]: executing diffoscope
+[2023-05-03 11:34:38] INFO root fetch - processPackages [django-mails]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-mails-2.6.tar.gz tmp/django-mails-2.7.tar.gz --markdown 20230503/d/django-mails/2.6-2.7/diff.md --exclude *.pyd
+[2023-05-03 11:34:38] INFO root fetch - processPackages [frogmouth]: Start processing: woe-scoring
+[2023-05-03 11:34:38] INFO root fetch - main [MainThread]: End processing [frogmouth]: success
+[2023-05-03 11:34:38] INFO root fetch - processPackages [woe-scoring]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-03 11:34:38] INFO root fetch - processPackages [woe-scoring]: executing diffoscope
+[2023-05-03 11:34:38] INFO root fetch - processPackages [woe-scoring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/woe_scoring-0.8.0.tar.gz tmp/woe_scoring-0.9.0.tar.gz --markdown 20230503/w/woe-scoring/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-03 11:34:38] INFO root fetch - main [MainThread]: End processing [chatapi-translate]: success
+[2023-05-03 11:34:38] INFO root fetch - main [MainThread]: End processing [types-graphene]: success
+[2023-05-03 11:34:39] INFO root fetch - main [MainThread]: End processing [colmet]: success
+[2023-05-03 11:34:39] INFO root fetch - main [MainThread]: End processing [cercis]: success
+[2023-05-03 11:34:39] INFO root fetch - main [MainThread]: End processing [django-mails]: success
+[2023-05-03 11:34:39] INFO root fetch - main [MainThread]: End processing [MKN-third-codes]: success
+[2023-05-03 11:34:40] INFO root fetch - main [MainThread]: End processing [woe-scoring]: success
+[2023-05-03 11:34:40] INFO root fetch - main [MainThread]: End processing [paper-admin]: success
+[2023-05-03 11:34:43] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-05-03 11:37:03] INFO root fetch - main [MainThread]: End processing [pandocker-lua-filters]: success
+[2023-05-03 11:37:03] INFO root fetch - main [MainThread]: Store serial: [17954161]
