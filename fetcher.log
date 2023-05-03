@@ -21827,3 +21827,79 @@ No space left on device. Diffoscope exiting.
 [2023-05-03 20:18:33] INFO root fetch - main [MainThread]: End processing [satellite-weather-downloader]: success
 [2023-05-03 20:18:34] INFO root fetch - main [MainThread]: End processing [Adafruit-Blinka]: success
 [2023-05-03 20:18:34] INFO root fetch - main [MainThread]: Store serial: [17960978]
+[2023-05-03 20:23:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17960978]
+[2023-05-03 20:23:43] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-03 20:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: guify
+[2023-05-03 20:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hardeneks
+[2023-05-03 20:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nlptoolssna
+[2023-05-03 20:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oak9-tython
+[2023-05-03 20:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openl3
+[2023-05-03 20:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mcstatus
+[2023-05-03 20:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: libmozdata
+[2023-05-03 20:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pds.sumo-tools
+[2023-05-03 20:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: heist
+[2023-05-03 20:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dagknows
+[2023-05-03 20:23:43] INFO root fetch - processPackages [nlptoolssna]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-05-03 20:23:43] INFO root fetch - processPackages [pds.sumo-tools]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-03 20:23:43] INFO root fetch - processPackages [mcstatus]: New version: [9.4.2] Old Version: [9.4.1]
+[2023-05-03 20:23:43] INFO root fetch - processPackages [dagknows]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 20:23:43] INFO root fetch - processPackages [dagknows]: Downloading https://files.pythonhosted.org/packages/48/5b/85b4c3b7ec270fcce58d0f43343adf5bb53a4bcf74af45dbd3e3940c90b2/dagknows-0.0.8-py3-none-any.whl
+[2023-05-03 20:23:43] INFO root fetch - processPackages [guify]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-05-03 20:23:43] INFO root fetch - processPackages [oak9-tython]: New version: [1.0.7b2] Old Version: [1.0.7b1]
+[2023-05-03 20:23:43] INFO root fetch - processPackages [pds.sumo-tools]: executing diffoscope
+[2023-05-03 20:23:43] INFO root fetch - processPackages [pds.sumo-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pds.sumo_tools-0.2.3-py3-none-any.whl.zip tmp/pds.sumo_tools-0.2.4-py3-none-any.whl.zip --markdown 20230503/p/pds.sumo-tools/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-03 20:23:43] INFO root fetch - processPackages [openl3]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-03 20:23:43] INFO root fetch - processPackages [hardeneks]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-03 20:23:43] INFO root fetch - processPackages [libmozdata]: New version: [0.2.2] Old Version: [0.2.0]
+[2023-05-03 20:23:43] INFO root fetch - processPackages [mcstatus]: executing diffoscope
+[2023-05-03 20:23:43] INFO root fetch - processPackages [heist]: New version: [6.3.0] Old Version: [6.2.0]
+[2023-05-03 20:23:43] INFO root fetch - processPackages [mcstatus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcstatus-9.4.1.tar.gz tmp/mcstatus-9.4.2.tar.gz --markdown 20230503/m/mcstatus/9.4.1-9.4.2/diff.md --exclude *.pyd
+[2023-05-03 20:23:43] INFO root fetch - processPackages [nlptoolssna]: executing diffoscope
+[2023-05-03 20:23:43] INFO root fetch - processPackages [nlptoolssna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlptoolssna-0.5.0.tar.gz tmp/nlptoolssna-0.5.1.tar.gz --markdown 20230503/n/nlptoolssna/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-05-03 20:23:43] INFO root fetch - processPackages [oak9-tython]: Downloading https://files.pythonhosted.org/packages/2f/85/2b56c93b10b5730a90b0b566a8745964f39ba449a908ba3c3c7fa1a93851/oak9_tython-1.0.7b1.tar.gz
+[2023-05-03 20:23:43] INFO root fetch - processPackages [hardeneks]: Downloading https://files.pythonhosted.org/packages/e5/7e/1aea07d60216e3af036f2b6e39ad657d70ce61b5ce0251b41a8ee432e96d/hardeneks-0.9.1.tar.gz
+[2023-05-03 20:23:43] INFO root fetch - processPackages [libmozdata]: Downloading https://files.pythonhosted.org/packages/a4/dd/5f3d137bbcea9f6f5ac1280ef872a0f71d48248f068e3da918cdfc68e836/libmozdata-0.2.0.tar.gz
+[2023-05-03 20:23:43] INFO root fetch - processPackages [heist]: Downloading https://files.pythonhosted.org/packages/0c/3b/8fb5e67281cea4a59ae3176635a6e87c5533aec698ee3386c354ec4bbf13/heist-6.2.0.tar.gz
+[2023-05-03 20:23:43] INFO root fetch - processPackages [openl3]: Downloading https://files.pythonhosted.org/packages/45/b2/41bfae0ad6b69050e862a93229daea415b1045099d2d9c558a09093e1302/openl3-0.4.1.tar.gz
+[2023-05-03 20:23:43] INFO root fetch - processPackages [dagknows]: Downloading https://files.pythonhosted.org/packages/57/73/fdc53628716b16ae897344fbc1d98948616e9c3bbc4e3651b6f1332389fa/dagknows-0.0.9-py3-none-any.whl
+[2023-05-03 20:23:43] INFO root fetch - processPackages [guify]: Downloading https://files.pythonhosted.org/packages/7c/4c/13620db0bcd91ab3480714bf5bc330712068fa8bc44ff08dc03b4689171d/guify-0.2.8.tar.gz
+[2023-05-03 20:23:43] INFO root fetch - processPackages [dagknows]: executing diffoscope
+[2023-05-03 20:23:43] INFO root fetch - processPackages [dagknows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagknows-0.0.8-py3-none-any.whl.zip tmp/dagknows-0.0.9-py3-none-any.whl.zip --markdown 20230503/d/dagknows/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 20:23:43] INFO root fetch - processPackages [guify]: executing diffoscope
+[2023-05-03 20:23:43] INFO root fetch - processPackages [guify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guify-0.2.7.tar.gz tmp/guify-0.2.8.tar.gz --markdown 20230503/g/guify/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-05-03 20:23:43] INFO root fetch - processPackages [openl3]: Downloading https://files.pythonhosted.org/packages/33/fb/ac93a879d93db231e9f94acf2b07ac0977290f746953dd014ba7f1ac68b5/openl3-0.4.2.tar.gz
+[2023-05-03 20:23:43] INFO root fetch - processPackages [hardeneks]: Downloading https://files.pythonhosted.org/packages/7c/81/a3a69952fb5d780262c540d6b81454e96cc7459b46e2e7d7995338ad2948/hardeneks-0.9.2.tar.gz
+[2023-05-03 20:23:43] INFO root fetch - processPackages [oak9-tython]: Downloading https://files.pythonhosted.org/packages/43/f2/840d44f2062d0a323f92f02001e2dffe2ebca0771fe55c03422a2c5d5606/oak9_tython-1.0.7b2.tar.gz
+[2023-05-03 20:23:43] INFO root fetch - processPackages [libmozdata]: Downloading https://files.pythonhosted.org/packages/04/17/cb2946afc81ed48c7ab7f00737970c7c38c824652e4d2dc9fe9c61b76a8f/libmozdata-0.2.2.tar.gz
+[2023-05-03 20:23:43] INFO root fetch - processPackages [openl3]: executing diffoscope
+[2023-05-03 20:23:43] INFO root fetch - processPackages [openl3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openl3-0.4.1.tar.gz tmp/openl3-0.4.2.tar.gz --markdown 20230503/o/openl3/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-05-03 20:23:43] INFO root fetch - processPackages [hardeneks]: executing diffoscope
+[2023-05-03 20:23:43] INFO root fetch - processPackages [hardeneks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hardeneks-0.9.1.tar.gz tmp/hardeneks-0.9.2.tar.gz --markdown 20230503/h/hardeneks/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-03 20:23:43] INFO root fetch - processPackages [heist]: Downloading https://files.pythonhosted.org/packages/f8/b1/0de69394f54ac8db4c56400c28b7015b6c608f544146e5e844c7c21581f3/heist-6.3.0.tar.gz
+[2023-05-03 20:23:44] INFO root fetch - processPackages [oak9-tython]: executing diffoscope
+[2023-05-03 20:23:44] INFO root fetch - processPackages [oak9-tython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oak9_tython-1.0.7b1.tar.gz tmp/oak9_tython-1.0.7b2.tar.gz --markdown 20230503/o/oak9-tython/1.0.7b1-1.0.7b2/diff.md --exclude *.pyd
+[2023-05-03 20:23:44] INFO root fetch - processPackages [libmozdata]: executing diffoscope
+[2023-05-03 20:23:44] INFO root fetch - processPackages [libmozdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libmozdata-0.2.0.tar.gz tmp/libmozdata-0.2.2.tar.gz --markdown 20230503/l/libmozdata/0.2.0-0.2.2/diff.md --exclude *.pyd
+[2023-05-03 20:23:44] INFO root fetch - processPackages [heist]: executing diffoscope
+[2023-05-03 20:23:44] INFO root fetch - processPackages [heist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heist-6.2.0.tar.gz tmp/heist-6.3.0.tar.gz --markdown 20230503/h/heist/6.2.0-6.3.0/diff.md --exclude *.pyd
+[2023-05-03 20:23:44] INFO root fetch - processPackages [pds.sumo-tools]: Start processing: xklb
+[2023-05-03 20:23:44] INFO root fetch - main [MainThread]: End processing [pds.sumo-tools]: success
+[2023-05-03 20:23:44] INFO root fetch - processPackages [xklb]: New version: [1.26.21] Old Version: [1.26.20]
+[2023-05-03 20:23:44] INFO root fetch - processPackages [mcstatus]: Start processing: memorywrap
+[2023-05-03 20:23:44] INFO root fetch - main [MainThread]: End processing [mcstatus]: success
+[2023-05-03 20:23:44] INFO root fetch - processPackages [memorywrap]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-05-03 20:23:44] INFO root fetch - processPackages [memorywrap]: executing diffoscope
+[2023-05-03 20:23:44] INFO root fetch - processPackages [memorywrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memorywrap-1.1.5.tar.gz tmp/memorywrap-1.1.6.tar.gz --markdown 20230503/m/memorywrap/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-05-03 20:23:45] INFO root fetch - main [MainThread]: End processing [dagknows]: success
+[2023-05-03 20:23:45] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2023-05-03 20:23:45] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-1.26.20.tar.gz tmp/xklb-1.26.21.tar.gz --markdown 20230503/x/xklb/1.26.20-1.26.21/diff.md --exclude *.pyd
+[2023-05-03 20:23:45] INFO root fetch - main [MainThread]: End processing [openl3]: success
+[2023-05-03 20:23:45] INFO root fetch - main [MainThread]: End processing [hardeneks]: success
+[2023-05-03 20:23:45] INFO root fetch - main [MainThread]: End processing [libmozdata]: success
+[2023-05-03 20:23:45] INFO root fetch - main [MainThread]: End processing [nlptoolssna]: success
+[2023-05-03 20:23:45] INFO root fetch - main [MainThread]: End processing [heist]: success
+[2023-05-03 20:23:46] INFO root fetch - main [MainThread]: End processing [memorywrap]: success
+[2023-05-03 20:23:46] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2023-05-03 20:23:47] INFO root fetch - main [MainThread]: End processing [guify]: success
+[2023-05-03 20:23:56] INFO root fetch - main [MainThread]: End processing [oak9-tython]: success
+[2023-05-03 20:23:56] INFO root fetch - main [MainThread]: Store serial: [17961019]
