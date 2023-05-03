@@ -8042,3 +8042,35 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-03 09:28:33] INFO root fetch - main [MainThread]: End processing [demisto-py]: success
 [2023-05-03 09:28:34] INFO root fetch - main [MainThread]: End processing [mammopy]: success
 [2023-05-03 09:28:34] INFO root fetch - main [MainThread]: Store serial: [17952630]
+[2023-05-03 09:33:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17952630]
+[2023-05-03 09:33:45] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-03 09:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certora-cli-alpha-shelly-CERT1958ErrorCodes
+[2023-05-03 09:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: customized-chart
+[2023-05-03 09:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nepse-scraper
+[2023-05-03 09:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ausbildungsnachweise-utils
+[2023-05-03 09:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: CASTING
+[2023-05-03 09:33:45] INFO root fetch - processPackages [customized-chart]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-03 09:33:45] INFO root fetch - processPackages [certora-cli-alpha-shelly-CERT1958ErrorCodes]: New version: [20230503.7.29.873188] Old Version: [20230502.22.17.353047]
+[2023-05-03 09:33:45] INFO root fetch - processPackages [nepse-scraper]: New version: [0.1.3] Old Version: [0.1.1]
+[2023-05-03 09:33:45] INFO root fetch - processPackages [customized-chart]: executing diffoscope
+[2023-05-03 09:33:45] INFO root fetch - processPackages [customized-chart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/customized_chart-0.1.8.tar.gz tmp/customized_chart-0.1.9.tar.gz --markdown 20230503/c/customized-chart/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-03 09:33:45] INFO root fetch - processPackages [ausbildungsnachweise-utils]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-03 09:33:45] INFO root fetch - processPackages [CASTING]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-03 09:33:45] INFO root fetch - processPackages [certora-cli-alpha-shelly-CERT1958ErrorCodes]: Downloading https://files.pythonhosted.org/packages/ee/3d/aec4712c5271550d7f769b8fc1512b418739903d86a6b7cab23ce3f495c0/certora-cli-alpha-shelly-CERT1958ErrorCodes-20230502.22.17.353047.tar.gz
+[2023-05-03 09:33:45] INFO root fetch - processPackages [nepse-scraper]: Downloading https://files.pythonhosted.org/packages/c4/9f/6b916a542c4909ce53655e0ab0ed207665238c217fbf525b6eecd7f5ba73/nepse_scraper-0.1.3.tar.gz
+[2023-05-03 09:33:45] WARNING root fetch - processPackages [certora-cli-alpha-shelly-CERT1958ErrorCodes]: Skipping package: exceeds size limit 38381044>=10485760
+[2023-05-03 09:33:45] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-shelly-CERT1958ErrorCodes] error
+[2023-05-03 09:33:45] INFO root fetch - processPackages [CASTING]: Downloading https://files.pythonhosted.org/packages/54/bc/350a614b185fa7e93b3f3f6f8122a7ef6cb9d8e1659ac2e4d8adf20b25b7/CASTING-0.1.1.tar.gz
+[2023-05-03 09:33:45] INFO root fetch - processPackages [nepse-scraper]: executing diffoscope
+[2023-05-03 09:33:45] INFO root fetch - processPackages [nepse-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nepse_scraper-0.1.1.tar.gz tmp/nepse_scraper-0.1.3.tar.gz --markdown 20230503/n/nepse-scraper/0.1.1-0.1.3/diff.md --exclude *.pyd
+[2023-05-03 09:33:45] INFO root fetch - processPackages [ausbildungsnachweise-utils]: Downloading https://files.pythonhosted.org/packages/fb/fc/67df376967cc34968fc115797b2a2de9787834266bf229d556868cd8e6bb/ausbildungsnachweise_utils-0.0.6.tar.gz
+[2023-05-03 09:33:45] INFO root fetch - processPackages [CASTING]: Downloading https://files.pythonhosted.org/packages/d2/d7/378835a87a1b097ca067fd9f8d397991fb2f90620812f61987aaf1390218/CASTING-0.1.2.tar.gz
+[2023-05-03 09:33:45] INFO root fetch - processPackages [ausbildungsnachweise-utils]: executing diffoscope
+[2023-05-03 09:33:45] INFO root fetch - processPackages [ausbildungsnachweise-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ausbildungsnachweise_utils-0.0.5.tar.gz tmp/ausbildungsnachweise_utils-0.0.6.tar.gz --markdown 20230503/a/ausbildungsnachweise-utils/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-03 09:33:46] INFO root fetch - processPackages [CASTING]: executing diffoscope
+[2023-05-03 09:33:46] INFO root fetch - processPackages [CASTING]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CASTING-0.1.1.tar.gz tmp/CASTING-0.1.2.tar.gz --markdown 20230503/C/CASTING/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-03 09:33:46] INFO root fetch - main [MainThread]: End processing [customized-chart]: success
+[2023-05-03 09:33:46] INFO root fetch - main [MainThread]: End processing [nepse-scraper]: success
+[2023-05-03 09:33:46] INFO root fetch - main [MainThread]: End processing [ausbildungsnachweise-utils]: success
+[2023-05-03 09:33:47] INFO root fetch - main [MainThread]: End processing [CASTING]: success
+[2023-05-03 09:33:47] INFO root fetch - main [MainThread]: Store serial: [17952651]
