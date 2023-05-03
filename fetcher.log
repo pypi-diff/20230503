@@ -22536,3 +22536,169 @@ No space left on device. Diffoscope exiting.
 [2023-05-03 21:06:38] INFO root fetch - main [MainThread]: End processing [binpan]: success
 [2023-05-03 21:06:39] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
 [2023-05-03 21:06:39] INFO root fetch - main [MainThread]: Store serial: [17961374]
+[2023-05-03 21:11:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17961374]
+[2023-05-03 21:11:48] INFO root fetch - main [MainThread]: Found 26 changed packages
+[2023-05-03 21:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mystring
+[2023-05-03 21:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rio-stac
+[2023-05-03 21:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: FileEdit
+[2023-05-03 21:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cybersource-rest-client-python
+[2023-05-03 21:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-jbank
+[2023-05-03 21:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: google-generativeai
+[2023-05-03 21:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: amseg
+[2023-05-03 21:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-spotinst
+[2023-05-03 21:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Simba-UW-tf-dev
+[2023-05-03 21:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: policyengine-us
+[2023-05-03 21:11:48] INFO root fetch - processPackages [cybersource-rest-client-python]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 21:11:48] WARNING root fetch - processPackages [FileEdit]: Skipping, unable to determine old version
+[2023-05-03 21:11:48] INFO root fetch - processPackages [FileEdit]: Start processing: PyHP3478A
+[2023-05-03 21:11:48] INFO root fetch - main [MainThread]: End processing [FileEdit] error
+[2023-05-03 21:11:48] INFO root fetch - processPackages [rio-stac]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-05-03 21:11:48] WARNING root fetch - processPackages [google-generativeai]: Skipping, unable to determine old version
+[2023-05-03 21:11:48] INFO root fetch - processPackages [google-generativeai]: Start processing: dapla-toolbelt
+[2023-05-03 21:11:48] INFO root fetch - main [MainThread]: End processing [google-generativeai] error
+[2023-05-03 21:11:48] INFO root fetch - processPackages [PyHP3478A]: New version: [0.3] Old Version: [0.2]
+[2023-05-03 21:11:48] INFO root fetch - processPackages [amseg]: New version: [2.1] Old Version: [1.7]
+[2023-05-03 21:11:48] INFO root fetch - processPackages [pulumi-spotinst]: New version: [3.9.0a1633346805] Old Version: [3.9.0]
+[2023-05-03 21:11:48] INFO root fetch - processPackages [django-jbank]: New version: [4.1.3] Old Version: [4.1.2]
+[2023-05-03 21:11:48] INFO root fetch - processPackages [mystring]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 21:11:48] INFO root fetch - processPackages [policyengine-us]: New version: [0.310.2] Old Version: [0.310.1]
+[2023-05-03 21:11:48] INFO root fetch - processPackages [Simba-UW-tf-dev]: New version: [1.58.6] Old Version: [1.58.5]
+[2023-05-03 21:11:48] INFO root fetch - processPackages [dapla-toolbelt]: New version: [1.7.0] Old Version: [1.6.2]
+[2023-05-03 21:11:49] INFO root fetch - processPackages [mystring]: executing diffoscope
+[2023-05-03 21:11:49] INFO root fetch - processPackages [mystring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mystring-0.0.8.tar.gz tmp/mystring-0.0.9.tar.gz --markdown 20230503/m/mystring/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 21:11:49] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/14/9b/8dcc32005c5e694a93b52a60579ed5e96bd29284b7d0533d990d00f95560/policyengine-us-0.310.1.tar.gz
+[2023-05-03 21:11:49] INFO root fetch - processPackages [rio-stac]: Downloading https://files.pythonhosted.org/packages/dc/d4/15b29187b9416be6b4c2898ea26c2ced1e94d8bb8a08e9791205f3e4adbc/rio-stac-0.7.0.tar.gz
+[2023-05-03 21:11:49] INFO root fetch - processPackages [cybersource-rest-client-python]: Downloading https://files.pythonhosted.org/packages/e6/94/b11bb0ac42b1b84828a2b872563b71b8cd710939b30670c70519b02120eb/cybersource-rest-client-python-0.0.8.tar.gz
+[2023-05-03 21:11:49] INFO root fetch - processPackages [pulumi-spotinst]: Downloading https://files.pythonhosted.org/packages/e0/9f/6d2c1a705d6b6019bea4cba0aa49eceea4eb2d84cfdcb18f45db81e06fb5/pulumi_spotinst-3.9.0.tar.gz
+[2023-05-03 21:11:49] INFO root fetch - processPackages [django-jbank]: Downloading https://files.pythonhosted.org/packages/d0/58/6427c8c72e42c74388f816e10fc7d5783e7d374aa682602c46174fed530a/django-jbank-4.1.2.tar.gz
+[2023-05-03 21:11:49] INFO root fetch - processPackages [PyHP3478A]: Downloading https://files.pythonhosted.org/packages/d2/32/7f179d7489e1df0f442ddf87051ea8d3a943140ea794c7178767d9193222/PyHP3478A-0.2.tar.gz
+[2023-05-03 21:11:49] INFO root fetch - processPackages [dapla-toolbelt]: Downloading https://files.pythonhosted.org/packages/cc/2e/b5f1c3f28dd53bb3cfee9011d464a1f05adad3c9e5d7ed1306a3af888b92/dapla_toolbelt-1.6.2.tar.gz
+[2023-05-03 21:11:49] INFO root fetch - processPackages [Simba-UW-tf-dev]: Downloading https://files.pythonhosted.org/packages/2f/0a/94e70ff01d2f96044a457004f5d3d920a01ce1b7231b8fbb752e165156df/Simba-UW-tf-dev-1.58.6.tar.gz
+[2023-05-03 21:11:49] INFO root fetch - processPackages [amseg]: Downloading https://files.pythonhosted.org/packages/bd/5f/5feca636c3b5db85e9aa168b85f4a62ee41d6c6e82aa41d97a3ba4f9669f/amseg-2.1.tar.gz
+[2023-05-03 21:11:49] INFO root fetch - processPackages [amseg]: executing diffoscope
+[2023-05-03 21:11:49] INFO root fetch - processPackages [amseg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amseg-1.7.tar.gz tmp/amseg-2.1.tar.gz --markdown 20230503/a/amseg/1.7-2.1/diff.md --exclude *.pyd
+[2023-05-03 21:11:49] INFO root fetch - processPackages [dapla-toolbelt]: Downloading https://files.pythonhosted.org/packages/84/c6/5a0cff26322fda227ba6106155f615bc4f09145d1dc8c2f458e49e8e2554/dapla_toolbelt-1.7.0.tar.gz
+[2023-05-03 21:11:49] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/98/ff/9e58ec0067366f2258ddbb751b7da7baf1b135630efb7bdb7f9f9dda506b/policyengine-us-0.310.2.tar.gz
+[2023-05-03 21:11:49] INFO root fetch - processPackages [Simba-UW-tf-dev]: executing diffoscope
+[2023-05-03 21:11:49] INFO root fetch - processPackages [Simba-UW-tf-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Simba-UW-tf-dev-1.58.5.tar.gz tmp/Simba-UW-tf-dev-1.58.6.tar.gz --markdown 20230503/S/Simba-UW-tf-dev/1.58.5-1.58.6/diff.md --exclude *.pyd
+[2023-05-03 21:11:49] INFO root fetch - processPackages [django-jbank]: Downloading https://files.pythonhosted.org/packages/33/97/ec5172918254473f75af7cfb7f090ceac226337c3f6e1fe6132a9c1e2676/django-jbank-4.1.3.tar.gz
+[2023-05-03 21:11:49] INFO root fetch - processPackages [dapla-toolbelt]: executing diffoscope
+[2023-05-03 21:11:49] INFO root fetch - processPackages [dapla-toolbelt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dapla_toolbelt-1.6.2.tar.gz tmp/dapla_toolbelt-1.7.0.tar.gz --markdown 20230503/d/dapla-toolbelt/1.6.2-1.7.0/diff.md --exclude *.pyd
+[2023-05-03 21:11:49] INFO root fetch - processPackages [rio-stac]: Downloading https://files.pythonhosted.org/packages/2b/c6/d769533ef5e2c5411fd172dc436c92e7e1143155d5a2db02fb1028dd1f6d/rio-stac-0.7.1.tar.gz
+[2023-05-03 21:11:49] INFO root fetch - processPackages [PyHP3478A]: Downloading https://files.pythonhosted.org/packages/ee/cf/d41c3d293687e949a81423ab680ae65edbf9104c617ae3a813546df56695/PyHP3478A-0.3.tar.gz
+[2023-05-03 21:11:49] INFO root fetch - processPackages [cybersource-rest-client-python]: Downloading https://files.pythonhosted.org/packages/c6/3b/8c8e0b7e45be2600726402ba211345c6978101125bb7b35ac9ec0db92b08/cybersource-rest-client-python-0.0.9.tar.gz
+[2023-05-03 21:11:49] INFO root fetch - processPackages [pulumi-spotinst]: Downloading https://files.pythonhosted.org/packages/b4/06/83d6eb3763a877d39e3d2a09063ba3fd6542fa6a214e6c3d5240414d041d/pulumi_spotinst-3.9.0a1633346805.tar.gz
+[2023-05-03 21:11:49] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-05-03 21:11:49] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.310.1.tar.gz tmp/policyengine-us-0.310.2.tar.gz --markdown 20230503/p/policyengine-us/0.310.1-0.310.2/diff.md --exclude *.pyd
+[2023-05-03 21:11:49] INFO root fetch - processPackages [rio-stac]: executing diffoscope
+[2023-05-03 21:11:49] INFO root fetch - processPackages [rio-stac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rio-stac-0.7.0.tar.gz tmp/rio-stac-0.7.1.tar.gz --markdown 20230503/r/rio-stac/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-05-03 21:11:49] INFO root fetch - processPackages [PyHP3478A]: executing diffoscope
+[2023-05-03 21:11:49] INFO root fetch - processPackages [PyHP3478A]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyHP3478A-0.2.tar.gz tmp/PyHP3478A-0.3.tar.gz --markdown 20230503/P/PyHP3478A/0.2-0.3/diff.md --exclude *.pyd
+[2023-05-03 21:11:49] INFO root fetch - processPackages [pulumi-spotinst]: executing diffoscope
+[2023-05-03 21:11:49] INFO root fetch - processPackages [pulumi-spotinst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_spotinst-3.9.0.tar.gz tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz --markdown 20230503/p/pulumi-spotinst/3.9.0-3.9.0a1633346805/diff.md --exclude *.pyd
+[2023-05-03 21:11:49] INFO root fetch - processPackages [django-jbank]: executing diffoscope
+[2023-05-03 21:11:49] INFO root fetch - processPackages [django-jbank]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-jbank-4.1.2.tar.gz tmp/django-jbank-4.1.3.tar.gz --markdown 20230503/d/django-jbank/4.1.2-4.1.3/diff.md --exclude *.pyd
+[2023-05-03 21:11:50] INFO root fetch - processPackages [cybersource-rest-client-python]: executing diffoscope
+[2023-05-03 21:11:50] INFO root fetch - processPackages [cybersource-rest-client-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybersource-rest-client-python-0.0.8.tar.gz tmp/cybersource-rest-client-python-0.0.9.tar.gz --markdown 20230503/c/cybersource-rest-client-python/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 21:11:50] INFO root fetch - processPackages [mystring]: Start processing: quarter-lib
+[2023-05-03 21:11:50] INFO root fetch - main [MainThread]: End processing [mystring]: success
+[2023-05-03 21:11:50] INFO root fetch - processPackages [quarter-lib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 21:11:50] INFO root fetch - processPackages [quarter-lib]: executing diffoscope
+[2023-05-03 21:11:50] INFO root fetch - processPackages [quarter-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quarter_lib-0.0.8.tar.gz tmp/quarter_lib-0.0.9.tar.gz --markdown 20230503/q/quarter-lib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 21:11:50] INFO root fetch - processPackages [amseg]: Start processing: biocypher
+[2023-05-03 21:11:50] INFO root fetch - main [MainThread]: End processing [amseg]: success
+[2023-05-03 21:11:50] INFO root fetch - processPackages [biocypher]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-03 21:11:51] INFO root fetch - processPackages [biocypher]: executing diffoscope
+[2023-05-03 21:11:51] INFO root fetch - processPackages [biocypher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biocypher-0.5.8.tar.gz tmp/biocypher-0.5.9.tar.gz --markdown 20230503/b/biocypher/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-05-03 21:11:51] INFO root fetch - processPackages [PyHP3478A]: Start processing: astro-sdk-python
+[2023-05-03 21:11:51] INFO root fetch - main [MainThread]: End processing [PyHP3478A]: success
+[2023-05-03 21:11:51] INFO root fetch - processPackages [astro-sdk-python]: New version: [1.6.0a1] Old Version: [1.6.0]
+[2023-05-03 21:11:51] INFO root fetch - processPackages [rio-stac]: Start processing: widgets-lib
+[2023-05-03 21:11:51] INFO root fetch - main [MainThread]: End processing [rio-stac]: success
+[2023-05-03 21:11:51] INFO root fetch - processPackages [widgets-lib]: New version: [2.7.6] Old Version: [2.7.5]
+[2023-05-03 21:11:51] INFO root fetch - processPackages [dapla-toolbelt]: Start processing: synapgrad
+[2023-05-03 21:11:51] INFO root fetch - main [MainThread]: End processing [dapla-toolbelt]: success
+[2023-05-03 21:11:51] INFO root fetch - processPackages [astro-sdk-python]: Downloading https://files.pythonhosted.org/packages/98/d0/a5a03f403b463fa4e30918e9c1c72faf974a637cd9fc51838b716ad62857/astro-sdk-python-1.6.0.tar.gz
+[2023-05-03 21:11:51] INFO root fetch - processPackages [synapgrad]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-03 21:11:51] INFO root fetch - processPackages [widgets-lib]: Downloading https://files.pythonhosted.org/packages/0b/7f/d8e96c7a3d558951c96fe1368e9b98bd2585ff7eb37c6be216b4e5f6b276/widgets-lib-2.7.5.tar.gz
+[2023-05-03 21:11:51] INFO root fetch - processPackages [synapgrad]: Downloading https://files.pythonhosted.org/packages/a2/67/1df84f01b7af60d2feb0e6857de6f62c234bdfbc0a6f6151f2b2783293b7/synapgrad-0.3.1-py3-none-any.whl
+[2023-05-03 21:11:51] INFO root fetch - processPackages [pulumi-spotinst]: Start processing: imephu
+[2023-05-03 21:11:51] INFO root fetch - main [MainThread]: End processing [pulumi-spotinst]: success
+[2023-05-03 21:11:51] INFO root fetch - processPackages [astro-sdk-python]: Downloading https://files.pythonhosted.org/packages/ec/c0/135b9f2a4f51babd0597e1b86e4eb8b0e138010e6f6437258beb165ecdc3/astro-sdk-python-1.6.0a1.tar.gz
+[2023-05-03 21:11:51] INFO root fetch - processPackages [imephu]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-03 21:11:51] INFO root fetch - processPackages [widgets-lib]: Downloading https://files.pythonhosted.org/packages/02/21/274fa0b70fd2fb83e01a4b7dbe9b19af8ac6fc2e6c326bb7552f44ba034a/widgets-lib-2.7.6.tar.gz
+[2023-05-03 21:11:51] INFO root fetch - processPackages [synapgrad]: executing diffoscope
+[2023-05-03 21:11:51] INFO root fetch - processPackages [synapgrad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synapgrad-0.3.0-py3-none-any.whl.zip tmp/synapgrad-0.3.1-py3-none-any.whl.zip --markdown 20230503/s/synapgrad/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-03 21:11:51] INFO root fetch - processPackages [widgets-lib]: executing diffoscope
+[2023-05-03 21:11:51] INFO root fetch - processPackages [widgets-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/widgets-lib-2.7.5.tar.gz tmp/widgets-lib-2.7.6.tar.gz --markdown 20230503/w/widgets-lib/2.7.5-2.7.6/diff.md --exclude *.pyd
+[2023-05-03 21:11:51] INFO root fetch - processPackages [quarter-lib]: Start processing: mrdja
+[2023-05-03 21:11:51] INFO root fetch - main [MainThread]: End processing [quarter-lib]: success
+[2023-05-03 21:11:51] INFO root fetch - processPackages [mrdja]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 21:11:51] INFO root fetch - processPackages [imephu]: Downloading https://files.pythonhosted.org/packages/38/2d/3fbe8a5b714c496ecb48a81b94e71d81873769e5604b1949fec92f8192b4/imephu-0.1.0.tar.gz
+[2023-05-03 21:11:52] INFO root fetch - processPackages [mrdja]: Downloading https://files.pythonhosted.org/packages/18/44/34540bbd921d8ea06f9326e374ecec7daf8297e0af144c479ee90fb7d388/mrdja-0.0.8.tar.gz
+[2023-05-03 21:11:52] INFO root fetch - processPackages [astro-sdk-python]: executing diffoscope
+[2023-05-03 21:11:52] INFO root fetch - processPackages [astro-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro-sdk-python-1.6.0.tar.gz tmp/astro-sdk-python-1.6.0a1.tar.gz --markdown 20230503/a/astro-sdk-python/1.6.0-1.6.0a1/diff.md --exclude *.pyd
+[2023-05-03 21:11:52] INFO root fetch - processPackages [imephu]: Downloading https://files.pythonhosted.org/packages/18/f7/981d05225ef53d045005bb1b36a397823f4caf74440e6343b766f6920ee1/imephu-0.2.0.tar.gz
+[2023-05-03 21:11:52] INFO root fetch - processPackages [biocypher]: Start processing: Mensajes-silvai
+[2023-05-03 21:11:52] INFO root fetch - main [MainThread]: End processing [biocypher]: success
+[2023-05-03 21:11:52] INFO root fetch - processPackages [Mensajes-silvai]: New version: [7.0] Old Version: [6.0]
+[2023-05-03 21:11:52] INFO root fetch - processPackages [mrdja]: Downloading https://files.pythonhosted.org/packages/07/10/e636330cbb40547bd82d2a034ebd12f00d1fcd87b2f7300ebee7fcd96386/mrdja-0.0.9.tar.gz
+[2023-05-03 21:11:52] INFO root fetch - processPackages [imephu]: executing diffoscope
+[2023-05-03 21:11:52] INFO root fetch - processPackages [imephu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imephu-0.1.0.tar.gz tmp/imephu-0.2.0.tar.gz --markdown 20230503/i/imephu/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-03 21:11:52] INFO root fetch - processPackages [Mensajes-silvai]: Downloading https://files.pythonhosted.org/packages/66/a4/106094297ab908405fb16c281643cee0a52e4d74a4edd0e332df461e67cc/Mensajes-silvai-6.0.tar.gz
+[2023-05-03 21:11:52] INFO root fetch - processPackages [mrdja]: executing diffoscope
+[2023-05-03 21:11:52] INFO root fetch - processPackages [mrdja]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrdja-0.0.8.tar.gz tmp/mrdja-0.0.9.tar.gz --markdown 20230503/m/mrdja/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 21:11:52] INFO root fetch - processPackages [Mensajes-silvai]: Downloading https://files.pythonhosted.org/packages/40/40/bdba65e165958571b573dd98116a8d7fed600df57f5c74afa6b8c92364c4/Mensajes-silvai-7.0.tar.gz
+[2023-05-03 21:11:53] INFO root fetch - processPackages [synapgrad]: Start processing: auroralibs
+[2023-05-03 21:11:53] INFO root fetch - main [MainThread]: End processing [synapgrad]: success
+[2023-05-03 21:11:53] INFO root fetch - processPackages [auroralibs]: New version: [8.0.6] Old Version: [8.0.5]
+[2023-05-03 21:11:53] INFO root fetch - processPackages [Mensajes-silvai]: executing diffoscope
+[2023-05-03 21:11:53] INFO root fetch - processPackages [Mensajes-silvai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Mensajes-silvai-6.0.tar.gz tmp/Mensajes-silvai-7.0.tar.gz --markdown 20230503/M/Mensajes-silvai/6.0-7.0/diff.md --exclude *.pyd
+[2023-05-03 21:11:53] INFO root fetch - processPackages [auroralibs]: Downloading https://files.pythonhosted.org/packages/df/3f/c623aa1e6557428d29fa2ced9fd937f0ba0f3897e7e8ee0422b2d46be9c8/auroralibs-8.0.5.tar.gz
+[2023-05-03 21:11:53] INFO root fetch - processPackages [auroralibs]: Downloading https://files.pythonhosted.org/packages/db/b1/cfa8a4140c8208f71cd62703ebd4a2945d430bd487c698206e2f9222ab67/auroralibs-8.0.6.tar.gz
+[2023-05-03 21:11:53] INFO root fetch - processPackages [auroralibs]: executing diffoscope
+[2023-05-03 21:11:53] INFO root fetch - processPackages [auroralibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auroralibs-8.0.5.tar.gz tmp/auroralibs-8.0.6.tar.gz --markdown 20230503/a/auroralibs/8.0.5-8.0.6/diff.md --exclude *.pyd
+[2023-05-03 21:11:53] INFO root fetch - processPackages [mrdja]: Start processing: Pequena
+[2023-05-03 21:11:53] INFO root fetch - main [MainThread]: End processing [mrdja]: success
+[2023-05-03 21:11:53] INFO root fetch - processPackages [Pequena]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 21:11:54] INFO root fetch - processPackages [astro-sdk-python]: Start processing: hikari-yuyo
+[2023-05-03 21:11:54] INFO root fetch - main [MainThread]: End processing [astro-sdk-python]: success
+[2023-05-03 21:11:54] INFO root fetch - processPackages [Pequena]: executing diffoscope
+[2023-05-03 21:11:54] INFO root fetch - processPackages [Pequena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pequena-0.0.8.tar.gz tmp/Pequena-0.0.9.tar.gz --markdown 20230503/P/Pequena/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 21:11:54] INFO root fetch - processPackages [hikari-yuyo]: New version: [1.9.1a1] Old Version: [1.9.0a1]
+[2023-05-03 21:11:54] INFO root fetch - processPackages [hikari-yuyo]: Downloading https://files.pythonhosted.org/packages/1c/73/32fc9673b8d6caca075ddb668365e3aa1106cc59f6f654a108dd3cbcd8d2/hikari-yuyo-1.9.0a1.tar.gz
+[2023-05-03 21:11:54] INFO root fetch - processPackages [imephu]: Start processing: spotinst-sdk2
+[2023-05-03 21:11:54] INFO root fetch - main [MainThread]: End processing [imephu]: success
+[2023-05-03 21:11:54] INFO root fetch - processPackages [spotinst-sdk2]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-05-03 21:11:54] INFO root fetch - processPackages [spotinst-sdk2]: Downloading https://files.pythonhosted.org/packages/72/87/2cd70b24dbf11e16e6bdccadfade4bec30d5f6cb90b128270d98e8cc5643/spotinst-sdk2-2.1.8.tar.gz
+[2023-05-03 21:11:54] INFO root fetch - processPackages [django-jbank]: Start processing: ezfinpy
+[2023-05-03 21:11:54] INFO root fetch - main [MainThread]: End processing [django-jbank]: success
+[2023-05-03 21:11:54] INFO root fetch - processPackages [ezfinpy]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-03 21:11:54] INFO root fetch - processPackages [Mensajes-silvai]: Start processing: inference-server
+[2023-05-03 21:11:54] INFO root fetch - main [MainThread]: End processing [Mensajes-silvai]: success
+[2023-05-03 21:11:54] INFO root fetch - processPackages [inference-server]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-03 21:11:54] INFO root fetch - main [MainThread]: End processing [widgets-lib]: success
+[2023-05-03 21:11:54] INFO root fetch - processPackages [hikari-yuyo]: Downloading https://files.pythonhosted.org/packages/38/c1/0564a1baefa3a6c0538e4b894416ec1ea5e8ea0f5acd37bcfe6185089477/hikari-yuyo-1.9.1a1.tar.gz
+[2023-05-03 21:11:54] INFO root fetch - processPackages [ezfinpy]: Downloading https://files.pythonhosted.org/packages/5b/a1/aed06e36d4a54f3168aeeef1965af1b861efc5def877479a44b4a52f15b8/ezfinpy-0.1.5.tar.gz
+[2023-05-03 21:11:54] INFO root fetch - processPackages [inference-server]: Downloading https://files.pythonhosted.org/packages/20/d4/989e976ff7349c1cd5b73c438f98b1fbc2f3ec1504727780dd791a8f55b4/inference-server-0.1.0.tar.gz
+[2023-05-03 21:11:54] INFO root fetch - processPackages [hikari-yuyo]: executing diffoscope
+[2023-05-03 21:11:54] INFO root fetch - processPackages [hikari-yuyo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hikari-yuyo-1.9.0a1.tar.gz tmp/hikari-yuyo-1.9.1a1.tar.gz --markdown 20230503/h/hikari-yuyo/1.9.0a1-1.9.1a1/diff.md --exclude *.pyd
+[2023-05-03 21:11:54] INFO root fetch - processPackages [spotinst-sdk2]: Downloading https://files.pythonhosted.org/packages/24/ca/c26f81e85bd7ecda3b64d20be266440204fbbdf1046b69bea4f97a17b4bb/spotinst-sdk2-2.1.9.tar.gz
+[2023-05-03 21:11:54] INFO root fetch - processPackages [ezfinpy]: Downloading https://files.pythonhosted.org/packages/42/3e/4cccd97b5d6b60cfc447e029b6e97cf1549e51a9a8dcfa711db1aa81b421/ezfinpy-0.1.6.tar.gz
+[2023-05-03 21:11:55] INFO root fetch - processPackages [inference-server]: Downloading https://files.pythonhosted.org/packages/3f/55/93858c20eb3aadff35bfd12f8f535ff6379b07160b666622662a7b203ade/inference-server-0.2.0.tar.gz
+[2023-05-03 21:11:55] INFO root fetch - processPackages [inference-server]: executing diffoscope
+[2023-05-03 21:11:55] INFO root fetch - processPackages [inference-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inference-server-0.1.0.tar.gz tmp/inference-server-0.2.0.tar.gz --markdown 20230503/i/inference-server/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-03 21:11:55] INFO root fetch - processPackages [ezfinpy]: executing diffoscope
+[2023-05-03 21:11:55] INFO root fetch - processPackages [ezfinpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezfinpy-0.1.5.tar.gz tmp/ezfinpy-0.1.6.tar.gz --markdown 20230503/e/ezfinpy/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-03 21:11:55] INFO root fetch - processPackages [spotinst-sdk2]: executing diffoscope
+[2023-05-03 21:11:55] INFO root fetch - processPackages [spotinst-sdk2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotinst-sdk2-2.1.8.tar.gz tmp/spotinst-sdk2-2.1.9.tar.gz --markdown 20230503/s/spotinst-sdk2/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-05-03 21:11:55] INFO root fetch - main [MainThread]: End processing [auroralibs]: success
+[2023-05-03 21:11:55] INFO root fetch - main [MainThread]: End processing [Pequena]: success
+[2023-05-03 21:11:56] INFO root fetch - main [MainThread]: End processing [inference-server]: success
+[2023-05-03 21:11:56] INFO root fetch - main [MainThread]: End processing [ezfinpy]: success
+[2023-05-03 21:11:56] INFO root fetch - main [MainThread]: End processing [spotinst-sdk2]: success
+[2023-05-03 21:11:57] INFO root fetch - main [MainThread]: End processing [hikari-yuyo]: success
+[2023-05-03 21:11:57] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
+[2023-05-03 21:12:12] INFO root fetch - main [MainThread]: End processing [cybersource-rest-client-python]: success
+[2023-05-03 21:13:02] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-05-03 21:13:02] INFO root fetch - main [MainThread]: Store serial: [17961452]
