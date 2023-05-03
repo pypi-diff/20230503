@@ -16421,3 +16421,100 @@ No space left on device. Diffoscope exiting.
 [2023-05-03 15:52:51] INFO root fetch - main [MainThread]: End processing [molecule]: success
 [2023-05-03 15:52:52] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
 [2023-05-03 15:52:52] INFO root fetch - main [MainThread]: Store serial: [17957297]
+[2023-05-03 15:57:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17957297]
+[2023-05-03 15:58:01] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-03 15:58:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: digitalguide
+[2023-05-03 15:58:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: testmsg
+[2023-05-03 15:58:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: algokit-utils
+[2023-05-03 15:58:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quarter-lib
+[2023-05-03 15:58:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: peaqevcore
+[2023-05-03 15:58:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openhab-pythonrule-engine
+[2023-05-03 15:58:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pibble
+[2023-05-03 15:58:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: psremoter
+[2023-05-03 15:58:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sipiiiii
+[2023-05-03 15:58:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sqlalchemy-orm
+[2023-05-03 15:58:01] INFO root fetch - processPackages [testmsg]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-03 15:58:01] INFO root fetch - processPackages [quarter-lib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 15:58:01] INFO root fetch - processPackages [sipiiiii]: New version: [0.8.6] Old Version: [0.8.4]
+[2023-05-03 15:58:01] INFO root fetch - processPackages [digitalguide]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-03 15:58:01] INFO root fetch - processPackages [openhab-pythonrule-engine]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-03 15:58:01] INFO root fetch - processPackages [psremoter]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-05-03 15:58:01] INFO root fetch - processPackages [peaqevcore]: New version: [9.2.3] Old Version: [9.2.2]
+[2023-05-03 15:58:01] INFO root fetch - processPackages [pibble]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-03 15:58:01] INFO root fetch - processPackages [algokit-utils]: New version: [1.1.1b1] Old Version: [1.1.0b5]
+[2023-05-03 15:58:01] INFO root fetch - processPackages [sqlalchemy-orm]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-05-03 15:58:01] INFO root fetch - processPackages [quarter-lib]: executing diffoscope
+[2023-05-03 15:58:01] INFO root fetch - processPackages [quarter-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quarter_lib-0.0.8.tar.gz tmp/quarter_lib-0.0.9.tar.gz --markdown 20230503/q/quarter-lib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 15:58:01] INFO root fetch - processPackages [openhab-pythonrule-engine]: executing diffoscope
+[2023-05-03 15:58:01] INFO root fetch - processPackages [openhab-pythonrule-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openhab_pythonrule_engine-1.1.8.tar.gz tmp/openhab_pythonrule_engine-1.1.9.tar.gz --markdown 20230503/o/openhab-pythonrule-engine/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-03 15:58:01] INFO root fetch - processPackages [digitalguide]: executing diffoscope
+[2023-05-03 15:58:01] INFO root fetch - processPackages [digitalguide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalguide-0.0.98.tar.gz tmp/digitalguide-0.0.99.tar.gz --markdown 20230503/d/digitalguide/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-03 15:58:01] INFO root fetch - processPackages [psremoter]: executing diffoscope
+[2023-05-03 15:58:01] INFO root fetch - processPackages [psremoter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psremoter-2.0.1.tar.gz tmp/psremoter-2.0.2.tar.gz --markdown 20230503/p/psremoter/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-05-03 15:58:01] INFO root fetch - processPackages [peaqevcore]: executing diffoscope
+[2023-05-03 15:58:01] INFO root fetch - processPackages [peaqevcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peaqevcore-9.2.2.tar.gz tmp/peaqevcore-9.2.3.tar.gz --markdown 20230503/p/peaqevcore/9.2.2-9.2.3/diff.md --exclude *.pyd
+[2023-05-03 15:58:01] INFO root fetch - processPackages [testmsg]: Downloading https://files.pythonhosted.org/packages/10/44/238d7e7b08271ef1ca6e99523bad09b9f94e4c4361f2effe0896393cc401/testmsg-0.0.1.tar.gz
+[2023-05-03 15:58:01] INFO root fetch - processPackages [pibble]: Downloading https://files.pythonhosted.org/packages/43/3a/31b5d485718a839dc8194cd7abdd505a01b0d0ad519a42f783dc34a627e5/pibble-0.4.8.tar.gz
+[2023-05-03 15:58:01] INFO root fetch - processPackages [sipiiiii]: Downloading https://files.pythonhosted.org/packages/9a/04/aa08718cd02fcfdba48810d4f5125c6a668fc0a5ede4802834cfac4109fd/sipiiiii-0.8.6.tar.gz
+[2023-05-03 15:58:01] INFO root fetch - processPackages [sqlalchemy-orm]: Downloading https://files.pythonhosted.org/packages/70/d7/f9d0759ca25193918a6cd72e8c236501e9ba40a51acc93327bf5a01eee37/sqlalchemy-orm-1.2.5.tar.gz
+[2023-05-03 15:58:02] INFO root fetch - processPackages [sipiiiii]: executing diffoscope
+[2023-05-03 15:58:02] INFO root fetch - processPackages [sipiiiii]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sipiiiii-0.8.4.tar.gz tmp/sipiiiii-0.8.6.tar.gz --markdown 20230503/s/sipiiiii/0.8.4-0.8.6/diff.md --exclude *.pyd
+[2023-05-03 15:58:02] INFO root fetch - processPackages [algokit-utils]: Downloading https://files.pythonhosted.org/packages/2a/40/491d4615db2f46c353ecc16efb7d5903f7e7f25f4805d4ea215a625b9006/algokit_utils-1.1.1b1-py3-none-any.whl
+[2023-05-03 15:58:02] INFO root fetch - processPackages [algokit-utils]: executing diffoscope
+[2023-05-03 15:58:02] INFO root fetch - processPackages [algokit-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algokit_utils-1.1.0b5-py3-none-any.whl.zip tmp/algokit_utils-1.1.1b1-py3-none-any.whl.zip --markdown 20230503/a/algokit-utils/1.1.0b5-1.1.1b1/diff.md --exclude *.pyd
+[2023-05-03 15:58:02] INFO root fetch - processPackages [testmsg]: Downloading https://files.pythonhosted.org/packages/fe/28/28e9c60314860de0f7ce2f88bb839e76bac8208d821d7a670844e983cb14/testmsg-0.0.2.tar.gz
+[2023-05-03 15:58:02] INFO root fetch - processPackages [sqlalchemy-orm]: Downloading https://files.pythonhosted.org/packages/f9/1d/3bd45fe1f81e0386486f75331ecafecfcc2c5941fb7dfc1034de593c0e58/sqlalchemy-orm-1.2.6.tar.gz
+[2023-05-03 15:58:02] INFO root fetch - processPackages [testmsg]: executing diffoscope
+[2023-05-03 15:58:02] INFO root fetch - processPackages [testmsg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testmsg-0.0.1.tar.gz tmp/testmsg-0.0.2.tar.gz --markdown 20230503/t/testmsg/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-03 15:58:02] INFO root fetch - processPackages [sqlalchemy-orm]: executing diffoscope
+[2023-05-03 15:58:02] INFO root fetch - processPackages [sqlalchemy-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy-orm-1.2.5.tar.gz tmp/sqlalchemy-orm-1.2.6.tar.gz --markdown 20230503/s/sqlalchemy-orm/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-05-03 15:58:02] INFO root fetch - processPackages [pibble]: Downloading https://files.pythonhosted.org/packages/e9/19/9621acd13f5656a2c5d0d68eda17e86ee0b7aa09e537330cfb13c6b3a1f9/pibble-0.4.9.tar.gz
+[2023-05-03 15:58:02] INFO root fetch - processPackages [pibble]: executing diffoscope
+[2023-05-03 15:58:02] INFO root fetch - processPackages [pibble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pibble-0.4.8.tar.gz tmp/pibble-0.4.9.tar.gz --markdown 20230503/p/pibble/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-03 15:58:03] INFO root fetch - processPackages [quarter-lib]: Start processing: redb-odm
+[2023-05-03 15:58:03] INFO root fetch - main [MainThread]: End processing [quarter-lib]: success
+[2023-05-03 15:58:03] INFO root fetch - processPackages [psremoter]: Start processing: repo2rocrate
+[2023-05-03 15:58:03] INFO root fetch - main [MainThread]: End processing [psremoter]: success
+[2023-05-03 15:58:03] INFO root fetch - processPackages [redb-odm]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-03 15:58:03] INFO root fetch - processPackages [repo2rocrate]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-03 15:58:03] INFO root fetch - processPackages [redb-odm]: Downloading https://files.pythonhosted.org/packages/3e/92/ce0ab3987c5cddafb73a8bd92af3a60abbf30e1e69a19e63e5c6be48c5b5/redb-odm-1.1.8.tar.gz
+[2023-05-03 15:58:03] INFO root fetch - processPackages [algokit-utils]: Start processing: certora-cli-alpha-or-treeViewConcurrency
+[2023-05-03 15:58:03] INFO root fetch - main [MainThread]: End processing [algokit-utils]: success
+[2023-05-03 15:58:03] INFO root fetch - processPackages [repo2rocrate]: Downloading https://files.pythonhosted.org/packages/7a/75/49d7575a03bb2578f7b25b652cc7da868756bb81659c71782fb9ba05999c/repo2rocrate-0.1.1.tar.gz
+[2023-05-03 15:58:03] INFO root fetch - processPackages [openhab-pythonrule-engine]: Start processing: ambient-package-update
+[2023-05-03 15:58:03] INFO root fetch - main [MainThread]: End processing [openhab-pythonrule-engine]: success
+[2023-05-03 15:58:03] INFO root fetch - processPackages [ambient-package-update]: New version: [23.5.2] Old Version: [23.5.1]
+[2023-05-03 15:58:03] INFO root fetch - processPackages [testmsg]: Start processing: py-modelrunner
+[2023-05-03 15:58:03] INFO root fetch - main [MainThread]: End processing [testmsg]: success
+[2023-05-03 15:58:03] WARNING root fetch - processPackages [certora-cli-alpha-or-treeViewConcurrency]: Skipping, unable to determine old version
+[2023-05-03 15:58:03] INFO root fetch - processPackages [certora-cli-alpha-or-treeViewConcurrency]: Start processing: django-keycloak-auth
+[2023-05-03 15:58:03] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-or-treeViewConcurrency] error
+[2023-05-03 15:58:03] INFO root fetch - processPackages [ambient-package-update]: executing diffoscope
+[2023-05-03 15:58:03] INFO root fetch - processPackages [ambient-package-update]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ambient-package-update-23.5.1.tar.gz tmp/ambient-package-update-23.5.2.tar.gz --markdown 20230503/a/ambient-package-update/23.5.1-23.5.2/diff.md --exclude *.pyd
+[2023-05-03 15:58:03] INFO root fetch - processPackages [redb-odm]: Downloading https://files.pythonhosted.org/packages/d8/fa/e75a9f960afc8884d601810c6a18c34e359673eaa270237b69633f41bd50/redb-odm-1.1.9.tar.gz
+[2023-05-03 15:58:03] INFO root fetch - main [MainThread]: End processing [digitalguide]: success
+[2023-05-03 15:58:03] INFO root fetch - main [MainThread]: End processing [peaqevcore]: success
+[2023-05-03 15:58:03] INFO root fetch - processPackages [py-modelrunner]: New version: [0.9.1] Old Version: [0.8]
+[2023-05-03 15:58:03] INFO root fetch - processPackages [redb-odm]: executing diffoscope
+[2023-05-03 15:58:03] INFO root fetch - processPackages [redb-odm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redb-odm-1.1.8.tar.gz tmp/redb-odm-1.1.9.tar.gz --markdown 20230503/r/redb-odm/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-03 15:58:03] INFO root fetch - processPackages [repo2rocrate]: Downloading https://files.pythonhosted.org/packages/b2/00/a987d92689c86d32c8293c39773736f63c582e67073c513c3e58ceab0af7/repo2rocrate-0.1.2.tar.gz
+[2023-05-03 15:58:03] INFO root fetch - processPackages [django-keycloak-auth]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-05-03 15:58:03] INFO root fetch - processPackages [repo2rocrate]: executing diffoscope
+[2023-05-03 15:58:03] INFO root fetch - processPackages [repo2rocrate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/repo2rocrate-0.1.1.tar.gz tmp/repo2rocrate-0.1.2.tar.gz --markdown 20230503/r/repo2rocrate/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-03 15:58:03] INFO root fetch - processPackages [py-modelrunner]: Downloading https://files.pythonhosted.org/packages/7e/a8/b487bf9b309f16b7ef2729c52814a17d4b86831651de63184862ff5cae7f/py-modelrunner-0.8.tar.gz
+[2023-05-03 15:58:04] INFO root fetch - main [MainThread]: End processing [sipiiiii]: success
+[2023-05-03 15:58:04] INFO root fetch - processPackages [django-keycloak-auth]: Downloading https://files.pythonhosted.org/packages/5c/3c/ffae508c60dc86fcff47ceb8c4faa6c77b4b8f2313701d9e7a87ef5c374c/django-keycloak-auth-0.9.5.tar.gz
+[2023-05-03 15:58:04] INFO root fetch - processPackages [django-keycloak-auth]: Downloading https://files.pythonhosted.org/packages/27/c7/34bf9646d3a79b3860add6ebf04e38c1d0e1582aeae99975d8ab1a9ff572/django-keycloak-auth-0.9.6.tar.gz
+[2023-05-03 15:58:04] INFO root fetch - processPackages [py-modelrunner]: Downloading https://files.pythonhosted.org/packages/f9/f9/00daa9ae5507a3d3cedcd5ed2867fea755eda4eae52df31c3c5d2950fb80/py-modelrunner-0.9.1.tar.gz
+[2023-05-03 15:58:04] INFO root fetch - main [MainThread]: End processing [pibble]: success
+[2023-05-03 15:58:04] INFO root fetch - main [MainThread]: End processing [sqlalchemy-orm]: success
+[2023-05-03 15:58:04] INFO root fetch - processPackages [django-keycloak-auth]: executing diffoscope
+[2023-05-03 15:58:04] INFO root fetch - processPackages [django-keycloak-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-keycloak-auth-0.9.5.tar.gz tmp/django-keycloak-auth-0.9.6.tar.gz --markdown 20230503/d/django-keycloak-auth/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-05-03 15:58:04] INFO root fetch - processPackages [py-modelrunner]: executing diffoscope
+[2023-05-03 15:58:04] INFO root fetch - processPackages [py-modelrunner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-modelrunner-0.8.tar.gz tmp/py-modelrunner-0.9.1.tar.gz --markdown 20230503/p/py-modelrunner/0.8-0.9.1/diff.md --exclude *.pyd
+[2023-05-03 15:58:05] INFO root fetch - main [MainThread]: End processing [ambient-package-update]: success
+[2023-05-03 15:58:05] INFO root fetch - main [MainThread]: End processing [redb-odm]: success
+[2023-05-03 15:58:05] INFO root fetch - main [MainThread]: End processing [django-keycloak-auth]: success
+[2023-05-03 15:58:05] INFO root fetch - main [MainThread]: End processing [repo2rocrate]: success
+[2023-05-03 15:58:31] INFO root fetch - main [MainThread]: End processing [py-modelrunner]: success
+[2023-05-03 15:58:31] INFO root fetch - main [MainThread]: Store serial: [17957345]
