@@ -19947,3 +19947,104 @@ No space left on device. Diffoscope exiting.
 [2023-05-03 18:43:23] INFO root fetch - main [MainThread]: End processing [spkrepo]: success
 [2023-05-03 18:43:25] INFO root fetch - main [MainThread]: End processing [lava-nc]: success
 [2023-05-03 18:43:25] INFO root fetch - main [MainThread]: Store serial: [17959757]
+[2023-05-03 18:48:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17959757]
+[2023-05-03 18:48:34] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-03 18:48:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deprecate-kwargs
+[2023-05-03 18:48:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trytond-sale-point
+[2023-05-03 18:48:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trytond-sale-credit-limit
+[2023-05-03 18:48:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cmx
+[2023-05-03 18:48:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: trytond-sale-credit-limit
+[2023-05-03 18:48:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fastapi-sql
+[2023-05-03 18:48:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: local-attention
+[2023-05-03 18:48:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pytiva
+[2023-05-03 18:48:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ts-deepscan
+[2023-05-03 18:48:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: trytond-sale-credit-limit
+[2023-05-03 18:48:34] INFO root fetch - processPackages [deprecate-kwargs]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-03 18:48:34] INFO root fetch - processPackages [trytond-sale-credit-limit]: New version: [6.8.0] Old Version: [6.6.2]
+[2023-05-03 18:48:34] INFO root fetch - processPackages [local-attention]: New version: [1.8.6] Old Version: [1.8.5]
+[2023-05-03 18:48:34] WARNING root fetch - processPackages [pytiva]: Skipping, unable to determine old version
+[2023-05-03 18:48:34] INFO root fetch - processPackages [cmx]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 18:48:34] INFO root fetch - processPackages [ts-deepscan]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-05-03 18:48:34] INFO root fetch - processPackages [pytiva]: Start processing: auto-screener
+[2023-05-03 18:48:34] INFO root fetch - main [MainThread]: End processing [pytiva] error
+[2023-05-03 18:48:34] INFO root fetch - processPackages [trytond-sale-point]: New version: [6.8.0] Old Version: [6.6.2]
+[2023-05-03 18:48:34] INFO root fetch - processPackages [trytond-sale-credit-limit]: New version: [6.8.0] Old Version: [6.6.2]
+[2023-05-03 18:48:34] INFO root fetch - processPackages [trytond-sale-credit-limit]: New version: [6.8.0] Old Version: [6.6.2]
+[2023-05-03 18:48:34] INFO root fetch - processPackages [fastapi-sql]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-05-03 18:48:34] INFO root fetch - processPackages [auto-screener]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 18:48:34] INFO root fetch - processPackages [auto-screener]: Downloading https://files.pythonhosted.org/packages/95/23/4dbcfba64c876f7bcecd12377e084d5142ab1da8b4ebeb3d3a127852b847/auto-screener-0.0.8.tar.gz
+[2023-05-03 18:48:34] INFO root fetch - processPackages [trytond-sale-point]: executing diffoscope
+[2023-05-03 18:48:34] INFO root fetch - processPackages [trytond-sale-point]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_sale_point-6.6.2.tar.gz tmp/trytond_sale_point-6.8.0.tar.gz --markdown 20230503/t/trytond-sale-point/6.6.2-6.8.0/diff.md --exclude *.pyd
+[2023-05-03 18:48:34] INFO root fetch - processPackages [trytond-sale-credit-limit]: Downloading https://files.pythonhosted.org/packages/d1/98/c9df13be22cae55a1ec6086c0ba6b50d53461d4fbd6317d2dd80f56f6103/trytond_sale_credit_limit-6.6.2.tar.gz
+[2023-05-03 18:48:34] INFO root fetch - processPackages [trytond-sale-credit-limit]: Downloading https://files.pythonhosted.org/packages/d1/98/c9df13be22cae55a1ec6086c0ba6b50d53461d4fbd6317d2dd80f56f6103/trytond_sale_credit_limit-6.6.2.tar.gz
+[2023-05-03 18:48:34] INFO root fetch - processPackages [trytond-sale-credit-limit]: Downloading https://files.pythonhosted.org/packages/d1/98/c9df13be22cae55a1ec6086c0ba6b50d53461d4fbd6317d2dd80f56f6103/trytond_sale_credit_limit-6.6.2.tar.gz
+[2023-05-03 18:48:34] INFO root fetch - processPackages [local-attention]: Downloading https://files.pythonhosted.org/packages/4b/b7/f8cc4a87f97aba762e132839c73db32666dedd0befa0f3292c9c9e19ef5d/local-attention-1.8.5.tar.gz
+[2023-05-03 18:48:34] INFO root fetch - processPackages [ts-deepscan]: Downloading https://files.pythonhosted.org/packages/9c/f9/f669398e6ddee2c34210ee303f0db0e6855dd369b51ce489ff662eaed537/ts-deepscan-2.0.2.tar.gz
+[2023-05-03 18:48:34] INFO root fetch - processPackages [cmx]: Downloading https://files.pythonhosted.org/packages/1a/c2/cf021180634016d614c49d1e4988fa3c32e0fe70adf77615976aa499747f/cmx-0.0.8-py3-none-any.whl
+[2023-05-03 18:48:35] INFO root fetch - processPackages [auto-screener]: Downloading https://files.pythonhosted.org/packages/17/81/2cce88151208fb3d0d0ee59ce98a996260f0578227453f7753134f315aaa/auto-screener-0.0.9.tar.gz
+[2023-05-03 18:48:35] INFO root fetch - processPackages [fastapi-sql]: Downloading https://files.pythonhosted.org/packages/1b/6e/a0e65bf3d2f0956cf3514fd906a1d4483a08479aa51b20cf5da31a6b9bd8/fastapi_sql-0.3.3.tar.gz
+[2023-05-03 18:48:35] INFO root fetch - processPackages [deprecate-kwargs]: executing diffoscope
+[2023-05-03 18:48:35] INFO root fetch - processPackages [deprecate-kwargs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deprecate_kwargs-0.0.2.tar.gz tmp/deprecate_kwargs-0.0.3.tar.gz --markdown 20230503/d/deprecate-kwargs/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-03 18:48:35] INFO root fetch - processPackages [fastapi-sql]: executing diffoscope
+[2023-05-03 18:48:35] INFO root fetch - processPackages [fastapi-sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_sql-0.3.2.tar.gz tmp/fastapi_sql-0.3.3.tar.gz --markdown 20230503/f/fastapi-sql/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-05-03 18:48:35] INFO root fetch - processPackages [trytond-sale-credit-limit]: executing diffoscope
+[2023-05-03 18:48:35] INFO root fetch - processPackages [trytond-sale-credit-limit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_sale_credit_limit-6.6.2.tar.gz tmp/trytond_sale_credit_limit-6.8.0.tar.gz --markdown 20230503/t/trytond-sale-credit-limit/6.6.2-6.8.0/diff.md --exclude *.pyd
+[2023-05-03 18:48:35] INFO root fetch - processPackages [trytond-sale-credit-limit]: executing diffoscope
+[2023-05-03 18:48:35] INFO root fetch - processPackages [trytond-sale-credit-limit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_sale_credit_limit-6.6.2.tar.gz tmp/trytond_sale_credit_limit-6.8.0.tar.gz --markdown 20230503/t/trytond-sale-credit-limit/6.6.2-6.8.0/diff.md --exclude *.pyd
+[2023-05-03 18:48:35] INFO root fetch - processPackages [trytond-sale-credit-limit]: executing diffoscope
+[2023-05-03 18:48:35] INFO root fetch - processPackages [trytond-sale-credit-limit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_sale_credit_limit-6.6.2.tar.gz tmp/trytond_sale_credit_limit-6.8.0.tar.gz --markdown 20230503/t/trytond-sale-credit-limit/6.6.2-6.8.0/diff.md --exclude *.pyd
+[2023-05-03 18:48:35] INFO root fetch - processPackages [local-attention]: Downloading https://files.pythonhosted.org/packages/c9/97/7fefb044ad3b411dcb02a5787f65b62260e6cb795eb177ba9b0f56a4ae52/local-attention-1.8.6.tar.gz
+[2023-05-03 18:48:35] INFO root fetch - processPackages [ts-deepscan]: Downloading https://files.pythonhosted.org/packages/cc/43/94fd669ba383915661f66eed817c543db8f2beac0dea1c56a114fff5a9df/ts-deepscan-2.0.3.tar.gz
+[2023-05-03 18:48:35] INFO root fetch - processPackages [auto-screener]: executing diffoscope
+[2023-05-03 18:48:35] INFO root fetch - processPackages [auto-screener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-screener-0.0.8.tar.gz tmp/auto-screener-0.0.9.tar.gz --markdown 20230503/a/auto-screener/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 18:48:35] INFO root fetch - processPackages [local-attention]: executing diffoscope
+[2023-05-03 18:48:35] INFO root fetch - processPackages [cmx]: Downloading https://files.pythonhosted.org/packages/ce/04/7013d37fba029e3766712c583a90b4f6cfd8c7fe4e4a4f617895a04fd123/cmx-0.0.9-py3-none-any.whl
+[2023-05-03 18:48:35] INFO root fetch - processPackages [local-attention]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/local-attention-1.8.5.tar.gz tmp/local-attention-1.8.6.tar.gz --markdown 20230503/l/local-attention/1.8.5-1.8.6/diff.md --exclude *.pyd
+[2023-05-03 18:48:35] INFO root fetch - processPackages [ts-deepscan]: executing diffoscope
+[2023-05-03 18:48:35] INFO root fetch - processPackages [ts-deepscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ts-deepscan-2.0.2.tar.gz tmp/ts-deepscan-2.0.3.tar.gz --markdown 20230503/t/ts-deepscan/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-05-03 18:48:35] INFO root fetch - processPackages [cmx]: executing diffoscope
+[2023-05-03 18:48:35] INFO root fetch - processPackages [cmx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmx-0.0.8-py3-none-any.whl.zip tmp/cmx-0.0.9-py3-none-any.whl.zip --markdown 20230503/c/cmx/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 18:48:36] INFO root fetch - processPackages [deprecate-kwargs]: Start processing: trytond-sale-credit-limit
+[2023-05-03 18:48:36] INFO root fetch - main [MainThread]: End processing [deprecate-kwargs]: success
+[2023-05-03 18:48:36] INFO root fetch - processPackages [fastapi-sql]: Start processing: trytond-sale
+[2023-05-03 18:48:36] INFO root fetch - main [MainThread]: End processing [fastapi-sql]: success
+[2023-05-03 18:48:36] INFO root fetch - processPackages [trytond-sale-credit-limit]: New version: [6.8.0] Old Version: [6.6.2]
+[2023-05-03 18:48:36] INFO root fetch - processPackages [trytond-sale]: New version: [6.8.0] Old Version: [6.6.2]
+[2023-05-03 18:48:36] INFO root fetch - processPackages [trytond-sale-credit-limit]: executing diffoscope
+[2023-05-03 18:48:36] INFO root fetch - processPackages [trytond-sale-credit-limit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_sale_credit_limit-6.6.2.tar.gz tmp/trytond_sale_credit_limit-6.8.0.tar.gz --markdown 20230503/t/trytond-sale-credit-limit/6.6.2-6.8.0/diff.md --exclude *.pyd
+[2023-05-03 18:48:36] INFO root fetch - processPackages [local-attention]: Start processing: trytond-sale
+[2023-05-03 18:48:36] INFO root fetch - main [MainThread]: End processing [local-attention]: success
+[2023-05-03 18:48:36] INFO root fetch - processPackages [trytond-sale]: New version: [6.8.0] Old Version: [6.6.2]
+[2023-05-03 18:48:36] INFO root fetch - processPackages [auto-screener]: Start processing: woe-conversion
+[2023-05-03 18:48:36] INFO root fetch - main [MainThread]: End processing [auto-screener]: success
+[2023-05-03 18:48:36] INFO root fetch - processPackages [trytond-sale]: Downloading https://files.pythonhosted.org/packages/af/86/1662579c0a6f06e312f6df04759dd63931e083eb92d689be5c11973ec518/trytond_sale-6.6.2.tar.gz
+[2023-05-03 18:48:36] WARNING root fetch - processPackages [woe-conversion]: Skipping, unable to determine old version
+[2023-05-03 18:48:36] INFO root fetch - processPackages [woe-conversion]: Start processing: neurotechdevkit
+[2023-05-03 18:48:36] INFO root fetch - main [MainThread]: End processing [woe-conversion] error
+[2023-05-03 18:48:36] INFO root fetch - processPackages [trytond-sale]: Downloading https://files.pythonhosted.org/packages/af/86/1662579c0a6f06e312f6df04759dd63931e083eb92d689be5c11973ec518/trytond_sale-6.6.2.tar.gz
+[2023-05-03 18:48:36] INFO root fetch - processPackages [neurotechdevkit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 18:48:36] INFO root fetch - processPackages [trytond-sale-credit-limit]: Start processing: trytond-sale
+[2023-05-03 18:48:36] INFO root fetch - main [MainThread]: End processing [trytond-sale-credit-limit]: success
+[2023-05-03 18:48:36] INFO root fetch - processPackages [trytond-sale]: New version: [6.8.0] Old Version: [6.6.2]
+[2023-05-03 18:48:36] INFO root fetch - processPackages [trytond-sale-credit-limit]: Start processing: pipsqlite3extensionV2
+[2023-05-03 18:48:36] INFO root fetch - main [MainThread]: End processing [trytond-sale-credit-limit]: success
+[2023-05-03 18:48:36] INFO root fetch - processPackages [neurotechdevkit]: executing diffoscope
+[2023-05-03 18:48:36] INFO root fetch - processPackages [neurotechdevkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neurotechdevkit-0.0.8.tar.gz tmp/neurotechdevkit-0.0.9.tar.gz --markdown 20230503/n/neurotechdevkit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 18:48:37] INFO root fetch - main [MainThread]: End processing [trytond-sale-credit-limit]: success
+[2023-05-03 18:48:37] INFO root fetch - processPackages [trytond-sale]: executing diffoscope
+[2023-05-03 18:48:37] INFO root fetch - processPackages [trytond-sale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_sale-6.6.2.tar.gz tmp/trytond_sale-6.8.0.tar.gz --markdown 20230503/t/trytond-sale/6.6.2-6.8.0/diff.md --exclude *.pyd
+[2023-05-03 18:48:37] INFO root fetch - processPackages [trytond-sale]: executing diffoscope
+[2023-05-03 18:48:37] INFO root fetch - processPackages [trytond-sale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_sale-6.6.2.tar.gz tmp/trytond_sale-6.8.0.tar.gz --markdown 20230503/t/trytond-sale/6.6.2-6.8.0/diff.md --exclude *.pyd
+[2023-05-03 18:48:37] INFO root fetch - processPackages [trytond-sale]: executing diffoscope
+[2023-05-03 18:48:37] INFO root fetch - processPackages [trytond-sale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_sale-6.6.2.tar.gz tmp/trytond_sale-6.8.0.tar.gz --markdown 20230503/t/trytond-sale/6.6.2-6.8.0/diff.md --exclude *.pyd
+[2023-05-03 18:48:37] ERROR root fetch - processPackages [pipsqlite3extensionV2]: Unable to get metadata: No such project 'pipsqlite3extensionV2'
+[2023-05-03 18:48:37] INFO root fetch - main [MainThread]: End processing [pipsqlite3extensionV2] error
+[2023-05-03 18:48:37] INFO root fetch - main [MainThread]: End processing [cmx]: success
+[2023-05-03 18:48:37] INFO root fetch - main [MainThread]: End processing [trytond-sale-credit-limit]: success
+[2023-05-03 18:48:38] INFO root fetch - main [MainThread]: End processing [trytond-sale-point]: success
+[2023-05-03 18:48:38] INFO root fetch - main [MainThread]: End processing [neurotechdevkit]: success
+[2023-05-03 18:48:40] INFO root fetch - main [MainThread]: End processing [trytond-sale]: success
+[2023-05-03 18:48:40] INFO root fetch - main [MainThread]: End processing [ts-deepscan]: success
+[2023-05-03 18:48:41] INFO root fetch - main [MainThread]: End processing [trytond-sale]: success
+[2023-05-03 18:48:42] INFO root fetch - main [MainThread]: End processing [trytond-sale]: success
+[2023-05-03 18:48:42] INFO root fetch - main [MainThread]: Store serial: [17959819]
