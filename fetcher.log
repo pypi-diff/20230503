@@ -7534,3 +7534,60 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-03 08:44:30] INFO root fetch - main [MainThread]: End processing [fugue]: success
 [2023-05-03 08:45:17] INFO root fetch - main [MainThread]: End processing [cryptlex.lexactivator]: success
 [2023-05-03 08:45:17] INFO root fetch - main [MainThread]: Store serial: [17952309]
+[2023-05-03 08:50:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17952309]
+[2023-05-03 08:50:33] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-03 08:50:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aksara
+[2023-05-03 08:50:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: frequenz-api-microgrid
+[2023-05-03 08:50:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: airflow-kdb-provider
+[2023-05-03 08:50:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: skyndo
+[2023-05-03 08:50:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: langchain-serve
+[2023-05-03 08:50:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: langchain-serve
+[2023-05-03 08:50:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jaco2
+[2023-05-03 08:50:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: msrc
+[2023-05-03 08:50:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: commonroad-crime
+[2023-05-03 08:50:33] INFO root fetch - processPackages [airflow-kdb-provider]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-03 08:50:33] INFO root fetch - processPackages [frequenz-api-microgrid]: New version: [0.12.0] Old Version: [0.11.0]
+[2023-05-03 08:50:33] WARNING root fetch - processPackages [aksara]: Skipping, unable to determine old version
+[2023-05-03 08:50:33] INFO root fetch - main [MainThread]: End processing [aksara] error
+[2023-05-03 08:50:33] INFO root fetch - processPackages [skyndo]: New version: [0.2] Old Version: [0.1]
+[2023-05-03 08:50:33] INFO root fetch - processPackages [msrc]: New version: [0.2.0] Old Version: [0.0.2]
+[2023-05-03 08:50:33] INFO root fetch - processPackages [jaco2]: New version: [4.3] Old Version: [4.2]
+[2023-05-03 08:50:33] INFO root fetch - processPackages [commonroad-crime]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-03 08:50:33] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-05-03 08:50:33] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-05-03 08:50:33] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-05-03 08:50:33] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230503/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-05-03 08:50:33] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-05-03 08:50:33] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230503/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-05-03 08:50:33] INFO root fetch - processPackages [skyndo]: Downloading https://files.pythonhosted.org/packages/0e/cd/e3cec775794395b2808b93d90d6b9a148df3da42f051bee12a3f38fe54cc/skyndo-0.1.tar.gz
+[2023-05-03 08:50:33] INFO root fetch - processPackages [frequenz-api-microgrid]: Downloading https://files.pythonhosted.org/packages/a0/6c/0efd616ded5d6fa34a72f427d8365e2c84cf8bead0025178963d10649e25/frequenz-api-microgrid-0.11.0.tar.gz
+[2023-05-03 08:50:33] INFO root fetch - processPackages [airflow-kdb-provider]: Downloading https://files.pythonhosted.org/packages/3b/30/59b3101a4610b5e82dfdffa0c980840372d3aa98ecc11335455258650ed2/airflow-kdb-provider-0.1.0.tar.gz
+[2023-05-03 08:50:33] INFO root fetch - processPackages [commonroad-crime]: Downloading https://files.pythonhosted.org/packages/c4/40/6d0b52840bca2b1e6042991505e181e00a5177314d8a0b3352296c364092/commonroad-crime-0.2.0.tar.gz
+[2023-05-03 08:50:33] INFO root fetch - processPackages [jaco2]: Downloading https://files.pythonhosted.org/packages/d1/51/1e8153fd2c112609276e727bb1b8ea8e6e6f3a9eae861485a580fafa05e4/jaco2-4.3-cp311-cp311-win_amd64.whl
+[2023-05-03 08:50:33] INFO root fetch - processPackages [msrc]: Downloading https://files.pythonhosted.org/packages/2b/85/7d688e2f15d9c21cef552dfddb165df151d46162164b7b2f590641fee627/msrc-0.0.2.tar.gz
+[2023-05-03 08:50:33] INFO root fetch - processPackages [jaco2]: executing diffoscope
+[2023-05-03 08:50:33] INFO root fetch - processPackages [jaco2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaco2-4.2-cp311-cp311-win_amd64.whl.zip tmp/jaco2-4.3-cp311-cp311-win_amd64.whl.zip --markdown 20230503/j/jaco2/4.2-4.3/diff.md --exclude *.pyd
+[2023-05-03 08:50:34] INFO root fetch - processPackages [frequenz-api-microgrid]: Downloading https://files.pythonhosted.org/packages/c1/7c/c1cd6e72962d569ed6af6060a89f250d6166513eabc5ee82e2abe9854d59/frequenz-api-microgrid-0.12.0.tar.gz
+[2023-05-03 08:50:34] INFO root fetch - processPackages [skyndo]: Downloading https://files.pythonhosted.org/packages/a1/ad/ab0b92df1c4e3e93fc79672570d0d00ef583528e43cf95816aa95f2505e3/skyndo-0.2.tar.gz
+[2023-05-03 08:50:34] INFO root fetch - processPackages [commonroad-crime]: Downloading https://files.pythonhosted.org/packages/ce/46/fbea144820535c3780621390f2b0d0ab4b6f419a49642ae89e5a9133fbdd/commonroad-crime-0.2.1.tar.gz
+[2023-05-03 08:50:34] INFO root fetch - processPackages [airflow-kdb-provider]: Downloading https://files.pythonhosted.org/packages/cc/0f/abe8ccfcef4a797862b367f57b06c1e50a641d56a9b111647fddf2f9d2a0/airflow-kdb-provider-0.1.1.tar.gz
+[2023-05-03 08:50:34] INFO root fetch - processPackages [msrc]: Downloading https://files.pythonhosted.org/packages/4e/9d/e255bd85824d840ee9627aae5c233bc9fb7012aa471ef1feab64f8d34aff/msrc-0.2.0.tar.gz
+[2023-05-03 08:50:34] INFO root fetch - processPackages [skyndo]: executing diffoscope
+[2023-05-03 08:50:34] INFO root fetch - processPackages [skyndo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skyndo-0.1.tar.gz tmp/skyndo-0.2.tar.gz --markdown 20230503/s/skyndo/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-03 08:50:34] INFO root fetch - processPackages [airflow-kdb-provider]: executing diffoscope
+[2023-05-03 08:50:34] INFO root fetch - processPackages [airflow-kdb-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airflow-kdb-provider-0.1.0.tar.gz tmp/airflow-kdb-provider-0.1.1.tar.gz --markdown 20230503/a/airflow-kdb-provider/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-03 08:50:34] INFO root fetch - processPackages [frequenz-api-microgrid]: executing diffoscope
+[2023-05-03 08:50:34] INFO root fetch - processPackages [frequenz-api-microgrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frequenz-api-microgrid-0.11.0.tar.gz tmp/frequenz-api-microgrid-0.12.0.tar.gz --markdown 20230503/f/frequenz-api-microgrid/0.11.0-0.12.0/diff.md --exclude *.pyd
+[2023-05-03 08:50:34] INFO root fetch - processPackages [msrc]: executing diffoscope
+[2023-05-03 08:50:34] INFO root fetch - processPackages [msrc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msrc-0.0.2.tar.gz tmp/msrc-0.2.0.tar.gz --markdown 20230503/m/msrc/0.0.2-0.2.0/diff.md --exclude *.pyd
+[2023-05-03 08:50:34] INFO root fetch - processPackages [commonroad-crime]: executing diffoscope
+[2023-05-03 08:50:34] INFO root fetch - processPackages [commonroad-crime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commonroad-crime-0.2.0.tar.gz tmp/commonroad-crime-0.2.1.tar.gz --markdown 20230503/c/commonroad-crime/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-03 08:50:35] INFO root fetch - main [MainThread]: End processing [jaco2]: success
+[2023-05-03 08:50:35] INFO root fetch - main [MainThread]: End processing [airflow-kdb-provider]: success
+[2023-05-03 08:50:35] INFO root fetch - main [MainThread]: End processing [skyndo]: success
+[2023-05-03 08:50:35] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-05-03 08:50:35] INFO root fetch - main [MainThread]: End processing [msrc]: success
+[2023-05-03 08:50:36] INFO root fetch - main [MainThread]: End processing [commonroad-crime]: success
+[2023-05-03 08:50:36] INFO root fetch - main [MainThread]: End processing [frequenz-api-microgrid]: success
+[2023-05-03 08:50:36] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-05-03 08:50:36] INFO root fetch - main [MainThread]: Store serial: [17952336]
