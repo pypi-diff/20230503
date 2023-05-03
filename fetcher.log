@@ -4941,3 +4941,55 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-03 04:37:15] INFO root fetch - main [MainThread]: End processing [firexapp]: success
 [2023-05-03 04:37:16] INFO root fetch - main [MainThread]: End processing [PyQt6-Fluent-Widgets]: success
 [2023-05-03 04:37:16] INFO root fetch - main [MainThread]: Store serial: [17950712]
+[2023-05-03 04:42:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17950712]
+[2023-05-03 04:42:27] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-03 04:42:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dnadb
+[2023-05-03 04:42:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PySide6-Fluent-Widgets
+[2023-05-03 04:42:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: module-utilities
+[2023-05-03 04:42:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Shark-sac-Korean-editor
+[2023-05-03 04:42:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyPDPM
+[2023-05-03 04:42:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: leclerc
+[2023-05-03 04:42:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cellmap
+[2023-05-03 04:42:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: NikeCA
+[2023-05-03 04:42:27] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: New version: [0.8.4] Old Version: [0.8.2]
+[2023-05-03 04:42:27] INFO root fetch - processPackages [dnadb]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-03 04:42:27] INFO root fetch - processPackages [Shark-sac-Korean-editor]: New version: [2.0.5] Old Version: [0.0.1]
+[2023-05-03 04:42:27] INFO root fetch - processPackages [module-utilities]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-03 04:42:27] INFO root fetch - processPackages [leclerc]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-03 04:42:27] INFO root fetch - processPackages [PyPDPM]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-03 04:42:27] INFO root fetch - processPackages [cellmap]: New version: [1.0.1.dev202305020348] Old Version: [1.0.1.dev202304301141]
+[2023-05-03 04:42:27] INFO root fetch - processPackages [NikeCA]: New version: [0.1.86] Old Version: [0.1.85]
+[2023-05-03 04:42:27] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/c1/3e/befb9e7bcf2760632cbaf7ac361b2ab3401060c3f00df23b3d5254213d33/PySide6-Fluent-Widgets-0.8.2.tar.gz
+[2023-05-03 04:42:27] INFO root fetch - processPackages [cellmap]: executing diffoscope
+[2023-05-03 04:42:27] INFO root fetch - processPackages [cellmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellmap-1.0.1.dev202304301141-py3-none-any.whl.zip tmp/cellmap-1.0.1.dev202305020348-py3-none-any.whl.zip --markdown 20230503/c/cellmap/1.0.1.dev202304301141-1.0.1.dev202305020348/diff.md --exclude *.pyd
+[2023-05-03 04:42:27] INFO root fetch - processPackages [Shark-sac-Korean-editor]: Downloading https://files.pythonhosted.org/packages/0f/3d/41719cee85b51f3b06f3d3d06d2b03c19c885f19e8ec1b241efba15d3bea/Shark%20sac%20Korean%20editor-0.0.1.tar.gz
+[2023-05-03 04:42:27] INFO root fetch - processPackages [leclerc]: Downloading https://files.pythonhosted.org/packages/b9/14/266d831639177bc544a52bd83f5dc820fe400f82c2c56dc6fa7fecbf9f2d/leclerc-0.1.2.tar.gz
+[2023-05-03 04:42:27] INFO root fetch - processPackages [PyPDPM]: Downloading https://files.pythonhosted.org/packages/67/f6/05bd958b07f2a051b4e5d97d784c8cbda9b364b1ab8b39e51a5cf97a75e6/PyPDPM-0.0.3-py3-none-any.whl
+[2023-05-03 04:42:27] INFO root fetch - processPackages [leclerc]: executing diffoscope
+[2023-05-03 04:42:27] INFO root fetch - processPackages [leclerc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leclerc-0.1.1.tar.gz tmp/leclerc-0.1.2.tar.gz --markdown 20230503/l/leclerc/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-03 04:42:27] INFO root fetch - processPackages [dnadb]: Downloading https://files.pythonhosted.org/packages/61/fe/bb8a3e81b2051570e80a9d3a5780f1539f1520b573862692d144c8bc1757/dnadb-0.2.9.tar.gz
+[2023-05-03 04:42:27] INFO root fetch - processPackages [PyPDPM]: executing diffoscope
+[2023-05-03 04:42:27] INFO root fetch - processPackages [PyPDPM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyPDPM-0.0.2-py3-none-any.whl.zip tmp/PyPDPM-0.0.3-py3-none-any.whl.zip --markdown 20230503/P/PyPDPM/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-03 04:42:28] INFO root fetch - processPackages [module-utilities]: Downloading https://files.pythonhosted.org/packages/2d/68/341f71679aafd52576cd3b08d7ca0072c640f584bc0b1bd803d9365aa452/module-utilities-0.2.0.tar.gz
+[2023-05-03 04:42:28] INFO root fetch - processPackages [dnadb]: executing diffoscope
+[2023-05-03 04:42:28] INFO root fetch - processPackages [dnadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dnadb-0.2.8.tar.gz tmp/dnadb-0.2.9.tar.gz --markdown 20230503/d/dnadb/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-03 04:42:28] INFO root fetch - processPackages [Shark-sac-Korean-editor]: Downloading https://files.pythonhosted.org/packages/92/76/a8df7c9047033015199a4e9db9a8faae664fece96882933011fac0ad7d19/Shark%20sac%20Korean%20editor-2.0.5.tar.gz
+[2023-05-03 04:42:28] INFO root fetch - processPackages [NikeCA]: Downloading https://files.pythonhosted.org/packages/91/2c/0453ab7817c6b826ccf748a07a9a0a3de5104741675975614cc6f48a644a/NikeCA-0.1.86.tar.gz
+[2023-05-03 04:42:28] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/90/34/52b064f049907833753706cfa5736953c41be514db82476290bb464094a1/PySide6-Fluent-Widgets-0.8.4.tar.gz
+[2023-05-03 04:42:28] INFO root fetch - processPackages [module-utilities]: executing diffoscope
+[2023-05-03 04:42:28] INFO root fetch - processPackages [module-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/module-utilities-0.1.0.tar.gz tmp/module-utilities-0.2.0.tar.gz --markdown 20230503/m/module-utilities/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-03 04:42:28] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: executing diffoscope
+[2023-05-03 04:42:28] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySide6-Fluent-Widgets-0.8.2.tar.gz tmp/PySide6-Fluent-Widgets-0.8.4.tar.gz --markdown 20230503/P/PySide6-Fluent-Widgets/0.8.2-0.8.4/diff.md --exclude *.pyd
+[2023-05-03 04:42:28] INFO root fetch - processPackages [NikeCA]: executing diffoscope
+[2023-05-03 04:42:28] INFO root fetch - processPackages [NikeCA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NikeCA-0.1.85.tar.gz tmp/NikeCA-0.1.86.tar.gz --markdown 20230503/N/NikeCA/0.1.85-0.1.86/diff.md --exclude *.pyd
+[2023-05-03 04:42:28] INFO root fetch - processPackages [Shark-sac-Korean-editor]: executing diffoscope
+[2023-05-03 04:42:28] INFO root fetch - processPackages [Shark-sac-Korean-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Shark sac Korean editor-0.0.1.tar.gz tmp/Shark sac Korean editor-2.0.5.tar.gz --markdown 20230503/S/Shark-sac-Korean-editor/0.0.1-2.0.5/diff.md --exclude *.pyd
+[2023-05-03 04:42:29] INFO root fetch - main [MainThread]: End processing [leclerc]: success
+[2023-05-03 04:42:29] INFO root fetch - main [MainThread]: End processing [PyPDPM]: success
+[2023-05-03 04:42:29] INFO root fetch - main [MainThread]: End processing [cellmap]: success
+[2023-05-03 04:42:29] INFO root fetch - main [MainThread]: End processing [NikeCA]: success
+[2023-05-03 04:42:29] INFO root fetch - main [MainThread]: End processing [dnadb]: success
+[2023-05-03 04:42:29] INFO root fetch - main [MainThread]: End processing [Shark-sac-Korean-editor]: success
+[2023-05-03 04:42:30] INFO root fetch - main [MainThread]: End processing [module-utilities]: success
+[2023-05-03 04:42:33] INFO root fetch - main [MainThread]: End processing [PySide6-Fluent-Widgets]: success
+[2023-05-03 04:42:33] INFO root fetch - main [MainThread]: Store serial: [17950735]
