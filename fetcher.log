@@ -11951,3 +11951,82 @@ No space left on device. Diffoscope exiting.
 [2023-05-03 12:00:03] INFO root fetch - main [MainThread]: End processing [spotPython]: success
 [2023-05-03 12:00:03] INFO root fetch - main [MainThread]: End processing [skill-sdk]: success
 [2023-05-03 12:00:03] INFO root fetch - main [MainThread]: Store serial: [17954633]
+[2023-05-03 12:05:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17954633]
+[2023-05-03 12:05:14] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-03 12:05:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: testpkg123-abcd
+[2023-05-03 12:05:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Geode-SimplexGeosciences
+[2023-05-03 12:05:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: metamist
+[2023-05-03 12:05:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-delivery-multi-destination
+[2023-05-03 12:05:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: integreat-cms
+[2023-05-03 12:05:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Geode-Hybrid
+[2023-05-03 12:05:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lixinger
+[2023-05-03 12:05:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: whoisdomain
+[2023-05-03 12:05:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PySMT
+[2023-05-03 12:05:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fastel
+[2023-05-03 12:05:14] INFO root fetch - processPackages [Geode-SimplexGeosciences]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-05-03 12:05:14] INFO root fetch - processPackages [odoo-addon-delivery-multi-destination]: New version: [15.0.1.0.1] Old Version: [15.0.1.0.0.3]
+[2023-05-03 12:05:14] INFO root fetch - processPackages [metamist]: New version: [6.0.2] Old Version: [6.0.1]
+[2023-05-03 12:05:14] INFO root fetch - processPackages [whoisdomain]: New version: [1.20230503.1] Old Version: [1.20230424.7]
+[2023-05-03 12:05:14] INFO root fetch - processPackages [Geode-Hybrid]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-05-03 12:05:14] WARNING root fetch - processPackages [testpkg123-abcd]: Skipping, unable to determine old version
+[2023-05-03 12:05:14] INFO root fetch - processPackages [testpkg123-abcd]: Start processing: akshare
+[2023-05-03 12:05:14] INFO root fetch - main [MainThread]: End processing [testpkg123-abcd] error
+[2023-05-03 12:05:14] INFO root fetch - processPackages [PySMT]: New version: [0.9.6.dev9] Old Version: [0.9.6.dev7]
+[2023-05-03 12:05:14] WARNING root fetch - processPackages [lixinger]: Skipping, unable to determine old version
+[2023-05-03 12:05:14] INFO root fetch - processPackages [integreat-cms]: New version: [2023.5.0] Old Version: [2023.4.3]
+[2023-05-03 12:05:14] INFO root fetch - processPackages [lixinger]: Start processing: multi-repo-automation
+[2023-05-03 12:05:14] INFO root fetch - main [MainThread]: End processing [lixinger] error
+[2023-05-03 12:05:14] INFO root fetch - processPackages [fastel]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-05-03 12:05:14] INFO root fetch - processPackages [multi-repo-automation]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-03 12:05:14] INFO root fetch - processPackages [akshare]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-03 12:05:14] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/0f/8d/63d4b03346d33aa16d322b289b4794cefc92c5a048ec8f967887d9e9abed/akshare-1.9.8.tar.gz
+[2023-05-03 12:05:14] INFO root fetch - processPackages [odoo-addon-delivery-multi-destination]: Downloading https://files.pythonhosted.org/packages/27/b7/50faa8a728a0cb75fb022cb39511358d9c8978030d2499bd2ea7d2a863b6/odoo_addon_delivery_multi_destination-15.0.1.0.0.3-py3-none-any.whl
+[2023-05-03 12:05:14] INFO root fetch - processPackages [Geode-SimplexGeosciences]: Downloading https://files.pythonhosted.org/packages/e5/5c/07372af88830475eb4b1bc92ef3ce36a0fe25a9508f18f2f95c8594a503a/Geode_SimplexGeosciences-2.0.1-cp39-cp39-win_amd64.whl
+[2023-05-03 12:05:14] INFO root fetch - processPackages [Geode-Hybrid]: Downloading https://files.pythonhosted.org/packages/97/20/a7ecf5fd2d48cb0e294de6dc2957679664b10e4ef4953119b0fa2fdf50bf/Geode_Hybrid-2.0.1-cp39-cp39-win_amd64.whl
+[2023-05-03 12:05:14] INFO root fetch - processPackages [metamist]: Downloading https://files.pythonhosted.org/packages/66/d6/46ef27d52081ad1282d0163a46dcabc977c350851a52fcf5eb46236a8705/metamist-6.0.2.tar.gz
+[2023-05-03 12:05:14] INFO root fetch - processPackages [integreat-cms]: Downloading https://files.pythonhosted.org/packages/01/0c/18ac29da251602d6190cf48e92c8523e00d5900fb86cf5c980f29d49d77e/integreat-cms-2023.4.3.tar.gz
+[2023-05-03 12:05:14] INFO root fetch - processPackages [PySMT]: Downloading https://files.pythonhosted.org/packages/d8/9f/5d1e6700230e049dfe0bbf8d1ebae41e7d50dcf5bf3f55250c0acae59e3d/PySMT-0.9.6.dev7.tar.gz
+[2023-05-03 12:05:14] INFO root fetch - processPackages [fastel]: Downloading https://files.pythonhosted.org/packages/d4/7c/0ac3553271018540f34e1c23fe0d5f1dd1c745d8eceb8354f57ba65bab50/fastel-2.7.8.tar.gz
+[2023-05-03 12:05:14] INFO root fetch - processPackages [whoisdomain]: Downloading https://files.pythonhosted.org/packages/26/bc/cbbef3ea5dfcc6195085f08a2de574df4049c935cfc311a6df4db5473cbd/whoisdomain-1.20230424.7.tar.gz
+[2023-05-03 12:05:14] INFO root fetch - processPackages [multi-repo-automation]: Downloading https://files.pythonhosted.org/packages/96/f5/a0c034d446ca62ce281de506d4b7676a7d467268c843a20864f719442e78/multi_repo_automation-0.3.0.tar.gz
+[2023-05-03 12:05:14] INFO root fetch - processPackages [odoo-addon-delivery-multi-destination]: Downloading https://files.pythonhosted.org/packages/4e/5e/54ec1f92400f48d7b5f99c2a43bfee85acab8d56dfff770a5110bcbbb651/odoo_addon_delivery_multi_destination-15.0.1.0.1-py3-none-any.whl
+[2023-05-03 12:05:14] WARNING root fetch - processPackages [integreat-cms]: Skipping package: exceeds size limit 16243451>=10485760
+[2023-05-03 12:05:14] INFO root fetch - processPackages [integreat-cms]: Start processing: toolnew1
+[2023-05-03 12:05:14] INFO root fetch - main [MainThread]: End processing [integreat-cms] error
+[2023-05-03 12:05:14] INFO root fetch - processPackages [metamist]: executing diffoscope
+[2023-05-03 12:05:14] INFO root fetch - processPackages [metamist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metamist-6.0.1.tar.gz tmp/metamist-6.0.2.tar.gz --markdown 20230503/m/metamist/6.0.1-6.0.2/diff.md --exclude *.pyd
+[2023-05-03 12:05:14] INFO root fetch - processPackages [whoisdomain]: Downloading https://files.pythonhosted.org/packages/4e/df/e6e4ebf991f5da9d23b49ecf933a026cd7de40bf8d3b915f98eb1b1d12f5/whoisdomain-1.20230503.1.tar.gz
+[2023-05-03 12:05:15] INFO root fetch - processPackages [odoo-addon-delivery-multi-destination]: executing diffoscope
+[2023-05-03 12:05:15] INFO root fetch - processPackages [odoo-addon-delivery-multi-destination]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_delivery_multi_destination-15.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_delivery_multi_destination-15.0.1.0.1-py3-none-any.whl.zip --markdown 20230503/o/odoo-addon-delivery-multi-destination/15.0.1.0.0.3-15.0.1.0.1/diff.md --exclude *.pyd
+[2023-05-03 12:05:15] WARNING root fetch - processPackages [toolnew1]: Skipping, unable to determine old version
+[2023-05-03 12:05:15] INFO root fetch - main [MainThread]: End processing [toolnew1] error
+[2023-05-03 12:05:15] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/27/53/8689df1a9a49e3b8ac2951c57f49b57e27de41c067ec4709bdc8dbfebab1/akshare-1.9.9.tar.gz
+[2023-05-03 12:05:15] INFO root fetch - processPackages [multi-repo-automation]: Downloading https://files.pythonhosted.org/packages/9e/c3/6e4424586d64aa593dfb50a524be7cc2ec7bd6727022e693e7bae69018b2/multi_repo_automation-0.3.1.tar.gz
+[2023-05-03 12:05:15] INFO root fetch - processPackages [whoisdomain]: executing diffoscope
+[2023-05-03 12:05:15] INFO root fetch - processPackages [whoisdomain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whoisdomain-1.20230424.7.tar.gz tmp/whoisdomain-1.20230503.1.tar.gz --markdown 20230503/w/whoisdomain/1.20230424.7-1.20230503.1/diff.md --exclude *.pyd
+[2023-05-03 12:05:15] INFO root fetch - processPackages [Geode-Hybrid]: Downloading https://files.pythonhosted.org/packages/af/d7/8dfb9ab891ee7c9244edbde0ad50130b769dbf120484c2226d53fadcb93d/Geode_Hybrid-2.0.2-cp39-cp39-win_amd64.whl
+[2023-05-03 12:05:15] INFO root fetch - processPackages [fastel]: Downloading https://files.pythonhosted.org/packages/9c/ee/07f1d2a50223ed3acf40b6c4fe9e9cf7cddc2cc50050109b66f2104c8dec/fastel-2.7.9.tar.gz
+[2023-05-03 12:05:15] INFO root fetch - processPackages [PySMT]: Downloading https://files.pythonhosted.org/packages/ee/02/9034e1da0b220cfa6db4d0a8acb9f7293eaefedba865a2c0556078b0c5ed/PySMT-0.9.6.dev9.tar.gz
+[2023-05-03 12:05:15] INFO root fetch - processPackages [multi-repo-automation]: executing diffoscope
+[2023-05-03 12:05:15] INFO root fetch - processPackages [multi-repo-automation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multi_repo_automation-0.3.0.tar.gz tmp/multi_repo_automation-0.3.1.tar.gz --markdown 20230503/m/multi-repo-automation/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-03 12:05:15] INFO root fetch - processPackages [fastel]: executing diffoscope
+[2023-05-03 12:05:15] INFO root fetch - processPackages [fastel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastel-2.7.8.tar.gz tmp/fastel-2.7.9.tar.gz --markdown 20230503/f/fastel/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-05-03 12:05:15] INFO root fetch - processPackages [Geode-Hybrid]: executing diffoscope
+[2023-05-03 12:05:15] INFO root fetch - processPackages [Geode-Hybrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Hybrid-2.0.1-cp39-cp39-win_amd64.whl.zip tmp/Geode_Hybrid-2.0.2-cp39-cp39-win_amd64.whl.zip --markdown 20230503/G/Geode-Hybrid/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-05-03 12:05:15] INFO root fetch - processPackages [PySMT]: executing diffoscope
+[2023-05-03 12:05:15] INFO root fetch - processPackages [PySMT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySMT-0.9.6.dev7.tar.gz tmp/PySMT-0.9.6.dev9.tar.gz --markdown 20230503/P/PySMT/0.9.6.dev7-0.9.6.dev9/diff.md --exclude *.pyd
+[2023-05-03 12:05:15] INFO root fetch - processPackages [Geode-SimplexGeosciences]: Downloading https://files.pythonhosted.org/packages/23/d6/1eab676564ee274d16bb7bf1dc6143b00d0707c9db005d8e7529fa41f404/Geode_SimplexGeosciences-2.0.2-cp39-cp39-win_amd64.whl
+[2023-05-03 12:05:15] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2023-05-03 12:05:15] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.8.tar.gz tmp/akshare-1.9.9.tar.gz --markdown 20230503/a/akshare/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-03 12:05:15] INFO root fetch - processPackages [Geode-SimplexGeosciences]: executing diffoscope
+[2023-05-03 12:05:15] INFO root fetch - processPackages [Geode-SimplexGeosciences]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_SimplexGeosciences-2.0.1-cp39-cp39-win_amd64.whl.zip tmp/Geode_SimplexGeosciences-2.0.2-cp39-cp39-win_amd64.whl.zip --markdown 20230503/G/Geode-SimplexGeosciences/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-05-03 12:05:16] INFO root fetch - main [MainThread]: End processing [odoo-addon-delivery-multi-destination]: success
+[2023-05-03 12:05:16] INFO root fetch - main [MainThread]: End processing [multi-repo-automation]: success
+[2023-05-03 12:05:17] INFO root fetch - main [MainThread]: End processing [metamist]: success
+[2023-05-03 12:05:17] INFO root fetch - main [MainThread]: End processing [fastel]: success
+[2023-05-03 12:05:19] INFO root fetch - main [MainThread]: End processing [PySMT]: success
+[2023-05-03 12:05:19] INFO root fetch - main [MainThread]: End processing [whoisdomain]: success
+[2023-05-03 12:05:19] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2023-05-03 12:05:28] INFO root fetch - main [MainThread]: End processing [Geode-Hybrid]: success
+[2023-05-03 12:05:31] INFO root fetch - main [MainThread]: End processing [Geode-SimplexGeosciences]: success
+[2023-05-03 12:05:31] INFO root fetch - main [MainThread]: Store serial: [17954709]
