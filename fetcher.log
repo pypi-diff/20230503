@@ -18434,3 +18434,126 @@ No space left on device. Diffoscope exiting.
 [2023-05-03 17:26:33] INFO root fetch - main [MainThread]: End processing [phidata]: success
 [2023-05-03 17:26:33] INFO root fetch - main [MainThread]: End processing [texplain]: success
 [2023-05-03 17:26:33] INFO root fetch - main [MainThread]: Store serial: [17958651]
+[2023-05-03 17:31:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17958651]
+[2023-05-03 17:31:44] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-03 17:31:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: texplain
+[2023-05-03 17:31:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: catprompt
+[2023-05-03 17:31:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: toolcheck1
+[2023-05-03 17:31:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fepops
+[2023-05-03 17:31:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scoobi
+[2023-05-03 17:31:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: blobtk
+[2023-05-03 17:31:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kaskada
+[2023-05-03 17:31:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: umato
+[2023-05-03 17:31:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sunpeek
+[2023-05-03 17:31:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gardener-cicd-base
+[2023-05-03 17:31:44] INFO root fetch - processPackages [texplain]: New version: [0.8.0] Old Version: [0.7.6]
+[2023-05-03 17:31:44] INFO root fetch - processPackages [sunpeek]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-03 17:31:44] INFO root fetch - processPackages [umato]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-03 17:31:44] INFO root fetch - processPackages [catprompt]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-03 17:31:44] INFO root fetch - processPackages [fepops]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-05-03 17:31:44] WARNING root fetch - processPackages [toolcheck1]: Skipping, unable to determine old version
+[2023-05-03 17:31:44] INFO root fetch - processPackages [toolcheck1]: Start processing: gardener-cicd-cli
+[2023-05-03 17:31:44] INFO root fetch - main [MainThread]: End processing [toolcheck1] error
+[2023-05-03 17:31:44] INFO root fetch - processPackages [scoobi]: New version: [0.0.1.3] Old Version: [0.0.1.2]
+[2023-05-03 17:31:44] INFO root fetch - processPackages [kaskada]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-03 17:31:44] INFO root fetch - processPackages [blobtk]: New version: [0.3.0] Old Version: [0.2.4]
+[2023-05-03 17:31:44] INFO root fetch - processPackages [gardener-cicd-base]: New version: [1.2047.0] Old Version: [1.2046.0]
+[2023-05-03 17:31:44] INFO root fetch - processPackages [gardener-cicd-cli]: New version: [1.2047.0] Old Version: [1.2046.0]
+[2023-05-03 17:31:44] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/79/34/a9f652428a73f52b95eb9f6a5a64f09100c532d6e06414a3f36039c54743/gardener-cicd-base-1.2046.0.tar.gz
+[2023-05-03 17:31:44] INFO root fetch - processPackages [umato]: Downloading https://files.pythonhosted.org/packages/8a/e9/f53cb5d4964c3b8a5bfb9df251437e76dcdc96a9786fe2f8ea5cdd55c0d7/umato-0.1.1.tar.gz
+[2023-05-03 17:31:44] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/20/3f/535a2c84a04afb6c64ce464c6ed55e8bb0411eb739f5e680253a2f30fbd7/gardener-cicd-cli-1.2046.0.tar.gz
+[2023-05-03 17:31:44] INFO root fetch - processPackages [fepops]: Downloading https://files.pythonhosted.org/packages/c4/22/b04b6ece69148d6bd5742a94dea01dd9eb72b64dd6d8d9074c2d13cc9b0a/fepops-1.2.0.tar.gz
+[2023-05-03 17:31:44] INFO root fetch - processPackages [sunpeek]: Downloading https://files.pythonhosted.org/packages/7d/87/fc2d2721ed03813871d259741139dcbcb0f1a5a7686743ee6d533d5af952/sunpeek-0.2.8-py3-none-any.whl
+[2023-05-03 17:31:44] INFO root fetch - processPackages [catprompt]: Downloading https://files.pythonhosted.org/packages/cd/c5/7c9a3d9a16fc54e4beb9fd0d7570764e2298e879495d9cd6dd919de9ba7a/catprompt-0.1.0.tar.gz
+[2023-05-03 17:31:44] INFO root fetch - processPackages [blobtk]: Downloading https://files.pythonhosted.org/packages/04/27/4093d6b5a8c7df281c0bbe7ebb09d1c040e0f1db68119ad4b093c5856eca/blobtk-0.2.4.tar.gz
+[2023-05-03 17:31:44] INFO root fetch - processPackages [scoobi]: Downloading https://files.pythonhosted.org/packages/94/b1/39cc6ea4f2c15e7352b50287e2b74d2e04478c8ee8e04b07fc7bc35a6660/scoobi-0.0.1.3.tar.gz
+[2023-05-03 17:31:44] INFO root fetch - processPackages [kaskada]: Downloading https://files.pythonhosted.org/packages/6f/b2/cf4477756f08be1a93795320fd1d926a9033d5c3df17f4055d30aa2bd2ac/kaskada-0.1.6.tar.gz
+[2023-05-03 17:31:44] INFO root fetch - processPackages [texplain]: executing diffoscope
+[2023-05-03 17:31:44] INFO root fetch - processPackages [texplain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/texplain-0.7.6.tar.gz tmp/texplain-0.8.0.tar.gz --markdown 20230503/t/texplain/0.7.6-0.8.0/diff.md --exclude *.pyd
+[2023-05-03 17:31:44] INFO root fetch - processPackages [scoobi]: executing diffoscope
+[2023-05-03 17:31:44] INFO root fetch - processPackages [scoobi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scoobi-0.0.1.2.tar.gz tmp/scoobi-0.0.1.3.tar.gz --markdown 20230503/s/scoobi/0.0.1.2-0.0.1.3/diff.md --exclude *.pyd
+[2023-05-03 17:31:44] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/3e/72/56b0c12751d606a417c1d8b55c5b51fb3d72110d9b3a50730358affe3e2f/gardener-cicd-base-1.2047.0.tar.gz
+[2023-05-03 17:31:44] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/32/2b/4ac31105b6aef67ffa2e518c5f249311abad1129b3710b820fcf1f2c1b4f/gardener-cicd-cli-1.2047.0.tar.gz
+[2023-05-03 17:31:44] INFO root fetch - processPackages [kaskada]: Downloading https://files.pythonhosted.org/packages/0e/48/bfe853d782535d5e3710cdaee67ccb305b7887e5209b00b589f1ca3bf154/kaskada-0.1.7.tar.gz
+[2023-05-03 17:31:44] INFO root fetch - processPackages [fepops]: Downloading https://files.pythonhosted.org/packages/a0/00/a45710dc4f5ad6e105f476fa6777958022d5158e48756519ef26b33dd833/fepops-1.3.0.tar.gz
+[2023-05-03 17:31:44] INFO root fetch - processPackages [umato]: Downloading https://files.pythonhosted.org/packages/6b/81/0beadbd063b012c1f0f38204782e23024e669a13a1d258d13c730ef14f31/umato-0.1.2.tar.gz
+[2023-05-03 17:31:44] INFO root fetch - processPackages [gardener-cicd-cli]: executing diffoscope
+[2023-05-03 17:31:44] INFO root fetch - processPackages [gardener-cicd-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-cli-1.2046.0.tar.gz tmp/gardener-cicd-cli-1.2047.0.tar.gz --markdown 20230503/g/gardener-cicd-cli/1.2046.0-1.2047.0/diff.md --exclude *.pyd
+[2023-05-03 17:31:44] INFO root fetch - processPackages [gardener-cicd-base]: executing diffoscope
+[2023-05-03 17:31:44] INFO root fetch - processPackages [catprompt]: Downloading https://files.pythonhosted.org/packages/be/db/59610f4601aff7b5a4c08dbdc4e35efb0663b9e158178e6bb6359f276143/catprompt-0.1.1.tar.gz
+[2023-05-03 17:31:44] INFO root fetch - processPackages [gardener-cicd-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-base-1.2046.0.tar.gz tmp/gardener-cicd-base-1.2047.0.tar.gz --markdown 20230503/g/gardener-cicd-base/1.2046.0-1.2047.0/diff.md --exclude *.pyd
+[2023-05-03 17:31:44] INFO root fetch - processPackages [blobtk]: Downloading https://files.pythonhosted.org/packages/55/4c/a93ffabfcbc82763a93640ab0d7d8f8c9ee165aa317c649a289e1f619aa5/blobtk-0.3.0.tar.gz
+[2023-05-03 17:31:44] INFO root fetch - processPackages [sunpeek]: Downloading https://files.pythonhosted.org/packages/a5/83/92e0e84a50850a618aae14d33638554bcbb3ccc7fc4a8bad2c03cfa0ed20/sunpeek-0.2.9-py3-none-any.whl
+[2023-05-03 17:31:44] INFO root fetch - processPackages [kaskada]: executing diffoscope
+[2023-05-03 17:31:44] INFO root fetch - processPackages [kaskada]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaskada-0.1.6.tar.gz tmp/kaskada-0.1.7.tar.gz --markdown 20230503/k/kaskada/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-03 17:31:44] INFO root fetch - processPackages [fepops]: executing diffoscope
+[2023-05-03 17:31:44] INFO root fetch - processPackages [fepops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fepops-1.2.0.tar.gz tmp/fepops-1.3.0.tar.gz --markdown 20230503/f/fepops/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-05-03 17:31:44] INFO root fetch - processPackages [umato]: executing diffoscope
+[2023-05-03 17:31:44] INFO root fetch - processPackages [umato]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/umato-0.1.1.tar.gz tmp/umato-0.1.2.tar.gz --markdown 20230503/u/umato/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-03 17:31:44] INFO root fetch - processPackages [catprompt]: executing diffoscope
+[2023-05-03 17:31:44] INFO root fetch - processPackages [catprompt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catprompt-0.1.0.tar.gz tmp/catprompt-0.1.1.tar.gz --markdown 20230503/c/catprompt/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-03 17:31:44] INFO root fetch - processPackages [blobtk]: executing diffoscope
+[2023-05-03 17:31:44] INFO root fetch - processPackages [blobtk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blobtk-0.2.4.tar.gz tmp/blobtk-0.3.0.tar.gz --markdown 20230503/b/blobtk/0.2.4-0.3.0/diff.md --exclude *.pyd
+[2023-05-03 17:31:45] INFO root fetch - processPackages [sunpeek]: executing diffoscope
+[2023-05-03 17:31:45] INFO root fetch - processPackages [sunpeek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunpeek-0.2.8-py3-none-any.whl.zip tmp/sunpeek-0.2.9-py3-none-any.whl.zip --markdown 20230503/s/sunpeek/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-03 17:31:45] INFO root fetch - processPackages [scoobi]: Start processing: gardener-cicd-dso
+[2023-05-03 17:31:45] INFO root fetch - main [MainThread]: End processing [scoobi]: success
+[2023-05-03 17:31:46] INFO root fetch - processPackages [gardener-cicd-dso]: New version: [1.2047.0] Old Version: [1.2046.0]
+[2023-05-03 17:31:46] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/d7/ed/2e3dfe9853a90180f9bc5bf9cc5aacbd9eedf06bb8f8fc195a7eb476ff35/gardener-cicd-dso-1.2046.0.tar.gz
+[2023-05-03 17:31:46] INFO root fetch - processPackages [gardener-cicd-cli]: Start processing: gardener-cicd-libs
+[2023-05-03 17:31:46] INFO root fetch - main [MainThread]: End processing [gardener-cicd-cli]: success
+[2023-05-03 17:31:46] INFO root fetch - processPackages [gardener-cicd-libs]: New version: [1.2047.0] Old Version: [1.2046.0]
+[2023-05-03 17:31:46] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/a0/e5/81a86e6052f82613897f786171a665af87c03b0bdf760bf9b666221d77c5/gardener-cicd-libs-1.2046.0.tar.gz
+[2023-05-03 17:31:46] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/cb/c5/219b886f458b1c12213bc804a45b4fe2663221591be6334072e102ef499e/gardener-cicd-dso-1.2047.0.tar.gz
+[2023-05-03 17:31:46] INFO root fetch - processPackages [gardener-cicd-dso]: executing diffoscope
+[2023-05-03 17:31:46] INFO root fetch - processPackages [gardener-cicd-dso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-dso-1.2046.0.tar.gz tmp/gardener-cicd-dso-1.2047.0.tar.gz --markdown 20230503/g/gardener-cicd-dso/1.2046.0-1.2047.0/diff.md --exclude *.pyd
+[2023-05-03 17:31:46] INFO root fetch - processPackages [gardener-cicd-base]: Start processing: gardener-cicd-whd
+[2023-05-03 17:31:46] INFO root fetch - main [MainThread]: End processing [gardener-cicd-base]: success
+[2023-05-03 17:31:46] INFO root fetch - processPackages [fepops]: Start processing: gardener-oci
+[2023-05-03 17:31:46] INFO root fetch - main [MainThread]: End processing [fepops]: success
+[2023-05-03 17:31:46] INFO root fetch - processPackages [blobtk]: Start processing: Geode-Conversion
+[2023-05-03 17:31:46] INFO root fetch - main [MainThread]: End processing [blobtk]: success
+[2023-05-03 17:31:46] INFO root fetch - processPackages [gardener-cicd-whd]: New version: [1.2047.0] Old Version: [1.2046.0]
+[2023-05-03 17:31:46] INFO root fetch - processPackages [gardener-oci]: New version: [1.999.0] Old Version: [1.998.0]
+[2023-05-03 17:31:46] INFO root fetch - processPackages [Geode-Conversion]: New version: [5.0.4] Old Version: [5.0.3]
+[2023-05-03 17:31:46] INFO root fetch - processPackages [catprompt]: Start processing: libmata
+[2023-05-03 17:31:46] INFO root fetch - main [MainThread]: End processing [catprompt]: success
+[2023-05-03 17:31:46] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/f5/23/e0823261824c305e66a2a04de53eda495a381a89d433a41eaf1484e08e54/gardener-cicd-libs-1.2047.0.tar.gz
+[2023-05-03 17:31:46] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/65/8d/87469d533eb661d280b5bb3eb778421053cbe6438908abdc1d79b2921522/gardener-oci-1.998.0.tar.gz
+[2023-05-03 17:31:46] INFO root fetch - processPackages [libmata]: New version: [0.58.0] Old Version: [0.57.0]
+[2023-05-03 17:31:46] INFO root fetch - processPackages [gardener-cicd-libs]: executing diffoscope
+[2023-05-03 17:31:46] INFO root fetch - processPackages [gardener-cicd-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-libs-1.2046.0.tar.gz tmp/gardener-cicd-libs-1.2047.0.tar.gz --markdown 20230503/g/gardener-cicd-libs/1.2046.0-1.2047.0/diff.md --exclude *.pyd
+[2023-05-03 17:31:46] INFO root fetch - processPackages [kaskada]: Start processing: Mirolyubov-lab3
+[2023-05-03 17:31:46] INFO root fetch - main [MainThread]: End processing [kaskada]: success
+[2023-05-03 17:31:46] INFO root fetch - processPackages [umato]: Start processing: glyphsets
+[2023-05-03 17:31:46] INFO root fetch - main [MainThread]: End processing [umato]: success
+[2023-05-03 17:31:46] WARNING root fetch - processPackages [Mirolyubov-lab3]: Skipping, unable to determine old version
+[2023-05-03 17:31:46] INFO root fetch - main [MainThread]: End processing [Mirolyubov-lab3] error
+[2023-05-03 17:31:46] INFO root fetch - main [MainThread]: End processing [sunpeek]: success
+[2023-05-03 17:31:46] INFO root fetch - processPackages [Geode-Conversion]: Downloading https://files.pythonhosted.org/packages/d9/d2/796febb06e1f764aaf7981dc9e03dd517dd02b74d5e48e13d22871b4a1cb/Geode_Conversion-5.0.4-cp39-cp39-manylinux2014_x86_64.whl
+[2023-05-03 17:31:46] INFO root fetch - processPackages [glyphsets]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-05-03 17:31:46] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/b0/67/ecb13142ceb6018ea81541754ba87020be6ba1a10cf9e7adf5478b25a187/gardener-cicd-whd-1.2047.0.tar.gz
+[2023-05-03 17:31:46] INFO root fetch - processPackages [libmata]: Downloading https://files.pythonhosted.org/packages/1b/6a/53bb3e948f46a483cfcec1b62c7b297a0aa381e101a4e1dfdd19ebb4f9a5/libmata-0.57.0.tar.gz
+[2023-05-03 17:31:46] INFO root fetch - processPackages [Geode-Conversion]: executing diffoscope
+[2023-05-03 17:31:46] INFO root fetch - processPackages [Geode-Conversion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Conversion-5.0.3-cp39-cp39-win_amd64.whl.zip tmp/Geode_Conversion-5.0.4-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230503/G/Geode-Conversion/5.0.3-5.0.4/diff.md --exclude *.pyd
+[2023-05-03 17:31:47] INFO root fetch - processPackages [gardener-cicd-whd]: executing diffoscope
+[2023-05-03 17:31:47] INFO root fetch - processPackages [gardener-cicd-whd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-whd-1.2046.0.tar.gz tmp/gardener-cicd-whd-1.2047.0.tar.gz --markdown 20230503/g/gardener-cicd-whd/1.2046.0-1.2047.0/diff.md --exclude *.pyd
+[2023-05-03 17:31:47] INFO root fetch - processPackages [glyphsets]: Downloading https://files.pythonhosted.org/packages/ed/e9/15db8d7da7a33482b48bcc5734a85d89d93a243f3803f22dbc761bde7bdd/glyphsets-0.6.0.tar.gz
+[2023-05-03 17:31:47] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/f8/de/c6930b025944729e4655e337193e76592dfc15653c0cde84790cb8650df4/gardener-oci-1.999.0.tar.gz
+[2023-05-03 17:31:47] INFO root fetch - processPackages [glyphsets]: Downloading https://files.pythonhosted.org/packages/a8/54/c9fe7db9ab2166b4e414451e1f3fba04f84258a36e8f8cc34bf35c49b4ad/glyphsets-0.6.1.tar.gz
+[2023-05-03 17:31:47] INFO root fetch - processPackages [gardener-oci]: executing diffoscope
+[2023-05-03 17:31:47] INFO root fetch - processPackages [gardener-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-oci-1.998.0.tar.gz tmp/gardener-oci-1.999.0.tar.gz --markdown 20230503/g/gardener-oci/1.998.0-1.999.0/diff.md --exclude *.pyd
+[2023-05-03 17:31:47] INFO root fetch - main [MainThread]: End processing [texplain]: success
+[2023-05-03 17:31:47] INFO root fetch - processPackages [glyphsets]: executing diffoscope
+[2023-05-03 17:31:47] INFO root fetch - processPackages [glyphsets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glyphsets-0.6.0.tar.gz tmp/glyphsets-0.6.1.tar.gz --markdown 20230503/g/glyphsets/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-05-03 17:31:47] INFO root fetch - processPackages [libmata]: Downloading https://files.pythonhosted.org/packages/d8/56/96f3c59df022b8b0e72cf6063bf58817ace3ecf03cd86141a18a8e26c109/libmata-0.58.0.tar.gz
+[2023-05-03 17:31:47] INFO root fetch - processPackages [libmata]: executing diffoscope
+[2023-05-03 17:31:47] INFO root fetch - processPackages [libmata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libmata-0.57.0.tar.gz tmp/libmata-0.58.0.tar.gz --markdown 20230503/l/libmata/0.57.0-0.58.0/diff.md --exclude *.pyd
+[2023-05-03 17:31:47] INFO root fetch - main [MainThread]: End processing [gardener-cicd-dso]: success
+[2023-05-03 17:31:48] INFO root fetch - main [MainThread]: End processing [gardener-cicd-whd]: success
+[2023-05-03 17:31:48] INFO root fetch - main [MainThread]: End processing [Geode-Conversion]: success
+[2023-05-03 17:31:48] INFO root fetch - main [MainThread]: End processing [gardener-oci]: success
+[2023-05-03 17:31:49] INFO root fetch - main [MainThread]: End processing [gardener-cicd-libs]: success
+[2023-05-03 17:31:51] INFO root fetch - main [MainThread]: End processing [libmata]: success
+[2023-05-03 17:33:44] INFO root fetch - main [MainThread]: End processing [glyphsets]: success
+[2023-05-03 17:33:44] INFO root fetch - main [MainThread]: Store serial: [17958732]
