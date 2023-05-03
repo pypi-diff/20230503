@@ -20865,3 +20865,129 @@ No space left on device. Diffoscope exiting.
 [2023-05-03 19:15:22] INFO root fetch - main [MainThread]: End processing [headless]: success
 [2023-05-03 19:15:22] INFO root fetch - main [MainThread]: End processing [TuoTuo]: success
 [2023-05-03 19:15:22] INFO root fetch - main [MainThread]: Store serial: [17960250]
+[2023-05-03 19:20:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17960250]
+[2023-05-03 19:20:31] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-03 19:20:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: heaserver-registry
+[2023-05-03 19:20:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ipfabric-diagrams
+[2023-05-03 19:20:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crawler-commons
+[2023-05-03 19:20:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: recurrent-memory-transformer-pytorch
+[2023-05-03 19:20:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: certora-cli-alpha-yuvalbd-rule-events-error-checking
+[2023-05-03 19:20:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: interval-sdk
+[2023-05-03 19:20:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: great-expectations-experimental
+[2023-05-03 19:20:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: earthengine-api
+[2023-05-03 19:20:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ft-package-42-jekim
+[2023-05-03 19:20:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: simple-aws-ec2
+[2023-05-03 19:20:31] INFO root fetch - processPackages [ipfabric-diagrams]: New version: [6.2.1] Old Version: [6.2.0b1]
+[2023-05-03 19:20:31] INFO root fetch - processPackages [heaserver-registry]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-05-03 19:20:31] INFO root fetch - processPackages [certora-cli-alpha-yuvalbd-rule-events-error-checking]: New version: [20230503.9.23.883087] Old Version: [20230503.6.31.272506]
+[2023-05-03 19:20:31] INFO root fetch - processPackages [crawler-commons]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-03 19:20:31] INFO root fetch - processPackages [recurrent-memory-transformer-pytorch]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-03 19:20:31] INFO root fetch - processPackages [interval-sdk]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-05-03 19:20:31] INFO root fetch - processPackages [ft-package-42-jekim]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-03 19:20:31] INFO root fetch - processPackages [simple-aws-ec2]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-03 19:20:31] INFO root fetch - processPackages [earthengine-api]: New version: [0.1.99] Old Version: [0.1.97]
+[2023-05-03 19:20:31] INFO root fetch - processPackages [great-expectations-experimental]: New version: [0.1.20230503047] Old Version: [0.1.20230424044]
+[2023-05-03 19:20:31] INFO root fetch - processPackages [certora-cli-alpha-yuvalbd-rule-events-error-checking]: Downloading https://files.pythonhosted.org/packages/ba/0c/160784a6f83808af65cddfe292f11e56241c0a7ef8a72e1a33224cd51e99/certora-cli-alpha-yuvalbd-rule_events_error_checking-20230503.6.31.272506.tar.gz
+[2023-05-03 19:20:31] WARNING root fetch - processPackages [certora-cli-alpha-yuvalbd-rule-events-error-checking]: Skipping package: exceeds size limit 38364628>=10485760
+[2023-05-03 19:20:31] INFO root fetch - processPackages [certora-cli-alpha-yuvalbd-rule-events-error-checking]: Start processing: ecida
+[2023-05-03 19:20:31] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-yuvalbd-rule-events-error-checking] error
+[2023-05-03 19:20:31] INFO root fetch - processPackages [recurrent-memory-transformer-pytorch]: Downloading https://files.pythonhosted.org/packages/4e/08/e3b769636275e02e88a07e0ed9e134e18dd60aa6d7221ef993173a1811a9/recurrent-memory-transformer-pytorch-0.2.4.tar.gz
+[2023-05-03 19:20:31] INFO root fetch - processPackages [ecida]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-03 19:20:31] INFO root fetch - processPackages [simple-aws-ec2]: Downloading https://files.pythonhosted.org/packages/f9/49/0c78a0ca95eab77a31e4a3864788b545aa4fc0ef3864df6f7b4280c42fe3/simple_aws_ec2-0.1.2.tar.gz
+[2023-05-03 19:20:31] INFO root fetch - processPackages [interval-sdk]: Downloading https://files.pythonhosted.org/packages/15/b6/6e6c3532fd730154e4803621642de89b20e6fdaed0fc743a785f814f7c4c/interval_sdk-1.1.0.tar.gz
+[2023-05-03 19:20:31] INFO root fetch - processPackages [earthengine-api]: Downloading https://files.pythonhosted.org/packages/34/ab/ffc5a8a504b242a55990eb9ac363c9e5e30cdbb203f0362d6e7ba41bbcad/earthengine-api-0.1.97.tar.gz
+[2023-05-03 19:20:31] INFO root fetch - processPackages [great-expectations-experimental]: Downloading https://files.pythonhosted.org/packages/f1/9e/54ea3a98f578fd262bca13873bca7c06275140b0e94d1dc601ea19732c92/great_expectations_experimental-0.1.20230424044.tar.gz
+[2023-05-03 19:20:31] INFO root fetch - processPackages [ft-package-42-jekim]: Downloading https://files.pythonhosted.org/packages/ee/17/f0dbb0ec9532ad545cd6ec1c90af0de66802e9d8d529a94a1f0a21a5e137/ft_package_42_jekim-0.0.1.tar.gz
+[2023-05-03 19:20:31] INFO root fetch - processPackages [ipfabric-diagrams]: Downloading https://files.pythonhosted.org/packages/a2/4e/5f02e4aa6ec9ccace4837a8acb556233830ade45e0fab379670d73613c95/ipfabric_diagrams-6.2.0b1.tar.gz
+[2023-05-03 19:20:31] INFO root fetch - processPackages [crawler-commons]: Downloading https://files.pythonhosted.org/packages/f2/83/35c50c245f854d66fd930c6b6b5dbdf6e2fa34522b657870152439358300/crawler_commons-0.0.1.tar.gz
+[2023-05-03 19:20:31] INFO root fetch - processPackages [ecida]: Downloading https://files.pythonhosted.org/packages/e8/c0/e6eae0bdd46bc3ce1eab3203fde0d0fd0dd550007e628437f65a6c1f578f/ecida-0.0.1-py3-none-any.whl
+[2023-05-03 19:20:31] INFO root fetch - processPackages [heaserver-registry]: executing diffoscope
+[2023-05-03 19:20:31] INFO root fetch - processPackages [heaserver-registry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver-registry-1.0.0a8.tar.gz tmp/heaserver-registry-1.0.0a9.tar.gz --markdown 20230503/h/heaserver-registry/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-05-03 19:20:31] INFO root fetch - processPackages [recurrent-memory-transformer-pytorch]: Downloading https://files.pythonhosted.org/packages/9a/b5/f2b5be9d7b85891352392387699296fb798c5d6f3b142b122bf6907ff2a4/recurrent-memory-transformer-pytorch-0.2.5.tar.gz
+[2023-05-03 19:20:32] INFO root fetch - processPackages [simple-aws-ec2]: Downloading https://files.pythonhosted.org/packages/5f/cd/fa9f85d82ea82bb950ab054b99f41b8ca73ce852d774a3c293bf2de3367d/simple_aws_ec2-0.1.3.tar.gz
+[2023-05-03 19:20:32] INFO root fetch - processPackages [interval-sdk]: Downloading https://files.pythonhosted.org/packages/37/ff/ced28aabbff20c0be30ea62d8ceebe0dd1e209263c11decb6383f5a5d5b0/interval_sdk-1.2.0.tar.gz
+[2023-05-03 19:20:32] INFO root fetch - processPackages [great-expectations-experimental]: Downloading https://files.pythonhosted.org/packages/48/49/8d97a9a4bbd73dece8040e50624751b54e971d89d4807b0bd90846af2edd/great_expectations_experimental-0.1.20230503047.tar.gz
+[2023-05-03 19:20:32] INFO root fetch - processPackages [crawler-commons]: Downloading https://files.pythonhosted.org/packages/ce/31/b9cc8026bd79783d41ff36d93b9b78b334881a7b87a5135f892e9a562d3d/crawler_commons-0.0.2.tar.gz
+[2023-05-03 19:20:32] INFO root fetch - processPackages [recurrent-memory-transformer-pytorch]: executing diffoscope
+[2023-05-03 19:20:32] INFO root fetch - processPackages [recurrent-memory-transformer-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recurrent-memory-transformer-pytorch-0.2.4.tar.gz tmp/recurrent-memory-transformer-pytorch-0.2.5.tar.gz --markdown 20230503/r/recurrent-memory-transformer-pytorch/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-05-03 19:20:32] INFO root fetch - processPackages [ft-package-42-jekim]: Downloading https://files.pythonhosted.org/packages/48/2a/eea7125cae959d19b70cb748cb84265e5105f922e54ca2a1a1e21db85857/ft_package_42_jekim-0.0.2-py3-none-any.whl
+[2023-05-03 19:20:32] INFO root fetch - processPackages [simple-aws-ec2]: executing diffoscope
+[2023-05-03 19:20:32] INFO root fetch - processPackages [simple-aws-ec2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_aws_ec2-0.1.2.tar.gz tmp/simple_aws_ec2-0.1.3.tar.gz --markdown 20230503/s/simple-aws-ec2/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-03 19:20:32] INFO root fetch - processPackages [ecida]: Downloading https://files.pythonhosted.org/packages/fb/fe/9d4e5c6ae50574cd5a822e98e4eda5922728b21deb3361c41e12b2448c3d/ecida-0.0.2.tar.gz
+[2023-05-03 19:20:32] INFO root fetch - processPackages [great-expectations-experimental]: executing diffoscope
+[2023-05-03 19:20:32] INFO root fetch - processPackages [great-expectations-experimental]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/great_expectations_experimental-0.1.20230424044.tar.gz tmp/great_expectations_experimental-0.1.20230503047.tar.gz --markdown 20230503/g/great-expectations-experimental/0.1.20230424044-0.1.20230503047/diff.md --exclude *.pyd
+[2023-05-03 19:20:32] INFO root fetch - processPackages [ipfabric-diagrams]: Downloading https://files.pythonhosted.org/packages/6d/d4/a53ad1c107fe9bdccab936872c4b917b8e47d441fce309296d49aedc5497/ipfabric_diagrams-6.2.1.tar.gz
+[2023-05-03 19:20:32] INFO root fetch - processPackages [interval-sdk]: executing diffoscope
+[2023-05-03 19:20:32] INFO root fetch - processPackages [interval-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/interval_sdk-1.1.0.tar.gz tmp/interval_sdk-1.2.0.tar.gz --markdown 20230503/i/interval-sdk/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-05-03 19:20:32] INFO root fetch - processPackages [crawler-commons]: executing diffoscope
+[2023-05-03 19:20:32] INFO root fetch - processPackages [crawler-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crawler_commons-0.0.1.tar.gz tmp/crawler_commons-0.0.2.tar.gz --markdown 20230503/c/crawler-commons/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-03 19:20:32] INFO root fetch - processPackages [ft-package-42-jekim]: executing diffoscope
+[2023-05-03 19:20:32] INFO root fetch - processPackages [ft-package-42-jekim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ft_package_42_jekim-0.0.1.tar.gz tmp/ft_package_42_jekim-0.0.2-py3-none-any.whl.zip --markdown 20230503/f/ft-package-42-jekim/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-03 19:20:32] INFO root fetch - processPackages [ecida]: executing diffoscope
+[2023-05-03 19:20:32] INFO root fetch - processPackages [ecida]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecida-0.0.1-py3-none-any.whl.zip tmp/ecida-0.0.2.tar.gz --markdown 20230503/e/ecida/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-03 19:20:32] INFO root fetch - processPackages [ipfabric-diagrams]: executing diffoscope
+[2023-05-03 19:20:32] INFO root fetch - processPackages [ipfabric-diagrams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipfabric_diagrams-6.2.0b1.tar.gz tmp/ipfabric_diagrams-6.2.1.tar.gz --markdown 20230503/i/ipfabric-diagrams/6.2.0b1-6.2.1/diff.md --exclude *.pyd
+[2023-05-03 19:20:32] INFO root fetch - processPackages [earthengine-api]: Downloading https://files.pythonhosted.org/packages/57/32/e9962f84ea0857b1d931597eb5b674e5a023c9162b7e369593bcab88756d/earthengine-api-0.1.99.tar.gz
+[2023-05-03 19:20:32] INFO root fetch - processPackages [earthengine-api]: executing diffoscope
+[2023-05-03 19:20:32] INFO root fetch - processPackages [earthengine-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/earthengine-api-0.1.97.tar.gz tmp/earthengine-api-0.1.99.tar.gz --markdown 20230503/e/earthengine-api/0.1.97-0.1.99/diff.md --exclude *.pyd
+[2023-05-03 19:20:33] INFO root fetch - processPackages [heaserver-registry]: Start processing: pollination-streamlit-io
+[2023-05-03 19:20:33] INFO root fetch - main [MainThread]: End processing [heaserver-registry]: success
+[2023-05-03 19:20:33] INFO root fetch - processPackages [pollination-streamlit-io]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-03 19:20:33] INFO root fetch - processPackages [recurrent-memory-transformer-pytorch]: Start processing: genluhn
+[2023-05-03 19:20:33] INFO root fetch - main [MainThread]: End processing [recurrent-memory-transformer-pytorch]: success
+[2023-05-03 19:20:33] INFO root fetch - processPackages [genluhn]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-03 19:20:33] INFO root fetch - processPackages [pollination-streamlit-io]: executing diffoscope
+[2023-05-03 19:20:33] INFO root fetch - processPackages [pollination-streamlit-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pollination-streamlit-io-0.9.2.tar.gz tmp/pollination-streamlit-io-0.9.3.tar.gz --markdown 20230503/p/pollination-streamlit-io/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-03 19:20:33] INFO root fetch - processPackages [genluhn]: Downloading https://files.pythonhosted.org/packages/ac/38/bfb7077e9f58a51f0f70c121354a76c73197c7128c848cf0c4c6126b80eb/genluhn-0.3.0.tar.gz
+[2023-05-03 19:20:33] INFO root fetch - processPackages [ft-package-42-jekim]: Start processing: odoo12-addon-l10n-it-fatturapa-sdicoop
+[2023-05-03 19:20:33] INFO root fetch - main [MainThread]: End processing [ft-package-42-jekim]: success
+[2023-05-03 19:20:33] INFO root fetch - processPackages [odoo12-addon-l10n-it-fatturapa-sdicoop]: New version: [12.0.2.2.1] Old Version: [12.0.2.2.0.99.dev3]
+[2023-05-03 19:20:33] INFO root fetch - processPackages [crawler-commons]: Start processing: odoo12-addon-l10n-it-sdi-channel
+[2023-05-03 19:20:33] INFO root fetch - main [MainThread]: End processing [crawler-commons]: success
+[2023-05-03 19:20:33] INFO root fetch - processPackages [odoo12-addon-l10n-it-sdi-channel]: New version: [12.0.2.2.4] Old Version: [12.0.2.2.3.99.dev1]
+[2023-05-03 19:20:33] INFO root fetch - processPackages [ecida]: Start processing: ecidacli
+[2023-05-03 19:20:33] INFO root fetch - main [MainThread]: End processing [ecida]: success
+[2023-05-03 19:20:33] INFO root fetch - processPackages [ecidacli]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 19:20:33] INFO root fetch - processPackages [simple-aws-ec2]: Start processing: spanishconjugator
+[2023-05-03 19:20:33] INFO root fetch - main [MainThread]: End processing [simple-aws-ec2]: success
+[2023-05-03 19:20:33] INFO root fetch - processPackages [genluhn]: Downloading https://files.pythonhosted.org/packages/a8/69/bc22c70131f1d63c08a6f9e6673579d764579764f3d82675a46ca29f3dc6/genluhn-0.3.1.tar.gz
+[2023-05-03 19:20:33] INFO root fetch - processPackages [odoo12-addon-l10n-it-fatturapa-sdicoop]: Downloading https://files.pythonhosted.org/packages/56/5e/104a8102fdbc007b884b205cfbfe9288d624e81b2b47f0af7f0fbae4d810/odoo12_addon_l10n_it_fatturapa_sdicoop-12.0.2.2.0.99.dev3-py3-none-any.whl
+[2023-05-03 19:20:34] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-05-03 19:20:34] INFO root fetch - processPackages [genluhn]: executing diffoscope
+[2023-05-03 19:20:34] INFO root fetch - processPackages [genluhn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genluhn-0.3.0.tar.gz tmp/genluhn-0.3.1.tar.gz --markdown 20230503/g/genluhn/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-03 19:20:34] INFO root fetch - processPackages [ipfabric-diagrams]: Start processing: spanishconjugator
+[2023-05-03 19:20:34] INFO root fetch - main [MainThread]: End processing [ipfabric-diagrams]: success
+[2023-05-03 19:20:34] INFO root fetch - processPackages [odoo12-addon-l10n-it-sdi-channel]: Downloading https://files.pythonhosted.org/packages/3d/ac/7514b71c579782d93d675d61090d1050f29fb9cbc5a920c770782d160b03/odoo12_addon_l10n_it_sdi_channel-12.0.2.2.3.99.dev1-py3-none-any.whl
+[2023-05-03 19:20:34] INFO root fetch - processPackages [ecidacli]: Downloading https://files.pythonhosted.org/packages/a5/be/22e1d4cf3d4d80c61b191542863f96c4a9b702b3869c77436bab4342c9ad/ecidacli-0.0.8.tar.gz
+[2023-05-03 19:20:34] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-05-03 19:20:34] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-05-03 19:20:34] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230503/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-05-03 19:20:34] INFO root fetch - processPackages [odoo12-addon-l10n-it-fatturapa-sdicoop]: Downloading https://files.pythonhosted.org/packages/9b/d7/7b3dd29d4aaf8a95dc54aa69f8ceda502ce9d9da7d23b053a41496051ad8/odoo12_addon_l10n_it_fatturapa_sdicoop-12.0.2.2.1-py3-none-any.whl
+[2023-05-03 19:20:34] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-05-03 19:20:34] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230503/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-05-03 19:20:34] INFO root fetch - processPackages [odoo12-addon-l10n-it-fatturapa-sdicoop]: executing diffoscope
+[2023-05-03 19:20:34] INFO root fetch - processPackages [odoo12-addon-l10n-it-fatturapa-sdicoop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_l10n_it_fatturapa_sdicoop-12.0.2.2.0.99.dev3-py3-none-any.whl.zip tmp/odoo12_addon_l10n_it_fatturapa_sdicoop-12.0.2.2.1-py3-none-any.whl.zip --markdown 20230503/o/odoo12-addon-l10n-it-fatturapa-sdicoop/12.0.2.2.0.99.dev3-12.0.2.2.1/diff.md --exclude *.pyd
+[2023-05-03 19:20:34] INFO root fetch - processPackages [ecidacli]: Downloading https://files.pythonhosted.org/packages/86/dc/ec70d299e123db7a465493ae1906d9e3d8e523c9638575888b40cdca86d7/ecidacli-0.0.9.tar.gz
+[2023-05-03 19:20:34] INFO root fetch - processPackages [odoo12-addon-l10n-it-sdi-channel]: Downloading https://files.pythonhosted.org/packages/b4/1d/8bd02e478f1863bdda48e631e7a1f2e0115547ee9aca33de7960f8a7a937/odoo12_addon_l10n_it_sdi_channel-12.0.2.2.4-py3-none-any.whl
+[2023-05-03 19:20:34] INFO root fetch - processPackages [ecidacli]: executing diffoscope
+[2023-05-03 19:20:34] INFO root fetch - processPackages [ecidacli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecidacli-0.0.8.tar.gz tmp/ecidacli-0.0.9.tar.gz --markdown 20230503/e/ecidacli/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 19:20:34] INFO root fetch - processPackages [odoo12-addon-l10n-it-sdi-channel]: executing diffoscope
+[2023-05-03 19:20:34] INFO root fetch - processPackages [odoo12-addon-l10n-it-sdi-channel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_l10n_it_sdi_channel-12.0.2.2.3.99.dev1-py3-none-any.whl.zip tmp/odoo12_addon_l10n_it_sdi_channel-12.0.2.2.4-py3-none-any.whl.zip --markdown 20230503/o/odoo12-addon-l10n-it-sdi-channel/12.0.2.2.3.99.dev1-12.0.2.2.4/diff.md --exclude *.pyd
+[2023-05-03 19:20:34] INFO root fetch - processPackages [interval-sdk]: Start processing: simple-aws-rds
+[2023-05-03 19:20:34] INFO root fetch - main [MainThread]: End processing [interval-sdk]: success
+[2023-05-03 19:20:35] INFO root fetch - processPackages [simple-aws-rds]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-03 19:20:35] INFO root fetch - processPackages [simple-aws-rds]: Downloading https://files.pythonhosted.org/packages/c9/16/918495c2cb288a1cfac269f219baf8d55b549c73642d1775450630bbf53f/simple_aws_rds-0.1.1.tar.gz
+[2023-05-03 19:20:35] INFO root fetch - main [MainThread]: End processing [genluhn]: success
+[2023-05-03 19:20:35] INFO root fetch - processPackages [simple-aws-rds]: Downloading https://files.pythonhosted.org/packages/58/70/369cfbca0985d0eec57650f68fa72e391f25090293d225559e4f23d1c092/simple_aws_rds-0.1.2.tar.gz
+[2023-05-03 19:20:35] INFO root fetch - processPackages [simple-aws-rds]: executing diffoscope
+[2023-05-03 19:20:35] INFO root fetch - processPackages [simple-aws-rds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_aws_rds-0.1.1.tar.gz tmp/simple_aws_rds-0.1.2.tar.gz --markdown 20230503/s/simple-aws-rds/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-03 19:20:35] INFO root fetch - main [MainThread]: End processing [ecidacli]: success
+[2023-05-03 19:20:35] INFO root fetch - main [MainThread]: End processing [pollination-streamlit-io]: success
+[2023-05-03 19:20:35] INFO root fetch - main [MainThread]: End processing [great-expectations-experimental]: success
+[2023-05-03 19:20:35] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-05-03 19:20:35] INFO root fetch - main [MainThread]: End processing [odoo12-addon-l10n-it-fatturapa-sdicoop]: success
+[2023-05-03 19:20:36] INFO root fetch - main [MainThread]: End processing [odoo12-addon-l10n-it-sdi-channel]: success
+[2023-05-03 19:20:36] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-05-03 19:20:36] INFO root fetch - main [MainThread]: End processing [earthengine-api]: success
+[2023-05-03 19:20:37] INFO root fetch - main [MainThread]: End processing [simple-aws-rds]: success
+[2023-05-03 19:20:37] INFO root fetch - main [MainThread]: Store serial: [17960308]
