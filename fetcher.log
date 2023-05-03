@@ -21165,3 +21165,76 @@ No space left on device. Diffoscope exiting.
 [2023-05-03 19:36:12] INFO root fetch - main [MainThread]: End processing [griptape]: success
 [2023-05-03 19:36:16] INFO root fetch - main [MainThread]: End processing [deepspeed]: success
 [2023-05-03 19:36:16] INFO root fetch - main [MainThread]: Store serial: [17960477]
+[2023-05-03 19:41:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17960477]
+[2023-05-03 19:41:25] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-03 19:41:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deep-clone
+[2023-05-03 19:41:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vdk-dag
+[2023-05-03 19:41:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: griptape-tools
+[2023-05-03 19:41:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: groclimateclient
+[2023-05-03 19:41:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: extism-func-gen
+[2023-05-03 19:41:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ft-package-42-jekim
+[2023-05-03 19:41:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: libdev
+[2023-05-03 19:41:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: actionlint-py
+[2023-05-03 19:41:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: axonius-api-client
+[2023-05-03 19:41:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: deepchem
+[2023-05-03 19:41:25] INFO root fetch - processPackages [groclimateclient]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-05-03 19:41:25] INFO root fetch - processPackages [deep-clone]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-03 19:41:25] INFO root fetch - processPackages [extism-func-gen]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-03 19:41:25] INFO root fetch - processPackages [ft-package-42-jekim]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-03 19:41:25] INFO root fetch - processPackages [griptape-tools]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-03 19:41:25] INFO root fetch - processPackages [libdev]: New version: [0.9] Old Version: [0.8]
+[2023-05-03 19:41:25] WARNING root fetch - processPackages [vdk-dag]: Skipping, unable to determine old version
+[2023-05-03 19:41:25] INFO root fetch - processPackages [vdk-dag]: Start processing: nwbinspector
+[2023-05-03 19:41:25] INFO root fetch - processPackages [actionlint-py]: New version: [1.6.24.2] Old Version: [1.6.22.2]
+[2023-05-03 19:41:25] INFO root fetch - main [MainThread]: End processing [vdk-dag] error
+[2023-05-03 19:41:25] INFO root fetch - processPackages [axonius-api-client]: New version: [5.0.1] Old Version: [5.0.0]
+[2023-05-03 19:41:25] INFO root fetch - processPackages [nwbinspector]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-05-03 19:41:25] INFO root fetch - processPackages [deepchem]: New version: [2.7.2.dev20230503173925] Old Version: [2.7.2.dev20230502144838]
+[2023-05-03 19:41:25] INFO root fetch - processPackages [griptape-tools]: Downloading https://files.pythonhosted.org/packages/b9/c0/e625c4f8c260e2b2cf543d8a8e1dbc96d1769359364f1a336855a2262951/griptape_tools-0.9.0.tar.gz
+[2023-05-03 19:41:25] INFO root fetch - processPackages [deep-clone]: Downloading https://files.pythonhosted.org/packages/21/a5/8c3ee69e7a4ac0437c11128e7df94a538d066db0668a5e59c2e1bfea1176/deep-clone-0.0.2.tar.gz
+[2023-05-03 19:41:25] INFO root fetch - processPackages [groclimateclient]: Downloading https://files.pythonhosted.org/packages/72/04/360105254b72d5c40949c9844ebb95e044e31419281c45f12890affa7d38/groclimateclient-1.1.7.tar.gz
+[2023-05-03 19:41:25] INFO root fetch - processPackages [extism-func-gen]: Downloading https://files.pythonhosted.org/packages/fe/e7/69a1596ebb54f5a21bf45a87fa15a32864f8283323bbec059e4533eb148b/extism_func_gen-0.3.0.tar.gz
+[2023-05-03 19:41:25] INFO root fetch - processPackages [ft-package-42-jekim]: Downloading https://files.pythonhosted.org/packages/6d/46/ab5037d1405f2ef8416009c738b6124111240ae155b93415533d0d1ff842/ft_package_42_jekim-0.0.5.tar.gz
+[2023-05-03 19:41:25] INFO root fetch - processPackages [libdev]: Downloading https://files.pythonhosted.org/packages/e2/8d/bcacab1d4f911d6fbf6c411dfb5a06ce836e521ccc40dc8175441fdb80b8/libdev-0.8.tar.gz
+[2023-05-03 19:41:25] INFO root fetch - processPackages [actionlint-py]: Downloading https://files.pythonhosted.org/packages/5d/7a/6b93b0a7ad2b38791af8e8a581356c1d6fbda9912edbf87eed40c83bf5d7/actionlint_py-1.6.22.2.tar.gz
+[2023-05-03 19:41:25] INFO root fetch - processPackages [nwbinspector]: Downloading https://files.pythonhosted.org/packages/76/c3/f0495055e321b3193af788f60794d52b52d20cc44f199a2f856059614c1b/nwbinspector-0.4.4.tar.gz
+[2023-05-03 19:41:25] INFO root fetch - processPackages [deep-clone]: Downloading https://files.pythonhosted.org/packages/aa/80/52353e60940cbe7f712bd387ed51978b3583815315b7b8abe0505a9171e9/deep-clone-0.0.3.tar.gz
+[2023-05-03 19:41:25] INFO root fetch - processPackages [deepchem]: Downloading https://files.pythonhosted.org/packages/89/85/84a16942fd3a09f71d836e6d45a4384db2741c18c0101456c47e7a60fa1a/deepchem-2.7.2.dev20230503173925.tar.gz
+[2023-05-03 19:41:25] INFO root fetch - processPackages [ft-package-42-jekim]: executing diffoscope
+[2023-05-03 19:41:25] INFO root fetch - processPackages [ft-package-42-jekim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ft_package_42_jekim-0.0.4.tar.gz tmp/ft_package_42_jekim-0.0.5.tar.gz --markdown 20230503/f/ft-package-42-jekim/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-03 19:41:26] INFO root fetch - processPackages [axonius-api-client]: Downloading https://files.pythonhosted.org/packages/ea/18/1dd7f04e993967995d6028bd47bab12ca3dc8084cfe1594629d59f8d7baa/axonius_api_client-5.0.1-py2.py3-none-any.whl
+[2023-05-03 19:41:26] INFO root fetch - processPackages [deep-clone]: executing diffoscope
+[2023-05-03 19:41:26] INFO root fetch - processPackages [extism-func-gen]: Downloading https://files.pythonhosted.org/packages/48/8d/af1c9b4ad095fc7b4b0d6e8d1035255201b93517e02ab80a75104608e02f/extism_func_gen-0.4.0.tar.gz
+[2023-05-03 19:41:26] INFO root fetch - processPackages [deep-clone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deep-clone-0.0.2.tar.gz tmp/deep-clone-0.0.3.tar.gz --markdown 20230503/d/deep-clone/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-03 19:41:26] INFO root fetch - processPackages [griptape-tools]: Downloading https://files.pythonhosted.org/packages/80/f6/2945313523cc8317cb34e41910b4de85f151c6fcc6fea79f7ad8c382d8e0/griptape_tools-0.9.1.tar.gz
+[2023-05-03 19:41:26] INFO root fetch - processPackages [groclimateclient]: Downloading https://files.pythonhosted.org/packages/1c/47/1374fc59ac169e38b8ca95ff49a63c4d712bcdbc2fc2fd195525d9012470/groclimateclient-1.1.8.tar.gz
+[2023-05-03 19:41:26] INFO root fetch - processPackages [groclimateclient]: executing diffoscope
+[2023-05-03 19:41:26] INFO root fetch - processPackages [groclimateclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/groclimateclient-1.1.7.tar.gz tmp/groclimateclient-1.1.8.tar.gz --markdown 20230503/g/groclimateclient/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-05-03 19:41:26] INFO root fetch - processPackages [actionlint-py]: Downloading https://files.pythonhosted.org/packages/e1/35/d61387604c18b369621fce84e16b23e3bb570a14a1692df60ab88e8c91ac/actionlint_py-1.6.24.2.tar.gz
+[2023-05-03 19:41:26] INFO root fetch - processPackages [deepchem]: executing diffoscope
+[2023-05-03 19:41:26] INFO root fetch - processPackages [deepchem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepchem-2.7.2.dev20230502144838.tar.gz tmp/deepchem-2.7.2.dev20230503173925.tar.gz --markdown 20230503/d/deepchem/2.7.2.dev20230502144838-2.7.2.dev20230503173925/diff.md --exclude *.pyd
+[2023-05-03 19:41:26] INFO root fetch - processPackages [griptape-tools]: executing diffoscope
+[2023-05-03 19:41:26] INFO root fetch - processPackages [griptape-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/griptape_tools-0.9.0.tar.gz tmp/griptape_tools-0.9.1.tar.gz --markdown 20230503/g/griptape-tools/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-03 19:41:26] INFO root fetch - processPackages [extism-func-gen]: executing diffoscope
+[2023-05-03 19:41:26] INFO root fetch - processPackages [extism-func-gen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extism_func_gen-0.3.0.tar.gz tmp/extism_func_gen-0.4.0.tar.gz --markdown 20230503/e/extism-func-gen/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-03 19:41:26] INFO root fetch - processPackages [libdev]: Downloading https://files.pythonhosted.org/packages/7d/2f/227c058dbbd649c3bb70bbd6d279691828eba2b5bac3cf27685382669b09/libdev-0.9.tar.gz
+[2023-05-03 19:41:26] INFO root fetch - processPackages [axonius-api-client]: executing diffoscope
+[2023-05-03 19:41:26] INFO root fetch - processPackages [axonius-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axonius_api_client-5.0.0-py2.py3-none-any.whl.zip tmp/axonius_api_client-5.0.1-py2.py3-none-any.whl.zip --markdown 20230503/a/axonius-api-client/5.0.0-5.0.1/diff.md --exclude *.pyd
+[2023-05-03 19:41:26] INFO root fetch - processPackages [nwbinspector]: Downloading https://files.pythonhosted.org/packages/6e/21/414078add4dc2aacedb33524941da7579bc711c2526db6bce03fa2a27ed0/nwbinspector-0.4.5.tar.gz
+[2023-05-03 19:41:26] INFO root fetch - processPackages [actionlint-py]: executing diffoscope
+[2023-05-03 19:41:26] INFO root fetch - processPackages [actionlint-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/actionlint_py-1.6.22.2.tar.gz tmp/actionlint_py-1.6.24.2.tar.gz --markdown 20230503/a/actionlint-py/1.6.22.2-1.6.24.2/diff.md --exclude *.pyd
+[2023-05-03 19:41:26] INFO root fetch - processPackages [libdev]: executing diffoscope
+[2023-05-03 19:41:26] INFO root fetch - processPackages [libdev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libdev-0.8.tar.gz tmp/libdev-0.9.tar.gz --markdown 20230503/l/libdev/0.8-0.9/diff.md --exclude *.pyd
+[2023-05-03 19:41:26] INFO root fetch - processPackages [nwbinspector]: executing diffoscope
+[2023-05-03 19:41:26] INFO root fetch - processPackages [nwbinspector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwbinspector-0.4.4.tar.gz tmp/nwbinspector-0.4.5.tar.gz --markdown 20230503/n/nwbinspector/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-05-03 19:41:27] INFO root fetch - main [MainThread]: End processing [ft-package-42-jekim]: success
+[2023-05-03 19:41:27] INFO root fetch - main [MainThread]: End processing [deep-clone]: success
+[2023-05-03 19:41:27] INFO root fetch - main [MainThread]: End processing [groclimateclient]: success
+[2023-05-03 19:41:27] INFO root fetch - main [MainThread]: End processing [griptape-tools]: success
+[2023-05-03 19:41:27] INFO root fetch - main [MainThread]: End processing [actionlint-py]: success
+[2023-05-03 19:41:27] INFO root fetch - main [MainThread]: End processing [libdev]: success
+[2023-05-03 19:41:28] INFO root fetch - main [MainThread]: End processing [nwbinspector]: success
+[2023-05-03 19:41:28] INFO root fetch - main [MainThread]: End processing [extism-func-gen]: success
+[2023-05-03 19:41:31] INFO root fetch - main [MainThread]: End processing [deepchem]: success
+[2023-05-03 19:41:36] INFO root fetch - main [MainThread]: End processing [axonius-api-client]: success
+[2023-05-03 19:41:36] INFO root fetch - main [MainThread]: Store serial: [17960511]
