@@ -17234,3 +17234,140 @@ No space left on device. Diffoscope exiting.
 [2023-05-03 16:35:44] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
 [2023-05-03 16:35:47] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-05-03 16:35:47] INFO root fetch - main [MainThread]: Store serial: [17957907]
+[2023-05-03 16:40:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17957907]
+[2023-05-03 16:40:56] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-05-03 16:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyirbrain
+[2023-05-03 16:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: season
+[2023-05-03 16:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-app-notifications
+[2023-05-03 16:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pygris
+[2023-05-03 16:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: neurotechdevkit
+[2023-05-03 16:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: assemblyline-service-client
+[2023-05-03 16:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: assemblyline-service-server
+[2023-05-03 16:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: assemblyline-ui
+[2023-05-03 16:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: assemblyline-v4-service
+[2023-05-03 16:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: assemblyline
+[2023-05-03 16:40:56] INFO root fetch - processPackages [pygris]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-03 16:40:56] INFO root fetch - processPackages [pyirbrain]: New version: [1.1] Old Version: [1.0]
+[2023-05-03 16:40:56] INFO root fetch - processPackages [season]: New version: [2.2.5] Old Version: [2.2.4]
+[2023-05-03 16:40:56] WARNING root fetch - processPackages [django-app-notifications]: Skipping, unable to determine old version
+[2023-05-03 16:40:56] INFO root fetch - processPackages [django-app-notifications]: Start processing: assemblyline-core
+[2023-05-03 16:40:56] INFO root fetch - main [MainThread]: End processing [django-app-notifications] error
+[2023-05-03 16:40:56] INFO root fetch - processPackages [neurotechdevkit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 16:40:56] INFO root fetch - processPackages [assemblyline-service-client]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-05-03 16:40:56] INFO root fetch - processPackages [assemblyline-ui]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-05-03 16:40:56] INFO root fetch - processPackages [assemblyline]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-05-03 16:40:56] INFO root fetch - processPackages [assemblyline-v4-service]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-05-03 16:40:56] INFO root fetch - processPackages [assemblyline-service-server]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-05-03 16:40:56] INFO root fetch - processPackages [assemblyline-core]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-05-03 16:40:56] INFO root fetch - processPackages [pyirbrain]: Downloading https://files.pythonhosted.org/packages/fd/f0/9d339e9ba67bf5981148d8940df070347b472d7a527f4b35be370e413fc1/pyirbrain-1.0-py3-none-any.whl
+[2023-05-03 16:40:56] INFO root fetch - processPackages [assemblyline-service-client]: Downloading https://files.pythonhosted.org/packages/04/da/ba9c84811620a7e4f74cdd379ed84829ffebe2e8b3095cde197f8edbb0d2/assemblyline_service_client-4.4.1.dev8-py3-none-any.whl
+[2023-05-03 16:40:56] INFO root fetch - processPackages [season]: Downloading https://files.pythonhosted.org/packages/0f/8c/4ef6647ed00f45ef0c453bf3014079eed9bf774bf4bb93ec2447621b13ca/season-2.2.4-py3-none-any.whl
+[2023-05-03 16:40:56] INFO root fetch - processPackages [neurotechdevkit]: executing diffoscope
+[2023-05-03 16:40:56] INFO root fetch - processPackages [neurotechdevkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neurotechdevkit-0.0.8.tar.gz tmp/neurotechdevkit-0.0.9.tar.gz --markdown 20230503/n/neurotechdevkit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 16:40:56] INFO root fetch - processPackages [pygris]: Downloading https://files.pythonhosted.org/packages/71/ee/8a36ee7b4c24658a86f8188072b02212a5e055aa24e9e675b5901e2bb633/pygris-0.1.3.tar.gz
+[2023-05-03 16:40:56] INFO root fetch - processPackages [assemblyline]: Downloading https://files.pythonhosted.org/packages/ac/80/ff80a76b6febd2252f379e7364a86126d6be5b36c40c2525f8513500e2a8/assemblyline-4.4.1.dev8.tar.gz
+[2023-05-03 16:40:57] INFO root fetch - processPackages [assemblyline-ui]: Downloading https://files.pythonhosted.org/packages/66/4d/ea002cac99d18dd0086c262a4c4a9f2f6c21fbe31f5354e0ea8fda6cfde0/assemblyline_ui-4.4.1.dev8-py3-none-any.whl
+[2023-05-03 16:40:57] INFO root fetch - processPackages [assemblyline-v4-service]: Downloading https://files.pythonhosted.org/packages/31/9b/74a79323f33656205a07291c919ad769d89cfbe5996571c1e97b82bcb106/assemblyline_v4_service-4.4.1.dev8-py3-none-any.whl
+[2023-05-03 16:40:57] INFO root fetch - processPackages [assemblyline-service-server]: Downloading https://files.pythonhosted.org/packages/49/52/30734eec25bbbcfac5e9d09954a795303ef5a4bffd91537cb6530243ca19/assemblyline_service_server-4.4.1.dev8-py3-none-any.whl
+[2023-05-03 16:40:57] INFO root fetch - processPackages [assemblyline-core]: Downloading https://files.pythonhosted.org/packages/98/84/beacd2548b29322344838f0886de874e5a70eb11a896ae38e4293fb45d7d/assemblyline-core-4.4.1.dev8.tar.gz
+[2023-05-03 16:40:57] INFO root fetch - processPackages [pyirbrain]: Downloading https://files.pythonhosted.org/packages/65/75/74d376db67a39c6fd62898feb6b7b315bc333bd398ff69bdbf0e864a553a/pyirbrain-1.1.tar.gz
+[2023-05-03 16:40:57] INFO root fetch - processPackages [assemblyline]: Downloading https://files.pythonhosted.org/packages/67/05/c7346b47651123d738107bf89c007a88f96774f20922ba21da9d8a6017d1/assemblyline-4.4.1.dev9.tar.gz
+[2023-05-03 16:40:57] INFO root fetch - processPackages [pygris]: Downloading https://files.pythonhosted.org/packages/e2/22/f4877673f690d9e0a073cb682d0c9b019e9108026c9ed037ffcf66f50b4e/pygris-0.1.4.tar.gz
+[2023-05-03 16:40:57] INFO root fetch - processPackages [assemblyline-v4-service]: Downloading https://files.pythonhosted.org/packages/19/22/1c4aa53ab099ddbe7425a63c62df075a8da7a2a3d5db1c9a378aeafc1fb5/assemblyline_v4_service-4.4.1.dev9-py3-none-any.whl
+[2023-05-03 16:40:57] INFO root fetch - processPackages [assemblyline-ui]: Downloading https://files.pythonhosted.org/packages/df/0c/d233afa2ddadc75804e18ff6477e85a40893bbb801680f8f94b71d773bb6/assemblyline_ui-4.4.1.dev9-py3-none-any.whl
+[2023-05-03 16:40:57] INFO root fetch - processPackages [pyirbrain]: executing diffoscope
+[2023-05-03 16:40:57] INFO root fetch - processPackages [pyirbrain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyirbrain-1.0-py3-none-any.whl.zip tmp/pyirbrain-1.1.tar.gz --markdown 20230503/p/pyirbrain/1.0-1.1/diff.md --exclude *.pyd
+[2023-05-03 16:40:57] INFO root fetch - processPackages [assemblyline-core]: Downloading https://files.pythonhosted.org/packages/5c/53/40f339ad9dc41d9e1e3f7f70618e7767e94d672695b7c772b3365bfcf550/assemblyline-core-4.4.1.dev9.tar.gz
+[2023-05-03 16:40:57] INFO root fetch - processPackages [assemblyline]: executing diffoscope
+[2023-05-03 16:40:57] INFO root fetch - processPackages [assemblyline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-4.4.1.dev8.tar.gz tmp/assemblyline-4.4.1.dev9.tar.gz --markdown 20230503/a/assemblyline/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-05-03 16:40:57] INFO root fetch - processPackages [pygris]: executing diffoscope
+[2023-05-03 16:40:57] INFO root fetch - processPackages [pygris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygris-0.1.3.tar.gz tmp/pygris-0.1.4.tar.gz --markdown 20230503/p/pygris/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-03 16:40:57] INFO root fetch - processPackages [assemblyline-service-client]: Downloading https://files.pythonhosted.org/packages/dd/a5/2a4c95683532f2c15ad8d700b6fca9e4131e1bb3be525fee8ab9f5f00a96/assemblyline_service_client-4.4.1.dev9-py3-none-any.whl
+[2023-05-03 16:40:57] INFO root fetch - processPackages [assemblyline-service-client]: executing diffoscope
+[2023-05-03 16:40:57] INFO root fetch - processPackages [assemblyline-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_client-4.4.1.dev8-py3-none-any.whl.zip tmp/assemblyline_service_client-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230503/a/assemblyline-service-client/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-05-03 16:40:57] INFO root fetch - processPackages [assemblyline-core]: executing diffoscope
+[2023-05-03 16:40:57] INFO root fetch - processPackages [assemblyline-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-core-4.4.1.dev8.tar.gz tmp/assemblyline-core-4.4.1.dev9.tar.gz --markdown 20230503/a/assemblyline-core/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-05-03 16:40:57] INFO root fetch - processPackages [assemblyline-ui]: executing diffoscope
+[2023-05-03 16:40:57] INFO root fetch - processPackages [assemblyline-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_ui-4.4.1.dev8-py3-none-any.whl.zip tmp/assemblyline_ui-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230503/a/assemblyline-ui/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-05-03 16:40:57] INFO root fetch - processPackages [assemblyline-v4-service]: executing diffoscope
+[2023-05-03 16:40:57] INFO root fetch - processPackages [assemblyline-v4-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_v4_service-4.4.1.dev8-py3-none-any.whl.zip tmp/assemblyline_v4_service-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230503/a/assemblyline-v4-service/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-05-03 16:40:57] INFO root fetch - processPackages [assemblyline-service-server]: Downloading https://files.pythonhosted.org/packages/df/1f/c5189798641107a44aa14e39f89efa4e230a7a8a172d88125ec72b3a7e88/assemblyline_service_server-4.4.1.dev9-py3-none-any.whl
+[2023-05-03 16:40:58] INFO root fetch - processPackages [assemblyline-service-server]: executing diffoscope
+[2023-05-03 16:40:58] INFO root fetch - processPackages [assemblyline-service-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_server-4.4.1.dev8-py3-none-any.whl.zip tmp/assemblyline_service_server-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230503/a/assemblyline-service-server/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-05-03 16:40:58] INFO root fetch - processPackages [pyirbrain]: Start processing: dq-test
+[2023-05-03 16:40:58] INFO root fetch - main [MainThread]: End processing [pyirbrain]: success
+[2023-05-03 16:40:58] WARNING root fetch - processPackages [dq-test]: Skipping, unable to determine old version
+[2023-05-03 16:40:58] INFO root fetch - processPackages [dq-test]: Start processing: redun
+[2023-05-03 16:40:58] INFO root fetch - main [MainThread]: End processing [dq-test] error
+[2023-05-03 16:40:58] INFO root fetch - processPackages [season]: Downloading https://files.pythonhosted.org/packages/41/08/b0709668aeebb889305058977d50fe64b9d14b5b8fdef83a14dc0f240340/season-2.2.5-py3-none-any.whl
+[2023-05-03 16:40:58] INFO root fetch - processPackages [neurotechdevkit]: Start processing: redun
+[2023-05-03 16:40:58] INFO root fetch - main [MainThread]: End processing [neurotechdevkit]: success
+[2023-05-03 16:40:58] INFO root fetch - processPackages [redun]: New version: [0.8.9] Old Version: [0.8.7]
+[2023-05-03 16:40:58] INFO root fetch - processPackages [redun]: New version: [0.8.9] Old Version: [0.8.7]
+[2023-05-03 16:40:58] INFO root fetch - processPackages [pygris]: Start processing: redun
+[2023-05-03 16:40:58] INFO root fetch - main [MainThread]: End processing [pygris]: success
+[2023-05-03 16:40:58] INFO root fetch - processPackages [redun]: New version: [0.8.9] Old Version: [0.8.7]
+[2023-05-03 16:40:58] INFO root fetch - processPackages [redun]: Downloading https://files.pythonhosted.org/packages/85/25/422d4606e0bd20be38857f129cf896175694f0cb90304d4694925fd56e7a/redun-0.8.7.tar.gz
+[2023-05-03 16:40:58] INFO root fetch - processPackages [redun]: Downloading https://files.pythonhosted.org/packages/85/25/422d4606e0bd20be38857f129cf896175694f0cb90304d4694925fd56e7a/redun-0.8.7.tar.gz
+[2023-05-03 16:40:58] INFO root fetch - processPackages [assemblyline-service-client]: Start processing: AMDirT
+[2023-05-03 16:40:58] INFO root fetch - main [MainThread]: End processing [assemblyline-service-client]: success
+[2023-05-03 16:40:58] INFO root fetch - processPackages [AMDirT]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-05-03 16:40:58] INFO root fetch - processPackages [redun]: Downloading https://files.pythonhosted.org/packages/85/25/422d4606e0bd20be38857f129cf896175694f0cb90304d4694925fd56e7a/redun-0.8.7.tar.gz
+[2023-05-03 16:40:59] INFO root fetch - processPackages [AMDirT]: Downloading https://files.pythonhosted.org/packages/ab/37/7c3897265e4eb5d6a372efa268ee32513a086f625de1bce32bcc808430c9/AMDirT-1.4.2.tar.gz
+[2023-05-03 16:40:59] INFO root fetch - processPackages [redun]: Downloading https://files.pythonhosted.org/packages/b3/d8/0604235bbf8956059d989390616cee00b64b165656582299cdef8933efbf/redun-0.8.9.tar.gz
+[2023-05-03 16:40:59] INFO root fetch - processPackages [redun]: Downloading https://files.pythonhosted.org/packages/b3/d8/0604235bbf8956059d989390616cee00b64b165656582299cdef8933efbf/redun-0.8.9.tar.gz
+[2023-05-03 16:40:59] INFO root fetch - processPackages [redun]: Downloading https://files.pythonhosted.org/packages/b3/d8/0604235bbf8956059d989390616cee00b64b165656582299cdef8933efbf/redun-0.8.9.tar.gz
+[2023-05-03 16:40:59] INFO root fetch - processPackages [AMDirT]: executing diffoscope
+[2023-05-03 16:40:59] INFO root fetch - processPackages [AMDirT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AMDirT-1.4.1.tar.gz tmp/AMDirT-1.4.2.tar.gz --markdown 20230503/A/AMDirT/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-05-03 16:40:59] INFO root fetch - processPackages [assemblyline-core]: Start processing: localstack-core
+[2023-05-03 16:40:59] INFO root fetch - main [MainThread]: End processing [assemblyline-core]: success
+[2023-05-03 16:40:59] INFO root fetch - processPackages [localstack-core]: New version: [2.0.3.dev20230503143349] Old Version: [2.0.3.dev20230503134209]
+[2023-05-03 16:40:59] INFO root fetch - processPackages [redun]: executing diffoscope
+[2023-05-03 16:40:59] INFO root fetch - processPackages [redun]: executing diffoscope
+[2023-05-03 16:40:59] INFO root fetch - processPackages [redun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redun-0.8.7.tar.gz tmp/redun-0.8.9.tar.gz --markdown 20230503/r/redun/0.8.7-0.8.9/diff.md --exclude *.pyd
+[2023-05-03 16:40:59] INFO root fetch - processPackages [redun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redun-0.8.7.tar.gz tmp/redun-0.8.9.tar.gz --markdown 20230503/r/redun/0.8.7-0.8.9/diff.md --exclude *.pyd
+[2023-05-03 16:40:59] INFO root fetch - processPackages [redun]: executing diffoscope
+[2023-05-03 16:40:59] INFO root fetch - processPackages [redun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redun-0.8.7.tar.gz tmp/redun-0.8.9.tar.gz --markdown 20230503/r/redun/0.8.7-0.8.9/diff.md --exclude *.pyd
+[2023-05-03 16:40:59] INFO root fetch - processPackages [assemblyline-ui]: Start processing: krx-rigger
+[2023-05-03 16:40:59] INFO root fetch - main [MainThread]: End processing [assemblyline-ui]: success
+[2023-05-03 16:40:59] INFO root fetch - processPackages [krx-rigger]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-03 16:40:59] INFO root fetch - processPackages [assemblyline-service-server]: Start processing: dbis-er-diagram
+[2023-05-03 16:40:59] INFO root fetch - main [MainThread]: End processing [assemblyline-service-server]: success
+[2023-05-03 16:40:59] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/6d/5e/53fe8ff430ffe69dbb101b9291b4ffc3a59abafa141025edddc0aefcdc5a/localstack-core-2.0.3.dev20230503143349.tar.gz
+[2023-05-03 16:40:59] INFO root fetch - processPackages [dbis-er-diagram]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-03 16:40:59] INFO root fetch - processPackages [krx-rigger]: Downloading https://files.pythonhosted.org/packages/25/f8/16e1d5bea837ed07afcfc2d5976e619c84e50d32c7e008b88ac1998a482b/krx_rigger-0.0.4.tar.gz
+[2023-05-03 16:40:59] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-05-03 16:40:59] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.0.3.dev20230503134209.tar.gz tmp/localstack-core-2.0.3.dev20230503143349.tar.gz --markdown 20230503/l/localstack-core/2.0.3.dev20230503134209-2.0.3.dev20230503143349/diff.md --exclude *.pyd
+[2023-05-03 16:40:59] INFO root fetch - processPackages [krx-rigger]: executing diffoscope
+[2023-05-03 16:40:59] INFO root fetch - processPackages [krx-rigger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krx_rigger-0.0.3.tar.gz tmp/krx_rigger-0.0.4.tar.gz --markdown 20230503/k/krx-rigger/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-03 16:40:59] INFO root fetch - processPackages [dbis-er-diagram]: Downloading https://files.pythonhosted.org/packages/16/89/4db4a06ed0f1365b0824453132d69d870901c179d61cf207a8f69501a091/dbis-er-diagram-1.0.4.tar.gz
+[2023-05-03 16:40:59] INFO root fetch - processPackages [season]: executing diffoscope
+[2023-05-03 16:40:59] INFO root fetch - processPackages [season]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/season-2.2.4-py3-none-any.whl.zip tmp/season-2.2.5-py3-none-any.whl.zip --markdown 20230503/s/season/2.2.4-2.2.5/diff.md --exclude *.pyd
+[2023-05-03 16:41:00] INFO root fetch - processPackages [dbis-er-diagram]: Downloading https://files.pythonhosted.org/packages/aa/59/c145e4858f144302a5f8a1292f6d66b9859f77cf39f0fe46b198ef36a701/dbis-er-diagram-1.0.5.tar.gz
+[2023-05-03 16:41:00] INFO root fetch - processPackages [dbis-er-diagram]: executing diffoscope
+[2023-05-03 16:41:00] INFO root fetch - processPackages [dbis-er-diagram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbis-er-diagram-1.0.4.tar.gz tmp/dbis-er-diagram-1.0.5.tar.gz --markdown 20230503/d/dbis-er-diagram/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-03 16:41:00] INFO root fetch - processPackages [AMDirT]: Start processing: voici
+[2023-05-03 16:41:00] INFO root fetch - main [MainThread]: End processing [AMDirT]: success
+[2023-05-03 16:41:00] INFO root fetch - processPackages [voici]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-03 16:41:00] INFO root fetch - processPackages [voici]: executing diffoscope
+[2023-05-03 16:41:00] INFO root fetch - processPackages [voici]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voici-0.4.1.tar.gz tmp/voici-0.4.2.tar.gz --markdown 20230503/v/voici/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-05-03 16:41:00] INFO root fetch - processPackages [assemblyline-v4-service]: Start processing: prettylogs
+[2023-05-03 16:41:00] INFO root fetch - main [MainThread]: End processing [assemblyline-v4-service]: success
+[2023-05-03 16:41:01] WARNING root fetch - processPackages [prettylogs]: Skipping, unable to determine old version
+[2023-05-03 16:41:01] INFO root fetch - processPackages [prettylogs]: Start processing: ho-protocols
+[2023-05-03 16:41:01] INFO root fetch - main [MainThread]: End processing [prettylogs] error
+[2023-05-03 16:41:01] INFO root fetch - main [MainThread]: End processing [krx-rigger]: success
+[2023-05-03 16:41:01] INFO root fetch - processPackages [ho-protocols]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-03 16:41:01] INFO root fetch - processPackages [ho-protocols]: Downloading https://files.pythonhosted.org/packages/28/8b/55c5ea5d8d53bb6fd7f7fefea4372cbf6b7c69aacdc9ef70f820ee7ef2d8/ho-protocols-0.2.2.tar.gz
+[2023-05-03 16:41:01] INFO root fetch - main [MainThread]: End processing [dbis-er-diagram]: success
+[2023-05-03 16:41:01] INFO root fetch - processPackages [ho-protocols]: executing diffoscope
+[2023-05-03 16:41:01] INFO root fetch - processPackages [ho-protocols]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ho-protocols-0.2.1.tar.gz tmp/ho-protocols-0.2.2.tar.gz --markdown 20230503/h/ho-protocols/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-03 16:41:01] INFO root fetch - main [MainThread]: End processing [redun]: success
+[2023-05-03 16:41:01] INFO root fetch - main [MainThread]: End processing [redun]: success
+[2023-05-03 16:41:02] INFO root fetch - main [MainThread]: End processing [ho-protocols]: success
+[2023-05-03 16:41:03] INFO root fetch - main [MainThread]: End processing [assemblyline]: success
+[2023-05-03 16:41:04] INFO root fetch - main [MainThread]: End processing [redun]: success
+[2023-05-03 16:41:04] INFO root fetch - main [MainThread]: End processing [season]: success
+[2023-05-03 16:41:05] INFO root fetch - main [MainThread]: End processing [voici]: success
+[2023-05-03 16:41:06] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-05-03 16:41:06] INFO root fetch - main [MainThread]: Store serial: [17957971]
