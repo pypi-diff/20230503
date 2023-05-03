@@ -4721,3 +4721,60 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-03 04:11:07] INFO root fetch - processPackages [ghanashops-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghanashops-scraper-1.0.7.tar.gz tmp/ghanashops-scraper-1.0.8.tar.gz --markdown 20230503/g/ghanashops-scraper/1.0.7-1.0.8/diff.md --exclude *.pyd
 [2023-05-03 04:11:08] INFO root fetch - main [MainThread]: End processing [ghanashops-scraper]: success
 [2023-05-03 04:11:08] INFO root fetch - main [MainThread]: Store serial: [17950609]
+[2023-05-03 04:16:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17950609]
+[2023-05-03 04:16:16] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-03 04:16:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jaaql-monitor
+[2023-05-03 04:16:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pysigma-backend-carbonblack
+[2023-05-03 04:16:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jaaql-middleware-python
+[2023-05-03 04:16:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dexhub
+[2023-05-03 04:16:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vin-decoder-nhtsa
+[2023-05-03 04:16:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jaaql-middleware-python
+[2023-05-03 04:16:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ghanashops-scraper
+[2023-05-03 04:16:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tarvis-exchange-woo
+[2023-05-03 04:16:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wxgl
+[2023-05-03 04:16:16] INFO root fetch - processPackages [jaaql-monitor]: New version: [1.2.26] Old Version: [1.2.25]
+[2023-05-03 04:16:16] INFO root fetch - processPackages [ghanashops-scraper]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-03 04:16:16] INFO root fetch - processPackages [pysigma-backend-carbonblack]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-03 04:16:17] INFO root fetch - processPackages [dexhub]: New version: [0.6.7] Old Version: [0.6.6]
+[2023-05-03 04:16:17] INFO root fetch - processPackages [jaaql-middleware-python]: New version: [4.8.9] Old Version: [4.8.7]
+[2023-05-03 04:16:17] INFO root fetch - processPackages [vin-decoder-nhtsa]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-03 04:16:17] INFO root fetch - processPackages [tarvis-exchange-woo]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-05-03 04:16:17] INFO root fetch - processPackages [jaaql-middleware-python]: New version: [4.8.9] Old Version: [4.8.7]
+[2023-05-03 04:16:17] INFO root fetch - processPackages [wxgl]: New version: [0.9.8] Old Version: [0.9.3]
+[2023-05-03 04:16:17] INFO root fetch - processPackages [jaaql-middleware-python]: executing diffoscope
+[2023-05-03 04:16:17] INFO root fetch - processPackages [jaaql-middleware-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaaql-middleware-python-4.8.7.tar.gz tmp/jaaql-middleware-python-4.8.9.tar.gz --markdown 20230503/j/jaaql-middleware-python/4.8.7-4.8.9/diff.md --exclude *.pyd
+[2023-05-03 04:16:17] INFO root fetch - processPackages [jaaql-middleware-python]: executing diffoscope
+[2023-05-03 04:16:17] INFO root fetch - processPackages [jaaql-middleware-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaaql-middleware-python-4.8.7.tar.gz tmp/jaaql-middleware-python-4.8.9.tar.gz --markdown 20230503/j/jaaql-middleware-python/4.8.7-4.8.9/diff.md --exclude *.pyd
+[2023-05-03 04:16:17] INFO root fetch - processPackages [vin-decoder-nhtsa]: Downloading https://files.pythonhosted.org/packages/e9/2a/3ab50d9581363415dc39d66da225d422ef8f717d811b8539a78d76316ff8/vin_decoder_nhtsa-0.0.1.tar.gz
+[2023-05-03 04:16:17] INFO root fetch - processPackages [ghanashops-scraper]: Downloading https://files.pythonhosted.org/packages/c7/1c/a905d27c0b1db4c109f474abb24fcfb0f68e709dc318b968645be8a0a200/ghanashops-scraper-1.0.9.tar.gz
+[2023-05-03 04:16:17] INFO root fetch - processPackages [dexhub]: Downloading https://files.pythonhosted.org/packages/4d/37/f4499b707bfddd7ff86b99eb8c6c66427f9c877e0f701da2b59f43f69e1a/dexhub-0.6.7.tar.gz
+[2023-05-03 04:16:17] INFO root fetch - processPackages [pysigma-backend-carbonblack]: Downloading https://files.pythonhosted.org/packages/ff/a1/93fb37034f2af94b3eb8bc7de71dc4da8815e61edc190806c82adb576bd9/pysigma_backend_carbonblack-0.1.2.tar.gz
+[2023-05-03 04:16:17] INFO root fetch - processPackages [ghanashops-scraper]: executing diffoscope
+[2023-05-03 04:16:17] INFO root fetch - processPackages [ghanashops-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghanashops-scraper-1.0.8.tar.gz tmp/ghanashops-scraper-1.0.9.tar.gz --markdown 20230503/g/ghanashops-scraper/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-03 04:16:17] INFO root fetch - processPackages [dexhub]: executing diffoscope
+[2023-05-03 04:16:17] INFO root fetch - processPackages [dexhub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dexhub-0.6.6.tar.gz tmp/dexhub-0.6.7.tar.gz --markdown 20230503/d/dexhub/0.6.6-0.6.7/diff.md --exclude *.pyd
+[2023-05-03 04:16:17] INFO root fetch - processPackages [pysigma-backend-carbonblack]: executing diffoscope
+[2023-05-03 04:16:17] INFO root fetch - processPackages [pysigma-backend-carbonblack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysigma_backend_carbonblack-0.1.1.tar.gz tmp/pysigma_backend_carbonblack-0.1.2.tar.gz --markdown 20230503/p/pysigma-backend-carbonblack/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-03 04:16:17] INFO root fetch - processPackages [jaaql-monitor]: Downloading https://files.pythonhosted.org/packages/3a/19/a457afaab2d866d4b9fdb40a06d0706da608d3a09bba8a0dc7b32314ee74/jaaql-monitor-1.2.26.tar.gz
+[2023-05-03 04:16:17] INFO root fetch - processPackages [wxgl]: Downloading https://files.pythonhosted.org/packages/9e/c4/27fb33940c4d75e3322c1662f39214ce752a93188ccea751ff9d6675acea/wxgl-0.9.3-py3-none-any.whl
+[2023-05-03 04:16:17] INFO root fetch - processPackages [vin-decoder-nhtsa]: Downloading https://files.pythonhosted.org/packages/b4/aa/3fb0a425d225d08c8470da57507493edc13de9963ddea507b96bd5de9d5c/vin_decoder_nhtsa-0.0.2.tar.gz
+[2023-05-03 04:16:17] INFO root fetch - processPackages [tarvis-exchange-woo]: Downloading https://files.pythonhosted.org/packages/ae/73/43878c00718e829f2bf41d108a8079e7f748e30929b6dcdd9d83e4e9e69f/tarvis-exchange-woo-0.9.5.tar.gz
+[2023-05-03 04:16:17] INFO root fetch - processPackages [vin-decoder-nhtsa]: executing diffoscope
+[2023-05-03 04:16:17] INFO root fetch - processPackages [vin-decoder-nhtsa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vin_decoder_nhtsa-0.0.1.tar.gz tmp/vin_decoder_nhtsa-0.0.2.tar.gz --markdown 20230503/v/vin-decoder-nhtsa/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-03 04:16:17] INFO root fetch - processPackages [tarvis-exchange-woo]: executing diffoscope
+[2023-05-03 04:16:17] INFO root fetch - processPackages [tarvis-exchange-woo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tarvis-exchange-woo-0.9.4.tar.gz tmp/tarvis-exchange-woo-0.9.5.tar.gz --markdown 20230503/t/tarvis-exchange-woo/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-05-03 04:16:17] INFO root fetch - processPackages [jaaql-monitor]: executing diffoscope
+[2023-05-03 04:16:17] INFO root fetch - processPackages [jaaql-monitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaaql-monitor-1.2.25.tar.gz tmp/jaaql-monitor-1.2.26.tar.gz --markdown 20230503/j/jaaql-monitor/1.2.25-1.2.26/diff.md --exclude *.pyd
+[2023-05-03 04:16:17] INFO root fetch - processPackages [wxgl]: Downloading https://files.pythonhosted.org/packages/0d/2e/afc8f8e6b5a0095680bfe5e029fb74998dc9c00f59d7a32deb6dd8747dea/wxgl-0.9.8-py3-none-any.whl
+[2023-05-03 04:16:17] INFO root fetch - processPackages [wxgl]: executing diffoscope
+[2023-05-03 04:16:17] INFO root fetch - processPackages [wxgl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wxgl-0.9.3-py3-none-any.whl.zip tmp/wxgl-0.9.8-py3-none-any.whl.zip --markdown 20230503/w/wxgl/0.9.3-0.9.8/diff.md --exclude *.pyd
+[2023-05-03 04:16:18] INFO root fetch - main [MainThread]: End processing [ghanashops-scraper]: success
+[2023-05-03 04:16:18] INFO root fetch - main [MainThread]: End processing [vin-decoder-nhtsa]: success
+[2023-05-03 04:16:18] INFO root fetch - main [MainThread]: End processing [pysigma-backend-carbonblack]: success
+[2023-05-03 04:16:18] INFO root fetch - main [MainThread]: End processing [jaaql-middleware-python]: success
+[2023-05-03 04:16:18] INFO root fetch - main [MainThread]: End processing [jaaql-middleware-python]: success
+[2023-05-03 04:16:19] INFO root fetch - main [MainThread]: End processing [tarvis-exchange-woo]: success
+[2023-05-03 04:16:19] INFO root fetch - main [MainThread]: End processing [jaaql-monitor]: success
+[2023-05-03 04:16:19] INFO root fetch - main [MainThread]: End processing [dexhub]: success
+[2023-05-03 04:16:19] INFO root fetch - main [MainThread]: End processing [wxgl]: success
+[2023-05-03 04:16:19] INFO root fetch - main [MainThread]: Store serial: [17950636]
