@@ -22135,3 +22135,48 @@ No space left on device. Diffoscope exiting.
 [2023-05-03 20:34:30] INFO root fetch - main [MainThread]: End processing [es7s]: success
 [2023-05-03 20:34:55] INFO root fetch - main [MainThread]: End processing [msaBase]: success
 [2023-05-03 20:34:55] INFO root fetch - main [MainThread]: Store serial: [17961134]
+[2023-05-03 20:40:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17961134]
+[2023-05-03 20:40:05] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-03 20:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Mensajes-silvai
+[2023-05-03 20:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: LinkChecker-GUI
+[2023-05-03 20:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: headless
+[2023-05-03 20:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: 1337test
+[2023-05-03 20:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: synthetic-data
+[2023-05-03 20:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: testapptmlc
+[2023-05-03 20:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: coiled
+[2023-05-03 20:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: shexer
+[2023-05-03 20:40:05] INFO root fetch - processPackages [headless]: New version: [2.0.0a9] Old Version: [2.0.0a8]
+[2023-05-03 20:40:05] WARNING root fetch - processPackages [Mensajes-silvai]: Skipping, unable to determine old version
+[2023-05-03 20:40:05] INFO root fetch - main [MainThread]: End processing [Mensajes-silvai] error
+[2023-05-03 20:40:05] INFO root fetch - processPackages [testapptmlc]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-03 20:40:05] INFO root fetch - processPackages [coiled]: New version: [0.6.1.dev2] Old Version: [0.6.1.dev1]
+[2023-05-03 20:40:05] INFO root fetch - processPackages [synthetic-data]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-05-03 20:40:05] WARNING root fetch - processPackages [1337test]: Skipping, unable to determine old version
+[2023-05-03 20:40:05] INFO root fetch - processPackages [LinkChecker-GUI]: New version: [10.0.0a4] Old Version: [10.0.0a3]
+[2023-05-03 20:40:05] INFO root fetch - main [MainThread]: End processing [1337test] error
+[2023-05-03 20:40:05] INFO root fetch - processPackages [shexer]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-05-03 20:40:05] INFO root fetch - processPackages [headless]: executing diffoscope
+[2023-05-03 20:40:05] INFO root fetch - processPackages [headless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/headless-2.0.0a8.tar.gz tmp/headless-2.0.0a9.tar.gz --markdown 20230503/h/headless/2.0.0a8-2.0.0a9/diff.md --exclude *.pyd
+[2023-05-03 20:40:05] INFO root fetch - processPackages [testapptmlc]: executing diffoscope
+[2023-05-03 20:40:05] INFO root fetch - processPackages [testapptmlc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testapptmlc-0.1.1.tar.gz tmp/testapptmlc-0.1.2.tar.gz --markdown 20230503/t/testapptmlc/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-03 20:40:05] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-05-03 20:40:05] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.6.1.dev1.tar.gz tmp/coiled-0.6.1.dev2.tar.gz --markdown 20230503/c/coiled/0.6.1.dev1-0.6.1.dev2/diff.md --exclude *.pyd
+[2023-05-03 20:40:06] INFO root fetch - processPackages [shexer]: Downloading https://files.pythonhosted.org/packages/be/70/d8298c9e9d75a227ee635452640b3b1e5377dccdc1be34db08012b5e95a8/shexer-2.1.2.tar.gz
+[2023-05-03 20:40:06] INFO root fetch - processPackages [synthetic-data]: Downloading https://files.pythonhosted.org/packages/3a/39/4567ec200cd76d898f7f6f149fdeefc23aa31dd93723574db4b19f4c8582/synthetic-data-1.1.0.tar.gz
+[2023-05-03 20:40:06] INFO root fetch - processPackages [LinkChecker-GUI]: Downloading https://files.pythonhosted.org/packages/33/9d/7af4664abaa28798d1a11b3ffb43577a8f11af0074b13477df4ae5cdffa3/LinkChecker_GUI-10.0.0a3.tar.gz
+[2023-05-03 20:40:06] INFO root fetch - processPackages [synthetic-data]: Downloading https://files.pythonhosted.org/packages/b2/04/bd12de2d422f5937522e427b2646700c4d178077b6b2b7aa0ea4eeefbbe6/synthetic-data-1.2.0.tar.gz
+[2023-05-03 20:40:06] INFO root fetch - processPackages [shexer]: Downloading https://files.pythonhosted.org/packages/ed/2d/c7e3d124920d3c8043615a332a08e561421499348118d7b709871107d247/shexer-2.1.3.tar.gz
+[2023-05-03 20:40:06] INFO root fetch - processPackages [synthetic-data]: executing diffoscope
+[2023-05-03 20:40:06] INFO root fetch - processPackages [synthetic-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synthetic-data-1.1.0.tar.gz tmp/synthetic-data-1.2.0.tar.gz --markdown 20230503/s/synthetic-data/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-05-03 20:40:06] INFO root fetch - processPackages [LinkChecker-GUI]: Downloading https://files.pythonhosted.org/packages/e9/92/e272f20ad2171c39586503c2d27b34e3d447dfba797e7e778a012cc68779/LinkChecker_GUI-10.0.0a4.tar.gz
+[2023-05-03 20:40:06] INFO root fetch - processPackages [shexer]: executing diffoscope
+[2023-05-03 20:40:06] INFO root fetch - processPackages [shexer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shexer-2.1.2.tar.gz tmp/shexer-2.1.3.tar.gz --markdown 20230503/s/shexer/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2023-05-03 20:40:06] INFO root fetch - processPackages [LinkChecker-GUI]: executing diffoscope
+[2023-05-03 20:40:06] INFO root fetch - processPackages [LinkChecker-GUI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LinkChecker_GUI-10.0.0a3.tar.gz tmp/LinkChecker_GUI-10.0.0a4.tar.gz --markdown 20230503/L/LinkChecker-GUI/10.0.0a3-10.0.0a4/diff.md --exclude *.pyd
+[2023-05-03 20:40:07] INFO root fetch - main [MainThread]: End processing [testapptmlc]: success
+[2023-05-03 20:40:07] INFO root fetch - main [MainThread]: End processing [headless]: success
+[2023-05-03 20:40:07] INFO root fetch - main [MainThread]: End processing [LinkChecker-GUI]: success
+[2023-05-03 20:40:08] INFO root fetch - main [MainThread]: End processing [synthetic-data]: success
+[2023-05-03 20:40:08] INFO root fetch - main [MainThread]: End processing [shexer]: success
+[2023-05-03 20:40:33] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-05-03 20:40:33] INFO root fetch - main [MainThread]: Store serial: [17961160]
