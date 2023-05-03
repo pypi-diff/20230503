@@ -7348,3 +7348,46 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-03 08:28:47] INFO root fetch - main [MainThread]: End processing [onnx2tf]: success
 [2023-05-03 08:28:51] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
 [2023-05-03 08:28:51] INFO root fetch - main [MainThread]: Store serial: [17952204]
+[2023-05-03 08:33:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17952204]
+[2023-05-03 08:34:03] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-03 08:34:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: je-editor
+[2023-05-03 08:34:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: je-editor-dev
+[2023-05-03 08:34:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deskaone-sdk-scrypt-2023
+[2023-05-03 08:34:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: certora-cli-alpha-yuvalbd-rule-events-error-checking
+[2023-05-03 08:34:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sapx
+[2023-05-03 08:34:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autocontrastive-gen
+[2023-05-03 08:34:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: helm-values-generator
+[2023-05-03 08:34:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: adaflow-python
+[2023-05-03 08:34:03] WARNING root fetch - processPackages [deskaone-sdk-scrypt-2023]: Skipping, unable to determine old version
+[2023-05-03 08:34:03] INFO root fetch - main [MainThread]: End processing [deskaone-sdk-scrypt-2023] error
+[2023-05-03 08:34:03] INFO root fetch - processPackages [je-editor]: New version: [0.0.95] Old Version: [0.0.94]
+[2023-05-03 08:34:03] INFO root fetch - processPackages [certora-cli-alpha-yuvalbd-rule-events-error-checking]: New version: [20230503.6.31.272506] Old Version: [20230503.5.22.885967]
+[2023-05-03 08:34:03] INFO root fetch - processPackages [je-editor-dev]: New version: [0.0.95] Old Version: [0.0.94]
+[2023-05-03 08:34:03] INFO root fetch - processPackages [sapx]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-03 08:34:03] WARNING root fetch - processPackages [autocontrastive-gen]: Skipping, unable to determine old version
+[2023-05-03 08:34:03] INFO root fetch - main [MainThread]: End processing [autocontrastive-gen] error
+[2023-05-03 08:34:03] INFO root fetch - processPackages [adaflow-python]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-03 08:34:03] WARNING root fetch - processPackages [helm-values-generator]: Skipping, unable to determine old version
+[2023-05-03 08:34:03] INFO root fetch - main [MainThread]: End processing [helm-values-generator] error
+[2023-05-03 08:34:03] INFO root fetch - processPackages [certora-cli-alpha-yuvalbd-rule-events-error-checking]: Downloading https://files.pythonhosted.org/packages/d4/f2/da740db6819ffa2343c341b433e70245f3f53bfc68d8378c61ca35957f0f/certora-cli-alpha-yuvalbd-rule_events_error_checking-20230503.5.22.885967.tar.gz
+[2023-05-03 08:34:03] WARNING root fetch - processPackages [certora-cli-alpha-yuvalbd-rule-events-error-checking]: Skipping package: exceeds size limit 38364565>=10485760
+[2023-05-03 08:34:03] INFO root fetch - processPackages [je-editor]: Downloading https://files.pythonhosted.org/packages/24/17/b01e25b92aac95c7b789608fa867a4b162c7414c5a5a0931c48ea58f33f7/je_editor-0.0.94.tar.gz
+[2023-05-03 08:34:03] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-yuvalbd-rule-events-error-checking] error
+[2023-05-03 08:34:03] INFO root fetch - processPackages [je-editor-dev]: Downloading https://files.pythonhosted.org/packages/e3/60/d0e15e08f729733752329f5bc12e4b43568364238ac45a36580d3e45526b/je_editor_dev-0.0.94.tar.gz
+[2023-05-03 08:34:03] INFO root fetch - processPackages [adaflow-python]: Downloading https://files.pythonhosted.org/packages/08/34/838de2a5c1c7bdfadb12e95511d30435e1090539e914675e64e26b51bd5a/adaflow-python-0.0.1.tar.gz
+[2023-05-03 08:34:03] INFO root fetch - processPackages [je-editor]: Downloading https://files.pythonhosted.org/packages/3c/cd/d3ad728acb8e8b9f92fa8c8cbcf1dd1d0865adf969e108b076e3986d3142/je_editor-0.0.95.tar.gz
+[2023-05-03 08:34:03] INFO root fetch - processPackages [je-editor-dev]: Downloading https://files.pythonhosted.org/packages/21/04/dd44f96d154600e24eb75549829e684439b36eddd85031f3b658bf991560/je_editor_dev-0.0.95.tar.gz
+[2023-05-03 08:34:03] INFO root fetch - processPackages [je-editor]: executing diffoscope
+[2023-05-03 08:34:03] INFO root fetch - processPackages [je-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor-0.0.94.tar.gz tmp/je_editor-0.0.95.tar.gz --markdown 20230503/j/je-editor/0.0.94-0.0.95/diff.md --exclude *.pyd
+[2023-05-03 08:34:03] INFO root fetch - processPackages [je-editor-dev]: executing diffoscope
+[2023-05-03 08:34:03] INFO root fetch - processPackages [je-editor-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor_dev-0.0.94.tar.gz tmp/je_editor_dev-0.0.95.tar.gz --markdown 20230503/j/je-editor-dev/0.0.94-0.0.95/diff.md --exclude *.pyd
+[2023-05-03 08:34:03] INFO root fetch - processPackages [sapx]: executing diffoscope
+[2023-05-03 08:34:03] INFO root fetch - processPackages [sapx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sapx-0.1.8.tar.gz tmp/sapx-0.1.9.tar.gz --markdown 20230503/s/sapx/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-03 08:34:04] INFO root fetch - processPackages [adaflow-python]: Downloading https://files.pythonhosted.org/packages/82/55/fde532199fafe99f536833391e7e9db61ed9d30424559fa7022dd3ba5658/adaflow-python-0.0.2.tar.gz
+[2023-05-03 08:34:04] INFO root fetch - processPackages [adaflow-python]: executing diffoscope
+[2023-05-03 08:34:04] INFO root fetch - processPackages [adaflow-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adaflow-python-0.0.1.tar.gz tmp/adaflow-python-0.0.2.tar.gz --markdown 20230503/a/adaflow-python/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-03 08:34:05] INFO root fetch - main [MainThread]: End processing [je-editor]: success
+[2023-05-03 08:34:05] INFO root fetch - main [MainThread]: End processing [je-editor-dev]: success
+[2023-05-03 08:34:05] INFO root fetch - main [MainThread]: End processing [sapx]: success
+[2023-05-03 08:34:05] INFO root fetch - main [MainThread]: End processing [adaflow-python]: success
+[2023-05-03 08:34:05] INFO root fetch - main [MainThread]: Store serial: [17952234]
