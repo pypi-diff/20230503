@@ -2307,3 +2307,54 @@
 [2023-05-03 02:57:51] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-wget]: success
 [2023-05-03 02:58:10] INFO root fetch - main [MainThread]: End processing [bioversions]: success
 [2023-05-03 02:58:10] INFO root fetch - main [MainThread]: Store serial: [17949116]
+[2023-05-03 03:03:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17949116]
+[2023-05-03 03:03:19] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-03 03:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-hr-employee-calendar-planning
+[2023-05-03 03:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ovito
+[2023-05-03 03:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jaaql-middleware-python
+[2023-05-03 03:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aemcmc-nightly
+[2023-05-03 03:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: structure-py
+[2023-05-03 03:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-lambda-layer-curl
+[2023-05-03 03:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: autogon-utils
+[2023-05-03 03:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: drf-remotejwt
+[2023-05-03 03:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: graph-envs
+[2023-05-03 03:03:19] INFO root fetch - processPackages [odoo14-addon-hr-employee-calendar-planning]: New version: [14.0.1.5.3] Old Version: [14.0.1.5.2]
+[2023-05-03 03:03:19] INFO root fetch - processPackages [graph-envs]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 03:03:19] INFO root fetch - processPackages [aemcmc-nightly]: New version: [0.0.8.dev20230502] Old Version: [0.0.8.dev20230501]
+[2023-05-03 03:03:19] INFO root fetch - processPackages [structure-py]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-05-03 03:03:19] INFO root fetch - processPackages [ovito]: New version: [3.8.4] Old Version: [3.8.3]
+[2023-05-03 03:03:19] INFO root fetch - processPackages [jaaql-middleware-python]: New version: [4.8.9] Old Version: [4.8.7]
+[2023-05-03 03:03:19] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-03 03:03:19] INFO root fetch - processPackages [drf-remotejwt]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-05-03 03:03:19] INFO root fetch - processPackages [graph-envs]: executing diffoscope
+[2023-05-03 03:03:19] INFO root fetch - processPackages [graph-envs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graph-envs-0.0.8.tar.gz tmp/graph-envs-0.0.9.tar.gz --markdown 20230503/g/graph-envs/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 03:03:19] WARNING root fetch - processPackages [autogon-utils]: Skipping, unable to determine old version
+[2023-05-03 03:03:19] INFO root fetch - main [MainThread]: End processing [autogon-utils] error
+[2023-05-03 03:03:19] INFO root fetch - processPackages [structure-py]: executing diffoscope
+[2023-05-03 03:03:19] INFO root fetch - processPackages [structure-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/structure_py-0.6.1.tar.gz tmp/structure_py-0.6.2.tar.gz --markdown 20230503/s/structure-py/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-05-03 03:03:19] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-05-03 03:03:19] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230503/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-03 03:03:19] INFO root fetch - processPackages [jaaql-middleware-python]: executing diffoscope
+[2023-05-03 03:03:19] INFO root fetch - processPackages [jaaql-middleware-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaaql-middleware-python-4.8.7.tar.gz tmp/jaaql-middleware-python-4.8.9.tar.gz --markdown 20230503/j/jaaql-middleware-python/4.8.7-4.8.9/diff.md --exclude *.pyd
+[2023-05-03 03:03:19] INFO root fetch - processPackages [ovito]: Downloading https://files.pythonhosted.org/packages/77/cf/c3448d6652bda48e0b75ad14224a23ae47c8f67db5c05f3f11a4d984cf98/ovito-3.8.3-cp39-cp39-win_amd64.whl
+[2023-05-03 03:03:19] INFO root fetch - processPackages [odoo14-addon-hr-employee-calendar-planning]: Downloading https://files.pythonhosted.org/packages/fa/4d/636a090b3d175d95175707b511d64a552dfbbcf2659ce9e00d9ce250f8f6/odoo14_addon_hr_employee_calendar_planning-14.0.1.5.2-py3-none-any.whl
+[2023-05-03 03:03:19] WARNING root fetch - processPackages [ovito]: Skipping package: exceeds size limit 75692358>=10485760
+[2023-05-03 03:03:19] INFO root fetch - main [MainThread]: End processing [ovito] error
+[2023-05-03 03:03:19] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/51/e0/e3f05d1a0ed1bba097f7930fd908d4a55c6ecdd0551c388843226b551ee6/aemcmc-nightly-0.0.8.dev20230502.tar.gz
+[2023-05-03 03:03:19] INFO root fetch - processPackages [drf-remotejwt]: Downloading https://files.pythonhosted.org/packages/6e/a7/a1070536084962bf935ecc5dff0cadc87aa2bf7d33fa39730e9b5f9d8ac3/drf-remotejwt-0.1.0.tar.gz
+[2023-05-03 03:03:19] INFO root fetch - processPackages [aemcmc-nightly]: executing diffoscope
+[2023-05-03 03:03:19] INFO root fetch - processPackages [aemcmc-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aemcmc-nightly-0.0.8.dev20230501.tar.gz tmp/aemcmc-nightly-0.0.8.dev20230502.tar.gz --markdown 20230503/a/aemcmc-nightly/0.0.8.dev20230501-0.0.8.dev20230502/diff.md --exclude *.pyd
+[2023-05-03 03:03:19] INFO root fetch - processPackages [odoo14-addon-hr-employee-calendar-planning]: Downloading https://files.pythonhosted.org/packages/78/95/f44e91dbc9c4eab544adb41e8bc30cf9d7505e25e713264b2c21ff9ef1d0/odoo14_addon_hr_employee_calendar_planning-14.0.1.5.3-py3-none-any.whl
+[2023-05-03 03:03:19] INFO root fetch - processPackages [drf-remotejwt]: Downloading https://files.pythonhosted.org/packages/81/5c/c0c7940a9e7e3c5dd9f16f7c9093b0a96b32f92dcade278421197791b1f1/drf-remotejwt-0.1.2.tar.gz
+[2023-05-03 03:03:19] INFO root fetch - processPackages [odoo14-addon-hr-employee-calendar-planning]: executing diffoscope
+[2023-05-03 03:03:19] INFO root fetch - processPackages [odoo14-addon-hr-employee-calendar-planning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_hr_employee_calendar_planning-14.0.1.5.2-py3-none-any.whl.zip tmp/odoo14_addon_hr_employee_calendar_planning-14.0.1.5.3-py3-none-any.whl.zip --markdown 20230503/o/odoo14-addon-hr-employee-calendar-planning/14.0.1.5.2-14.0.1.5.3/diff.md --exclude *.pyd
+[2023-05-03 03:03:19] INFO root fetch - processPackages [drf-remotejwt]: executing diffoscope
+[2023-05-03 03:03:19] INFO root fetch - processPackages [drf-remotejwt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf-remotejwt-0.1.0.tar.gz tmp/drf-remotejwt-0.1.2.tar.gz --markdown 20230503/d/drf-remotejwt/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-05-03 03:03:20] INFO root fetch - main [MainThread]: End processing [graph-envs]: success
+[2023-05-03 03:03:20] INFO root fetch - main [MainThread]: End processing [aemcmc-nightly]: success
+[2023-05-03 03:03:20] INFO root fetch - main [MainThread]: End processing [structure-py]: success
+[2023-05-03 03:03:20] INFO root fetch - main [MainThread]: End processing [odoo14-addon-hr-employee-calendar-planning]: success
+[2023-05-03 03:03:21] INFO root fetch - main [MainThread]: End processing [drf-remotejwt]: success
+[2023-05-03 03:03:21] INFO root fetch - main [MainThread]: End processing [jaaql-middleware-python]: success
+[2023-05-03 03:03:22] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-05-03 03:03:22] INFO root fetch - main [MainThread]: Store serial: [17949146]
