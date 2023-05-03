@@ -15921,3 +15921,74 @@ No space left on device. Diffoscope exiting.
 [2023-05-03 15:31:20] INFO root fetch - main [MainThread]: End processing [npyx]: success
 [2023-05-03 15:31:22] INFO root fetch - main [MainThread]: End processing [omero-figure]: success
 [2023-05-03 15:31:22] INFO root fetch - main [MainThread]: Store serial: [17957008]
+[2023-05-03 15:36:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17957008]
+[2023-05-03 15:36:31] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-03 15:36:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bagbag
+[2023-05-03 15:36:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: voxelfarm
+[2023-05-03 15:36:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: musicbrainzez
+[2023-05-03 15:36:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openhab-pythonrule-engine
+[2023-05-03 15:36:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dataclay
+[2023-05-03 15:36:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fold-core
+[2023-05-03 15:36:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sphinx-versioned-docs
+[2023-05-03 15:36:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sipiiiii
+[2023-05-03 15:36:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: eradiate-mitsuba
+[2023-05-03 15:36:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: koku-nise
+[2023-05-03 15:36:31] WARNING root fetch - processPackages [musicbrainzez]: Skipping, unable to determine old version
+[2023-05-03 15:36:31] INFO root fetch - processPackages [musicbrainzez]: Start processing: pycrafter
+[2023-05-03 15:36:31] INFO root fetch - main [MainThread]: End processing [musicbrainzez] error
+[2023-05-03 15:36:31] INFO root fetch - processPackages [sipiiiii]: New version: [0.8.4] Old Version: [0.8.3]
+[2023-05-03 15:36:31] INFO root fetch - processPackages [dataclay]: New version: [3.0.0a3] Old Version: [3.0.0a2]
+[2023-05-03 15:36:31] INFO root fetch - processPackages [eradiate-mitsuba]: New version: [0.0.1rc8] Old Version: [0.0.1rc6]
+[2023-05-03 15:36:31] INFO root fetch - processPackages [pycrafter]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-03 15:36:31] INFO root fetch - processPackages [bagbag]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-05-03 15:36:31] INFO root fetch - processPackages [eradiate-mitsuba]: Downloading https://files.pythonhosted.org/packages/ab/d2/1e7fa3b88559d9e95cf09f4cb61a2f97ef7a6c66a6cc27b8fa6cdd5b753f/eradiate_mitsuba-0.0.1rc6-cp39-cp39-win_amd64.whl
+[2023-05-03 15:36:31] INFO root fetch - processPackages [voxelfarm]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-03 15:36:31] INFO root fetch - processPackages [fold-core]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-03 15:36:31] WARNING root fetch - processPackages [sphinx-versioned-docs]: Skipping, unable to determine old version
+[2023-05-03 15:36:31] INFO root fetch - processPackages [sphinx-versioned-docs]: Start processing: ferveo
+[2023-05-03 15:36:31] INFO root fetch - main [MainThread]: End processing [sphinx-versioned-docs] error
+[2023-05-03 15:36:31] INFO root fetch - processPackages [koku-nise]: New version: [4.2.5] Old Version: [4.2.4]
+[2023-05-03 15:36:31] INFO root fetch - processPackages [openhab-pythonrule-engine]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-03 15:36:32] WARNING root fetch - processPackages [eradiate-mitsuba]: Skipping package: exceeds size limit 22214667>=10485760
+[2023-05-03 15:36:32] INFO root fetch - main [MainThread]: End processing [eradiate-mitsuba] error
+[2023-05-03 15:36:32] INFO root fetch - processPackages [pycrafter]: Downloading https://files.pythonhosted.org/packages/d6/df/bf8a1b36777c09b108e05dc8eae1fdd1e039ff1157f81383f96f7f3c768d/pycrafter-0.0.2-py3-none-any.whl
+[2023-05-03 15:36:32] INFO root fetch - processPackages [sipiiiii]: Downloading https://files.pythonhosted.org/packages/7e/4a/1770308f4a9dd77e2e1d4ef43f8e483e19bc7904de97e8d5530e835add48/sipiiiii-0.8.4.tar.gz
+[2023-05-03 15:36:32] INFO root fetch - processPackages [ferveo]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-03 15:36:32] WARNING root fetch - processPackages [pycrafter]: Skipping package: exceeds size limit 78872973>=10485760
+[2023-05-03 15:36:32] INFO root fetch - main [MainThread]: End processing [pycrafter] error
+[2023-05-03 15:36:32] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/e2/03/a30481576c052c1eee23b42a7287d84bc2e1ac30d62805bb01e6cda8f97b/bagbag-0.9.5.tar.gz
+[2023-05-03 15:36:32] INFO root fetch - processPackages [dataclay]: executing diffoscope
+[2023-05-03 15:36:32] INFO root fetch - processPackages [dataclay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataClay-3.0.0a2.tar.gz tmp/dataClay-3.0.0a3.tar.gz --markdown 20230503/d/dataclay/3.0.0a2-3.0.0a3/diff.md --exclude *.pyd
+[2023-05-03 15:36:32] INFO root fetch - processPackages [koku-nise]: Downloading https://files.pythonhosted.org/packages/e4/ff/ea98cefb86aca109bea69012ccbcd3687dd5efbc17691818ebda17788de3/koku-nise-4.2.4.tar.gz
+[2023-05-03 15:36:32] INFO root fetch - processPackages [voxelfarm]: Downloading https://files.pythonhosted.org/packages/20/85/9611d3c2a2121654fde0a31930b66953ce55c84d1d65f5067e28d13afd84/voxelfarm-0.0.98.tar.gz
+[2023-05-03 15:36:32] INFO root fetch - processPackages [openhab-pythonrule-engine]: Downloading https://files.pythonhosted.org/packages/53/b8/8bd822aa58f48f87a165a41c13622aca27f3899dbee42acdab33276b63b3/openhab_pythonrule_engine-1.1.8.tar.gz
+[2023-05-03 15:36:32] INFO root fetch - processPackages [sipiiiii]: executing diffoscope
+[2023-05-03 15:36:32] INFO root fetch - processPackages [sipiiiii]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sipiiiii-0.8.3.tar.gz tmp/sipiiiii-0.8.4.tar.gz --markdown 20230503/s/sipiiiii/0.8.3-0.8.4/diff.md --exclude *.pyd
+[2023-05-03 15:36:32] INFO root fetch - processPackages [ferveo]: Downloading https://files.pythonhosted.org/packages/0e/ac/dfc9f95a3872e9a64024d524cfad638a173d854eb5ba9be6756f85e1603b/ferveo-0.1.7.tar.gz
+[2023-05-03 15:36:32] INFO root fetch - processPackages [fold-core]: Downloading https://files.pythonhosted.org/packages/44/18/bc73f3c1de83b997e0fc9d242c5361bbaff7d11093f05f5611c0807fb970/fold_core-0.1.8.tar.gz
+[2023-05-03 15:36:32] INFO root fetch - processPackages [fold-core]: executing diffoscope
+[2023-05-03 15:36:32] INFO root fetch - processPackages [fold-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fold_core-0.1.7.tar.gz tmp/fold_core-0.1.8.tar.gz --markdown 20230503/f/fold-core/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-03 15:36:32] INFO root fetch - processPackages [koku-nise]: Downloading https://files.pythonhosted.org/packages/d8/24/d7573012697d58210563da4843f79754989f321e2804fb43566bbaaf8564/koku-nise-4.2.5.tar.gz
+[2023-05-03 15:36:32] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/c0/f0/43539427af63a4934a769a4339639a44b86197fd21bf3d7be9293c03c5c5/bagbag-0.9.6.tar.gz
+[2023-05-03 15:36:32] INFO root fetch - processPackages [koku-nise]: executing diffoscope
+[2023-05-03 15:36:32] INFO root fetch - processPackages [koku-nise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/koku-nise-4.2.4.tar.gz tmp/koku-nise-4.2.5.tar.gz --markdown 20230503/k/koku-nise/4.2.4-4.2.5/diff.md --exclude *.pyd
+[2023-05-03 15:36:32] INFO root fetch - processPackages [voxelfarm]: Downloading https://files.pythonhosted.org/packages/e0/53/b3cc1d3af35da7434a2086b0ce3422a7fa824b2780185a6fa1a2487bbc1d/voxelfarm-0.0.99.tar.gz
+[2023-05-03 15:36:32] INFO root fetch - processPackages [openhab-pythonrule-engine]: Downloading https://files.pythonhosted.org/packages/1b/0a/e52241e767752cebdb61146d8c9d4151b7cdd5a1b4c1d8234193fcde1b20/openhab_pythonrule_engine-1.1.9.tar.gz
+[2023-05-03 15:36:32] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-05-03 15:36:32] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.9.5.tar.gz tmp/bagbag-0.9.6.tar.gz --markdown 20230503/b/bagbag/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-05-03 15:36:32] INFO root fetch - processPackages [ferveo]: Downloading https://files.pythonhosted.org/packages/f3/71/13b4799fc8764bc4807b6aaa82bfd916513627b5b03431fe4bd42d90d682/ferveo-0.1.8.tar.gz
+[2023-05-03 15:36:32] INFO root fetch - processPackages [voxelfarm]: executing diffoscope
+[2023-05-03 15:36:32] INFO root fetch - processPackages [voxelfarm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voxelfarm-0.0.98.tar.gz tmp/voxelfarm-0.0.99.tar.gz --markdown 20230503/v/voxelfarm/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-03 15:36:32] INFO root fetch - processPackages [openhab-pythonrule-engine]: executing diffoscope
+[2023-05-03 15:36:32] INFO root fetch - processPackages [openhab-pythonrule-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openhab_pythonrule_engine-1.1.8.tar.gz tmp/openhab_pythonrule_engine-1.1.9.tar.gz --markdown 20230503/o/openhab-pythonrule-engine/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-03 15:36:32] INFO root fetch - processPackages [ferveo]: executing diffoscope
+[2023-05-03 15:36:32] INFO root fetch - processPackages [ferveo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ferveo-0.1.7.tar.gz tmp/ferveo-0.1.8.tar.gz --markdown 20230503/f/ferveo/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-03 15:36:33] INFO root fetch - main [MainThread]: End processing [sipiiiii]: success
+[2023-05-03 15:36:33] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-05-03 15:36:34] INFO root fetch - main [MainThread]: End processing [voxelfarm]: success
+[2023-05-03 15:36:34] INFO root fetch - main [MainThread]: End processing [fold-core]: success
+[2023-05-03 15:36:34] INFO root fetch - main [MainThread]: End processing [koku-nise]: success
+[2023-05-03 15:36:34] INFO root fetch - main [MainThread]: End processing [dataclay]: success
+[2023-05-03 15:36:34] INFO root fetch - main [MainThread]: End processing [openhab-pythonrule-engine]: success
+[2023-05-03 15:36:34] INFO root fetch - main [MainThread]: End processing [ferveo]: success
+[2023-05-03 15:36:34] INFO root fetch - main [MainThread]: Store serial: [17957057]
