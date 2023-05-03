@@ -21238,3 +21238,73 @@ No space left on device. Diffoscope exiting.
 [2023-05-03 19:41:31] INFO root fetch - main [MainThread]: End processing [deepchem]: success
 [2023-05-03 19:41:36] INFO root fetch - main [MainThread]: End processing [axonius-api-client]: success
 [2023-05-03 19:41:36] INFO root fetch - main [MainThread]: Store serial: [17960511]
+[2023-05-03 19:46:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17960511]
+[2023-05-03 19:46:45] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-03 19:46:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dactim-mri
+[2023-05-03 19:46:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deep-clone
+[2023-05-03 19:46:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-sphinx-hosting
+[2023-05-03 19:46:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: embiggen
+[2023-05-03 19:46:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aws-cfn-update
+[2023-05-03 19:46:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chalk-harness
+[2023-05-03 19:46:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: curriculum-analysis
+[2023-05-03 19:46:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: popyquests
+[2023-05-03 19:46:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: discovery-transition-ds
+[2023-05-03 19:46:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ft-package-42-jekim
+[2023-05-03 19:46:45] INFO root fetch - processPackages [curriculum-analysis]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-03 19:46:45] INFO root fetch - processPackages [deep-clone]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-03 19:46:45] INFO root fetch - processPackages [embiggen]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-03 19:46:45] INFO root fetch - processPackages [dactim-mri]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-03 19:46:45] INFO root fetch - processPackages [django-sphinx-hosting]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-03 19:46:45] INFO root fetch - processPackages [ft-package-42-jekim]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-03 19:46:45] WARNING root fetch - processPackages [popyquests]: Skipping, unable to determine old version
+[2023-05-03 19:46:45] INFO root fetch - processPackages [aws-cfn-update]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-05-03 19:46:45] INFO root fetch - processPackages [popyquests]: Start processing: apollo-sdk
+[2023-05-03 19:46:45] INFO root fetch - main [MainThread]: End processing [popyquests] error
+[2023-05-03 19:46:45] INFO root fetch - processPackages [chalk-harness]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-03 19:46:45] INFO root fetch - processPackages [discovery-transition-ds]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-05-03 19:46:45] INFO root fetch - processPackages [apollo-sdk]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-03 19:46:45] INFO root fetch - processPackages [discovery-transition-ds]: executing diffoscope
+[2023-05-03 19:46:45] INFO root fetch - processPackages [discovery-transition-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discovery-transition-ds-4.9.8.tar.gz tmp/discovery-transition-ds-4.9.9.tar.gz --markdown 20230503/d/discovery-transition-ds/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-05-03 19:46:45] INFO root fetch - processPackages [embiggen]: Downloading https://files.pythonhosted.org/packages/93/68/e13cdca050b32069a58f9e36d05835a384d261a5d1f299af468629e721e1/embiggen-0.9.2.tar.gz
+[2023-05-03 19:46:45] INFO root fetch - processPackages [dactim-mri]: Downloading https://files.pythonhosted.org/packages/eb/e3/5f3cf75a9c911ccceff5f5b8a0cd4341f2947c99a508c9601fbe6c8ab29f/dactim_mri-0.0.6.tar.gz
+[2023-05-03 19:46:45] INFO root fetch - processPackages [aws-cfn-update]: Downloading https://files.pythonhosted.org/packages/a4/d4/d1fb7465c972a9d0a71375d7fb35b31edc2a57570145a0b9388eb244ec61/aws-cfn-update-0.8.1.tar.gz
+[2023-05-03 19:46:45] INFO root fetch - processPackages [chalk-harness]: Downloading https://files.pythonhosted.org/packages/8e/3a/1b7bcfd68b3fb7e312a8d5dfe975c73f564cd879a55be62b0791d2c939a7/chalk-harness-0.9.8.tar.gz
+[2023-05-03 19:46:45] INFO root fetch - processPackages [curriculum-analysis]: Downloading https://files.pythonhosted.org/packages/74/15/a6d2da372a0c125cf102b17bd9be7c6049601f305802622a9cc54fc5ff79/curriculum_analysis-0.2.9.tar.gz
+[2023-05-03 19:46:45] INFO root fetch - processPackages [deep-clone]: Downloading https://files.pythonhosted.org/packages/47/75/4339e85e90411f6a033644561f59d65f7242021ea97bda93ac0783e78cda/deep-clone-0.0.4.tar.gz
+[2023-05-03 19:46:45] INFO root fetch - processPackages [ft-package-42-jekim]: Downloading https://files.pythonhosted.org/packages/7d/80/ed04b006ab6c182c20c3d9162b71efe393a81c79cb65cb1e48b0dd568105/ft_package_42_jekim-0.0.6.tar.gz
+[2023-05-03 19:46:45] INFO root fetch - processPackages [django-sphinx-hosting]: Downloading https://files.pythonhosted.org/packages/66/6f/a96c26b49360cff62720b25a6fe7db3118038a4acfdb860118a50f0ff6a0/django-sphinx-hosting-1.1.1.tar.gz
+[2023-05-03 19:46:45] INFO root fetch - processPackages [apollo-sdk]: Downloading https://files.pythonhosted.org/packages/6d/78/707c4887e9c0ce018575e2af38ccf35964ea6ff0f4a1650396885ad7b336/apollo-sdk-0.1.2.tar.gz
+[2023-05-03 19:46:46] INFO root fetch - processPackages [curriculum-analysis]: executing diffoscope
+[2023-05-03 19:46:46] INFO root fetch - processPackages [curriculum-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/curriculum_analysis-0.2.8.tar.gz tmp/curriculum_analysis-0.2.9.tar.gz --markdown 20230503/c/curriculum-analysis/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-03 19:46:46] INFO root fetch - processPackages [ft-package-42-jekim]: executing diffoscope
+[2023-05-03 19:46:46] INFO root fetch - processPackages [ft-package-42-jekim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ft_package_42_jekim-0.0.5.tar.gz tmp/ft_package_42_jekim-0.0.6.tar.gz --markdown 20230503/f/ft-package-42-jekim/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-03 19:46:46] INFO root fetch - processPackages [deep-clone]: executing diffoscope
+[2023-05-03 19:46:46] INFO root fetch - processPackages [deep-clone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deep-clone-0.0.3.tar.gz tmp/deep-clone-0.0.4.tar.gz --markdown 20230503/d/deep-clone/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-03 19:46:46] INFO root fetch - processPackages [django-sphinx-hosting]: executing diffoscope
+[2023-05-03 19:46:46] INFO root fetch - processPackages [django-sphinx-hosting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-sphinx-hosting-1.1.0.tar.gz tmp/django-sphinx-hosting-1.1.1.tar.gz --markdown 20230503/d/django-sphinx-hosting/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-03 19:46:46] INFO root fetch - processPackages [dactim-mri]: Downloading https://files.pythonhosted.org/packages/92/00/239faeb39669e8851decd402e8f5a949b3635c2c32e940044f8cb9d0bc13/dactim_mri-0.0.7.tar.gz
+[2023-05-03 19:46:46] INFO root fetch - processPackages [chalk-harness]: Downloading https://files.pythonhosted.org/packages/5a/a1/ebd94059e71285766b03c097e6d74809a224502f80a4a6bfbcd4279de9d3/chalk-harness-0.9.9.tar.gz
+[2023-05-03 19:46:46] INFO root fetch - processPackages [chalk-harness]: executing diffoscope
+[2023-05-03 19:46:46] INFO root fetch - processPackages [chalk-harness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalk-harness-0.9.8.tar.gz tmp/chalk-harness-0.9.9.tar.gz --markdown 20230503/c/chalk-harness/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-03 19:46:46] INFO root fetch - processPackages [apollo-sdk]: Downloading https://files.pythonhosted.org/packages/f5/64/6cb080540fb25eb45c86225c4d5c7fa7c18c18127108808a8b43a9cc3b1b/apollo-sdk-0.1.3.macosx-13-arm64.tar.gz
+[2023-05-03 19:46:46] INFO root fetch - processPackages [aws-cfn-update]: Downloading https://files.pythonhosted.org/packages/44/25/5c43e43f12dce1d12b9d909f051c23a5c5bc56f6d9062b4b2ae7d58750fb/aws-cfn-update-0.8.2.tar.gz
+[2023-05-03 19:46:46] INFO root fetch - processPackages [dactim-mri]: executing diffoscope
+[2023-05-03 19:46:46] INFO root fetch - processPackages [dactim-mri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dactim_mri-0.0.6.tar.gz tmp/dactim_mri-0.0.7.tar.gz --markdown 20230503/d/dactim-mri/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-03 19:46:46] INFO root fetch - processPackages [apollo-sdk]: executing diffoscope
+[2023-05-03 19:46:46] INFO root fetch - processPackages [apollo-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apollo-sdk-0.1.2.tar.gz tmp/apollo-sdk-0.1.3.macosx-13-arm64.tar.gz --markdown 20230503/a/apollo-sdk/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-03 19:46:47] INFO root fetch - processPackages [aws-cfn-update]: executing diffoscope
+[2023-05-03 19:46:47] INFO root fetch - processPackages [aws-cfn-update]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cfn-update-0.8.1.tar.gz tmp/aws-cfn-update-0.8.2.tar.gz --markdown 20230503/a/aws-cfn-update/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-05-03 19:46:47] INFO root fetch - processPackages [embiggen]: Downloading https://files.pythonhosted.org/packages/4b/25/4e08b9a62e34917ef75c8ed47526252ca4bcd5d5e15961bc14dc9486ccf8/embiggen-0.9.3.tar.gz
+[2023-05-03 19:46:47] INFO root fetch - processPackages [embiggen]: executing diffoscope
+[2023-05-03 19:46:47] INFO root fetch - processPackages [embiggen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embiggen-0.9.2.tar.gz tmp/embiggen-0.9.3.tar.gz --markdown 20230503/e/embiggen/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-03 19:46:48] INFO root fetch - main [MainThread]: End processing [ft-package-42-jekim]: success
+[2023-05-03 19:46:48] INFO root fetch - main [MainThread]: End processing [deep-clone]: success
+[2023-05-03 19:46:48] INFO root fetch - main [MainThread]: End processing [curriculum-analysis]: success
+[2023-05-03 19:46:48] INFO root fetch - main [MainThread]: End processing [chalk-harness]: success
+[2023-05-03 19:46:48] INFO root fetch - main [MainThread]: End processing [dactim-mri]: success
+[2023-05-03 19:46:48] INFO root fetch - main [MainThread]: End processing [django-sphinx-hosting]: success
+[2023-05-03 19:46:48] INFO root fetch - main [MainThread]: End processing [apollo-sdk]: success
+[2023-05-03 19:46:49] INFO root fetch - main [MainThread]: End processing [aws-cfn-update]: success
+[2023-05-03 19:46:49] INFO root fetch - main [MainThread]: End processing [discovery-transition-ds]: success
+[2023-05-03 19:46:49] INFO root fetch - main [MainThread]: End processing [embiggen]: success
+[2023-05-03 19:46:49] INFO root fetch - main [MainThread]: Store serial: [17960544]
