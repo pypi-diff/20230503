@@ -7282,3 +7282,69 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-03 08:22:27] INFO root fetch - main [MainThread]: End processing [pretext]: success
 [2023-05-03 08:23:20] INFO root fetch - main [MainThread]: End processing [pylyzer]: success
 [2023-05-03 08:23:20] INFO root fetch - main [MainThread]: Store serial: [17952161]
+[2023-05-03 08:28:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17952161]
+[2023-05-03 08:28:44] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-03 08:28:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: GenBioX
+[2023-05-03 08:28:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dparo
+[2023-05-03 08:28:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fake-bpy-module-latest
+[2023-05-03 08:28:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: font-CLI
+[2023-05-03 08:28:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: onnx2tf
+[2023-05-03 08:28:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: macrobond-data-api
+[2023-05-03 08:28:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: icdcodex
+[2023-05-03 08:28:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: argos-translate-files
+[2023-05-03 08:28:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dghs-imgutils
+[2023-05-03 08:28:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: airflow-kdb-provider
+[2023-05-03 08:28:44] WARNING root fetch - processPackages [GenBioX]: Skipping, unable to determine old version
+[2023-05-03 08:28:44] INFO root fetch - processPackages [GenBioX]: Start processing: gpt-review
+[2023-05-03 08:28:44] INFO root fetch - main [MainThread]: End processing [GenBioX] error
+[2023-05-03 08:28:44] INFO root fetch - processPackages [macrobond-data-api]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-03 08:28:44] INFO root fetch - processPackages [icdcodex]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-05-03 08:28:44] INFO root fetch - processPackages [argos-translate-files]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-05-03 08:28:44] INFO root fetch - processPackages [font-CLI]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-03 08:28:44] WARNING root fetch - processPackages [dparo]: Skipping, unable to determine old version
+[2023-05-03 08:28:44] INFO root fetch - processPackages [dghs-imgutils]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-03 08:28:44] INFO root fetch - processPackages [dparo]: Start processing: oarepo-cli
+[2023-05-03 08:28:44] INFO root fetch - main [MainThread]: End processing [dparo] error
+[2023-05-03 08:28:44] INFO root fetch - processPackages [gpt-review]: New version: [0.2.3rc308.post1] Old Version: [0.2.3rc301.post1]
+[2023-05-03 08:28:44] INFO root fetch - processPackages [onnx2tf]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-03 08:28:44] INFO root fetch - processPackages [oarepo-cli]: New version: [11.0.8] Old Version: [11.0.7]
+[2023-05-03 08:28:44] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20230503] Old Version: [20230502]
+[2023-05-03 08:28:44] WARNING root fetch - processPackages [airflow-kdb-provider]: Skipping, unable to determine old version
+[2023-05-03 08:28:44] INFO root fetch - main [MainThread]: End processing [airflow-kdb-provider] error
+[2023-05-03 08:28:44] INFO root fetch - processPackages [onnx2tf]: executing diffoscope
+[2023-05-03 08:28:44] INFO root fetch - processPackages [onnx2tf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2tf-1.9.8.tar.gz tmp/onnx2tf-1.9.9.tar.gz --markdown 20230503/o/onnx2tf/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-03 08:28:44] INFO root fetch - processPackages [oarepo-cli]: executing diffoscope
+[2023-05-03 08:28:44] INFO root fetch - processPackages [oarepo-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-cli-11.0.7.tar.gz tmp/oarepo-cli-11.0.8.tar.gz --markdown 20230503/o/oarepo-cli/11.0.7-11.0.8/diff.md --exclude *.pyd
+[2023-05-03 08:28:44] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-05-03 08:28:44] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-review-0.2.3rc301.post1.tar.gz tmp/gpt-review-0.2.3rc308.post1.tar.gz --markdown 20230503/g/gpt-review/0.2.3rc301.post1-0.2.3rc308.post1/diff.md --exclude *.pyd
+[2023-05-03 08:28:44] INFO root fetch - processPackages [icdcodex]: Downloading https://files.pythonhosted.org/packages/f6/21/8fb1318f9810f7f7e862baeddbb759d5a9f67dba9080e52c7b8662ebcda8/icdcodex-0.4.7.tar.gz
+[2023-05-03 08:28:44] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/36/82/a36383e996363d3a2aff0530ffeb7c7a5b8fc3ab709847464cb5b94f9d33/fake-bpy-module-latest-20230502.tar.gz
+[2023-05-03 08:28:44] INFO root fetch - processPackages [dghs-imgutils]: Downloading https://files.pythonhosted.org/packages/f6/50/2d71812bbafa4fc2e6cc1c1072a5a46431be0726e764c1688c9a97d15a18/dghs-imgutils-0.0.1.tar.gz
+[2023-05-03 08:28:44] INFO root fetch - processPackages [font-CLI]: Downloading https://files.pythonhosted.org/packages/06/60/9a4e563794daa93134d8c5427df6bf3a3d4b52b1d2f640738b6cf7b03ea6/font-CLI-0.9.8.tar.gz
+[2023-05-03 08:28:44] INFO root fetch - processPackages [argos-translate-files]: Downloading https://files.pythonhosted.org/packages/82/9d/3ab2baf07317b2a66f490e45874dde7dd333ace2ccb7d118b739f53a8a43/argos-translate-files-1.1.2.tar.gz
+[2023-05-03 08:28:44] WARNING root fetch - processPackages [icdcodex]: Skipping package: exceeds size limit 25203255>=10485760
+[2023-05-03 08:28:44] INFO root fetch - main [MainThread]: End processing [icdcodex] error
+[2023-05-03 08:28:44] INFO root fetch - processPackages [macrobond-data-api]: Downloading https://files.pythonhosted.org/packages/97/52/d57ca6d0894c5e38b5ce0dd89d03579ad734eed5326906d9f47e233060c2/macrobond-data-api-1.0.3.tar.gz
+[2023-05-03 08:28:44] INFO root fetch - processPackages [macrobond-data-api]: executing diffoscope
+[2023-05-03 08:28:44] INFO root fetch - processPackages [macrobond-data-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrobond-data-api-1.0.2.tar.gz tmp/macrobond-data-api-1.0.3.tar.gz --markdown 20230503/m/macrobond-data-api/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-03 08:28:44] INFO root fetch - processPackages [dghs-imgutils]: Downloading https://files.pythonhosted.org/packages/82/46/ddb706dceeffe99714e2e0bf6ef29bba6e2033acc347f20404b119bcd996/dghs-imgutils-0.0.2.tar.gz
+[2023-05-03 08:28:44] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/ea/c9/568bd0e0aeb2945ab47734fbfd6199c4c2b8a5a46c26b5e307ed575e549f/fake-bpy-module-latest-20230503.tar.gz
+[2023-05-03 08:28:44] INFO root fetch - processPackages [dghs-imgutils]: executing diffoscope
+[2023-05-03 08:28:44] INFO root fetch - processPackages [dghs-imgutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dghs-imgutils-0.0.1.tar.gz tmp/dghs-imgutils-0.0.2.tar.gz --markdown 20230503/d/dghs-imgutils/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-03 08:28:44] INFO root fetch - processPackages [argos-translate-files]: Downloading https://files.pythonhosted.org/packages/d2/4f/75649052874b1c4ad02d8d73af1bba1457e4dde57be0b767bd7a95968db5/argos-translate-files-1.1.3.tar.gz
+[2023-05-03 08:28:44] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2023-05-03 08:28:44] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-latest-20230502.tar.gz tmp/fake-bpy-module-latest-20230503.tar.gz --markdown 20230503/f/fake-bpy-module-latest/20230502-20230503/diff.md --exclude *.pyd
+[2023-05-03 08:28:44] INFO root fetch - processPackages [font-CLI]: Downloading https://files.pythonhosted.org/packages/32/a2/92d8279cf0ec790d01e55a0b0024fe518128e1728d42dfbbb55e17f8a4c9/font-CLI-0.9.9.tar.gz
+[2023-05-03 08:28:44] INFO root fetch - processPackages [argos-translate-files]: executing diffoscope
+[2023-05-03 08:28:44] INFO root fetch - processPackages [argos-translate-files]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argos-translate-files-1.1.2.tar.gz tmp/argos-translate-files-1.1.3.tar.gz --markdown 20230503/a/argos-translate-files/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-05-03 08:28:44] INFO root fetch - processPackages [font-CLI]: executing diffoscope
+[2023-05-03 08:28:44] INFO root fetch - processPackages [font-CLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/font-CLI-0.9.8.tar.gz tmp/font-CLI-0.9.9.tar.gz --markdown 20230503/f/font-CLI/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-03 08:28:46] INFO root fetch - main [MainThread]: End processing [dghs-imgutils]: success
+[2023-05-03 08:28:46] INFO root fetch - main [MainThread]: End processing [argos-translate-files]: success
+[2023-05-03 08:28:46] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-05-03 08:28:46] INFO root fetch - main [MainThread]: End processing [macrobond-data-api]: success
+[2023-05-03 08:28:46] INFO root fetch - main [MainThread]: End processing [oarepo-cli]: success
+[2023-05-03 08:28:46] INFO root fetch - main [MainThread]: End processing [font-CLI]: success
+[2023-05-03 08:28:47] INFO root fetch - main [MainThread]: End processing [onnx2tf]: success
+[2023-05-03 08:28:51] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2023-05-03 08:28:51] INFO root fetch - main [MainThread]: Store serial: [17952204]
