@@ -8296,3 +8296,129 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-03 09:49:31] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
 [2023-05-03 09:50:00] INFO root fetch - main [MainThread]: End processing [pyfaust]: success
 [2023-05-03 09:50:00] INFO root fetch - main [MainThread]: Store serial: [17952776]
+[2023-05-03 09:55:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17952776]
+[2023-05-03 09:55:12] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-05-03 09:55:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gammy
+[2023-05-03 09:55:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mrx-link-core
+[2023-05-03 09:55:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: castor-extractor
+[2023-05-03 09:55:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: joes-giant-toolbox
+[2023-05-03 09:55:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tf-nightly-cpu
+[2023-05-03 09:55:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lighthouseweb3
+[2023-05-03 09:55:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: BDXConverter
+[2023-05-03 09:55:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qwak-core
+[2023-05-03 09:55:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: semisup-segmentation
+[2023-05-03 09:55:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: opal-net
+[2023-05-03 09:55:12] WARNING root fetch - processPackages [opal-net]: Skipping, unable to determine old version
+[2023-05-03 09:55:12] INFO root fetch - processPackages [opal-net]: Start processing: cdklabs.cdk-validator-cfnguard
+[2023-05-03 09:55:12] INFO root fetch - main [MainThread]: End processing [opal-net] error
+[2023-05-03 09:55:12] INFO root fetch - processPackages [BDXConverter]: New version: [1.0.14] Old Version: [1.0.13]
+[2023-05-03 09:55:12] INFO root fetch - processPackages [semisup-segmentation]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-03 09:55:12] INFO root fetch - processPackages [qwak-core]: New version: [0.0.43] Old Version: [0.0.42]
+[2023-05-03 09:55:12] INFO root fetch - processPackages [lighthouseweb3]: New version: [0.1.0] Old Version: [0.0.7]
+[2023-05-03 09:55:12] INFO root fetch - processPackages [gammy]: New version: [0.5.0] Old Version: [0.4.9]
+[2023-05-03 09:55:12] INFO root fetch - processPackages [castor-extractor]: New version: [0.3.7] Old Version: [0.3.5]
+[2023-05-03 09:55:12] INFO root fetch - processPackages [joes-giant-toolbox]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-03 09:55:12] INFO root fetch - processPackages [mrx-link-core]: New version: [1.1.0.dev9] Old Version: [1.1.0.dev8]
+[2023-05-03 09:55:12] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 09:55:12] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.14.0.dev20230503] Old Version: [2.14.0.dev20230502]
+[2023-05-03 09:55:12] INFO root fetch - processPackages [BDXConverter]: Downloading https://files.pythonhosted.org/packages/dc/9f/8b00e7b804952bad8da7fcd0d7e34a1b000ffa4b2ef5e9d0ff46a7e2a816/BDXConverter-1.0.13.tar.gz
+[2023-05-03 09:55:12] INFO root fetch - processPackages [semisup-segmentation]: Downloading https://files.pythonhosted.org/packages/85/94/9eae58363a2cb0d3fc8a8a6fc68d6a43a152a611f99c8d599cb429818388/semisup-segmentation-0.0.1.tar.gz
+[2023-05-03 09:55:12] INFO root fetch - processPackages [lighthouseweb3]: Downloading https://files.pythonhosted.org/packages/b1/7d/0bfcda41f9fcdebc01a1b75fcb6504d67c20f66b9b09540bcad0dffa3374/lighthouseweb3-0.0.7.tar.gz
+[2023-05-03 09:55:12] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/89/75/a4fd018993ffae868ef6c433b7c48fd73d87b1eb6c58ed121d092c107417/qwak_core-0.0.43.tar.gz
+[2023-05-03 09:55:13] INFO root fetch - processPackages [gammy]: Downloading https://files.pythonhosted.org/packages/b8/f7/de042422f0d176b72b002ebab1f0a788a381437e8014dcbf06d159960b70/gammy-0.4.9.tar.gz
+[2023-05-03 09:55:13] INFO root fetch - processPackages [castor-extractor]: Downloading https://files.pythonhosted.org/packages/26/ca/25bf8274cc9ed0b8ebf7802f2f4af4bac4a90e2cfc00cea598d8d89d5772/castor_extractor-0.3.5.tar.gz
+[2023-05-03 09:55:13] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: executing diffoscope
+[2023-05-03 09:55:13] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-validator-cfnguard-0.0.8.tar.gz tmp/cdklabs.cdk-validator-cfnguard-0.0.9.tar.gz --markdown 20230503/c/cdklabs.cdk-validator-cfnguard/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 09:55:13] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-05-03 09:55:13] INFO root fetch - processPackages [BDXConverter]: Downloading https://files.pythonhosted.org/packages/c2/86/ae9632baf2fddfa9fd94312e031b1f7348cb6d915d39900a5646751d453d/BDXConverter-1.0.14.tar.gz
+[2023-05-03 09:55:13] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.42.tar.gz tmp/qwak_core-0.0.43.tar.gz --markdown 20230503/q/qwak-core/0.0.42-0.0.43/diff.md --exclude *.pyd
+[2023-05-03 09:55:13] INFO root fetch - processPackages [semisup-segmentation]: Downloading https://files.pythonhosted.org/packages/eb/ab/58f00ef72e5970ddb65935fd53ac44a380ffe9f20ca8c93c540eefc65bba/semisup-segmentation-0.0.2.tar.gz
+[2023-05-03 09:55:13] INFO root fetch - processPackages [joes-giant-toolbox]: Downloading https://files.pythonhosted.org/packages/4e/8d/41b6f1cf500f30af6e434309f2e19efd102a1b5dbde34185077dde68f42d/joes_giant_toolbox-0.2.0.tar.gz
+[2023-05-03 09:55:13] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/5e/3d/1853f3a4333c5f4f4039247c20b688478e7ff722829ebfe5b22e32eaa386/tf_nightly_cpu-2.14.0.dev20230503-cp39-cp39-win_amd64.whl
+[2023-05-03 09:55:13] INFO root fetch - processPackages [semisup-segmentation]: executing diffoscope
+[2023-05-03 09:55:13] INFO root fetch - processPackages [semisup-segmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semisup-segmentation-0.0.1.tar.gz tmp/semisup-segmentation-0.0.2.tar.gz --markdown 20230503/s/semisup-segmentation/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-03 09:55:13] INFO root fetch - processPackages [mrx-link-core]: executing diffoscope
+[2023-05-03 09:55:13] INFO root fetch - processPackages [mrx-link-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrx_link_core-1.1.0.dev8-cp39-cp39-win_amd64.whl.zip tmp/mrx_link_core-1.1.0.dev9-cp39-cp39-win_amd64.whl.zip --markdown 20230503/m/mrx-link-core/1.1.0.dev8-1.1.0.dev9/diff.md --exclude *.pyd
+[2023-05-03 09:55:13] INFO root fetch - processPackages [lighthouseweb3]: Downloading https://files.pythonhosted.org/packages/81/8a/54669f6994f3d3d4f76a1121fb53b071081555a4c5df162f9a91c6dfd611/lighthouseweb3-0.1.0.tar.gz
+[2023-05-03 09:55:13] INFO root fetch - processPackages [BDXConverter]: executing diffoscope
+[2023-05-03 09:55:13] INFO root fetch - processPackages [BDXConverter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BDXConverter-1.0.13.tar.gz tmp/BDXConverter-1.0.14.tar.gz --markdown 20230503/B/BDXConverter/1.0.13-1.0.14/diff.md --exclude *.pyd
+[2023-05-03 09:55:13] INFO root fetch - processPackages [gammy]: Downloading https://files.pythonhosted.org/packages/a2/c5/de836446cc34ef1d8ad8493bf8cad4021b877fae009c4f797b24f748037d/gammy-0.5.0.tar.gz
+[2023-05-03 09:55:13] INFO root fetch - processPackages [joes-giant-toolbox]: executing diffoscope
+[2023-05-03 09:55:13] INFO root fetch - processPackages [joes-giant-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/joes_giant_toolbox-0.1.0.tar.gz tmp/joes_giant_toolbox-0.2.0.tar.gz --markdown 20230503/j/joes-giant-toolbox/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-03 09:55:13] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-05-03 09:55:13] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.14.0.dev20230502-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.14.0.dev20230503-cp39-cp39-win_amd64.whl.zip --markdown 20230503/t/tf-nightly-cpu/2.14.0.dev20230502-2.14.0.dev20230503/diff.md --exclude *.pyd
+[2023-05-03 09:55:13] INFO root fetch - processPackages [gammy]: executing diffoscope
+[2023-05-03 09:55:13] INFO root fetch - processPackages [gammy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammy-0.4.9.tar.gz tmp/gammy-0.5.0.tar.gz --markdown 20230503/g/gammy/0.4.9-0.5.0/diff.md --exclude *.pyd
+[2023-05-03 09:55:13] INFO root fetch - processPackages [castor-extractor]: Downloading https://files.pythonhosted.org/packages/24/69/fba8fc23cb34d4704894df791b485c6e9828ba1d61640ba919a7a2c4cc4f/castor_extractor-0.3.7.tar.gz
+[2023-05-03 09:55:13] INFO root fetch - processPackages [lighthouseweb3]: executing diffoscope
+[2023-05-03 09:55:13] INFO root fetch - processPackages [lighthouseweb3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lighthouseweb3-0.0.7.tar.gz tmp/lighthouseweb3-0.1.0.tar.gz --markdown 20230503/l/lighthouseweb3/0.0.7-0.1.0/diff.md --exclude *.pyd
+[2023-05-03 09:55:13] INFO root fetch - processPackages [castor-extractor]: executing diffoscope
+[2023-05-03 09:55:13] INFO root fetch - processPackages [castor-extractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/castor_extractor-0.3.5.tar.gz tmp/castor_extractor-0.3.7.tar.gz --markdown 20230503/c/castor-extractor/0.3.5-0.3.7/diff.md --exclude *.pyd
+[2023-05-03 09:55:14] INFO root fetch - processPackages [semisup-segmentation]: Start processing: odoo-addon-sale-purchase-force-vendor
+[2023-05-03 09:55:14] INFO root fetch - main [MainThread]: End processing [semisup-segmentation]: success
+[2023-05-03 09:55:14] INFO root fetch - processPackages [odoo-addon-sale-purchase-force-vendor]: New version: [15.0.1.0.1] Old Version: [15.0.1.0.0.2]
+[2023-05-03 09:55:15] INFO root fetch - processPackages [tf-nightly-cpu]: Start processing: checkov
+[2023-05-03 09:55:15] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-05-03 09:55:15] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-05-03 09:55:15] INFO root fetch - processPackages [mrx-link-core]: Start processing: gaia-core
+[2023-05-03 09:55:15] INFO root fetch - main [MainThread]: End processing [mrx-link-core]: success
+[2023-05-03 09:55:15] INFO root fetch - processPackages [odoo-addon-sale-purchase-force-vendor]: Downloading https://files.pythonhosted.org/packages/5b/bf/8e4b1506612b41c1fd964b324caa0489db670e4e3ed0001ed9cf460a159d/odoo_addon_sale_purchase_force_vendor-15.0.1.0.0.2-py3-none-any.whl
+[2023-05-03 09:55:15] WARNING root fetch - processPackages [gaia-core]: Skipping, unable to determine old version
+[2023-05-03 09:55:15] INFO root fetch - processPackages [gaia-core]: Start processing: eobi
+[2023-05-03 09:55:15] INFO root fetch - main [MainThread]: End processing [gaia-core] error
+[2023-05-03 09:55:15] INFO root fetch - processPackages [gammy]: Start processing: volworld-aws-api-common
+[2023-05-03 09:55:15] INFO root fetch - main [MainThread]: End processing [gammy]: success
+[2023-05-03 09:55:15] WARNING root fetch - processPackages [eobi]: Skipping, unable to determine old version
+[2023-05-03 09:55:15] INFO root fetch - processPackages [eobi]: Start processing: gptdeploy
+[2023-05-03 09:55:15] INFO root fetch - main [MainThread]: End processing [eobi] error
+[2023-05-03 09:55:15] INFO root fetch - processPackages [volworld-aws-api-common]: New version: [0.1.9] Old Version: [0.1.86]
+[2023-05-03 09:55:15] INFO root fetch - processPackages [gptdeploy]: New version: [0.18.9] Old Version: [0.18.8]
+[2023-05-03 09:55:15] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-05-03 09:55:15] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230503/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-05-03 09:55:15] INFO root fetch - processPackages [lighthouseweb3]: Start processing: odoo-addon-sale-automatic-workflow-job
+[2023-05-03 09:55:15] INFO root fetch - main [MainThread]: End processing [lighthouseweb3]: success
+[2023-05-03 09:55:15] INFO root fetch - processPackages [volworld-aws-api-common]: executing diffoscope
+[2023-05-03 09:55:15] INFO root fetch - processPackages [volworld-aws-api-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volworld_aws_api_common-0.1.86.tar.gz tmp/volworld_aws_api_common-0.1.9.tar.gz --markdown 20230503/v/volworld-aws-api-common/0.1.86-0.1.9/diff.md --exclude *.pyd
+[2023-05-03 09:55:15] INFO root fetch - processPackages [gptdeploy]: executing diffoscope
+[2023-05-03 09:55:15] INFO root fetch - processPackages [gptdeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptdeploy-0.18.8.tar.gz tmp/gptdeploy-0.18.9.tar.gz --markdown 20230503/g/gptdeploy/0.18.8-0.18.9/diff.md --exclude *.pyd
+[2023-05-03 09:55:15] INFO root fetch - processPackages [joes-giant-toolbox]: Start processing: odoo13-addon-project-administrator-restricted-visibility
+[2023-05-03 09:55:15] INFO root fetch - main [MainThread]: End processing [joes-giant-toolbox]: success
+[2023-05-03 09:55:15] INFO root fetch - processPackages [odoo-addon-sale-automatic-workflow-job]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.0.3]
+[2023-05-03 09:55:15] INFO root fetch - processPackages [odoo-addon-sale-purchase-force-vendor]: Downloading https://files.pythonhosted.org/packages/1f/b0/619325dff782062c87149fbf951378fe7fc43d0cf7b4a1a2dbaa3db6c406/odoo_addon_sale_purchase_force_vendor-15.0.1.0.1-py3-none-any.whl
+[2023-05-03 09:55:15] WARNING root fetch - processPackages [odoo13-addon-project-administrator-restricted-visibility]: Skipping, unable to determine old version
+[2023-05-03 09:55:15] INFO root fetch - processPackages [odoo13-addon-project-administrator-restricted-visibility]: Start processing: gaia-core
+[2023-05-03 09:55:15] INFO root fetch - main [MainThread]: End processing [odoo13-addon-project-administrator-restricted-visibility] error
+[2023-05-03 09:55:15] INFO root fetch - processPackages [gaia-core]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-03 09:55:15] INFO root fetch - processPackages [odoo-addon-sale-automatic-workflow-job]: Downloading https://files.pythonhosted.org/packages/31/d8/a220877664055e1bfb39f573bae6779173d76ea7d7aa4d7073c7bc311c5a/odoo_addon_sale_automatic_workflow_job-15.0.1.0.0.3-py3-none-any.whl
+[2023-05-03 09:55:15] INFO root fetch - processPackages [odoo-addon-sale-purchase-force-vendor]: executing diffoscope
+[2023-05-03 09:55:15] INFO root fetch - processPackages [odoo-addon-sale-purchase-force-vendor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_purchase_force_vendor-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_sale_purchase_force_vendor-15.0.1.0.1-py3-none-any.whl.zip --markdown 20230503/o/odoo-addon-sale-purchase-force-vendor/15.0.1.0.0.2-15.0.1.0.1/diff.md --exclude *.pyd
+[2023-05-03 09:55:15] INFO root fetch - processPackages [gaia-core]: Downloading https://files.pythonhosted.org/packages/3a/8f/38ee4468d25f794a5387fcc93f0f5b55cc551af7bfd9a03ded118667b602/gaia-core-0.0.1.tar.gz
+[2023-05-03 09:55:15] INFO root fetch - processPackages [odoo-addon-sale-automatic-workflow-job]: Downloading https://files.pythonhosted.org/packages/ba/17/3ddda030ce1276ed3b70a8b2ea36d72d96b538abb756e945135102f47fd0/odoo_addon_sale_automatic_workflow_job-16.0.1.0.0.2-py3-none-any.whl
+[2023-05-03 09:55:15] INFO root fetch - processPackages [gaia-core]: Downloading https://files.pythonhosted.org/packages/c1/6d/e068e003704e17c38c8bf6b252df064fe03e2fde226da96096ac5977ebb0/gaia-core-0.0.2.tar.gz
+[2023-05-03 09:55:15] INFO root fetch - processPackages [odoo-addon-sale-automatic-workflow-job]: executing diffoscope
+[2023-05-03 09:55:15] INFO root fetch - processPackages [odoo-addon-sale-automatic-workflow-job]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_automatic_workflow_job-15.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_sale_automatic_workflow_job-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230503/o/odoo-addon-sale-automatic-workflow-job/15.0.1.0.0.3-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-05-03 09:55:15] INFO root fetch - processPackages [BDXConverter]: Start processing: hsfs
+[2023-05-03 09:55:15] INFO root fetch - main [MainThread]: End processing [BDXConverter]: success
+[2023-05-03 09:55:16] INFO root fetch - processPackages [hsfs]: New version: [3.2.0rc0] Old Version: [3.1.1rc4]
+[2023-05-03 09:55:16] INFO root fetch - processPackages [gaia-core]: executing diffoscope
+[2023-05-03 09:55:16] INFO root fetch - processPackages [gaia-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaia-core-0.0.1.tar.gz tmp/gaia-core-0.0.2.tar.gz --markdown 20230503/g/gaia-core/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-03 09:55:16] INFO root fetch - processPackages [hsfs]: executing diffoscope
+[2023-05-03 09:55:16] INFO root fetch - processPackages [hsfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hsfs-3.1.1rc4.tar.gz tmp/hsfs-3.2.0rc0.tar.gz --markdown 20230503/h/hsfs/3.1.1rc4-3.2.0rc0/diff.md --exclude *.pyd
+[2023-05-03 09:55:17] INFO root fetch - processPackages [volworld-aws-api-common]: Start processing: thinc
+[2023-05-03 09:55:17] INFO root fetch - main [MainThread]: End processing [volworld-aws-api-common]: success
+[2023-05-03 09:55:17] INFO root fetch - processPackages [thinc]: New version: [9.0.0.dev3] Old Version: [9.0.0.dev2]
+[2023-05-03 09:55:17] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-purchase-force-vendor]: success
+[2023-05-03 09:55:17] INFO root fetch - main [MainThread]: End processing [gptdeploy]: success
+[2023-05-03 09:55:17] INFO root fetch - processPackages [thinc]: Downloading https://files.pythonhosted.org/packages/87/35/48c099bd5d5c59957a5faf9d38d2e35d7c566aa39345154600578d435432/thinc-9.0.0.dev2.tar.gz
+[2023-05-03 09:55:18] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-validator-cfnguard]: success
+[2023-05-03 09:55:18] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-automatic-workflow-job]: success
+[2023-05-03 09:55:18] INFO root fetch - processPackages [thinc]: Downloading https://files.pythonhosted.org/packages/f3/1d/9f4edb18e953b555f8fc8d4e4babdb8376a0af844207d88b96489188fcfc/thinc-9.0.0.dev3.tar.gz
+[2023-05-03 09:55:18] INFO root fetch - processPackages [thinc]: executing diffoscope
+[2023-05-03 09:55:18] INFO root fetch - processPackages [thinc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thinc-9.0.0.dev2.tar.gz tmp/thinc-9.0.0.dev3.tar.gz --markdown 20230503/t/thinc/9.0.0.dev2-9.0.0.dev3/diff.md --exclude *.pyd
+[2023-05-03 09:55:18] INFO root fetch - main [MainThread]: End processing [castor-extractor]: success
+[2023-05-03 09:55:19] INFO root fetch - main [MainThread]: End processing [gaia-core]: success
+[2023-05-03 09:55:21] INFO root fetch - main [MainThread]: End processing [hsfs]: success
+[2023-05-03 09:55:21] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-05-03 09:55:22] INFO root fetch - main [MainThread]: End processing [thinc]: success
+[2023-05-03 09:55:56] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-05-03 09:55:56] INFO root fetch - main [MainThread]: Store serial: [17952869]
