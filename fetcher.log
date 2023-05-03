@@ -18557,3 +18557,116 @@ No space left on device. Diffoscope exiting.
 [2023-05-03 17:31:51] INFO root fetch - main [MainThread]: End processing [libmata]: success
 [2023-05-03 17:33:44] INFO root fetch - main [MainThread]: End processing [glyphsets]: success
 [2023-05-03 17:33:44] INFO root fetch - main [MainThread]: Store serial: [17958732]
+[2023-05-03 17:38:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17958732]
+[2023-05-03 17:38:53] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-03 17:38:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dynamic-factory
+[2023-05-03 17:38:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytorch-lantern
+[2023-05-03 17:38:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: honeybee-radiance
+[2023-05-03 17:38:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: batpy
+[2023-05-03 17:38:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: magnumnp
+[2023-05-03 17:38:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xklb
+[2023-05-03 17:38:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: simple-aws-ec2
+[2023-05-03 17:38:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: e-models
+[2023-05-03 17:38:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: oarepo
+[2023-05-03 17:38:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyveb
+[2023-05-03 17:38:53] INFO root fetch - processPackages [e-models]: New version: [1.2.1.1] Old Version: [1.2.1]
+[2023-05-03 17:38:53] INFO root fetch - processPackages [oarepo]: New version: [9.0.9] Old Version: [9.0.8]
+[2023-05-03 17:38:53] INFO root fetch - processPackages [dynamic-factory]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-03 17:38:53] INFO root fetch - processPackages [pytorch-lantern]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-03 17:38:53] WARNING root fetch - processPackages [simple-aws-ec2]: Skipping, unable to determine old version
+[2023-05-03 17:38:53] INFO root fetch - processPackages [e-models]: executing diffoscope
+[2023-05-03 17:38:53] INFO root fetch - processPackages [simple-aws-ec2]: Start processing: ansys-materials-manager
+[2023-05-03 17:38:53] INFO root fetch - main [MainThread]: End processing [simple-aws-ec2] error
+[2023-05-03 17:38:53] INFO root fetch - processPackages [e-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e-models-1.2.1.tar.gz tmp/e-models-1.2.1.1.tar.gz --markdown 20230503/e/e-models/1.2.1-1.2.1.1/diff.md --exclude *.pyd
+[2023-05-03 17:38:53] INFO root fetch - processPackages [batpy]: New version: [0.0.5] Old Version: [0.0.2]
+[2023-05-03 17:38:53] INFO root fetch - processPackages [magnumnp]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-03 17:38:53] INFO root fetch - processPackages [pyveb]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-03 17:38:53] INFO root fetch - processPackages [xklb]: New version: [1.26.21] Old Version: [1.26.20]
+[2023-05-03 17:38:53] INFO root fetch - processPackages [oarepo]: executing diffoscope
+[2023-05-03 17:38:53] INFO root fetch - processPackages [oarepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-9.0.8.tar.gz tmp/oarepo-9.0.9.tar.gz --markdown 20230503/o/oarepo/9.0.8-9.0.9/diff.md --exclude *.pyd
+[2023-05-03 17:38:53] INFO root fetch - processPackages [honeybee-radiance]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-05-03 17:38:53] INFO root fetch - processPackages [ansys-materials-manager]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-03 17:38:53] INFO root fetch - processPackages [dynamic-factory]: Downloading https://files.pythonhosted.org/packages/4b/e9/a7103ff15f5229665cbe90ce0de7919a800cfd041cce5541c3a0c5212f1f/dynamic_factory-0.1.3.tar.gz
+[2023-05-03 17:38:53] INFO root fetch - processPackages [batpy]: Downloading https://files.pythonhosted.org/packages/2c/80/3c081d7df9c09bfcd82e42585818592b0ac4df0b182bd1b7fdcd9197eafd/batpy-0.0.2.tar.gz
+[2023-05-03 17:38:53] INFO root fetch - processPackages [pytorch-lantern]: Downloading https://files.pythonhosted.org/packages/3d/81/7f41bdd1d1142cd8551ee2c7b5cd457fc5f62a4c8c9cc509c4118ad887e2/pytorch-lantern-0.9.3.tar.gz
+[2023-05-03 17:38:53] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/59/86/3f70c5f670333642197db46fff17ece1a35959dceea12d78604a2779df65/xklb-1.26.20.tar.gz
+[2023-05-03 17:38:53] INFO root fetch - processPackages [magnumnp]: Downloading https://files.pythonhosted.org/packages/86/31/87243b6ac85e8b06c7cb781ac2735bee6ce77116de1d52a9e4f58d071508/magnumnp-1.0.8.tar.gz
+[2023-05-03 17:38:53] INFO root fetch - processPackages [pyveb]: Downloading https://files.pythonhosted.org/packages/31/53/d0dee2a1c9519b1039d766d51f473ea566de2d0c1eae2a596c6c33b32fd0/pyveb-0.2.8.tar.gz
+[2023-05-03 17:38:53] INFO root fetch - processPackages [honeybee-radiance]: Downloading https://files.pythonhosted.org/packages/48/ae/cca3e8aac6a72593fde7860cbf91882050c1a465c316efc2e0472bfa36e1/honeybee-radiance-1.9.1.tar.gz
+[2023-05-03 17:38:53] INFO root fetch - processPackages [ansys-materials-manager]: Downloading https://files.pythonhosted.org/packages/39/52/fd9596150ba59dedeb9d5deeaa1b291e0a5e6f04ec2f1d166daa5324e427/ansys_materials_manager-0.2.2.tar.gz
+[2023-05-03 17:38:53] INFO root fetch - processPackages [batpy]: Downloading https://files.pythonhosted.org/packages/f3/9c/4aeca9b498aca580759780da47ff9ecc4a1a82bab7f41af2b062459861bc/batpy-0.0.5.tar.gz
+[2023-05-03 17:38:53] INFO root fetch - processPackages [dynamic-factory]: Downloading https://files.pythonhosted.org/packages/c6/92/a28484685111fd554442175fed064851c41bb84979bfdbf9123190e51a69/dynamic_factory-0.1.4.tar.gz
+[2023-05-03 17:38:53] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/9e/62/fba04d27c0163912a8b070630d14a98f68385a2cfbe5a0b99c7c03e4cecd/xklb-1.26.21.tar.gz
+[2023-05-03 17:38:53] INFO root fetch - processPackages [batpy]: executing diffoscope
+[2023-05-03 17:38:53] INFO root fetch - processPackages [batpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/batpy-0.0.2.tar.gz tmp/batpy-0.0.5.tar.gz --markdown 20230503/b/batpy/0.0.2-0.0.5/diff.md --exclude *.pyd
+[2023-05-03 17:38:54] INFO root fetch - processPackages [magnumnp]: Downloading https://files.pythonhosted.org/packages/5f/fc/a44059e3543e025a93d4d8f6f43b68a15a66dbf5556175e439eb93e86562/magnumnp-1.0.9.tar.gz
+[2023-05-03 17:38:54] INFO root fetch - processPackages [pytorch-lantern]: Downloading https://files.pythonhosted.org/packages/38/95/774e4ea672b822b13667a61de3c14689973832ca420bd60b7221c2905928/pytorch-lantern-0.9.4.tar.gz
+[2023-05-03 17:38:54] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2023-05-03 17:38:54] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-1.26.20.tar.gz tmp/xklb-1.26.21.tar.gz --markdown 20230503/x/xklb/1.26.20-1.26.21/diff.md --exclude *.pyd
+[2023-05-03 17:38:54] INFO root fetch - processPackages [ansys-materials-manager]: Downloading https://files.pythonhosted.org/packages/5d/24/2ab58c8e825565bb5ba2c7d5f52b2d5786531c0fee83880ba900160f1d4d/ansys_materials_manager-0.2.3.tar.gz
+[2023-05-03 17:38:54] INFO root fetch - processPackages [dynamic-factory]: executing diffoscope
+[2023-05-03 17:38:54] INFO root fetch - processPackages [dynamic-factory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynamic_factory-0.1.3.tar.gz tmp/dynamic_factory-0.1.4.tar.gz --markdown 20230503/d/dynamic-factory/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-03 17:38:54] INFO root fetch - processPackages [pyveb]: Downloading https://files.pythonhosted.org/packages/dc/17/d67a53eaaf71aba7ee0c68ae51fd4338d20d6979b5cf8e8c74c5c886429e/pyveb-0.2.9.tar.gz
+[2023-05-03 17:38:54] INFO root fetch - processPackages [magnumnp]: executing diffoscope
+[2023-05-03 17:38:54] INFO root fetch - processPackages [magnumnp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magnumnp-1.0.8.tar.gz tmp/magnumnp-1.0.9.tar.gz --markdown 20230503/m/magnumnp/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-03 17:38:54] INFO root fetch - processPackages [ansys-materials-manager]: executing diffoscope
+[2023-05-03 17:38:54] INFO root fetch - processPackages [ansys-materials-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys_materials_manager-0.2.2.tar.gz tmp/ansys_materials_manager-0.2.3.tar.gz --markdown 20230503/a/ansys-materials-manager/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-03 17:38:54] INFO root fetch - processPackages [honeybee-radiance]: Downloading https://files.pythonhosted.org/packages/50/24/71a3a4863bb39caef68dcd79f1b380133b1f1968426af26bc9c4812376d1/honeybee-radiance-1.9.2.tar.gz
+[2023-05-03 17:38:54] INFO root fetch - processPackages [pytorch-lantern]: executing diffoscope
+[2023-05-03 17:38:54] INFO root fetch - processPackages [pytorch-lantern]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch-lantern-0.9.3.tar.gz tmp/pytorch-lantern-0.9.4.tar.gz --markdown 20230503/p/pytorch-lantern/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-03 17:38:54] INFO root fetch - processPackages [honeybee-radiance]: executing diffoscope
+[2023-05-03 17:38:54] INFO root fetch - processPackages [honeybee-radiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-radiance-1.9.1.tar.gz tmp/honeybee-radiance-1.9.2.tar.gz --markdown 20230503/h/honeybee-radiance/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-05-03 17:38:54] INFO root fetch - processPackages [pyveb]: executing diffoscope
+[2023-05-03 17:38:54] INFO root fetch - processPackages [pyveb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyveb-0.2.8.tar.gz tmp/pyveb-0.2.9.tar.gz --markdown 20230503/p/pyveb/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-03 17:38:54] INFO root fetch - processPackages [e-models]: Start processing: simple-aws-ec2
+[2023-05-03 17:38:54] INFO root fetch - main [MainThread]: End processing [e-models]: success
+[2023-05-03 17:38:54] WARNING root fetch - processPackages [simple-aws-ec2]: Skipping, unable to determine old version
+[2023-05-03 17:38:54] INFO root fetch - processPackages [simple-aws-ec2]: Start processing: indico-plugin-prometheus
+[2023-05-03 17:38:54] INFO root fetch - main [MainThread]: End processing [simple-aws-ec2] error
+[2023-05-03 17:38:54] INFO root fetch - processPackages [oarepo]: Start processing: mermaid-flounder
+[2023-05-03 17:38:54] INFO root fetch - main [MainThread]: End processing [oarepo]: success
+[2023-05-03 17:38:54] WARNING root fetch - processPackages [mermaid-flounder]: Skipping, unable to determine old version
+[2023-05-03 17:38:54] INFO root fetch - processPackages [mermaid-flounder]: Start processing: koku-nise
+[2023-05-03 17:38:54] INFO root fetch - main [MainThread]: End processing [mermaid-flounder] error
+[2023-05-03 17:38:54] INFO root fetch - processPackages [koku-nise]: New version: [4.2.5] Old Version: [4.2.4]
+[2023-05-03 17:38:54] WARNING root fetch - processPackages [indico-plugin-prometheus]: Skipping, unable to determine old version
+[2023-05-03 17:38:54] INFO root fetch - processPackages [indico-plugin-prometheus]: Start processing: dynamic-factory
+[2023-05-03 17:38:54] INFO root fetch - main [MainThread]: End processing [indico-plugin-prometheus] error
+[2023-05-03 17:38:54] INFO root fetch - processPackages [dynamic-factory]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-03 17:38:54] INFO root fetch - processPackages [dynamic-factory]: executing diffoscope
+[2023-05-03 17:38:54] INFO root fetch - processPackages [dynamic-factory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynamic_factory-0.1.3.tar.gz tmp/dynamic_factory-0.1.4.tar.gz --markdown 20230503/d/dynamic-factory/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-03 17:38:54] INFO root fetch - processPackages [koku-nise]: executing diffoscope
+[2023-05-03 17:38:54] INFO root fetch - processPackages [koku-nise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/koku-nise-4.2.4.tar.gz tmp/koku-nise-4.2.5.tar.gz --markdown 20230503/k/koku-nise/4.2.4-4.2.5/diff.md --exclude *.pyd
+[2023-05-03 17:38:55] INFO root fetch - processPackages [batpy]: Start processing: agent-link
+[2023-05-03 17:38:55] INFO root fetch - main [MainThread]: End processing [batpy]: success
+[2023-05-03 17:38:55] INFO root fetch - processPackages [dynamic-factory]: Start processing: certora-cli-alpha-roy-CERT-1891-allocId-c
+[2023-05-03 17:38:55] INFO root fetch - main [MainThread]: End processing [dynamic-factory]: success
+[2023-05-03 17:38:55] WARNING root fetch - processPackages [agent-link]: Skipping, unable to determine old version
+[2023-05-03 17:38:55] INFO root fetch - processPackages [agent-link]: Start processing: rum-with-telegram
+[2023-05-03 17:38:55] INFO root fetch - main [MainThread]: End processing [agent-link] error
+[2023-05-03 17:38:55] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1891-allocId-c]: New version: [20230503.14.49.514818] Old Version: [20230503.13.28.439475]
+[2023-05-03 17:38:55] INFO root fetch - processPackages [rum-with-telegram]: New version: [0.8.8] Old Version: [0.8.7]
+[2023-05-03 17:38:55] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1891-allocId-c]: Downloading https://files.pythonhosted.org/packages/e2/df/bec97437c10d709d7be7315aa6706910f77ce3ad8746d826a4bc2c25fe44/certora-cli-alpha-roy-CERT-1891-allocId-c-20230503.13.28.439475.tar.gz
+[2023-05-03 17:38:55] WARNING root fetch - processPackages [certora-cli-alpha-roy-CERT-1891-allocId-c]: Skipping package: exceeds size limit 38391648>=10485760
+[2023-05-03 17:38:55] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1891-allocId-c]: Start processing: hammock-plot
+[2023-05-03 17:38:55] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-roy-CERT-1891-allocId-c] error
+[2023-05-03 17:38:55] INFO root fetch - processPackages [rum-with-telegram]: Downloading https://files.pythonhosted.org/packages/53/46/4210c89a0754eb263b8e8423fb146e0f684fca09939a66c85eb16b585f3e/rum_with_telegram-0.8.7.tar.gz
+[2023-05-03 17:38:55] INFO root fetch - processPackages [hammock-plot]: New version: [0.2] Old Version: [0.1]
+[2023-05-03 17:38:55] INFO root fetch - main [MainThread]: End processing [pyveb]: success
+[2023-05-03 17:38:56] INFO root fetch - main [MainThread]: End processing [ansys-materials-manager]: success
+[2023-05-03 17:38:56] INFO root fetch - processPackages [rum-with-telegram]: Downloading https://files.pythonhosted.org/packages/0d/a0/debdb9445a547fdb8d6f029f491e24afc2263318ae47251644a2524894d1/rum_with_telegram-0.8.8.tar.gz
+[2023-05-03 17:38:56] INFO root fetch - processPackages [hammock-plot]: Downloading https://files.pythonhosted.org/packages/67/bd/3484b1283c22acfce5f5389ebe243bb9adaf5e5193c8de44f90401e1dfa3/hammock_plot-0.1.tar.gz
+[2023-05-03 17:38:56] INFO root fetch - main [MainThread]: End processing [pytorch-lantern]: success
+[2023-05-03 17:38:56] INFO root fetch - processPackages [rum-with-telegram]: executing diffoscope
+[2023-05-03 17:38:56] INFO root fetch - processPackages [rum-with-telegram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rum_with_telegram-0.8.7.tar.gz tmp/rum_with_telegram-0.8.8.tar.gz --markdown 20230503/r/rum-with-telegram/0.8.7-0.8.8/diff.md --exclude *.pyd
+[2023-05-03 17:38:56] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2023-05-03 17:38:56] INFO root fetch - processPackages [hammock-plot]: Downloading https://files.pythonhosted.org/packages/1d/e0/dd1c871f142a1d08f586bc4e6ec5722ac45a3da724432c19dd8e1b69bd1f/hammock_plot-0.2.tar.gz
+[2023-05-03 17:38:56] INFO root fetch - main [MainThread]: End processing [dynamic-factory]: success
+[2023-05-03 17:38:56] INFO root fetch - processPackages [hammock-plot]: executing diffoscope
+[2023-05-03 17:38:56] INFO root fetch - processPackages [hammock-plot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hammock_plot-0.1.tar.gz tmp/hammock_plot-0.2.tar.gz --markdown 20230503/h/hammock-plot/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-03 17:38:56] INFO root fetch - main [MainThread]: End processing [magnumnp]: success
+[2023-05-03 17:38:56] INFO root fetch - main [MainThread]: End processing [koku-nise]: success
+[2023-05-03 17:38:57] INFO root fetch - main [MainThread]: End processing [rum-with-telegram]: success
+[2023-05-03 17:38:57] INFO root fetch - main [MainThread]: End processing [hammock-plot]: success
+[2023-05-03 17:38:59] INFO root fetch - main [MainThread]: End processing [honeybee-radiance]: success
+[2023-05-03 17:38:59] INFO root fetch - main [MainThread]: Store serial: [17958801]
