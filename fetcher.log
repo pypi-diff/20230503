@@ -19601,3 +19601,149 @@ No space left on device. Diffoscope exiting.
 [2023-05-03 18:27:20] INFO root fetch - main [MainThread]: End processing [trytond]: success
 [2023-05-03 18:27:22] INFO root fetch - main [MainThread]: End processing [trytond]: success
 [2023-05-03 18:27:22] INFO root fetch - main [MainThread]: Store serial: [17959510]
+[2023-05-03 18:32:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17959510]
+[2023-05-03 18:32:32] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-05-03 18:32:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vgs-api-client
+[2023-05-03 18:32:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: klarna-orders
+[2023-05-03 18:32:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: determined-common
+[2023-05-03 18:32:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: determined-cli
+[2023-05-03 18:32:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: determined-deploy
+[2023-05-03 18:32:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: web3
+[2023-05-03 18:32:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: model-hub
+[2023-05-03 18:32:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dot-js-py
+[2023-05-03 18:32:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: taskAutom
+[2023-05-03 18:32:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: determined
+[2023-05-03 18:32:32] INFO root fetch - processPackages [determined-common]: New version: [0.22.0rc0] Old Version: [0.21.3rc0]
+[2023-05-03 18:32:32] INFO root fetch - processPackages [klarna-orders]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-03 18:32:32] INFO root fetch - processPackages [determined-cli]: New version: [0.22.0rc0] Old Version: [0.21.3rc0]
+[2023-05-03 18:32:32] INFO root fetch - processPackages [taskAutom]: New version: [7.19.2] Old Version: [7.19.1]
+[2023-05-03 18:32:32] INFO root fetch - processPackages [dot-js-py]: New version: [2.0.0] Old Version: [1.0.0]
+[2023-05-03 18:32:32] INFO root fetch - processPackages [model-hub]: New version: [0.22.0rc0] Old Version: [0.21.3rc0]
+[2023-05-03 18:32:32] INFO root fetch - processPackages [vgs-api-client]: New version: [0.0.45] Old Version: [0.0.44]
+[2023-05-03 18:32:32] INFO root fetch - processPackages [determined]: New version: [0.22.0rc0] Old Version: [0.21.3rc0]
+[2023-05-03 18:32:32] INFO root fetch - processPackages [determined-deploy]: New version: [0.22.0rc0] Old Version: [0.21.3rc0]
+[2023-05-03 18:32:32] INFO root fetch - processPackages [web3]: New version: [6.3.0] Old Version: [6.2.0]
+[2023-05-03 18:32:32] INFO root fetch - processPackages [determined-common]: Downloading https://files.pythonhosted.org/packages/1d/63/dc14b6dbf9d3f51ef615ce21a912037511631da3c565778064f919f61383/determined_common-0.22.0rc0-py3-none-any.whl
+[2023-05-03 18:32:32] INFO root fetch - processPackages [determined-cli]: Downloading https://files.pythonhosted.org/packages/79/d1/fa912c7ddc4cf73fdaca035387cbc6713d5f303b2686e83e967753be4279/determined_cli-0.22.0rc0-py3-none-any.whl
+[2023-05-03 18:32:32] INFO root fetch - processPackages [taskAutom]: Downloading https://files.pythonhosted.org/packages/ea/4c/fb8f5e3411e36d7d4044e2cf785f8ba5112407de6684d0bff53f33b25b88/taskAutom-7.19.1.tar.gz
+[2023-05-03 18:32:32] INFO root fetch - processPackages [klarna-orders]: Downloading https://files.pythonhosted.org/packages/ae/0c/e5f0ceafa68f8dc3aabb1e9f59020b7d41092a66e9abb9f9ce1db007c3a3/klarna-orders-1.1.0.tar.gz
+[2023-05-03 18:32:32] INFO root fetch - processPackages [dot-js-py]: Downloading https://files.pythonhosted.org/packages/8f/5a/c6519d4d6a7bb952c4790c59a9226dbec5ede878f4e1287042827415786e/dot-js-py-1.0.0.tar.gz
+[2023-05-03 18:32:32] INFO root fetch - processPackages [web3]: Downloading https://files.pythonhosted.org/packages/bd/81/a7df63024ade35ba9881a0511dad4adcb57005e4301d7df9fbeab491a805/web3-6.2.0.tar.gz
+[2023-05-03 18:32:32] INFO root fetch - processPackages [model-hub]: Downloading https://files.pythonhosted.org/packages/a7/5b/90cd97a4d0fdaaba985a4669cc9950cb48f69d23f54d45cd70444ebbdfb3/model_hub-0.22.0rc0-py3-none-any.whl
+[2023-05-03 18:32:32] INFO root fetch - processPackages [determined]: Downloading https://files.pythonhosted.org/packages/12/a1/52c0831f67389dfcaf470d425bde281a40ac7f36861508fae16939c90a01/determined-0.22.0rc0-py3-none-any.whl
+[2023-05-03 18:32:32] INFO root fetch - processPackages [determined-deploy]: Downloading https://files.pythonhosted.org/packages/ef/37/b026fb6a4e35b8dfe0bc863314c47362ab00f756c5b42e06727e66c484bf/determined_deploy-0.22.0rc0-py3-none-any.whl
+[2023-05-03 18:32:32] INFO root fetch - processPackages [determined-common]: executing diffoscope
+[2023-05-03 18:32:32] INFO root fetch - processPackages [determined-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/determined_common-0.21.3rc0-py3-none-any.whl.zip tmp/determined_common-0.22.0rc0-py3-none-any.whl.zip --markdown 20230503/d/determined-common/0.21.3rc0-0.22.0rc0/diff.md --exclude *.pyd
+[2023-05-03 18:32:32] INFO root fetch - processPackages [determined-cli]: executing diffoscope
+[2023-05-03 18:32:32] INFO root fetch - processPackages [determined-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/determined_cli-0.21.3rc0-py3-none-any.whl.zip tmp/determined_cli-0.22.0rc0-py3-none-any.whl.zip --markdown 20230503/d/determined-cli/0.21.3rc0-0.22.0rc0/diff.md --exclude *.pyd
+[2023-05-03 18:32:32] INFO root fetch - processPackages [model-hub]: executing diffoscope
+[2023-05-03 18:32:32] INFO root fetch - processPackages [model-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_hub-0.21.3rc0-py3-none-any.whl.zip tmp/model_hub-0.22.0rc0-py3-none-any.whl.zip --markdown 20230503/m/model-hub/0.21.3rc0-0.22.0rc0/diff.md --exclude *.pyd
+[2023-05-03 18:32:32] INFO root fetch - processPackages [determined-deploy]: executing diffoscope
+[2023-05-03 18:32:32] INFO root fetch - processPackages [determined-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/determined_deploy-0.21.3rc0-py3-none-any.whl.zip tmp/determined_deploy-0.22.0rc0-py3-none-any.whl.zip --markdown 20230503/d/determined-deploy/0.21.3rc0-0.22.0rc0/diff.md --exclude *.pyd
+[2023-05-03 18:32:32] INFO root fetch - processPackages [determined]: executing diffoscope
+[2023-05-03 18:32:32] INFO root fetch - processPackages [determined]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/determined-0.21.3rc0-py3-none-any.whl.zip tmp/determined-0.22.0rc0-py3-none-any.whl.zip --markdown 20230503/d/determined/0.21.3rc0-0.22.0rc0/diff.md --exclude *.pyd
+[2023-05-03 18:32:32] INFO root fetch - processPackages [vgs-api-client]: executing diffoscope
+[2023-05-03 18:32:32] INFO root fetch - processPackages [vgs-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vgs_api_client-0.0.44-py3-none-any.whl.zip tmp/vgs_api_client-0.0.45-py3-none-any.whl.zip --markdown 20230503/v/vgs-api-client/0.0.44-0.0.45/diff.md --exclude *.pyd
+[2023-05-03 18:32:32] INFO root fetch - processPackages [taskAutom]: Downloading https://files.pythonhosted.org/packages/3f/68/b3d15c5c35f4be2b1a933c1794404255d1755737ad183943e77e2aee6947/taskAutom-7.19.2.tar.gz
+[2023-05-03 18:32:32] INFO root fetch - processPackages [dot-js-py]: Downloading https://files.pythonhosted.org/packages/57/0f/54d6ac86a0c32201f4b12952d2a08b288edd85dbfaae7a0c91b13f7ad143/dot_js_py-2.0.0.tar.gz
+[2023-05-03 18:32:32] INFO root fetch - processPackages [taskAutom]: executing diffoscope
+[2023-05-03 18:32:32] INFO root fetch - processPackages [taskAutom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskAutom-7.19.1.tar.gz tmp/taskAutom-7.19.2.tar.gz --markdown 20230503/t/taskAutom/7.19.1-7.19.2/diff.md --exclude *.pyd
+[2023-05-03 18:32:32] INFO root fetch - processPackages [klarna-orders]: Downloading https://files.pythonhosted.org/packages/c1/15/c5fdbb02636242da306b158616a750a6476b9cb2acd9cdb1cc6c314b3183/klarna-orders-1.1.1.tar.gz
+[2023-05-03 18:32:32] INFO root fetch - processPackages [dot-js-py]: executing diffoscope
+[2023-05-03 18:32:32] INFO root fetch - processPackages [dot-js-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dot-js-py-1.0.0.tar.gz tmp/dot_js_py-2.0.0.tar.gz --markdown 20230503/d/dot-js-py/1.0.0-2.0.0/diff.md --exclude *.pyd
+[2023-05-03 18:32:32] INFO root fetch - processPackages [web3]: Downloading https://files.pythonhosted.org/packages/b4/c0/401c7eed8ad1b815116b14fba8b3450c338b4333d3f1bd2bf06325de6762/web3-6.3.0.tar.gz
+[2023-05-03 18:32:32] INFO root fetch - processPackages [klarna-orders]: executing diffoscope
+[2023-05-03 18:32:32] INFO root fetch - processPackages [klarna-orders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klarna-orders-1.1.0.tar.gz tmp/klarna-orders-1.1.1.tar.gz --markdown 20230503/k/klarna-orders/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-03 18:32:32] INFO root fetch - processPackages [web3]: executing diffoscope
+[2023-05-03 18:32:32] INFO root fetch - processPackages [web3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web3-6.2.0.tar.gz tmp/web3-6.3.0.tar.gz --markdown 20230503/w/web3/6.2.0-6.3.0/diff.md --exclude *.pyd
+[2023-05-03 18:32:34] INFO root fetch - processPackages [determined-common]: Start processing: krisi
+[2023-05-03 18:32:34] INFO root fetch - main [MainThread]: End processing [determined-common]: success
+[2023-05-03 18:32:34] INFO root fetch - processPackages [krisi]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-03 18:32:34] INFO root fetch - processPackages [determined-cli]: Start processing: trytond
+[2023-05-03 18:32:34] INFO root fetch - main [MainThread]: End processing [determined-cli]: success
+[2023-05-03 18:32:34] INFO root fetch - processPackages [trytond]: New version: [6.8.0] Old Version: [6.6.8]
+[2023-05-03 18:32:34] INFO root fetch - processPackages [model-hub]: Start processing: aind-ng-link
+[2023-05-03 18:32:34] INFO root fetch - main [MainThread]: End processing [model-hub]: success
+[2023-05-03 18:32:34] INFO root fetch - processPackages [determined-deploy]: Start processing: aesim.simba
+[2023-05-03 18:32:34] INFO root fetch - main [MainThread]: End processing [determined-deploy]: success
+[2023-05-03 18:32:34] INFO root fetch - processPackages [trytond]: executing diffoscope
+[2023-05-03 18:32:34] INFO root fetch - processPackages [trytond]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond-6.6.8.tar.gz tmp/trytond-6.8.0.tar.gz --markdown 20230503/t/trytond/6.6.8-6.8.0/diff.md --exclude *.pyd
+[2023-05-03 18:32:34] INFO root fetch - processPackages [krisi]: Downloading https://files.pythonhosted.org/packages/10/16/67acea6efd82b8cee07170d033b5b719a157d86083f901f94a426179236b/krisi-0.1.3.tar.gz
+[2023-05-03 18:32:34] INFO root fetch - processPackages [aesim.simba]: New version: [2023.5.2a1] Old Version: [2023.5.1a2]
+[2023-05-03 18:32:34] INFO root fetch - processPackages [aind-ng-link]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-03 18:32:34] INFO root fetch - processPackages [aesim.simba]: Downloading https://files.pythonhosted.org/packages/cf/13/0749f080d3af763877a3976ceac745698b1d3570861eff3068a8864c1ee8/aesim.simba-2023.5.1a2-py3-none-win_amd64.whl
+[2023-05-03 18:32:34] INFO root fetch - processPackages [krisi]: executing diffoscope
+[2023-05-03 18:32:34] INFO root fetch - processPackages [krisi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krisi-0.1.2.tar.gz tmp/krisi-0.1.3.tar.gz --markdown 20230503/k/krisi/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-03 18:32:34] WARNING root fetch - processPackages [aesim.simba]: Skipping package: exceeds size limit 86846645>=10485760
+[2023-05-03 18:32:34] INFO root fetch - processPackages [aesim.simba]: Start processing: rungalileo-tidecv
+[2023-05-03 18:32:34] INFO root fetch - main [MainThread]: End processing [aesim.simba] error
+[2023-05-03 18:32:34] INFO root fetch - processPackages [dot-js-py]: Start processing: psphost-sdk
+[2023-05-03 18:32:34] INFO root fetch - main [MainThread]: End processing [dot-js-py]: success
+[2023-05-03 18:32:34] INFO root fetch - processPackages [rungalileo-tidecv]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-03 18:32:34] INFO root fetch - processPackages [aind-ng-link]: Downloading https://files.pythonhosted.org/packages/85/97/5ff3224fae96e09de685ca7bac9baede4660c1cfd60eedbb69c5efe962e6/aind-ng-link-1.0.4.tar.gz
+[2023-05-03 18:32:34] WARNING root fetch - processPackages [psphost-sdk]: Skipping, unable to determine old version
+[2023-05-03 18:32:34] INFO root fetch - processPackages [psphost-sdk]: Start processing: aiida-shell
+[2023-05-03 18:32:34] INFO root fetch - main [MainThread]: End processing [psphost-sdk] error
+[2023-05-03 18:32:34] INFO root fetch - processPackages [aiida-shell]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-05-03 18:32:34] INFO root fetch - processPackages [rungalileo-tidecv]: Downloading https://files.pythonhosted.org/packages/64/69/9faf4e8ad966f7a4885869e48e2200be2176ca60c2b58afa8829d2ba4872/rungalileo-tidecv-0.0.3.tar.gz
+[2023-05-03 18:32:34] INFO root fetch - processPackages [aind-ng-link]: Downloading https://files.pythonhosted.org/packages/23/27/77b5ebf8d2fc3bfa77d9a5e232d1c7bf753d5c453f3ea43b3a33d3398070/aind-ng-link-1.0.5.tar.gz
+[2023-05-03 18:32:34] INFO root fetch - processPackages [vgs-api-client]: Start processing: jarvis-leaderboard
+[2023-05-03 18:32:34] INFO root fetch - main [MainThread]: End processing [vgs-api-client]: success
+[2023-05-03 18:32:34] INFO root fetch - processPackages [aind-ng-link]: executing diffoscope
+[2023-05-03 18:32:34] INFO root fetch - processPackages [aind-ng-link]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind-ng-link-1.0.4.tar.gz tmp/aind-ng-link-1.0.5.tar.gz --markdown 20230503/a/aind-ng-link/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-03 18:32:34] INFO root fetch - processPackages [aiida-shell]: Downloading https://files.pythonhosted.org/packages/84/a3/9cfeb56644ab7690c153a9c01b100d9dd57470458a4528d5f95d6b342f9c/aiida-shell-0.4.0.tar.gz
+[2023-05-03 18:32:34] INFO root fetch - processPackages [taskAutom]: Start processing: autora-experimentalist-inequality-sampler
+[2023-05-03 18:32:34] INFO root fetch - main [MainThread]: End processing [taskAutom]: success
+[2023-05-03 18:32:34] INFO root fetch - processPackages [jarvis-leaderboard]: New version: [2023.5.3] Old Version: [2023.5.1]
+[2023-05-03 18:32:34] INFO root fetch - processPackages [rungalileo-tidecv]: Downloading https://files.pythonhosted.org/packages/ed/08/da6a1dfad4967533e5b72c2d1828f337c05468ff0aad17fbe3b9fa7b86e0/rungalileo-tidecv-0.0.4.tar.gz
+[2023-05-03 18:32:34] INFO root fetch - processPackages [autora-experimentalist-inequality-sampler]: New version: [1.0.0b0] Old Version: [0.1.0]
+[2023-05-03 18:32:35] INFO root fetch - processPackages [rungalileo-tidecv]: executing diffoscope
+[2023-05-03 18:32:35] INFO root fetch - processPackages [rungalileo-tidecv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rungalileo-tidecv-0.0.3.tar.gz tmp/rungalileo-tidecv-0.0.4.tar.gz --markdown 20230503/r/rungalileo-tidecv/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-03 18:32:35] INFO root fetch - processPackages [jarvis-leaderboard]: Downloading https://files.pythonhosted.org/packages/cd/6b/9bf2173e7068b68ce0044e62956e9a15beeb821ac8bde129c586c0d21192/jarvis_leaderboard-2023.5.1.tar.gz
+[2023-05-03 18:32:35] WARNING root fetch - processPackages [jarvis-leaderboard]: Skipping package: exceeds size limit 89267576>=10485760
+[2023-05-03 18:32:35] INFO root fetch - processPackages [jarvis-leaderboard]: Start processing: tryton
+[2023-05-03 18:32:35] INFO root fetch - main [MainThread]: End processing [jarvis-leaderboard] error
+[2023-05-03 18:32:35] INFO root fetch - processPackages [aiida-shell]: Downloading https://files.pythonhosted.org/packages/11/34/d31997e95d9314136018bbb1679ffa16e9ec28e0b0ec0c7109e1609bd50c/aiida-shell-0.5.0.tar.gz
+[2023-05-03 18:32:35] INFO root fetch - processPackages [autora-experimentalist-inequality-sampler]: Downloading https://files.pythonhosted.org/packages/e3/f9/80b7980232c4ae3f9d9423ef143aeed6e869c5eadba8b54770ea704f4ce6/autora-experimentalist-inequality-sampler-0.1.0.tar.gz
+[2023-05-03 18:32:35] INFO root fetch - processPackages [tryton]: New version: [6.8.0] Old Version: [6.6.7]
+[2023-05-03 18:32:35] INFO root fetch - processPackages [klarna-orders]: Start processing: axiom-logger
+[2023-05-03 18:32:35] INFO root fetch - main [MainThread]: End processing [klarna-orders]: success
+[2023-05-03 18:32:35] INFO root fetch - processPackages [aiida-shell]: executing diffoscope
+[2023-05-03 18:32:35] INFO root fetch - processPackages [aiida-shell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiida-shell-0.4.0.tar.gz tmp/aiida-shell-0.5.0.tar.gz --markdown 20230503/a/aiida-shell/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-05-03 18:32:35] WARNING root fetch - processPackages [axiom-logger]: Skipping, unable to determine old version
+[2023-05-03 18:32:35] INFO root fetch - processPackages [axiom-logger]: Start processing: e-models
+[2023-05-03 18:32:35] INFO root fetch - main [MainThread]: End processing [axiom-logger] error
+[2023-05-03 18:32:35] INFO root fetch - processPackages [e-models]: New version: [1.2.1.3] Old Version: [1.2.1.2]
+[2023-05-03 18:32:35] INFO root fetch - processPackages [autora-experimentalist-inequality-sampler]: Downloading https://files.pythonhosted.org/packages/73/6e/43bcb304a7c980db241fd8590f4e0a06d8e074e6ae68e4655a1dace7e148/autora-experimentalist-inequality-sampler-1.0.0b0.tar.gz
+[2023-05-03 18:32:35] INFO root fetch - processPackages [tryton]: Downloading https://files.pythonhosted.org/packages/cb/41/58b147b05ece0c98372a8d8ffed79911b0785c6ffa7435cc598625ede107/tryton-6.6.7.tar.gz
+[2023-05-03 18:32:35] INFO root fetch - processPackages [autora-experimentalist-inequality-sampler]: executing diffoscope
+[2023-05-03 18:32:35] INFO root fetch - processPackages [autora-experimentalist-inequality-sampler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autora-experimentalist-inequality-sampler-0.1.0.tar.gz tmp/autora-experimentalist-inequality-sampler-1.0.0b0.tar.gz --markdown 20230503/a/autora-experimentalist-inequality-sampler/0.1.0-1.0.0b0/diff.md --exclude *.pyd
+[2023-05-03 18:32:35] INFO root fetch - processPackages [e-models]: Downloading https://files.pythonhosted.org/packages/83/25/a8c6f286664b98c9bf45cd930c1169c7e912f7fdfff0a2fd90c59ff6ad82/e-models-1.2.1.3.tar.gz
+[2023-05-03 18:32:35] INFO root fetch - processPackages [e-models]: executing diffoscope
+[2023-05-03 18:32:35] INFO root fetch - processPackages [e-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e-models-1.2.1.2.tar.gz tmp/e-models-1.2.1.3.tar.gz --markdown 20230503/e/e-models/1.2.1.2-1.2.1.3/diff.md --exclude *.pyd
+[2023-05-03 18:32:35] INFO root fetch - processPackages [tryton]: executing diffoscope
+[2023-05-03 18:32:35] INFO root fetch - processPackages [tryton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tryton-6.6.7.tar.gz tmp/tryton-6.8.0.tar.gz --markdown 20230503/t/tryton/6.6.7-6.8.0/diff.md --exclude *.pyd
+[2023-05-03 18:32:36] INFO root fetch - processPackages [krisi]: Start processing: messageflux
+[2023-05-03 18:32:36] INFO root fetch - main [MainThread]: End processing [krisi]: success
+[2023-05-03 18:32:36] INFO root fetch - processPackages [messageflux]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-03 18:32:36] INFO root fetch - processPackages [determined]: Start processing: metaphor-connectors
+[2023-05-03 18:32:36] INFO root fetch - main [MainThread]: End processing [determined]: success
+[2023-05-03 18:32:36] INFO root fetch - processPackages [metaphor-connectors]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-03 18:32:36] INFO root fetch - processPackages [metaphor-connectors]: Downloading https://files.pythonhosted.org/packages/92/c2/f775488949e85740917971e97fbd1e7187de61421ac7fbbc9d5485275473/metaphor-connectors-0.9.3.tar.gz
+[2023-05-03 18:32:36] INFO root fetch - processPackages [messageflux]: Downloading https://files.pythonhosted.org/packages/bf/ce/42d1c8645266e83d7aafa3a77afcbd4dfcf2f222ab603a0c394203b5ea41/messageflux-0.2.4.tar.gz
+[2023-05-03 18:32:36] INFO root fetch - main [MainThread]: End processing [aind-ng-link]: success
+[2023-05-03 18:32:36] INFO root fetch - processPackages [metaphor-connectors]: Downloading https://files.pythonhosted.org/packages/7e/f3/fd51e0c2498f7340487d8eba1ee24a716e8056cce2a496a20f5da0cc11de/metaphor-connectors-0.9.4.tar.gz
+[2023-05-03 18:32:36] INFO root fetch - processPackages [messageflux]: executing diffoscope
+[2023-05-03 18:32:36] INFO root fetch - processPackages [messageflux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/messageflux-0.2.3.tar.gz tmp/messageflux-0.2.4.tar.gz --markdown 20230503/m/messageflux/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-03 18:32:36] INFO root fetch - main [MainThread]: End processing [rungalileo-tidecv]: success
+[2023-05-03 18:32:36] INFO root fetch - main [MainThread]: End processing [aiida-shell]: success
+[2023-05-03 18:32:36] INFO root fetch - processPackages [metaphor-connectors]: executing diffoscope
+[2023-05-03 18:32:36] INFO root fetch - processPackages [metaphor-connectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaphor-connectors-0.9.3.tar.gz tmp/metaphor-connectors-0.9.4.tar.gz --markdown 20230503/m/metaphor-connectors/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-03 18:32:37] INFO root fetch - main [MainThread]: End processing [autora-experimentalist-inequality-sampler]: success
+[2023-05-03 18:32:37] INFO root fetch - main [MainThread]: End processing [web3]: success
+[2023-05-03 18:32:37] INFO root fetch - main [MainThread]: End processing [e-models]: success
+[2023-05-03 18:32:38] INFO root fetch - main [MainThread]: End processing [messageflux]: success
+[2023-05-03 18:32:38] INFO root fetch - main [MainThread]: End processing [metaphor-connectors]: success
+[2023-05-03 18:32:40] INFO root fetch - main [MainThread]: End processing [tryton]: success
+[2023-05-03 18:32:45] INFO root fetch - main [MainThread]: End processing [trytond]: success
+[2023-05-03 18:32:45] INFO root fetch - main [MainThread]: Store serial: [17959576]
