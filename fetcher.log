@@ -22253,3 +22253,111 @@ No space left on device. Diffoscope exiting.
 [2023-05-03 20:45:44] INFO root fetch - main [MainThread]: End processing [odoo14-addon-delivery-schenker]: success
 [2023-05-03 20:45:45] INFO root fetch - main [MainThread]: End processing [appeal]: success
 [2023-05-03 20:45:45] INFO root fetch - main [MainThread]: Store serial: [17961215]
+[2023-05-03 20:50:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17961215]
+[2023-05-03 20:50:54] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-03 20:50:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: testapptmlc
+[2023-05-03 20:50:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: amseg
+[2023-05-03 20:50:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: basic-math-operations
+[2023-05-03 20:50:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: module-qc-analysis-tools
+[2023-05-03 20:50:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: toolkit-lennart
+[2023-05-03 20:50:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: toolkit-lennart
+[2023-05-03 20:50:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: testdufou
+[2023-05-03 20:50:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: certora-cli-alpha-uri-generate-link-json
+[2023-05-03 20:50:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: digitalguide-reader
+[2023-05-03 20:50:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: auroralibs
+[2023-05-03 20:50:54] INFO root fetch - processPackages [testapptmlc]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-03 20:50:54] INFO root fetch - processPackages [auroralibs]: New version: [8.0.4] Old Version: [8.0.3]
+[2023-05-03 20:50:54] INFO root fetch - processPackages [digitalguide-reader]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 20:50:54] WARNING root fetch - processPackages [testdufou]: Skipping, unable to determine old version
+[2023-05-03 20:50:54] INFO root fetch - processPackages [testdufou]: Start processing: pytiva
+[2023-05-03 20:50:54] INFO root fetch - main [MainThread]: End processing [testdufou] error
+[2023-05-03 20:50:54] WARNING root fetch - processPackages [pytiva]: Skipping, unable to determine old version
+[2023-05-03 20:50:54] INFO root fetch - processPackages [pytiva]: Start processing: vortex-api
+[2023-05-03 20:50:54] INFO root fetch - main [MainThread]: End processing [pytiva] error
+[2023-05-03 20:50:54] INFO root fetch - processPackages [basic-math-operations]: New version: [1.0.158] Old Version: [1.0.157]
+[2023-05-03 20:50:54] INFO root fetch - processPackages [toolkit-lennart]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-03 20:50:54] INFO root fetch - processPackages [toolkit-lennart]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-03 20:50:54] INFO root fetch - processPackages [digitalguide-reader]: executing diffoscope
+[2023-05-03 20:50:54] INFO root fetch - processPackages [digitalguide-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalguide_reader-0.0.8.tar.gz tmp/digitalguide_reader-0.0.9.tar.gz --markdown 20230503/d/digitalguide-reader/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 20:50:54] INFO root fetch - processPackages [amseg]: New version: [1.8] Old Version: [1.7]
+[2023-05-03 20:50:54] WARNING root fetch - processPackages [certora-cli-alpha-uri-generate-link-json]: Skipping, unable to determine old version
+[2023-05-03 20:50:54] INFO root fetch - processPackages [certora-cli-alpha-uri-generate-link-json]: Start processing: custom-rails
+[2023-05-03 20:50:54] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-uri-generate-link-json] error
+[2023-05-03 20:50:54] INFO root fetch - processPackages [module-qc-analysis-tools]: New version: [1.3.1rc5] Old Version: [1.3.1rc4]
+[2023-05-03 20:50:54] INFO root fetch - processPackages [custom-rails]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-03 20:50:54] ERROR root fetch - processPackages [vortex-api]: Unable to get metadata: No such project 'vortex-api'
+[2023-05-03 20:50:54] INFO root fetch - processPackages [vortex-api]: Start processing: gefyra
+[2023-05-03 20:50:54] INFO root fetch - main [MainThread]: End processing [vortex-api] error
+[2023-05-03 20:50:54] INFO root fetch - processPackages [gefyra]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-05-03 20:50:55] INFO root fetch - processPackages [testapptmlc]: Downloading https://files.pythonhosted.org/packages/c0/d0/4c465a58e5aa4d17790833c8d81c91e63af6ac40d54a58dbfec18903fc52/testapptmlc-0.1.3.tar.gz
+[2023-05-03 20:50:55] INFO root fetch - processPackages [toolkit-lennart]: Downloading https://files.pythonhosted.org/packages/b4/37/c5f7ad2804dc57933711c691cc34853d383318e84a937e79ed1992678622/toolkit_lennart-0.0.7.tar.gz
+[2023-05-03 20:50:55] INFO root fetch - processPackages [auroralibs]: Downloading https://files.pythonhosted.org/packages/54/8a/d450ea66c96fe42d356ac55badaa1422887d3bfebf2609ad51d703a02f9c/auroralibs-8.0.4.tar.gz
+[2023-05-03 20:50:55] ERROR root fetch - processPackages [custom-rails]: Unable to fetch info: No such project/version 'custom-rails' 0.0.1
+[2023-05-03 20:50:55] INFO root fetch - processPackages [custom-rails]: Start processing: pickley
+[2023-05-03 20:50:55] INFO root fetch - main [MainThread]: End processing [custom-rails] error
+[2023-05-03 20:50:55] INFO root fetch - processPackages [toolkit-lennart]: Downloading https://files.pythonhosted.org/packages/b4/37/c5f7ad2804dc57933711c691cc34853d383318e84a937e79ed1992678622/toolkit_lennart-0.0.7.tar.gz
+[2023-05-03 20:50:55] INFO root fetch - processPackages [basic-math-operations]: Downloading https://files.pythonhosted.org/packages/ce/df/18711914c5bd4859c5b7be375f093bdc5cfbc60a94b99bf9a2d6203236f2/basic_math_operations-1.0.157.tar.gz
+[2023-05-03 20:50:55] INFO root fetch - processPackages [amseg]: Downloading https://files.pythonhosted.org/packages/a0/90/01254b610928ce4f9f01713d9fc58c1285b706bb032afcc9ae6815adcd31/amseg-1.7.tar.gz
+[2023-05-03 20:50:55] INFO root fetch - processPackages [gefyra]: executing diffoscope
+[2023-05-03 20:50:55] INFO root fetch - processPackages [gefyra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gefyra-1.0.6.tar.gz tmp/gefyra-1.0.7.tar.gz --markdown 20230503/g/gefyra/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-05-03 20:50:55] INFO root fetch - processPackages [testapptmlc]: executing diffoscope
+[2023-05-03 20:50:55] INFO root fetch - processPackages [testapptmlc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testapptmlc-0.1.2.tar.gz tmp/testapptmlc-0.1.3.tar.gz --markdown 20230503/t/testapptmlc/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-03 20:50:55] INFO root fetch - processPackages [auroralibs]: executing diffoscope
+[2023-05-03 20:50:55] INFO root fetch - processPackages [auroralibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auroralibs-8.0.3.tar.gz tmp/auroralibs-8.0.4.tar.gz --markdown 20230503/a/auroralibs/8.0.3-8.0.4/diff.md --exclude *.pyd
+[2023-05-03 20:50:55] INFO root fetch - processPackages [pickley]: New version: [3.4.3] Old Version: [3.4.2]
+[2023-05-03 20:50:55] INFO root fetch - processPackages [module-qc-analysis-tools]: Downloading https://files.pythonhosted.org/packages/44/98/a43063356e402d92d3390a8603ee9a5a434939ce328a3dcd4e5fc37474f5/module_qc_analysis_tools-1.3.1rc5.tar.gz
+[2023-05-03 20:50:55] INFO root fetch - processPackages [toolkit-lennart]: Downloading https://files.pythonhosted.org/packages/b8/fd/ca4982eb49be77bb6ad50ae0745c04f4c5d439a7a79fdc9185c2630b96f6/toolkit_lennart-0.0.8.tar.gz
+[2023-05-03 20:50:55] INFO root fetch - processPackages [toolkit-lennart]: Downloading https://files.pythonhosted.org/packages/b8/fd/ca4982eb49be77bb6ad50ae0745c04f4c5d439a7a79fdc9185c2630b96f6/toolkit_lennart-0.0.8.tar.gz
+[2023-05-03 20:50:55] INFO root fetch - processPackages [module-qc-analysis-tools]: executing diffoscope
+[2023-05-03 20:50:55] INFO root fetch - processPackages [module-qc-analysis-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/module_qc_analysis_tools-1.3.1rc4.tar.gz tmp/module_qc_analysis_tools-1.3.1rc5.tar.gz --markdown 20230503/m/module-qc-analysis-tools/1.3.1rc4-1.3.1rc5/diff.md --exclude *.pyd
+[2023-05-03 20:50:55] INFO root fetch - processPackages [pickley]: Downloading https://files.pythonhosted.org/packages/80/d8/4b5cca8d61bab024ef84a8e371c57aeb37d2ef8d739b27db6bec0789b8bc/pickley-3.4.3.tar.gz
+[2023-05-03 20:50:55] INFO root fetch - processPackages [toolkit-lennart]: executing diffoscope
+[2023-05-03 20:50:55] INFO root fetch - processPackages [toolkit-lennart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toolkit_lennart-0.0.7.tar.gz tmp/toolkit_lennart-0.0.8.tar.gz --markdown 20230503/t/toolkit-lennart/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-03 20:50:55] INFO root fetch - processPackages [amseg]: Downloading https://files.pythonhosted.org/packages/78/38/4a07b55d21d301ea017dd8ce90e62578c857590b9178a2a947d29cb8cc7d/amseg-1.8.tar.gz
+[2023-05-03 20:50:55] INFO root fetch - processPackages [basic-math-operations]: Downloading https://files.pythonhosted.org/packages/2b/98/564af6ec9d8ec1c6a5d39126d8d68a4b677d071e4b8ba4925b0f3a7c88d5/basic_math_operations-1.0.158.tar.gz
+[2023-05-03 20:50:55] INFO root fetch - processPackages [toolkit-lennart]: executing diffoscope
+[2023-05-03 20:50:55] INFO root fetch - processPackages [toolkit-lennart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toolkit_lennart-0.0.7.tar.gz tmp/toolkit_lennart-0.0.8.tar.gz --markdown 20230503/t/toolkit-lennart/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-03 20:50:55] INFO root fetch - processPackages [amseg]: executing diffoscope
+[2023-05-03 20:50:55] INFO root fetch - processPackages [amseg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amseg-1.7.tar.gz tmp/amseg-1.8.tar.gz --markdown 20230503/a/amseg/1.7-1.8/diff.md --exclude *.pyd
+[2023-05-03 20:50:55] INFO root fetch - processPackages [basic-math-operations]: executing diffoscope
+[2023-05-03 20:50:55] INFO root fetch - processPackages [basic-math-operations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/basic_math_operations-1.0.157.tar.gz tmp/basic_math_operations-1.0.158.tar.gz --markdown 20230503/b/basic-math-operations/1.0.157-1.0.158/diff.md --exclude *.pyd
+[2023-05-03 20:50:55] INFO root fetch - processPackages [pickley]: executing diffoscope
+[2023-05-03 20:50:55] INFO root fetch - processPackages [pickley]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pickley-3.4.2.tar.gz tmp/pickley-3.4.3.tar.gz --markdown 20230503/p/pickley/3.4.2-3.4.3/diff.md --exclude *.pyd
+[2023-05-03 20:50:56] INFO root fetch - processPackages [digitalguide-reader]: Start processing: footsteps
+[2023-05-03 20:50:56] INFO root fetch - main [MainThread]: End processing [digitalguide-reader]: success
+[2023-05-03 20:50:56] INFO root fetch - processPackages [footsteps]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-03 20:50:56] INFO root fetch - processPackages [toolkit-lennart]: Start processing: leechem
+[2023-05-03 20:50:56] INFO root fetch - main [MainThread]: End processing [toolkit-lennart]: success
+[2023-05-03 20:50:56] INFO root fetch - processPackages [footsteps]: Downloading https://files.pythonhosted.org/packages/65/2a/bed40048daf2ab99f69ae1b185aae47fcd3b57ad7b7884e17331c9c7028e/footsteps-0.1.7-py3-none-any.whl
+[2023-05-03 20:50:56] INFO root fetch - processPackages [testapptmlc]: Start processing: vortex-api
+[2023-05-03 20:50:56] INFO root fetch - main [MainThread]: End processing [testapptmlc]: success
+[2023-05-03 20:50:56] ERROR root fetch - processPackages [vortex-api]: Unable to get metadata: No such project 'vortex-api'
+[2023-05-03 20:50:56] INFO root fetch - processPackages [vortex-api]: Start processing: datatrail-cli
+[2023-05-03 20:50:56] INFO root fetch - main [MainThread]: End processing [vortex-api] error
+[2023-05-03 20:50:56] INFO root fetch - processPackages [leechem]: New version: [1.2] Old Version: [1.1]
+[2023-05-03 20:50:56] WARNING root fetch - processPackages [datatrail-cli]: Skipping, unable to determine old version
+[2023-05-03 20:50:56] INFO root fetch - processPackages [datatrail-cli]: Start processing: theia-picker
+[2023-05-03 20:50:56] INFO root fetch - main [MainThread]: End processing [datatrail-cli] error
+[2023-05-03 20:50:56] INFO root fetch - main [MainThread]: End processing [toolkit-lennart]: success
+[2023-05-03 20:50:56] INFO root fetch - main [MainThread]: End processing [module-qc-analysis-tools]: success
+[2023-05-03 20:50:56] INFO root fetch - processPackages [leechem]: Downloading https://files.pythonhosted.org/packages/94/10/a47d1fb9dbbe8f2c2b47ef0c87f896c78a34a9f0fdbbc048a3cb7382f70c/leechem-1.1.tar.gz
+[2023-05-03 20:50:57] INFO root fetch - processPackages [theia-picker]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-03 20:50:57] INFO root fetch - main [MainThread]: End processing [gefyra]: success
+[2023-05-03 20:50:57] INFO root fetch - main [MainThread]: End processing [amseg]: success
+[2023-05-03 20:50:57] INFO root fetch - processPackages [footsteps]: Downloading https://files.pythonhosted.org/packages/f4/00/ada08b0e312f69dc93e15d8421d0ead527c2d3c625cd108fee7c9613272c/footsteps-0.1.8-py3-none-any.whl
+[2023-05-03 20:50:57] INFO root fetch - main [MainThread]: End processing [basic-math-operations]: success
+[2023-05-03 20:50:57] INFO root fetch - processPackages [theia-picker]: Downloading https://files.pythonhosted.org/packages/90/8c/a9382cb9bf3ca218d7e9d69b22c076ef691d377e3deb58c9f376112adcaa/theia-picker-1.0.2.tar.gz
+[2023-05-03 20:50:57] INFO root fetch - processPackages [footsteps]: executing diffoscope
+[2023-05-03 20:50:57] INFO root fetch - processPackages [footsteps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/footsteps-0.1.7-py3-none-any.whl.zip tmp/footsteps-0.1.8-py3-none-any.whl.zip --markdown 20230503/f/footsteps/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-03 20:50:57] INFO root fetch - processPackages [leechem]: Downloading https://files.pythonhosted.org/packages/ea/46/3214b5964cb1cf1eab15266ce0b89f1f0af10279c63c6bb4c21ca94539ff/leechem-1.2.tar.gz
+[2023-05-03 20:50:57] INFO root fetch - main [MainThread]: End processing [pickley]: success
+[2023-05-03 20:50:57] INFO root fetch - processPackages [leechem]: executing diffoscope
+[2023-05-03 20:50:57] INFO root fetch - processPackages [leechem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leechem-1.1.tar.gz tmp/leechem-1.2.tar.gz --markdown 20230503/l/leechem/1.1-1.2/diff.md --exclude *.pyd
+[2023-05-03 20:50:57] INFO root fetch - processPackages [theia-picker]: Downloading https://files.pythonhosted.org/packages/b5/ed/83204227296debaf7606b83b50f0f0d7184b586b3b9e6a0d09ff6e3112d6/theia-picker-1.0.3.tar.gz
+[2023-05-03 20:50:57] INFO root fetch - main [MainThread]: End processing [auroralibs]: success
+[2023-05-03 20:50:57] INFO root fetch - processPackages [theia-picker]: executing diffoscope
+[2023-05-03 20:50:57] INFO root fetch - processPackages [theia-picker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/theia-picker-1.0.2.tar.gz tmp/theia-picker-1.0.3.tar.gz --markdown 20230503/t/theia-picker/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-03 20:50:58] INFO root fetch - main [MainThread]: End processing [footsteps]: success
+[2023-05-03 20:50:58] INFO root fetch - main [MainThread]: End processing [theia-picker]: success
+[2023-05-03 20:50:58] INFO root fetch - main [MainThread]: End processing [leechem]: success
+[2023-05-03 20:50:58] INFO root fetch - main [MainThread]: Store serial: [17961278]
