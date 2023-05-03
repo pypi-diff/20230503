@@ -5279,3 +5279,21 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-03 05:19:11] INFO root fetch - main [MainThread]: End processing [pygmtsar]: success
 [2023-05-03 05:19:15] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-pagerduty]: success
 [2023-05-03 05:19:15] INFO root fetch - main [MainThread]: Store serial: [17950914]
+[2023-05-03 05:24:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17950914]
+[2023-05-03 05:24:24] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-05-03 05:24:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dataset-viewer
+[2023-05-03 05:24:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pybash
+[2023-05-03 05:24:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdktf-cdktf-provider-digitalocean
+[2023-05-03 05:24:24] INFO root fetch - processPackages [pybash]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-03 05:24:24] WARNING root fetch - processPackages [dataset-viewer]: Skipping, unable to determine old version
+[2023-05-03 05:24:24] INFO root fetch - main [MainThread]: End processing [dataset-viewer] error
+[2023-05-03 05:24:24] INFO root fetch - processPackages [cdktf-cdktf-provider-digitalocean]: New version: [6.0.2] Old Version: [6.0.1]
+[2023-05-03 05:24:24] INFO root fetch - processPackages [pybash]: executing diffoscope
+[2023-05-03 05:24:24] INFO root fetch - processPackages [pybash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybash-0.2.3.tar.gz tmp/pybash-0.2.4.tar.gz --markdown 20230503/p/pybash/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-03 05:24:24] INFO root fetch - processPackages [cdktf-cdktf-provider-digitalocean]: Downloading https://files.pythonhosted.org/packages/36/ec/01de45f1b98f78e31a4a3a7d594c02d80cc71067d275cf07c1f875b15897/cdktf-cdktf-provider-digitalocean-6.0.1.tar.gz
+[2023-05-03 05:24:25] INFO root fetch - processPackages [cdktf-cdktf-provider-digitalocean]: Downloading https://files.pythonhosted.org/packages/6c/c9/c50f18b4603c3a1f155d78cbab7b09a9d65a8453b3f84a79bb404a7dfbec/cdktf-cdktf-provider-digitalocean-6.0.2.tar.gz
+[2023-05-03 05:24:25] INFO root fetch - processPackages [cdktf-cdktf-provider-digitalocean]: executing diffoscope
+[2023-05-03 05:24:25] INFO root fetch - processPackages [cdktf-cdktf-provider-digitalocean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-digitalocean-6.0.1.tar.gz tmp/cdktf-cdktf-provider-digitalocean-6.0.2.tar.gz --markdown 20230503/c/cdktf-cdktf-provider-digitalocean/6.0.1-6.0.2/diff.md --exclude *.pyd
+[2023-05-03 05:24:25] INFO root fetch - main [MainThread]: End processing [pybash]: success
+[2023-05-03 05:24:31] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-digitalocean]: success
+[2023-05-03 05:24:31] INFO root fetch - main [MainThread]: Store serial: [17950928]
