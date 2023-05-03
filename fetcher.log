@@ -22790,3 +22790,76 @@ No space left on device. Diffoscope exiting.
 [2023-05-03 21:18:17] INFO root fetch - main [MainThread]: End processing [nibe]: success
 [2023-05-03 21:18:18] INFO root fetch - main [MainThread]: End processing [dcicsnovault]: success
 [2023-05-03 21:18:18] INFO root fetch - main [MainThread]: Store serial: [17961500]
+[2023-05-03 21:23:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17961500]
+[2023-05-03 21:23:27] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-03 21:23:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: FileEdit
+[2023-05-03 21:23:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: meter-gear
+[2023-05-03 21:23:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fplore
+[2023-05-03 21:23:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: slack-watchman
+[2023-05-03 21:23:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: GPXTweaker
+[2023-05-03 21:23:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nvm
+[2023-05-03 21:23:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: autora-experimentalist-poppernet
+[2023-05-03 21:23:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: monarch-py
+[2023-05-03 21:23:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: testpackageBP
+[2023-05-03 21:23:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: akhdefo-functions
+[2023-05-03 21:23:27] WARNING root fetch - processPackages [FileEdit]: Skipping, unable to determine old version
+[2023-05-03 21:23:27] INFO root fetch - processPackages [FileEdit]: Start processing: modal-client
+[2023-05-03 21:23:27] INFO root fetch - main [MainThread]: End processing [FileEdit] error
+[2023-05-03 21:23:27] INFO root fetch - processPackages [GPXTweaker]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-05-03 21:23:27] INFO root fetch - processPackages [meter-gear]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-03 21:23:27] INFO root fetch - processPackages [slack-watchman]: New version: [4.0.0] Old Version: [3.0.9]
+[2023-05-03 21:23:27] WARNING root fetch - processPackages [nvm]: Skipping, unable to determine old version
+[2023-05-03 21:23:27] INFO root fetch - processPackages [fplore]: New version: [0.5b1] Old Version: [0.5]
+[2023-05-03 21:23:27] WARNING root fetch - processPackages [autora-experimentalist-poppernet]: Skipping, unable to determine old version
+[2023-05-03 21:23:27] INFO root fetch - processPackages [nvm]: Start processing: sse-starlette
+[2023-05-03 21:23:27] INFO root fetch - main [MainThread]: End processing [nvm] error
+[2023-05-03 21:23:27] INFO root fetch - processPackages [autora-experimentalist-poppernet]: Start processing: budy
+[2023-05-03 21:23:27] INFO root fetch - processPackages [akhdefo-functions]: New version: [2.2.46] Old Version: [2.2.45]
+[2023-05-03 21:23:27] INFO root fetch - main [MainThread]: End processing [autora-experimentalist-poppernet] error
+[2023-05-03 21:23:27] WARNING root fetch - processPackages [testpackageBP]: Skipping, unable to determine old version
+[2023-05-03 21:23:27] INFO root fetch - processPackages [monarch-py]: New version: [0.7.0] Old Version: [0.6.2]
+[2023-05-03 21:23:27] INFO root fetch - main [MainThread]: End processing [testpackageBP] error
+[2023-05-03 21:23:27] INFO root fetch - processPackages [sse-starlette]: New version: [1.4.0] Old Version: [1.3.4]
+[2023-05-03 21:23:27] INFO root fetch - processPackages [modal-client]: New version: [0.49.2096] Old Version: [0.49.2091]
+[2023-05-03 21:23:28] INFO root fetch - processPackages [meter-gear]: executing diffoscope
+[2023-05-03 21:23:28] INFO root fetch - processPackages [meter-gear]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meter-gear-1.2.8.tar.gz tmp/meter-gear-1.2.9.tar.gz --markdown 20230503/m/meter-gear/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-03 21:23:28] INFO root fetch - processPackages [sse-starlette]: executing diffoscope
+[2023-05-03 21:23:28] INFO root fetch - processPackages [sse-starlette]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sse-starlette-1.3.4.tar.gz tmp/sse-starlette-1.4.0.tar.gz --markdown 20230503/s/sse-starlette/1.3.4-1.4.0/diff.md --exclude *.pyd
+[2023-05-03 21:23:28] INFO root fetch - processPackages [budy]: New version: [0.8.0] Old Version: [0.7.9]
+[2023-05-03 21:23:28] INFO root fetch - processPackages [fplore]: Downloading https://files.pythonhosted.org/packages/52/14/48b0ec6986d3f8d4cfa6175e8a14b0184ccf55d631f0f505c8ae24e46752/fplore-0.5.tar.gz
+[2023-05-03 21:23:28] INFO root fetch - processPackages [GPXTweaker]: Downloading https://files.pythonhosted.org/packages/1f/31/022fcf58c8cab32c8827bae1fb3d5eb5776786da20b7d870c2f1a8badbc0/GPXTweaker-1.9.1.tar.gz
+[2023-05-03 21:23:28] INFO root fetch - processPackages [monarch-py]: Downloading https://files.pythonhosted.org/packages/3e/38/5f8468a921947389742c33aa8e31d6849d47e2594e74d61368111126b077/monarch_py-0.6.2.tar.gz
+[2023-05-03 21:23:28] INFO root fetch - processPackages [slack-watchman]: Downloading https://files.pythonhosted.org/packages/a0/f7/c13f159efdfdd6ed3446c01e4243af9246b09a695a651f08acdadf4483b0/slack-watchman-3.0.9.tar.gz
+[2023-05-03 21:23:28] INFO root fetch - processPackages [akhdefo-functions]: Downloading https://files.pythonhosted.org/packages/e5/9b/0e13d476f8a9f0d79463c9ad410a2ce4b3d48ce5156af9ef82a8ba792de5/akhdefo_functions-2.2.45.tar.gz
+[2023-05-03 21:23:28] INFO root fetch - processPackages [budy]: Downloading https://files.pythonhosted.org/packages/3a/b7/f5c2c37417a2e07d49fad6f11f6e81deb7e3d2e014fafb1399796f747d61/budy-0.7.9.tar.gz
+[2023-05-03 21:23:28] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/2f/8e/71cec44dcd061505d70b0b40e91ef88ec2ce252a8772b8593c1d06402a3b/modal_client-0.49.2096-py3-none-any.whl
+[2023-05-03 21:23:28] INFO root fetch - processPackages [fplore]: Downloading https://files.pythonhosted.org/packages/7c/0f/85dd114bdb09846944669e690e43db66f83ed454969c1df84e5525999da0/fplore-0.5b1.tar.gz
+[2023-05-03 21:23:28] INFO root fetch - processPackages [GPXTweaker]: Downloading https://files.pythonhosted.org/packages/86/35/06024c3dcd75b215e4c517f143e3bd26c3a72a10fd3753eb94feace8712f/GPXTweaker-1.9.2.tar.gz
+[2023-05-03 21:23:28] INFO root fetch - processPackages [akhdefo-functions]: Downloading https://files.pythonhosted.org/packages/ef/cb/3605deea7c5b7de324497aa60dea12c51666e987ca9f352f72a92a2dc525/akhdefo_functions-2.2.46-py3-none-any.whl
+[2023-05-03 21:23:28] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2023-05-03 21:23:28] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.49.2091-py3-none-any.whl.zip tmp/modal_client-0.49.2096-py3-none-any.whl.zip --markdown 20230503/m/modal-client/0.49.2091-0.49.2096/diff.md --exclude *.pyd
+[2023-05-03 21:23:28] INFO root fetch - processPackages [monarch-py]: Downloading https://files.pythonhosted.org/packages/8f/d4/2490394ef90b902156c6df0f2809c50de7c1e8a3c8621f3c3231c013e2a7/monarch_py-0.7.0.tar.gz
+[2023-05-03 21:23:28] INFO root fetch - processPackages [slack-watchman]: Downloading https://files.pythonhosted.org/packages/07/65/912017cb70af7963b518ec2b278f25f3fc05a022345b1710166b6d1ea543/slack-watchman-4.0.0.tar.gz
+[2023-05-03 21:23:28] INFO root fetch - processPackages [GPXTweaker]: executing diffoscope
+[2023-05-03 21:23:28] INFO root fetch - processPackages [GPXTweaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GPXTweaker-1.9.1.tar.gz tmp/GPXTweaker-1.9.2.tar.gz --markdown 20230503/G/GPXTweaker/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-05-03 21:23:28] INFO root fetch - processPackages [akhdefo-functions]: executing diffoscope
+[2023-05-03 21:23:28] INFO root fetch - processPackages [akhdefo-functions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akhdefo_functions-2.2.45.tar.gz tmp/akhdefo_functions-2.2.46-py3-none-any.whl.zip --markdown 20230503/a/akhdefo-functions/2.2.45-2.2.46/diff.md --exclude *.pyd
+[2023-05-03 21:23:28] INFO root fetch - processPackages [slack-watchman]: executing diffoscope
+[2023-05-03 21:23:28] INFO root fetch - processPackages [slack-watchman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slack-watchman-3.0.9.tar.gz tmp/slack-watchman-4.0.0.tar.gz --markdown 20230503/s/slack-watchman/3.0.9-4.0.0/diff.md --exclude *.pyd
+[2023-05-03 21:23:28] INFO root fetch - processPackages [monarch-py]: executing diffoscope
+[2023-05-03 21:23:28] INFO root fetch - processPackages [monarch-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monarch_py-0.6.2.tar.gz tmp/monarch_py-0.7.0.tar.gz --markdown 20230503/m/monarch-py/0.6.2-0.7.0/diff.md --exclude *.pyd
+[2023-05-03 21:23:28] INFO root fetch - processPackages [budy]: Downloading https://files.pythonhosted.org/packages/16/06/1e7594faa48633f046c683106651137b69accbebf8792686a0c48590e555/budy-0.8.0.tar.gz
+[2023-05-03 21:23:28] INFO root fetch - processPackages [fplore]: executing diffoscope
+[2023-05-03 21:23:28] INFO root fetch - processPackages [fplore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fplore-0.5.tar.gz tmp/fplore-0.5b1.tar.gz --markdown 20230503/f/fplore/0.5-0.5b1/diff.md --exclude *.pyd
+[2023-05-03 21:23:28] INFO root fetch - processPackages [budy]: executing diffoscope
+[2023-05-03 21:23:28] INFO root fetch - processPackages [budy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/budy-0.7.9.tar.gz tmp/budy-0.8.0.tar.gz --markdown 20230503/b/budy/0.7.9-0.8.0/diff.md --exclude *.pyd
+[2023-05-03 21:23:29] INFO root fetch - main [MainThread]: End processing [meter-gear]: success
+[2023-05-03 21:23:29] INFO root fetch - main [MainThread]: End processing [sse-starlette]: success
+[2023-05-03 21:23:29] INFO root fetch - main [MainThread]: End processing [akhdefo-functions]: success
+[2023-05-03 21:23:29] INFO root fetch - main [MainThread]: End processing [slack-watchman]: success
+[2023-05-03 21:23:30] INFO root fetch - main [MainThread]: End processing [GPXTweaker]: success
+[2023-05-03 21:23:30] INFO root fetch - main [MainThread]: End processing [monarch-py]: success
+[2023-05-03 21:23:30] INFO root fetch - main [MainThread]: End processing [fplore]: success
+[2023-05-03 21:23:30] INFO root fetch - main [MainThread]: End processing [budy]: success
+[2023-05-03 21:23:30] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2023-05-03 21:23:30] INFO root fetch - main [MainThread]: Store serial: [17961557]
