@@ -23222,3 +23222,64 @@ EOFError: EOF read where object expected
 
 [2023-05-03 21:34:41] INFO root fetch - main [MainThread]: End processing [agilicus] error
 [2023-05-03 21:34:41] INFO root fetch - main [MainThread]: Store serial: [17961699]
+[2023-05-03 21:39:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17961699]
+[2023-05-03 21:39:51] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-03 21:39:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: syrics
+[2023-05-03 21:39:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bottle-sql
+[2023-05-03 21:39:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: domolibrary
+[2023-05-03 21:39:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: smashed
+[2023-05-03 21:39:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: capsolver-api
+[2023-05-03 21:39:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: certora-cli-alpha-thomas-fix-address
+[2023-05-03 21:39:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-yoav-plus-minus-simplification
+[2023-05-03 21:39:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: benchling-api-client
+[2023-05-03 21:39:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: custom-rails
+[2023-05-03 21:39:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ga4gh.vrs
+[2023-05-03 21:39:51] INFO root fetch - processPackages [certora-cli-alpha-thomas-fix-address]: New version: [20230503.18.43.716304] Old Version: [20230502.21.11.845381]
+[2023-05-03 21:39:51] WARNING root fetch - processPackages [custom-rails]: Skipping, unable to determine old version
+[2023-05-03 21:39:51] INFO root fetch - main [MainThread]: End processing [custom-rails] error
+[2023-05-03 21:39:51] INFO root fetch - processPackages [domolibrary]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-03 21:39:51] INFO root fetch - processPackages [ga4gh.vrs]: New version: [0.9.0a0] Old Version: [0.9.0.dev0]
+[2023-05-03 21:39:51] INFO root fetch - processPackages [ga4gh.vrs]: Downloading https://files.pythonhosted.org/packages/65/2c/92a2e3a545875fcb16abbf059b24d015f21064e117986e3cc73076207c81/ga4gh.vrs-0.9.0.dev0.tar.gz
+[2023-05-03 21:39:51] INFO root fetch - processPackages [syrics]: New version: [0.0.1.7] Old Version: [0.0.1.6]
+[2023-05-03 21:39:51] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2023-05-03 21:39:51] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-0.1.8.tar.gz tmp/domolibrary-0.1.9.tar.gz --markdown 20230503/d/domolibrary/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-03 21:39:51] INFO root fetch - processPackages [bottle-sql]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-03 21:39:51] INFO root fetch - processPackages [capsolver-api]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-03 21:39:51] INFO root fetch - processPackages [certora-cli-alpha-yoav-plus-minus-simplification]: New version: [20230503.19.38.546741] Old Version: [20230502.10.12.88085]
+[2023-05-03 21:39:51] INFO root fetch - processPackages [smashed]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-03 21:39:51] WARNING root fetch - processPackages [ga4gh.vrs]: Skipping package: exceeds size limit 17087007>=10485760
+[2023-05-03 21:39:51] INFO root fetch - main [MainThread]: End processing [ga4gh.vrs] error
+[2023-05-03 21:39:51] INFO root fetch - processPackages [benchling-api-client]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-03 21:39:51] INFO root fetch - processPackages [certora-cli-alpha-thomas-fix-address]: Downloading https://files.pythonhosted.org/packages/7e/6f/03096e30fa38b18085dc7148e76ea1c1d0dcbb1b63d25287f152f8cc64f1/certora-cli-alpha-thomas-fix-address-20230502.21.11.845381.tar.gz
+[2023-05-03 21:39:51] INFO root fetch - processPackages [certora-cli-alpha-yoav-plus-minus-simplification]: Downloading https://files.pythonhosted.org/packages/61/dd/ce1ec00822d839e19d139245cdab6e4bfba385843ce272004aebc0332fd6/certora-cli-alpha-yoav-plus_minus_simplification-20230502.10.12.88085.tar.gz
+[2023-05-03 21:39:51] INFO root fetch - processPackages [syrics]: Downloading https://files.pythonhosted.org/packages/cf/a8/962181412e85bd0d9c0f390d2b7f8f041aa28f3d7988ee0bd49c6fc84e96/syrics-0.0.1.6.tar.gz
+[2023-05-03 21:39:51] WARNING root fetch - processPackages [certora-cli-alpha-thomas-fix-address]: Skipping package: exceeds size limit 38375441>=10485760
+[2023-05-03 21:39:51] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-thomas-fix-address] error
+[2023-05-03 21:39:51] INFO root fetch - processPackages [bottle-sql]: Downloading https://files.pythonhosted.org/packages/22/f2/fab772c635484462167b54afbe0679b0824276d7e1c59ab734fe2a8d557b/bottle_sql-0.0.1.tar.gz
+[2023-05-03 21:39:51] INFO root fetch - processPackages [benchling-api-client]: Downloading https://files.pythonhosted.org/packages/ce/1d/9c3669396c4c52924ccf39a48a438a2c8167c4fb512eca865bd64066d33e/benchling_api_client-2.0.98.tar.gz
+[2023-05-03 21:39:51] INFO root fetch - processPackages [capsolver-api]: Downloading https://files.pythonhosted.org/packages/d2/6d/763b652ac84bb374ed576d972695e246e64d8dc178a286a4ea9cce486311/capsolver_api-1.0.4.tar.gz
+[2023-05-03 21:39:51] INFO root fetch - processPackages [smashed]: Downloading https://files.pythonhosted.org/packages/a2/1d/fb98029bb479c5cdcc34971ad24719ae745d90ff912ec404b6d0487d9679/smashed-0.8.0.tar.gz
+[2023-05-03 21:39:51] WARNING root fetch - processPackages [certora-cli-alpha-yoav-plus-minus-simplification]: Skipping package: exceeds size limit 38364516>=10485760
+[2023-05-03 21:39:51] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-yoav-plus-minus-simplification] error
+[2023-05-03 21:39:51] INFO root fetch - processPackages [bottle-sql]: Downloading https://files.pythonhosted.org/packages/42/f1/a52d0136048a83e7ed29881bf43c15f99b9e2dcd619fa307698fb404622f/bottle_sql-0.0.2.tar.gz
+[2023-05-03 21:39:52] INFO root fetch - processPackages [syrics]: Downloading https://files.pythonhosted.org/packages/f2/d1/3d6bfc35c17cdee5df3862f49a53d56dc0b180c3b04632ac36cd7d9fd7a8/syrics-0.0.1.7.tar.gz
+[2023-05-03 21:39:52] INFO root fetch - processPackages [capsolver-api]: Downloading https://files.pythonhosted.org/packages/53/7d/d85c597725e199905e7606490dac974bbf60216b3bdb226bb290863f076c/capsolver_api-1.0.5.tar.gz
+[2023-05-03 21:39:52] INFO root fetch - processPackages [bottle-sql]: executing diffoscope
+[2023-05-03 21:39:52] INFO root fetch - processPackages [bottle-sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bottle_sql-0.0.1.tar.gz tmp/bottle_sql-0.0.2.tar.gz --markdown 20230503/b/bottle-sql/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-03 21:39:52] INFO root fetch - processPackages [syrics]: executing diffoscope
+[2023-05-03 21:39:52] INFO root fetch - processPackages [syrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syrics-0.0.1.6.tar.gz tmp/syrics-0.0.1.7.tar.gz --markdown 20230503/s/syrics/0.0.1.6-0.0.1.7/diff.md --exclude *.pyd
+[2023-05-03 21:39:52] INFO root fetch - processPackages [capsolver-api]: executing diffoscope
+[2023-05-03 21:39:52] INFO root fetch - processPackages [capsolver-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capsolver_api-1.0.4.tar.gz tmp/capsolver_api-1.0.5.tar.gz --markdown 20230503/c/capsolver-api/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-03 21:39:52] INFO root fetch - processPackages [benchling-api-client]: Downloading https://files.pythonhosted.org/packages/f9/23/649c2147d11c171b4b3d27c6a52dab32d22dc24ec1c248cf5d1dd8a4451d/benchling_api_client-2.0.99.tar.gz
+[2023-05-03 21:39:52] INFO root fetch - processPackages [smashed]: Downloading https://files.pythonhosted.org/packages/8a/e3/86e471085f74f3a1f12af9e50e7861ecb1349ffc9f792e0898d67870a877/smashed-0.9.0.tar.gz
+[2023-05-03 21:39:52] INFO root fetch - processPackages [smashed]: executing diffoscope
+[2023-05-03 21:39:52] INFO root fetch - processPackages [smashed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smashed-0.8.0.tar.gz tmp/smashed-0.9.0.tar.gz --markdown 20230503/s/smashed/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-03 21:39:52] INFO root fetch - processPackages [benchling-api-client]: executing diffoscope
+[2023-05-03 21:39:52] INFO root fetch - processPackages [benchling-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benchling_api_client-2.0.98.tar.gz tmp/benchling_api_client-2.0.99.tar.gz --markdown 20230503/b/benchling-api-client/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-03 21:39:53] INFO root fetch - main [MainThread]: End processing [bottle-sql]: success
+[2023-05-03 21:39:53] INFO root fetch - main [MainThread]: End processing [syrics]: success
+[2023-05-03 21:39:53] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2023-05-03 21:39:53] INFO root fetch - main [MainThread]: End processing [capsolver-api]: success
+[2023-05-03 21:39:54] INFO root fetch - main [MainThread]: End processing [smashed]: success
+[2023-05-03 21:41:39] INFO root fetch - main [MainThread]: End processing [benchling-api-client]: success
+[2023-05-03 21:41:39] INFO root fetch - main [MainThread]: Store serial: [17961731]
