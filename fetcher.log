@@ -7591,3 +7591,65 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-03 08:50:36] INFO root fetch - main [MainThread]: End processing [frequenz-api-microgrid]: success
 [2023-05-03 08:50:36] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
 [2023-05-03 08:50:36] INFO root fetch - main [MainThread]: Store serial: [17952336]
+[2023-05-03 08:55:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17952336]
+[2023-05-03 08:55:45] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-03 08:55:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fluxoperator
+[2023-05-03 08:55:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: citros
+[2023-05-03 08:55:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: async-etcd3gw
+[2023-05-03 08:55:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: volworld-aws-api-common
+[2023-05-03 08:55:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cognite-power-ops
+[2023-05-03 08:55:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pystools
+[2023-05-03 08:55:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: airflow-kdb-provider
+[2023-05-03 08:55:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ddparo
+[2023-05-03 08:55:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: libtado
+[2023-05-03 08:55:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: polymatica-api
+[2023-05-03 08:55:45] INFO root fetch - processPackages [fluxoperator]: New version: [0.0.21] Old Version: [0.0.2]
+[2023-05-03 08:55:45] INFO root fetch - processPackages [async-etcd3gw]: New version: [0.5] Old Version: [0.4]
+[2023-05-03 08:55:45] INFO root fetch - processPackages [volworld-aws-api-common]: New version: [0.1.9] Old Version: [0.1.86]
+[2023-05-03 08:55:45] INFO root fetch - processPackages [libtado]: New version: [3.6.0] Old Version: [3.5.1]
+[2023-05-03 08:55:45] WARNING root fetch - processPackages [cognite-power-ops]: Skipping, unable to determine old version
+[2023-05-03 08:55:45] INFO root fetch - processPackages [citros]: New version: [23.17.9] Old Version: [23.17.8]
+[2023-05-03 08:55:45] INFO root fetch - processPackages [cognite-power-ops]: Start processing: manga-ocr-abang
+[2023-05-03 08:55:45] INFO root fetch - main [MainThread]: End processing [cognite-power-ops] error
+[2023-05-03 08:55:45] WARNING root fetch - processPackages [ddparo]: Skipping, unable to determine old version
+[2023-05-03 08:55:45] INFO root fetch - processPackages [airflow-kdb-provider]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-03 08:55:45] INFO root fetch - processPackages [pystools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 08:55:45] INFO root fetch - processPackages [polymatica-api]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-03 08:55:45] INFO root fetch - main [MainThread]: End processing [ddparo] error
+[2023-05-03 08:55:45] INFO root fetch - processPackages [pystools]: executing diffoscope
+[2023-05-03 08:55:45] INFO root fetch - processPackages [pystools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystools-0.0.8.tar.gz tmp/pystools-0.0.9.tar.gz --markdown 20230503/p/pystools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 08:55:46] INFO root fetch - processPackages [volworld-aws-api-common]: Downloading https://files.pythonhosted.org/packages/be/a1/ac588f045dc3b0e53640aa19d87f69b687bed81de46057f775c656dfe149/volworld_aws_api_common-0.1.86.tar.gz
+[2023-05-03 08:55:46] INFO root fetch - processPackages [fluxoperator]: Downloading https://files.pythonhosted.org/packages/9d/66/50df90ab592651d6789df920f854768e3e6be19fe1a1c9969a457963ff48/fluxoperator-0.0.2.tar.gz
+[2023-05-03 08:55:46] INFO root fetch - processPackages [async-etcd3gw]: Downloading https://files.pythonhosted.org/packages/ae/a9/c1409cd660c832f1f44d32fe81cf047cb624e0cb9fbf7b719fb85b422308/async_etcd3gw-0.4.tar.gz
+[2023-05-03 08:55:46] WARNING root fetch - processPackages [manga-ocr-abang]: Skipping, unable to determine old version
+[2023-05-03 08:55:46] INFO root fetch - main [MainThread]: End processing [manga-ocr-abang] error
+[2023-05-03 08:55:46] INFO root fetch - processPackages [airflow-kdb-provider]: Downloading https://files.pythonhosted.org/packages/2a/71/7adaf91d862d7ad458ca8b298e95436e41e4b05c0cbe1ad2968eebb1957e/airflow-kdb-provider-0.1.2.tar.gz
+[2023-05-03 08:55:46] INFO root fetch - processPackages [citros]: Downloading https://files.pythonhosted.org/packages/0a/b0/0bff829bfc0154c682298eda0cb91120418415057f0d1550d0d9e08ce09f/citros-23.17.9.tar.gz
+[2023-05-03 08:55:46] INFO root fetch - processPackages [libtado]: Downloading https://files.pythonhosted.org/packages/dc/33/12fac5399d8c4054df2066aaf342292b45dd86e2e6fa1669747737644fa7/libtado-3.5.1.tar.gz
+[2023-05-03 08:55:46] INFO root fetch - processPackages [polymatica-api]: Downloading https://files.pythonhosted.org/packages/11/db/a804499c0cca2e58324be73e74d8b1537545c129d849f8a22e6d4974d379/polymatica_api-0.0.6.tar.gz
+[2023-05-03 08:55:46] INFO root fetch - processPackages [airflow-kdb-provider]: executing diffoscope
+[2023-05-03 08:55:46] INFO root fetch - processPackages [airflow-kdb-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airflow-kdb-provider-0.1.1.tar.gz tmp/airflow-kdb-provider-0.1.2.tar.gz --markdown 20230503/a/airflow-kdb-provider/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-03 08:55:46] INFO root fetch - processPackages [citros]: executing diffoscope
+[2023-05-03 08:55:46] INFO root fetch - processPackages [citros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citros-23.17.8.tar.gz tmp/citros-23.17.9.tar.gz --markdown 20230503/c/citros/23.17.8-23.17.9/diff.md --exclude *.pyd
+[2023-05-03 08:55:46] INFO root fetch - processPackages [volworld-aws-api-common]: executing diffoscope
+[2023-05-03 08:55:46] INFO root fetch - processPackages [volworld-aws-api-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volworld_aws_api_common-0.1.86.tar.gz tmp/volworld_aws_api_common-0.1.9.tar.gz --markdown 20230503/v/volworld-aws-api-common/0.1.86-0.1.9/diff.md --exclude *.pyd
+[2023-05-03 08:55:46] INFO root fetch - processPackages [polymatica-api]: executing diffoscope
+[2023-05-03 08:55:46] INFO root fetch - processPackages [polymatica-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polymatica_api-0.0.5.tar.gz tmp/polymatica_api-0.0.6.tar.gz --markdown 20230503/p/polymatica-api/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-03 08:55:46] INFO root fetch - processPackages [libtado]: Downloading https://files.pythonhosted.org/packages/56/d7/e78ce2ea2447b9f0f638654792cdc284ff2eaa7074fd11dfe3a5e6bf0af4/libtado-3.6.0.tar.gz
+[2023-05-03 08:55:46] INFO root fetch - processPackages [async-etcd3gw]: Downloading https://files.pythonhosted.org/packages/8a/01/0cef7ae6be55d3e4c1ba8054ccce46c787058e711275717b769d73eeaec2/async_etcd3gw-0.5.tar.gz
+[2023-05-03 08:55:46] INFO root fetch - processPackages [fluxoperator]: Downloading https://files.pythonhosted.org/packages/03/06/c15480cf0de52beabe0643bd9567b614adffd50337a1de2f9ce6b2e582e5/fluxoperator-0.0.21.tar.gz
+[2023-05-03 08:55:46] INFO root fetch - processPackages [libtado]: executing diffoscope
+[2023-05-03 08:55:46] INFO root fetch - processPackages [libtado]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libtado-3.5.1.tar.gz tmp/libtado-3.6.0.tar.gz --markdown 20230503/l/libtado/3.5.1-3.6.0/diff.md --exclude *.pyd
+[2023-05-03 08:55:46] INFO root fetch - processPackages [async-etcd3gw]: executing diffoscope
+[2023-05-03 08:55:46] INFO root fetch - processPackages [async-etcd3gw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async_etcd3gw-0.4.tar.gz tmp/async_etcd3gw-0.5.tar.gz --markdown 20230503/a/async-etcd3gw/0.4-0.5/diff.md --exclude *.pyd
+[2023-05-03 08:55:46] INFO root fetch - processPackages [fluxoperator]: executing diffoscope
+[2023-05-03 08:55:46] INFO root fetch - processPackages [fluxoperator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fluxoperator-0.0.2.tar.gz tmp/fluxoperator-0.0.21.tar.gz --markdown 20230503/f/fluxoperator/0.0.2-0.0.21/diff.md --exclude *.pyd
+[2023-05-03 08:55:47] INFO root fetch - main [MainThread]: End processing [airflow-kdb-provider]: success
+[2023-05-03 08:55:47] INFO root fetch - main [MainThread]: End processing [polymatica-api]: success
+[2023-05-03 08:55:47] INFO root fetch - main [MainThread]: End processing [libtado]: success
+[2023-05-03 08:55:47] INFO root fetch - main [MainThread]: End processing [volworld-aws-api-common]: success
+[2023-05-03 08:55:47] INFO root fetch - main [MainThread]: End processing [pystools]: success
+[2023-05-03 08:55:48] INFO root fetch - main [MainThread]: End processing [citros]: success
+[2023-05-03 08:55:48] INFO root fetch - main [MainThread]: End processing [async-etcd3gw]: success
+[2023-05-03 08:56:11] INFO root fetch - main [MainThread]: End processing [fluxoperator]: success
+[2023-05-03 08:56:11] INFO root fetch - main [MainThread]: Store serial: [17952372]
