@@ -16634,3 +16634,86 @@ No space left on device. Diffoscope exiting.
 [2023-05-03 16:03:54] INFO root fetch - main [MainThread]: End processing [django-apollo-forms]: success
 [2023-05-03 16:03:54] INFO root fetch - main [MainThread]: End processing [matrix-synapse]: success
 [2023-05-03 16:03:54] INFO root fetch - main [MainThread]: Store serial: [17957424]
+[2023-05-03 16:08:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17957424]
+[2023-05-03 16:09:04] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-03 16:09:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: evergreen.py
+[2023-05-03 16:09:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: utilspggmdatalab
+[2023-05-03 16:09:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: okta-jwt-verifier
+[2023-05-03 16:09:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tool100
+[2023-05-03 16:09:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: neoscrypt-python
+[2023-05-03 16:09:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyinflux3
+[2023-05-03 16:09:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyinflux3-cli
+[2023-05-03 16:09:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: open-pyxl-sql
+[2023-05-03 16:09:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: clang-format
+[2023-05-03 16:09:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: CatRoyale
+[2023-05-03 16:09:04] INFO root fetch - processPackages [okta-jwt-verifier]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-03 16:09:04] WARNING root fetch - processPackages [tool100]: Skipping, unable to determine old version
+[2023-05-03 16:09:04] INFO root fetch - processPackages [tool100]: Start processing: qontract-reconcile
+[2023-05-03 16:09:04] INFO root fetch - main [MainThread]: End processing [tool100] error
+[2023-05-03 16:09:04] INFO root fetch - processPackages [neoscrypt-python]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-03 16:09:04] INFO root fetch - processPackages [open-pyxl-sql]: New version: [1.1rc3] Old Version: [0.13]
+[2023-05-03 16:09:04] INFO root fetch - processPackages [utilspggmdatalab]: New version: [0.5] Old Version: [0.4]
+[2023-05-03 16:09:04] INFO root fetch - processPackages [CatRoyale]: New version: [1.9] Old Version: [1.8]
+[2023-05-03 16:09:04] INFO root fetch - processPackages [pyinflux3-cli]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-05-03 16:09:04] INFO root fetch - processPackages [pyinflux3]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-05-03 16:09:04] INFO root fetch - processPackages [evergreen.py]: New version: [3.6.0] Old Version: [3.5.9]
+[2023-05-03 16:09:04] INFO root fetch - processPackages [clang-format]: New version: [9.0.0] Old Version: [8.0.1]
+[2023-05-03 16:09:05] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-05-03 16:09:05] INFO root fetch - processPackages [okta-jwt-verifier]: Downloading https://files.pythonhosted.org/packages/48/15/1480879cc8a891a89fc66844fdc23536a60569b734cd6c45a8fe27303c69/okta_jwt_verifier-0.2.3.tar.gz
+[2023-05-03 16:09:05] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-05-03 16:09:05] INFO root fetch - processPackages [open-pyxl-sql]: Downloading https://files.pythonhosted.org/packages/2d/52/aca072b06b705656a3b32414af9eb8724924e4735a41f5e6b9d9659734f4/open-pyxl-sql-0.13.tar.gz
+[2023-05-03 16:09:05] INFO root fetch - processPackages [neoscrypt-python]: Downloading https://files.pythonhosted.org/packages/a3/78/388f8902e57c91e7bf240c5df9a50669f2a3dcad61d91d7c838093af030d/neoscrypt_python-1.0.3.tar.gz
+[2023-05-03 16:09:05] INFO root fetch - processPackages [utilspggmdatalab]: Downloading https://files.pythonhosted.org/packages/4d/bc/d3eb5fb04af7a16296fe4496fba85c289aac1bd02c72bd7ecce052db2576/utilspggmdatalab-0.4.tar.gz
+[2023-05-03 16:09:05] INFO root fetch - processPackages [pyinflux3-cli]: Downloading https://files.pythonhosted.org/packages/42/f0/1f2c2594bd8978473c2aae544799e6a3c52e826acf70683e6f101fda193f/pyinflux3-cli-0.8.2.tar.gz
+[2023-05-03 16:09:05] INFO root fetch - processPackages [pyinflux3]: Downloading https://files.pythonhosted.org/packages/cc/66/2643a1ecf317c011b670e097c9ec4df34bb2da6e76947d913f4997cf7c8c/pyinflux3-0.8.2.tar.gz
+[2023-05-03 16:09:05] INFO root fetch - processPackages [clang-format]: Downloading https://files.pythonhosted.org/packages/37/66/75e3c14f22c8a7a02c7e337547e29d42bed516ba8067fdef87d3d9346e52/clang_format-8.0.1-py2.py3-none-manylinux1_x86_64.whl
+[2023-05-03 16:09:05] INFO root fetch - processPackages [evergreen.py]: Downloading https://files.pythonhosted.org/packages/97/de/c79f514c0f1de8e795ff81730bbec7df3c832999178ef1208923e9525c77/evergreen.py-3.6.0.tar.gz
+[2023-05-03 16:09:05] INFO root fetch - processPackages [CatRoyale]: executing diffoscope
+[2023-05-03 16:09:05] INFO root fetch - processPackages [CatRoyale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CatRoyale-1.8.tar.gz tmp/CatRoyale-1.9.tar.gz --markdown 20230503/C/CatRoyale/1.8-1.9/diff.md --exclude *.pyd
+[2023-05-03 16:09:05] INFO root fetch - processPackages [evergreen.py]: executing diffoscope
+[2023-05-03 16:09:05] INFO root fetch - processPackages [evergreen.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evergreen.py-3.5.9.tar.gz tmp/evergreen.py-3.6.0.tar.gz --markdown 20230503/e/evergreen.py/3.5.9-3.6.0/diff.md --exclude *.pyd
+[2023-05-03 16:09:05] INFO root fetch - processPackages [utilspggmdatalab]: Downloading https://files.pythonhosted.org/packages/88/0b/920710a59b5b77c632a3c553a1df1d9ce5defc0fd961c1148481d82506c6/utilspggmdatalab-0.5.tar.gz
+[2023-05-03 16:09:05] INFO root fetch - processPackages [open-pyxl-sql]: Downloading https://files.pythonhosted.org/packages/22/ac/e669c9ab867b5332eb1bc27d312e4c8e1e6a876a5dad137126338d4f658b/open_pyxl_sql-1.1rc3.tar.gz
+[2023-05-03 16:09:05] INFO root fetch - processPackages [okta-jwt-verifier]: Downloading https://files.pythonhosted.org/packages/84/cf/4aabfa45db426622008a24f5081dbf1ce2394dbcb5a79240435942e6b123/okta_jwt_verifier-0.2.4.tar.gz
+[2023-05-03 16:09:05] INFO root fetch - processPackages [pyinflux3-cli]: Downloading https://files.pythonhosted.org/packages/de/e5/fbbbe991877ad9c9634e6792f447be6516beaf7a86300d45c30ad464c28d/pyinflux3-cli-0.8.3.tar.gz
+[2023-05-03 16:09:05] INFO root fetch - processPackages [utilspggmdatalab]: executing diffoscope
+[2023-05-03 16:09:05] INFO root fetch - processPackages [utilspggmdatalab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utilspggmdatalab-0.4.tar.gz tmp/utilspggmdatalab-0.5.tar.gz --markdown 20230503/u/utilspggmdatalab/0.4-0.5/diff.md --exclude *.pyd
+[2023-05-03 16:09:05] INFO root fetch - processPackages [pyinflux3]: Downloading https://files.pythonhosted.org/packages/91/c0/0157947debf41256524af10f7080ed8f0e5611fa7139b68838b77b34d6a5/pyinflux3-0.8.3.tar.gz
+[2023-05-03 16:09:05] INFO root fetch - processPackages [open-pyxl-sql]: executing diffoscope
+[2023-05-03 16:09:05] INFO root fetch - processPackages [open-pyxl-sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open-pyxl-sql-0.13.tar.gz tmp/open_pyxl_sql-1.1rc3.tar.gz --markdown 20230503/o/open-pyxl-sql/0.13-1.1rc3/diff.md --exclude *.pyd
+[2023-05-03 16:09:05] INFO root fetch - processPackages [neoscrypt-python]: Downloading https://files.pythonhosted.org/packages/4e/47/c9dbcfec46ba4adc13a9b697a8c9ba7e230622a3a44ac4668ad2bb6828b5/neoscrypt_python-1.0.4.tar.gz
+[2023-05-03 16:09:05] INFO root fetch - processPackages [okta-jwt-verifier]: executing diffoscope
+[2023-05-03 16:09:05] INFO root fetch - processPackages [okta-jwt-verifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/okta_jwt_verifier-0.2.3.tar.gz tmp/okta_jwt_verifier-0.2.4.tar.gz --markdown 20230503/o/okta-jwt-verifier/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-03 16:09:05] INFO root fetch - processPackages [pyinflux3-cli]: executing diffoscope
+[2023-05-03 16:09:05] INFO root fetch - processPackages [pyinflux3-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyinflux3-cli-0.8.2.tar.gz tmp/pyinflux3-cli-0.8.3.tar.gz --markdown 20230503/p/pyinflux3-cli/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-05-03 16:09:05] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-05-03 16:09:05] INFO root fetch - processPackages [clang-format]: Downloading https://files.pythonhosted.org/packages/25/f2/d989afaf8a91385f18fd06e6202644be0bc3a1d14548c18a8ece4911e005/clang_format-9.0.0-py2.py3-none-manylinux1_x86_64.whl
+[2023-05-03 16:09:05] INFO root fetch - processPackages [neoscrypt-python]: executing diffoscope
+[2023-05-03 16:09:05] INFO root fetch - processPackages [neoscrypt-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neoscrypt_python-1.0.3.tar.gz tmp/neoscrypt_python-1.0.4.tar.gz --markdown 20230503/n/neoscrypt-python/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-03 16:09:05] INFO root fetch - processPackages [pyinflux3]: executing diffoscope
+[2023-05-03 16:09:05] INFO root fetch - processPackages [pyinflux3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyinflux3-0.8.2.tar.gz tmp/pyinflux3-0.8.3.tar.gz --markdown 20230503/p/pyinflux3/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-05-03 16:09:05] INFO root fetch - processPackages [clang-format]: executing diffoscope
+[2023-05-03 16:09:05] INFO root fetch - processPackages [clang-format]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clang_format-8.0.1-py2.py3-none-manylinux1_x86_64.whl.zip tmp/clang_format-9.0.0-py2.py3-none-manylinux1_x86_64.whl.zip --markdown 20230503/c/clang-format/8.0.1-9.0.0/diff.md --exclude *.pyd
+[2023-05-03 16:09:05] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-05-03 16:09:05] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230503/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-05-03 16:09:06] INFO root fetch - processPackages [open-pyxl-sql]: Start processing: pyUAMMD
+[2023-05-03 16:09:06] INFO root fetch - main [MainThread]: End processing [open-pyxl-sql]: success
+[2023-05-03 16:09:07] INFO root fetch - processPackages [evergreen.py]: Start processing: django-gas
+[2023-05-03 16:09:07] INFO root fetch - main [MainThread]: End processing [evergreen.py]: success
+[2023-05-03 16:09:07] INFO root fetch - main [MainThread]: End processing [utilspggmdatalab]: success
+[2023-05-03 16:09:07] WARNING root fetch - processPackages [pyUAMMD]: Skipping, unable to determine old version
+[2023-05-03 16:09:07] INFO root fetch - main [MainThread]: End processing [pyUAMMD] error
+[2023-05-03 16:09:07] INFO root fetch - main [MainThread]: End processing [okta-jwt-verifier]: success
+[2023-05-03 16:09:07] INFO root fetch - processPackages [django-gas]: New version: [0.8.7] Old Version: [0.8.6]
+[2023-05-03 16:09:07] INFO root fetch - main [MainThread]: End processing [pyinflux3-cli]: success
+[2023-05-03 16:09:07] INFO root fetch - main [MainThread]: End processing [pyinflux3]: success
+[2023-05-03 16:09:07] INFO root fetch - processPackages [django-gas]: Downloading https://files.pythonhosted.org/packages/bd/1c/d58cce586411c03141c4a2c74249b32bf72396d0d1e24b114e593baa96b9/django-gas-0.8.6.tar.gz
+[2023-05-03 16:09:07] INFO root fetch - main [MainThread]: End processing [CatRoyale]: success
+[2023-05-03 16:09:07] INFO root fetch - main [MainThread]: End processing [neoscrypt-python]: success
+[2023-05-03 16:09:07] INFO root fetch - processPackages [django-gas]: Downloading https://files.pythonhosted.org/packages/52/17/a22cd998c79ec798141694300eb415831c14244473a7e27dd8e7e649a985/django-gas-0.8.7.tar.gz
+[2023-05-03 16:09:07] INFO root fetch - processPackages [django-gas]: executing diffoscope
+[2023-05-03 16:09:07] INFO root fetch - processPackages [django-gas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-gas-0.8.6.tar.gz tmp/django-gas-0.8.7.tar.gz --markdown 20230503/d/django-gas/0.8.6-0.8.7/diff.md --exclude *.pyd
+[2023-05-03 16:09:11] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-05-03 16:09:11] INFO root fetch - main [MainThread]: End processing [django-gas]: success
+[2023-05-03 16:09:21] INFO root fetch - main [MainThread]: End processing [clang-format]: success
+[2023-05-03 16:09:21] INFO root fetch - main [MainThread]: Store serial: [17957490]
