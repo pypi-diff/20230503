@@ -19513,3 +19513,91 @@ No space left on device. Diffoscope exiting.
 [2023-05-03 18:21:51] INFO root fetch - main [MainThread]: End processing [jaxsim]: success
 [2023-05-03 18:21:58] INFO root fetch - main [MainThread]: End processing [CmonCrawl]: success
 [2023-05-03 18:21:58] INFO root fetch - main [MainThread]: Store serial: [17959462]
+[2023-05-03 18:27:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17959462]
+[2023-05-03 18:27:07] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-03 18:27:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-sls-lambda-toolkit
+[2023-05-03 18:27:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trytond
+[2023-05-03 18:27:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: axiom-logger
+[2023-05-03 18:27:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: trytond
+[2023-05-03 18:27:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: codcat
+[2023-05-03 18:27:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-hr-employee-calendar-planning
+[2023-05-03 18:27:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pymathematics
+[2023-05-03 18:27:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PyroFork-dev
+[2023-05-03 18:27:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-product-variant-default-code
+[2023-05-03 18:27:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dop-integration-libs
+[2023-05-03 18:27:07] INFO root fetch - processPackages [dop-integration-libs]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-03 18:27:07] INFO root fetch - processPackages [pymathematics]: New version: [2023.5.3] Old Version: [2023.5.1]
+[2023-05-03 18:27:07] INFO root fetch - processPackages [odoo-addon-product-variant-default-code]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-05-03 18:27:07] INFO root fetch - processPackages [py-sls-lambda-toolkit]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-03 18:27:07] INFO root fetch - processPackages [trytond]: New version: [6.8.0] Old Version: [6.6.8]
+[2023-05-03 18:27:07] INFO root fetch - processPackages [codcat]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-05-03 18:27:07] WARNING root fetch - processPackages [axiom-logger]: Skipping, unable to determine old version
+[2023-05-03 18:27:07] INFO root fetch - processPackages [axiom-logger]: Start processing: opensesame-core
+[2023-05-03 18:27:07] INFO root fetch - processPackages [odoo-addon-hr-employee-calendar-planning]: New version: [15.0.1.1.4] Old Version: [15.0.1.1.3]
+[2023-05-03 18:27:07] INFO root fetch - main [MainThread]: End processing [axiom-logger] error
+[2023-05-03 18:27:07] INFO root fetch - processPackages [dop-integration-libs]: executing diffoscope
+[2023-05-03 18:27:07] INFO root fetch - processPackages [dop-integration-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dop_integration_libs-0.1.8.tar.gz tmp/dop_integration_libs-0.1.9.tar.gz --markdown 20230503/d/dop-integration-libs/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-03 18:27:07] INFO root fetch - processPackages [trytond]: New version: [6.8.0] Old Version: [6.6.8]
+[2023-05-03 18:27:07] INFO root fetch - processPackages [PyroFork-dev]: New version: [2.1.6.dev202305031625] Old Version: [2.1.6.dev202304200912]
+[2023-05-03 18:27:07] INFO root fetch - processPackages [odoo-addon-product-variant-default-code]: executing diffoscope
+[2023-05-03 18:27:07] INFO root fetch - processPackages [odoo-addon-product-variant-default-code]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_variant_default_code-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_product_variant_default_code-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230503/o/odoo-addon-product-variant-default-code/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-05-03 18:27:07] INFO root fetch - processPackages [pymathematics]: executing diffoscope
+[2023-05-03 18:27:07] INFO root fetch - processPackages [pymathematics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymathematics-2023.5.1.tar.gz tmp/pymathematics-2023.5.3.tar.gz --markdown 20230503/p/pymathematics/2023.5.1-2023.5.3/diff.md --exclude *.pyd
+[2023-05-03 18:27:07] INFO root fetch - processPackages [opensesame-core]: New version: [4.0.0a5] Old Version: [4.0.0a31]
+[2023-05-03 18:27:07] INFO root fetch - processPackages [codcat]: Downloading https://files.pythonhosted.org/packages/31/2d/d6c13fde1325db155f4c6e2cd1b8ab290b848a293f02cb8e8f4181310a83/codcat-0.0.1.tar.gz
+[2023-05-03 18:27:07] INFO root fetch - processPackages [trytond]: Downloading https://files.pythonhosted.org/packages/e2/6d/427846a06b419ca54ea67912c5abd71a9178ddd81ac136f87eedb6da1651/trytond-6.6.8.tar.gz
+[2023-05-03 18:27:07] INFO root fetch - processPackages [trytond]: Downloading https://files.pythonhosted.org/packages/e2/6d/427846a06b419ca54ea67912c5abd71a9178ddd81ac136f87eedb6da1651/trytond-6.6.8.tar.gz
+[2023-05-03 18:27:07] INFO root fetch - processPackages [odoo-addon-hr-employee-calendar-planning]: Downloading https://files.pythonhosted.org/packages/33/80/1645975d275a2a321ce4f31b4584723b576f40d9cc795e0a4cba99614cfc/odoo_addon_hr_employee_calendar_planning-15.0.1.1.3-py3-none-any.whl
+[2023-05-03 18:27:07] INFO root fetch - processPackages [py-sls-lambda-toolkit]: Downloading https://files.pythonhosted.org/packages/43/e7/d94b4e5c9940364aa77edcf9c42c2254619149cc7426593a947ad0c3a280/py-sls-lambda-toolkit-0.1.1.tar.gz
+[2023-05-03 18:27:07] INFO root fetch - processPackages [PyroFork-dev]: Downloading https://files.pythonhosted.org/packages/55/d7/773d7481798e586d02806ceaa043c26a09085881576b2220ae11b3bb5ea7/PyroFork-dev-2.1.6.dev202304200912.tar.gz
+[2023-05-03 18:27:07] INFO root fetch - processPackages [opensesame-core]: Downloading https://files.pythonhosted.org/packages/f8/66/ba70ced3371a39664d1fde03bc91edc7b91cd820f4c9fa7d15c0f4cdc24c/opensesame_core-4.0.0a31.tar.gz
+[2023-05-03 18:27:07] WARNING root fetch - processPackages [opensesame-core]: Skipping package: exceeds size limit 18923417>=10485760
+[2023-05-03 18:27:07] INFO root fetch - processPackages [opensesame-core]: Start processing: khloraascaf-utils
+[2023-05-03 18:27:07] INFO root fetch - main [MainThread]: End processing [opensesame-core] error
+[2023-05-03 18:27:08] INFO root fetch - processPackages [khloraascaf-utils]: New version: [0.6.0] Old Version: [0.5.3]
+[2023-05-03 18:27:08] INFO root fetch - processPackages [py-sls-lambda-toolkit]: executing diffoscope
+[2023-05-03 18:27:08] INFO root fetch - processPackages [py-sls-lambda-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-sls-lambda-toolkit-0.1.0.tar.gz tmp/py-sls-lambda-toolkit-0.1.1.tar.gz --markdown 20230503/p/py-sls-lambda-toolkit/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-03 18:27:08] INFO root fetch - processPackages [khloraascaf-utils]: executing diffoscope
+[2023-05-03 18:27:08] INFO root fetch - processPackages [khloraascaf-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khloraascaf_utils-0.5.3.tar.gz tmp/khloraascaf_utils-0.6.0.tar.gz --markdown 20230503/k/khloraascaf-utils/0.5.3-0.6.0/diff.md --exclude *.pyd
+[2023-05-03 18:27:08] INFO root fetch - processPackages [odoo-addon-hr-employee-calendar-planning]: Downloading https://files.pythonhosted.org/packages/a7/28/b0d1bb8151abe2b42023140d2fe4fcf7bf36e7a995925b71422c45d75738/odoo_addon_hr_employee_calendar_planning-15.0.1.1.4-py3-none-any.whl
+[2023-05-03 18:27:08] INFO root fetch - processPackages [trytond]: executing diffoscope
+[2023-05-03 18:27:08] INFO root fetch - processPackages [trytond]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond-6.6.8.tar.gz tmp/trytond-6.8.0.tar.gz --markdown 20230503/t/trytond/6.6.8-6.8.0/diff.md --exclude *.pyd
+[2023-05-03 18:27:08] INFO root fetch - processPackages [trytond]: executing diffoscope
+[2023-05-03 18:27:08] INFO root fetch - processPackages [trytond]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond-6.6.8.tar.gz tmp/trytond-6.8.0.tar.gz --markdown 20230503/t/trytond/6.6.8-6.8.0/diff.md --exclude *.pyd
+[2023-05-03 18:27:08] INFO root fetch - processPackages [codcat]: Downloading https://files.pythonhosted.org/packages/11/88/c4db62f67e13f26bdb9e2178dd93f5d72586e0f36929964902af36e46b85/codcat-0.1.0.tar.gz
+[2023-05-03 18:27:08] INFO root fetch - processPackages [PyroFork-dev]: Downloading https://files.pythonhosted.org/packages/1a/48/25b043958d45af88a0312d905d11372c5644abe0d919b01d165d32afae63/PyroFork-dev-2.1.6.dev202305031625.tar.gz
+[2023-05-03 18:27:08] INFO root fetch - processPackages [odoo-addon-hr-employee-calendar-planning]: executing diffoscope
+[2023-05-03 18:27:08] INFO root fetch - processPackages [odoo-addon-hr-employee-calendar-planning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_hr_employee_calendar_planning-15.0.1.1.3-py3-none-any.whl.zip tmp/odoo_addon_hr_employee_calendar_planning-15.0.1.1.4-py3-none-any.whl.zip --markdown 20230503/o/odoo-addon-hr-employee-calendar-planning/15.0.1.1.3-15.0.1.1.4/diff.md --exclude *.pyd
+[2023-05-03 18:27:08] INFO root fetch - processPackages [PyroFork-dev]: executing diffoscope
+[2023-05-03 18:27:08] INFO root fetch - processPackages [PyroFork-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyroFork-dev-2.1.6.dev202304200912.tar.gz tmp/PyroFork-dev-2.1.6.dev202305031625.tar.gz --markdown 20230503/P/PyroFork-dev/2.1.6.dev202304200912-2.1.6.dev202305031625/diff.md --exclude *.pyd
+[2023-05-03 18:27:08] INFO root fetch - processPackages [codcat]: executing diffoscope
+[2023-05-03 18:27:08] INFO root fetch - processPackages [codcat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codcat-0.0.1.tar.gz tmp/codcat-0.1.0.tar.gz --markdown 20230503/c/codcat/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-05-03 18:27:08] INFO root fetch - processPackages [dop-integration-libs]: Start processing: batpy
+[2023-05-03 18:27:08] INFO root fetch - main [MainThread]: End processing [dop-integration-libs]: success
+[2023-05-03 18:27:08] INFO root fetch - processPackages [batpy]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-03 18:27:09] INFO root fetch - processPackages [pymathematics]: Start processing: embody-codec
+[2023-05-03 18:27:09] INFO root fetch - main [MainThread]: End processing [pymathematics]: success
+[2023-05-03 18:27:09] INFO root fetch - processPackages [batpy]: Downloading https://files.pythonhosted.org/packages/9e/0a/be2d26c69e775ecae2f0966fb8e1e2bf08b8dc42734997356be69b6258c1/batpy-0.0.7.tar.gz
+[2023-05-03 18:27:09] INFO root fetch - processPackages [embody-codec]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-03 18:27:09] INFO root fetch - processPackages [batpy]: executing diffoscope
+[2023-05-03 18:27:09] INFO root fetch - processPackages [batpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/batpy-0.0.6.tar.gz tmp/batpy-0.0.7.tar.gz --markdown 20230503/b/batpy/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-03 18:27:09] INFO root fetch - processPackages [py-sls-lambda-toolkit]: Start processing: trytond
+[2023-05-03 18:27:09] INFO root fetch - main [MainThread]: End processing [py-sls-lambda-toolkit]: success
+[2023-05-03 18:27:09] INFO root fetch - processPackages [trytond]: New version: [6.8.0] Old Version: [6.6.8]
+[2023-05-03 18:27:09] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-variant-default-code]: success
+[2023-05-03 18:27:09] INFO root fetch - processPackages [embody-codec]: Downloading https://files.pythonhosted.org/packages/be/8e/d27f9cf42aac9e1d93d50f6595c75b042365a1208fb9a803f87d53fe2592/embody_codec-1.0.8.tar.gz
+[2023-05-03 18:27:09] INFO root fetch - processPackages [trytond]: executing diffoscope
+[2023-05-03 18:27:09] INFO root fetch - processPackages [trytond]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond-6.6.8.tar.gz tmp/trytond-6.8.0.tar.gz --markdown 20230503/t/trytond/6.6.8-6.8.0/diff.md --exclude *.pyd
+[2023-05-03 18:27:09] INFO root fetch - processPackages [embody-codec]: Downloading https://files.pythonhosted.org/packages/7d/57/0c220ff3b777024e60dd44ce88c7057ec13b04bccd5b5536c45ea4875d8a/embody_codec-1.0.9.tar.gz
+[2023-05-03 18:27:09] INFO root fetch - processPackages [embody-codec]: executing diffoscope
+[2023-05-03 18:27:09] INFO root fetch - processPackages [embody-codec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embody_codec-1.0.8.tar.gz tmp/embody_codec-1.0.9.tar.gz --markdown 20230503/e/embody-codec/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-03 18:27:09] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-employee-calendar-planning]: success
+[2023-05-03 18:27:09] INFO root fetch - main [MainThread]: End processing [khloraascaf-utils]: success
+[2023-05-03 18:27:10] INFO root fetch - main [MainThread]: End processing [codcat]: success
+[2023-05-03 18:27:10] INFO root fetch - main [MainThread]: End processing [batpy]: success
+[2023-05-03 18:27:10] INFO root fetch - main [MainThread]: End processing [embody-codec]: success
+[2023-05-03 18:27:15] INFO root fetch - main [MainThread]: End processing [PyroFork-dev]: success
+[2023-05-03 18:27:18] INFO root fetch - main [MainThread]: End processing [trytond]: success
+[2023-05-03 18:27:20] INFO root fetch - main [MainThread]: End processing [trytond]: success
+[2023-05-03 18:27:22] INFO root fetch - main [MainThread]: End processing [trytond]: success
+[2023-05-03 18:27:22] INFO root fetch - main [MainThread]: Store serial: [17959510]
