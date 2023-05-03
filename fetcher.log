@@ -22361,3 +22361,64 @@ No space left on device. Diffoscope exiting.
 [2023-05-03 20:50:58] INFO root fetch - main [MainThread]: End processing [theia-picker]: success
 [2023-05-03 20:50:58] INFO root fetch - main [MainThread]: End processing [leechem]: success
 [2023-05-03 20:50:58] INFO root fetch - main [MainThread]: Store serial: [17961278]
+[2023-05-03 20:56:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17961278]
+[2023-05-03 20:56:07] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-03 20:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: homeassistant
+[2023-05-03 20:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iambic-core
+[2023-05-03 20:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: botanix
+[2023-05-03 20:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deepchem
+[2023-05-03 20:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: amseg
+[2023-05-03 20:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: testdufou
+[2023-05-03 20:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fastapi-async-langchain
+[2023-05-03 20:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: woe-conversion
+[2023-05-03 20:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Pequena
+[2023-05-03 20:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: deepchem
+[2023-05-03 20:56:08] INFO root fetch - processPackages [amseg]: New version: [1.8] Old Version: [1.7]
+[2023-05-03 20:56:08] INFO root fetch - processPackages [iambic-core]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-05-03 20:56:08] INFO root fetch - processPackages [botanix]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-03 20:56:08] INFO root fetch - processPackages [fastapi-async-langchain]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-03 20:56:08] INFO root fetch - processPackages [testdufou]: New version: [2] Old Version: [1]
+[2023-05-03 20:56:08] INFO root fetch - processPackages [woe-conversion]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-03 20:56:08] INFO root fetch - processPackages [deepchem]: New version: [2.7.2.dev20230503173925] Old Version: [2.7.2.dev20230502144838]
+[2023-05-03 20:56:08] INFO root fetch - processPackages [deepchem]: New version: [2.7.2.dev20230503173925] Old Version: [2.7.2.dev20230502144838]
+[2023-05-03 20:56:08] INFO root fetch - processPackages [homeassistant]: New version: [2023.5.0b8] Old Version: [2023.5.0b7]
+[2023-05-03 20:56:08] INFO root fetch - processPackages [Pequena]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 20:56:08] INFO root fetch - processPackages [amseg]: executing diffoscope
+[2023-05-03 20:56:08] INFO root fetch - processPackages [amseg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amseg-1.7.tar.gz tmp/amseg-1.8.tar.gz --markdown 20230503/a/amseg/1.7-1.8/diff.md --exclude *.pyd
+[2023-05-03 20:56:08] INFO root fetch - processPackages [botanix]: executing diffoscope
+[2023-05-03 20:56:08] INFO root fetch - processPackages [botanix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botanix-0.1.0.tar.gz tmp/botanix-0.2.0.tar.gz --markdown 20230503/b/botanix/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-03 20:56:08] INFO root fetch - processPackages [deepchem]: executing diffoscope
+[2023-05-03 20:56:08] INFO root fetch - processPackages [deepchem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepchem-2.7.2.dev20230502144838.tar.gz tmp/deepchem-2.7.2.dev20230503173925.tar.gz --markdown 20230503/d/deepchem/2.7.2.dev20230502144838-2.7.2.dev20230503173925/diff.md --exclude *.pyd
+[2023-05-03 20:56:08] INFO root fetch - processPackages [deepchem]: executing diffoscope
+[2023-05-03 20:56:08] INFO root fetch - processPackages [homeassistant]: Downloading https://files.pythonhosted.org/packages/b6/e4/61f65550dfe9201f2dff3e38174a823f9c97be18c165f6179d9e8a19ce89/homeassistant-2023.5.0b7.tar.gz
+[2023-05-03 20:56:08] INFO root fetch - processPackages [deepchem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepchem-2.7.2.dev20230502144838.tar.gz tmp/deepchem-2.7.2.dev20230503173925.tar.gz --markdown 20230503/d/deepchem/2.7.2.dev20230502144838-2.7.2.dev20230503173925/diff.md --exclude *.pyd
+[2023-05-03 20:56:08] INFO root fetch - processPackages [woe-conversion]: Downloading https://files.pythonhosted.org/packages/e9/da/38ba420e78f275f4590b8864111608384e52825c91193d9f46ce6fc8b720/woe_conversion-0.0.3.tar.gz
+[2023-05-03 20:56:08] INFO root fetch - processPackages [fastapi-async-langchain]: Downloading https://files.pythonhosted.org/packages/a4/8a/4a4600e5cf7ab181d11b9535166711bdee796506d06ee21b06ea68af2480/fastapi_async_langchain-0.4.1.tar.gz
+[2023-05-03 20:56:08] INFO root fetch - processPackages [iambic-core]: Downloading https://files.pythonhosted.org/packages/82/0a/5d2dbee689acddbccbc075621e2d4817e6708c3670cdd6bd3f8435246f75/iambic_core-0.5.2.tar.gz
+[2023-05-03 20:56:08] INFO root fetch - processPackages [testdufou]: Downloading https://files.pythonhosted.org/packages/f8/db/ec0d733def2a3fb03200d4b9a28fa54efe33e99b7c81d3177a3eb94d09a9/testdufou-1.tar.gz
+[2023-05-03 20:56:08] INFO root fetch - processPackages [fastapi-async-langchain]: executing diffoscope
+[2023-05-03 20:56:08] INFO root fetch - processPackages [fastapi-async-langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_async_langchain-0.4.0.tar.gz tmp/fastapi_async_langchain-0.4.1.tar.gz --markdown 20230503/f/fastapi-async-langchain/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-03 20:56:08] INFO root fetch - processPackages [Pequena]: Downloading https://files.pythonhosted.org/packages/1a/0d/94f7f5ccf3ed4b3b4ce8a71942f7c73192a7e3de437e42b142cc0709e9ff/Pequena-0.0.8.tar.gz
+[2023-05-03 20:56:08] INFO root fetch - processPackages [iambic-core]: executing diffoscope
+[2023-05-03 20:56:08] INFO root fetch - processPackages [iambic-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iambic_core-0.5.1.tar.gz tmp/iambic_core-0.5.2.tar.gz --markdown 20230503/i/iambic-core/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-05-03 20:56:08] INFO root fetch - processPackages [woe-conversion]: Downloading https://files.pythonhosted.org/packages/b1/dd/d96dbccd2c2d47a67361f3aa07bd7b8b874c01111acdc2b1096403fbb84e/woe_conversion-0.0.4.tar.gz
+[2023-05-03 20:56:08] INFO root fetch - processPackages [woe-conversion]: executing diffoscope
+[2023-05-03 20:56:08] INFO root fetch - processPackages [woe-conversion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/woe_conversion-0.0.3.tar.gz tmp/woe_conversion-0.0.4.tar.gz --markdown 20230503/w/woe-conversion/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-03 20:56:08] WARNING root fetch - processPackages [homeassistant]: Skipping package: exceeds size limit 13729488>=10485760
+[2023-05-03 20:56:08] INFO root fetch - main [MainThread]: End processing [homeassistant] error
+[2023-05-03 20:56:08] INFO root fetch - processPackages [Pequena]: Downloading https://files.pythonhosted.org/packages/a9/29/f92c0e12f19a9e76b3c52185e76befc5bbd8cdaed78b5afcd3f134ba094d/Pequena-0.0.9.tar.gz
+[2023-05-03 20:56:08] INFO root fetch - processPackages [testdufou]: Downloading https://files.pythonhosted.org/packages/7b/4c/a4e936038034e579f56628bdadc376a90ca1ef430e8189ba05c3ba4e633c/testdufou-2.tar.gz
+[2023-05-03 20:56:08] INFO root fetch - processPackages [Pequena]: executing diffoscope
+[2023-05-03 20:56:08] INFO root fetch - processPackages [Pequena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pequena-0.0.8.tar.gz tmp/Pequena-0.0.9.tar.gz --markdown 20230503/P/Pequena/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 20:56:08] INFO root fetch - processPackages [testdufou]: executing diffoscope
+[2023-05-03 20:56:08] INFO root fetch - processPackages [testdufou]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testdufou-1.tar.gz tmp/testdufou-2.tar.gz --markdown 20230503/t/testdufou/1-2/diff.md --exclude *.pyd
+[2023-05-03 20:56:09] INFO root fetch - main [MainThread]: End processing [amseg]: success
+[2023-05-03 20:56:09] INFO root fetch - main [MainThread]: End processing [botanix]: success
+[2023-05-03 20:56:09] INFO root fetch - main [MainThread]: End processing [woe-conversion]: success
+[2023-05-03 20:56:09] INFO root fetch - main [MainThread]: End processing [fastapi-async-langchain]: success
+[2023-05-03 20:56:09] INFO root fetch - main [MainThread]: End processing [Pequena]: success
+[2023-05-03 20:56:10] INFO root fetch - main [MainThread]: End processing [testdufou]: success
+[2023-05-03 20:56:10] INFO root fetch - main [MainThread]: End processing [iambic-core]: success
+[2023-05-03 20:56:11] INFO root fetch - main [MainThread]: End processing [deepchem]: success
+[2023-05-03 20:56:13] INFO root fetch - main [MainThread]: End processing [deepchem]: success
+[2023-05-03 20:56:13] INFO root fetch - main [MainThread]: Store serial: [17961305]
