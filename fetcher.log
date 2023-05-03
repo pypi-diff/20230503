@@ -23843,3 +23843,95 @@ EOFError: EOF read where object expected
 [2023-05-03 22:08:14] INFO root fetch - main [MainThread]: End processing [launchdarkly-server-sdk]: success
 [2023-05-03 22:08:23] INFO root fetch - main [MainThread]: End processing [ovos-core]: success
 [2023-05-03 22:08:23] INFO root fetch - main [MainThread]: Store serial: [17962067]
+[2023-05-03 22:13:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17962067]
+[2023-05-03 22:13:33] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-03 22:13:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hiddifypanel
+[2023-05-03 22:13:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: status-page-demo-site
+[2023-05-03 22:13:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: recurrent-memory-transformer-pytorch
+[2023-05-03 22:13:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quantconnect-stubs
+[2023-05-03 22:13:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: grokspeechrec
+[2023-05-03 22:13:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rpc-reader
+[2023-05-03 22:13:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: heaserver-accounts
+[2023-05-03 22:13:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: morgan-linter
+[2023-05-03 22:13:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gpt-review
+[2023-05-03 22:13:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aim-ui
+[2023-05-03 22:13:33] INFO root fetch - processPackages [heaserver-accounts]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-05-03 22:13:33] INFO root fetch - processPackages [gpt-review]: New version: [0.2.3rc345.post1] Old Version: [0.2.3rc315.post1]
+[2023-05-03 22:13:33] WARNING root fetch - processPackages [grokspeechrec]: Skipping, unable to determine old version
+[2023-05-03 22:13:33] INFO root fetch - processPackages [grokspeechrec]: Start processing: nonebot-plugin-yuefu
+[2023-05-03 22:13:33] INFO root fetch - main [MainThread]: End processing [grokspeechrec] error
+[2023-05-03 22:13:33] INFO root fetch - processPackages [rpc-reader]: New version: [0.9] Old Version: [0.8]
+[2023-05-03 22:13:33] INFO root fetch - processPackages [morgan-linter]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-05-03 22:13:33] INFO root fetch - processPackages [hiddifypanel]: New version: [6.1.4] Old Version: [6.1.3]
+[2023-05-03 22:13:33] INFO root fetch - processPackages [aim-ui]: New version: [4.0.0.dev5] Old Version: [4.0.0.dev4]
+[2023-05-03 22:13:33] INFO root fetch - processPackages [recurrent-memory-transformer-pytorch]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-03 22:13:33] INFO root fetch - processPackages [quantconnect-stubs]: New version: [9998] Old Version: [9997]
+[2023-05-03 22:13:33] WARNING root fetch - processPackages [status-page-demo-site]: Skipping, unable to determine old version
+[2023-05-03 22:13:33] INFO root fetch - processPackages [status-page-demo-site]: Start processing: robyn
+[2023-05-03 22:13:33] INFO root fetch - main [MainThread]: End processing [status-page-demo-site] error
+[2023-05-03 22:13:33] INFO root fetch - processPackages [aim-ui]: Downloading https://files.pythonhosted.org/packages/15/04/0624cfb818b4aa00681fd98b1d6ff24f56e0dc30cc0aa27fb90fce93dcc3/aim-ui-4.0.0.dev4.tar.gz
+[2023-05-03 22:13:33] WARNING root fetch - processPackages [nonebot-plugin-yuefu]: Skipping, unable to determine old version
+[2023-05-03 22:13:33] INFO root fetch - processPackages [nonebot-plugin-yuefu]: Start processing: roboflow
+[2023-05-03 22:13:33] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-yuefu] error
+[2023-05-03 22:13:33] INFO root fetch - processPackages [quantconnect-stubs]: executing diffoscope
+[2023-05-03 22:13:33] INFO root fetch - processPackages [quantconnect-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantconnect-stubs-9997.tar.gz tmp/quantconnect-stubs-9998.tar.gz --markdown 20230503/q/quantconnect-stubs/9997-9998/diff.md --exclude *.pyd
+[2023-05-03 22:13:33] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/6c/34/74995870cd6568a853ff6efe6ffb8e327b69c855d934cf96fcd24c9c7140/hiddifypanel-6.1.3-cp39-cp39-manylinux2014_x86_64.whl
+[2023-05-03 22:13:33] WARNING root fetch - processPackages [aim-ui]: Skipping package: exceeds size limit 21591110>=10485760
+[2023-05-03 22:13:33] INFO root fetch - processPackages [aim-ui]: Start processing: aim
+[2023-05-03 22:13:33] INFO root fetch - main [MainThread]: End processing [aim-ui] error
+[2023-05-03 22:13:33] INFO root fetch - processPackages [heaserver-accounts]: Downloading https://files.pythonhosted.org/packages/0d/4c/912fc03e28cac898b9e810956984c9e9caeedf4aa64dae28faf520c2c177/heaserver-accounts-1.0.0a8.tar.gz
+[2023-05-03 22:13:33] INFO root fetch - processPackages [gpt-review]: Downloading https://files.pythonhosted.org/packages/37/b4/bd8cb29af2598c890fb51adfd03e043dd6e945e85ea6d431f57992ed4be6/gpt-review-0.2.3rc345.post1.tar.gz
+[2023-05-03 22:13:33] INFO root fetch - processPackages [morgan-linter]: Downloading https://files.pythonhosted.org/packages/5c/17/a5ff84eb18d620dd86edbb3498ed20721e1d6a4ef31e3177b3ecfc544d45/morgan_linter-1.2.1.tar.gz
+[2023-05-03 22:13:33] INFO root fetch - processPackages [recurrent-memory-transformer-pytorch]: Downloading https://files.pythonhosted.org/packages/0d/8a/b15081b6a89a3563892f434b6ebd78c95d641ae246651483d863fc4c7c25/recurrent-memory-transformer-pytorch-0.3.2.tar.gz
+[2023-05-03 22:13:33] INFO root fetch - processPackages [roboflow]: New version: [1.0.8] Old Version: [1.0.5]
+[2023-05-03 22:13:33] INFO root fetch - processPackages [rpc-reader]: Downloading https://files.pythonhosted.org/packages/1c/c6/10e75fa6bf0a41c8f75f3b4188d100c9c9dcd3f74dd78cefb1972728e368/rpc_reader-0.8.tar.gz
+[2023-05-03 22:13:33] INFO root fetch - processPackages [aim]: New version: [4.0.0.dev5] Old Version: [4.0.0.dev4]
+[2023-05-03 22:13:34] INFO root fetch - processPackages [robyn]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-03 22:13:34] INFO root fetch - processPackages [morgan-linter]: executing diffoscope
+[2023-05-03 22:13:34] INFO root fetch - processPackages [morgan-linter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morgan_linter-1.2.0.tar.gz tmp/morgan_linter-1.2.1.tar.gz --markdown 20230503/m/morgan-linter/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-05-03 22:13:34] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-05-03 22:13:34] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-review-0.2.3rc315.post1.tar.gz tmp/gpt-review-0.2.3rc345.post1.tar.gz --markdown 20230503/g/gpt-review/0.2.3rc315.post1-0.2.3rc345.post1/diff.md --exclude *.pyd
+[2023-05-03 22:13:34] INFO root fetch - processPackages [recurrent-memory-transformer-pytorch]: executing diffoscope
+[2023-05-03 22:13:34] INFO root fetch - processPackages [recurrent-memory-transformer-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recurrent-memory-transformer-pytorch-0.3.1.tar.gz tmp/recurrent-memory-transformer-pytorch-0.3.2.tar.gz --markdown 20230503/r/recurrent-memory-transformer-pytorch/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-03 22:13:34] INFO root fetch - processPackages [roboflow]: Downloading https://files.pythonhosted.org/packages/f1/a5/6e7aa1f38c77f16378f355d796e00c8228be8d37c68a4f712a190f001275/roboflow-1.0.5.tar.gz
+[2023-05-03 22:13:34] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/c6/fc/c10845218889ba209e80ae9fd4751ac4187d99208e03525c3362191be2e0/hiddifypanel-6.1.4-cp39-cp39-manylinux2014_aarch64.whl
+[2023-05-03 22:13:34] INFO root fetch - processPackages [robyn]: Downloading https://files.pythonhosted.org/packages/db/e8/d0c20074330916a3895c96c270b171a9247666e837b1deb1ff2efb953da5/robyn-0.8.1.tar.gz
+[2023-05-03 22:13:34] INFO root fetch - processPackages [aim]: executing diffoscope
+[2023-05-03 22:13:34] INFO root fetch - processPackages [aim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aim-4.0.0.dev4.tar.gz tmp/aim-4.0.0.dev5.tar.gz --markdown 20230503/a/aim/4.0.0.dev4-4.0.0.dev5/diff.md --exclude *.pyd
+[2023-05-03 22:13:34] INFO root fetch - processPackages [heaserver-accounts]: Downloading https://files.pythonhosted.org/packages/ef/3b/00bd06051828f159ca100404dfc84f0723be88cb8936a493139d61fa95be/heaserver-accounts-1.0.0a9.tar.gz
+[2023-05-03 22:13:34] INFO root fetch - processPackages [rpc-reader]: Downloading https://files.pythonhosted.org/packages/56/29/9ae5ebac5a20d05dbbdc38485985c8b9a86fc529d08673115f50dd3ef3b1/rpc_reader-0.9.tar.gz
+[2023-05-03 22:13:34] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-05-03 22:13:34] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-6.1.3-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/hiddifypanel-6.1.4-cp39-cp39-manylinux2014_aarch64.whl.zip --markdown 20230503/h/hiddifypanel/6.1.3-6.1.4/diff.md --exclude *.pyd
+[2023-05-03 22:13:34] INFO root fetch - processPackages [rpc-reader]: executing diffoscope
+[2023-05-03 22:13:34] INFO root fetch - processPackages [rpc-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpc_reader-0.8.tar.gz tmp/rpc_reader-0.9.tar.gz --markdown 20230503/r/rpc-reader/0.8-0.9/diff.md --exclude *.pyd
+[2023-05-03 22:13:34] INFO root fetch - processPackages [roboflow]: Downloading https://files.pythonhosted.org/packages/9e/61/df4bc46c8fdecd88ba4232268c242c827bd0cff0d9151d546dd55d84e0da/roboflow-1.0.8.tar.gz
+[2023-05-03 22:13:34] INFO root fetch - processPackages [heaserver-accounts]: executing diffoscope
+[2023-05-03 22:13:34] INFO root fetch - processPackages [heaserver-accounts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver-accounts-1.0.0a8.tar.gz tmp/heaserver-accounts-1.0.0a9.tar.gz --markdown 20230503/h/heaserver-accounts/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-05-03 22:13:34] INFO root fetch - processPackages [roboflow]: executing diffoscope
+[2023-05-03 22:13:34] INFO root fetch - processPackages [roboflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roboflow-1.0.5.tar.gz tmp/roboflow-1.0.8.tar.gz --markdown 20230503/r/roboflow/1.0.5-1.0.8/diff.md --exclude *.pyd
+[2023-05-03 22:13:34] INFO root fetch - processPackages [robyn]: Downloading https://files.pythonhosted.org/packages/9e/05/799d2992e229948de022111c077e3db76a1ebca39c6bf7f3ab9043b7a8e3/robyn-0.9.0.tar.gz
+[2023-05-03 22:13:35] INFO root fetch - processPackages [robyn]: executing diffoscope
+[2023-05-03 22:13:35] INFO root fetch - processPackages [robyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robyn-0.8.1.tar.gz tmp/robyn-0.9.0.tar.gz --markdown 20230503/r/robyn/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-05-03 22:13:35] INFO root fetch - processPackages [morgan-linter]: Start processing: botocore-stubs
+[2023-05-03 22:13:35] INFO root fetch - main [MainThread]: End processing [morgan-linter]: success
+[2023-05-03 22:13:35] INFO root fetch - processPackages [botocore-stubs]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-05-03 22:13:35] INFO root fetch - processPackages [recurrent-memory-transformer-pytorch]: Start processing: horizonai
+[2023-05-03 22:13:35] INFO root fetch - main [MainThread]: End processing [recurrent-memory-transformer-pytorch]: success
+[2023-05-03 22:13:35] INFO root fetch - processPackages [horizonai]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-03 22:13:35] INFO root fetch - processPackages [botocore-stubs]: Downloading https://files.pythonhosted.org/packages/96/54/40b30a6094b51328e233ea7bcc80f355c48a2fafaf1ce3cec391a1d72598/botocore_stubs-1.29.98.tar.gz
+[2023-05-03 22:13:35] INFO root fetch - processPackages [horizonai]: executing diffoscope
+[2023-05-03 22:13:35] INFO root fetch - processPackages [horizonai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/horizonai-0.1.2.tar.gz tmp/horizonai-0.1.3.tar.gz --markdown 20230503/h/horizonai/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-03 22:13:35] INFO root fetch - main [MainThread]: End processing [rpc-reader]: success
+[2023-05-03 22:13:35] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-05-03 22:13:36] INFO root fetch - main [MainThread]: End processing [heaserver-accounts]: success
+[2023-05-03 22:13:36] INFO root fetch - processPackages [botocore-stubs]: Downloading https://files.pythonhosted.org/packages/38/ab/72974332ff9e3d31c7c86072032f8f2cd0daa9a0af4a7e93ea71e8305b2a/botocore_stubs-1.29.99.tar.gz
+[2023-05-03 22:13:36] INFO root fetch - processPackages [botocore-stubs]: executing diffoscope
+[2023-05-03 22:13:36] INFO root fetch - processPackages [botocore-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore_stubs-1.29.98.tar.gz tmp/botocore_stubs-1.29.99.tar.gz --markdown 20230503/b/botocore-stubs/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-05-03 22:13:36] INFO root fetch - main [MainThread]: End processing [roboflow]: success
+[2023-05-03 22:13:36] INFO root fetch - main [MainThread]: End processing [horizonai]: success
+[2023-05-03 22:13:37] INFO root fetch - main [MainThread]: End processing [robyn]: success
+[2023-05-03 22:13:37] INFO root fetch - main [MainThread]: End processing [botocore-stubs]: success
+[2023-05-03 22:13:41] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
+[2023-05-03 22:13:42] INFO root fetch - main [MainThread]: End processing [aim]: success
+[2023-05-03 22:13:48] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-05-03 22:13:48] INFO root fetch - main [MainThread]: Store serial: [17962172]
