@@ -2235,3 +2235,75 @@
 [2023-05-03 02:52:38] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
 [2023-05-03 02:52:38] INFO root fetch - main [MainThread]: End processing [check-if-nan]: success
 [2023-05-03 02:52:38] INFO root fetch - main [MainThread]: Store serial: [17949084]
+[2023-05-03 02:57:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17949084]
+[2023-05-03 02:57:47] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-03 02:57:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: projen
+[2023-05-03 02:57:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: volworld-aws-api-common
+[2023-05-03 02:57:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bioversions
+[2023-05-03 02:57:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aiotieba-reviewer
+[2023-05-03 02:57:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-hr-employee-phone-extension
+[2023-05-03 02:57:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-sns-notify
+[2023-05-03 02:57:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: volworld-aws-api-common
+[2023-05-03 02:57:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-lambda-layer-wget
+[2023-05-03 02:57:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-emrserverless-with-delta-lake
+[2023-05-03 02:57:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lazycsv
+[2023-05-03 02:57:47] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-03 02:57:47] INFO root fetch - processPackages [cdk-lambda-layer-wget]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-03 02:57:47] INFO root fetch - processPackages [cdk-sns-notify]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-03 02:57:47] INFO root fetch - processPackages [lazycsv]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-03 02:57:47] INFO root fetch - processPackages [odoo-addon-hr-employee-phone-extension]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.0.3]
+[2023-05-03 02:57:47] INFO root fetch - processPackages [aiotieba-reviewer]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-03 02:57:47] INFO root fetch - processPackages [volworld-aws-api-common]: New version: [0.1.9] Old Version: [0.1.80]
+[2023-05-03 02:57:47] INFO root fetch - processPackages [volworld-aws-api-common]: New version: [0.1.9] Old Version: [0.1.80]
+[2023-05-03 02:57:47] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: executing diffoscope
+[2023-05-03 02:57:47] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz --markdown 20230503/c/cdk-emrserverless-with-delta-lake/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-03 02:57:47] INFO root fetch - processPackages [cdk-sns-notify]: executing diffoscope
+[2023-05-03 02:57:47] INFO root fetch - processPackages [cdk-sns-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sns-notify-0.0.98.tar.gz tmp/cdk-sns-notify-0.0.99.tar.gz --markdown 20230503/c/cdk-sns-notify/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-03 02:57:47] INFO root fetch - processPackages [cdk-lambda-layer-wget]: executing diffoscope
+[2023-05-03 02:57:47] INFO root fetch - processPackages [cdk-lambda-layer-wget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-wget-2.0.98.tar.gz tmp/cdk-lambda-layer-wget-2.0.99.tar.gz --markdown 20230503/c/cdk-lambda-layer-wget/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-03 02:57:47] INFO root fetch - processPackages [bioversions]: New version: [0.5.99] Old Version: [0.5.98]
+[2023-05-03 02:57:47] INFO root fetch - processPackages [projen]: New version: [0.71.9] Old Version: [0.71.8]
+[2023-05-03 02:57:47] INFO root fetch - processPackages [bioversions]: executing diffoscope
+[2023-05-03 02:57:47] INFO root fetch - processPackages [bioversions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioversions-0.5.98.tar.gz tmp/bioversions-0.5.99.tar.gz --markdown 20230503/b/bioversions/0.5.98-0.5.99/diff.md --exclude *.pyd
+[2023-05-03 02:57:47] INFO root fetch - processPackages [odoo-addon-hr-employee-phone-extension]: Downloading https://files.pythonhosted.org/packages/15/a4/350ed76fe9f0cfd27db7e8a00c91918f7803942071d7e336c69e975330f1/odoo_addon_hr_employee_phone_extension-15.0.1.0.0.3-py3-none-any.whl
+[2023-05-03 02:57:47] INFO root fetch - processPackages [volworld-aws-api-common]: Downloading https://files.pythonhosted.org/packages/8d/89/a329f0d22157e7ca45b378477ad6e9de408e6b0afd0214adcbc755e891ac/volworld_aws_api_common-0.1.80.tar.gz
+[2023-05-03 02:57:47] INFO root fetch - processPackages [volworld-aws-api-common]: Downloading https://files.pythonhosted.org/packages/8d/89/a329f0d22157e7ca45b378477ad6e9de408e6b0afd0214adcbc755e891ac/volworld_aws_api_common-0.1.80.tar.gz
+[2023-05-03 02:57:47] INFO root fetch - processPackages [aiotieba-reviewer]: Downloading https://files.pythonhosted.org/packages/e5/c2/4a82b8cbd967b8904013887ed885e0c448b404e0bf5126954898c76309c2/aiotieba-reviewer-0.1.7.tar.gz
+[2023-05-03 02:57:47] INFO root fetch - processPackages [lazycsv]: Downloading https://files.pythonhosted.org/packages/1e/44/0777af99546fe6ba50be016b5de3132d4f69258238446ca0fb6bf596a286/lazycsv-1.1.1.tar.gz
+[2023-05-03 02:57:48] INFO root fetch - processPackages [lazycsv]: executing diffoscope
+[2023-05-03 02:57:48] INFO root fetch - processPackages [lazycsv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazycsv-1.1.0.tar.gz tmp/lazycsv-1.1.1.tar.gz --markdown 20230503/l/lazycsv/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-03 02:57:48] INFO root fetch - processPackages [odoo-addon-hr-employee-phone-extension]: Downloading https://files.pythonhosted.org/packages/e7/46/72e5b73325d03ff1edb53069ff59b788170607df2ebec7dedf055d78a1e2/odoo_addon_hr_employee_phone_extension-16.0.1.0.0.2-py3-none-any.whl
+[2023-05-03 02:57:48] INFO root fetch - processPackages [projen]: executing diffoscope
+[2023-05-03 02:57:48] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.71.8.tar.gz tmp/projen-0.71.9.tar.gz --markdown 20230503/p/projen/0.71.8-0.71.9/diff.md --exclude *.pyd
+[2023-05-03 02:57:48] INFO root fetch - processPackages [aiotieba-reviewer]: Downloading https://files.pythonhosted.org/packages/30/4f/cafd81a4d8e18ce8dea56b1f52335223622088604c2126aa53f273cfae3c/aiotieba-reviewer-0.1.8.tar.gz
+[2023-05-03 02:57:48] INFO root fetch - processPackages [volworld-aws-api-common]: executing diffoscope
+[2023-05-03 02:57:48] INFO root fetch - processPackages [volworld-aws-api-common]: executing diffoscope
+[2023-05-03 02:57:48] INFO root fetch - processPackages [volworld-aws-api-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volworld_aws_api_common-0.1.80.tar.gz tmp/volworld_aws_api_common-0.1.9.tar.gz --markdown 20230503/v/volworld-aws-api-common/0.1.80-0.1.9/diff.md --exclude *.pyd
+[2023-05-03 02:57:48] INFO root fetch - processPackages [volworld-aws-api-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volworld_aws_api_common-0.1.80.tar.gz tmp/volworld_aws_api_common-0.1.9.tar.gz --markdown 20230503/v/volworld-aws-api-common/0.1.80-0.1.9/diff.md --exclude *.pyd
+[2023-05-03 02:57:48] INFO root fetch - processPackages [odoo-addon-hr-employee-phone-extension]: executing diffoscope
+[2023-05-03 02:57:48] INFO root fetch - processPackages [odoo-addon-hr-employee-phone-extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_hr_employee_phone_extension-15.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_hr_employee_phone_extension-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230503/o/odoo-addon-hr-employee-phone-extension/15.0.1.0.0.3-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-05-03 02:57:48] INFO root fetch - processPackages [aiotieba-reviewer]: executing diffoscope
+[2023-05-03 02:57:48] INFO root fetch - processPackages [aiotieba-reviewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiotieba-reviewer-0.1.7.tar.gz tmp/aiotieba-reviewer-0.1.8.tar.gz --markdown 20230503/a/aiotieba-reviewer/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-03 02:57:49] INFO root fetch - processPackages [cdk-sns-notify]: Start processing: IrisChatBot
+[2023-05-03 02:57:49] INFO root fetch - main [MainThread]: End processing [cdk-sns-notify]: success
+[2023-05-03 02:57:49] INFO root fetch - processPackages [IrisChatBot]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-03 02:57:49] INFO root fetch - processPackages [IrisChatBot]: Downloading https://files.pythonhosted.org/packages/42/b1/b38a481ecddad7e39b8ffa73122061fc8ad25c10538fda39631478d03756/IrisChatBot-0.0.7.tar.gz
+[2023-05-03 02:57:49] INFO root fetch - processPackages [IrisChatBot]: Downloading https://files.pythonhosted.org/packages/e0/53/c1b42bb6b146a6a15a5d5f2fa5499831e13f44f6801024bfec70c6ead98f/IrisChatBot-0.0.8.tar.gz
+[2023-05-03 02:57:49] INFO root fetch - processPackages [volworld-aws-api-common]: Start processing: CoLT5-attention
+[2023-05-03 02:57:49] INFO root fetch - main [MainThread]: End processing [volworld-aws-api-common]: success
+[2023-05-03 02:57:49] INFO root fetch - processPackages [CoLT5-attention]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-05-03 02:57:49] INFO root fetch - processPackages [IrisChatBot]: executing diffoscope
+[2023-05-03 02:57:49] INFO root fetch - processPackages [IrisChatBot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IrisChatBot-0.0.7.tar.gz tmp/IrisChatBot-0.0.8.tar.gz --markdown 20230503/I/IrisChatBot/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-03 02:57:49] INFO root fetch - main [MainThread]: End processing [volworld-aws-api-common]: success
+[2023-05-03 02:57:49] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-employee-phone-extension]: success
+[2023-05-03 02:57:49] INFO root fetch - processPackages [CoLT5-attention]: executing diffoscope
+[2023-05-03 02:57:49] INFO root fetch - processPackages [CoLT5-attention]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CoLT5-attention-0.4.3.tar.gz tmp/CoLT5-attention-0.4.4.tar.gz --markdown 20230503/C/CoLT5-attention/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-05-03 02:57:49] INFO root fetch - main [MainThread]: End processing [lazycsv]: success
+[2023-05-03 02:57:49] INFO root fetch - main [MainThread]: End processing [aiotieba-reviewer]: success
+[2023-05-03 02:57:50] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2023-05-03 02:57:50] INFO root fetch - main [MainThread]: End processing [IrisChatBot]: success
+[2023-05-03 02:57:51] INFO root fetch - main [MainThread]: End processing [CoLT5-attention]: success
+[2023-05-03 02:57:51] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
+[2023-05-03 02:57:51] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-wget]: success
+[2023-05-03 02:58:10] INFO root fetch - main [MainThread]: End processing [bioversions]: success
+[2023-05-03 02:58:10] INFO root fetch - main [MainThread]: Store serial: [17949116]
