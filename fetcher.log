@@ -7155,3 +7155,81 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-03 08:11:54] INFO root fetch - main [MainThread]: End processing [rewards-experimental]: success
 [2023-05-03 08:11:55] INFO root fetch - main [MainThread]: End processing [pyodide-build]: success
 [2023-05-03 08:11:55] INFO root fetch - main [MainThread]: Store serial: [17952101]
+[2023-05-03 08:16:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17952101]
+[2023-05-03 08:17:04] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-03 08:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nsface-python
+[2023-05-03 08:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dna-logger-4
+[2023-05-03 08:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: turbo-chat
+[2023-05-03 08:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rewards-envs
+[2023-05-03 08:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: auto-screener
+[2023-05-03 08:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: icdcodex
+[2023-05-03 08:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jotdown
+[2023-05-03 08:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fmldk
+[2023-05-03 08:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-purchase-order-secondary-unit
+[2023-05-03 08:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-purchase-order-approved
+[2023-05-03 08:17:04] INFO root fetch - processPackages [icdcodex]: New version: [0.4.7] Old Version: [0.4.6]
+[2023-05-03 08:17:04] WARNING root fetch - processPackages [dna-logger-4]: Skipping, unable to determine old version
+[2023-05-03 08:17:04] INFO root fetch - processPackages [dna-logger-4]: Start processing: auto-screener
+[2023-05-03 08:17:04] INFO root fetch - main [MainThread]: End processing [dna-logger-4] error
+[2023-05-03 08:17:04] INFO root fetch - processPackages [odoo-addon-purchase-order-secondary-unit]: New version: [15.0.1.1.0.1] Old Version: [15.0.1.1.0]
+[2023-05-03 08:17:04] INFO root fetch - processPackages [nsface-python]: New version: [1.1.62] Old Version: [1.1.61]
+[2023-05-03 08:17:04] INFO root fetch - processPackages [odoo-addon-purchase-order-approved]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2023-05-03 08:17:04] INFO root fetch - processPackages [jotdown]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-05-03 08:17:04] INFO root fetch - processPackages [rewards-envs]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-03 08:17:04] INFO root fetch - processPackages [turbo-chat]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-03 08:17:04] INFO root fetch - processPackages [auto-screener]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 08:17:04] INFO root fetch - processPackages [fmldk]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-05-03 08:17:04] INFO root fetch - processPackages [auto-screener]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 08:17:04] INFO root fetch - processPackages [auto-screener]: executing diffoscope
+[2023-05-03 08:17:04] INFO root fetch - processPackages [auto-screener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-screener-0.0.8.tar.gz tmp/auto-screener-0.0.9.tar.gz --markdown 20230503/a/auto-screener/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 08:17:04] INFO root fetch - processPackages [auto-screener]: executing diffoscope
+[2023-05-03 08:17:04] INFO root fetch - processPackages [auto-screener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-screener-0.0.8.tar.gz tmp/auto-screener-0.0.9.tar.gz --markdown 20230503/a/auto-screener/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 08:17:04] INFO root fetch - processPackages [icdcodex]: Downloading https://files.pythonhosted.org/packages/cf/e0/a015ceca360c1e272ef875fac5f69c19e45e00a5ae02a68cd89988a602da/icdcodex-0.4.6.tar.gz
+[2023-05-03 08:17:04] INFO root fetch - processPackages [odoo-addon-purchase-order-approved]: Downloading https://files.pythonhosted.org/packages/16/48/693b73650a25de3d4ea8e159d4812bc3f0b1770f40afc838a891dfe99365/odoo_addon_purchase_order_approved-16.0.1.0.0.3-py3-none-any.whl
+[2023-05-03 08:17:04] INFO root fetch - processPackages [odoo-addon-purchase-order-secondary-unit]: Downloading https://files.pythonhosted.org/packages/6f/74/7395d9d55217b996cb22ebefb544b0938d009d70c4af89c7eaff8353604f/odoo_addon_purchase_order_secondary_unit-15.0.1.1.0.1-py3-none-any.whl
+[2023-05-03 08:17:04] WARNING root fetch - processPackages [icdcodex]: Skipping package: exceeds size limit 25203337>=10485760
+[2023-05-03 08:17:04] INFO root fetch - processPackages [icdcodex]: Start processing: ace
+[2023-05-03 08:17:04] INFO root fetch - main [MainThread]: End processing [icdcodex] error
+[2023-05-03 08:17:04] INFO root fetch - processPackages [nsface-python]: Downloading https://files.pythonhosted.org/packages/bf/7c/72b6a26d217c378aa52cd30ced544e8f3a75cff75e2e3fa13b96a59a296c/nsface_python-1.1.61-py3-none-any.whl
+[2023-05-03 08:17:04] INFO root fetch - processPackages [ace]: New version: [0.3.post1] Old Version: [0.3.3]
+[2023-05-03 08:17:04] INFO root fetch - processPackages [odoo-addon-purchase-order-secondary-unit]: executing diffoscope
+[2023-05-03 08:17:04] INFO root fetch - processPackages [odoo-addon-purchase-order-secondary-unit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_order_secondary_unit-15.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_purchase_order_secondary_unit-15.0.1.1.0.1-py3-none-any.whl.zip --markdown 20230503/o/odoo-addon-purchase-order-secondary-unit/15.0.1.1.0-15.0.1.1.0.1/diff.md --exclude *.pyd
+[2023-05-03 08:17:04] INFO root fetch - processPackages [rewards-envs]: Downloading https://files.pythonhosted.org/packages/97/bb/8f962117d80d6c60035e4528eef56c523175613d0d8bb051f2334ed447e3/rewards_envs-0.1.3.tar.gz
+[2023-05-03 08:17:04] INFO root fetch - processPackages [jotdown]: Downloading https://files.pythonhosted.org/packages/53/e2/b275cba8bad0dd122c2e3d0916a33e3c82e8ad8df86e347c01c5cd3bfbdd/jotdown-2.1.2.tar.gz
+[2023-05-03 08:17:04] INFO root fetch - processPackages [ace]: Downloading https://files.pythonhosted.org/packages/45/e3/6ff5edf791d33896d49abf77fe505e7c69476220379a7883207483b4ee3c/ace-0.3.3.tar.gz
+[2023-05-03 08:17:04] INFO root fetch - processPackages [jotdown]: executing diffoscope
+[2023-05-03 08:17:04] INFO root fetch - processPackages [jotdown]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jotdown-2.1.1.tar.gz tmp/jotdown-2.1.2.tar.gz --markdown 20230503/j/jotdown/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-05-03 08:17:04] INFO root fetch - processPackages [fmldk]: Downloading https://files.pythonhosted.org/packages/e6/9e/5020b81c630c2234793ed4b0246ae5f0ddbf18cf389de8f5865fff348770/fmldk-1.2.1.tar.gz
+[2023-05-03 08:17:04] INFO root fetch - processPackages [rewards-envs]: executing diffoscope
+[2023-05-03 08:17:04] INFO root fetch - processPackages [rewards-envs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rewards_envs-0.1.2.tar.gz tmp/rewards_envs-0.1.3.tar.gz --markdown 20230503/r/rewards-envs/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-03 08:17:04] INFO root fetch - processPackages [turbo-chat]: executing diffoscope
+[2023-05-03 08:17:04] INFO root fetch - processPackages [turbo-chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turbo_chat-0.3.8.tar.gz tmp/turbo_chat-0.3.9.tar.gz --markdown 20230503/t/turbo-chat/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-03 08:17:04] INFO root fetch - processPackages [nsface-python]: Downloading https://files.pythonhosted.org/packages/72/37/90f770d948b635272d74306ae6cd023f01584c847835a85d2440fb798f09/nsface_python-1.1.62-py3-none-any.whl
+[2023-05-03 08:17:04] INFO root fetch - processPackages [fmldk]: executing diffoscope
+[2023-05-03 08:17:04] INFO root fetch - processPackages [fmldk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fmldk-1.2.0.tar.gz tmp/fmldk-1.2.1.tar.gz --markdown 20230503/f/fmldk/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-05-03 08:17:04] INFO root fetch - processPackages [odoo-addon-purchase-order-approved]: Downloading https://files.pythonhosted.org/packages/52/6d/61a5a28cf187552555d9f12094ec3d12afb751fba7c25664fa5b7cbd5964/odoo_addon_purchase_order_approved-16.0.1.0.0.4-py3-none-any.whl
+[2023-05-03 08:17:04] INFO root fetch - processPackages [nsface-python]: executing diffoscope
+[2023-05-03 08:17:04] INFO root fetch - processPackages [nsface-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsface_python-1.1.61-py3-none-any.whl.zip tmp/nsface_python-1.1.62-py3-none-any.whl.zip --markdown 20230503/n/nsface-python/1.1.61-1.1.62/diff.md --exclude *.pyd
+[2023-05-03 08:17:05] INFO root fetch - processPackages [odoo-addon-purchase-order-approved]: executing diffoscope
+[2023-05-03 08:17:05] INFO root fetch - processPackages [odoo-addon-purchase-order-approved]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_order_approved-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_purchase_order_approved-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230503/o/odoo-addon-purchase-order-approved/16.0.1.0.0.3-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-05-03 08:17:05] INFO root fetch - processPackages [ace]: Downloading https://files.pythonhosted.org/packages/ec/01/3dacd9c949c758b6d1c7f8af90e34278c1d0480b4106719062de1e44674d/ace-0.3.post1.tar.gz
+[2023-05-03 08:17:05] INFO root fetch - processPackages [ace]: executing diffoscope
+[2023-05-03 08:17:05] INFO root fetch - processPackages [ace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ace-0.3.3.tar.gz tmp/ace-0.3.post1.tar.gz --markdown 20230503/a/ace/0.3.3-0.3.post1/diff.md --exclude *.pyd
+[2023-05-03 08:17:06] INFO root fetch - processPackages [auto-screener]: Start processing: ansys-templates
+[2023-05-03 08:17:06] INFO root fetch - main [MainThread]: End processing [auto-screener]: success
+[2023-05-03 08:17:06] INFO root fetch - main [MainThread]: End processing [auto-screener]: success
+[2023-05-03 08:17:06] INFO root fetch - processPackages [ansys-templates]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-05-03 08:17:07] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-order-secondary-unit]: success
+[2023-05-03 08:17:07] INFO root fetch - main [MainThread]: End processing [jotdown]: success
+[2023-05-03 08:17:07] INFO root fetch - processPackages [ansys-templates]: Downloading https://files.pythonhosted.org/packages/48/e5/e9166c5adb34f48deecda6f4a902fc86c282b6e5e2694cfc2be6e24ab822/ansys-templates-0.6.0.tar.gz
+[2023-05-03 08:17:07] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-order-approved]: success
+[2023-05-03 08:17:07] INFO root fetch - main [MainThread]: End processing [ace]: success
+[2023-05-03 08:17:07] INFO root fetch - main [MainThread]: End processing [nsface-python]: success
+[2023-05-03 08:17:07] INFO root fetch - processPackages [ansys-templates]: Downloading https://files.pythonhosted.org/packages/25/00/901e055e2bcbfdceca566f33feb0b688b6835869259727562d5361cadbd6/ansys-templates-0.7.0.tar.gz
+[2023-05-03 08:17:08] INFO root fetch - processPackages [ansys-templates]: executing diffoscope
+[2023-05-03 08:17:08] INFO root fetch - processPackages [ansys-templates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys-templates-0.6.0.tar.gz tmp/ansys-templates-0.7.0.tar.gz --markdown 20230503/a/ansys-templates/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-05-03 08:17:08] INFO root fetch - main [MainThread]: End processing [rewards-envs]: success
+[2023-05-03 08:17:09] INFO root fetch - main [MainThread]: End processing [turbo-chat]: success
+[2023-05-03 08:17:09] INFO root fetch - main [MainThread]: End processing [fmldk]: success
+[2023-05-03 08:17:10] INFO root fetch - main [MainThread]: End processing [ansys-templates]: success
+[2023-05-03 08:17:10] INFO root fetch - main [MainThread]: Store serial: [17952135]
