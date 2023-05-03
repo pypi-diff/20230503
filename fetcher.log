@@ -7963,3 +7963,82 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-03 09:23:19] INFO root fetch - main [MainThread]: End processing [supervisely]: success
 [2023-05-03 09:23:19] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
 [2023-05-03 09:23:19] INFO root fetch - main [MainThread]: Store serial: [17952549]
+[2023-05-03 09:28:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17952549]
+[2023-05-03 09:28:28] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-03 09:28:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chatapi-translate
+[2023-05-03 09:28:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastapi-users-db-sqlmodel
+[2023-05-03 09:28:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyaiken
+[2023-05-03 09:28:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Cerebro-Viewer
+[2023-05-03 09:28:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mammopy
+[2023-05-03 09:28:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: little-conf
+[2023-05-03 09:28:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: stonefish
+[2023-05-03 09:28:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: TittaPy
+[2023-05-03 09:28:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tpfunc
+[2023-05-03 09:28:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: selenium-recaptcha-solver
+[2023-05-03 09:28:28] INFO root fetch - processPackages [Cerebro-Viewer]: New version: [0.0.9.3] Old Version: [0.0.9.2]
+[2023-05-03 09:28:28] INFO root fetch - processPackages [chatapi-translate]: New version: [0.3] Old Version: [0.2]
+[2023-05-03 09:28:28] INFO root fetch - processPackages [little-conf]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-03 09:28:28] INFO root fetch - processPackages [stonefish]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-03 09:28:28] INFO root fetch - processPackages [mammopy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 09:28:28] INFO root fetch - processPackages [fastapi-users-db-sqlmodel]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-03 09:28:28] INFO root fetch - processPackages [tpfunc]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-05-03 09:28:28] INFO root fetch - processPackages [TittaPy]: New version: [1.0.0rc5] Old Version: [1.0.0rc4]
+[2023-05-03 09:28:28] INFO root fetch - processPackages [pyaiken]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-05-03 09:28:28] INFO root fetch - processPackages [selenium-recaptcha-solver]: New version: [1.8.0] Old Version: [1.7.0]
+[2023-05-03 09:28:28] INFO root fetch - processPackages [chatapi-translate]: Downloading https://files.pythonhosted.org/packages/00/4e/b8dc1bb2a7acea5d494e1508ba19342c2887b45af5db43becf6c9c0507ff/chatapi-translate-0.3.tar.gz
+[2023-05-03 09:28:28] INFO root fetch - processPackages [Cerebro-Viewer]: Downloading https://files.pythonhosted.org/packages/5a/0f/afd07e3185cbce8085694197bd52f449c703f604dac9b9cf0a879286d7d9/Cerebro_Viewer-0.0.9.2.tar.gz
+[2023-05-03 09:28:28] INFO root fetch - processPackages [little-conf]: Downloading https://files.pythonhosted.org/packages/c8/1c/4200770d9184575562681db57e277e5328d12fd74dd3ecde5c3f6133fcd2/little_conf-0.0.3.tar.gz
+[2023-05-03 09:28:28] INFO root fetch - processPackages [TittaPy]: Downloading https://files.pythonhosted.org/packages/c6/b5/1e259c3f3ad678cf4a8b0de09e877e19f11153e9e7f88fb4df9e5cf1de18/TittaPy-1.0.0rc4-cp39-cp39-win_amd64.whl
+[2023-05-03 09:28:28] INFO root fetch - processPackages [stonefish]: Downloading https://files.pythonhosted.org/packages/a8/6c/c6ef70461a3438ac080f95dc6f92a6d936f5fd2bf489273959e7f2274c23/stonefish-0.3.8-py3-none-any.whl
+[2023-05-03 09:28:28] INFO root fetch - processPackages [tpfunc]: Downloading https://files.pythonhosted.org/packages/be/b4/f7d46e61c459f7b2286dabe7061cae8b35409f2151fc76a44229a54d4278/tpfunc-1.2.4.tar.gz
+[2023-05-03 09:28:28] WARNING root fetch - processPackages [Cerebro-Viewer]: Skipping package: exceeds size limit 13701655>=10485760
+[2023-05-03 09:28:28] INFO root fetch - processPackages [Cerebro-Viewer]: Start processing: demisto-py
+[2023-05-03 09:28:28] INFO root fetch - main [MainThread]: End processing [Cerebro-Viewer] error
+[2023-05-03 09:28:28] INFO root fetch - processPackages [chatapi-translate]: executing diffoscope
+[2023-05-03 09:28:28] INFO root fetch - processPackages [chatapi-translate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatapi-translate-0.2.tar.gz tmp/chatapi-translate-0.3.tar.gz --markdown 20230503/c/chatapi-translate/0.2-0.3/diff.md --exclude *.pyd
+[2023-05-03 09:28:28] INFO root fetch - processPackages [fastapi-users-db-sqlmodel]: Downloading https://files.pythonhosted.org/packages/7a/cf/4948039168a1ad5b5db0c229dcd3930fac7f00d861533efa6e1e8f02a41a/fastapi-users-db-sqlmodel-0.2.0.tar.gz
+[2023-05-03 09:28:28] INFO root fetch - processPackages [selenium-recaptcha-solver]: Downloading https://files.pythonhosted.org/packages/4c/a8/b969a64b844574623bc809ee0ec21b3e51d5a29d783e0ce6551b0fcc830a/selenium-recaptcha-solver-1.7.0.tar.gz
+[2023-05-03 09:28:28] INFO root fetch - processPackages [demisto-py]: New version: [3.2.9] Old Version: [3.2.8]
+[2023-05-03 09:28:28] INFO root fetch - processPackages [pyaiken]: Downloading https://files.pythonhosted.org/packages/6c/ff/72ba2d762c9b18216c8d0ac16698270c2204a255a9701b9f1106f2637fae/pyaiken-0.5.1.tar.gz
+[2023-05-03 09:28:28] INFO root fetch - processPackages [mammopy]: executing diffoscope
+[2023-05-03 09:28:28] INFO root fetch - processPackages [mammopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mammopy-0.0.8.tar.gz tmp/mammopy-0.0.9.tar.gz --markdown 20230503/m/mammopy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 09:28:28] INFO root fetch - processPackages [pyaiken]: executing diffoscope
+[2023-05-03 09:28:28] INFO root fetch - processPackages [pyaiken]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyaiken-0.5.0.tar.gz tmp/pyaiken-0.5.1.tar.gz --markdown 20230503/p/pyaiken/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-05-03 09:28:28] INFO root fetch - processPackages [little-conf]: Downloading https://files.pythonhosted.org/packages/8e/fa/46e659cfa892ed7e842e4e5782cc0f79b3b6b0efcde90020e891b544af41/little_conf-0.0.4.tar.gz
+[2023-05-03 09:28:29] INFO root fetch - processPackages [stonefish]: Downloading https://files.pythonhosted.org/packages/d1/a1/3faea75bc2e483e14078f7017fb42c494d76fc44900b71482d95eec9140a/stonefish-0.3.9-py3-none-any.whl
+[2023-05-03 09:28:29] INFO root fetch - processPackages [tpfunc]: Downloading https://files.pythonhosted.org/packages/74/1f/6070351ae088d9c0f9cae65fef8f97ac24c1e8ebefc9638c264eaa431cd0/tpfunc-1.2.5.tar.gz
+[2023-05-03 09:28:29] INFO root fetch - processPackages [little-conf]: executing diffoscope
+[2023-05-03 09:28:29] INFO root fetch - processPackages [little-conf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/little_conf-0.0.3.tar.gz tmp/little_conf-0.0.4.tar.gz --markdown 20230503/l/little-conf/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-03 09:28:29] INFO root fetch - processPackages [fastapi-users-db-sqlmodel]: Downloading https://files.pythonhosted.org/packages/27/ff/46aa6bc684351d02d6e978538ca988e915f89587b7c68b4a7497f694305f/fastapi_users_db_sqlmodel-0.3.0.tar.gz
+[2023-05-03 09:28:29] INFO root fetch - processPackages [demisto-py]: Downloading https://files.pythonhosted.org/packages/3f/3c/6e2d55a842893f3db676debe5b69a1a6aacaf84064491ae557c8f3cd3571/demisto-py-3.2.8.tar.gz
+[2023-05-03 09:28:29] INFO root fetch - processPackages [stonefish]: executing diffoscope
+[2023-05-03 09:28:29] INFO root fetch - processPackages [stonefish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stonefish-0.3.8-py3-none-any.whl.zip tmp/stonefish-0.3.9-py3-none-any.whl.zip --markdown 20230503/s/stonefish/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-03 09:28:29] INFO root fetch - processPackages [selenium-recaptcha-solver]: Downloading https://files.pythonhosted.org/packages/db/8e/7d4df41fefbda6d0a087ec06b3fd78ce41e1a77b10951b5e94da8923029f/selenium-recaptcha-solver-1.8.0.tar.gz
+[2023-05-03 09:28:29] INFO root fetch - processPackages [tpfunc]: executing diffoscope
+[2023-05-03 09:28:29] INFO root fetch - processPackages [tpfunc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tpfunc-1.2.4.tar.gz tmp/tpfunc-1.2.5.tar.gz --markdown 20230503/t/tpfunc/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-05-03 09:28:29] INFO root fetch - processPackages [fastapi-users-db-sqlmodel]: executing diffoscope
+[2023-05-03 09:28:29] INFO root fetch - processPackages [fastapi-users-db-sqlmodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-users-db-sqlmodel-0.2.0.tar.gz tmp/fastapi_users_db_sqlmodel-0.3.0.tar.gz --markdown 20230503/f/fastapi-users-db-sqlmodel/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-03 09:28:29] INFO root fetch - processPackages [TittaPy]: Downloading https://files.pythonhosted.org/packages/ea/fb/78317ba143de5340c253d95d822a2017db967cdf61ddf43e5522166eebb7/TittaPy-1.0.0rc5-cp39-cp39-win_amd64.whl
+[2023-05-03 09:28:29] INFO root fetch - processPackages [selenium-recaptcha-solver]: executing diffoscope
+[2023-05-03 09:28:29] INFO root fetch - processPackages [selenium-recaptcha-solver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium-recaptcha-solver-1.7.0.tar.gz tmp/selenium-recaptcha-solver-1.8.0.tar.gz --markdown 20230503/s/selenium-recaptcha-solver/1.7.0-1.8.0/diff.md --exclude *.pyd
+[2023-05-03 09:28:29] INFO root fetch - processPackages [demisto-py]: Downloading https://files.pythonhosted.org/packages/a3/04/b2369aa8944eeab76a081de7daca22d420138a75c3bba16dbdda13b85da5/demisto-py-3.2.9.tar.gz
+[2023-05-03 09:28:29] INFO root fetch - processPackages [demisto-py]: executing diffoscope
+[2023-05-03 09:28:29] INFO root fetch - processPackages [demisto-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/demisto-py-3.2.8.tar.gz tmp/demisto-py-3.2.9.tar.gz --markdown 20230503/d/demisto-py/3.2.8-3.2.9/diff.md --exclude *.pyd
+[2023-05-03 09:28:29] INFO root fetch - processPackages [TittaPy]: executing diffoscope
+[2023-05-03 09:28:29] INFO root fetch - processPackages [TittaPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TittaPy-1.0.0rc4-cp39-cp39-win_amd64.whl.zip tmp/TittaPy-1.0.0rc5-cp39-cp39-win_amd64.whl.zip --markdown 20230503/T/TittaPy/1.0.0rc4-1.0.0rc5/diff.md --exclude *.pyd
+[2023-05-03 09:28:30] INFO root fetch - processPackages [pyaiken]: Start processing: panda-client
+[2023-05-03 09:28:30] INFO root fetch - main [MainThread]: End processing [pyaiken]: success
+[2023-05-03 09:28:30] INFO root fetch - main [MainThread]: End processing [chatapi-translate]: success
+[2023-05-03 09:28:30] INFO root fetch - processPackages [panda-client]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-05-03 09:28:30] INFO root fetch - main [MainThread]: End processing [little-conf]: success
+[2023-05-03 09:28:31] INFO root fetch - processPackages [panda-client]: executing diffoscope
+[2023-05-03 09:28:31] INFO root fetch - processPackages [panda-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panda-client-1.5.8.tar.gz tmp/panda-client-1.5.9.tar.gz --markdown 20230503/p/panda-client/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-05-03 09:28:31] INFO root fetch - main [MainThread]: End processing [fastapi-users-db-sqlmodel]: success
+[2023-05-03 09:28:31] INFO root fetch - main [MainThread]: End processing [tpfunc]: success
+[2023-05-03 09:28:31] INFO root fetch - main [MainThread]: End processing [stonefish]: success
+[2023-05-03 09:28:31] INFO root fetch - main [MainThread]: End processing [selenium-recaptcha-solver]: success
+[2023-05-03 09:28:32] INFO root fetch - main [MainThread]: End processing [panda-client]: success
+[2023-05-03 09:28:32] INFO root fetch - main [MainThread]: End processing [TittaPy]: success
+[2023-05-03 09:28:33] INFO root fetch - main [MainThread]: End processing [demisto-py]: success
+[2023-05-03 09:28:34] INFO root fetch - main [MainThread]: End processing [mammopy]: success
+[2023-05-03 09:28:34] INFO root fetch - main [MainThread]: Store serial: [17952630]
