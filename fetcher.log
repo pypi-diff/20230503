@@ -6459,3 +6459,31 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-03 06:55:40] INFO root fetch - processPackages [dataset-viewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataset-viewer-0.0.3.tar.gz tmp/dataset-viewer-0.0.4.tar.gz --markdown 20230503/d/dataset-viewer/0.0.3-0.0.4/diff.md --exclude *.pyd
 [2023-05-03 06:55:41] INFO root fetch - main [MainThread]: End processing [dataset-viewer]: success
 [2023-05-03 06:55:41] INFO root fetch - main [MainThread]: Store serial: [17951725]
+[2023-05-03 07:00:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17951725]
+[2023-05-03 07:00:49] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-03 07:00:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyPDPM
+[2023-05-03 07:00:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PlatitudeTerminal
+[2023-05-03 07:00:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: volworld-aws-api-common
+[2023-05-03 07:00:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: easy-crud-repo-service
+[2023-05-03 07:00:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ghanashops-scraper
+[2023-05-03 07:00:49] INFO root fetch - processPackages [PyPDPM]: New version: [0.0.5.9] Old Version: [0.0.5.8]
+[2023-05-03 07:00:49] INFO root fetch - processPackages [ghanashops-scraper]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-03 07:00:49] INFO root fetch - processPackages [easy-crud-repo-service]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-03 07:00:49] INFO root fetch - processPackages [volworld-aws-api-common]: New version: [0.1.9] Old Version: [0.1.85]
+[2023-05-03 07:00:49] WARNING root fetch - processPackages [PlatitudeTerminal]: Skipping, unable to determine old version
+[2023-05-03 07:00:49] INFO root fetch - main [MainThread]: End processing [PlatitudeTerminal] error
+[2023-05-03 07:00:49] INFO root fetch - processPackages [PyPDPM]: executing diffoscope
+[2023-05-03 07:00:49] INFO root fetch - processPackages [PyPDPM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyPDPM-0.0.5.8.tar.gz tmp/PyPDPM-0.0.5.9.tar.gz --markdown 20230503/P/PyPDPM/0.0.5.8-0.0.5.9/diff.md --exclude *.pyd
+[2023-05-03 07:00:49] INFO root fetch - processPackages [ghanashops-scraper]: executing diffoscope
+[2023-05-03 07:00:49] INFO root fetch - processPackages [ghanashops-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghanashops-scraper-1.0.8.tar.gz tmp/ghanashops-scraper-1.0.9.tar.gz --markdown 20230503/g/ghanashops-scraper/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-03 07:00:49] INFO root fetch - processPackages [volworld-aws-api-common]: Downloading https://files.pythonhosted.org/packages/41/c3/a67ed0a6f223df0b5af573704af2f4906421bb84207d245cccfc7d6a848b/volworld_aws_api_common-0.1.85.tar.gz
+[2023-05-03 07:00:50] INFO root fetch - processPackages [easy-crud-repo-service]: Downloading https://files.pythonhosted.org/packages/31/3c/7392ebca94f1276c6fb6bb0a0eb815e1f553ab68b91184c6c1850882f957/easy_crud_repo_service-0.1.2.tar.gz
+[2023-05-03 07:00:50] INFO root fetch - processPackages [volworld-aws-api-common]: executing diffoscope
+[2023-05-03 07:00:50] INFO root fetch - processPackages [volworld-aws-api-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volworld_aws_api_common-0.1.85.tar.gz tmp/volworld_aws_api_common-0.1.9.tar.gz --markdown 20230503/v/volworld-aws-api-common/0.1.85-0.1.9/diff.md --exclude *.pyd
+[2023-05-03 07:00:50] INFO root fetch - processPackages [easy-crud-repo-service]: executing diffoscope
+[2023-05-03 07:00:50] INFO root fetch - processPackages [easy-crud-repo-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_crud_repo_service-0.1.1.tar.gz tmp/easy_crud_repo_service-0.1.2.tar.gz --markdown 20230503/e/easy-crud-repo-service/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-03 07:00:51] INFO root fetch - main [MainThread]: End processing [PyPDPM]: success
+[2023-05-03 07:00:51] INFO root fetch - main [MainThread]: End processing [ghanashops-scraper]: success
+[2023-05-03 07:00:51] INFO root fetch - main [MainThread]: End processing [volworld-aws-api-common]: success
+[2023-05-03 07:00:51] INFO root fetch - main [MainThread]: End processing [easy-crud-repo-service]: success
+[2023-05-03 07:00:51] INFO root fetch - main [MainThread]: Store serial: [17951738]
