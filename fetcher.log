@@ -16518,3 +16518,119 @@ No space left on device. Diffoscope exiting.
 [2023-05-03 15:58:05] INFO root fetch - main [MainThread]: End processing [repo2rocrate]: success
 [2023-05-03 15:58:31] INFO root fetch - main [MainThread]: End processing [py-modelrunner]: success
 [2023-05-03 15:58:31] INFO root fetch - main [MainThread]: Store serial: [17957345]
+[2023-05-03 16:03:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17957345]
+[2023-05-03 16:03:40] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-03 16:03:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: capeditor
+[2023-05-03 16:03:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sleplet
+[2023-05-03 16:03:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytket-qir
+[2023-05-03 16:03:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: certora-cli-alpha-kit-annotation
+[2023-05-03 16:03:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ramo
+[2023-05-03 16:03:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: matrix-synapse
+[2023-05-03 16:03:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cloud-toolkit-aws
+[2023-05-03 16:03:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-pony-express
+[2023-05-03 16:03:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: krx-rigger
+[2023-05-03 16:03:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: thrivve-core
+[2023-05-03 16:03:40] INFO root fetch - processPackages [pytket-qir]: New version: [0.2.0rc0] Old Version: [0.1.5]
+[2023-05-03 16:03:40] INFO root fetch - processPackages [krx-rigger]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-03 16:03:40] INFO root fetch - processPackages [pytket-qir]: executing diffoscope
+[2023-05-03 16:03:40] INFO root fetch - processPackages [pytket-qir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytket_qir-0.1.5.tar.gz tmp/pytket_qir-0.2.0rc0-py3-none-any.whl.zip --markdown 20230503/p/pytket-qir/0.1.5-0.2.0rc0/diff.md --exclude *.pyd
+[2023-05-03 16:03:40] INFO root fetch - processPackages [django-pony-express]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-03 16:03:40] INFO root fetch - processPackages [thrivve-core]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-03 16:03:40] INFO root fetch - processPackages [cloud-toolkit-aws]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-03 16:03:40] INFO root fetch - processPackages [sleplet]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-05-03 16:03:40] INFO root fetch - processPackages [ramo]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-03 16:03:40] INFO root fetch - processPackages [capeditor]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-03 16:03:40] INFO root fetch - processPackages [krx-rigger]: executing diffoscope
+[2023-05-03 16:03:40] INFO root fetch - processPackages [krx-rigger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krx_rigger-0.0.1.tar.gz tmp/krx_rigger-0.0.2.tar.gz --markdown 20230503/k/krx-rigger/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-03 16:03:40] INFO root fetch - processPackages [certora-cli-alpha-kit-annotation]: New version: [20230503.13.59.520988] Old Version: [20230502.17.35.560036]
+[2023-05-03 16:03:40] INFO root fetch - processPackages [matrix-synapse]: New version: [1.9.1] Old Version: [1.9.0rc1]
+[2023-05-03 16:03:40] INFO root fetch - processPackages [django-pony-express]: Downloading https://files.pythonhosted.org/packages/e6/e4/1885f8278fbd53ccc6000afce31aaf3cdfde7337c21e482c3061c3f56f80/django-pony-express-1.0.0.tar.gz
+[2023-05-03 16:03:40] INFO root fetch - processPackages [certora-cli-alpha-kit-annotation]: Downloading https://files.pythonhosted.org/packages/9a/f2/1a2bde60a74db462ab972d5d0ec2e77f2c78e4af12351907bf893b29250a/certora-cli-alpha-kit-annotation-20230502.17.35.560036.tar.gz
+[2023-05-03 16:03:40] INFO root fetch - processPackages [ramo]: Downloading https://files.pythonhosted.org/packages/08/2d/705633b2e6fd29b823dff236235fd4e0e5023ab342e8fba340502a65524e/ramo-0.1.2.tar.gz
+[2023-05-03 16:03:40] INFO root fetch - processPackages [thrivve-core]: Downloading https://files.pythonhosted.org/packages/3d/9e/14de8e20f8357d886337826462a1da35d7bea20a1308276ca2993252a94c/thrivve_core-0.1.5.tar.gz
+[2023-05-03 16:03:40] INFO root fetch - processPackages [sleplet]: Downloading https://files.pythonhosted.org/packages/02/47/cbb9a8bacbb9ae343c4d8df559a117e32f6972e0f7c7480e9f769130ebf9/sleplet-1.4.0.tar.gz
+[2023-05-03 16:03:40] INFO root fetch - processPackages [cloud-toolkit-aws]: Downloading https://files.pythonhosted.org/packages/57/a8/392b59e687eb600ab03ac8b02a6cc0f2d2b1d9a4773461173d23bc76b443/cloud_toolkit_aws-0.9.0.tar.gz
+[2023-05-03 16:03:40] WARNING root fetch - processPackages [certora-cli-alpha-kit-annotation]: Skipping package: exceeds size limit 38379842>=10485760
+[2023-05-03 16:03:40] INFO root fetch - processPackages [certora-cli-alpha-kit-annotation]: Start processing: django-apollo-forms
+[2023-05-03 16:03:40] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-kit-annotation] error
+[2023-05-03 16:03:41] INFO root fetch - processPackages [capeditor]: Downloading https://files.pythonhosted.org/packages/78/bf/5c04b2816d4eef63c18609af54ef75a0b735ded61ec37b1bbc07f3c9f6eb/capeditor-0.1.2.tar.gz
+[2023-05-03 16:03:41] INFO root fetch - processPackages [matrix-synapse]: Downloading https://files.pythonhosted.org/packages/38/92/fe537943f778c5448a77d841fc4b23f0aadfb189248bdaa757b3135d13ba/matrix-synapse-1.9.0rc1.tar.gz
+[2023-05-03 16:03:41] INFO root fetch - processPackages [django-apollo-forms]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-05-03 16:03:41] INFO root fetch - processPackages [django-pony-express]: Downloading https://files.pythonhosted.org/packages/79/26/c045565a0e73c27432203eef6b0b14795e1892bc4e50eb5cebf4ebb03779/django-pony-express-1.0.1.tar.gz
+[2023-05-03 16:03:41] INFO root fetch - processPackages [django-pony-express]: executing diffoscope
+[2023-05-03 16:03:41] INFO root fetch - processPackages [django-pony-express]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-pony-express-1.0.0.tar.gz tmp/django-pony-express-1.0.1.tar.gz --markdown 20230503/d/django-pony-express/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-03 16:03:41] INFO root fetch - processPackages [cloud-toolkit-aws]: Downloading https://files.pythonhosted.org/packages/32/1d/4852264d362f1d8e9e9f8da477304290861320975b9f7f59386d99ad14e6/cloud_toolkit_aws-0.9.1.tar.gz
+[2023-05-03 16:03:41] INFO root fetch - processPackages [capeditor]: Downloading https://files.pythonhosted.org/packages/91/27/85e8da68e068ce6375fdd007e46c16e8a2fd5dbd58f2ac3cba023c67a490/capeditor-0.1.3.tar.gz
+[2023-05-03 16:03:41] INFO root fetch - processPackages [ramo]: Downloading https://files.pythonhosted.org/packages/59/16/61041ba0c44c4b02138f9c83f6d9fa75455765bafe09144442bc2dcb7468/ramo-0.1.3.tar.gz
+[2023-05-03 16:03:41] INFO root fetch - processPackages [thrivve-core]: Downloading https://files.pythonhosted.org/packages/8a/af/55c1e300be22b88d7a65f1521cca4506393329fd43e89e33b18c3b11bcb5/thrivve_core-0.1.6.tar.gz
+[2023-05-03 16:03:41] INFO root fetch - processPackages [cloud-toolkit-aws]: executing diffoscope
+[2023-05-03 16:03:41] INFO root fetch - processPackages [cloud-toolkit-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud_toolkit_aws-0.9.0.tar.gz tmp/cloud_toolkit_aws-0.9.1.tar.gz --markdown 20230503/c/cloud-toolkit-aws/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-03 16:03:41] INFO root fetch - processPackages [django-apollo-forms]: Downloading https://files.pythonhosted.org/packages/cb/4e/70edf06c40ea1c5443f4776c16681cf07d5e28241194976de6d061ce13d3/django-apollo-forms-2.0.3.tar.gz
+[2023-05-03 16:03:41] INFO root fetch - processPackages [thrivve-core]: executing diffoscope
+[2023-05-03 16:03:41] INFO root fetch - processPackages [thrivve-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thrivve_core-0.1.5.tar.gz tmp/thrivve_core-0.1.6.tar.gz --markdown 20230503/t/thrivve-core/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-03 16:03:41] INFO root fetch - processPackages [ramo]: executing diffoscope
+[2023-05-03 16:03:41] INFO root fetch - processPackages [ramo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramo-0.1.2.tar.gz tmp/ramo-0.1.3.tar.gz --markdown 20230503/r/ramo/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-03 16:03:41] INFO root fetch - processPackages [capeditor]: executing diffoscope
+[2023-05-03 16:03:41] INFO root fetch - processPackages [capeditor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capeditor-0.1.2.tar.gz tmp/capeditor-0.1.3.tar.gz --markdown 20230503/c/capeditor/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-03 16:03:41] INFO root fetch - processPackages [sleplet]: Downloading https://files.pythonhosted.org/packages/cb/57/0e8fc56aea075f610b57af8895498c01a6c7353870a068e52488000f17c9/sleplet-1.4.1.tar.gz
+[2023-05-03 16:03:41] INFO root fetch - processPackages [django-apollo-forms]: Downloading https://files.pythonhosted.org/packages/a4/d2/4727caf87ce0054e5aee7b8a7cae43cb26f3fe34439474c806084430d347/django-apollo-forms-2.0.4.tar.gz
+[2023-05-03 16:03:41] INFO root fetch - processPackages [sleplet]: executing diffoscope
+[2023-05-03 16:03:41] INFO root fetch - processPackages [sleplet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleplet-1.4.0.tar.gz tmp/sleplet-1.4.1.tar.gz --markdown 20230503/s/sleplet/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-05-03 16:03:41] INFO root fetch - processPackages [pytket-qir]: Start processing: Graphnix
+[2023-05-03 16:03:41] INFO root fetch - main [MainThread]: End processing [pytket-qir]: success
+[2023-05-03 16:03:41] INFO root fetch - processPackages [django-apollo-forms]: executing diffoscope
+[2023-05-03 16:03:41] INFO root fetch - processPackages [django-apollo-forms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-apollo-forms-2.0.3.tar.gz tmp/django-apollo-forms-2.0.4.tar.gz --markdown 20230503/d/django-apollo-forms/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-05-03 16:03:41] WARNING root fetch - processPackages [Graphnix]: Skipping, unable to determine old version
+[2023-05-03 16:03:41] INFO root fetch - processPackages [Graphnix]: Start processing: pants-py-deploy
+[2023-05-03 16:03:41] INFO root fetch - main [MainThread]: End processing [Graphnix] error
+[2023-05-03 16:03:41] INFO root fetch - processPackages [krx-rigger]: Start processing: oarepo-runtime
+[2023-05-03 16:03:41] INFO root fetch - main [MainThread]: End processing [krx-rigger]: success
+[2023-05-03 16:03:41] INFO root fetch - processPackages [pants-py-deploy]: New version: [0.0.15] Old Version: [0.0.14rc4]
+[2023-05-03 16:03:41] INFO root fetch - processPackages [oarepo-runtime]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-03 16:03:42] INFO root fetch - processPackages [matrix-synapse]: Downloading https://files.pythonhosted.org/packages/ca/c7/4673bb5cb9ec9a2b850f118077e24c3f5fda08b973bbed512caf26dd9604/matrix-synapse-1.9.1.tar.gz
+[2023-05-03 16:03:42] INFO root fetch - processPackages [oarepo-runtime]: executing diffoscope
+[2023-05-03 16:03:42] INFO root fetch - processPackages [oarepo-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-runtime-1.2.8.tar.gz tmp/oarepo-runtime-1.2.9.tar.gz --markdown 20230503/o/oarepo-runtime/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-03 16:03:42] INFO root fetch - processPackages [pants-py-deploy]: Downloading https://files.pythonhosted.org/packages/c6/81/7b2d373f4fdf215373b57fe72509be45e095931f28ff7f86ca3d7b36d38f/pants_py_deploy-0.0.15-py3-none-any.whl
+[2023-05-03 16:03:42] INFO root fetch - processPackages [pants-py-deploy]: executing diffoscope
+[2023-05-03 16:03:42] INFO root fetch - processPackages [pants-py-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pants_py_deploy-0.0.14rc4-py3-none-any.whl.zip tmp/pants_py_deploy-0.0.15-py3-none-any.whl.zip --markdown 20230503/p/pants-py-deploy/0.0.14rc4-0.0.15/diff.md --exclude *.pyd
+[2023-05-03 16:03:42] INFO root fetch - processPackages [matrix-synapse]: executing diffoscope
+[2023-05-03 16:03:42] INFO root fetch - processPackages [matrix-synapse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matrix-synapse-1.9.0rc1.tar.gz tmp/matrix-synapse-1.9.1.tar.gz --markdown 20230503/m/matrix-synapse/1.9.0rc1-1.9.1/diff.md --exclude *.pyd
+[2023-05-03 16:03:42] INFO root fetch - processPackages [cloud-toolkit-aws]: Start processing: django-yubin
+[2023-05-03 16:03:42] INFO root fetch - main [MainThread]: End processing [cloud-toolkit-aws]: success
+[2023-05-03 16:03:43] INFO root fetch - processPackages [django-pony-express]: Start processing: cellmap
+[2023-05-03 16:03:43] INFO root fetch - main [MainThread]: End processing [django-pony-express]: success
+[2023-05-03 16:03:43] INFO root fetch - processPackages [cellmap]: New version: [1.0.1.dev202305030241] Old Version: [1.0.1.dev202305020348]
+[2023-05-03 16:03:43] INFO root fetch - processPackages [django-yubin]: New version: [2.0.0b3] Old Version: [2.0.0b2]
+[2023-05-03 16:03:43] INFO root fetch - processPackages [django-yubin]: Downloading https://files.pythonhosted.org/packages/9c/c5/4a28a6ebb767330fcf5d6e1b299231f0be52fac9ab8767c889d8b4a22e9b/django-yubin-2.0.0b2.tar.gz
+[2023-05-03 16:03:43] INFO root fetch - processPackages [cellmap]: Downloading https://files.pythonhosted.org/packages/ed/9a/23ef9e6644421f9942caa66948597903a9b31465f0fb5b2869405691aade/cellmap-1.0.1.dev202305030241-py3-none-any.whl
+[2023-05-03 16:03:43] INFO root fetch - processPackages [cellmap]: executing diffoscope
+[2023-05-03 16:03:43] INFO root fetch - processPackages [cellmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellmap-1.0.1.dev202305020348-py3-none-any.whl.zip tmp/cellmap-1.0.1.dev202305030241-py3-none-any.whl.zip --markdown 20230503/c/cellmap/1.0.1.dev202305020348-1.0.1.dev202305030241/diff.md --exclude *.pyd
+[2023-05-03 16:03:43] INFO root fetch - processPackages [capeditor]: Start processing: capeditor
+[2023-05-03 16:03:43] INFO root fetch - main [MainThread]: End processing [capeditor]: success
+[2023-05-03 16:03:43] INFO root fetch - processPackages [thrivve-core]: Start processing: saltext.proxmox
+[2023-05-03 16:03:43] INFO root fetch - main [MainThread]: End processing [thrivve-core]: success
+[2023-05-03 16:03:43] INFO root fetch - processPackages [pants-py-deploy]: Start processing: viur-core
+[2023-05-03 16:03:43] INFO root fetch - main [MainThread]: End processing [pants-py-deploy]: success
+[2023-05-03 16:03:43] INFO root fetch - processPackages [capeditor]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-03 16:03:43] INFO root fetch - main [MainThread]: End processing [oarepo-runtime]: success
+[2023-05-03 16:03:43] WARNING root fetch - processPackages [saltext.proxmox]: Skipping, unable to determine old version
+[2023-05-03 16:03:43] INFO root fetch - main [MainThread]: End processing [saltext.proxmox] error
+[2023-05-03 16:03:43] INFO root fetch - processPackages [viur-core]: New version: [3.4.1] Old Version: [3.4.0rc2]
+[2023-05-03 16:03:43] INFO root fetch - processPackages [capeditor]: executing diffoscope
+[2023-05-03 16:03:43] INFO root fetch - processPackages [capeditor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capeditor-0.1.2.tar.gz tmp/capeditor-0.1.3.tar.gz --markdown 20230503/c/capeditor/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-03 16:03:43] INFO root fetch - processPackages [django-yubin]: Downloading https://files.pythonhosted.org/packages/8f/4b/a144da620df111bb0ca6c1cee2417f7fdec0e2474ab222f50533f83c8e59/django-yubin-2.0.0b3.tar.gz
+[2023-05-03 16:03:43] INFO root fetch - main [MainThread]: End processing [ramo]: success
+[2023-05-03 16:03:43] INFO root fetch - processPackages [django-yubin]: executing diffoscope
+[2023-05-03 16:03:43] INFO root fetch - processPackages [django-yubin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-yubin-2.0.0b2.tar.gz tmp/django-yubin-2.0.0b3.tar.gz --markdown 20230503/d/django-yubin/2.0.0b2-2.0.0b3/diff.md --exclude *.pyd
+[2023-05-03 16:03:43] INFO root fetch - processPackages [viur-core]: Downloading https://files.pythonhosted.org/packages/42/7b/fdb519cf2b35391a6b0b18494c4c8bb108c45318b6edbfeed2feb64b8f73/viur_core-3.4.0rc2-py3-none-any.whl
+[2023-05-03 16:03:44] INFO root fetch - processPackages [viur-core]: Downloading https://files.pythonhosted.org/packages/7b/00/bbf639650cfa4cf4d413a48f3c4c9161c04ebd3f54c8902f1dc5b04ae88c/viur_core-3.4.1-py3-none-any.whl
+[2023-05-03 16:03:44] INFO root fetch - main [MainThread]: End processing [sleplet]: success
+[2023-05-03 16:03:44] INFO root fetch - main [MainThread]: End processing [cellmap]: success
+[2023-05-03 16:03:44] INFO root fetch - processPackages [viur-core]: executing diffoscope
+[2023-05-03 16:03:44] INFO root fetch - processPackages [viur-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viur_core-3.4.0rc2-py3-none-any.whl.zip tmp/viur_core-3.4.1-py3-none-any.whl.zip --markdown 20230503/v/viur-core/3.4.0rc2-3.4.1/diff.md --exclude *.pyd
+[2023-05-03 16:03:44] INFO root fetch - main [MainThread]: End processing [capeditor]: success
+[2023-05-03 16:03:45] INFO root fetch - main [MainThread]: End processing [django-yubin]: success
+[2023-05-03 16:03:46] INFO root fetch - main [MainThread]: End processing [viur-core]: success
+[2023-05-03 16:03:54] INFO root fetch - main [MainThread]: End processing [django-apollo-forms]: success
+[2023-05-03 16:03:54] INFO root fetch - main [MainThread]: End processing [matrix-synapse]: success
+[2023-05-03 16:03:54] INFO root fetch - main [MainThread]: Store serial: [17957424]
