@@ -23760,3 +23760,86 @@ EOFError: EOF read where object expected
 [2023-05-03 22:02:56] INFO root fetch - main [MainThread]: End processing [camerahub]: success
 [2023-05-03 22:03:00] INFO root fetch - main [MainThread]: End processing [super-gradients]: success
 [2023-05-03 22:03:00] INFO root fetch - main [MainThread]: Store serial: [17962016]
+[2023-05-03 22:08:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17962016]
+[2023-05-03 22:08:09] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-03 22:08:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyLexia
+[2023-05-03 22:08:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CalSciPy
+[2023-05-03 22:08:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: remindmail
+[2023-05-03 22:08:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: status-page-demo-site
+[2023-05-03 22:08:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dcicsnovault
+[2023-05-03 22:08:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dioptra
+[2023-05-03 22:08:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: elifecleaner
+[2023-05-03 22:08:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: recurrent-memory-transformer-pytorch
+[2023-05-03 22:08:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: customtkinter-pyinstaller
+[2023-05-03 22:08:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyautosrt
+[2023-05-03 22:08:10] INFO root fetch - processPackages [CalSciPy]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-03 22:08:10] INFO root fetch - processPackages [remindmail]: New version: [2023.5.3.1] Old Version: [2023.5.1.1]
+[2023-05-03 22:08:10] WARNING root fetch - processPackages [PyLexia]: Skipping, unable to determine old version
+[2023-05-03 22:08:10] INFO root fetch - processPackages [PyLexia]: Start processing: launchdarkly-server-sdk
+[2023-05-03 22:08:10] INFO root fetch - main [MainThread]: End processing [PyLexia] error
+[2023-05-03 22:08:10] INFO root fetch - processPackages [pyautosrt]: New version: [0.1.7] Old Version: [0.1.4]
+[2023-05-03 22:08:10] WARNING root fetch - processPackages [status-page-demo-site]: Skipping, unable to determine old version
+[2023-05-03 22:08:10] WARNING root fetch - processPackages [customtkinter-pyinstaller]: Skipping, unable to determine old version
+[2023-05-03 22:08:10] INFO root fetch - processPackages [status-page-demo-site]: Start processing: nonebot-plugin-mystool
+[2023-05-03 22:08:10] INFO root fetch - processPackages [customtkinter-pyinstaller]: Start processing: ovos-core
+[2023-05-03 22:08:10] INFO root fetch - main [MainThread]: End processing [status-page-demo-site] error
+[2023-05-03 22:08:10] INFO root fetch - main [MainThread]: End processing [customtkinter-pyinstaller] error
+[2023-05-03 22:08:10] INFO root fetch - processPackages [recurrent-memory-transformer-pytorch]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-03 22:08:10] INFO root fetch - processPackages [dioptra]: New version: [1.0.9rc1] Old Version: [1.0.9]
+[2023-05-03 22:08:10] INFO root fetch - processPackages [elifecleaner]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-03 22:08:10] INFO root fetch - processPackages [dcicsnovault]: New version: [8.0.1.1b5] Old Version: [8.0.1.1b4]
+[2023-05-03 22:08:10] INFO root fetch - processPackages [remindmail]: Downloading https://files.pythonhosted.org/packages/67/95/ef9982af194196c5a65fcf8c6a1257e517afd0152491755531fa85b7fa72/remindmail-2023.5.1.1.tar.gz
+[2023-05-03 22:08:10] INFO root fetch - processPackages [nonebot-plugin-mystool]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-05-03 22:08:10] INFO root fetch - processPackages [launchdarkly-server-sdk]: New version: [8.1.3] Old Version: [8.1.2]
+[2023-05-03 22:08:10] INFO root fetch - processPackages [ovos-core]: New version: [0.0.8a9] Old Version: [0.0.8a8]
+[2023-05-03 22:08:10] INFO root fetch - processPackages [recurrent-memory-transformer-pytorch]: Downloading https://files.pythonhosted.org/packages/2e/4e/e1d2e7f7f7eba1b774dfb1d306250b5ed5ef139bce6cf43053f34c05daef/recurrent-memory-transformer-pytorch-0.3.0.tar.gz
+[2023-05-03 22:08:10] INFO root fetch - processPackages [CalSciPy]: Downloading https://files.pythonhosted.org/packages/b7/fc/24182984253db4e4dc2cb2036503e232abb034e0c1bf15509355c755ad3d/CalSciPy-0.2.3.tar.gz
+[2023-05-03 22:08:10] INFO root fetch - processPackages [pyautosrt]: Downloading https://files.pythonhosted.org/packages/e9/cf/c3b79fe083a49b26049eaeccd94ad950b95703e71c3354d49c17ea55670b/pyautosrt-0.1.4.tar.gz
+[2023-05-03 22:08:10] INFO root fetch - processPackages [elifecleaner]: Downloading https://files.pythonhosted.org/packages/d8/0e/4046c55d79880da671663d71e149bd71481ded59f3d48fcdbcb00ba806d5/elifecleaner-0.9.0.tar.gz
+[2023-05-03 22:08:10] INFO root fetch - processPackages [dioptra]: Downloading https://files.pythonhosted.org/packages/dc/14/709634a224813a402ca73268b88331344258a22f8633c264927371636aa8/dioptra-1.0.9.tar.gz
+[2023-05-03 22:08:10] INFO root fetch - processPackages [dcicsnovault]: Downloading https://files.pythonhosted.org/packages/20/4a/257ffbc8fa1e77f51e222b75f865fcf72a899e6f146b63a6d2850b602beb/dcicsnovault-8.0.1.1b5.tar.gz
+[2023-05-03 22:08:10] INFO root fetch - processPackages [nonebot-plugin-mystool]: Downloading https://files.pythonhosted.org/packages/50/52/f345b0217bb9c5b6e2749a8d9ee34e5e704d77005fbcada9fb4ee8d7013c/nonebot_plugin_mystool-0.2.7.tar.gz
+[2023-05-03 22:08:10] INFO root fetch - processPackages [ovos-core]: Downloading https://files.pythonhosted.org/packages/dd/9c/0945c96587052dea91a0ceedf6f8aca8fb29db6717064aa852e7e73917ad/ovos_core-0.0.8a8-py3-none-any.whl
+[2023-05-03 22:08:10] INFO root fetch - processPackages [dcicsnovault]: executing diffoscope
+[2023-05-03 22:08:10] INFO root fetch - processPackages [dcicsnovault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicsnovault-8.0.1.1b4.tar.gz tmp/dcicsnovault-8.0.1.1b5.tar.gz --markdown 20230503/d/dcicsnovault/8.0.1.1b4-8.0.1.1b5/diff.md --exclude *.pyd
+[2023-05-03 22:08:10] INFO root fetch - processPackages [remindmail]: Downloading https://files.pythonhosted.org/packages/80/0b/f3cb1c655e6c8e786170effd8bcba794dc9a4d7ebde08934ae03680c7b42/remindmail-2023.5.3.1.tar.gz
+[2023-05-03 22:08:10] INFO root fetch - processPackages [recurrent-memory-transformer-pytorch]: Downloading https://files.pythonhosted.org/packages/b0/e2/8e40a5b2642a49f4632942f13f794393176cb4b02894613e46fc2fdd3e8b/recurrent-memory-transformer-pytorch-0.3.1.tar.gz
+[2023-05-03 22:08:10] INFO root fetch - processPackages [launchdarkly-server-sdk]: Downloading https://files.pythonhosted.org/packages/bd/21/d57b44d22daa6c43398277256a881c6a93123b052cad0331a0a1fce3c306/launchdarkly-server-sdk-8.1.3.tar.gz
+[2023-05-03 22:08:10] INFO root fetch - processPackages [CalSciPy]: Downloading https://files.pythonhosted.org/packages/6a/d5/bfc7ccadeab7cc854914e5e8ccb9c3bcb3f8f035f6870cf3688139ed99e6/CalSciPy-0.2.4.tar.gz
+[2023-05-03 22:08:10] INFO root fetch - processPackages [recurrent-memory-transformer-pytorch]: executing diffoscope
+[2023-05-03 22:08:10] INFO root fetch - processPackages [recurrent-memory-transformer-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recurrent-memory-transformer-pytorch-0.3.0.tar.gz tmp/recurrent-memory-transformer-pytorch-0.3.1.tar.gz --markdown 20230503/r/recurrent-memory-transformer-pytorch/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-03 22:08:10] INFO root fetch - processPackages [pyautosrt]: Downloading https://files.pythonhosted.org/packages/42/1b/cc5bb85d680226626682e68bfbf964e7113b6c69d19e0ba025884a63687d/pyautosrt-0.1.7.tar.gz
+[2023-05-03 22:08:10] INFO root fetch - processPackages [remindmail]: executing diffoscope
+[2023-05-03 22:08:10] INFO root fetch - processPackages [remindmail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remindmail-2023.5.1.1.tar.gz tmp/remindmail-2023.5.3.1.tar.gz --markdown 20230503/r/remindmail/2023.5.1.1-2023.5.3.1/diff.md --exclude *.pyd
+[2023-05-03 22:08:10] INFO root fetch - processPackages [CalSciPy]: executing diffoscope
+[2023-05-03 22:08:10] INFO root fetch - processPackages [CalSciPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CalSciPy-0.2.3.tar.gz tmp/CalSciPy-0.2.4.tar.gz --markdown 20230503/C/CalSciPy/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-03 22:08:10] INFO root fetch - processPackages [nonebot-plugin-mystool]: Downloading https://files.pythonhosted.org/packages/a4/2b/00d9898ba1baa60cbdc39b7110cc62236a70f678549a8c53c7395fd2b1be/nonebot_plugin_mystool-0.2.8.tar.gz
+[2023-05-03 22:08:10] INFO root fetch - processPackages [dioptra]: Downloading https://files.pythonhosted.org/packages/1d/13/3cad3e0ce2f9da6fbc18ec087b89268ea80c892aec346ce49e078f3189ef/dioptra-1.0.9rc1.tar.gz
+[2023-05-03 22:08:10] INFO root fetch - processPackages [launchdarkly-server-sdk]: executing diffoscope
+[2023-05-03 22:08:10] INFO root fetch - processPackages [launchdarkly-server-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/launchdarkly-server-sdk-8.1.2.tar.gz tmp/launchdarkly-server-sdk-8.1.3.tar.gz --markdown 20230503/l/launchdarkly-server-sdk/8.1.2-8.1.3/diff.md --exclude *.pyd
+[2023-05-03 22:08:10] INFO root fetch - processPackages [pyautosrt]: executing diffoscope
+[2023-05-03 22:08:10] INFO root fetch - processPackages [pyautosrt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyautosrt-0.1.4.tar.gz tmp/pyautosrt-0.1.7.tar.gz --markdown 20230503/p/pyautosrt/0.1.4-0.1.7/diff.md --exclude *.pyd
+[2023-05-03 22:08:10] INFO root fetch - processPackages [nonebot-plugin-mystool]: executing diffoscope
+[2023-05-03 22:08:10] INFO root fetch - processPackages [nonebot-plugin-mystool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_mystool-0.2.7.tar.gz tmp/nonebot_plugin_mystool-0.2.8.tar.gz --markdown 20230503/n/nonebot-plugin-mystool/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-05-03 22:08:10] INFO root fetch - processPackages [ovos-core]: Downloading https://files.pythonhosted.org/packages/51/ee/52ce34726935c8c4c45d526690a3c83e2b71585a918b26cc886d29b8bf0b/ovos_core-0.0.8a9-py3-none-any.whl
+[2023-05-03 22:08:10] INFO root fetch - processPackages [dioptra]: executing diffoscope
+[2023-05-03 22:08:10] INFO root fetch - processPackages [dioptra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dioptra-1.0.9.tar.gz tmp/dioptra-1.0.9rc1.tar.gz --markdown 20230503/d/dioptra/1.0.9-1.0.9rc1/diff.md --exclude *.pyd
+[2023-05-03 22:08:11] INFO root fetch - processPackages [ovos-core]: executing diffoscope
+[2023-05-03 22:08:11] INFO root fetch - processPackages [ovos-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_core-0.0.8a8-py3-none-any.whl.zip tmp/ovos_core-0.0.8a9-py3-none-any.whl.zip --markdown 20230503/o/ovos-core/0.0.8a8-0.0.8a9/diff.md --exclude *.pyd
+[2023-05-03 22:08:11] INFO root fetch - processPackages [elifecleaner]: Downloading https://files.pythonhosted.org/packages/ba/d9/f14856c509de287aec8a31e76808f681383e338462e051c31edcecd1527f/elifecleaner-0.9.1.tar.gz
+[2023-05-03 22:08:11] INFO root fetch - processPackages [elifecleaner]: executing diffoscope
+[2023-05-03 22:08:11] INFO root fetch - processPackages [elifecleaner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elifecleaner-0.9.0.tar.gz tmp/elifecleaner-0.9.1.tar.gz --markdown 20230503/e/elifecleaner/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-03 22:08:12] INFO root fetch - processPackages [CalSciPy]: Start processing: seaduck
+[2023-05-03 22:08:12] INFO root fetch - main [MainThread]: End processing [CalSciPy]: success
+[2023-05-03 22:08:12] INFO root fetch - main [MainThread]: End processing [recurrent-memory-transformer-pytorch]: success
+[2023-05-03 22:08:12] INFO root fetch - main [MainThread]: End processing [pyautosrt]: success
+[2023-05-03 22:08:12] INFO root fetch - main [MainThread]: End processing [remindmail]: success
+[2023-05-03 22:08:12] WARNING root fetch - processPackages [seaduck]: Skipping, unable to determine old version
+[2023-05-03 22:08:12] INFO root fetch - main [MainThread]: End processing [seaduck] error
+[2023-05-03 22:08:12] INFO root fetch - main [MainThread]: End processing [dioptra]: success
+[2023-05-03 22:08:12] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-mystool]: success
+[2023-05-03 22:08:12] INFO root fetch - main [MainThread]: End processing [elifecleaner]: success
+[2023-05-03 22:08:12] INFO root fetch - main [MainThread]: End processing [dcicsnovault]: success
+[2023-05-03 22:08:14] INFO root fetch - main [MainThread]: End processing [launchdarkly-server-sdk]: success
+[2023-05-03 22:08:23] INFO root fetch - main [MainThread]: End processing [ovos-core]: success
+[2023-05-03 22:08:23] INFO root fetch - main [MainThread]: Store serial: [17962067]
