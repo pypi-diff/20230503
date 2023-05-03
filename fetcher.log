@@ -23402,3 +23402,146 @@ EOFError: EOF read where object expected
 [2023-05-03 21:46:53] INFO root fetch - main [MainThread]: End processing [govuk-frontend-django]: success
 [2023-05-03 21:47:00] INFO root fetch - main [MainThread]: End processing [hordelib]: success
 [2023-05-03 21:47:00] INFO root fetch - main [MainThread]: Store serial: [17961789]
+[2023-05-03 21:52:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17961789]
+[2023-05-03 21:52:09] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-05-03 21:52:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aiida-fleur
+[2023-05-03 21:52:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: govuk-frontend-django
+[2023-05-03 21:52:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: peft
+[2023-05-03 21:52:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tap-messagebird
+[2023-05-03 21:52:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: synchronicity
+[2023-05-03 21:52:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: HTTP-PyServer
+[2023-05-03 21:52:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pysparkler
+[2023-05-03 21:52:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-drf-cms
+[2023-05-03 21:52:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: headless
+[2023-05-03 21:52:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cbra
+[2023-05-03 21:52:09] INFO root fetch - processPackages [govuk-frontend-django]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-03 21:52:09] INFO root fetch - processPackages [pysparkler]: New version: [0.7.dev1683132940] Old Version: [0.7.dev1683067550]
+[2023-05-03 21:52:09] INFO root fetch - processPackages [headless]: New version: [2.0.0a9] Old Version: [2.0.0a8]
+[2023-05-03 21:52:09] INFO root fetch - processPackages [django-drf-cms]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-03 21:52:09] INFO root fetch - processPackages [govuk-frontend-django]: executing diffoscope
+[2023-05-03 21:52:09] INFO root fetch - processPackages [govuk-frontend-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/govuk_frontend_django-0.3.0.tar.gz tmp/govuk_frontend_django-0.3.1.tar.gz --markdown 20230503/g/govuk-frontend-django/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-03 21:52:09] INFO root fetch - processPackages [peft]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-03 21:52:09] INFO root fetch - processPackages [tap-messagebird]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-03 21:52:09] INFO root fetch - processPackages [aiida-fleur]: New version: [2.0.0] Old Version: [1.3.1]
+[2023-05-03 21:52:09] INFO root fetch - processPackages [HTTP-PyServer]: New version: [0.1.1] Old Version: [0.1]
+[2023-05-03 21:52:10] INFO root fetch - processPackages [headless]: executing diffoscope
+[2023-05-03 21:52:10] INFO root fetch - processPackages [headless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/headless-2.0.0a8.tar.gz tmp/headless-2.0.0a9.tar.gz --markdown 20230503/h/headless/2.0.0a8-2.0.0a9/diff.md --exclude *.pyd
+[2023-05-03 21:52:10] INFO root fetch - processPackages [synchronicity]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-05-03 21:52:10] INFO root fetch - processPackages [cbra]: New version: [3.0.0a7] Old Version: [2.0.0a99]
+[2023-05-03 21:52:10] INFO root fetch - processPackages [django-drf-cms]: executing diffoscope
+[2023-05-03 21:52:10] INFO root fetch - processPackages [django-drf-cms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-drf-cms-0.1.8.tar.gz tmp/django-drf-cms-0.1.9.tar.gz --markdown 20230503/d/django-drf-cms/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-03 21:52:10] INFO root fetch - processPackages [pysparkler]: Downloading https://files.pythonhosted.org/packages/36/b6/3288477d65ef4f3d4ebe6aaee7debbde56567a21a980e55120d7e7639525/pysparkler-0.7.dev1683132940.tar.gz
+[2023-05-03 21:52:10] INFO root fetch - processPackages [aiida-fleur]: Downloading https://files.pythonhosted.org/packages/33/62/a3eb1bd97b01c6b6ce6a311d5607c62685657f62be4502e4f7cc084ba5fa/aiida-fleur-1.3.1.tar.gz
+[2023-05-03 21:52:10] INFO root fetch - processPackages [synchronicity]: Downloading https://files.pythonhosted.org/packages/42/23/9eed281ca94053f6df1d097cfa66c4ea32267ad5960267993f9979bd7b0e/synchronicity-0.4.3-py3-none-any.whl
+[2023-05-03 21:52:10] INFO root fetch - processPackages [tap-messagebird]: Downloading https://files.pythonhosted.org/packages/9a/b0/816c35aefd5020dd049a1f491677c3e666642e7fb62ae654eeedc023f743/tap_messagebird-0.0.7.tar.gz
+[2023-05-03 21:52:10] INFO root fetch - processPackages [peft]: Downloading https://files.pythonhosted.org/packages/c2/74/b682f037fb721d200947059451aff18d325b56b3a2383f79d47d48c7c8c6/peft-0.2.0.tar.gz
+[2023-05-03 21:52:10] INFO root fetch - processPackages [pysparkler]: executing diffoscope
+[2023-05-03 21:52:10] INFO root fetch - processPackages [pysparkler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysparkler-0.7.dev1683067550.tar.gz tmp/pysparkler-0.7.dev1683132940.tar.gz --markdown 20230503/p/pysparkler/0.7.dev1683067550-0.7.dev1683132940/diff.md --exclude *.pyd
+[2023-05-03 21:52:10] INFO root fetch - processPackages [HTTP-PyServer]: Downloading https://files.pythonhosted.org/packages/50/05/4b2fab880523e7f33ac3c38feb323c0e174875f774c077fdabe114813b6e/HTTP-PyServer-0.1.1.tar.gz
+[2023-05-03 21:52:10] INFO root fetch - processPackages [cbra]: Downloading https://files.pythonhosted.org/packages/e3/30/881c6ff6126ad5e84aee92c87271280498b0d03f3c7ad7ca93e0e0fd381b/cbra-3.0.0a7.tar.gz
+[2023-05-03 21:52:10] INFO root fetch - processPackages [HTTP-PyServer]: executing diffoscope
+[2023-05-03 21:52:10] INFO root fetch - processPackages [HTTP-PyServer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HTTP-PyServer-0.1.tar.gz tmp/HTTP-PyServer-0.1.1.tar.gz --markdown 20230503/H/HTTP-PyServer/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-05-03 21:52:10] INFO root fetch - processPackages [peft]: Downloading https://files.pythonhosted.org/packages/9a/ac/862aa187c8a42d8133090d76fd626044a4166e5db17bcc11c9fca8548ee4/peft-0.3.0.tar.gz
+[2023-05-03 21:52:10] INFO root fetch - processPackages [cbra]: executing diffoscope
+[2023-05-03 21:52:10] INFO root fetch - processPackages [cbra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbra-2.0.0a99.tar.gz tmp/cbra-3.0.0a7.tar.gz --markdown 20230503/c/cbra/2.0.0a99-3.0.0a7/diff.md --exclude *.pyd
+[2023-05-03 21:52:10] INFO root fetch - processPackages [tap-messagebird]: Downloading https://files.pythonhosted.org/packages/ec/d7/1d25f19d07a88a35f0c9ca87d3f94c165f730dab38bf118026b2e23f4e2a/tap_messagebird-0.0.8.tar.gz
+[2023-05-03 21:52:10] INFO root fetch - processPackages [synchronicity]: Downloading https://files.pythonhosted.org/packages/39/bc/8efbecb2a83bf11e04e366f110e94e998cbf1465d66707644316df251e03/synchronicity-0.4.4-py3-none-any.whl
+[2023-05-03 21:52:10] INFO root fetch - processPackages [peft]: executing diffoscope
+[2023-05-03 21:52:10] INFO root fetch - processPackages [peft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peft-0.2.0.tar.gz tmp/peft-0.3.0.tar.gz --markdown 20230503/p/peft/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-03 21:52:10] INFO root fetch - processPackages [synchronicity]: executing diffoscope
+[2023-05-03 21:52:10] INFO root fetch - processPackages [synchronicity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synchronicity-0.4.3-py3-none-any.whl.zip tmp/synchronicity-0.4.4-py3-none-any.whl.zip --markdown 20230503/s/synchronicity/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-05-03 21:52:10] INFO root fetch - processPackages [tap-messagebird]: executing diffoscope
+[2023-05-03 21:52:10] INFO root fetch - processPackages [tap-messagebird]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap_messagebird-0.0.7.tar.gz tmp/tap_messagebird-0.0.8.tar.gz --markdown 20230503/t/tap-messagebird/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-03 21:52:11] INFO root fetch - processPackages [aiida-fleur]: Downloading https://files.pythonhosted.org/packages/b2/85/84963effd8eea3e993a2c10850cdeba4901a7ace2966d0fa2b6f184403cd/aiida-fleur-2.0.0.tar.gz
+[2023-05-03 21:52:11] INFO root fetch - processPackages [django-drf-cms]: Start processing: heist-salt
+[2023-05-03 21:52:11] INFO root fetch - main [MainThread]: End processing [django-drf-cms]: success
+[2023-05-03 21:52:11] INFO root fetch - processPackages [aiida-fleur]: executing diffoscope
+[2023-05-03 21:52:11] INFO root fetch - processPackages [aiida-fleur]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiida-fleur-1.3.1.tar.gz tmp/aiida-fleur-2.0.0.tar.gz --markdown 20230503/a/aiida-fleur/1.3.1-2.0.0/diff.md --exclude *.pyd
+[2023-05-03 21:52:11] INFO root fetch - processPackages [heist-salt]: New version: [6.0.0] Old Version: [5.3.1]
+[2023-05-03 21:52:11] INFO root fetch - processPackages [pysparkler]: Start processing: dapr-dev
+[2023-05-03 21:52:11] INFO root fetch - main [MainThread]: End processing [pysparkler]: success
+[2023-05-03 21:52:11] INFO root fetch - processPackages [dapr-dev]: New version: [1.9.0rc1.dev1526] Old Version: [1.9.0rc1.dev1502]
+[2023-05-03 21:52:11] INFO root fetch - processPackages [heist-salt]: Downloading https://files.pythonhosted.org/packages/5f/93/548b94332300f7baa9ed8eef57f207cc961601398e283d9a1b7ddfaed506/heist-salt-5.3.1.tar.gz
+[2023-05-03 21:52:11] INFO root fetch - processPackages [HTTP-PyServer]: Start processing: dapr-ext-workflow-dev
+[2023-05-03 21:52:11] INFO root fetch - main [MainThread]: End processing [HTTP-PyServer]: success
+[2023-05-03 21:52:11] INFO root fetch - processPackages [dapr-ext-workflow-dev]: New version: [0.0.1rc1.dev1526] Old Version: [0.0.1rc1.dev1502]
+[2023-05-03 21:52:11] INFO root fetch - processPackages [dapr-dev]: Downloading https://files.pythonhosted.org/packages/90/1a/98ce31fda21f2651116875edd6332b1e4715f4abb7486e97b3b3d70ffef5/dapr-dev-1.9.0rc1.dev1502.tar.gz
+[2023-05-03 21:52:12] INFO root fetch - processPackages [heist-salt]: Downloading https://files.pythonhosted.org/packages/ec/6e/f0d79d9212268afd23d6dff9821ed778d991cb5918fdb8249fcb6f3e471b/heist-salt-6.0.0.tar.gz
+[2023-05-03 21:52:12] INFO root fetch - processPackages [dapr-ext-workflow-dev]: Downloading https://files.pythonhosted.org/packages/49/4e/2bc861a649828ad6c9c16d51482fb30cfec652ca5f1394eac7c10b24fad4/dapr-ext-workflow-dev-0.0.1rc1.dev1502.tar.gz
+[2023-05-03 21:52:12] INFO root fetch - processPackages [synchronicity]: Start processing: flask-dapr-dev
+[2023-05-03 21:52:12] INFO root fetch - main [MainThread]: End processing [synchronicity]: success
+[2023-05-03 21:52:12] INFO root fetch - processPackages [dapr-dev]: Downloading https://files.pythonhosted.org/packages/a9/91/d97eb4718ff496b9409e76f871c2e6ff437a2b969186ca6c6cc15321b61a/dapr-dev-1.9.0rc1.dev1526.tar.gz
+[2023-05-03 21:52:12] INFO root fetch - processPackages [heist-salt]: executing diffoscope
+[2023-05-03 21:52:12] INFO root fetch - processPackages [heist-salt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heist-salt-5.3.1.tar.gz tmp/heist-salt-6.0.0.tar.gz --markdown 20230503/h/heist-salt/5.3.1-6.0.0/diff.md --exclude *.pyd
+[2023-05-03 21:52:12] INFO root fetch - processPackages [flask-dapr-dev]: New version: [1.9.0rc1.dev1526] Old Version: [1.9.0rc1.dev1502]
+[2023-05-03 21:52:12] INFO root fetch - processPackages [tap-messagebird]: Start processing: dapr-ext-grpc-dev
+[2023-05-03 21:52:12] INFO root fetch - main [MainThread]: End processing [tap-messagebird]: success
+[2023-05-03 21:52:12] INFO root fetch - processPackages [dapr-dev]: executing diffoscope
+[2023-05-03 21:52:12] INFO root fetch - processPackages [dapr-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dapr-dev-1.9.0rc1.dev1502.tar.gz tmp/dapr-dev-1.9.0rc1.dev1526.tar.gz --markdown 20230503/d/dapr-dev/1.9.0rc1.dev1502-1.9.0rc1.dev1526/diff.md --exclude *.pyd
+[2023-05-03 21:52:12] INFO root fetch - processPackages [govuk-frontend-django]: Start processing: dapr-ext-fastapi-dev
+[2023-05-03 21:52:12] INFO root fetch - main [MainThread]: End processing [govuk-frontend-django]: success
+[2023-05-03 21:52:12] INFO root fetch - processPackages [peft]: Start processing: ytsaurus-spyt
+[2023-05-03 21:52:12] INFO root fetch - main [MainThread]: End processing [peft]: success
+[2023-05-03 21:52:12] INFO root fetch - processPackages [dapr-ext-grpc-dev]: New version: [1.9.0rc1.dev1526] Old Version: [1.9.0rc1.dev1502]
+[2023-05-03 21:52:12] INFO root fetch - processPackages [flask-dapr-dev]: Downloading https://files.pythonhosted.org/packages/1d/55/61b8744613e21d73029a47dff4e5ac058b93191ece5b4673a35a27b60083/flask-dapr-dev-1.9.0rc1.dev1502.tar.gz
+[2023-05-03 21:52:12] INFO root fetch - processPackages [dapr-ext-fastapi-dev]: New version: [1.9.0rc1.dev1526] Old Version: [1.9.0rc1.dev1502]
+[2023-05-03 21:52:12] INFO root fetch - processPackages [dapr-ext-workflow-dev]: Downloading https://files.pythonhosted.org/packages/34/fd/ae3cd4cdf52a34839bc1e92fbcca2a3ab1e567645c0d59b68d166de37a57/dapr-ext-workflow-dev-0.0.1rc1.dev1526.tar.gz
+[2023-05-03 21:52:12] INFO root fetch - processPackages [ytsaurus-spyt]: New version: [1.70.1b444.post15369525.dev8] Old Version: [1.70.0]
+[2023-05-03 21:52:12] INFO root fetch - processPackages [dapr-ext-workflow-dev]: executing diffoscope
+[2023-05-03 21:52:12] INFO root fetch - processPackages [dapr-ext-workflow-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dapr-ext-workflow-dev-0.0.1rc1.dev1502.tar.gz tmp/dapr-ext-workflow-dev-0.0.1rc1.dev1526.tar.gz --markdown 20230503/d/dapr-ext-workflow-dev/0.0.1rc1.dev1502-0.0.1rc1.dev1526/diff.md --exclude *.pyd
+[2023-05-03 21:52:12] INFO root fetch - processPackages [dapr-ext-grpc-dev]: Downloading https://files.pythonhosted.org/packages/ac/d9/ef25e7eaad3bb56b47da25278de86bb01345be917e41aab1823334d7be1b/dapr-ext-grpc-dev-1.9.0rc1.dev1502.tar.gz
+[2023-05-03 21:52:12] INFO root fetch - processPackages [ytsaurus-spyt]: Downloading https://files.pythonhosted.org/packages/0b/80/24c71414f88d92fe385a8c7e7c51db97cc9ed15709fb01b0a55090ac08ed/ytsaurus-spyt-1.70.0.tar.gz
+[2023-05-03 21:52:12] INFO root fetch - processPackages [dapr-ext-fastapi-dev]: Downloading https://files.pythonhosted.org/packages/4f/3a/5a27cf52d5fdc985747fce29700b0f60e9933ca59634f43154a68680c709/dapr-ext-fastapi-dev-1.9.0rc1.dev1502.tar.gz
+[2023-05-03 21:52:12] INFO root fetch - processPackages [flask-dapr-dev]: Downloading https://files.pythonhosted.org/packages/60/55/1c0786325c01e3e6f2a5a41ea9bd7378883180e889ea3b7f52be12ae32ea/flask-dapr-dev-1.9.0rc1.dev1526.tar.gz
+[2023-05-03 21:52:12] INFO root fetch - processPackages [dapr-ext-grpc-dev]: Downloading https://files.pythonhosted.org/packages/50/6a/ec4f2504c02d8d689b57629fdd4f4cefff4acb84f8617a8fc34f8cfc63cb/dapr-ext-grpc-dev-1.9.0rc1.dev1526.tar.gz
+[2023-05-03 21:52:12] INFO root fetch - processPackages [flask-dapr-dev]: executing diffoscope
+[2023-05-03 21:52:12] INFO root fetch - processPackages [flask-dapr-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask-dapr-dev-1.9.0rc1.dev1502.tar.gz tmp/flask-dapr-dev-1.9.0rc1.dev1526.tar.gz --markdown 20230503/f/flask-dapr-dev/1.9.0rc1.dev1502-1.9.0rc1.dev1526/diff.md --exclude *.pyd
+[2023-05-03 21:52:12] INFO root fetch - processPackages [dapr-ext-fastapi-dev]: Downloading https://files.pythonhosted.org/packages/70/1d/2108dd7597ded806a6346cd56fb1afa47aaf1e1590a1d8192a50b923290d/dapr-ext-fastapi-dev-1.9.0rc1.dev1526.tar.gz
+[2023-05-03 21:52:12] INFO root fetch - processPackages [dapr-ext-grpc-dev]: executing diffoscope
+[2023-05-03 21:52:12] INFO root fetch - processPackages [dapr-ext-grpc-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dapr-ext-grpc-dev-1.9.0rc1.dev1502.tar.gz tmp/dapr-ext-grpc-dev-1.9.0rc1.dev1526.tar.gz --markdown 20230503/d/dapr-ext-grpc-dev/1.9.0rc1.dev1502-1.9.0rc1.dev1526/diff.md --exclude *.pyd
+[2023-05-03 21:52:12] INFO root fetch - processPackages [ytsaurus-spyt]: Downloading https://files.pythonhosted.org/packages/13/15/be64f70c8ccc315cb077d7879df5074ea6d8bd926d5380ade006b5513094/ytsaurus-spyt-1.70.1b444.post15369525.dev8.tar.gz
+[2023-05-03 21:52:12] INFO root fetch - processPackages [dapr-ext-fastapi-dev]: executing diffoscope
+[2023-05-03 21:52:12] INFO root fetch - processPackages [dapr-ext-fastapi-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dapr-ext-fastapi-dev-1.9.0rc1.dev1502.tar.gz tmp/dapr-ext-fastapi-dev-1.9.0rc1.dev1526.tar.gz --markdown 20230503/d/dapr-ext-fastapi-dev/1.9.0rc1.dev1502-1.9.0rc1.dev1526/diff.md --exclude *.pyd
+[2023-05-03 21:52:13] INFO root fetch - processPackages [ytsaurus-spyt]: executing diffoscope
+[2023-05-03 21:52:13] INFO root fetch - processPackages [ytsaurus-spyt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ytsaurus-spyt-1.70.0.tar.gz tmp/ytsaurus-spyt-1.70.1b444.post15369525.dev8.tar.gz --markdown 20230503/y/ytsaurus-spyt/1.70.0-1.70.1b444.post15369525.dev8/diff.md --exclude *.pyd
+[2023-05-03 21:52:13] INFO root fetch - processPackages [heist-salt]: Start processing: custom-rails
+[2023-05-03 21:52:13] INFO root fetch - main [MainThread]: End processing [heist-salt]: success
+[2023-05-03 21:52:13] INFO root fetch - processPackages [custom-rails]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-03 21:52:13] INFO root fetch - processPackages [custom-rails]: executing diffoscope
+[2023-05-03 21:52:13] INFO root fetch - processPackages [custom-rails]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/custom_rails-0.0.7.tar.gz tmp/custom_rails-0.0.8.tar.gz --markdown 20230503/c/custom-rails/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-03 21:52:13] INFO root fetch - processPackages [dapr-dev]: Start processing: malla
+[2023-05-03 21:52:13] INFO root fetch - main [MainThread]: End processing [dapr-dev]: success
+[2023-05-03 21:52:13] INFO root fetch - processPackages [dapr-ext-workflow-dev]: Start processing: rq-dashboard-compatible
+[2023-05-03 21:52:13] INFO root fetch - main [MainThread]: End processing [dapr-ext-workflow-dev]: success
+[2023-05-03 21:52:13] INFO root fetch - processPackages [malla]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-03 21:52:13] ERROR root fetch - processPackages [rq-dashboard-compatible]: Unable to get metadata: No such project 'rq-dashboard-compatible'
+[2023-05-03 21:52:13] INFO root fetch - processPackages [rq-dashboard-compatible]: Start processing: farking
+[2023-05-03 21:52:13] INFO root fetch - main [MainThread]: End processing [rq-dashboard-compatible] error
+[2023-05-03 21:52:13] INFO root fetch - processPackages [flask-dapr-dev]: Start processing: bussim2
+[2023-05-03 21:52:13] INFO root fetch - main [MainThread]: End processing [flask-dapr-dev]: success
+[2023-05-03 21:52:13] INFO root fetch - processPackages [bussim2]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-03 21:52:13] WARNING root fetch - processPackages [farking]: Skipping, unable to determine old version
+[2023-05-03 21:52:13] INFO root fetch - processPackages [farking]: Start processing: terka
+[2023-05-03 21:52:13] INFO root fetch - main [MainThread]: End processing [farking] error
+[2023-05-03 21:52:13] INFO root fetch - processPackages [malla]: Downloading https://files.pythonhosted.org/packages/72/09/0e44e1bff2778d98a193913dfa6a26944529f6444f4fe4d1a7c95de2f6d1/malla-0.1.4.tar.gz
+[2023-05-03 21:52:14] INFO root fetch - processPackages [terka]: New version: [1.7.2] Old Version: [1.7.1.1]
+[2023-05-03 21:52:14] INFO root fetch - processPackages [bussim2]: Downloading https://files.pythonhosted.org/packages/26/48/c8f32219eb633708b5c6f993715790cc7d07cb72e494269dc7ed7bf7263d/bussim2-0.3.1.tar.gz
+[2023-05-03 21:52:14] INFO root fetch - main [MainThread]: End processing [dapr-ext-grpc-dev]: success
+[2023-05-03 21:52:14] WARNING root fetch - processPackages [bussim2]: Skipping package: exceeds size limit 23385575>=10485760
+[2023-05-03 21:52:14] INFO root fetch - main [MainThread]: End processing [bussim2] error
+[2023-05-03 21:52:14] INFO root fetch - main [MainThread]: End processing [dapr-ext-fastapi-dev]: success
+[2023-05-03 21:52:14] INFO root fetch - processPackages [malla]: Downloading https://files.pythonhosted.org/packages/ea/65/7f6430354b31e829d63668372e647c8162d9e2aaa8ebc902ec08a49ac5a6/malla-0.1.5.tar.gz
+[2023-05-03 21:52:14] INFO root fetch - processPackages [terka]: Downloading https://files.pythonhosted.org/packages/09/79/b9d5646316ffd0fef8ccfab79302a6cfaf429d87277d68d3b58971aeb277/terka-1.7.1.1.tar.gz
+[2023-05-03 21:52:14] INFO root fetch - main [MainThread]: End processing [headless]: success
+[2023-05-03 21:52:14] INFO root fetch - processPackages [malla]: executing diffoscope
+[2023-05-03 21:52:14] INFO root fetch - processPackages [malla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/malla-0.1.4.tar.gz tmp/malla-0.1.5.tar.gz --markdown 20230503/m/malla/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-03 21:52:14] INFO root fetch - processPackages [terka]: Downloading https://files.pythonhosted.org/packages/d5/03/1a58346a9d8de5e198e3ab28c6c33936ba1667739e2bbb8fb7c3b7b1e4c8/terka-1.7.2.tar.gz
+[2023-05-03 21:52:14] INFO root fetch - processPackages [terka]: executing diffoscope
+[2023-05-03 21:52:14] INFO root fetch - processPackages [terka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terka-1.7.1.1.tar.gz tmp/terka-1.7.2.tar.gz --markdown 20230503/t/terka/1.7.1.1-1.7.2/diff.md --exclude *.pyd
+[2023-05-03 21:52:14] INFO root fetch - main [MainThread]: End processing [custom-rails]: success
+[2023-05-03 21:52:15] INFO root fetch - main [MainThread]: End processing [malla]: success
+[2023-05-03 21:52:15] INFO root fetch - main [MainThread]: End processing [terka]: success
+[2023-05-03 21:52:19] INFO root fetch - main [MainThread]: End processing [aiida-fleur]: success
+[2023-05-03 21:52:19] INFO root fetch - main [MainThread]: End processing [cbra]: success
+[2023-05-03 21:52:22] INFO root fetch - main [MainThread]: End processing [ytsaurus-spyt]: success
+[2023-05-03 21:52:22] INFO root fetch - main [MainThread]: Store serial: [17961861]
