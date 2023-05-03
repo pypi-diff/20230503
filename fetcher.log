@@ -5342,3 +5342,37 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-03 05:29:44] INFO root fetch - main [MainThread]: End processing [safe-eth-py-suraneti]: success
 [2023-05-03 05:29:50] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-cloudflare]: success
 [2023-05-03 05:29:50] INFO root fetch - main [MainThread]: Store serial: [17950993]
+[2023-05-03 05:34:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17950993]
+[2023-05-03 05:34:59] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-03 05:34:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: babylog
+[2023-05-03 05:34:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: netbox-lists
+[2023-05-03 05:34:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wombato
+[2023-05-03 05:34:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: always-updates
+[2023-05-03 05:34:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: heaobject
+[2023-05-03 05:34:59] INFO root fetch - processPackages [netbox-lists]: New version: [3.0.0] Old Version: [2.2.0]
+[2023-05-03 05:34:59] INFO root fetch - processPackages [babylog]: New version: [1.0.2] Old Version: [0.0.2]
+[2023-05-03 05:34:59] INFO root fetch - processPackages [wombato]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-03 05:34:59] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-05-03 05:34:59] INFO root fetch - processPackages [heaobject]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-05-03 05:34:59] INFO root fetch - processPackages [babylog]: Downloading https://files.pythonhosted.org/packages/a2/ee/5c2058c55450bc9990f0fc6cd11e370196ffb2552989fdd023f93046bf69/babylog-0.0.2.tar.gz
+[2023-05-03 05:34:59] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-05-03 05:34:59] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230503/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-05-03 05:34:59] INFO root fetch - processPackages [netbox-lists]: Downloading https://files.pythonhosted.org/packages/33/b9/2b50c26e469bced7230728808446fcb4ef38eadd82843a13a01e17c075b0/netbox_lists-3.0.0.tar.gz
+[2023-05-03 05:34:59] INFO root fetch - processPackages [wombato]: Downloading https://files.pythonhosted.org/packages/fd/24/28e3462fae4ee4215a10a1391baff3dd59d022be35f70da2c2d66277dd86/wombato-0.0.5.tar.gz
+[2023-05-03 05:34:59] INFO root fetch - processPackages [heaobject]: Downloading https://files.pythonhosted.org/packages/17/38/f2cd981268a2f1ba60928e8adca3b88331abfa27ca5bc770488ced4f0a18/heaobject-1.0.0a8.tar.gz
+[2023-05-03 05:34:59] INFO root fetch - processPackages [netbox-lists]: executing diffoscope
+[2023-05-03 05:34:59] INFO root fetch - processPackages [netbox-lists]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-lists-2.2.0.tar.gz tmp/netbox_lists-3.0.0.tar.gz --markdown 20230503/n/netbox-lists/2.2.0-3.0.0/diff.md --exclude *.pyd
+[2023-05-03 05:35:00] INFO root fetch - processPackages [wombato]: Downloading https://files.pythonhosted.org/packages/94/ad/e0b2af072bc793224f1e7a5057427d92a4a2dd03e8987db4fdbf4e6a6fcc/wombato-0.0.6.tar.gz
+[2023-05-03 05:35:00] INFO root fetch - processPackages [babylog]: executing diffoscope
+[2023-05-03 05:35:00] INFO root fetch - processPackages [babylog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/babylog-0.0.2.tar.gz tmp/babylog-1.0.2.tar.gz --markdown 20230503/b/babylog/0.0.2-1.0.2/diff.md --exclude *.pyd
+[2023-05-03 05:35:00] INFO root fetch - processPackages [wombato]: executing diffoscope
+[2023-05-03 05:35:00] INFO root fetch - processPackages [wombato]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wombato-0.0.5.tar.gz tmp/wombato-0.0.6.tar.gz --markdown 20230503/w/wombato/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-03 05:35:00] INFO root fetch - processPackages [heaobject]: Downloading https://files.pythonhosted.org/packages/b8/16/d3d81d41e49df90146c58d742bd80cbadc210dc2060460f1d3dadc571a9c/heaobject-1.0.0a9.tar.gz
+[2023-05-03 05:35:00] INFO root fetch - processPackages [heaobject]: executing diffoscope
+[2023-05-03 05:35:00] INFO root fetch - processPackages [heaobject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaobject-1.0.0a8.tar.gz tmp/heaobject-1.0.0a9.tar.gz --markdown 20230503/h/heaobject/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-05-03 05:35:00] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-05-03 05:35:01] INFO root fetch - main [MainThread]: End processing [babylog]: success
+[2023-05-03 05:35:01] INFO root fetch - main [MainThread]: End processing [wombato]: success
+[2023-05-03 05:35:01] INFO root fetch - main [MainThread]: End processing [netbox-lists]: success
+[2023-05-03 05:35:01] INFO root fetch - main [MainThread]: End processing [heaobject]: success
+[2023-05-03 05:35:01] INFO root fetch - main [MainThread]: Store serial: [17951010]
