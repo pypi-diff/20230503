@@ -8074,3 +8074,65 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-03 09:33:46] INFO root fetch - main [MainThread]: End processing [ausbildungsnachweise-utils]: success
 [2023-05-03 09:33:47] INFO root fetch - main [MainThread]: End processing [CASTING]: success
 [2023-05-03 09:33:47] INFO root fetch - main [MainThread]: Store serial: [17952651]
+[2023-05-03 09:38:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17952651]
+[2023-05-03 09:38:56] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-03 09:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TrackerGG
+[2023-05-03 09:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spacectl
+[2023-05-03 09:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: commitizen
+[2023-05-03 09:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hsfs
+[2023-05-03 09:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addons-oca-web
+[2023-05-03 09:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: urlwatch
+[2023-05-03 09:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: MJOLNIRGui
+[2023-05-03 09:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: waffle-hub
+[2023-05-03 09:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: MKN-third-codes
+[2023-05-03 09:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: QuNet
+[2023-05-03 09:38:56] INFO root fetch - processPackages [spacectl]: New version: [1.9.7rc3] Old Version: [1.9.7rc2]
+[2023-05-03 09:38:56] INFO root fetch - processPackages [urlwatch]: New version: [2.9] Old Version: [2.8]
+[2023-05-03 09:38:56] INFO root fetch - processPackages [TrackerGG]: New version: [2.6.0] Old Version: [2.5.0]
+[2023-05-03 09:38:56] INFO root fetch - processPackages [waffle-hub]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-05-03 09:38:56] INFO root fetch - processPackages [hsfs]: New version: [3.2.0rc0] Old Version: [3.1.1rc4]
+[2023-05-03 09:38:56] INFO root fetch - processPackages [odoo-addons-oca-web]: New version: [16.0.20230502.0] Old Version: [16.0.20230428.1]
+[2023-05-03 09:38:56] INFO root fetch - processPackages [MJOLNIRGui]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-03 09:38:56] INFO root fetch - processPackages [MKN-third-codes]: New version: [0.6.4.2] Old Version: [0.6.4.1]
+[2023-05-03 09:38:56] INFO root fetch - processPackages [QuNet]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 09:38:56] INFO root fetch - processPackages [commitizen]: New version: [3.2.1] Old Version: [3.2.0]
+[2023-05-03 09:38:56] INFO root fetch - processPackages [spacectl]: executing diffoscope
+[2023-05-03 09:38:56] INFO root fetch - processPackages [spacectl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spacectl-1.9.7rc2-py3-none-any.whl.zip tmp/spacectl-1.9.7rc3-py3-none-any.whl.zip --markdown 20230503/s/spacectl/1.9.7rc2-1.9.7rc3/diff.md --exclude *.pyd
+[2023-05-03 09:38:56] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-05-03 09:38:56] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.8-py3-none-any.whl.zip tmp/QuNet-0.0.9-py3-none-any.whl.zip --markdown 20230503/Q/QuNet/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 09:38:56] INFO root fetch - processPackages [urlwatch]: Downloading https://files.pythonhosted.org/packages/10/49/062c7a7d97a33c095e857a260f7dd0f1946362804f7b651586b4d0d75b43/urlwatch-2.8.tar.gz
+[2023-05-03 09:38:56] INFO root fetch - processPackages [MJOLNIRGui]: Downloading https://files.pythonhosted.org/packages/a2/cd/97e1f9dcc0bddecf67ee61eb7cb6673bc8d69bfa3629a76160aaee7c073d/MJOLNIRGui-1.0.2-py3-none-any.whl
+[2023-05-03 09:38:56] INFO root fetch - processPackages [MKN-third-codes]: Downloading https://files.pythonhosted.org/packages/17/6d/82ddc0d0d01f97d14179d312223ddb2b1fc86f25cc257a8a50f1928e5771/MKN_third_codes-0.6.4.2.tar.gz
+[2023-05-03 09:38:56] INFO root fetch - processPackages [TrackerGG]: Downloading https://files.pythonhosted.org/packages/7e/09/12df13b87b5a373c256b6b4341c4e216c0d1b0653eb9d79c8444b4a2a872/TrackerGG-2.6.0.tar.gz
+[2023-05-03 09:38:56] INFO root fetch - processPackages [MKN-third-codes]: executing diffoscope
+[2023-05-03 09:38:56] INFO root fetch - processPackages [MKN-third-codes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MKN_third_codes-0.6.4.1.tar.gz tmp/MKN_third_codes-0.6.4.2.tar.gz --markdown 20230503/M/MKN-third-codes/0.6.4.1-0.6.4.2/diff.md --exclude *.pyd
+[2023-05-03 09:38:56] INFO root fetch - processPackages [commitizen]: Downloading https://files.pythonhosted.org/packages/70/56/7431f3085f3d0ac50121bebc0e53dca9481a0f909940948ff7fe25be7029/commitizen-3.2.1.tar.gz
+[2023-05-03 09:38:56] INFO root fetch - processPackages [odoo-addons-oca-web]: Downloading https://files.pythonhosted.org/packages/4c/47/23e3755c6e13e763545ea34c4981fba80c9773fe8ab6b671be84a18a6dc2/odoo_addons_oca_web-16.0.20230502.0-py3-none-any.whl
+[2023-05-03 09:38:56] INFO root fetch - processPackages [waffle-hub]: Downloading https://files.pythonhosted.org/packages/53/75/8a896755c16315ad02831ec513de6fde81f737ac8b9c266790da0dd6efa7/waffle_hub-0.2.0.tar.gz
+[2023-05-03 09:38:56] INFO root fetch - processPackages [hsfs]: executing diffoscope
+[2023-05-03 09:38:56] INFO root fetch - processPackages [hsfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hsfs-3.1.1rc4.tar.gz tmp/hsfs-3.2.0rc0.tar.gz --markdown 20230503/h/hsfs/3.1.1rc4-3.2.0rc0/diff.md --exclude *.pyd
+[2023-05-03 09:38:57] INFO root fetch - processPackages [TrackerGG]: executing diffoscope
+[2023-05-03 09:38:57] INFO root fetch - processPackages [TrackerGG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TrackerGG-2.5.0.tar.gz tmp/TrackerGG-2.6.0.tar.gz --markdown 20230503/T/TrackerGG/2.5.0-2.6.0/diff.md --exclude *.pyd
+[2023-05-03 09:38:57] INFO root fetch - processPackages [commitizen]: executing diffoscope
+[2023-05-03 09:38:57] INFO root fetch - processPackages [commitizen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commitizen-3.2.0.tar.gz tmp/commitizen-3.2.1.tar.gz --markdown 20230503/c/commitizen/3.2.0-3.2.1/diff.md --exclude *.pyd
+[2023-05-03 09:38:57] INFO root fetch - processPackages [odoo-addons-oca-web]: executing diffoscope
+[2023-05-03 09:38:57] INFO root fetch - processPackages [odoo-addons-oca-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_web-16.0.20230428.1-py3-none-any.whl.zip tmp/odoo_addons_oca_web-16.0.20230502.0-py3-none-any.whl.zip --markdown 20230503/o/odoo-addons-oca-web/16.0.20230428.1-16.0.20230502.0/diff.md --exclude *.pyd
+[2023-05-03 09:38:57] INFO root fetch - processPackages [waffle-hub]: executing diffoscope
+[2023-05-03 09:38:57] INFO root fetch - processPackages [waffle-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waffle_hub-0.1.9.tar.gz tmp/waffle_hub-0.2.0.tar.gz --markdown 20230503/w/waffle-hub/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-05-03 09:38:57] INFO root fetch - processPackages [MJOLNIRGui]: Downloading https://files.pythonhosted.org/packages/d9/7a/d6999920efdb8e50d8ffe7f4d0877dddee59c7e7eae86d7358fa85351194/MJOLNIRGui-1.0.3-py3-none-any.whl
+[2023-05-03 09:38:57] INFO root fetch - processPackages [urlwatch]: Downloading https://files.pythonhosted.org/packages/ed/ec/9840e5a935a35b1779a26748861d7929a4a36fd304c380fb44c639731ef3/urlwatch-2.9.tar.gz
+[2023-05-03 09:38:57] INFO root fetch - processPackages [MJOLNIRGui]: executing diffoscope
+[2023-05-03 09:38:57] INFO root fetch - processPackages [MJOLNIRGui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MJOLNIRGui-1.0.2-py3-none-any.whl.zip tmp/MJOLNIRGui-1.0.3-py3-none-any.whl.zip --markdown 20230503/M/MJOLNIRGui/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-03 09:38:57] INFO root fetch - processPackages [urlwatch]: executing diffoscope
+[2023-05-03 09:38:57] INFO root fetch - processPackages [urlwatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/urlwatch-2.8.tar.gz tmp/urlwatch-2.9.tar.gz --markdown 20230503/u/urlwatch/2.8-2.9/diff.md --exclude *.pyd
+[2023-05-03 09:38:58] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-05-03 09:38:58] INFO root fetch - main [MainThread]: End processing [spacectl]: success
+[2023-05-03 09:38:58] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-web]: success
+[2023-05-03 09:38:58] INFO root fetch - main [MainThread]: End processing [MKN-third-codes]: success
+[2023-05-03 09:38:58] INFO root fetch - main [MainThread]: End processing [commitizen]: success
+[2023-05-03 09:38:59] INFO root fetch - main [MainThread]: End processing [TrackerGG]: success
+[2023-05-03 09:38:59] INFO root fetch - main [MainThread]: End processing [urlwatch]: success
+[2023-05-03 09:38:59] INFO root fetch - main [MainThread]: End processing [waffle-hub]: success
+[2023-05-03 09:39:00] INFO root fetch - main [MainThread]: End processing [MJOLNIRGui]: success
+[2023-05-03 09:39:01] INFO root fetch - main [MainThread]: End processing [hsfs]: success
+[2023-05-03 09:39:01] INFO root fetch - main [MainThread]: Store serial: [17952685]
