@@ -2389,3 +2389,54 @@
 [2023-05-03 03:08:33] INFO root fetch - main [MainThread]: End processing [databased]: success
 [2023-05-03 03:09:45] INFO root fetch - main [MainThread]: End processing [ddtrace]: success
 [2023-05-03 03:09:45] INFO root fetch - main [MainThread]: Store serial: [17949216]
+[2023-05-03 03:14:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17949216]
+[2023-05-03 03:14:58] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-03 03:14:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyagrum-nightly
+[2023-05-03 03:14:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vit-keras
+[2023-05-03 03:14:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: argshell
+[2023-05-03 03:14:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-organizations
+[2023-05-03 03:14:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: volworld-aws-api-common
+[2023-05-03 03:14:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dscustom-libs
+[2023-05-03 03:14:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-sops-secrets
+[2023-05-03 03:14:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: volworld-aws-api-common
+[2023-05-03 03:14:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: autogon-util
+[2023-05-03 03:14:58] INFO root fetch - processPackages [volworld-aws-api-common]: New version: [0.1.9] Old Version: [0.1.80]
+[2023-05-03 03:14:58] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-03 03:14:58] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-05-03 03:14:58] INFO root fetch - processPackages [volworld-aws-api-common]: New version: [0.1.9] Old Version: [0.1.80]
+[2023-05-03 03:14:58] WARNING root fetch - processPackages [autogon-util]: Skipping, unable to determine old version
+[2023-05-03 03:14:58] INFO root fetch - main [MainThread]: End processing [autogon-util] error
+[2023-05-03 03:14:58] INFO root fetch - processPackages [dscustom-libs]: New version: [0.2] Old Version: [0.1]
+[2023-05-03 03:14:58] INFO root fetch - processPackages [argshell]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-05-03 03:14:58] INFO root fetch - processPackages [vit-keras]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-03 03:14:58] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-05-03 03:14:58] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.8.tar.gz tmp/cdk-sops-secrets-1.2.9.tar.gz --markdown 20230503/c/cdk-sops-secrets/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-03 03:14:58] INFO root fetch - processPackages [volworld-aws-api-common]: executing diffoscope
+[2023-05-03 03:14:58] INFO root fetch - processPackages [volworld-aws-api-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volworld_aws_api_common-0.1.80.tar.gz tmp/volworld_aws_api_common-0.1.9.tar.gz --markdown 20230503/v/volworld-aws-api-common/0.1.80-0.1.9/diff.md --exclude *.pyd
+[2023-05-03 03:14:59] INFO root fetch - processPackages [pyagrum-nightly]: New version: [1.7.1.9.dev202305021682913970] Old Version: [1.7.1.9.dev202305011682793737]
+[2023-05-03 03:14:59] INFO root fetch - processPackages [volworld-aws-api-common]: executing diffoscope
+[2023-05-03 03:14:59] INFO root fetch - processPackages [volworld-aws-api-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volworld_aws_api_common-0.1.80.tar.gz tmp/volworld_aws_api_common-0.1.9.tar.gz --markdown 20230503/v/volworld-aws-api-common/0.1.80-0.1.9/diff.md --exclude *.pyd
+[2023-05-03 03:14:59] INFO root fetch - processPackages [dscustom-libs]: Downloading https://files.pythonhosted.org/packages/d9/1d/17d596b1807ed2b658104c95b0a3216719c641c8f654f230c95b4fd58f36/dscustom-libs-0.1.tar.gz
+[2023-05-03 03:14:59] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-05-03 03:14:59] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230503/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-05-03 03:14:59] INFO root fetch - processPackages [vit-keras]: Downloading https://files.pythonhosted.org/packages/73/21/4af69130226fae3e937e598c1b6cd56ce008e86641034984f4cacd93c394/vit_keras-0.1.2-py3-none-any.whl
+[2023-05-03 03:14:59] INFO root fetch - processPackages [argshell]: Downloading https://files.pythonhosted.org/packages/40/d0/5f168d32e226e71aae203fbbafb8acd24952cde36e569547cdf60275ea38/argshell-1.2.0.tar.gz
+[2023-05-03 03:14:59] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/c7/b5/2b9d715faaffd4c3d9ab735c23ce25b69a0258036d057c07247e822ce14a/pyAgrum_nightly-1.7.1.9.dev202305021682913970-cp39-cp39-win_amd64.whl
+[2023-05-03 03:14:59] INFO root fetch - processPackages [vit-keras]: executing diffoscope
+[2023-05-03 03:14:59] INFO root fetch - processPackages [vit-keras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vit_keras-0.1.1-py3-none-any.whl.zip tmp/vit_keras-0.1.2-py3-none-any.whl.zip --markdown 20230503/v/vit-keras/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-03 03:14:59] INFO root fetch - processPackages [argshell]: executing diffoscope
+[2023-05-03 03:14:59] INFO root fetch - processPackages [argshell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argshell-1.1.0.tar.gz tmp/argshell-1.2.0.tar.gz --markdown 20230503/a/argshell/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-05-03 03:14:59] INFO root fetch - processPackages [dscustom-libs]: Downloading https://files.pythonhosted.org/packages/5c/89/16c5f05eda1d8ea3d8846c1568334bd03bde3c2c62083548988f56028c38/dscustom-libs-0.2.tar.gz
+[2023-05-03 03:14:59] INFO root fetch - processPackages [pyagrum-nightly]: executing diffoscope
+[2023-05-03 03:14:59] INFO root fetch - processPackages [pyagrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.7.1.9.dev202305011682793737-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.7.1.9.dev202305021682913970-cp39-cp39-win_amd64.whl.zip --markdown 20230503/p/pyagrum-nightly/1.7.1.9.dev202305011682793737-1.7.1.9.dev202305021682913970/diff.md --exclude *.pyd
+[2023-05-03 03:14:59] INFO root fetch - processPackages [dscustom-libs]: executing diffoscope
+[2023-05-03 03:14:59] INFO root fetch - processPackages [dscustom-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dscustom-libs-0.1.tar.gz tmp/dscustom-libs-0.2.tar.gz --markdown 20230503/d/dscustom-libs/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-03 03:15:00] INFO root fetch - main [MainThread]: End processing [volworld-aws-api-common]: success
+[2023-05-03 03:15:00] INFO root fetch - main [MainThread]: End processing [vit-keras]: success
+[2023-05-03 03:15:00] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-05-03 03:15:00] INFO root fetch - main [MainThread]: End processing [volworld-aws-api-common]: success
+[2023-05-03 03:15:01] INFO root fetch - main [MainThread]: End processing [pyagrum-nightly]: success
+[2023-05-03 03:15:01] INFO root fetch - main [MainThread]: End processing [dscustom-libs]: success
+[2023-05-03 03:15:01] INFO root fetch - main [MainThread]: End processing [argshell]: success
+[2023-05-03 03:15:01] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-05-03 03:15:01] INFO root fetch - main [MainThread]: Store serial: [17949277]
