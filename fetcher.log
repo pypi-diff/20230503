@@ -22029,3 +22029,109 @@ No space left on device. Diffoscope exiting.
 [2023-05-03 20:29:12] INFO root fetch - main [MainThread]: End processing [qcs-api-client]: success
 [2023-05-03 20:29:16] INFO root fetch - main [MainThread]: End processing [tecton]: success
 [2023-05-03 20:29:16] INFO root fetch - main [MainThread]: Store serial: [17961084]
+[2023-05-03 20:34:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17961084]
+[2023-05-03 20:34:25] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-03 20:34:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytest-seleniumbase
+[2023-05-03 20:34:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: koku-nise
+[2023-05-03 20:34:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: unravel-python
+[2023-05-03 20:34:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cttd
+[2023-05-03 20:34:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tsaugmentation
+[2023-05-03 20:34:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fastapi-listing
+[2023-05-03 20:34:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cca-zoo
+[2023-05-03 20:34:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: plugwise
+[2023-05-03 20:34:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: python-scan
+[2023-05-03 20:34:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo12-addon-l10n-it-withholding-tax
+[2023-05-03 20:34:25] INFO root fetch - processPackages [tsaugmentation]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-03 20:34:25] INFO root fetch - processPackages [unravel-python]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-05-03 20:34:25] WARNING root fetch - processPackages [cttd]: Skipping, unable to determine old version
+[2023-05-03 20:34:25] INFO root fetch - processPackages [cttd]: Start processing: prepup
+[2023-05-03 20:34:25] INFO root fetch - main [MainThread]: End processing [cttd] error
+[2023-05-03 20:34:25] INFO root fetch - processPackages [koku-nise]: New version: [4.2.7] Old Version: [4.2.6]
+[2023-05-03 20:34:25] WARNING root fetch - processPackages [python-scan]: Skipping, unable to determine old version
+[2023-05-03 20:34:25] INFO root fetch - processPackages [python-scan]: Start processing: es7s
+[2023-05-03 20:34:25] INFO root fetch - main [MainThread]: End processing [python-scan] error
+[2023-05-03 20:34:25] INFO root fetch - processPackages [fastapi-listing]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-03 20:34:25] INFO root fetch - processPackages [odoo12-addon-l10n-it-withholding-tax]: New version: [12.0.2.1.6] Old Version: [12.0.2.1.5.99.dev6]
+[2023-05-03 20:34:25] INFO root fetch - processPackages [prepup]: New version: [0.0.9] Old Version: [0.0.18]
+[2023-05-03 20:34:25] INFO root fetch - processPackages [plugwise]: New version: [0.9.4a9] Old Version: [0.9.4a8]
+[2023-05-03 20:34:25] INFO root fetch - processPackages [cca-zoo]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-05-03 20:34:25] INFO root fetch - processPackages [tsaugmentation]: executing diffoscope
+[2023-05-03 20:34:25] INFO root fetch - processPackages [tsaugmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsaugmentation-0.5.8.tar.gz tmp/tsaugmentation-0.5.9.tar.gz --markdown 20230503/t/tsaugmentation/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-05-03 20:34:25] INFO root fetch - processPackages [pytest-seleniumbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-05-03 20:34:25] INFO root fetch - processPackages [es7s]: New version: [3.6.0.dev0] Old Version: [3.5.0.dev0]
+[2023-05-03 20:34:25] INFO root fetch - processPackages [koku-nise]: Downloading https://files.pythonhosted.org/packages/f6/a3/85555511bd9b28ac9edac3649150ad628e3fb6d996ef9944ee428754bef1/koku-nise-4.2.6.tar.gz
+[2023-05-03 20:34:26] INFO root fetch - processPackages [unravel-python]: Downloading https://files.pythonhosted.org/packages/4d/63/1269919f0c6e6237119f44889d846dc4b43b5c29259fc0782d2bde2c8db2/unravel-python-1.2.5.tar.gz
+[2023-05-03 20:34:26] INFO root fetch - processPackages [cca-zoo]: Downloading https://files.pythonhosted.org/packages/56/2a/5b321d3b74d6769bee74a496f59abee3d7d2e57b3124f5dd5a5c0353737e/cca_zoo-1.9.0.tar.gz
+[2023-05-03 20:34:26] INFO root fetch - processPackages [fastapi-listing]: Downloading https://files.pythonhosted.org/packages/35/d7/a6548c4ca58e318b54582ecb0e67e1987c73e47f3e45de654e26a0769e2b/fastapi-listing-0.0.4.tar.gz
+[2023-05-03 20:34:26] INFO root fetch - processPackages [plugwise]: Downloading https://files.pythonhosted.org/packages/9f/eb/88773e492984c980bc342942239d3bd6eee77c3dc052d35d25e42e2137a6/plugwise-0.9.4a8.tar.gz
+[2023-05-03 20:34:26] INFO root fetch - processPackages [prepup]: Downloading https://files.pythonhosted.org/packages/76/33/78516e61c7f88ca8348aa65901e8ef02cee1ed952cff554b883c0adef746/prepup-0.0.18.tar.gz
+[2023-05-03 20:34:26] INFO root fetch - processPackages [odoo12-addon-l10n-it-withholding-tax]: Downloading https://files.pythonhosted.org/packages/b2/52/bcd4d19c21c8477a588369e9ef0d0d45f8062ada6108f81f4bd20e46b333/odoo12_addon_l10n_it_withholding_tax-12.0.2.1.5.99.dev6-py3-none-any.whl
+[2023-05-03 20:34:26] INFO root fetch - processPackages [pytest-seleniumbase]: Downloading https://files.pythonhosted.org/packages/40/bb/757cad3c5535e64c18cee852b145a86e4d539878bd9dce7c2934bcfb972d/pytest-seleniumbase-4.9.8.tar.gz
+[2023-05-03 20:34:26] INFO root fetch - processPackages [es7s]: Downloading https://files.pythonhosted.org/packages/d4/9b/638089077ce7b31286a1c6ea6d58552b2cb0e3f363a26c290e6de2ea308b/es7s-3.5.0.dev0.tar.gz
+[2023-05-03 20:34:26] INFO root fetch - processPackages [koku-nise]: Downloading https://files.pythonhosted.org/packages/48/7a/a3c607f8dcaa9d3d00cfd005b896743fee26692a68340e6e28ac488508c0/koku-nise-4.2.7.tar.gz
+[2023-05-03 20:34:26] INFO root fetch - processPackages [prepup]: executing diffoscope
+[2023-05-03 20:34:26] INFO root fetch - processPackages [prepup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prepup-0.0.18.tar.gz tmp/prepup-0.0.9.tar.gz --markdown 20230503/p/prepup/0.0.18-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 20:34:26] INFO root fetch - processPackages [unravel-python]: Downloading https://files.pythonhosted.org/packages/d3/91/17e8a06b1273309c71e8d88e8b8f6e62484fda3e87425e9bd784bf6e4e5f/unravel-python-1.2.6.tar.gz
+[2023-05-03 20:34:26] INFO root fetch - processPackages [fastapi-listing]: Downloading https://files.pythonhosted.org/packages/bb/ab/8f33fb438acbc87686d477b934659d114e8ed6d88ba3f969c46225cbe130/fastapi-listing-0.0.5.tar.gz
+[2023-05-03 20:34:26] INFO root fetch - processPackages [koku-nise]: executing diffoscope
+[2023-05-03 20:34:26] INFO root fetch - processPackages [koku-nise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/koku-nise-4.2.6.tar.gz tmp/koku-nise-4.2.7.tar.gz --markdown 20230503/k/koku-nise/4.2.6-4.2.7/diff.md --exclude *.pyd
+[2023-05-03 20:34:26] INFO root fetch - processPackages [odoo12-addon-l10n-it-withholding-tax]: Downloading https://files.pythonhosted.org/packages/69/db/ef785c248ab94fdd28eb2857789859157aa7a6eadb4434107f2c95781389/odoo12_addon_l10n_it_withholding_tax-12.0.2.1.6-py3-none-any.whl
+[2023-05-03 20:34:26] INFO root fetch - processPackages [unravel-python]: executing diffoscope
+[2023-05-03 20:34:26] INFO root fetch - processPackages [unravel-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unravel-python-1.2.5.tar.gz tmp/unravel-python-1.2.6.tar.gz --markdown 20230503/u/unravel-python/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-05-03 20:34:26] INFO root fetch - processPackages [fastapi-listing]: executing diffoscope
+[2023-05-03 20:34:26] INFO root fetch - processPackages [fastapi-listing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-listing-0.0.4.tar.gz tmp/fastapi-listing-0.0.5.tar.gz --markdown 20230503/f/fastapi-listing/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-03 20:34:26] INFO root fetch - processPackages [cca-zoo]: Downloading https://files.pythonhosted.org/packages/b6/36/bcb7c4d98ec7e471288242d2936fbeba49789eb863e2bb897257f9093dc2/cca_zoo-1.9.1.tar.gz
+[2023-05-03 20:34:26] INFO root fetch - processPackages [plugwise]: Downloading https://files.pythonhosted.org/packages/ec/fd/45b5a2ee424806593e900234e26bf62ae0c3582ac99cadfa9477e6719004/plugwise-0.9.4a9.tar.gz
+[2023-05-03 20:34:26] INFO root fetch - processPackages [odoo12-addon-l10n-it-withholding-tax]: executing diffoscope
+[2023-05-03 20:34:26] INFO root fetch - processPackages [odoo12-addon-l10n-it-withholding-tax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_l10n_it_withholding_tax-12.0.2.1.5.99.dev6-py3-none-any.whl.zip tmp/odoo12_addon_l10n_it_withholding_tax-12.0.2.1.6-py3-none-any.whl.zip --markdown 20230503/o/odoo12-addon-l10n-it-withholding-tax/12.0.2.1.5.99.dev6-12.0.2.1.6/diff.md --exclude *.pyd
+[2023-05-03 20:34:26] INFO root fetch - processPackages [pytest-seleniumbase]: Downloading https://files.pythonhosted.org/packages/34/03/c67c6c24b8d7c3e49595b97d914034cf101d3d1d029f9e9453f497e0937a/pytest-seleniumbase-4.9.9.tar.gz
+[2023-05-03 20:34:26] INFO root fetch - processPackages [cca-zoo]: executing diffoscope
+[2023-05-03 20:34:26] INFO root fetch - processPackages [cca-zoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cca_zoo-1.9.0.tar.gz tmp/cca_zoo-1.9.1.tar.gz --markdown 20230503/c/cca-zoo/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-03 20:34:26] INFO root fetch - processPackages [plugwise]: executing diffoscope
+[2023-05-03 20:34:26] INFO root fetch - processPackages [plugwise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plugwise-0.9.4a8.tar.gz tmp/plugwise-0.9.4a9.tar.gz --markdown 20230503/p/plugwise/0.9.4a8-0.9.4a9/diff.md --exclude *.pyd
+[2023-05-03 20:34:26] INFO root fetch - processPackages [pytest-seleniumbase]: executing diffoscope
+[2023-05-03 20:34:26] INFO root fetch - processPackages [pytest-seleniumbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-seleniumbase-4.9.8.tar.gz tmp/pytest-seleniumbase-4.9.9.tar.gz --markdown 20230503/p/pytest-seleniumbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-05-03 20:34:26] INFO root fetch - processPackages [es7s]: Downloading https://files.pythonhosted.org/packages/19/8b/f0ecc6844615f1d6585d48b9c2cc1f4e21bd25b8cf7a8d0aa0f8912bc159/es7s-3.6.0.dev0.tar.gz
+[2023-05-03 20:34:27] INFO root fetch - processPackages [es7s]: executing diffoscope
+[2023-05-03 20:34:27] INFO root fetch - processPackages [es7s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/es7s-3.5.0.dev0.tar.gz tmp/es7s-3.6.0.dev0.tar.gz --markdown 20230503/e/es7s/3.5.0.dev0-3.6.0.dev0/diff.md --exclude *.pyd
+[2023-05-03 20:34:27] INFO root fetch - processPackages [tsaugmentation]: Start processing: nimblephysics
+[2023-05-03 20:34:27] INFO root fetch - main [MainThread]: End processing [tsaugmentation]: success
+[2023-05-03 20:34:27] INFO root fetch - processPackages [nimblephysics]: New version: [0.8.97] Old Version: [0.8.96]
+[2023-05-03 20:34:27] INFO root fetch - processPackages [prepup]: Start processing: licensing.models
+[2023-05-03 20:34:27] INFO root fetch - main [MainThread]: End processing [prepup]: success
+[2023-05-03 20:34:27] INFO root fetch - processPackages [licensing.models]: New version: [4] Old Version: [3]
+[2023-05-03 20:34:27] INFO root fetch - processPackages [nimblephysics]: Downloading https://files.pythonhosted.org/packages/f8/23/427da5e36401e07694810215e31e03574bd904453bdef9710d8571c96ee1/nimblephysics-0.8.96-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-03 20:34:27] INFO root fetch - processPackages [unravel-python]: Start processing: nlptoolssna
+[2023-05-03 20:34:27] INFO root fetch - main [MainThread]: End processing [unravel-python]: success
+[2023-05-03 20:34:27] INFO root fetch - processPackages [licensing.models]: Downloading https://files.pythonhosted.org/packages/98/dd/303f1a4e277e96a58dee23dd4c94a35ef6fe109996458d6a21da58a3e84e/licensing.models-3.tar.gz
+[2023-05-03 20:34:27] INFO root fetch - processPackages [nlptoolssna]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-05-03 20:34:27] WARNING root fetch - processPackages [nimblephysics]: Skipping package: exceeds size limit 67489998>=10485760
+[2023-05-03 20:34:27] INFO root fetch - processPackages [nimblephysics]: Start processing: msaBase
+[2023-05-03 20:34:27] INFO root fetch - main [MainThread]: End processing [nimblephysics] error
+[2023-05-03 20:34:27] INFO root fetch - processPackages [fastapi-listing]: Start processing: es7s
+[2023-05-03 20:34:27] INFO root fetch - main [MainThread]: End processing [fastapi-listing]: success
+[2023-05-03 20:34:28] INFO root fetch - processPackages [es7s]: New version: [3.6.0.dev0] Old Version: [3.5.0.dev0]
+[2023-05-03 20:34:28] INFO root fetch - processPackages [msaBase]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 20:34:28] INFO root fetch - processPackages [es7s]: executing diffoscope
+[2023-05-03 20:34:28] INFO root fetch - processPackages [es7s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/es7s-3.5.0.dev0.tar.gz tmp/es7s-3.6.0.dev0.tar.gz --markdown 20230503/e/es7s/3.5.0.dev0-3.6.0.dev0/diff.md --exclude *.pyd
+[2023-05-03 20:34:28] INFO root fetch - processPackages [nlptoolssna]: Downloading https://files.pythonhosted.org/packages/41/e4/cb31cf58ca310921636e8c3c7ac78ab3ea370b29ab1ebc317a0925e94522/nlptoolssna-0.5.2.tar.gz
+[2023-05-03 20:34:28] INFO root fetch - processPackages [licensing.models]: Downloading https://files.pythonhosted.org/packages/28/6a/35bc975a3797bfd5202b827684c956ba7e3dcdd4bf06c25e98e8272c3f1e/licensing.models-4.tar.gz
+[2023-05-03 20:34:28] INFO root fetch - processPackages [msaBase]: Downloading https://files.pythonhosted.org/packages/76/9a/a27e686785e6b54482d58445355935f687e11cd0a044f803310195bbc129/msaBase-0.0.8.tar.gz
+[2023-05-03 20:34:28] INFO root fetch - processPackages [nlptoolssna]: executing diffoscope
+[2023-05-03 20:34:28] INFO root fetch - processPackages [nlptoolssna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlptoolssna-0.5.1.tar.gz tmp/nlptoolssna-0.5.2.tar.gz --markdown 20230503/n/nlptoolssna/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-05-03 20:34:28] INFO root fetch - processPackages [licensing.models]: executing diffoscope
+[2023-05-03 20:34:28] INFO root fetch - processPackages [licensing.models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/licensing.models-3.tar.gz tmp/licensing.models-4.tar.gz --markdown 20230503/l/licensing.models/3-4/diff.md --exclude *.pyd
+[2023-05-03 20:34:28] INFO root fetch - main [MainThread]: End processing [odoo12-addon-l10n-it-withholding-tax]: success
+[2023-05-03 20:34:28] INFO root fetch - processPackages [msaBase]: Downloading https://files.pythonhosted.org/packages/fd/c7/eaf57b5462f098d2e330245249477745d1619240fbb8ea59ece12e03eeff/msaBase-0.0.9.tar.gz
+[2023-05-03 20:34:28] INFO root fetch - main [MainThread]: End processing [pytest-seleniumbase]: success
+[2023-05-03 20:34:28] INFO root fetch - processPackages [msaBase]: executing diffoscope
+[2023-05-03 20:34:28] INFO root fetch - processPackages [msaBase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msaBase-0.0.8.tar.gz tmp/msaBase-0.0.9.tar.gz --markdown 20230503/m/msaBase/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 20:34:29] INFO root fetch - main [MainThread]: End processing [cca-zoo]: success
+[2023-05-03 20:34:29] INFO root fetch - main [MainThread]: End processing [plugwise]: success
+[2023-05-03 20:34:29] INFO root fetch - main [MainThread]: End processing [es7s]: success
+[2023-05-03 20:34:29] INFO root fetch - main [MainThread]: End processing [licensing.models]: success
+[2023-05-03 20:34:29] INFO root fetch - main [MainThread]: End processing [nlptoolssna]: success
+[2023-05-03 20:34:30] INFO root fetch - main [MainThread]: End processing [koku-nise]: success
+[2023-05-03 20:34:30] INFO root fetch - main [MainThread]: End processing [es7s]: success
+[2023-05-03 20:34:55] INFO root fetch - main [MainThread]: End processing [msaBase]: success
+[2023-05-03 20:34:55] INFO root fetch - main [MainThread]: Store serial: [17961134]
