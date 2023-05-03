@@ -6117,3 +6117,92 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-03 06:39:58] INFO root fetch - main [MainThread]: End processing [dovesnap]: success
 [2023-05-03 06:39:58] INFO root fetch - main [MainThread]: End processing [mmlab-lightning]: success
 [2023-05-03 06:39:58] INFO root fetch - main [MainThread]: Store serial: [17951501]
+[2023-05-03 06:45:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17951501]
+[2023-05-03 06:45:09] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-03 06:45:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: NikeCA
+[2023-05-03 06:45:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pendazz
+[2023-05-03 06:45:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pygptj
+[2023-05-03 06:45:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dongwha-datalab
+[2023-05-03 06:45:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: robotoff
+[2023-05-03 06:45:09] INFO root fetch - processPackages [pygptj]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-05-03 06:45:09] INFO root fetch - processPackages [dongwha-datalab]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2023-05-03 06:45:09] INFO root fetch - processPackages [NikeCA]: New version: [0.1.87] Old Version: [0.1.86]
+[2023-05-03 06:45:09] WARNING root fetch - processPackages [pendazz]: Skipping, unable to determine old version
+[2023-05-03 06:45:09] INFO root fetch - main [MainThread]: End processing [pendazz] error
+[2023-05-03 06:45:09] INFO root fetch - processPackages [dongwha-datalab]: executing diffoscope
+[2023-05-03 06:45:09] INFO root fetch - processPackages [dongwha-datalab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dongwha_datalab-0.0.0.8-py3-none-any.whl.zip tmp/dongwha_datalab-0.0.0.9-py3-none-any.whl.zip --markdown 20230503/d/dongwha-datalab/0.0.0.8-0.0.0.9/diff.md --exclude *.pyd
+[2023-05-03 06:45:09] INFO root fetch - processPackages [pygptj]: Downloading https://files.pythonhosted.org/packages/59/8a/6c842571b7ef9f77c6af00142455ae4819d2f05f25f934c9428804fb4de7/pygptj-2.0.2.tar.gz
+[2023-05-03 06:45:09] INFO root fetch - processPackages [robotoff]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-03 06:45:09] INFO root fetch - processPackages [NikeCA]: Downloading https://files.pythonhosted.org/packages/fc/8f/7b11684b699f67929c61a6146c2a2c021ac1aeb036d8ee851cd8cf475f7f/NikeCA-0.1.87.tar.gz
+[2023-05-03 06:45:09] INFO root fetch - processPackages [NikeCA]: executing diffoscope
+[2023-05-03 06:45:09] INFO root fetch - processPackages [NikeCA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NikeCA-0.1.86.tar.gz tmp/NikeCA-0.1.87.tar.gz --markdown 20230503/N/NikeCA/0.1.86-0.1.87/diff.md --exclude *.pyd
+[2023-05-03 06:45:09] INFO root fetch - processPackages [pygptj]: Downloading https://files.pythonhosted.org/packages/32/29/cdbc82646fad86fe20e111f28c2dd1c15f69e68202ced75bedfa3173a9fc/pygptj-2.0.3.tar.gz
+[2023-05-03 06:45:09] INFO root fetch - processPackages [pygptj]: executing diffoscope
+[2023-05-03 06:45:09] INFO root fetch - processPackages [pygptj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygptj-2.0.2.tar.gz tmp/pygptj-2.0.3.tar.gz --markdown 20230503/p/pygptj/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-05-03 06:45:09] INFO root fetch - processPackages [robotoff]: executing diffoscope
+[2023-05-03 06:45:09] INFO root fetch - processPackages [robotoff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotoff-1.8.0.tar.gz tmp/robotoff-1.9.0.tar.gz --markdown 20230503/r/robotoff/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-03 06:45:10] ERROR root fetch - processPackages [dongwha-datalab]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid start byte
+
+[2023-05-03 06:45:10] INFO root fetch - main [MainThread]: End processing [dongwha-datalab] error
+[2023-05-03 06:45:10] INFO root fetch - main [MainThread]: End processing [NikeCA]: success
+[2023-05-03 06:45:11] INFO root fetch - main [MainThread]: End processing [pygptj]: success
+[2023-05-03 06:45:11] INFO root fetch - main [MainThread]: End processing [robotoff]: success
+[2023-05-03 06:45:11] INFO root fetch - main [MainThread]: Store serial: [17951538]
