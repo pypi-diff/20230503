@@ -5486,3 +5486,59 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-03 05:45:34] INFO root fetch - main [MainThread]: End processing [np-probe-targets]: success
 [2023-05-03 05:45:50] INFO root fetch - main [MainThread]: End processing [FuzzyPySeg]: success
 [2023-05-03 05:45:50] INFO root fetch - main [MainThread]: Store serial: [17951069]
+[2023-05-03 05:50:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17951069]
+[2023-05-03 05:51:00] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-03 05:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stillrequestsa
+[2023-05-03 05:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: heaserver
+[2023-05-03 05:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: formulaic
+[2023-05-03 05:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lightning-template
+[2023-05-03 05:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dataset-viewer
+[2023-05-03 05:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: currensees
+[2023-05-03 05:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PyPDPM
+[2023-05-03 05:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: visualblocks
+[2023-05-03 05:51:00] INFO root fetch - processPackages [stillrequestsa]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-03 05:51:00] INFO root fetch - processPackages [formulaic]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-05-03 05:51:00] INFO root fetch - processPackages [PyPDPM]: New version: [0.0.5.8] Old Version: [0.0.5.7]
+[2023-05-03 05:51:00] INFO root fetch - processPackages [heaserver]: New version: [1.0.0a99] Old Version: [1.0.0a98]
+[2023-05-03 05:51:00] INFO root fetch - processPackages [dataset-viewer]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-03 05:51:00] INFO root fetch - processPackages [lightning-template]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-05-03 05:51:00] INFO root fetch - processPackages [currensees]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-03 05:51:00] INFO root fetch - processPackages [visualblocks]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-03 05:51:01] INFO root fetch - processPackages [stillrequestsa]: Downloading https://files.pythonhosted.org/packages/f5/f1/c9367ca0084607be14f8b8dfe199aa74db019c9c4cf23fcfd53c8183782e/stillrequestsa-0.0.1.tar.gz
+[2023-05-03 05:51:01] INFO root fetch - processPackages [PyPDPM]: Downloading https://files.pythonhosted.org/packages/0a/e8/d9b761d8fe9ddbef0bebd8da4615164adffe81229fc2b55c4c3062c8baca/PyPDPM-0.0.5.7.tar.gz
+[2023-05-03 05:51:01] INFO root fetch - processPackages [dataset-viewer]: Downloading https://files.pythonhosted.org/packages/09/b8/533cbd2a07db206560ad91a23afb1d31b886721b2767a0d0b06087644296/dataset-viewer-0.0.1.tar.gz
+[2023-05-03 05:51:01] INFO root fetch - processPackages [heaserver]: Downloading https://files.pythonhosted.org/packages/23/5c/e8b5b2171b84de0317a19800ea1e6e1c13fd3fc36ae7789702ed1007a678/heaserver-1.0.0a98.tar.gz
+[2023-05-03 05:51:01] INFO root fetch - processPackages [visualblocks]: Downloading https://files.pythonhosted.org/packages/a7/c5/c68628ea740efaf2141353c3027051094a89fbe3b2516a5baba64170f753/visualblocks-0.0.2.tar.gz
+[2023-05-03 05:51:01] INFO root fetch - processPackages [lightning-template]: Downloading https://files.pythonhosted.org/packages/da/5c/46a6295e39a77bc1e9d28d61af7b23072c37e23c76ad549017e9baf0135b/lightning-template-1.0.7.tar.gz
+[2023-05-03 05:51:01] INFO root fetch - processPackages [currensees]: Downloading https://files.pythonhosted.org/packages/5a/b3/937dcd87918aeb990f6e448a757a3f7cc6ad845bf19932c6ffc804440051/currensees-1.1.1.tar.gz
+[2023-05-03 05:51:01] INFO root fetch - processPackages [lightning-template]: executing diffoscope
+[2023-05-03 05:51:01] INFO root fetch - processPackages [lightning-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightning-template-1.0.6.tar.gz tmp/lightning-template-1.0.7.tar.gz --markdown 20230503/l/lightning-template/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-05-03 05:51:01] INFO root fetch - processPackages [formulaic]: Downloading https://files.pythonhosted.org/packages/4c/a6/70ab2abe4df214e6900c61f6cbe3bd0cce591ecf9e090a96edb2d93f564d/formulaic-0.6.1.tar.gz
+[2023-05-03 05:51:01] INFO root fetch - processPackages [currensees]: executing diffoscope
+[2023-05-03 05:51:01] INFO root fetch - processPackages [currensees]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/currensees-1.1.0.tar.gz tmp/currensees-1.1.1.tar.gz --markdown 20230503/c/currensees/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-03 05:51:01] INFO root fetch - processPackages [stillrequestsa]: Downloading https://files.pythonhosted.org/packages/9e/ea/baac6708a6c4efe8f6be3066b48784306e80a96ff03cd689ccc36eb91a50/stillrequestsa-0.0.2.tar.gz
+[2023-05-03 05:51:01] INFO root fetch - processPackages [PyPDPM]: Downloading https://files.pythonhosted.org/packages/3c/a5/96b5896110a2cfd1f74fa1952d44d02d33b6aacd86c27639c40ec9c6c013/PyPDPM-0.0.5.8.tar.gz
+[2023-05-03 05:51:01] INFO root fetch - processPackages [formulaic]: executing diffoscope
+[2023-05-03 05:51:01] INFO root fetch - processPackages [formulaic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/formulaic-0.6.0.tar.gz tmp/formulaic-0.6.1.tar.gz --markdown 20230503/f/formulaic/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-05-03 05:51:01] INFO root fetch - processPackages [dataset-viewer]: Downloading https://files.pythonhosted.org/packages/44/7a/3bb0d79594b18f3a728e12a7cea135bc42879dc15a7a5cae2719467247b6/dataset-viewer-0.0.2.tar.gz
+[2023-05-03 05:51:01] INFO root fetch - processPackages [PyPDPM]: executing diffoscope
+[2023-05-03 05:51:01] INFO root fetch - processPackages [stillrequestsa]: executing diffoscope
+[2023-05-03 05:51:01] INFO root fetch - processPackages [PyPDPM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyPDPM-0.0.5.7.tar.gz tmp/PyPDPM-0.0.5.8.tar.gz --markdown 20230503/P/PyPDPM/0.0.5.7-0.0.5.8/diff.md --exclude *.pyd
+[2023-05-03 05:51:01] INFO root fetch - processPackages [stillrequestsa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stillrequestsa-0.0.1.tar.gz tmp/stillrequestsa-0.0.2.tar.gz --markdown 20230503/s/stillrequestsa/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-03 05:51:01] INFO root fetch - processPackages [dataset-viewer]: executing diffoscope
+[2023-05-03 05:51:01] INFO root fetch - processPackages [dataset-viewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataset-viewer-0.0.1.tar.gz tmp/dataset-viewer-0.0.2.tar.gz --markdown 20230503/d/dataset-viewer/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-03 05:51:01] INFO root fetch - processPackages [visualblocks]: Downloading https://files.pythonhosted.org/packages/bc/c8/d57dfe914bdf83365318171fbff089ceb9afaddfee4c7cb455df53f7d082/visualblocks-0.0.3.tar.gz
+[2023-05-03 05:51:01] INFO root fetch - processPackages [visualblocks]: executing diffoscope
+[2023-05-03 05:51:01] INFO root fetch - processPackages [visualblocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visualblocks-0.0.2.tar.gz tmp/visualblocks-0.0.3.tar.gz --markdown 20230503/v/visualblocks/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-03 05:51:01] INFO root fetch - processPackages [heaserver]: Downloading https://files.pythonhosted.org/packages/24/ac/07794906521a70363db00bf9e1720b5c8addbaa7a84831912dfb3035fbfd/heaserver-1.0.0a99.tar.gz
+[2023-05-03 05:51:01] INFO root fetch - processPackages [heaserver]: executing diffoscope
+[2023-05-03 05:51:01] INFO root fetch - processPackages [heaserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver-1.0.0a98.tar.gz tmp/heaserver-1.0.0a99.tar.gz --markdown 20230503/h/heaserver/1.0.0a98-1.0.0a99/diff.md --exclude *.pyd
+[2023-05-03 05:51:02] INFO root fetch - main [MainThread]: End processing [currensees]: success
+[2023-05-03 05:51:02] INFO root fetch - main [MainThread]: End processing [stillrequestsa]: success
+[2023-05-03 05:51:02] INFO root fetch - main [MainThread]: End processing [PyPDPM]: success
+[2023-05-03 05:51:02] INFO root fetch - main [MainThread]: End processing [dataset-viewer]: success
+[2023-05-03 05:51:02] INFO root fetch - main [MainThread]: End processing [lightning-template]: success
+[2023-05-03 05:51:02] INFO root fetch - main [MainThread]: End processing [visualblocks]: success
+[2023-05-03 05:51:04] INFO root fetch - main [MainThread]: End processing [heaserver]: success
+[2023-05-03 05:51:05] INFO root fetch - main [MainThread]: End processing [formulaic]: success
+[2023-05-03 05:51:05] INFO root fetch - main [MainThread]: Store serial: [17951098]
