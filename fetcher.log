@@ -7233,3 +7233,52 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-03 08:17:09] INFO root fetch - main [MainThread]: End processing [fmldk]: success
 [2023-05-03 08:17:10] INFO root fetch - main [MainThread]: End processing [ansys-templates]: success
 [2023-05-03 08:17:10] INFO root fetch - main [MainThread]: Store serial: [17952135]
+[2023-05-03 08:22:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17952135]
+[2023-05-03 08:22:19] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-03 08:22:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ansys-templates
+[2023-05-03 08:22:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdxbasics
+[2023-05-03 08:22:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rewards-api
+[2023-05-03 08:22:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pretext
+[2023-05-03 08:22:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: citros
+[2023-05-03 08:22:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pylyzer
+[2023-05-03 08:22:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nsface-python
+[2023-05-03 08:22:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jotdown
+[2023-05-03 08:22:19] INFO root fetch - processPackages [jotdown]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-05-03 08:22:19] INFO root fetch - processPackages [ansys-templates]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-05-03 08:22:19] INFO root fetch - processPackages [citros]: New version: [23.17.8] Old Version: [23.17.7]
+[2023-05-03 08:22:19] INFO root fetch - processPackages [nsface-python]: New version: [1.1.63] Old Version: [1.1.61]
+[2023-05-03 08:22:19] INFO root fetch - processPackages [rewards-api]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-03 08:22:19] INFO root fetch - processPackages [pylyzer]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 08:22:19] INFO root fetch - processPackages [cdxbasics]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-03 08:22:19] INFO root fetch - processPackages [pretext]: New version: [1.5.3.dev20230503] Old Version: [1.5.3.dev20230502]
+[2023-05-03 08:22:19] INFO root fetch - processPackages [cdxbasics]: executing diffoscope
+[2023-05-03 08:22:19] INFO root fetch - processPackages [cdxbasics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdxbasics-0.2.8.tar.gz tmp/cdxbasics-0.2.9.tar.gz --markdown 20230503/c/cdxbasics/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-03 08:22:19] INFO root fetch - processPackages [citros]: Downloading https://files.pythonhosted.org/packages/16/39/82a7d5fbb740bcc534a227519f50304345927af5d8c8a453132b71478f0e/citros-23.17.7.tar.gz
+[2023-05-03 08:22:19] INFO root fetch - processPackages [jotdown]: Downloading https://files.pythonhosted.org/packages/43/ed/c899ddcc55d27f9ed61c45efde2ce6976b2399572d4bbcf57b46b7118054/jotdown-2.1.3.tar.gz
+[2023-05-03 08:22:19] INFO root fetch - processPackages [nsface-python]: Downloading https://files.pythonhosted.org/packages/ff/1f/f69335c119d843690821ea6289fd0edd4f731928946a8ebbd90791288f63/nsface_python-1.1.63-py3-none-any.whl
+[2023-05-03 08:22:19] INFO root fetch - processPackages [rewards-api]: Downloading https://files.pythonhosted.org/packages/b7/f2/a8fbf98676dcaffbfb9d6ce5274de5fd1f15304d6d5bdbaa55088270bbc8/rewards_api-0.1.4.tar.gz
+[2023-05-03 08:22:19] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/a5/d2/4ed29ddfb58fa73d6a9bcd7069b96bb3f8831f8fff402823368ca27b446d/pretext-1.5.3.dev20230503.tar.gz
+[2023-05-03 08:22:19] INFO root fetch - processPackages [ansys-templates]: executing diffoscope
+[2023-05-03 08:22:19] INFO root fetch - processPackages [ansys-templates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys-templates-0.6.0.tar.gz tmp/ansys-templates-0.7.0.tar.gz --markdown 20230503/a/ansys-templates/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-05-03 08:22:19] INFO root fetch - processPackages [rewards-api]: executing diffoscope
+[2023-05-03 08:22:19] INFO root fetch - processPackages [rewards-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rewards_api-0.1.3.tar.gz tmp/rewards_api-0.1.4.tar.gz --markdown 20230503/r/rewards-api/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-03 08:22:19] INFO root fetch - processPackages [nsface-python]: executing diffoscope
+[2023-05-03 08:22:19] INFO root fetch - processPackages [nsface-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsface_python-1.1.61-py3-none-any.whl.zip tmp/nsface_python-1.1.63-py3-none-any.whl.zip --markdown 20230503/n/nsface-python/1.1.61-1.1.63/diff.md --exclude *.pyd
+[2023-05-03 08:22:19] INFO root fetch - processPackages [jotdown]: executing diffoscope
+[2023-05-03 08:22:19] INFO root fetch - processPackages [jotdown]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jotdown-2.1.2.tar.gz tmp/jotdown-2.1.3.tar.gz --markdown 20230503/j/jotdown/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2023-05-03 08:22:19] INFO root fetch - processPackages [pylyzer]: executing diffoscope
+[2023-05-03 08:22:19] INFO root fetch - processPackages [pylyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylyzer-0.0.8-py3-none-win_amd64.whl.zip tmp/pylyzer-0.0.9-py3-none-win_amd64.whl.zip --markdown 20230503/p/pylyzer/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 08:22:20] INFO root fetch - processPackages [citros]: Downloading https://files.pythonhosted.org/packages/59/d1/f00a0fe8fe11746c2c88c3bee04d1953d1caba602ebbe7d376cfff13975d/citros-23.17.8.tar.gz
+[2023-05-03 08:22:20] INFO root fetch - processPackages [citros]: executing diffoscope
+[2023-05-03 08:22:20] INFO root fetch - processPackages [citros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citros-23.17.7.tar.gz tmp/citros-23.17.8.tar.gz --markdown 20230503/c/citros/23.17.7-23.17.8/diff.md --exclude *.pyd
+[2023-05-03 08:22:20] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2023-05-03 08:22:20] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-1.5.3.dev20230502.tar.gz tmp/pretext-1.5.3.dev20230503.tar.gz --markdown 20230503/p/pretext/1.5.3.dev20230502-1.5.3.dev20230503/diff.md --exclude *.pyd
+[2023-05-03 08:22:21] INFO root fetch - main [MainThread]: End processing [rewards-api]: success
+[2023-05-03 08:22:21] INFO root fetch - main [MainThread]: End processing [jotdown]: success
+[2023-05-03 08:22:21] INFO root fetch - main [MainThread]: End processing [cdxbasics]: success
+[2023-05-03 08:22:21] INFO root fetch - main [MainThread]: End processing [citros]: success
+[2023-05-03 08:22:21] INFO root fetch - main [MainThread]: End processing [nsface-python]: success
+[2023-05-03 08:22:22] INFO root fetch - main [MainThread]: End processing [ansys-templates]: success
+[2023-05-03 08:22:27] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2023-05-03 08:23:20] INFO root fetch - main [MainThread]: End processing [pylyzer]: success
+[2023-05-03 08:23:20] INFO root fetch - main [MainThread]: Store serial: [17952161]
