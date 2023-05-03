@@ -15028,3 +15028,121 @@ No space left on device. Diffoscope exiting.
 [2023-05-03 14:43:50] INFO root fetch - main [MainThread]: End processing [rucio]: success
 [2023-05-03 14:45:07] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
 [2023-05-03 14:45:07] INFO root fetch - main [MainThread]: Store serial: [17956505]
+[2023-05-03 14:50:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17956505]
+[2023-05-03 14:50:16] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-03 14:50:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: abspy
+[2023-05-03 14:50:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: promptwatch
+[2023-05-03 14:50:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hestia-earth-schema
+[2023-05-03 14:50:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SpectroscopicBinarySystem
+[2023-05-03 14:50:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: MDbrew
+[2023-05-03 14:50:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: curator-opensearch
+[2023-05-03 14:50:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ytchat
+[2023-05-03 14:50:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: AMDirT
+[2023-05-03 14:50:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: homeassistant-stubs
+[2023-05-03 14:50:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mypackage-prince-boom
+[2023-05-03 14:50:17] INFO root fetch - processPackages [abspy]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-03 14:50:17] INFO root fetch - processPackages [ytchat]: New version: [0.0.8] Old Version: [0.0.6]
+[2023-05-03 14:50:17] INFO root fetch - processPackages [curator-opensearch]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-05-03 14:50:17] INFO root fetch - processPackages [MDbrew]: New version: [2.2.4] Old Version: [2.2.3]
+[2023-05-03 14:50:17] INFO root fetch - processPackages [promptwatch]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-03 14:50:17] INFO root fetch - processPackages [hestia-earth-schema]: New version: [9.7.1] Old Version: [9.7.0]
+[2023-05-03 14:50:17] INFO root fetch - processPackages [SpectroscopicBinarySystem]: New version: [1.1.43] Old Version: [1.1.42]
+[2023-05-03 14:50:17] INFO root fetch - processPackages [homeassistant-stubs]: New version: [2023.5.0b7] Old Version: [2023.5.0b6]
+[2023-05-03 14:50:17] INFO root fetch - processPackages [AMDirT]: New version: [1.4.1] Old Version: [1.4]
+[2023-05-03 14:50:17] INFO root fetch - processPackages [curator-opensearch]: executing diffoscope
+[2023-05-03 14:50:17] INFO root fetch - processPackages [curator-opensearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/curator-opensearch-0.0.7.tar.gz tmp/curator-opensearch-0.0.9.tar.gz --markdown 20230503/c/curator-opensearch/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 14:50:17] INFO root fetch - processPackages [homeassistant-stubs]: executing diffoscope
+[2023-05-03 14:50:17] INFO root fetch - processPackages [homeassistant-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homeassistant_stubs-2023.5.0b6.tar.gz tmp/homeassistant_stubs-2023.5.0b7.tar.gz --markdown 20230503/h/homeassistant-stubs/2023.5.0b6-2023.5.0b7/diff.md --exclude *.pyd
+[2023-05-03 14:50:17] INFO root fetch - processPackages [mypackage-prince-boom]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-03 14:50:17] INFO root fetch - processPackages [hestia-earth-schema]: executing diffoscope
+[2023-05-03 14:50:17] INFO root fetch - processPackages [hestia-earth-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hestia-earth-schema-9.7.0.tar.gz tmp/hestia-earth-schema-9.7.1.tar.gz --markdown 20230503/h/hestia-earth-schema/9.7.0-9.7.1/diff.md --exclude *.pyd
+[2023-05-03 14:50:17] INFO root fetch - processPackages [SpectroscopicBinarySystem]: Downloading https://files.pythonhosted.org/packages/0f/ee/3726c8f4343936f0aaf0d1a61caad6df45723391b3678639bb55e7e4ba56/SpectroscopicBinarySystem-1.1.42.tar.gz
+[2023-05-03 14:50:17] INFO root fetch - processPackages [abspy]: Downloading https://files.pythonhosted.org/packages/95/a9/a3f698dac96f388f1f9a5773258cdd72f5bea9cffd2e3c3205a032751896/abspy-0.2.2.tar.gz
+[2023-05-03 14:50:17] INFO root fetch - processPackages [ytchat]: Downloading https://files.pythonhosted.org/packages/36/86/d2c0568b7f30c5094c52e282e6801e09925d7937c8e72dc445d90249270d/ytchat-0.0.6.tar.gz
+[2023-05-03 14:50:17] INFO root fetch - processPackages [MDbrew]: Downloading https://files.pythonhosted.org/packages/b4/fe/6d069bba2c3e1ba78cf74fedbc4c306f5898b3b1ddf5b9845c5e0890ce0c/MDbrew-2.2.4.tar.gz
+[2023-05-03 14:50:17] INFO root fetch - processPackages [AMDirT]: Downloading https://files.pythonhosted.org/packages/f6/5b/4d1a66b9ea58f309a42743a3941ac9054e398305e6ecdc6183e657164a95/AMDirT-1.4.tar.gz
+[2023-05-03 14:50:17] INFO root fetch - processPackages [promptwatch]: Downloading https://files.pythonhosted.org/packages/79/36/40c20be41e206163de218ee1b0666d09398c11df8dda3f38dd2d44034e77/promptwatch-0.0.4.tar.gz
+[2023-05-03 14:50:17] INFO root fetch - processPackages [mypackage-prince-boom]: Downloading https://files.pythonhosted.org/packages/60/2e/192dd4109987863e6b7da1b02a09243e89180081d6b4448d400e17778f88/mypackage_prince_boom-0.0.4.tar.gz
+[2023-05-03 14:50:17] WARNING root fetch - processPackages [ytchat]: Skipping package: exceeds size limit 12544287>=10485760
+[2023-05-03 14:50:17] INFO root fetch - processPackages [ytchat]: Start processing: scitools-iris
+[2023-05-03 14:50:17] INFO root fetch - main [MainThread]: End processing [ytchat] error
+[2023-05-03 14:50:17] INFO root fetch - processPackages [promptwatch]: executing diffoscope
+[2023-05-03 14:50:17] INFO root fetch - processPackages [promptwatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptwatch-0.0.3.tar.gz tmp/promptwatch-0.0.4.tar.gz --markdown 20230503/p/promptwatch/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-03 14:50:17] INFO root fetch - processPackages [MDbrew]: executing diffoscope
+[2023-05-03 14:50:17] INFO root fetch - processPackages [MDbrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MDbrew-2.2.3.tar.gz tmp/MDbrew-2.2.4.tar.gz --markdown 20230503/M/MDbrew/2.2.3-2.2.4/diff.md --exclude *.pyd
+[2023-05-03 14:50:17] INFO root fetch - processPackages [scitools-iris]: New version: [3.6.0rc0] Old Version: [3.5.0rc0]
+[2023-05-03 14:50:17] INFO root fetch - processPackages [abspy]: Downloading https://files.pythonhosted.org/packages/eb/1e/bd82c79fa8508e00d5c5feb3f5d7fe4c441b90b3f6fbd1661837a0d21a9b/abspy-0.2.3.tar.gz
+[2023-05-03 14:50:17] INFO root fetch - processPackages [SpectroscopicBinarySystem]: Downloading https://files.pythonhosted.org/packages/60/37/4f25672063f2e7cd7b69b51e173bd7177858fcd26ffc66b0b2c494d606ea/SpectroscopicBinarySystem-1.1.43.tar.gz
+[2023-05-03 14:50:17] INFO root fetch - processPackages [AMDirT]: Downloading https://files.pythonhosted.org/packages/86/89/153026bacafd61db68ad53c4da1ec72174c6cf65a6179c0784425e84ae7b/AMDirT-1.4.1.tar.gz
+[2023-05-03 14:50:17] INFO root fetch - processPackages [SpectroscopicBinarySystem]: executing diffoscope
+[2023-05-03 14:50:17] INFO root fetch - processPackages [SpectroscopicBinarySystem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SpectroscopicBinarySystem-1.1.42.tar.gz tmp/SpectroscopicBinarySystem-1.1.43.tar.gz --markdown 20230503/S/SpectroscopicBinarySystem/1.1.42-1.1.43/diff.md --exclude *.pyd
+[2023-05-03 14:50:17] INFO root fetch - processPackages [abspy]: executing diffoscope
+[2023-05-03 14:50:17] INFO root fetch - processPackages [abspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abspy-0.2.2.tar.gz tmp/abspy-0.2.3.tar.gz --markdown 20230503/a/abspy/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-03 14:50:17] INFO root fetch - processPackages [mypackage-prince-boom]: Downloading https://files.pythonhosted.org/packages/c1/95/19889bc6c3e833141106e7a52ae99477eba9c9e6488bcdae7adbf58249b8/mypackage_prince_boom-0.0.5.tar.gz
+[2023-05-03 14:50:17] INFO root fetch - processPackages [scitools-iris]: Downloading https://files.pythonhosted.org/packages/6f/dc/2ee4475cb9617236567f0160e2365942edf856541768320f810ce9dfa73b/scitools-iris-3.5.0rc0.tar.gz
+[2023-05-03 14:50:17] INFO root fetch - processPackages [AMDirT]: executing diffoscope
+[2023-05-03 14:50:17] INFO root fetch - processPackages [AMDirT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AMDirT-1.4.tar.gz tmp/AMDirT-1.4.1.tar.gz --markdown 20230503/A/AMDirT/1.4-1.4.1/diff.md --exclude *.pyd
+[2023-05-03 14:50:17] INFO root fetch - processPackages [mypackage-prince-boom]: executing diffoscope
+[2023-05-03 14:50:17] INFO root fetch - processPackages [mypackage-prince-boom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypackage_prince_boom-0.0.4.tar.gz tmp/mypackage_prince_boom-0.0.5.tar.gz --markdown 20230503/m/mypackage-prince-boom/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-03 14:50:18] INFO root fetch - processPackages [hestia-earth-schema]: Start processing: pyvista
+[2023-05-03 14:50:18] INFO root fetch - main [MainThread]: End processing [hestia-earth-schema]: success
+[2023-05-03 14:50:18] INFO root fetch - processPackages [pyvista]: New version: [0.38.6] Old Version: [0.38.5]
+[2023-05-03 14:50:18] INFO root fetch - processPackages [MDbrew]: Start processing: home-assistant-frontend
+[2023-05-03 14:50:18] INFO root fetch - main [MainThread]: End processing [MDbrew]: success
+[2023-05-03 14:50:18] INFO root fetch - processPackages [home-assistant-frontend]: New version: [20230502.0] Old Version: [20230501.0]
+[2023-05-03 14:50:18] INFO root fetch - processPackages [scitools-iris]: Downloading https://files.pythonhosted.org/packages/f5/2d/fa5b170d362437e8a3f14b1d9078733c313dc4e3963910521cda85b55dfb/scitools-iris-3.6.0rc0.tar.gz
+[2023-05-03 14:50:18] INFO root fetch - processPackages [home-assistant-frontend]: Downloading https://files.pythonhosted.org/packages/33/1b/c11d2da40b1ffab91cb4db15a85ac1b6abe5a710dee4156fc88a8a10f1f2/home_assistant_frontend-20230501.0-py3-none-any.whl
+[2023-05-03 14:50:18] INFO root fetch - processPackages [pyvista]: Downloading https://files.pythonhosted.org/packages/99/c5/6931c5825eef42d900b6db51e7c680c3abb290f0cc830d1c3eb7e1394f73/pyvista-0.38.5.tar.gz
+[2023-05-03 14:50:18] INFO root fetch - processPackages [promptwatch]: Start processing: ambient-package-update
+[2023-05-03 14:50:18] INFO root fetch - main [MainThread]: End processing [promptwatch]: success
+[2023-05-03 14:50:18] WARNING root fetch - processPackages [home-assistant-frontend]: Skipping package: exceeds size limit 52215207>=10485760
+[2023-05-03 14:50:18] INFO root fetch - processPackages [home-assistant-frontend]: Start processing: py-fumen-util
+[2023-05-03 14:50:18] INFO root fetch - main [MainThread]: End processing [home-assistant-frontend] error
+[2023-05-03 14:50:18] WARNING root fetch - processPackages [ambient-package-update]: Skipping, unable to determine old version
+[2023-05-03 14:50:18] INFO root fetch - processPackages [ambient-package-update]: Start processing: showyourwork
+[2023-05-03 14:50:18] INFO root fetch - main [MainThread]: End processing [ambient-package-update] error
+[2023-05-03 14:50:19] INFO root fetch - processPackages [py-fumen-util]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-05-03 14:50:19] INFO root fetch - processPackages [SpectroscopicBinarySystem]: Start processing: manticore
+[2023-05-03 14:50:19] INFO root fetch - main [MainThread]: End processing [SpectroscopicBinarySystem]: success
+[2023-05-03 14:50:19] INFO root fetch - processPackages [manticore]: New version: [0.3.8.dev230502] Old Version: [0.3.8.dev230428]
+[2023-05-03 14:50:19] INFO root fetch - processPackages [scitools-iris]: executing diffoscope
+[2023-05-03 14:50:19] INFO root fetch - processPackages [scitools-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scitools-iris-3.5.0rc0.tar.gz tmp/scitools-iris-3.6.0rc0.tar.gz --markdown 20230503/s/scitools-iris/3.5.0rc0-3.6.0rc0/diff.md --exclude *.pyd
+[2023-05-03 14:50:19] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/17/3e/905f624b8591ebec02e8ce3975aa92067ec0f6084dac7ec75a340571ca4c/manticore-0.3.8.dev230428.tar.gz
+[2023-05-03 14:50:19] INFO root fetch - processPackages [showyourwork]: New version: [0.4.3rc2] Old Version: [0.4.2rc2]
+[2023-05-03 14:50:19] INFO root fetch - processPackages [py-fumen-util]: Downloading https://files.pythonhosted.org/packages/82/7a/e6643f8679eaa5f40883d61d309b86c1e24c5edd00715cb7f1c902820c76/py_fumen_util-0.0.2.tar.gz
+[2023-05-03 14:50:19] INFO root fetch - processPackages [abspy]: Start processing: shikithon
+[2023-05-03 14:50:19] INFO root fetch - main [MainThread]: End processing [abspy]: success
+[2023-05-03 14:50:19] INFO root fetch - processPackages [mypackage-prince-boom]: Start processing: sipiiiii
+[2023-05-03 14:50:19] INFO root fetch - main [MainThread]: End processing [mypackage-prince-boom]: success
+[2023-05-03 14:50:19] INFO root fetch - processPackages [pyvista]: Downloading https://files.pythonhosted.org/packages/57/f8/57a8596034b437e10677937e3c3bdfff825b909d41542d53ec694adefb70/pyvista-0.38.6.tar.gz
+[2023-05-03 14:50:19] INFO root fetch - main [MainThread]: End processing [AMDirT]: success
+[2023-05-03 14:50:19] INFO root fetch - processPackages [sipiiiii]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-05-03 14:50:19] INFO root fetch - processPackages [manticore]: executing diffoscope
+[2023-05-03 14:50:19] INFO root fetch - processPackages [manticore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manticore-0.3.8.dev230428.tar.gz tmp/manticore-0.3.8.dev230502.tar.gz --markdown 20230503/m/manticore/0.3.8.dev230428-0.3.8.dev230502/diff.md --exclude *.pyd
+[2023-05-03 14:50:19] INFO root fetch - processPackages [showyourwork]: Downloading https://files.pythonhosted.org/packages/0d/4b/f73a7d6f7a0ffb0db4739087d5c24798875aa40dfa7548527ba957cb860b/showyourwork-0.4.2rc2.tar.gz
+[2023-05-03 14:50:19] INFO root fetch - processPackages [shikithon]: New version: [2.5] Old Version: [2.4.2]
+[2023-05-03 14:50:19] INFO root fetch - main [MainThread]: End processing [curator-opensearch]: success
+[2023-05-03 14:50:19] INFO root fetch - processPackages [py-fumen-util]: Downloading https://files.pythonhosted.org/packages/5f/3d/fa48fa17657e9f7f4ef929626afd7a880c4760399f70ebfa0442368f7427/py_fumen_util-0.1.0.tar.gz
+[2023-05-03 14:50:19] INFO root fetch - processPackages [sipiiiii]: Downloading https://files.pythonhosted.org/packages/54/28/e828366587b736d562ef5aa075a5db108735b52c896c544254a35c855bd4/sipiiiii-0.8.3.tar.gz
+[2023-05-03 14:50:19] INFO root fetch - processPackages [pyvista]: executing diffoscope
+[2023-05-03 14:50:19] INFO root fetch - processPackages [pyvista]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvista-0.38.5.tar.gz tmp/pyvista-0.38.6.tar.gz --markdown 20230503/p/pyvista/0.38.5-0.38.6/diff.md --exclude *.pyd
+[2023-05-03 14:50:19] INFO root fetch - processPackages [shikithon]: Downloading https://files.pythonhosted.org/packages/9f/a7/df0bb191c02b47eea8313e0f9e381b49183221667f7bbb3c66227159ceb2/shikithon-2.4.2.tar.gz
+[2023-05-03 14:50:19] INFO root fetch - processPackages [py-fumen-util]: executing diffoscope
+[2023-05-03 14:50:19] INFO root fetch - processPackages [py-fumen-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_fumen_util-0.0.2.tar.gz tmp/py_fumen_util-0.1.0.tar.gz --markdown 20230503/p/py-fumen-util/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-05-03 14:50:19] INFO root fetch - processPackages [sipiiiii]: executing diffoscope
+[2023-05-03 14:50:19] INFO root fetch - processPackages [sipiiiii]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sipiiiii-0.8.2.tar.gz tmp/sipiiiii-0.8.3.tar.gz --markdown 20230503/s/sipiiiii/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-05-03 14:50:19] INFO root fetch - processPackages [shikithon]: Downloading https://files.pythonhosted.org/packages/15/55/194e1b9664723d07129c7cddde215075c2131d52a6e69b357949b8646aee/shikithon-2.5.tar.gz
+[2023-05-03 14:50:19] INFO root fetch - processPackages [shikithon]: executing diffoscope
+[2023-05-03 14:50:19] INFO root fetch - processPackages [shikithon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shikithon-2.4.2.tar.gz tmp/shikithon-2.5.tar.gz --markdown 20230503/s/shikithon/2.4.2-2.5/diff.md --exclude *.pyd
+[2023-05-03 14:50:20] INFO root fetch - processPackages [showyourwork]: Downloading https://files.pythonhosted.org/packages/b7/06/0e40fa573a2887dc00e70164246b82cd8d4674af0a53c9c86a502ee2d17b/showyourwork-0.4.3rc2.tar.gz
+[2023-05-03 14:50:20] INFO root fetch - main [MainThread]: End processing [py-fumen-util]: success
+[2023-05-03 14:50:20] INFO root fetch - main [MainThread]: End processing [sipiiiii]: success
+[2023-05-03 14:50:20] INFO root fetch - main [MainThread]: End processing [manticore]: success
+[2023-05-03 14:50:21] INFO root fetch - processPackages [showyourwork]: executing diffoscope
+[2023-05-03 14:50:21] INFO root fetch - processPackages [showyourwork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/showyourwork-0.4.2rc2.tar.gz tmp/showyourwork-0.4.3rc2.tar.gz --markdown 20230503/s/showyourwork/0.4.2rc2-0.4.3rc2/diff.md --exclude *.pyd
+[2023-05-03 14:50:21] INFO root fetch - main [MainThread]: End processing [shikithon]: success
+[2023-05-03 14:50:23] INFO root fetch - main [MainThread]: End processing [pyvista]: success
+[2023-05-03 14:50:23] INFO root fetch - main [MainThread]: End processing [showyourwork]: success
+[2023-05-03 14:50:50] INFO root fetch - main [MainThread]: End processing [scitools-iris]: success
+[2023-05-03 14:51:04] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
+[2023-05-03 14:51:04] INFO root fetch - main [MainThread]: Store serial: [17956565]
