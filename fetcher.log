@@ -4493,3 +4493,84 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-03 03:44:23] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
 [2023-05-03 03:44:24] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
 [2023-05-03 03:44:24] INFO root fetch - main [MainThread]: Store serial: [17950498]
+[2023-05-03 03:49:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17950498]
+[2023-05-03 03:49:33] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-03 03:49:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: VodBot
+[2023-05-03 03:49:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: homeassistant-stubs
+[2023-05-03 03:49:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbdev-apl
+[2023-05-03 03:49:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pysigma-backend-carbonblack
+[2023-05-03 03:49:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: amazon-braket-schemas
+[2023-05-03 03:49:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dynamic-listing
+[2023-05-03 03:49:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dorothy-sdk
+[2023-05-03 03:49:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jaaql-monitor
+[2023-05-03 03:49:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jaaql-monitor
+[2023-05-03 03:49:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jaaql-middleware-python
+[2023-05-03 03:49:33] INFO root fetch - processPackages [VodBot]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-05-03 03:49:33] INFO root fetch - processPackages [pysigma-backend-carbonblack]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-03 03:49:33] INFO root fetch - processPackages [dorothy-sdk]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-05-03 03:49:33] INFO root fetch - processPackages [jaaql-monitor]: New version: [1.2.24] Old Version: [1.2.23]
+[2023-05-03 03:49:33] INFO root fetch - processPackages [dynamic-listing]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-03 03:49:33] INFO root fetch - processPackages [amazon-braket-schemas]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-03 03:49:33] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.750] Old Version: [0.0.749]
+[2023-05-03 03:49:33] INFO root fetch - processPackages [jaaql-monitor]: New version: [1.2.24] Old Version: [1.2.23]
+[2023-05-03 03:49:33] INFO root fetch - processPackages [homeassistant-stubs]: New version: [2023.5.0b7] Old Version: [2023.5.0b6]
+[2023-05-03 03:49:33] INFO root fetch - processPackages [jaaql-middleware-python]: New version: [4.8.9] Old Version: [4.8.7]
+[2023-05-03 03:49:33] INFO root fetch - processPackages [jaaql-monitor]: Downloading https://files.pythonhosted.org/packages/47/02/817b3ca570fd7e52ca89a3e26c09535c4fd24979bb1e1d206143b49a9f90/jaaql-monitor-1.2.23.tar.gz
+[2023-05-03 03:49:33] INFO root fetch - processPackages [jaaql-monitor]: Downloading https://files.pythonhosted.org/packages/47/02/817b3ca570fd7e52ca89a3e26c09535c4fd24979bb1e1d206143b49a9f90/jaaql-monitor-1.2.23.tar.gz
+[2023-05-03 03:49:33] INFO root fetch - processPackages [dynamic-listing]: Downloading https://files.pythonhosted.org/packages/6b/aa/aaaa77667aa6eaa98a51bab215c87637222406bd4c6c99c83c51b9a945c5/dynamic_listing-0.0.7.tar.gz
+[2023-05-03 03:49:33] INFO root fetch - processPackages [VodBot]: Downloading https://files.pythonhosted.org/packages/37/ec/2d37e3066dc5ee077fb68c61902a27f468e02e16d2b0da0a46e6263681c0/VodBot-1.1.5.tar.gz
+[2023-05-03 03:49:33] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/34/e2/267bdd64003ac4594d12374dd0db2007b5acf682189c3aa68de2e0d19cf3/homeassistant_stubs-2023.5.0b6.tar.gz
+[2023-05-03 03:49:33] INFO root fetch - processPackages [jaaql-middleware-python]: executing diffoscope
+[2023-05-03 03:49:33] INFO root fetch - processPackages [jaaql-middleware-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaaql-middleware-python-4.8.7.tar.gz tmp/jaaql-middleware-python-4.8.9.tar.gz --markdown 20230503/j/jaaql-middleware-python/4.8.7-4.8.9/diff.md --exclude *.pyd
+[2023-05-03 03:49:33] INFO root fetch - processPackages [pysigma-backend-carbonblack]: Downloading https://files.pythonhosted.org/packages/28/87/5969393672d082e43c874e769b8c94f955a13c93b171aa579c7bfeb9abb8/pysigma_backend_carbonblack-0.1.0.tar.gz
+[2023-05-03 03:49:33] INFO root fetch - processPackages [amazon-braket-schemas]: Downloading https://files.pythonhosted.org/packages/c9/fd/246fed981f078c80529e9f8b671626c47d723a6732afea02cb180a60e28a/amazon-braket-schemas-1.8.0.tar.gz
+[2023-05-03 03:49:33] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/53/fa/9f3b93ff23aae0d8dded85aab834809fdf2baebc0760c65de0c8cbf27b88/nbdev-apl-0.0.750.tar.gz
+[2023-05-03 03:49:33] INFO root fetch - processPackages [dorothy-sdk]: Downloading https://files.pythonhosted.org/packages/78/0c/6b3a7e8a6aed05deaebb1889485385e56da27b934f7f3af6d2f37290862a/dorothy-sdk-1.4.3.tar.gz
+[2023-05-03 03:49:33] INFO root fetch - processPackages [dynamic-listing]: Downloading https://files.pythonhosted.org/packages/b9/1c/386f8a4d9898b556ac1ea77338b7dc938e5b793a1acda5043cdf28168227/dynamic_listing-0.0.8.tar.gz
+[2023-05-03 03:49:33] INFO root fetch - processPackages [jaaql-monitor]: Downloading https://files.pythonhosted.org/packages/4b/e4/9b5667d051a1f96e67b9d59d195fe66779b5ed257918a62878fc2625e290/jaaql-monitor-1.2.24.tar.gz
+[2023-05-03 03:49:33] INFO root fetch - processPackages [jaaql-monitor]: Downloading https://files.pythonhosted.org/packages/4b/e4/9b5667d051a1f96e67b9d59d195fe66779b5ed257918a62878fc2625e290/jaaql-monitor-1.2.24.tar.gz
+[2023-05-03 03:49:33] INFO root fetch - processPackages [VodBot]: Downloading https://files.pythonhosted.org/packages/d8/dd/78c33a301292a1b1670058a101ba19466a0c8d261b3c3a9602d78850169c/VodBot-1.1.6.tar.gz
+[2023-05-03 03:49:33] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/99/d6/c20e8efd643a078ea8059400019cda9c33979085671b6f5dba2cf4caa7f1/homeassistant_stubs-2023.5.0b7.tar.gz
+[2023-05-03 03:49:33] INFO root fetch - processPackages [dorothy-sdk]: executing diffoscope
+[2023-05-03 03:49:33] INFO root fetch - processPackages [dorothy-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dorothy-sdk-1.4.2.tar.gz tmp/dorothy-sdk-1.4.3.tar.gz --markdown 20230503/d/dorothy-sdk/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-05-03 03:49:33] INFO root fetch - processPackages [dynamic-listing]: executing diffoscope
+[2023-05-03 03:49:33] INFO root fetch - processPackages [dynamic-listing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynamic_listing-0.0.7.tar.gz tmp/dynamic_listing-0.0.8.tar.gz --markdown 20230503/d/dynamic-listing/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-03 03:49:33] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-05-03 03:49:33] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.749.tar.gz tmp/nbdev-apl-0.0.750.tar.gz --markdown 20230503/n/nbdev-apl/0.0.749-0.0.750/diff.md --exclude *.pyd
+[2023-05-03 03:49:33] INFO root fetch - processPackages [jaaql-monitor]: executing diffoscope
+[2023-05-03 03:49:33] INFO root fetch - processPackages [jaaql-monitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaaql-monitor-1.2.23.tar.gz tmp/jaaql-monitor-1.2.24.tar.gz --markdown 20230503/j/jaaql-monitor/1.2.23-1.2.24/diff.md --exclude *.pyd
+[2023-05-03 03:49:33] INFO root fetch - processPackages [jaaql-monitor]: executing diffoscope
+[2023-05-03 03:49:33] INFO root fetch - processPackages [jaaql-monitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaaql-monitor-1.2.23.tar.gz tmp/jaaql-monitor-1.2.24.tar.gz --markdown 20230503/j/jaaql-monitor/1.2.23-1.2.24/diff.md --exclude *.pyd
+[2023-05-03 03:49:33] INFO root fetch - processPackages [pysigma-backend-carbonblack]: Downloading https://files.pythonhosted.org/packages/e8/aa/f6303599de78ade7cc7f3f608c36677651b01b80499021b11636c342492f/pysigma_backend_carbonblack-0.1.1.tar.gz
+[2023-05-03 03:49:33] INFO root fetch - processPackages [homeassistant-stubs]: executing diffoscope
+[2023-05-03 03:49:33] INFO root fetch - processPackages [homeassistant-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homeassistant_stubs-2023.5.0b6.tar.gz tmp/homeassistant_stubs-2023.5.0b7.tar.gz --markdown 20230503/h/homeassistant-stubs/2023.5.0b6-2023.5.0b7/diff.md --exclude *.pyd
+[2023-05-03 03:49:33] INFO root fetch - processPackages [VodBot]: executing diffoscope
+[2023-05-03 03:49:33] INFO root fetch - processPackages [VodBot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VodBot-1.1.5.tar.gz tmp/VodBot-1.1.6.tar.gz --markdown 20230503/V/VodBot/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-05-03 03:49:33] INFO root fetch - processPackages [pysigma-backend-carbonblack]: executing diffoscope
+[2023-05-03 03:49:33] INFO root fetch - processPackages [pysigma-backend-carbonblack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysigma_backend_carbonblack-0.1.0.tar.gz tmp/pysigma_backend_carbonblack-0.1.1.tar.gz --markdown 20230503/p/pysigma-backend-carbonblack/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-03 03:49:34] INFO root fetch - processPackages [amazon-braket-schemas]: Downloading https://files.pythonhosted.org/packages/1d/aa/207310180e24b721f4e329a40c3a099844ed68a3706c0b5e6dbf779ef8aa/amazon-braket-schemas-1.9.0.tar.gz
+[2023-05-03 03:49:34] INFO root fetch - processPackages [amazon-braket-schemas]: executing diffoscope
+[2023-05-03 03:49:34] INFO root fetch - processPackages [amazon-braket-schemas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon-braket-schemas-1.8.0.tar.gz tmp/amazon-braket-schemas-1.9.0.tar.gz --markdown 20230503/a/amazon-braket-schemas/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-03 03:49:35] INFO root fetch - processPackages [nbdev-apl]: Start processing: ghanashops-scraper
+[2023-05-03 03:49:35] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-05-03 03:49:35] INFO root fetch - processPackages [ghanashops-scraper]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-03 03:49:35] INFO root fetch - processPackages [jaaql-monitor]: Start processing: AshenDB
+[2023-05-03 03:49:35] INFO root fetch - main [MainThread]: End processing [jaaql-monitor]: success
+[2023-05-03 03:49:35] INFO root fetch - main [MainThread]: End processing [dynamic-listing]: success
+[2023-05-03 03:49:35] INFO root fetch - processPackages [ghanashops-scraper]: executing diffoscope
+[2023-05-03 03:49:35] INFO root fetch - processPackages [ghanashops-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghanashops-scraper-1.0.4.tar.gz tmp/ghanashops-scraper-1.0.5.tar.gz --markdown 20230503/g/ghanashops-scraper/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-03 03:49:35] INFO root fetch - processPackages [AshenDB]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-03 03:49:35] INFO root fetch - main [MainThread]: End processing [jaaql-monitor]: success
+[2023-05-03 03:49:35] INFO root fetch - main [MainThread]: End processing [dorothy-sdk]: success
+[2023-05-03 03:49:35] INFO root fetch - main [MainThread]: End processing [pysigma-backend-carbonblack]: success
+[2023-05-03 03:49:35] INFO root fetch - processPackages [AshenDB]: Downloading https://files.pythonhosted.org/packages/1a/cb/e2331aa6ee183381fe62cbffbd6d27550eb29333b08fbf0342014e15fc36/AshenDB-0.0.3.tar.gz
+[2023-05-03 03:49:35] INFO root fetch - main [MainThread]: End processing [VodBot]: success
+[2023-05-03 03:49:36] INFO root fetch - processPackages [AshenDB]: Downloading https://files.pythonhosted.org/packages/77/a7/25fd64534965467335a9450786f6239bd93697cdddde244c7946dc496884/AshenDB-0.0.4.tar.gz
+[2023-05-03 03:49:36] INFO root fetch - processPackages [AshenDB]: executing diffoscope
+[2023-05-03 03:49:36] INFO root fetch - processPackages [AshenDB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AshenDB-0.0.3.tar.gz tmp/AshenDB-0.0.4.tar.gz --markdown 20230503/A/AshenDB/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-03 03:49:36] INFO root fetch - main [MainThread]: End processing [ghanashops-scraper]: success
+[2023-05-03 03:49:36] INFO root fetch - main [MainThread]: End processing [amazon-braket-schemas]: success
+[2023-05-03 03:49:37] INFO root fetch - main [MainThread]: End processing [jaaql-middleware-python]: success
+[2023-05-03 03:49:37] INFO root fetch - main [MainThread]: End processing [AshenDB]: success
+[2023-05-03 03:50:18] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
+[2023-05-03 03:50:18] INFO root fetch - main [MainThread]: Store serial: [17950533]
