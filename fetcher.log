@@ -14190,3 +14190,165 @@ No space left on device. Diffoscope exiting.
 [2023-05-03 14:01:22] INFO root fetch - main [MainThread]: End processing [apidevtools]: success
 [2023-05-03 14:01:24] INFO root fetch - main [MainThread]: End processing [pydts]: success
 [2023-05-03 14:01:24] INFO root fetch - main [MainThread]: Store serial: [17956000]
+[2023-05-03 14:06:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17956000]
+[2023-05-03 14:06:33] INFO root fetch - main [MainThread]: Found 28 changed packages
+[2023-05-03 14:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tmtoolkit
+[2023-05-03 14:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openshift-cluster-management-python-client
+[2023-05-03 14:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scoobi
+[2023-05-03 14:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyneurosdk2
+[2023-05-03 14:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dop-integration-libs
+[2023-05-03 14:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eradiate-mitsuba
+[2023-05-03 14:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hellonew
+[2023-05-03 14:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: torcheval-nightly
+[2023-05-03 14:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: picsellia-connexion-services
+[2023-05-03 14:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: slcl1butils
+[2023-05-03 14:06:33] INFO root fetch - processPackages [pyneurosdk2]: New version: [1.0.4.post1] Old Version: [1.0.3.0.post3]
+[2023-05-03 14:06:33] INFO root fetch - processPackages [openshift-cluster-management-python-client]: New version: [1.0.14] Old Version: [1.0.13]
+[2023-05-03 14:06:33] INFO root fetch - processPackages [scoobi]: New version: [0.0.1.2] Old Version: [0.0.1.1]
+[2023-05-03 14:06:33] INFO root fetch - processPackages [tmtoolkit]: New version: [0.9.0rc3] Old Version: [0.9.0rc2]
+[2023-05-03 14:06:33] WARNING root fetch - processPackages [hellonew]: Skipping, unable to determine old version
+[2023-05-03 14:06:33] INFO root fetch - processPackages [hellonew]: Start processing: libcst-mypy
+[2023-05-03 14:06:33] INFO root fetch - main [MainThread]: End processing [hellonew] error
+[2023-05-03 14:06:33] INFO root fetch - processPackages [eradiate-mitsuba]: New version: [0.0.1rc8] Old Version: [0.0.1rc6]
+[2023-05-03 14:06:33] INFO root fetch - processPackages [picsellia-connexion-services]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-03 14:06:33] INFO root fetch - processPackages [slcl1butils]: New version: [2023.5.3] Old Version: [2023.5.2rc0]
+[2023-05-03 14:06:33] INFO root fetch - processPackages [dop-integration-libs]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-03 14:06:33] INFO root fetch - processPackages [libcst-mypy]: New version: [0.1.0] Old Version: [0.0.0]
+[2023-05-03 14:06:33] INFO root fetch - processPackages [torcheval-nightly]: New version: [2023.5.3] Old Version: [2023.5.2]
+[2023-05-03 14:06:33] INFO root fetch - processPackages [dop-integration-libs]: executing diffoscope
+[2023-05-03 14:06:33] INFO root fetch - processPackages [dop-integration-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dop_integration_libs-0.1.8.tar.gz tmp/dop_integration_libs-0.1.9.tar.gz --markdown 20230503/d/dop-integration-libs/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-03 14:06:33] INFO root fetch - processPackages [eradiate-mitsuba]: Downloading https://files.pythonhosted.org/packages/ab/d2/1e7fa3b88559d9e95cf09f4cb61a2f97ef7a6c66a6cc27b8fa6cdd5b753f/eradiate_mitsuba-0.0.1rc6-cp39-cp39-win_amd64.whl
+[2023-05-03 14:06:33] INFO root fetch - processPackages [pyneurosdk2]: Downloading https://files.pythonhosted.org/packages/5d/84/82228040347cf794440287526f5ce7e167b7eda8e965bfc4d2093aaf3b06/pyneurosdk2-1.0.3.0.post3.tar.gz
+[2023-05-03 14:06:33] INFO root fetch - processPackages [libcst-mypy]: Downloading https://files.pythonhosted.org/packages/cc/11/f1829534d235eeccc61158a60cd535127b44efaf76ac2f4de314d648a60f/libcst_mypy-0.0.0.tar.gz
+[2023-05-03 14:06:33] INFO root fetch - processPackages [slcl1butils]: Downloading https://files.pythonhosted.org/packages/9f/7c/815ba3f3e1c0271fa40e36d5167d51cbcc357c11b08a52656cbcd0b4d422/slcl1butils-2023.5.3.tar.gz
+[2023-05-03 14:06:33] INFO root fetch - processPackages [tmtoolkit]: Downloading https://files.pythonhosted.org/packages/bb/b6/55384f223a31a43399f944dc1b8939c2296ea3aeda12394770b912dfd222/tmtoolkit-0.9.0rc2.tar.gz
+[2023-05-03 14:06:33] INFO root fetch - processPackages [scoobi]: Downloading https://files.pythonhosted.org/packages/4f/7b/fe72be9fe46e85b763c946dabe09a68589c816cd84b37519d1730e835e80/scoobi-0.0.1.1.tar.gz
+[2023-05-03 14:06:33] INFO root fetch - processPackages [picsellia-connexion-services]: Downloading https://files.pythonhosted.org/packages/5d/30/4aefe348f81499dd6e6d26de0ab0bec39e8d794a267b2245eaaf33b8148a/picsellia_connexion_services-0.2.0.tar.gz
+[2023-05-03 14:06:33] INFO root fetch - processPackages [torcheval-nightly]: Downloading https://files.pythonhosted.org/packages/3e/8a/8addf2a7dc92914c10b7d91ab4a39526e6fb32e80d37bbc55d8de992bec1/torcheval-nightly-2023.5.2.tar.gz
+[2023-05-03 14:06:33] WARNING root fetch - processPackages [eradiate-mitsuba]: Skipping package: exceeds size limit 22214667>=10485760
+[2023-05-03 14:06:33] INFO root fetch - processPackages [eradiate-mitsuba]: Start processing: anysolve
+[2023-05-03 14:06:33] INFO root fetch - main [MainThread]: End processing [eradiate-mitsuba] error
+[2023-05-03 14:06:33] WARNING root fetch - processPackages [anysolve]: Skipping, unable to determine old version
+[2023-05-03 14:06:33] INFO root fetch - processPackages [slcl1butils]: executing diffoscope
+[2023-05-03 14:06:33] INFO root fetch - processPackages [anysolve]: Start processing: sipiiiii
+[2023-05-03 14:06:33] INFO root fetch - processPackages [slcl1butils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slcl1butils-2023.5.2rc0.tar.gz tmp/slcl1butils-2023.5.3.tar.gz --markdown 20230503/s/slcl1butils/2023.5.2rc0-2023.5.3/diff.md --exclude *.pyd
+[2023-05-03 14:06:33] INFO root fetch - main [MainThread]: End processing [anysolve] error
+[2023-05-03 14:06:33] WARNING root fetch - processPackages [tmtoolkit]: Skipping package: exceeds size limit 19768965>=10485760
+[2023-05-03 14:06:33] INFO root fetch - processPackages [tmtoolkit]: Start processing: joes-giant-toolbox
+[2023-05-03 14:06:33] INFO root fetch - main [MainThread]: End processing [tmtoolkit] error
+[2023-05-03 14:06:33] INFO root fetch - processPackages [sipiiiii]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-05-03 14:06:33] INFO root fetch - processPackages [openshift-cluster-management-python-client]: Downloading https://files.pythonhosted.org/packages/86/b7/38556162a1c7564d99c78bd5e52d2e1dbed66c0a1c84375cfdb0e8108e90/openshift-cluster-management-python-client-1.0.14.tar.gz
+[2023-05-03 14:06:33] INFO root fetch - processPackages [joes-giant-toolbox]: New version: [0.2.22] Old Version: [0.2.21]
+[2023-05-03 14:06:33] INFO root fetch - processPackages [openshift-cluster-management-python-client]: executing diffoscope
+[2023-05-03 14:06:33] INFO root fetch - processPackages [openshift-cluster-management-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshift-cluster-management-python-client-1.0.13.tar.gz tmp/openshift-cluster-management-python-client-1.0.14.tar.gz --markdown 20230503/o/openshift-cluster-management-python-client/1.0.13-1.0.14/diff.md --exclude *.pyd
+[2023-05-03 14:06:33] INFO root fetch - processPackages [torcheval-nightly]: Downloading https://files.pythonhosted.org/packages/c9/9c/52f0828fdec0a8021a7adbe783519a4e46bcd40dd7dfacdd04d60d4742c4/torcheval-nightly-2023.5.3.tar.gz
+[2023-05-03 14:06:33] INFO root fetch - processPackages [libcst-mypy]: Downloading https://files.pythonhosted.org/packages/cd/73/9c7a88b588d7479fbe016cc7f40c417a211b6eb4c70ddd415989b220ad43/libcst_mypy-0.1.0.tar.gz
+[2023-05-03 14:06:33] INFO root fetch - processPackages [picsellia-connexion-services]: Downloading https://files.pythonhosted.org/packages/53/1d/0de3853d44074dc7ea4a67906e476987a342c35e46e77e3b31792fe10bf1/picsellia_connexion_services-0.2.1.tar.gz
+[2023-05-03 14:06:33] INFO root fetch - processPackages [sipiiiii]: Downloading https://files.pythonhosted.org/packages/3c/1f/deddb8178d857f1a442af27856d89cc9a370399c2691d7ae42b66d47569b/sipiiiii-0.7.9.tar.gz
+[2023-05-03 14:06:33] INFO root fetch - processPackages [joes-giant-toolbox]: Downloading https://files.pythonhosted.org/packages/8e/19/1e11b2dc3c6a4807cd4bbf8eea9e02f22f38c7e40ecdf690d5af9334853c/joes_giant_toolbox-0.2.22.tar.gz
+[2023-05-03 14:06:33] INFO root fetch - processPackages [torcheval-nightly]: executing diffoscope
+[2023-05-03 14:06:33] INFO root fetch - processPackages [torcheval-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torcheval-nightly-2023.5.2.tar.gz tmp/torcheval-nightly-2023.5.3.tar.gz --markdown 20230503/t/torcheval-nightly/2023.5.2-2023.5.3/diff.md --exclude *.pyd
+[2023-05-03 14:06:33] INFO root fetch - processPackages [libcst-mypy]: executing diffoscope
+[2023-05-03 14:06:33] INFO root fetch - processPackages [libcst-mypy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcst_mypy-0.0.0.tar.gz tmp/libcst_mypy-0.1.0.tar.gz --markdown 20230503/l/libcst-mypy/0.0.0-0.1.0/diff.md --exclude *.pyd
+[2023-05-03 14:06:33] INFO root fetch - processPackages [picsellia-connexion-services]: executing diffoscope
+[2023-05-03 14:06:33] INFO root fetch - processPackages [picsellia-connexion-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picsellia_connexion_services-0.2.0.tar.gz tmp/picsellia_connexion_services-0.2.1.tar.gz --markdown 20230503/p/picsellia-connexion-services/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-03 14:06:33] INFO root fetch - processPackages [joes-giant-toolbox]: executing diffoscope
+[2023-05-03 14:06:33] INFO root fetch - processPackages [joes-giant-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/joes_giant_toolbox-0.2.21.tar.gz tmp/joes_giant_toolbox-0.2.22.tar.gz --markdown 20230503/j/joes-giant-toolbox/0.2.21-0.2.22/diff.md --exclude *.pyd
+[2023-05-03 14:06:33] INFO root fetch - processPackages [sipiiiii]: executing diffoscope
+[2023-05-03 14:06:33] INFO root fetch - processPackages [pyneurosdk2]: Downloading https://files.pythonhosted.org/packages/cb/d6/a9aa1badc52e7ac91688c04ff8dc437b76eb5c34860d23ec67dffd697e64/pyneurosdk2-1.0.4.post1.tar.gz
+[2023-05-03 14:06:33] INFO root fetch - processPackages [sipiiiii]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sipiiiii-0.7.8.tar.gz tmp/sipiiiii-0.7.9.tar.gz --markdown 20230503/s/sipiiiii/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-05-03 14:06:34] INFO root fetch - processPackages [pyneurosdk2]: executing diffoscope
+[2023-05-03 14:06:34] INFO root fetch - processPackages [pyneurosdk2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyneurosdk2-1.0.3.0.post3.tar.gz tmp/pyneurosdk2-1.0.4.post1.tar.gz --markdown 20230503/p/pyneurosdk2/1.0.3.0.post3-1.0.4.post1/diff.md --exclude *.pyd
+[2023-05-03 14:06:34] INFO root fetch - processPackages [scoobi]: Downloading https://files.pythonhosted.org/packages/5a/7e/9e1906fd47722871a9f7936cf2f6bc231e5759ec69f6d21c3c2aec78af34/scoobi-0.0.1.2.tar.gz
+[2023-05-03 14:06:34] INFO root fetch - processPackages [scoobi]: executing diffoscope
+[2023-05-03 14:06:34] INFO root fetch - processPackages [scoobi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scoobi-0.0.1.1.tar.gz tmp/scoobi-0.0.1.2.tar.gz --markdown 20230503/s/scoobi/0.0.1.1-0.0.1.2/diff.md --exclude *.pyd
+[2023-05-03 14:06:34] INFO root fetch - processPackages [dop-integration-libs]: Start processing: bigdl-dllib-spark2
+[2023-05-03 14:06:34] INFO root fetch - main [MainThread]: End processing [dop-integration-libs]: success
+[2023-05-03 14:06:34] INFO root fetch - processPackages [bigdl-dllib-spark2]: New version: [2.4.0b20230503] Old Version: [2.4.0b20230502]
+[2023-05-03 14:06:34] INFO root fetch - processPackages [bigdl-dllib-spark2]: Downloading https://files.pythonhosted.org/packages/ad/f4/55258a5c32e859ac28210ae2dc13f5b1900c32bfc6b2c8f307109a540839/bigdl-dllib-spark2-2.4.0b20230502.tar.gz
+[2023-05-03 14:06:34] WARNING root fetch - processPackages [bigdl-dllib-spark2]: Skipping package: exceeds size limit 53559966>=10485760
+[2023-05-03 14:06:34] INFO root fetch - processPackages [bigdl-dllib-spark2]: Start processing: yaecs
+[2023-05-03 14:06:34] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark2] error
+[2023-05-03 14:06:34] INFO root fetch - processPackages [yaecs]: New version: [3.2.3] Old Version: [3.2.2]
+[2023-05-03 14:06:35] INFO root fetch - processPackages [yaecs]: Downloading https://files.pythonhosted.org/packages/87/96/2838ad152a720c258dafbd1fa2c707a7d28aa5d56278f19ce662d9e83a64/yaecs-3.2.3.tar.gz
+[2023-05-03 14:06:35] INFO root fetch - processPackages [openshift-cluster-management-python-client]: Start processing: bp-data-visualization
+[2023-05-03 14:06:35] INFO root fetch - main [MainThread]: End processing [openshift-cluster-management-python-client]: success
+[2023-05-03 14:06:35] INFO root fetch - processPackages [yaecs]: executing diffoscope
+[2023-05-03 14:06:35] INFO root fetch - processPackages [yaecs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaecs-3.2.2.tar.gz tmp/yaecs-3.2.3.tar.gz --markdown 20230503/y/yaecs/3.2.2-3.2.3/diff.md --exclude *.pyd
+[2023-05-03 14:06:35] INFO root fetch - processPackages [bp-data-visualization]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-03 14:06:35] INFO root fetch - processPackages [slcl1butils]: Start processing: dlclibrary
+[2023-05-03 14:06:35] INFO root fetch - main [MainThread]: End processing [slcl1butils]: success
+[2023-05-03 14:06:35] INFO root fetch - processPackages [libcst-mypy]: Start processing: bigdl-orca-spark2
+[2023-05-03 14:06:35] INFO root fetch - main [MainThread]: End processing [libcst-mypy]: success
+[2023-05-03 14:06:35] INFO root fetch - processPackages [bp-data-visualization]: Downloading https://files.pythonhosted.org/packages/47/e2/77bdb37612e67065b8b868260f6325020fe4adeb9fddbce6bdd7aee119d0/bp-data-visualization-1.0.0.tar.gz
+[2023-05-03 14:06:35] INFO root fetch - processPackages [bigdl-orca-spark2]: New version: [2.4.0b20230502] Old Version: [2.4.0b20230501]
+[2023-05-03 14:06:35] INFO root fetch - processPackages [dlclibrary]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-03 14:06:35] INFO root fetch - processPackages [picsellia-connexion-services]: Start processing: DDesignerAPI
+[2023-05-03 14:06:35] INFO root fetch - main [MainThread]: End processing [picsellia-connexion-services]: success
+[2023-05-03 14:06:35] INFO root fetch - processPackages [DDesignerAPI]: New version: [0.0.2.1] Old Version: [0.0.2.0]
+[2023-05-03 14:06:35] INFO root fetch - processPackages [bigdl-orca-spark2]: Downloading https://files.pythonhosted.org/packages/37/79/73d9b94a73265000a897f65f0a233944b75c9062baf251d038eaae0a5aea/bigdl_orca_spark2-2.4.0b20230501-py3-none-manylinux1_x86_64.whl
+[2023-05-03 14:06:35] WARNING root fetch - processPackages [bigdl-orca-spark2]: Skipping package: exceeds size limit 20369259>=10485760
+[2023-05-03 14:06:35] INFO root fetch - processPackages [bigdl-orca-spark2]: Start processing: bigdl-friesian-spark2
+[2023-05-03 14:06:35] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark2] error
+[2023-05-03 14:06:35] INFO root fetch - processPackages [scoobi]: Start processing: capellambse
+[2023-05-03 14:06:35] INFO root fetch - main [MainThread]: End processing [scoobi]: success
+[2023-05-03 14:06:35] INFO root fetch - processPackages [dlclibrary]: Downloading https://files.pythonhosted.org/packages/0a/e9/42864026541c2fa982b42ee50b5d92487a8b292d727d703051c6284ed649/dlclibrary-0.0.2.tar.gz
+[2023-05-03 14:06:35] INFO root fetch - processPackages [bigdl-friesian-spark2]: New version: [2.4.0b20230502] Old Version: [2.4.0b20230501]
+[2023-05-03 14:06:35] INFO root fetch - processPackages [bp-data-visualization]: Downloading https://files.pythonhosted.org/packages/89/4b/a08de120f001f0abe9d367fb0ca925cd458279cde72fa8278999838e5eb4/bp-data-visualization-1.0.1.tar.gz
+[2023-05-03 14:06:35] INFO root fetch - processPackages [DDesignerAPI]: Downloading https://files.pythonhosted.org/packages/62/6b/e22ea6ea98dcca595b92e95e310c76b4fc0fa238d8bb5260a3d3da108bdd/DDesignerAPI-0.0.2.1-py3-none-any.whl
+[2023-05-03 14:06:35] INFO root fetch - processPackages [capellambse]: New version: [0.5.9.dev5] Old Version: [0.5.9]
+[2023-05-03 14:06:35] INFO root fetch - processPackages [pyneurosdk2]: Start processing: bigdl-chronos-spark2
+[2023-05-03 14:06:35] INFO root fetch - main [MainThread]: End processing [pyneurosdk2]: success
+[2023-05-03 14:06:35] INFO root fetch - processPackages [sipiiiii]: Start processing: bigdl-spark2
+[2023-05-03 14:06:35] INFO root fetch - main [MainThread]: End processing [sipiiiii]: success
+[2023-05-03 14:06:35] INFO root fetch - processPackages [bigdl-chronos-spark2]: New version: [2.4.0b20230502] Old Version: [2.4.0b20230501]
+[2023-05-03 14:06:35] INFO root fetch - processPackages [DDesignerAPI]: executing diffoscope
+[2023-05-03 14:06:35] INFO root fetch - processPackages [DDesignerAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DDesignerAPI-0.0.2.0-py3-none-any.whl.zip tmp/DDesignerAPI-0.0.2.1-py3-none-any.whl.zip --markdown 20230503/D/DDesignerAPI/0.0.2.0-0.0.2.1/diff.md --exclude *.pyd
+[2023-05-03 14:06:35] INFO root fetch - processPackages [bigdl-spark2]: New version: [2.4.0b20230502] Old Version: [2.4.0b20230501]
+[2023-05-03 14:06:35] INFO root fetch - processPackages [bp-data-visualization]: executing diffoscope
+[2023-05-03 14:06:35] INFO root fetch - processPackages [bp-data-visualization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bp-data-visualization-1.0.0.tar.gz tmp/bp-data-visualization-1.0.1.tar.gz --markdown 20230503/b/bp-data-visualization/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-03 14:06:35] INFO root fetch - processPackages [torcheval-nightly]: Start processing: hiddifypanel
+[2023-05-03 14:06:35] INFO root fetch - main [MainThread]: End processing [torcheval-nightly]: success
+[2023-05-03 14:06:35] INFO root fetch - processPackages [bigdl-friesian-spark2]: executing diffoscope
+[2023-05-03 14:06:35] INFO root fetch - processPackages [bigdl-friesian-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark2-2.4.0b20230501-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark2-2.4.0b20230502-py3-none-manylinux1_x86_64.whl.zip --markdown 20230503/b/bigdl-friesian-spark2/2.4.0b20230501-2.4.0b20230502/diff.md --exclude *.pyd
+[2023-05-03 14:06:35] INFO root fetch - processPackages [capellambse]: Downloading https://files.pythonhosted.org/packages/0a/bb/e7974d92c6a3d93dbf30730a6d9302f37f52093b4985246d97e22939147d/capellambse-0.5.9.tar.gz
+[2023-05-03 14:06:35] INFO root fetch - processPackages [hiddifypanel]: New version: [6.1.2] Old Version: [6.1.1]
+[2023-05-03 14:06:35] INFO root fetch - processPackages [dlclibrary]: Downloading https://files.pythonhosted.org/packages/cf/8a/29dca795198570cfb3a0fcd612a2e12f78919ff7d192f6d8246202d95e40/dlclibrary-0.0.3.tar.gz
+[2023-05-03 14:06:36] INFO root fetch - processPackages [dlclibrary]: executing diffoscope
+[2023-05-03 14:06:36] INFO root fetch - processPackages [dlclibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlclibrary-0.0.2.tar.gz tmp/dlclibrary-0.0.3.tar.gz --markdown 20230503/d/dlclibrary/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-03 14:06:36] INFO root fetch - processPackages [bigdl-chronos-spark2]: executing diffoscope
+[2023-05-03 14:06:36] INFO root fetch - processPackages [bigdl-chronos-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark2-2.4.0b20230501-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark2-2.4.0b20230502-py3-none-manylinux1_x86_64.whl.zip --markdown 20230503/b/bigdl-chronos-spark2/2.4.0b20230501-2.4.0b20230502/diff.md --exclude *.pyd
+[2023-05-03 14:06:36] INFO root fetch - processPackages [bigdl-spark2]: executing diffoscope
+[2023-05-03 14:06:36] INFO root fetch - processPackages [bigdl-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark2-2.4.0b20230501-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark2-2.4.0b20230502-py3-none-manylinux1_x86_64.whl.zip --markdown 20230503/b/bigdl-spark2/2.4.0b20230501-2.4.0b20230502/diff.md --exclude *.pyd
+[2023-05-03 14:06:36] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/ea/fc/6c036ad57b7c513f2d5efa590e2352d2441bb2cff5db9cbc44787616614e/hiddifypanel-6.1.2-cp39-cp39-manylinux2014_x86_64.whl
+[2023-05-03 14:06:36] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-05-03 14:06:36] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-6.1.1-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/hiddifypanel-6.1.2-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230503/h/hiddifypanel/6.1.1-6.1.2/diff.md --exclude *.pyd
+[2023-05-03 14:06:36] INFO root fetch - processPackages [yaecs]: Start processing: localstack-core
+[2023-05-03 14:06:36] INFO root fetch - main [MainThread]: End processing [yaecs]: success
+[2023-05-03 14:06:36] INFO root fetch - processPackages [localstack-core]: New version: [2.0.3.dev20230502203844] Old Version: [2.0.3.dev20230502142525]
+[2023-05-03 14:06:36] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-05-03 14:06:36] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.0.3.dev20230502142525.tar.gz tmp/localstack-core-2.0.3.dev20230502203844.tar.gz --markdown 20230503/l/localstack-core/2.0.3.dev20230502142525-2.0.3.dev20230502203844/diff.md --exclude *.pyd
+[2023-05-03 14:06:37] INFO root fetch - processPackages [joes-giant-toolbox]: Start processing: bp-data-visualization
+[2023-05-03 14:06:37] INFO root fetch - main [MainThread]: End processing [joes-giant-toolbox]: success
+[2023-05-03 14:06:37] INFO root fetch - processPackages [bp-data-visualization]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-03 14:06:37] INFO root fetch - processPackages [bp-data-visualization]: executing diffoscope
+[2023-05-03 14:06:37] INFO root fetch - processPackages [bp-data-visualization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bp-data-visualization-1.0.0.tar.gz tmp/bp-data-visualization-1.0.1.tar.gz --markdown 20230503/b/bp-data-visualization/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-03 14:06:37] INFO root fetch - processPackages [DDesignerAPI]: Start processing: alphaz
+[2023-05-03 14:06:37] INFO root fetch - main [MainThread]: End processing [DDesignerAPI]: success
+[2023-05-03 14:06:37] INFO root fetch - main [MainThread]: End processing [bp-data-visualization]: success
+[2023-05-03 14:06:37] INFO root fetch - processPackages [alphaz]: New version: [0.7.7.5] Old Version: [0.7.7.4]
+[2023-05-03 14:06:37] INFO root fetch - main [MainThread]: End processing [bigdl-spark2]: success
+[2023-05-03 14:06:37] INFO root fetch - processPackages [alphaz]: executing diffoscope
+[2023-05-03 14:06:37] INFO root fetch - processPackages [alphaz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphaz-0.7.7.4.tar.gz tmp/alphaz-0.7.7.5.tar.gz --markdown 20230503/a/alphaz/0.7.7.4-0.7.7.5/diff.md --exclude *.pyd
+[2023-05-03 14:06:37] INFO root fetch - processPackages [capellambse]: Downloading https://files.pythonhosted.org/packages/31/3c/3a68e2e4cc3165b37471f5302bc500647962d3db54edea8081d0ced76387/capellambse-0.5.9.dev5.tar.gz
+[2023-05-03 14:06:37] INFO root fetch - main [MainThread]: End processing [dlclibrary]: success
+[2023-05-03 14:06:37] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark2]: success
+[2023-05-03 14:06:38] INFO root fetch - processPackages [capellambse]: executing diffoscope
+[2023-05-03 14:06:38] INFO root fetch - processPackages [capellambse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capellambse-0.5.9.tar.gz tmp/capellambse-0.5.9.dev5.tar.gz --markdown 20230503/c/capellambse/0.5.9-0.5.9.dev5/diff.md --exclude *.pyd
+[2023-05-03 14:06:38] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark2]: success
+[2023-05-03 14:06:38] INFO root fetch - main [MainThread]: End processing [bp-data-visualization]: success
+[2023-05-03 14:06:41] INFO root fetch - main [MainThread]: End processing [alphaz]: success
+[2023-05-03 14:06:43] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-05-03 14:06:45] INFO root fetch - main [MainThread]: End processing [capellambse]: success
+[2023-05-03 14:06:55] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-05-03 14:06:55] INFO root fetch - main [MainThread]: Store serial: [17956102]
