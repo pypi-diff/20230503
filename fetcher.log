@@ -7050,3 +7050,61 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-03 08:01:23] INFO root fetch - main [MainThread]: End processing [name-genie]: success
 [2023-05-03 08:01:26] INFO root fetch - main [MainThread]: End processing [LHCbDIRAC]: success
 [2023-05-03 08:01:26] INFO root fetch - main [MainThread]: Store serial: [17952038]
+[2023-05-03 08:06:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17952038]
+[2023-05-03 08:06:36] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-03 08:06:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: codalab
+[2023-05-03 08:06:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aij-news-client
+[2023-05-03 08:06:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-plotly-dash
+[2023-05-03 08:06:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-product-variant-default-code
+[2023-05-03 08:06:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addons-oca-product-variant
+[2023-05-03 08:06:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: phomemo-p12-tools
+[2023-05-03 08:06:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nonebot-adapter-minecraft
+[2023-05-03 08:06:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyg-nightly
+[2023-05-03 08:06:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bingbong
+[2023-05-03 08:06:36] INFO root fetch - processPackages [odoo-addons-oca-product-variant]: New version: [16.0.20230502.0] Old Version: [15.0.20221123.0]
+[2023-05-03 08:06:36] INFO root fetch - processPackages [odoo-addon-product-variant-default-code]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-05-03 08:06:36] INFO root fetch - processPackages [django-plotly-dash]: New version: [2.2.0] Old Version: [2.1.4]
+[2023-05-03 08:06:36] INFO root fetch - processPackages [codalab]: New version: [1.6.3] Old Version: [1.6.2]
+[2023-05-03 08:06:36] WARNING root fetch - processPackages [nonebot-adapter-minecraft]: Skipping, unable to determine old version
+[2023-05-03 08:06:36] INFO root fetch - processPackages [phomemo-p12-tools]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-03 08:06:36] INFO root fetch - main [MainThread]: End processing [nonebot-adapter-minecraft] error
+[2023-05-03 08:06:36] INFO root fetch - processPackages [aij-news-client]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-03 08:06:36] INFO root fetch - processPackages [bingbong]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-03 08:06:36] INFO root fetch - processPackages [pyg-nightly]: New version: [2.4.0.dev20230502] Old Version: [2.4.0.dev20230501]
+[2023-05-03 08:06:37] INFO root fetch - processPackages [bingbong]: executing diffoscope
+[2023-05-03 08:06:37] INFO root fetch - processPackages [bingbong]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bingbong-0.1.8-py3-none-any.whl.zip tmp/bingbong-0.1.9-py3-none-any.whl.zip --markdown 20230503/b/bingbong/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-03 08:06:37] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2023-05-03 08:06:37] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg-nightly-2.4.0.dev20230501.tar.gz tmp/pyg-nightly-2.4.0.dev20230502.tar.gz --markdown 20230503/p/pyg-nightly/2.4.0.dev20230501-2.4.0.dev20230502/diff.md --exclude *.pyd
+[2023-05-03 08:06:37] INFO root fetch - processPackages [odoo-addon-product-variant-default-code]: Downloading https://files.pythonhosted.org/packages/fa/02/ba3fb4dfa5057a7b7c19c3828f330daab49e783d4b2e5de3eeb9c8ca226c/odoo_addon_product_variant_default_code-16.0.1.0.0.2-py3-none-any.whl
+[2023-05-03 08:06:37] INFO root fetch - processPackages [phomemo-p12-tools]: Downloading https://files.pythonhosted.org/packages/68/ef/21a8d8edff08b74b46335f3cab448b04797b23729798d4f780f05cd494cd/phomemo-p12-tools-0.0.4.tar.gz
+[2023-05-03 08:06:37] INFO root fetch - processPackages [aij-news-client]: Downloading https://files.pythonhosted.org/packages/4c/b2/556aae10dbeb035d560dc3671dfb9ae92dbc16a340251a74c3cc4f93c2cd/aij-news-client-1.0.7.tar.gz
+[2023-05-03 08:06:37] INFO root fetch - processPackages [odoo-addons-oca-product-variant]: Downloading https://files.pythonhosted.org/packages/37/01/bdbb790f67964fa62f0d67eb459b5142aebcfcb4b8bb7f52c7c7ce8e70d6/odoo_addons_oca_product_variant-15.0.20221123.0-py3-none-any.whl
+[2023-05-03 08:06:37] INFO root fetch - processPackages [django-plotly-dash]: Downloading https://files.pythonhosted.org/packages/6e/07/fa25d96657480f8e9cfb9c256929a5717a72954cbb8bfc4c829adfd467de/django-plotly-dash-2.1.4.tar.gz
+[2023-05-03 08:06:37] INFO root fetch - processPackages [codalab]: Downloading https://files.pythonhosted.org/packages/a4/18/9830f7449a1ac9f64e848001a95a01b39cad1ed8829ec26bd452eecfa4ee/codalab-1.6.2.tar.gz
+[2023-05-03 08:06:37] INFO root fetch - processPackages [odoo-addon-product-variant-default-code]: Downloading https://files.pythonhosted.org/packages/9f/24/f1c6b4fe5c403742e01c9b45d3d330189048188f960862338d978aece21e/odoo_addon_product_variant_default_code-16.0.1.0.0.3-py3-none-any.whl
+[2023-05-03 08:06:37] INFO root fetch - processPackages [aij-news-client]: Downloading https://files.pythonhosted.org/packages/c3/e4/738e29b60d0df97639a994f6cc2c5dc5e5445ff78a6fb809ef74fdc50e21/aij-news-client-1.0.8.tar.gz
+[2023-05-03 08:06:37] INFO root fetch - processPackages [odoo-addon-product-variant-default-code]: executing diffoscope
+[2023-05-03 08:06:37] INFO root fetch - processPackages [odoo-addon-product-variant-default-code]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_variant_default_code-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_product_variant_default_code-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230503/o/odoo-addon-product-variant-default-code/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-05-03 08:06:37] INFO root fetch - processPackages [aij-news-client]: executing diffoscope
+[2023-05-03 08:06:37] INFO root fetch - processPackages [aij-news-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aij-news-client-1.0.7.tar.gz tmp/aij-news-client-1.0.8.tar.gz --markdown 20230503/a/aij-news-client/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-05-03 08:06:37] INFO root fetch - processPackages [phomemo-p12-tools]: Downloading https://files.pythonhosted.org/packages/2d/bb/10992cb92a9260ab29032c061a193c4c8715401baf2061e0dc3b0357af12/phomemo-p12-tools-0.0.5.tar.gz
+[2023-05-03 08:06:37] INFO root fetch - processPackages [phomemo-p12-tools]: executing diffoscope
+[2023-05-03 08:06:37] INFO root fetch - processPackages [phomemo-p12-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phomemo-p12-tools-0.0.4.tar.gz tmp/phomemo-p12-tools-0.0.5.tar.gz --markdown 20230503/p/phomemo-p12-tools/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-03 08:06:37] INFO root fetch - processPackages [odoo-addons-oca-product-variant]: Downloading https://files.pythonhosted.org/packages/0d/36/09170cabb0bd622f52992ce1de351b648b841b4837b9993714e9eddcaddd/odoo_addons_oca_product_variant-16.0.20230502.0-py3-none-any.whl
+[2023-05-03 08:06:37] INFO root fetch - processPackages [django-plotly-dash]: Downloading https://files.pythonhosted.org/packages/27/1c/b31f297acbdb1553f21201204329c44a1b560071e5d39897b4e35822cc94/django-plotly-dash-2.2.0.tar.gz
+[2023-05-03 08:06:37] INFO root fetch - processPackages [odoo-addons-oca-product-variant]: executing diffoscope
+[2023-05-03 08:06:37] INFO root fetch - processPackages [odoo-addons-oca-product-variant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_product_variant-15.0.20221123.0-py3-none-any.whl.zip tmp/odoo_addons_oca_product_variant-16.0.20230502.0-py3-none-any.whl.zip --markdown 20230503/o/odoo-addons-oca-product-variant/15.0.20221123.0-16.0.20230502.0/diff.md --exclude *.pyd
+[2023-05-03 08:06:37] INFO root fetch - processPackages [codalab]: Downloading https://files.pythonhosted.org/packages/a8/db/0ff7bd7aa7befa743c44b7fd1a5b502de02a272ff669c9b5c929b2504a80/codalab-1.6.3.tar.gz
+[2023-05-03 08:06:37] INFO root fetch - processPackages [django-plotly-dash]: executing diffoscope
+[2023-05-03 08:06:37] INFO root fetch - processPackages [django-plotly-dash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-plotly-dash-2.1.4.tar.gz tmp/django-plotly-dash-2.2.0.tar.gz --markdown 20230503/d/django-plotly-dash/2.1.4-2.2.0/diff.md --exclude *.pyd
+[2023-05-03 08:06:37] INFO root fetch - processPackages [codalab]: executing diffoscope
+[2023-05-03 08:06:37] INFO root fetch - processPackages [codalab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codalab-1.6.2.tar.gz tmp/codalab-1.6.3.tar.gz --markdown 20230503/c/codalab/1.6.2-1.6.3/diff.md --exclude *.pyd
+[2023-05-03 08:06:38] INFO root fetch - main [MainThread]: End processing [bingbong]: success
+[2023-05-03 08:06:38] INFO root fetch - main [MainThread]: End processing [aij-news-client]: success
+[2023-05-03 08:06:38] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-product-variant]: success
+[2023-05-03 08:06:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-variant-default-code]: success
+[2023-05-03 08:06:38] INFO root fetch - main [MainThread]: End processing [phomemo-p12-tools]: success
+[2023-05-03 08:06:40] INFO root fetch - main [MainThread]: End processing [django-plotly-dash]: success
+[2023-05-03 08:06:40] INFO root fetch - main [MainThread]: End processing [codalab]: success
+[2023-05-03 08:06:44] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2023-05-03 08:06:44] INFO root fetch - main [MainThread]: Store serial: [17952071]
