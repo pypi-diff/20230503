@@ -6448,3 +6448,14 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-03 06:50:30] INFO root fetch - main [MainThread]: End processing [odoo12-addon-l10n-it-delivery-note]: success
 [2023-05-03 06:50:30] INFO root fetch - main [MainThread]: End processing [tgwrap]: success
 [2023-05-03 06:50:30] INFO root fetch - main [MainThread]: Store serial: [17951708]
+[2023-05-03 06:55:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17951708]
+[2023-05-03 06:55:40] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-05-03 06:55:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: phomemo-p12-tools
+[2023-05-03 06:55:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dataset-viewer
+[2023-05-03 06:55:40] WARNING root fetch - processPackages [phomemo-p12-tools]: Skipping, unable to determine old version
+[2023-05-03 06:55:40] INFO root fetch - processPackages [dataset-viewer]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-03 06:55:40] INFO root fetch - main [MainThread]: End processing [phomemo-p12-tools] error
+[2023-05-03 06:55:40] INFO root fetch - processPackages [dataset-viewer]: executing diffoscope
+[2023-05-03 06:55:40] INFO root fetch - processPackages [dataset-viewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataset-viewer-0.0.3.tar.gz tmp/dataset-viewer-0.0.4.tar.gz --markdown 20230503/d/dataset-viewer/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-03 06:55:41] INFO root fetch - main [MainThread]: End processing [dataset-viewer]: success
+[2023-05-03 06:55:41] INFO root fetch - main [MainThread]: Store serial: [17951725]
