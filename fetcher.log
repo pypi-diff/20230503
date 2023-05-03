@@ -21030,3 +21030,63 @@ No space left on device. Diffoscope exiting.
 [2023-05-03 19:25:47] INFO root fetch - main [MainThread]: End processing [qsea]: success
 [2023-05-03 19:25:48] INFO root fetch - main [MainThread]: End processing [TuoTuo]: success
 [2023-05-03 19:25:48] INFO root fetch - main [MainThread]: Store serial: [17960337]
+[2023-05-03 19:30:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17960337]
+[2023-05-03 19:30:57] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-03 19:30:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: meter-gear
+[2023-05-03 19:30:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tasker-python
+[2023-05-03 19:30:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crazy-thursday
+[2023-05-03 19:30:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ezloglib
+[2023-05-03 19:30:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openai-kernel
+[2023-05-03 19:30:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: netrics-measurements
+[2023-05-03 19:30:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fgo-api-types
+[2023-05-03 19:30:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ft-package-42-jekim
+[2023-05-03 19:30:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: widgets-lib
+[2023-05-03 19:30:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Libreria1
+[2023-05-03 19:30:57] INFO root fetch - processPackages [meter-gear]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-03 19:30:57] INFO root fetch - processPackages [ezloglib]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-03 19:30:57] WARNING root fetch - processPackages [openai-kernel]: Skipping, unable to determine old version
+[2023-05-03 19:30:57] WARNING root fetch - processPackages [tasker-python]: Skipping, unable to determine old version
+[2023-05-03 19:30:57] INFO root fetch - processPackages [openai-kernel]: Start processing: dactim-mri
+[2023-05-03 19:30:57] INFO root fetch - processPackages [ft-package-42-jekim]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-03 19:30:57] INFO root fetch - processPackages [widgets-lib]: New version: [2.7.4] Old Version: [2.7.3]
+[2023-05-03 19:30:57] INFO root fetch - main [MainThread]: End processing [openai-kernel] error
+[2023-05-03 19:30:57] WARNING root fetch - processPackages [Libreria1]: Skipping, unable to determine old version
+[2023-05-03 19:30:57] INFO root fetch - processPackages [netrics-measurements]: New version: [0.0.1rc9] Old Version: [0.0.1rc8]
+[2023-05-03 19:30:57] INFO root fetch - main [MainThread]: End processing [tasker-python] error
+[2023-05-03 19:30:57] INFO root fetch - processPackages [dactim-mri]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-03 19:30:57] INFO root fetch - main [MainThread]: End processing [Libreria1] error
+[2023-05-03 19:30:57] INFO root fetch - processPackages [fgo-api-types]: New version: [2023.5.3.17.28.2] Old Version: [2023.5.2.10.8.13]
+[2023-05-03 19:30:57] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.5.4.0] Old Version: [2023.5.3.1]
+[2023-05-03 19:30:57] INFO root fetch - processPackages [dactim-mri]: executing diffoscope
+[2023-05-03 19:30:57] INFO root fetch - processPackages [dactim-mri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dactim_mri-0.0.4.tar.gz tmp/dactim_mri-0.0.5.tar.gz --markdown 20230503/d/dactim-mri/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-03 19:30:57] INFO root fetch - processPackages [ezloglib]: Downloading https://files.pythonhosted.org/packages/20/5d/67516b2796b2871da7a8b4892ee50da42ce2339188d34eae201e9319ae76/ezloglib-1.0.0.tar.gz
+[2023-05-03 19:30:57] INFO root fetch - processPackages [ft-package-42-jekim]: Downloading https://files.pythonhosted.org/packages/55/fd/58616be2eeb8ac39a1318e9eda66b44299f3a4cc22e961b85343be0a9044/ft_package_42_jekim-0.0.3.tar.gz
+[2023-05-03 19:30:57] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/57/61/e7ab12e0fd33e0b1009328881fb24a0148435168d7243049154a4d8787e1/crazy-thursday-2023.5.4.0.tar.gz
+[2023-05-03 19:30:57] INFO root fetch - processPackages [netrics-measurements]: Downloading https://files.pythonhosted.org/packages/15/c4/266a2bbf6e2b9f2de6caf0bcb464234ce6d1627f8fb96b53cba1498dde8f/netrics_measurements-0.0.1rc8.tar.gz
+[2023-05-03 19:30:57] INFO root fetch - processPackages [fgo-api-types]: Downloading https://files.pythonhosted.org/packages/ae/f0/b983486e22671b3ef939963fb84b7347ca19852441cca98f552b4e3cc4c5/fgo_api_types-2023.5.3.17.28.2.tar.gz
+[2023-05-03 19:30:57] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-05-03 19:30:57] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.5.3.1.tar.gz tmp/crazy-thursday-2023.5.4.0.tar.gz --markdown 20230503/c/crazy-thursday/2023.5.3.1-2023.5.4.0/diff.md --exclude *.pyd
+[2023-05-03 19:30:57] INFO root fetch - processPackages [widgets-lib]: Downloading https://files.pythonhosted.org/packages/cd/fc/414fea6bea34abc7f79505ab816ca41400d3124f8aa20f96460d2e5f64f7/widgets-lib-2.7.4.tar.gz
+[2023-05-03 19:30:57] INFO root fetch - processPackages [fgo-api-types]: executing diffoscope
+[2023-05-03 19:30:57] INFO root fetch - processPackages [fgo-api-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fgo_api_types-2023.5.2.10.8.13.tar.gz tmp/fgo_api_types-2023.5.3.17.28.2.tar.gz --markdown 20230503/f/fgo-api-types/2023.5.2.10.8.13-2023.5.3.17.28.2/diff.md --exclude *.pyd
+[2023-05-03 19:30:57] INFO root fetch - processPackages [widgets-lib]: executing diffoscope
+[2023-05-03 19:30:57] INFO root fetch - processPackages [widgets-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/widgets-lib-2.7.3.tar.gz tmp/widgets-lib-2.7.4.tar.gz --markdown 20230503/w/widgets-lib/2.7.3-2.7.4/diff.md --exclude *.pyd
+[2023-05-03 19:30:57] INFO root fetch - processPackages [ft-package-42-jekim]: executing diffoscope
+[2023-05-03 19:30:57] INFO root fetch - processPackages [ft-package-42-jekim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ft_package_42_jekim-0.0.2-py3-none-any.whl.zip tmp/ft_package_42_jekim-0.0.3.tar.gz --markdown 20230503/f/ft-package-42-jekim/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-03 19:30:57] INFO root fetch - processPackages [meter-gear]: executing diffoscope
+[2023-05-03 19:30:57] INFO root fetch - processPackages [meter-gear]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meter-gear-1.2.8.tar.gz tmp/meter-gear-1.2.9.tar.gz --markdown 20230503/m/meter-gear/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-03 19:30:57] INFO root fetch - processPackages [ezloglib]: Downloading https://files.pythonhosted.org/packages/0d/2c/4b51a550b825718d4926ca69856ed778bc04aaa11931dae62b9a55948899/ezloglib-1.0.1.tar.gz
+[2023-05-03 19:30:58] INFO root fetch - processPackages [netrics-measurements]: Downloading https://files.pythonhosted.org/packages/d4/3a/7d1fecfbb85e23cb614adb275c0f7a127ee6f995e56720f2c5ab1fba8d85/netrics_measurements-0.0.1rc9.tar.gz
+[2023-05-03 19:30:58] INFO root fetch - processPackages [ezloglib]: executing diffoscope
+[2023-05-03 19:30:58] INFO root fetch - processPackages [ezloglib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezloglib-1.0.0.tar.gz tmp/ezloglib-1.0.1.tar.gz --markdown 20230503/e/ezloglib/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-03 19:30:58] INFO root fetch - processPackages [netrics-measurements]: executing diffoscope
+[2023-05-03 19:30:58] INFO root fetch - processPackages [netrics-measurements]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netrics_measurements-0.0.1rc8.tar.gz tmp/netrics_measurements-0.0.1rc9.tar.gz --markdown 20230503/n/netrics-measurements/0.0.1rc8-0.0.1rc9/diff.md --exclude *.pyd
+[2023-05-03 19:30:58] INFO root fetch - main [MainThread]: End processing [dactim-mri]: success
+[2023-05-03 19:30:58] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-05-03 19:30:59] INFO root fetch - main [MainThread]: End processing [ft-package-42-jekim]: success
+[2023-05-03 19:30:59] INFO root fetch - main [MainThread]: End processing [fgo-api-types]: success
+[2023-05-03 19:30:59] INFO root fetch - main [MainThread]: End processing [meter-gear]: success
+[2023-05-03 19:30:59] INFO root fetch - main [MainThread]: End processing [ezloglib]: success
+[2023-05-03 19:30:59] INFO root fetch - main [MainThread]: End processing [widgets-lib]: success
+[2023-05-03 19:31:00] INFO root fetch - main [MainThread]: End processing [netrics-measurements]: success
+[2023-05-03 19:31:00] INFO root fetch - main [MainThread]: Store serial: [17960377]
