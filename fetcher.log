@@ -11725,3 +11725,114 @@ No space left on device. Diffoscope exiting.
 [2023-05-03 11:48:36] INFO root fetch - main [MainThread]: End processing [sacc]: success
 [2023-05-03 11:48:56] INFO root fetch - main [MainThread]: End processing [LonginusPyPiAlpha]: success
 [2023-05-03 11:48:56] INFO root fetch - main [MainThread]: Store serial: [17954448]
+[2023-05-03 11:54:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17954448]
+[2023-05-03 11:54:05] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-03 11:54:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MKN-third-codes
+[2023-05-03 11:54:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyxecm
+[2023-05-03 11:54:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aws-hcs-cli
+[2023-05-03 11:54:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Geode-Simplex
+[2023-05-03 11:54:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kmerhash
+[2023-05-03 11:54:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pythttp
+[2023-05-03 11:54:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: instld
+[2023-05-03 11:54:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: OpenGeode-Inspector
+[2023-05-03 11:54:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: extr-ds
+[2023-05-03 11:54:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: alphaz
+[2023-05-03 11:54:05] INFO root fetch - processPackages [MKN-third-codes]: New version: [0.6.5.2] Old Version: [0.6.5.1]
+[2023-05-03 11:54:05] INFO root fetch - processPackages [kmerhash]: New version: [0.4.4] Old Version: [0.4.1]
+[2023-05-03 11:54:05] WARNING root fetch - processPackages [pythttp]: Skipping, unable to determine old version
+[2023-05-03 11:54:05] INFO root fetch - processPackages [pythttp]: Start processing: je-editor
+[2023-05-03 11:54:05] INFO root fetch - main [MainThread]: End processing [pythttp] error
+[2023-05-03 11:54:05] INFO root fetch - processPackages [aws-hcs-cli]: New version: [6.3.0] Old Version: [6.0.0]
+[2023-05-03 11:54:05] INFO root fetch - processPackages [pyxecm]: New version: [0.0.16] Old Version: [0.0.15]
+[2023-05-03 11:54:05] INFO root fetch - processPackages [Geode-Simplex]: New version: [6.0.7] Old Version: [6.0.6]
+[2023-05-03 11:54:05] INFO root fetch - processPackages [instld]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 11:54:05] INFO root fetch - processPackages [alphaz]: New version: [0.7.7.5] Old Version: [0.7.7.4]
+[2023-05-03 11:54:05] INFO root fetch - processPackages [extr-ds]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 11:54:05] INFO root fetch - processPackages [OpenGeode-Inspector]: New version: [3.0.3] Old Version: [3.0.2]
+[2023-05-03 11:54:05] INFO root fetch - processPackages [je-editor]: New version: [0.0.98] Old Version: [0.0.97]
+[2023-05-03 11:54:05] INFO root fetch - processPackages [MKN-third-codes]: executing diffoscope
+[2023-05-03 11:54:05] INFO root fetch - processPackages [MKN-third-codes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MKN_third_codes-0.6.5.1.tar.gz tmp/MKN_third_codes-0.6.5.2.tar.gz --markdown 20230503/M/MKN-third-codes/0.6.5.1-0.6.5.2/diff.md --exclude *.pyd
+[2023-05-03 11:54:05] INFO root fetch - processPackages [extr-ds]: executing diffoscope
+[2023-05-03 11:54:05] INFO root fetch - processPackages [extr-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extr-ds-0.0.8.tar.gz tmp/extr-ds-0.0.9.tar.gz --markdown 20230503/e/extr-ds/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 11:54:05] INFO root fetch - processPackages [instld]: Downloading https://files.pythonhosted.org/packages/94/b6/2ef45253ee9aad197b8770547f82d6b523cc2bf1ccd71a25ad947309078f/instld-0.0.8.tar.gz
+[2023-05-03 11:54:05] INFO root fetch - processPackages [aws-hcs-cli]: Downloading https://files.pythonhosted.org/packages/74/18/d46f38b47b0a610a27ce233500c71451091c18d26dcc39986258ce4bf80c/aws_hcs_cli-6.0.0.tar.gz
+[2023-05-03 11:54:05] INFO root fetch - processPackages [kmerhash]: Downloading https://files.pythonhosted.org/packages/9e/8d/290410e0f299e5d9dffed2e3038789a772275207a2c78d306347d5a61e39/kmerhash-0.4.1-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+[2023-05-03 11:54:05] INFO root fetch - processPackages [alphaz]: Downloading https://files.pythonhosted.org/packages/10/40/695a337770f11453d043adfe6e90e80d80599f40aaabc6da538f5fff2d41/alphaz-0.7.7.5.tar.gz
+[2023-05-03 11:54:05] INFO root fetch - processPackages [je-editor]: Downloading https://files.pythonhosted.org/packages/18/5a/9781b5d7b4cbad1f9f9cf0b8dbff0d29d79012bfa040e7a2a512b2370144/je_editor-0.0.98.tar.gz
+[2023-05-03 11:54:05] INFO root fetch - processPackages [Geode-Simplex]: Downloading https://files.pythonhosted.org/packages/9f/9d/57e87532045907b9f509e578a8be5a572cd5eb2e8c03a3d7e4e095e934f5/Geode_Simplex-6.0.6-cp39-cp39-win_amd64.whl
+[2023-05-03 11:54:05] INFO root fetch - processPackages [OpenGeode-Inspector]: Downloading https://files.pythonhosted.org/packages/a3/d4/d203461cc7259133196029ef78047234f724ab4acfa535b3d08dcd4e724e/OpenGeode_Inspector-3.0.2-cp39-cp39-win_amd64.whl
+[2023-05-03 11:54:05] INFO root fetch - processPackages [je-editor]: executing diffoscope
+[2023-05-03 11:54:05] INFO root fetch - processPackages [je-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor-0.0.97.tar.gz tmp/je_editor-0.0.98.tar.gz --markdown 20230503/j/je-editor/0.0.97-0.0.98/diff.md --exclude *.pyd
+[2023-05-03 11:54:05] INFO root fetch - processPackages [pyxecm]: Downloading https://files.pythonhosted.org/packages/8f/82/74725956e32bae2318995e73e2e2295aeaa1af9a474d0f12ce55f0823608/pyxecm-0.0.16.tar.gz
+[2023-05-03 11:54:05] INFO root fetch - processPackages [instld]: Downloading https://files.pythonhosted.org/packages/b5/79/69f1cd8dcd5405b819c6db4abefb0a62ca3f00bbf27b033792a133e9c741/instld-0.0.9.tar.gz
+[2023-05-03 11:54:05] INFO root fetch - processPackages [alphaz]: executing diffoscope
+[2023-05-03 11:54:05] INFO root fetch - processPackages [alphaz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphaz-0.7.7.4.tar.gz tmp/alphaz-0.7.7.5.tar.gz --markdown 20230503/a/alphaz/0.7.7.4-0.7.7.5/diff.md --exclude *.pyd
+[2023-05-03 11:54:05] INFO root fetch - processPackages [pyxecm]: executing diffoscope
+[2023-05-03 11:54:05] INFO root fetch - processPackages [pyxecm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxecm-0.0.15.tar.gz tmp/pyxecm-0.0.16.tar.gz --markdown 20230503/p/pyxecm/0.0.15-0.0.16/diff.md --exclude *.pyd
+[2023-05-03 11:54:05] INFO root fetch - processPackages [instld]: executing diffoscope
+[2023-05-03 11:54:05] INFO root fetch - processPackages [instld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/instld-0.0.8.tar.gz tmp/instld-0.0.9.tar.gz --markdown 20230503/i/instld/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 11:54:05] INFO root fetch - processPackages [aws-hcs-cli]: Downloading https://files.pythonhosted.org/packages/23/09/ce30737e1bd75d503ef5967e0ed2e853a002c7e91ffb457b2b143364b198/aws_hcs_cli-6.3.0.tar.gz
+[2023-05-03 11:54:05] INFO root fetch - processPackages [kmerhash]: Downloading https://files.pythonhosted.org/packages/0d/04/7d140accce124967195078105c42d35bc0dfe4225e85907aa48cd88a7976/kmerhash-0.4.4.tar.gz
+[2023-05-03 11:54:05] INFO root fetch - processPackages [aws-hcs-cli]: executing diffoscope
+[2023-05-03 11:54:05] INFO root fetch - processPackages [aws-hcs-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_hcs_cli-6.0.0.tar.gz tmp/aws_hcs_cli-6.3.0.tar.gz --markdown 20230503/a/aws-hcs-cli/6.0.0-6.3.0/diff.md --exclude *.pyd
+[2023-05-03 11:54:05] INFO root fetch - processPackages [kmerhash]: executing diffoscope
+[2023-05-03 11:54:05] INFO root fetch - processPackages [kmerhash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kmerhash-0.4.1-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip tmp/kmerhash-0.4.4.tar.gz --markdown 20230503/k/kmerhash/0.4.1-0.4.4/diff.md --exclude *.pyd
+[2023-05-03 11:54:05] INFO root fetch - processPackages [OpenGeode-Inspector]: Downloading https://files.pythonhosted.org/packages/2f/1c/faaa7e9d5297783d38a2a95fed58f2938da2db2ce254ab4fc9d5ff222917/OpenGeode_Inspector-3.0.3-cp39-cp39-win_amd64.whl
+[2023-05-03 11:54:05] INFO root fetch - processPackages [OpenGeode-Inspector]: executing diffoscope
+[2023-05-03 11:54:05] INFO root fetch - processPackages [OpenGeode-Inspector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenGeode_Inspector-3.0.2-cp39-cp39-win_amd64.whl.zip tmp/OpenGeode_Inspector-3.0.3-cp39-cp39-win_amd64.whl.zip --markdown 20230503/O/OpenGeode-Inspector/3.0.2-3.0.3/diff.md --exclude *.pyd
+[2023-05-03 11:54:06] INFO root fetch - processPackages [Geode-Simplex]: Downloading https://files.pythonhosted.org/packages/b5/02/b73a8ae22c2ae150d85e693bd98d0f5e64720c3af8dd282c04c49e0abe13/Geode_Simplex-6.0.7-cp39-cp39-win_amd64.whl
+[2023-05-03 11:54:06] INFO root fetch - processPackages [extr-ds]: Start processing: je-editor-dev
+[2023-05-03 11:54:06] INFO root fetch - main [MainThread]: End processing [extr-ds]: success
+[2023-05-03 11:54:06] INFO root fetch - processPackages [je-editor-dev]: New version: [0.0.98] Old Version: [0.0.97]
+[2023-05-03 11:54:06] INFO root fetch - processPackages [MKN-third-codes]: Start processing: hestia-earth-schema
+[2023-05-03 11:54:06] INFO root fetch - main [MainThread]: End processing [MKN-third-codes]: success
+[2023-05-03 11:54:06] INFO root fetch - processPackages [hestia-earth-schema]: New version: [9.7.1] Old Version: [9.7.0]
+[2023-05-03 11:54:06] INFO root fetch - processPackages [je-editor-dev]: Downloading https://files.pythonhosted.org/packages/8b/94/1f995c0e4cac9968be920e7907deacd20b4659ac0bd3a88be48da2c05eb3/je_editor_dev-0.0.98.tar.gz
+[2023-05-03 11:54:06] INFO root fetch - processPackages [je-editor-dev]: executing diffoscope
+[2023-05-03 11:54:06] INFO root fetch - processPackages [je-editor-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor_dev-0.0.97.tar.gz tmp/je_editor_dev-0.0.98.tar.gz --markdown 20230503/j/je-editor-dev/0.0.97-0.0.98/diff.md --exclude *.pyd
+[2023-05-03 11:54:07] INFO root fetch - processPackages [hestia-earth-schema]: Downloading https://files.pythonhosted.org/packages/e6/3e/a15caed46aaac01f5d913cac837c10c0e9416414e3ab7a9a8cb34dacb62e/hestia-earth-schema-9.7.0.tar.gz
+[2023-05-03 11:54:07] INFO root fetch - processPackages [Geode-Simplex]: executing diffoscope
+[2023-05-03 11:54:07] INFO root fetch - processPackages [Geode-Simplex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Simplex-6.0.6-cp39-cp39-win_amd64.whl.zip tmp/Geode_Simplex-6.0.7-cp39-cp39-win_amd64.whl.zip --markdown 20230503/G/Geode-Simplex/6.0.6-6.0.7/diff.md --exclude *.pyd
+[2023-05-03 11:54:07] INFO root fetch - processPackages [instld]: Start processing: bycon
+[2023-05-03 11:54:07] INFO root fetch - main [MainThread]: End processing [instld]: success
+[2023-05-03 11:54:07] INFO root fetch - processPackages [bycon]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-03 11:54:07] INFO root fetch - processPackages [hestia-earth-schema]: Downloading https://files.pythonhosted.org/packages/0f/81/6f94ae24b6a664f1fcc563994b2094290de1bc13e07037870953260144e1/hestia-earth-schema-9.7.1.tar.gz
+[2023-05-03 11:54:07] INFO root fetch - processPackages [bycon]: Downloading https://files.pythonhosted.org/packages/d8/52/9205bbdcf60c69e8870bca5c3a21b54dc9acc3dc4e845822e9f9630cbb34/bycon-1.0.8.tar.gz
+[2023-05-03 11:54:07] INFO root fetch - processPackages [pyxecm]: Start processing: UzMorphAnalyser
+[2023-05-03 11:54:07] INFO root fetch - main [MainThread]: End processing [pyxecm]: success
+[2023-05-03 11:54:07] INFO root fetch - processPackages [UzMorphAnalyser]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 11:54:07] INFO root fetch - processPackages [hestia-earth-schema]: executing diffoscope
+[2023-05-03 11:54:07] INFO root fetch - processPackages [hestia-earth-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hestia-earth-schema-9.7.0.tar.gz tmp/hestia-earth-schema-9.7.1.tar.gz --markdown 20230503/h/hestia-earth-schema/9.7.0-9.7.1/diff.md --exclude *.pyd
+[2023-05-03 11:54:07] INFO root fetch - processPackages [aws-hcs-cli]: Start processing: swh.web
+[2023-05-03 11:54:07] INFO root fetch - main [MainThread]: End processing [aws-hcs-cli]: success
+[2023-05-03 11:54:07] INFO root fetch - processPackages [kmerhash]: Start processing: GenBioX
+[2023-05-03 11:54:07] INFO root fetch - main [MainThread]: End processing [kmerhash]: success
+[2023-05-03 11:54:07] INFO root fetch - processPackages [swh.web]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-03 11:54:07] INFO root fetch - processPackages [je-editor]: Start processing: syamaguc
+[2023-05-03 11:54:07] INFO root fetch - main [MainThread]: End processing [je-editor]: success
+[2023-05-03 11:54:07] INFO root fetch - processPackages [syamaguc]: New version: [0.1.0.post2305030943] Old Version: [0.1.0.post2305030926]
+[2023-05-03 11:54:07] INFO root fetch - processPackages [GenBioX]: New version: [0.2] Old Version: [0.1]
+[2023-05-03 11:54:07] INFO root fetch - processPackages [bycon]: Downloading https://files.pythonhosted.org/packages/0c/b2/ef8a7b90b711214a2f00741f476f95ddd0b540bf9732ac39a993a39e0d03/bycon-1.0.9.tar.gz
+[2023-05-03 11:54:07] INFO root fetch - processPackages [UzMorphAnalyser]: executing diffoscope
+[2023-05-03 11:54:07] INFO root fetch - processPackages [UzMorphAnalyser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UzMorphAnalyser-0.0.8-py3-none-any.whl.zip tmp/UzMorphAnalyser-0.0.9-py3-none-any.whl.zip --markdown 20230503/U/UzMorphAnalyser/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 11:54:07] INFO root fetch - processPackages [bycon]: executing diffoscope
+[2023-05-03 11:54:07] INFO root fetch - processPackages [bycon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bycon-1.0.8.tar.gz tmp/bycon-1.0.9.tar.gz --markdown 20230503/b/bycon/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-03 11:54:07] INFO root fetch - processPackages [syamaguc]: executing diffoscope
+[2023-05-03 11:54:07] INFO root fetch - processPackages [syamaguc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syamaguc-0.1.0.post2305030926-py3-none-any.whl.zip tmp/syamaguc-0.1.0.post2305030943-py3-none-any.whl.zip --markdown 20230503/s/syamaguc/0.1.0.post2305030926-0.1.0.post2305030943/diff.md --exclude *.pyd
+[2023-05-03 11:54:07] INFO root fetch - processPackages [swh.web]: Downloading https://files.pythonhosted.org/packages/66/15/6bc04af12a23337bb393e57e21ffba928a503bf0e3a5106bea151682da0d/swh.web-0.2.8.tar.gz
+[2023-05-03 11:54:08] INFO root fetch - processPackages [GenBioX]: Downloading https://files.pythonhosted.org/packages/b7/3e/46f484fc87c098b047f42a66e59c3d3de8bdd6d49c6c8634629f2f55f85e/GenBioX-0.1.tar.gz
+[2023-05-03 11:54:08] INFO root fetch - processPackages [GenBioX]: Downloading https://files.pythonhosted.org/packages/7f/ac/5c66d2610dbc02cd4315ca3bd7defb7c1d39cbe43f9426f2b3b71f31e06d/GenBioX-0.2.tar.gz
+[2023-05-03 11:54:08] INFO root fetch - main [MainThread]: End processing [je-editor-dev]: success
+[2023-05-03 11:54:08] INFO root fetch - processPackages [GenBioX]: executing diffoscope
+[2023-05-03 11:54:08] INFO root fetch - processPackages [GenBioX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GenBioX-0.1.tar.gz tmp/GenBioX-0.2.tar.gz --markdown 20230503/G/GenBioX/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-03 11:54:08] WARNING root fetch - processPackages [swh.web]: Skipping package: exceeds size limit 13132382>=10485760
+[2023-05-03 11:54:08] INFO root fetch - main [MainThread]: End processing [swh.web] error
+[2023-05-03 11:54:09] INFO root fetch - main [MainThread]: End processing [syamaguc]: success
+[2023-05-03 11:54:09] INFO root fetch - main [MainThread]: End processing [UzMorphAnalyser]: success
+[2023-05-03 11:54:09] INFO root fetch - main [MainThread]: End processing [hestia-earth-schema]: success
+[2023-05-03 11:54:09] INFO root fetch - main [MainThread]: End processing [OpenGeode-Inspector]: success
+[2023-05-03 11:54:10] INFO root fetch - main [MainThread]: End processing [alphaz]: success
+[2023-05-03 11:54:10] INFO root fetch - main [MainThread]: End processing [GenBioX]: success
+[2023-05-03 11:54:15] INFO root fetch - main [MainThread]: End processing [bycon]: success
+[2023-05-03 11:54:32] INFO root fetch - main [MainThread]: End processing [Geode-Simplex]: success
+[2023-05-03 11:54:32] INFO root fetch - main [MainThread]: Store serial: [17954549]
