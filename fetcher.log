@@ -19114,3 +19114,92 @@ No space left on device. Diffoscope exiting.
 [2023-05-03 18:00:37] INFO root fetch - main [MainThread]: End processing [bumble]: success
 [2023-05-03 18:00:37] INFO root fetch - main [MainThread]: End processing [Tailbone]: success
 [2023-05-03 18:00:37] INFO root fetch - main [MainThread]: Store serial: [17959119]
+[2023-05-03 18:05:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17959119]
+[2023-05-03 18:05:46] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-03 18:05:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: agent-link
+[2023-05-03 18:05:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: discovery-transition-ds
+[2023-05-03 18:05:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certora-cli-alpha-master
+[2023-05-03 18:05:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: h5pyd
+[2023-05-03 18:05:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: messageflux
+[2023-05-03 18:05:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ytchat
+[2023-05-03 18:05:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pymathematics
+[2023-05-03 18:05:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: syssqlite3V2
+[2023-05-03 18:05:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lockss-turtles
+[2023-05-03 18:05:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: veda-cli
+[2023-05-03 18:05:46] INFO root fetch - processPackages [agent-link]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-03 18:05:46] INFO root fetch - processPackages [veda-cli]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 18:05:46] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230503.8.57.91126] Old Version: [20230503.8.17.62955]
+[2023-05-03 18:05:46] INFO root fetch - processPackages [ytchat]: New version: [0.0.8] Old Version: [0.0.6]
+[2023-05-03 18:05:46] INFO root fetch - processPackages [lockss-turtles]: New version: [0.4.0.dev2] Old Version: [0.4.0.dev1]
+[2023-05-03 18:05:46] INFO root fetch - processPackages [syssqlite3V2]: New version: [1.4.0] Old Version: [1.1.0]
+[2023-05-03 18:05:46] INFO root fetch - processPackages [messageflux]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-03 18:05:46] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/33/07/729404ce3ea69fd328bf51dee6a075c063c4e36f6036ffd8d406166fd762/certora-cli-alpha-master-20230503.8.17.62955.tar.gz
+[2023-05-03 18:05:46] INFO root fetch - processPackages [ytchat]: Downloading https://files.pythonhosted.org/packages/36/86/d2c0568b7f30c5094c52e282e6801e09925d7937c8e72dc445d90249270d/ytchat-0.0.6.tar.gz
+[2023-05-03 18:05:47] WARNING root fetch - processPackages [ytchat]: Skipping package: exceeds size limit 12544287>=10485760
+[2023-05-03 18:05:47] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 38380139>=10485760
+[2023-05-03 18:05:47] INFO root fetch - processPackages [ytchat]: Start processing: pyfontinglib
+[2023-05-03 18:05:47] INFO root fetch - main [MainThread]: End processing [ytchat] error
+[2023-05-03 18:05:47] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: dop-integration-libs
+[2023-05-03 18:05:47] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-05-03 18:05:47] INFO root fetch - processPackages [h5pyd]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-03 18:05:47] INFO root fetch - processPackages [veda-cli]: executing diffoscope
+[2023-05-03 18:05:47] INFO root fetch - processPackages [veda-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veda_cli-0.0.8.tar.gz tmp/veda_cli-0.0.9.tar.gz --markdown 20230503/v/veda-cli/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 18:05:47] INFO root fetch - processPackages [pymathematics]: New version: [2023.5.3] Old Version: [2023.5.1]
+[2023-05-03 18:05:47] INFO root fetch - processPackages [dop-integration-libs]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-03 18:05:47] INFO root fetch - processPackages [lockss-turtles]: executing diffoscope
+[2023-05-03 18:05:47] INFO root fetch - processPackages [lockss-turtles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lockss_turtles-0.4.0.dev1.tar.gz tmp/lockss_turtles-0.4.0.dev2.tar.gz --markdown 20230503/l/lockss-turtles/0.4.0.dev1-0.4.0.dev2/diff.md --exclude *.pyd
+[2023-05-03 18:05:47] INFO root fetch - processPackages [discovery-transition-ds]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-05-03 18:05:47] INFO root fetch - processPackages [agent-link]: Downloading https://files.pythonhosted.org/packages/96/97/469f12717de6244c6385ad23998fe38ccc7fe1790b67eb1d3613da515163/agent_link-0.1.5.tar.gz
+[2023-05-03 18:05:47] INFO root fetch - processPackages [dop-integration-libs]: executing diffoscope
+[2023-05-03 18:05:47] INFO root fetch - processPackages [dop-integration-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dop_integration_libs-0.1.8.tar.gz tmp/dop_integration_libs-0.1.9.tar.gz --markdown 20230503/d/dop-integration-libs/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-03 18:05:47] WARNING root fetch - processPackages [pyfontinglib]: Skipping, unable to determine old version
+[2023-05-03 18:05:47] INFO root fetch - processPackages [pyfontinglib]: Start processing: agent-link
+[2023-05-03 18:05:47] INFO root fetch - main [MainThread]: End processing [pyfontinglib] error
+[2023-05-03 18:05:47] INFO root fetch - processPackages [messageflux]: Downloading https://files.pythonhosted.org/packages/30/26/6421f45d0402704c1365676062fd1205ca2d8fb36baa166bfd165b5e1506/messageflux-0.2.2.tar.gz
+[2023-05-03 18:05:47] INFO root fetch - processPackages [syssqlite3V2]: Downloading https://files.pythonhosted.org/packages/33/d6/b13d4af0b71ff3a72a992ff89c6b7ac9a100ddb95a26d36ba7769dca172a/syssqlite3V2-1.1.0.tar.gz
+[2023-05-03 18:05:47] INFO root fetch - processPackages [agent-link]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-03 18:05:47] INFO root fetch - processPackages [h5pyd]: Downloading https://files.pythonhosted.org/packages/01/2a/ef4ba24c2a40476a37d6aa3ef1e542ea65b96bfced3816c4c5228cee2802/h5pyd-0.9.1.tar.gz
+[2023-05-03 18:05:47] INFO root fetch - processPackages [messageflux]: executing diffoscope
+[2023-05-03 18:05:47] INFO root fetch - processPackages [messageflux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/messageflux-0.2.2.tar.gz tmp/messageflux-0.2.3.tar.gz --markdown 20230503/m/messageflux/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-03 18:05:47] WARNING root fetch - processPackages [agent-link]: Skipping package: exceeds size limit 31723947>=10485760
+[2023-05-03 18:05:47] INFO root fetch - processPackages [agent-link]: Start processing: certora-cli-alpha-alex-salvage-interpreter
+[2023-05-03 18:05:47] INFO root fetch - main [MainThread]: End processing [agent-link] error
+[2023-05-03 18:05:47] INFO root fetch - processPackages [discovery-transition-ds]: Downloading https://files.pythonhosted.org/packages/cc/ca/dd90c3d50a2ad721c7d5c68f5fd4ee0e6e77dc44837a32cecf9e80f276da/discovery-transition-ds-4.9.8.tar.gz
+[2023-05-03 18:05:47] WARNING root fetch - processPackages [certora-cli-alpha-alex-salvage-interpreter]: Skipping, unable to determine old version
+[2023-05-03 18:05:47] INFO root fetch - processPackages [certora-cli-alpha-alex-salvage-interpreter]: Start processing: cmem-plugin-pyshacl
+[2023-05-03 18:05:47] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-alex-salvage-interpreter] error
+[2023-05-03 18:05:47] INFO root fetch - processPackages [agent-link]: Downloading https://files.pythonhosted.org/packages/e9/46/9136e5d7cbb53d7d13ff07920fc59902d36a64d5018686e4e750e9d854d6/agent_link-0.1.6.tar.gz
+[2023-05-03 18:05:47] INFO root fetch - processPackages [pymathematics]: Downloading https://files.pythonhosted.org/packages/26/17/31cefc2ec884cf24b3a73e444754e44923610d8308f3f4217b30fa4cdaa3/pymathematics-2023.5.3.tar.gz
+[2023-05-03 18:05:47] INFO root fetch - processPackages [syssqlite3V2]: Downloading https://files.pythonhosted.org/packages/a6/3f/e00cf52858a43c691e8f96d9274dff4eeeaa54da052e94bfb81a57544f05/syssqlite3V2-1.4.0.tar.gz
+[2023-05-03 18:05:47] WARNING root fetch - processPackages [cmem-plugin-pyshacl]: Skipping, unable to determine old version
+[2023-05-03 18:05:47] INFO root fetch - processPackages [cmem-plugin-pyshacl]: Start processing: pynamer
+[2023-05-03 18:05:47] INFO root fetch - main [MainThread]: End processing [cmem-plugin-pyshacl] error
+[2023-05-03 18:05:47] WARNING root fetch - processPackages [agent-link]: Skipping package: exceeds size limit 15899925>=10485760
+[2023-05-03 18:05:47] INFO root fetch - processPackages [agent-link]: Start processing: woe-conversion
+[2023-05-03 18:05:47] INFO root fetch - main [MainThread]: End processing [agent-link] error
+[2023-05-03 18:05:47] INFO root fetch - processPackages [syssqlite3V2]: executing diffoscope
+[2023-05-03 18:05:47] INFO root fetch - processPackages [syssqlite3V2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syssqlite3V2-1.1.0.tar.gz tmp/syssqlite3V2-1.4.0.tar.gz --markdown 20230503/s/syssqlite3V2/1.1.0-1.4.0/diff.md --exclude *.pyd
+[2023-05-03 18:05:47] INFO root fetch - processPackages [pymathematics]: executing diffoscope
+[2023-05-03 18:05:47] WARNING root fetch - processPackages [woe-conversion]: Skipping, unable to determine old version
+[2023-05-03 18:05:47] INFO root fetch - processPackages [pymathematics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymathematics-2023.5.1.tar.gz tmp/pymathematics-2023.5.3.tar.gz --markdown 20230503/p/pymathematics/2023.5.1-2023.5.3/diff.md --exclude *.pyd
+[2023-05-03 18:05:47] INFO root fetch - main [MainThread]: End processing [woe-conversion] error
+[2023-05-03 18:05:47] INFO root fetch - processPackages [pynamer]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-05-03 18:05:47] INFO root fetch - processPackages [h5pyd]: Downloading https://files.pythonhosted.org/packages/e7/16/50dd8c4efec8fb434c7f2df147b46b9a90600a8fe37e3cc11ac950a0c3e3/h5pyd-0.9.2.tar.gz
+[2023-05-03 18:05:47] INFO root fetch - processPackages [pynamer]: Downloading https://files.pythonhosted.org/packages/06/73/b86c92a0461d6317984ffa53263fbabc08285993dad26d5f205d95a64345/pynamer-0.5.4.tar.gz
+[2023-05-03 18:05:48] INFO root fetch - processPackages [h5pyd]: executing diffoscope
+[2023-05-03 18:05:48] INFO root fetch - processPackages [h5pyd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h5pyd-0.9.1.tar.gz tmp/h5pyd-0.9.2.tar.gz --markdown 20230503/h/h5pyd/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-03 18:05:48] INFO root fetch - main [MainThread]: End processing [veda-cli]: success
+[2023-05-03 18:05:48] INFO root fetch - main [MainThread]: End processing [dop-integration-libs]: success
+[2023-05-03 18:05:48] INFO root fetch - processPackages [pynamer]: executing diffoscope
+[2023-05-03 18:05:48] INFO root fetch - processPackages [pynamer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynamer-0.5.3-py3-none-any.whl.zip tmp/pynamer-0.5.4.tar.gz --markdown 20230503/p/pynamer/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-05-03 18:05:48] INFO root fetch - main [MainThread]: End processing [pymathematics]: success
+[2023-05-03 18:05:48] INFO root fetch - main [MainThread]: End processing [syssqlite3V2]: success
+[2023-05-03 18:05:48] INFO root fetch - main [MainThread]: End processing [lockss-turtles]: success
+[2023-05-03 18:05:48] INFO root fetch - main [MainThread]: End processing [messageflux]: success
+[2023-05-03 18:05:49] INFO root fetch - processPackages [discovery-transition-ds]: Downloading https://files.pythonhosted.org/packages/ec/52/fe97bc1465aa4a0bde7a751272ca25b751fd275a83e912c56ca6a544332e/discovery-transition-ds-4.9.9.tar.gz
+[2023-05-03 18:05:49] INFO root fetch - main [MainThread]: End processing [h5pyd]: success
+[2023-05-03 18:05:51] INFO root fetch - processPackages [discovery-transition-ds]: executing diffoscope
+[2023-05-03 18:05:51] INFO root fetch - processPackages [discovery-transition-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discovery-transition-ds-4.9.8.tar.gz tmp/discovery-transition-ds-4.9.9.tar.gz --markdown 20230503/d/discovery-transition-ds/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-05-03 18:05:52] INFO root fetch - main [MainThread]: End processing [pynamer]: success
+[2023-05-03 18:05:55] INFO root fetch - main [MainThread]: End processing [discovery-transition-ds]: success
+[2023-05-03 18:05:55] INFO root fetch - main [MainThread]: Store serial: [17959184]
