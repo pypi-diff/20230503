@@ -21597,3 +21597,101 @@ No space left on device. Diffoscope exiting.
 [2023-05-03 20:02:40] INFO root fetch - main [MainThread]: End processing [snowddl]: success
 [2023-05-03 20:02:40] INFO root fetch - main [MainThread]: End processing [pulpcore-client]: success
 [2023-05-03 20:02:40] INFO root fetch - main [MainThread]: Store serial: [17960746]
+[2023-05-03 20:07:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17960746]
+[2023-05-03 20:07:49] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-03 20:07:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: veda-cli
+[2023-05-03 20:07:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: waifuim.py
+[2023-05-03 20:07:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ft-package-42-jekim
+[2023-05-03 20:07:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: databased
+[2023-05-03 20:07:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TPHATE
+[2023-05-03 20:07:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: java-test-genie
+[2023-05-03 20:07:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ft-package-42-jekim
+[2023-05-03 20:07:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: piperider-nightly
+[2023-05-03 20:07:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: brilws
+[2023-05-03 20:07:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: twitter-api-client
+[2023-05-03 20:07:49] INFO root fetch - processPackages [databased]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-05-03 20:07:49] INFO root fetch - processPackages [ft-package-42-jekim]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-03 20:07:49] INFO root fetch - processPackages [ft-package-42-jekim]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-03 20:07:49] INFO root fetch - processPackages [piperider-nightly]: New version: [0.9.0.20220921] Old Version: [0.9.0.20220920]
+[2023-05-03 20:07:49] INFO root fetch - processPackages [databased]: Downloading https://files.pythonhosted.org/packages/21/73/82a2abf3fa42fedc231bd049a518f2d24f091e4b117345906ee338f5aeb7/databased-1.5.0.tar.gz
+[2023-05-03 20:07:49] INFO root fetch - processPackages [veda-cli]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 20:07:49] INFO root fetch - processPackages [TPHATE]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-03 20:07:49] INFO root fetch - processPackages [brilws]: New version: [3.7.3] Old Version: [3.7.1]
+[2023-05-03 20:07:49] INFO root fetch - processPackages [piperider-nightly]: Downloading https://files.pythonhosted.org/packages/ed/93/38dc4b24d947f1ec271781bdb47a50b77ff762d7a701730c6786ca4ec303/piperider-nightly-0.9.0.20220920.tar.gz
+[2023-05-03 20:07:49] INFO root fetch - processPackages [java-test-genie]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-03 20:07:49] INFO root fetch - processPackages [waifuim.py]: New version: [4.2.2] Old Version: [4.2.0]
+[2023-05-03 20:07:49] INFO root fetch - processPackages [twitter-api-client]: New version: [0.7.8] Old Version: [0.7.7]
+[2023-05-03 20:07:49] INFO root fetch - processPackages [ft-package-42-jekim]: Downloading https://files.pythonhosted.org/packages/a1/c8/e3ad7a7a3753a56ba9c1830481c6556d150ed927a87484da3901927a61b1/ft_package_42_jekim-0.0.8.tar.gz
+[2023-05-03 20:07:49] INFO root fetch - processPackages [ft-package-42-jekim]: Downloading https://files.pythonhosted.org/packages/a1/c8/e3ad7a7a3753a56ba9c1830481c6556d150ed927a87484da3901927a61b1/ft_package_42_jekim-0.0.8.tar.gz
+[2023-05-03 20:07:49] INFO root fetch - processPackages [databased]: executing diffoscope
+[2023-05-03 20:07:49] INFO root fetch - processPackages [databased]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databased-1.5.0.tar.gz tmp/databased-1.5.1.tar.gz --markdown 20230503/d/databased/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-05-03 20:07:49] INFO root fetch - processPackages [waifuim.py]: Downloading https://files.pythonhosted.org/packages/48/8e/1fd587172d2ad5734d2e933ebb8ca59fd110a1c06725dcf50b77512c51ee/waifuim.py-4.2.0.tar.gz
+[2023-05-03 20:07:49] INFO root fetch - processPackages [brilws]: Downloading https://files.pythonhosted.org/packages/82/00/44f9478bed7208d1efd429502f5690a77054b91dc6eb9953d3bd1de3a805/brilws-3.7.1.tar.gz
+[2023-05-03 20:07:49] INFO root fetch - processPackages [TPHATE]: Downloading https://files.pythonhosted.org/packages/3e/72/e315276d5f370af55ed7dcf0456a3d1d92b39304dd3c3971f3ff13fd4a80/TPHATE-0.0.3.tar.gz
+[2023-05-03 20:07:49] INFO root fetch - processPackages [ft-package-42-jekim]: executing diffoscope
+[2023-05-03 20:07:49] INFO root fetch - processPackages [ft-package-42-jekim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ft_package_42_jekim-0.0.7.tar.gz tmp/ft_package_42_jekim-0.0.8.tar.gz --markdown 20230503/f/ft-package-42-jekim/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-03 20:07:49] INFO root fetch - processPackages [twitter-api-client]: Downloading https://files.pythonhosted.org/packages/01/86/3d4e8b5d7effc4a4744c56777fd862a69642236233cd96ce51653a2e0b36/twitter-api-client-0.7.7.tar.gz
+[2023-05-03 20:07:49] INFO root fetch - processPackages [ft-package-42-jekim]: executing diffoscope
+[2023-05-03 20:07:49] INFO root fetch - processPackages [ft-package-42-jekim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ft_package_42_jekim-0.0.7.tar.gz tmp/ft_package_42_jekim-0.0.8.tar.gz --markdown 20230503/f/ft-package-42-jekim/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-03 20:07:49] INFO root fetch - processPackages [java-test-genie]: Downloading https://files.pythonhosted.org/packages/87/ff/24cdec9f7d5ce2d2edf7d9ff16c4b585557987bdb50517c568046027c7ec/java-test-genie-0.1.0.tar.gz
+[2023-05-03 20:07:49] INFO root fetch - processPackages [veda-cli]: executing diffoscope
+[2023-05-03 20:07:49] INFO root fetch - processPackages [veda-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veda_cli-0.0.8.tar.gz tmp/veda_cli-0.0.9.tar.gz --markdown 20230503/v/veda-cli/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 20:07:49] INFO root fetch - processPackages [twitter-api-client]: Downloading https://files.pythonhosted.org/packages/3a/8a/33e5ad12b5ea2a3f5b64692ab4b01f21f0931c523b0986f14f44ae9126ef/twitter-api-client-0.7.8.tar.gz
+[2023-05-03 20:07:50] INFO root fetch - processPackages [java-test-genie]: Downloading https://files.pythonhosted.org/packages/33/fc/c4a8984c4e99eb8817762ef8a25c779add40459ee941c8d80b1de6ec2665/java-test-genie-0.1.1.tar.gz
+[2023-05-03 20:07:50] INFO root fetch - processPackages [waifuim.py]: Downloading https://files.pythonhosted.org/packages/52/81/aa2f5aa0dd44e66c000310744c366fc219feb382d3d036c48c782e067577/waifuim.py-4.2.2.tar.gz
+[2023-05-03 20:07:50] INFO root fetch - processPackages [brilws]: Downloading https://files.pythonhosted.org/packages/47/df/425ca1014a4e704508a56f307fd8217ed225047999e7020349b5879598a1/brilws-3.7.3.tar.gz
+[2023-05-03 20:07:50] INFO root fetch - processPackages [TPHATE]: Downloading https://files.pythonhosted.org/packages/2b/70/fba7c5aef54fae9b14fefdd18dd0d284e8bcce6332f79b4d557847cf9a82/TPHATE-0.0.4.tar.gz
+[2023-05-03 20:07:50] INFO root fetch - processPackages [twitter-api-client]: executing diffoscope
+[2023-05-03 20:07:50] INFO root fetch - processPackages [twitter-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twitter-api-client-0.7.7.tar.gz tmp/twitter-api-client-0.7.8.tar.gz --markdown 20230503/t/twitter-api-client/0.7.7-0.7.8/diff.md --exclude *.pyd
+[2023-05-03 20:07:50] INFO root fetch - processPackages [waifuim.py]: executing diffoscope
+[2023-05-03 20:07:50] INFO root fetch - processPackages [waifuim.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waifuim.py-4.2.0.tar.gz tmp/waifuim.py-4.2.2.tar.gz --markdown 20230503/w/waifuim.py/4.2.0-4.2.2/diff.md --exclude *.pyd
+[2023-05-03 20:07:50] INFO root fetch - processPackages [brilws]: executing diffoscope
+[2023-05-03 20:07:50] INFO root fetch - processPackages [brilws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brilws-3.7.1.tar.gz tmp/brilws-3.7.3.tar.gz --markdown 20230503/b/brilws/3.7.1-3.7.3/diff.md --exclude *.pyd
+[2023-05-03 20:07:50] INFO root fetch - processPackages [TPHATE]: executing diffoscope
+[2023-05-03 20:07:50] INFO root fetch - processPackages [TPHATE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TPHATE-0.0.3.tar.gz tmp/TPHATE-0.0.4.tar.gz --markdown 20230503/T/TPHATE/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-03 20:07:50] INFO root fetch - processPackages [java-test-genie]: executing diffoscope
+[2023-05-03 20:07:50] INFO root fetch - processPackages [java-test-genie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/java-test-genie-0.1.0.tar.gz tmp/java-test-genie-0.1.1.tar.gz --markdown 20230503/j/java-test-genie/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-03 20:07:50] INFO root fetch - processPackages [piperider-nightly]: Downloading https://files.pythonhosted.org/packages/a4/47/99354233feb8a6a201731f0992c5656ca2eb5728a26eae7fd09fc5e04b4c/piperider-nightly-0.9.0.20220921.tar.gz
+[2023-05-03 20:07:50] INFO root fetch - processPackages [ft-package-42-jekim]: Start processing: regex
+[2023-05-03 20:07:50] INFO root fetch - main [MainThread]: End processing [ft-package-42-jekim]: success
+[2023-05-03 20:07:51] INFO root fetch - processPackages [ft-package-42-jekim]: Start processing: tastytrade-api
+[2023-05-03 20:07:51] INFO root fetch - main [MainThread]: End processing [ft-package-42-jekim]: success
+[2023-05-03 20:07:51] INFO root fetch - processPackages [tastytrade-api]: New version: [1.1.2] Old Version: [1.1.0]
+[2023-05-03 20:07:51] INFO root fetch - processPackages [veda-cli]: Start processing: horizonai
+[2023-05-03 20:07:51] INFO root fetch - main [MainThread]: End processing [veda-cli]: success
+[2023-05-03 20:07:51] WARNING root fetch - processPackages [horizonai]: Skipping, unable to determine old version
+[2023-05-03 20:07:51] INFO root fetch - processPackages [horizonai]: Start processing: pickley
+[2023-05-03 20:07:51] INFO root fetch - main [MainThread]: End processing [horizonai] error
+[2023-05-03 20:07:51] INFO root fetch - processPackages [piperider-nightly]: executing diffoscope
+[2023-05-03 20:07:51] INFO root fetch - processPackages [piperider-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piperider-nightly-0.9.0.20220920.tar.gz tmp/piperider-nightly-0.9.0.20220921.tar.gz --markdown 20230503/p/piperider-nightly/0.9.0.20220920-0.9.0.20220921/diff.md --exclude *.pyd
+[2023-05-03 20:07:51] INFO root fetch - processPackages [tastytrade-api]: Downloading https://files.pythonhosted.org/packages/03/1d/13a0f804903375fe77d2fd04a0e0f551bc798e30193301aeaf1036026f31/tastytrade-api-1.1.2.tar.gz
+[2023-05-03 20:07:51] INFO root fetch - processPackages [waifuim.py]: Start processing: cahmml
+[2023-05-03 20:07:51] INFO root fetch - main [MainThread]: End processing [waifuim.py]: success
+[2023-05-03 20:07:51] INFO root fetch - processPackages [pickley]: New version: [3.4.2] Old Version: [3.4.1]
+[2023-05-03 20:07:51] INFO root fetch - processPackages [cahmml]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-03 20:07:51] INFO root fetch - processPackages [tastytrade-api]: executing diffoscope
+[2023-05-03 20:07:51] INFO root fetch - processPackages [tastytrade-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tastytrade-api-1.1.0.tar.gz tmp/tastytrade-api-1.1.2.tar.gz --markdown 20230503/t/tastytrade-api/1.1.0-1.1.2/diff.md --exclude *.pyd
+[2023-05-03 20:07:51] INFO root fetch - processPackages [pickley]: Downloading https://files.pythonhosted.org/packages/37/18/c4c938df4e22b248a541d85bb91a5e4b0b48733668737e809e50b7444328/pickley-3.4.1.tar.gz
+[2023-05-03 20:07:51] INFO root fetch - main [MainThread]: End processing [brilws]: success
+[2023-05-03 20:07:51] INFO root fetch - processPackages [regex]: New version: [2023.5.5] Old Version: [2023.5.4]
+[2023-05-03 20:07:51] INFO root fetch - processPackages [cahmml]: Downloading https://files.pythonhosted.org/packages/5d/8e/6defc62edae7d65a514dcf25a4112da3127c0b501481a7942e9d00fad4c2/cahmml-1.0.1.tar.gz
+[2023-05-03 20:07:51] INFO root fetch - main [MainThread]: End processing [databased]: success
+[2023-05-03 20:07:51] INFO root fetch - processPackages [pickley]: Downloading https://files.pythonhosted.org/packages/85/f0/1ddefd55d4a1356610cdd5d5558b4beaf944c7ef9b097ac5923a5c0a59dc/pickley-3.4.2.tar.gz
+[2023-05-03 20:07:52] INFO root fetch - processPackages [regex]: Downloading https://files.pythonhosted.org/packages/e4/e6/eac6b94eaf4081ccbe08aaff2e729f4c24b7ddaaffd023c0d8d9693ca8fc/regex-2023.5.4.tar.gz
+[2023-05-03 20:07:52] INFO root fetch - main [MainThread]: End processing [twitter-api-client]: success
+[2023-05-03 20:07:52] INFO root fetch - processPackages [cahmml]: Downloading https://files.pythonhosted.org/packages/d1/23/305b066e9097805f9f095b8305f51455a4361874493cd5206eaba9d0e1db/cahmml-1.0.2.tar.gz
+[2023-05-03 20:07:52] INFO root fetch - processPackages [pickley]: executing diffoscope
+[2023-05-03 20:07:52] INFO root fetch - processPackages [pickley]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pickley-3.4.1.tar.gz tmp/pickley-3.4.2.tar.gz --markdown 20230503/p/pickley/3.4.1-3.4.2/diff.md --exclude *.pyd
+[2023-05-03 20:07:52] INFO root fetch - main [MainThread]: End processing [TPHATE]: success
+[2023-05-03 20:07:52] INFO root fetch - processPackages [regex]: Downloading https://files.pythonhosted.org/packages/78/db/a9fb9a194d340cb507aabae958280b8f8c24bd3038361b209fb7ded9b989/regex-2023.5.5-cp311-cp311-win_amd64.whl
+[2023-05-03 20:07:52] INFO root fetch - processPackages [cahmml]: executing diffoscope
+[2023-05-03 20:07:52] INFO root fetch - processPackages [cahmml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cahmml-1.0.1.tar.gz tmp/cahmml-1.0.2.tar.gz --markdown 20230503/c/cahmml/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-03 20:07:52] INFO root fetch - processPackages [regex]: executing diffoscope
+[2023-05-03 20:07:52] INFO root fetch - processPackages [regex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/regex-2023.5.4.tar.gz tmp/regex-2023.5.5-cp311-cp311-win_amd64.whl.zip --markdown 20230503/r/regex/2023.5.4-2023.5.5/diff.md --exclude *.pyd
+[2023-05-03 20:07:53] INFO root fetch - main [MainThread]: End processing [cahmml]: success
+[2023-05-03 20:07:53] INFO root fetch - main [MainThread]: End processing [pickley]: success
+[2023-05-03 20:07:53] INFO root fetch - main [MainThread]: End processing [tastytrade-api]: success
+[2023-05-03 20:07:53] INFO root fetch - main [MainThread]: End processing [regex]: success
+[2023-05-03 20:07:54] INFO root fetch - main [MainThread]: End processing [java-test-genie]: success
+[2023-05-03 20:07:56] INFO root fetch - main [MainThread]: End processing [piperider-nightly]: success
+[2023-05-03 20:07:56] INFO root fetch - main [MainThread]: Store serial: [17960818]
