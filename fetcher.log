@@ -18971,3 +18971,146 @@ No space left on device. Diffoscope exiting.
 [2023-05-03 17:54:46] INFO root fetch - main [MainThread]: End processing [edx-enterprise]: success
 [2023-05-03 17:55:16] INFO root fetch - main [MainThread]: End processing [dnp3-python]: success
 [2023-05-03 17:55:16] INFO root fetch - main [MainThread]: Store serial: [17959036]
+[2023-05-03 18:00:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17959036]
+[2023-05-03 18:00:28] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-05-03 18:00:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: determined-cli
+[2023-05-03 18:00:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: determined-deploy
+[2023-05-03 18:00:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: model-hub
+[2023-05-03 18:00:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rattail
+[2023-05-03 18:00:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: determined-common
+[2023-05-03 18:00:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: determined
+[2023-05-03 18:00:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: playmolecule
+[2023-05-03 18:00:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Tailbone
+[2023-05-03 18:00:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: BlueBrain
+[2023-05-03 18:00:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aij-news-client
+[2023-05-03 18:00:28] INFO root fetch - processPackages [aij-news-client]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-03 18:00:28] WARNING root fetch - processPackages [BlueBrain]: Skipping, unable to determine old version
+[2023-05-03 18:00:28] INFO root fetch - processPackages [BlueBrain]: Start processing: drb-driver-csv
+[2023-05-03 18:00:28] INFO root fetch - main [MainThread]: End processing [BlueBrain] error
+[2023-05-03 18:00:29] INFO root fetch - processPackages [aij-news-client]: executing diffoscope
+[2023-05-03 18:00:29] INFO root fetch - processPackages [aij-news-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aij-news-client-1.0.8.tar.gz tmp/aij-news-client-1.0.9.tar.gz --markdown 20230503/a/aij-news-client/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-03 18:00:29] INFO root fetch - processPackages [model-hub]: New version: [0.21.3rc0] Old Version: [0.21.2rc5]
+[2023-05-03 18:00:29] INFO root fetch - processPackages [determined-common]: New version: [0.21.3rc0] Old Version: [0.21.2rc5]
+[2023-05-03 18:00:29] INFO root fetch - processPackages [determined-cli]: New version: [0.21.3rc0] Old Version: [0.21.2rc5]
+[2023-05-03 18:00:29] INFO root fetch - processPackages [determined]: New version: [0.21.3rc0] Old Version: [0.21.2rc5]
+[2023-05-03 18:00:29] WARNING root fetch - processPackages [drb-driver-csv]: Skipping, unable to determine old version
+[2023-05-03 18:00:29] INFO root fetch - processPackages [drb-driver-csv]: Start processing: pypylon
+[2023-05-03 18:00:29] INFO root fetch - main [MainThread]: End processing [drb-driver-csv] error
+[2023-05-03 18:00:29] INFO root fetch - processPackages [determined-deploy]: New version: [0.21.3rc0] Old Version: [0.21.2rc5]
+[2023-05-03 18:00:29] INFO root fetch - processPackages [rattail]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-05-03 18:00:29] INFO root fetch - processPackages [playmolecule]: New version: [1.7.1] Old Version: [1.7.0]
+[2023-05-03 18:00:29] INFO root fetch - processPackages [Tailbone]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-03 18:00:29] INFO root fetch - processPackages [pypylon]: New version: [2.0.0rc1] Old Version: [1.9.0rc2]
+[2023-05-03 18:00:29] INFO root fetch - processPackages [determined-common]: Downloading https://files.pythonhosted.org/packages/d1/01/347cfeed3a3cb49fa788f2472647382686f38c2af4b55e1587431fb8a006/determined_common-0.21.2rc5-py3-none-any.whl
+[2023-05-03 18:00:29] INFO root fetch - processPackages [playmolecule]: Downloading https://files.pythonhosted.org/packages/a9/0e/068ee8785f9f14216b63317f96287d0c83b4046f7124c9f674609dc1e347/playmolecule-1.7.0.tar.gz
+[2023-05-03 18:00:29] INFO root fetch - processPackages [determined-cli]: Downloading https://files.pythonhosted.org/packages/58/75/643a3a10b62ba22a2a8632c698adeb715270bcecc8bc26ef17a2b573d33b/determined_cli-0.21.2rc5-py3-none-any.whl
+[2023-05-03 18:00:29] INFO root fetch - processPackages [determined-deploy]: Downloading https://files.pythonhosted.org/packages/44/3f/6172671411549b2d5b56cbf9b8f12b0b6437f4470dad31889c930c0b2eed/determined_deploy-0.21.2rc5-py3-none-any.whl
+[2023-05-03 18:00:29] INFO root fetch - processPackages [model-hub]: Downloading https://files.pythonhosted.org/packages/e2/4c/e60ea4d8ba2f2ae4e0e8c0ce7f4668db8167433d8c1e77ad38812f497397/model_hub-0.21.2rc5-py3-none-any.whl
+[2023-05-03 18:00:29] INFO root fetch - processPackages [Tailbone]: Downloading https://files.pythonhosted.org/packages/50/6f/b63e04f1e618b1f4d976e29b2185f60ed7b310a1fc1dfe6f8ae2a503598a/Tailbone-0.9.8.tar.gz
+[2023-05-03 18:00:29] INFO root fetch - processPackages [determined]: Downloading https://files.pythonhosted.org/packages/9a/b9/d812675ecb9b43329b8e7e8b06724de181aa14e4c7024660b795c95447f3/determined-0.21.2rc5-py3-none-any.whl
+[2023-05-03 18:00:29] INFO root fetch - processPackages [rattail]: executing diffoscope
+[2023-05-03 18:00:29] INFO root fetch - processPackages [rattail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rattail-0.9.98.tar.gz tmp/rattail-0.9.99.tar.gz --markdown 20230503/r/rattail/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-05-03 18:00:29] INFO root fetch - processPackages [determined-common]: Downloading https://files.pythonhosted.org/packages/8e/dd/802a9bbb2e45ca155dce0be88ed0cf120c498b8e967ad90bcba35258367e/determined_common-0.21.3rc0-py3-none-any.whl
+[2023-05-03 18:00:29] INFO root fetch - processPackages [pypylon]: Downloading https://files.pythonhosted.org/packages/55/83/2bc4eb632a44b12135c3d91254e5e9f924e4960321f49978fe4c75349bb2/pypylon-1.9.0rc2-cp39-cp39-win_amd64.whl
+[2023-05-03 18:00:29] INFO root fetch - processPackages [playmolecule]: Downloading https://files.pythonhosted.org/packages/4a/15/1632972f0583aa152ca70a1a6e163789db58f588556b6f7842703764aa61/playmolecule-1.7.1.tar.gz
+[2023-05-03 18:00:29] INFO root fetch - processPackages [determined-common]: executing diffoscope
+[2023-05-03 18:00:29] INFO root fetch - processPackages [determined-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/determined_common-0.21.2rc5-py3-none-any.whl.zip tmp/determined_common-0.21.3rc0-py3-none-any.whl.zip --markdown 20230503/d/determined-common/0.21.2rc5-0.21.3rc0/diff.md --exclude *.pyd
+[2023-05-03 18:00:29] INFO root fetch - processPackages [determined-cli]: Downloading https://files.pythonhosted.org/packages/fe/98/512ca56b4d1a49b6c026420f82eebdf1ef9dc1c1fa5b1c295fdb13c46535/determined_cli-0.21.3rc0-py3-none-any.whl
+[2023-05-03 18:00:29] INFO root fetch - processPackages [playmolecule]: executing diffoscope
+[2023-05-03 18:00:29] INFO root fetch - processPackages [playmolecule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/playmolecule-1.7.0.tar.gz tmp/playmolecule-1.7.1.tar.gz --markdown 20230503/p/playmolecule/1.7.0-1.7.1/diff.md --exclude *.pyd
+[2023-05-03 18:00:29] INFO root fetch - processPackages [determined]: Downloading https://files.pythonhosted.org/packages/9f/04/8bbfe76c40c7c19f01aab909e904bb7ba236071ad2a8ef5152d9372b93b5/determined-0.21.3rc0-py3-none-any.whl
+[2023-05-03 18:00:29] INFO root fetch - processPackages [determined-deploy]: Downloading https://files.pythonhosted.org/packages/01/71/a9e82dbc6c6f589071f23472f66c6f18a68053f4a109da8c107d8c3fe548/determined_deploy-0.21.3rc0-py3-none-any.whl
+[2023-05-03 18:00:29] INFO root fetch - processPackages [model-hub]: Downloading https://files.pythonhosted.org/packages/0b/76/bd45ccef6aec07d92cced84607b1d094bc05ca1a4302df8223a8883d417b/model_hub-0.21.3rc0-py3-none-any.whl
+[2023-05-03 18:00:29] INFO root fetch - processPackages [determined-cli]: executing diffoscope
+[2023-05-03 18:00:29] INFO root fetch - processPackages [determined-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/determined_cli-0.21.2rc5-py3-none-any.whl.zip tmp/determined_cli-0.21.3rc0-py3-none-any.whl.zip --markdown 20230503/d/determined-cli/0.21.2rc5-0.21.3rc0/diff.md --exclude *.pyd
+[2023-05-03 18:00:29] INFO root fetch - processPackages [Tailbone]: Downloading https://files.pythonhosted.org/packages/d0/d1/c2f74adc6b3442dc7514c806d0eb884cf730fe17792970c620291f5a53a0/Tailbone-0.9.9.tar.gz
+[2023-05-03 18:00:29] INFO root fetch - processPackages [determined-deploy]: executing diffoscope
+[2023-05-03 18:00:29] INFO root fetch - processPackages [determined-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/determined_deploy-0.21.2rc5-py3-none-any.whl.zip tmp/determined_deploy-0.21.3rc0-py3-none-any.whl.zip --markdown 20230503/d/determined-deploy/0.21.2rc5-0.21.3rc0/diff.md --exclude *.pyd
+[2023-05-03 18:00:29] INFO root fetch - processPackages [model-hub]: executing diffoscope
+[2023-05-03 18:00:29] INFO root fetch - processPackages [model-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_hub-0.21.2rc5-py3-none-any.whl.zip tmp/model_hub-0.21.3rc0-py3-none-any.whl.zip --markdown 20230503/m/model-hub/0.21.2rc5-0.21.3rc0/diff.md --exclude *.pyd
+[2023-05-03 18:00:29] INFO root fetch - processPackages [determined]: executing diffoscope
+[2023-05-03 18:00:29] INFO root fetch - processPackages [determined]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/determined-0.21.2rc5-py3-none-any.whl.zip tmp/determined-0.21.3rc0-py3-none-any.whl.zip --markdown 20230503/d/determined/0.21.2rc5-0.21.3rc0/diff.md --exclude *.pyd
+[2023-05-03 18:00:29] WARNING root fetch - processPackages [pypylon]: Skipping package: exceeds size limit 101073957>=10485760
+[2023-05-03 18:00:29] INFO root fetch - processPackages [pypylon]: Start processing: bigc
+[2023-05-03 18:00:29] INFO root fetch - main [MainThread]: End processing [pypylon] error
+[2023-05-03 18:00:30] INFO root fetch - processPackages [Tailbone]: executing diffoscope
+[2023-05-03 18:00:30] INFO root fetch - processPackages [Tailbone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Tailbone-0.9.8.tar.gz tmp/Tailbone-0.9.9.tar.gz --markdown 20230503/T/Tailbone/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-03 18:00:30] INFO root fetch - processPackages [bigc]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-05-03 18:00:30] INFO root fetch - processPackages [bigc]: Downloading https://files.pythonhosted.org/packages/8c/0d/573340cbc1add48afc494d7d566a4815af3f86baff9b44d768fadcf9dc9c/bigc-0.2.5.tar.gz
+[2023-05-03 18:00:30] INFO root fetch - processPackages [aij-news-client]: Start processing: IPFS-Toolkit
+[2023-05-03 18:00:30] INFO root fetch - main [MainThread]: End processing [aij-news-client]: success
+[2023-05-03 18:00:30] INFO root fetch - processPackages [bigc]: Downloading https://files.pythonhosted.org/packages/18/25/d93c36eca62fe1bc475c7844b996a2b23926d8970975a165827ea347c032/bigc-0.2.6.tar.gz
+[2023-05-03 18:00:30] INFO root fetch - processPackages [IPFS-Toolkit]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-03 18:00:30] INFO root fetch - processPackages [bigc]: executing diffoscope
+[2023-05-03 18:00:30] INFO root fetch - processPackages [bigc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigc-0.2.5.tar.gz tmp/bigc-0.2.6.tar.gz --markdown 20230503/b/bigc/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-05-03 18:00:30] INFO root fetch - processPackages [IPFS-Toolkit]: Downloading https://files.pythonhosted.org/packages/b1/f9/4eb14828d48781ff746727ef1fd9fc3dd837698a4d01a5521712c4feb6ee/IPFS-Toolkit-0.5.9.tar.gz
+[2023-05-03 18:00:30] INFO root fetch - processPackages [determined-common]: Start processing: qsimcirq
+[2023-05-03 18:00:30] INFO root fetch - main [MainThread]: End processing [determined-common]: success
+[2023-05-03 18:00:31] INFO root fetch - processPackages [IPFS-Toolkit]: executing diffoscope
+[2023-05-03 18:00:31] INFO root fetch - processPackages [IPFS-Toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IPFS-Toolkit-0.5.8.tar.gz tmp/IPFS-Toolkit-0.5.9.tar.gz --markdown 20230503/I/IPFS-Toolkit/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-05-03 18:00:31] INFO root fetch - processPackages [qsimcirq]: New version: [0.9.5] Old Version: [0.9.2]
+[2023-05-03 18:00:31] INFO root fetch - processPackages [determined-deploy]: Start processing: bumble
+[2023-05-03 18:00:31] INFO root fetch - processPackages [determined-cli]: Start processing: recurrent-memory-transformer-pytorch
+[2023-05-03 18:00:31] INFO root fetch - main [MainThread]: End processing [determined-deploy]: success
+[2023-05-03 18:00:31] INFO root fetch - main [MainThread]: End processing [determined-cli]: success
+[2023-05-03 18:00:31] INFO root fetch - processPackages [recurrent-memory-transformer-pytorch]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-03 18:00:31] INFO root fetch - processPackages [bumble]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-03 18:00:31] INFO root fetch - processPackages [recurrent-memory-transformer-pytorch]: executing diffoscope
+[2023-05-03 18:00:31] INFO root fetch - processPackages [recurrent-memory-transformer-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recurrent-memory-transformer-pytorch-0.2.2.tar.gz tmp/recurrent-memory-transformer-pytorch-0.2.3.tar.gz --markdown 20230503/r/recurrent-memory-transformer-pytorch/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-03 18:00:31] INFO root fetch - processPackages [model-hub]: Start processing: letipy
+[2023-05-03 18:00:31] INFO root fetch - main [MainThread]: End processing [model-hub]: success
+[2023-05-03 18:00:31] WARNING root fetch - processPackages [letipy]: Skipping, unable to determine old version
+[2023-05-03 18:00:31] INFO root fetch - processPackages [letipy]: Start processing: hugchat
+[2023-05-03 18:00:31] INFO root fetch - main [MainThread]: End processing [letipy] error
+[2023-05-03 18:00:31] INFO root fetch - processPackages [hugchat]: New version: [0.0.5.2] Old Version: [0.0.5.1]
+[2023-05-03 18:00:31] INFO root fetch - processPackages [bumble]: Downloading https://files.pythonhosted.org/packages/5c/cc/2050aa113bf91c23119ba662d8833cb2442c86a9be578ea2ef801786e1bc/bumble-0.0.7.tar.gz
+[2023-05-03 18:00:31] INFO root fetch - processPackages [qsimcirq]: executing diffoscope
+[2023-05-03 18:00:31] INFO root fetch - processPackages [qsimcirq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qsimcirq-0.9.2.tar.gz tmp/qsimcirq-0.9.5.tar.gz --markdown 20230503/q/qsimcirq/0.9.2-0.9.5/diff.md --exclude *.pyd
+[2023-05-03 18:00:31] INFO root fetch - processPackages [playmolecule]: Start processing: certora-cli-alpha-roy-CERT-1844-usage
+[2023-05-03 18:00:31] INFO root fetch - main [MainThread]: End processing [playmolecule]: success
+[2023-05-03 18:00:31] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1844-usage]: New version: [20230503.8.53.104658] Old Version: [20230503.8.17.789702]
+[2023-05-03 18:00:31] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1844-usage]: Downloading https://files.pythonhosted.org/packages/9b/2c/45e2c922f5037257610f368af096aa721b49944649a199c416b1c38c9d5b/certora-cli-alpha-roy-CERT-1844-usage-20230503.8.17.789702.tar.gz
+[2023-05-03 18:00:31] INFO root fetch - processPackages [hugchat]: Downloading https://files.pythonhosted.org/packages/3c/f0/7fe10b08528cac5369b19825f601fd080e24f1b48127db3fb0255b3c90de/hugchat-0.0.5.2.tar.gz
+[2023-05-03 18:00:31] WARNING root fetch - processPackages [certora-cli-alpha-roy-CERT-1844-usage]: Skipping package: exceeds size limit 38384032>=10485760
+[2023-05-03 18:00:31] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1844-usage]: Start processing: relion
+[2023-05-03 18:00:31] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-roy-CERT-1844-usage] error
+[2023-05-03 18:00:31] INFO root fetch - processPackages [hugchat]: executing diffoscope
+[2023-05-03 18:00:31] INFO root fetch - processPackages [hugchat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hugchat-0.0.5.1.tar.gz tmp/hugchat-0.0.5.2.tar.gz --markdown 20230503/h/hugchat/0.0.5.1-0.0.5.2/diff.md --exclude *.pyd
+[2023-05-03 18:00:31] INFO root fetch - processPackages [relion]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-03 18:00:32] INFO root fetch - processPackages [relion]: Downloading https://files.pythonhosted.org/packages/e0/82/69a9de4ba7a280713f6191fe700469d5c59405c8691b42cf7436e7793241/relion-0.9.8.tar.gz
+[2023-05-03 18:00:32] INFO root fetch - processPackages [bigc]: Start processing: browsr
+[2023-05-03 18:00:32] INFO root fetch - main [MainThread]: End processing [bigc]: success
+[2023-05-03 18:00:32] INFO root fetch - processPackages [browsr]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-03 18:00:32] INFO root fetch - processPackages [bumble]: Downloading https://files.pythonhosted.org/packages/68/35/9a248bc72c337b8ddaaa686a9f635b08670845ec0d96933f6e246cb6f7c2/bumble-0.0.8.tar.gz
+[2023-05-03 18:00:32] INFO root fetch - processPackages [browsr]: executing diffoscope
+[2023-05-03 18:00:32] INFO root fetch - processPackages [browsr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/browsr-1.0.0.tar.gz tmp/browsr-1.0.1.tar.gz --markdown 20230503/b/browsr/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-03 18:00:32] INFO root fetch - processPackages [recurrent-memory-transformer-pytorch]: Start processing: py-Ayiin
+[2023-05-03 18:00:32] INFO root fetch - main [MainThread]: End processing [recurrent-memory-transformer-pytorch]: success
+[2023-05-03 18:00:32] INFO root fetch - processPackages [relion]: Downloading https://files.pythonhosted.org/packages/f1/34/df132ddc1c4f86e0fbbbf6901e5d7faf00fc28548ec49050cf5ecc44ac6d/relion-0.9.9.tar.gz
+[2023-05-03 18:00:32] INFO root fetch - processPackages [py-Ayiin]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-03 18:00:32] INFO root fetch - processPackages [bumble]: executing diffoscope
+[2023-05-03 18:00:32] INFO root fetch - processPackages [bumble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bumble-0.0.7.tar.gz tmp/bumble-0.0.8.tar.gz --markdown 20230503/b/bumble/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-03 18:00:32] INFO root fetch - processPackages [IPFS-Toolkit]: Start processing: microns-utils
+[2023-05-03 18:00:32] INFO root fetch - main [MainThread]: End processing [IPFS-Toolkit]: success
+[2023-05-03 18:00:32] INFO root fetch - processPackages [py-Ayiin]: Downloading https://files.pythonhosted.org/packages/72/20/a7370b27e38dd8a6beb55cd3c17eae4673dba009b9d0156c2a1878d794e7/py-Ayiin-0.2.4.tar.gz
+[2023-05-03 18:00:32] INFO root fetch - processPackages [microns-utils]: New version: [0.1.7] Old Version: [0.1.5]
+[2023-05-03 18:00:32] INFO root fetch - processPackages [relion]: executing diffoscope
+[2023-05-03 18:00:32] INFO root fetch - processPackages [relion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/relion-0.9.8.tar.gz tmp/relion-0.9.9.tar.gz --markdown 20230503/r/relion/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-03 18:00:33] INFO root fetch - processPackages [py-Ayiin]: Downloading https://files.pythonhosted.org/packages/80/be/04edef43bf6c45a7a411cef33aea9e781b2f60bfa159f0a2d1e4e653ee94/py-Ayiin-0.2.5.tar.gz
+[2023-05-03 18:00:33] INFO root fetch - processPackages [microns-utils]: Downloading https://files.pythonhosted.org/packages/a8/c1/d10eef423f5de958749b1ea7487580fbcaf9acee351998aa97dc698ec6ee/microns-utils-0.1.5.tar.gz
+[2023-05-03 18:00:33] INFO root fetch - main [MainThread]: End processing [hugchat]: success
+[2023-05-03 18:00:33] INFO root fetch - processPackages [py-Ayiin]: executing diffoscope
+[2023-05-03 18:00:33] INFO root fetch - processPackages [py-Ayiin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-Ayiin-0.2.4.tar.gz tmp/py-Ayiin-0.2.5.tar.gz --markdown 20230503/p/py-Ayiin/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-05-03 18:00:33] INFO root fetch - processPackages [microns-utils]: Downloading https://files.pythonhosted.org/packages/be/77/686f51bf5b1ef9f0998585d020d45a84427f7704198e506ba909fa87dde8/microns-utils-0.1.7.tar.gz
+[2023-05-03 18:00:33] INFO root fetch - main [MainThread]: End processing [qsimcirq]: success
+[2023-05-03 18:00:33] INFO root fetch - processPackages [microns-utils]: executing diffoscope
+[2023-05-03 18:00:33] INFO root fetch - processPackages [microns-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microns-utils-0.1.5.tar.gz tmp/microns-utils-0.1.7.tar.gz --markdown 20230503/m/microns-utils/0.1.5-0.1.7/diff.md --exclude *.pyd
+[2023-05-03 18:00:33] INFO root fetch - main [MainThread]: End processing [determined]: success
+[2023-05-03 18:00:34] INFO root fetch - main [MainThread]: End processing [relion]: success
+[2023-05-03 18:00:34] INFO root fetch - main [MainThread]: End processing [microns-utils]: success
+[2023-05-03 18:00:34] INFO root fetch - main [MainThread]: End processing [py-Ayiin]: success
+[2023-05-03 18:00:34] INFO root fetch - main [MainThread]: End processing [rattail]: success
+[2023-05-03 18:00:35] INFO root fetch - main [MainThread]: End processing [browsr]: success
+[2023-05-03 18:00:37] INFO root fetch - main [MainThread]: End processing [bumble]: success
+[2023-05-03 18:00:37] INFO root fetch - main [MainThread]: End processing [Tailbone]: success
+[2023-05-03 18:00:37] INFO root fetch - main [MainThread]: Store serial: [17959119]
