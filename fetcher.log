@@ -22475,3 +22475,64 @@ No space left on device. Diffoscope exiting.
 [2023-05-03 21:01:25] INFO root fetch - main [MainThread]: End processing [nlptoolssna]: success
 [2023-05-03 21:01:25] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
 [2023-05-03 21:01:25] INFO root fetch - main [MainThread]: Store serial: [17961341]
+[2023-05-03 21:06:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17961341]
+[2023-05-03 21:06:34] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-03 21:06:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: canvascli
+[2023-05-03 21:06:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: assisted-service-client
+[2023-05-03 21:06:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eric-chen-forward
+[2023-05-03 21:06:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-pydantic-field
+[2023-05-03 21:06:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: safe-rlhf
+[2023-05-03 21:06:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vmk-spectrum
+[2023-05-03 21:06:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ner4opt
+[2023-05-03 21:06:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: binpan
+[2023-05-03 21:06:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: demesdraw
+[2023-05-03 21:06:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mystring
+[2023-05-03 21:06:34] WARNING root fetch - processPackages [safe-rlhf]: Skipping, unable to determine old version
+[2023-05-03 21:06:35] INFO root fetch - main [MainThread]: End processing [safe-rlhf] error
+[2023-05-03 21:06:35] INFO root fetch - processPackages [django-pydantic-field]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-03 21:06:35] INFO root fetch - processPackages [canvascli]: New version: [0.6.0] Old Version: [0.5.1]
+[2023-05-03 21:06:35] INFO root fetch - processPackages [vmk-spectrum]: New version: [0.0.7] Old Version: [0.0.5]
+[2023-05-03 21:06:35] INFO root fetch - processPackages [eric-chen-forward]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 21:06:35] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2023-05-03 21:06:35] WARNING root fetch - processPackages [ner4opt]: Skipping, unable to determine old version
+[2023-05-03 21:06:35] INFO root fetch - main [MainThread]: End processing [ner4opt] error
+[2023-05-03 21:06:35] INFO root fetch - processPackages [mystring]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 21:06:35] INFO root fetch - processPackages [binpan]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-03 21:06:35] INFO root fetch - processPackages [demesdraw]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-05-03 21:06:35] INFO root fetch - processPackages [django-pydantic-field]: Downloading https://files.pythonhosted.org/packages/28/d6/5699e90896004807c50f37bf0159bcb865dec952f76627c8111a3eceaecd/django-pydantic-field-0.2.3.tar.gz
+[2023-05-03 21:06:35] INFO root fetch - processPackages [canvascli]: Downloading https://files.pythonhosted.org/packages/14/f4/30cf401211c9abf87893882f46be53ac19610ca0500da9c2ffe1f5ae5dda/canvascli-0.5.1.tar.gz
+[2023-05-03 21:06:35] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2023-05-03 21:06:35] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20230503/a/assisted-service-client/2.9.0.post8-2.9.0.post9/diff.md --exclude *.pyd
+[2023-05-03 21:06:35] INFO root fetch - processPackages [eric-chen-forward]: Downloading https://files.pythonhosted.org/packages/bd/95/3ffa15a65173cd99b1cb44e3c944a6a156306f9d77f3b806671025a0eb09/eric_chen_forward-0.0.8.tar.gz
+[2023-05-03 21:06:35] INFO root fetch - processPackages [vmk-spectrum]: Downloading https://files.pythonhosted.org/packages/77/d0/17d113212cbac41940975c3ad1d6db432dd8694cc861575e1f0bca7f16bc/vmk_spectrum-0.0.5-cp311-cp311-win_amd64.whl
+[2023-05-03 21:06:35] INFO root fetch - processPackages [mystring]: Downloading https://files.pythonhosted.org/packages/93/94/19340e2c179cf13e15385482db831a360544bad088a1ff035793bc4a8b9a/mystring-0.0.8.tar.gz
+[2023-05-03 21:06:35] INFO root fetch - processPackages [demesdraw]: Downloading https://files.pythonhosted.org/packages/0c/b4/f40bc28bac3dbaad9e4051cde29a6144dd797075ea5a8f7b635eaffc96a4/demesdraw-0.3.1.tar.gz
+[2023-05-03 21:06:35] INFO root fetch - processPackages [binpan]: executing diffoscope
+[2023-05-03 21:06:35] INFO root fetch - processPackages [binpan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/binpan-0.4.8.tar.gz tmp/binpan-0.4.9.tar.gz --markdown 20230503/b/binpan/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-03 21:06:35] INFO root fetch - processPackages [canvascli]: Downloading https://files.pythonhosted.org/packages/14/c9/4905a2d3f525c57c52d9f06ba469aa039a289c41adcc3f5439ac5c3b1099/canvascli-0.6.0.tar.gz
+[2023-05-03 21:06:35] INFO root fetch - processPackages [django-pydantic-field]: Downloading https://files.pythonhosted.org/packages/67/bb/84df8fef3b7d2467ec47acfd4c1c2946a8fe60943163bad32b3fd3db8ec0/django-pydantic-field-0.2.4.tar.gz
+[2023-05-03 21:06:35] INFO root fetch - processPackages [vmk-spectrum]: Downloading https://files.pythonhosted.org/packages/a3/ec/85bf0ed0ef5c97caef25ed8b7971824803b639bb0df953048157bd680bd7/vmk_spectrum-0.0.7-cp311-cp311-win_amd64.whl
+[2023-05-03 21:06:35] INFO root fetch - processPackages [demesdraw]: Downloading https://files.pythonhosted.org/packages/66/94/75d488794b168a193e2f86fe8bc6e3a0b2c8c8cb59c9261c46587644785e/demesdraw-0.4.0.tar.gz
+[2023-05-03 21:06:35] INFO root fetch - processPackages [canvascli]: executing diffoscope
+[2023-05-03 21:06:35] INFO root fetch - processPackages [canvascli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/canvascli-0.5.1.tar.gz tmp/canvascli-0.6.0.tar.gz --markdown 20230503/c/canvascli/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2023-05-03 21:06:35] INFO root fetch - processPackages [django-pydantic-field]: executing diffoscope
+[2023-05-03 21:06:35] INFO root fetch - processPackages [django-pydantic-field]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-pydantic-field-0.2.3.tar.gz tmp/django-pydantic-field-0.2.4.tar.gz --markdown 20230503/d/django-pydantic-field/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-03 21:06:35] INFO root fetch - processPackages [vmk-spectrum]: executing diffoscope
+[2023-05-03 21:06:35] INFO root fetch - processPackages [vmk-spectrum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vmk_spectrum-0.0.5-cp311-cp311-win_amd64.whl.zip tmp/vmk_spectrum-0.0.7-cp311-cp311-win_amd64.whl.zip --markdown 20230503/v/vmk-spectrum/0.0.5-0.0.7/diff.md --exclude *.pyd
+[2023-05-03 21:06:35] INFO root fetch - processPackages [mystring]: Downloading https://files.pythonhosted.org/packages/e8/1b/f8801512f201f0edd89b9a14e277ef4a59feb35d2c090545d2c59feab4b9/mystring-0.0.9.tar.gz
+[2023-05-03 21:06:35] INFO root fetch - processPackages [eric-chen-forward]: Downloading https://files.pythonhosted.org/packages/12/85/358eca87974b6d1f6bcbb930e7850d13dac4bcc078b99af4ef5a22025499/eric_chen_forward-0.0.9.tar.gz
+[2023-05-03 21:06:35] INFO root fetch - processPackages [demesdraw]: executing diffoscope
+[2023-05-03 21:06:35] INFO root fetch - processPackages [demesdraw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/demesdraw-0.3.1.tar.gz tmp/demesdraw-0.4.0.tar.gz --markdown 20230503/d/demesdraw/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-05-03 21:06:35] INFO root fetch - processPackages [eric-chen-forward]: executing diffoscope
+[2023-05-03 21:06:35] INFO root fetch - processPackages [eric-chen-forward]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eric_chen_forward-0.0.8.tar.gz tmp/eric_chen_forward-0.0.9.tar.gz --markdown 20230503/e/eric-chen-forward/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 21:06:35] INFO root fetch - processPackages [mystring]: executing diffoscope
+[2023-05-03 21:06:35] INFO root fetch - processPackages [mystring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mystring-0.0.8.tar.gz tmp/mystring-0.0.9.tar.gz --markdown 20230503/m/mystring/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 21:06:36] INFO root fetch - main [MainThread]: End processing [canvascli]: success
+[2023-05-03 21:06:37] INFO root fetch - main [MainThread]: End processing [django-pydantic-field]: success
+[2023-05-03 21:06:37] INFO root fetch - main [MainThread]: End processing [vmk-spectrum]: success
+[2023-05-03 21:06:37] INFO root fetch - main [MainThread]: End processing [eric-chen-forward]: success
+[2023-05-03 21:06:37] INFO root fetch - main [MainThread]: End processing [mystring]: success
+[2023-05-03 21:06:37] INFO root fetch - main [MainThread]: End processing [demesdraw]: success
+[2023-05-03 21:06:38] INFO root fetch - main [MainThread]: End processing [binpan]: success
+[2023-05-03 21:06:39] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2023-05-03 21:06:39] INFO root fetch - main [MainThread]: Store serial: [17961374]
