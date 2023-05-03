@@ -15676,3 +15676,98 @@ No space left on device. Diffoscope exiting.
 [2023-05-03 15:15:37] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
 [2023-05-03 15:15:41] INFO root fetch - main [MainThread]: End processing [bitmovin-api-sdk]: success
 [2023-05-03 15:15:41] INFO root fetch - main [MainThread]: Store serial: [17956846]
+[2023-05-03 15:20:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17956846]
+[2023-05-03 15:20:50] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-03 15:20:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbdev-sphinx
+[2023-05-03 15:20:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lusid-notifications-sdk-preview
+[2023-05-03 15:20:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbdev-django
+[2023-05-03 15:20:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: malbench
+[2023-05-03 15:20:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: testapptmlc
+[2023-05-03 15:20:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: auroralibs
+[2023-05-03 15:20:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: polymatica-api
+[2023-05-03 15:20:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: certora-cli-alpha-naftali-CERT-1936-multiple-envfree-errors
+[2023-05-03 15:20:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nanomock
+[2023-05-03 15:20:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nbdev-apl
+[2023-05-03 15:20:50] INFO root fetch - processPackages [auroralibs]: New version: [8.0.3] Old Version: [8.0.2]
+[2023-05-03 15:20:50] INFO root fetch - processPackages [testapptmlc]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-03 15:20:50] INFO root fetch - processPackages [certora-cli-alpha-naftali-CERT-1936-multiple-envfree-errors]: New version: [20230503.12.18.178935] Old Version: [20230503.11.20.415028]
+[2023-05-03 15:20:50] INFO root fetch - processPackages [polymatica-api]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-03 15:20:50] INFO root fetch - processPackages [malbench]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-05-03 15:20:50] INFO root fetch - processPackages [nanomock]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-03 15:20:50] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: New version: [0.1.660] Old Version: [0.1.659]
+[2023-05-03 15:20:50] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-03 15:20:50] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.750] Old Version: [0.0.749]
+[2023-05-03 15:20:50] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-03 15:20:51] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/2b/95/9e261b8f3e5f931da5a2f9ddc475954265376d1d468b6f3877f38ad482c3/nbdev-django-0.0.98.tar.gz
+[2023-05-03 15:20:51] INFO root fetch - processPackages [auroralibs]: executing diffoscope
+[2023-05-03 15:20:51] INFO root fetch - processPackages [auroralibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auroralibs-8.0.2.tar.gz tmp/auroralibs-8.0.3.tar.gz --markdown 20230503/a/auroralibs/8.0.2-8.0.3/diff.md --exclude *.pyd
+[2023-05-03 15:20:51] INFO root fetch - processPackages [polymatica-api]: executing diffoscope
+[2023-05-03 15:20:51] INFO root fetch - processPackages [polymatica-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polymatica_api-0.0.6.tar.gz tmp/polymatica_api-0.0.7.tar.gz --markdown 20230503/p/polymatica-api/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-03 15:20:51] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-05-03 15:20:51] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.749.tar.gz tmp/nbdev-apl-0.0.750.tar.gz --markdown 20230503/n/nbdev-apl/0.0.749-0.0.750/diff.md --exclude *.pyd
+[2023-05-03 15:20:51] INFO root fetch - processPackages [certora-cli-alpha-naftali-CERT-1936-multiple-envfree-errors]: Downloading https://files.pythonhosted.org/packages/34/d4/d63fee0ff9621a0c1d04fa77ee2c65e835d21eada2c79419aff853794df8/certora-cli-alpha-naftali-CERT-1936_multiple_envfree_errors-20230503.11.20.415028.tar.gz
+[2023-05-03 15:20:51] INFO root fetch - processPackages [nanomock]: Downloading https://files.pythonhosted.org/packages/7c/56/d414489c9ffd552f97075283ecb9d416ad54b3f69874d162dd5e57b85c44/nanomock-0.0.1.tar.gz
+[2023-05-03 15:20:51] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/48/fc/7a0d3bb958e3a076f19a2fdbeec8c4c92171c0545e32cfe2dc0e2212d10c/lusid-notifications-sdk-preview-0.1.660.tar.gz
+[2023-05-03 15:20:51] WARNING root fetch - processPackages [certora-cli-alpha-naftali-CERT-1936-multiple-envfree-errors]: Skipping package: exceeds size limit 38373479>=10485760
+[2023-05-03 15:20:51] INFO root fetch - processPackages [certora-cli-alpha-naftali-CERT-1936-multiple-envfree-errors]: Start processing: cmeel-example
+[2023-05-03 15:20:51] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-naftali-CERT-1936-multiple-envfree-errors] error
+[2023-05-03 15:20:51] INFO root fetch - processPackages [testapptmlc]: Downloading https://files.pythonhosted.org/packages/6c/bd/f9204325330f56e86a8bcf1ce9ccf9abbd6dc730eb0a27649999e4a81bba/testapptmlc-0.0.5.tar.gz
+[2023-05-03 15:20:51] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/50/26/1673892b3686c404af92c390906ab3bac81806c424381e82dedac6477190/nbdev-sphinx-0.0.98.tar.gz
+[2023-05-03 15:20:51] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: executing diffoscope
+[2023-05-03 15:20:51] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-notifications-sdk-preview-0.1.659.tar.gz tmp/lusid-notifications-sdk-preview-0.1.660.tar.gz --markdown 20230503/l/lusid-notifications-sdk-preview/0.1.659-0.1.660/diff.md --exclude *.pyd
+[2023-05-03 15:20:51] INFO root fetch - processPackages [testapptmlc]: executing diffoscope
+[2023-05-03 15:20:51] INFO root fetch - processPackages [testapptmlc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testapptmlc-0.0.4.tar.gz tmp/testapptmlc-0.0.5.tar.gz --markdown 20230503/t/testapptmlc/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-03 15:20:51] INFO root fetch - processPackages [malbench]: Downloading https://files.pythonhosted.org/packages/02/92/499d81315353c8f0a76758d4daf3a1a09929ea16be1d2e4eea0074e4baf6/malbench-0.3.4.tar.gz
+[2023-05-03 15:20:51] INFO root fetch - processPackages [cmeel-example]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-03 15:20:51] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/f2/7a/5214014e1426324d1fea2f984c9b5480e467e5eddefe61721e8f4d1c025e/nbdev-django-0.0.99.tar.gz
+[2023-05-03 15:20:51] INFO root fetch - processPackages [nanomock]: Downloading https://files.pythonhosted.org/packages/e5/ec/db91cf87368abca04809b58e84ffbddc7e42c3e6db313dfee7d4fd61f771/nanomock-0.0.2.tar.gz
+[2023-05-03 15:20:51] INFO root fetch - processPackages [malbench]: executing diffoscope
+[2023-05-03 15:20:51] INFO root fetch - processPackages [malbench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/malbench-0.3.3.tar.gz tmp/malbench-0.3.4.tar.gz --markdown 20230503/m/malbench/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-05-03 15:20:51] INFO root fetch - processPackages [nanomock]: executing diffoscope
+[2023-05-03 15:20:51] INFO root fetch - processPackages [nanomock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanomock-0.0.1.tar.gz tmp/nanomock-0.0.2.tar.gz --markdown 20230503/n/nanomock/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-03 15:20:51] INFO root fetch - processPackages [cmeel-example]: Downloading https://files.pythonhosted.org/packages/59/b9/eeddad154b0ec57bfe10c2f0dfe9d77dcb6b10ac1c58bad41f66692dad82/cmeel_example-0.4.8-0-pp39-pypy39_pp73-manylinux_2_28_aarch64.whl
+[2023-05-03 15:20:51] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-05-03 15:20:51] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230503/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-03 15:20:51] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/55/5e/ba946430b849ba8f51f4047dad2bb2417fbc794da9bb8301308347bb6207/nbdev-sphinx-0.0.99.tar.gz
+[2023-05-03 15:20:51] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-05-03 15:20:51] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230503/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-03 15:20:51] INFO root fetch - processPackages [cmeel-example]: Downloading https://files.pythonhosted.org/packages/a6/82/22b4910985a8b815d5d48d3cacec165db8c3d93d42e877d87043f0242f63/cmeel_example-0.4.9-0-pp39-pypy39_pp73-manylinux_2_28_aarch64.whl
+[2023-05-03 15:20:52] INFO root fetch - processPackages [cmeel-example]: executing diffoscope
+[2023-05-03 15:20:52] INFO root fetch - processPackages [cmeel-example]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmeel_example-0.4.8-0-pp39-pypy39_pp73-manylinux_2_28_aarch64.whl.zip tmp/cmeel_example-0.4.9-0-pp39-pypy39_pp73-manylinux_2_28_aarch64.whl.zip --markdown 20230503/c/cmeel-example/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-03 15:20:52] INFO root fetch - processPackages [nbdev-apl]: Start processing: napari-bacseg
+[2023-05-03 15:20:52] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-05-03 15:20:52] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Start processing: rekuest
+[2023-05-03 15:20:52] INFO root fetch - main [MainThread]: End processing [lusid-notifications-sdk-preview]: success
+[2023-05-03 15:20:52] INFO root fetch - processPackages [napari-bacseg]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-03 15:20:52] INFO root fetch - processPackages [polymatica-api]: Start processing: arkitekt
+[2023-05-03 15:20:52] INFO root fetch - main [MainThread]: End processing [polymatica-api]: success
+[2023-05-03 15:20:52] INFO root fetch - processPackages [arkitekt]: New version: [0.4.99] Old Version: [0.4.98]
+[2023-05-03 15:20:52] INFO root fetch - processPackages [rekuest]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-03 15:20:52] INFO root fetch - processPackages [napari-bacseg]: Downloading https://files.pythonhosted.org/packages/99/59/64ef76535888414b6f5dee806bd696ccc8cf0fd6f73154899376a16f1247/napari-bacseg-1.0.4.tar.gz
+[2023-05-03 15:20:52] INFO root fetch - processPackages [arkitekt]: executing diffoscope
+[2023-05-03 15:20:52] INFO root fetch - processPackages [arkitekt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkitekt-0.4.98.tar.gz tmp/arkitekt-0.4.99.tar.gz --markdown 20230503/a/arkitekt/0.4.98-0.4.99/diff.md --exclude *.pyd
+[2023-05-03 15:20:52] INFO root fetch - processPackages [testapptmlc]: Start processing: polymatica-api
+[2023-05-03 15:20:52] INFO root fetch - main [MainThread]: End processing [testapptmlc]: success
+[2023-05-03 15:20:52] INFO root fetch - processPackages [polymatica-api]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 15:20:52] INFO root fetch - processPackages [rekuest]: Downloading https://files.pythonhosted.org/packages/48/f2/3190b6c553e57d0d7cdd24d76862ef45faae7ac9eff40cae2c066106ab77/rekuest-0.1.8.tar.gz
+[2023-05-03 15:20:52] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-05-03 15:20:52] INFO root fetch - processPackages [polymatica-api]: Downloading https://files.pythonhosted.org/packages/77/51/e7d548095cfccf64f78ad48ce30c266db96cd908454f686efcc3a52cdce1/polymatica_api-0.0.8.tar.gz
+[2023-05-03 15:20:52] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-05-03 15:20:53] INFO root fetch - processPackages [napari-bacseg]: Downloading https://files.pythonhosted.org/packages/79/5c/e00a146c5636aba3eb65b51315b589f6a32f1a1af2e3976e9052b201e5d0/napari-bacseg-1.0.5.tar.gz
+[2023-05-03 15:20:53] INFO root fetch - main [MainThread]: End processing [malbench]: success
+[2023-05-03 15:20:53] INFO root fetch - processPackages [polymatica-api]: Downloading https://files.pythonhosted.org/packages/dd/5e/f2df597977028d715ae71746b4c1d999c66ee9a5b65a8d40d8c42435fa2b/polymatica_api-0.0.9.tar.gz
+[2023-05-03 15:20:53] INFO root fetch - processPackages [napari-bacseg]: executing diffoscope
+[2023-05-03 15:20:53] INFO root fetch - processPackages [napari-bacseg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-bacseg-1.0.4.tar.gz tmp/napari-bacseg-1.0.5.tar.gz --markdown 20230503/n/napari-bacseg/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-03 15:20:53] INFO root fetch - processPackages [rekuest]: Downloading https://files.pythonhosted.org/packages/c7/6e/bcea729c864b4bbd4c9c26534b40f4ebed9f00eb63aeb606692eb0667517/rekuest-0.1.9.tar.gz
+[2023-05-03 15:20:53] INFO root fetch - processPackages [polymatica-api]: executing diffoscope
+[2023-05-03 15:20:53] INFO root fetch - processPackages [polymatica-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polymatica_api-0.0.8.tar.gz tmp/polymatica_api-0.0.9.tar.gz --markdown 20230503/p/polymatica-api/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 15:20:53] INFO root fetch - processPackages [rekuest]: executing diffoscope
+[2023-05-03 15:20:53] INFO root fetch - processPackages [rekuest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rekuest-0.1.8.tar.gz tmp/rekuest-0.1.9.tar.gz --markdown 20230503/r/rekuest/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-03 15:20:53] INFO root fetch - main [MainThread]: End processing [auroralibs]: success
+[2023-05-03 15:20:54] INFO root fetch - main [MainThread]: End processing [nanomock]: success
+[2023-05-03 15:20:54] INFO root fetch - main [MainThread]: End processing [arkitekt]: success
+[2023-05-03 15:20:54] INFO root fetch - main [MainThread]: End processing [polymatica-api]: success
+[2023-05-03 15:20:55] INFO root fetch - main [MainThread]: End processing [cmeel-example]: success
+[2023-05-03 15:20:55] INFO root fetch - main [MainThread]: End processing [napari-bacseg]: success
+[2023-05-03 15:20:55] INFO root fetch - main [MainThread]: End processing [rekuest]: success
+[2023-05-03 15:20:55] INFO root fetch - main [MainThread]: Store serial: [17956917]
