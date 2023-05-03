@@ -8618,3 +8618,78 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-03 10:06:32] INFO root fetch - main [MainThread]: End processing [alphaz]: success
 [2023-05-03 10:06:35] INFO root fetch - main [MainThread]: End processing [tobiko]: success
 [2023-05-03 10:06:35] INFO root fetch - main [MainThread]: Store serial: [17952990]
+[2023-05-03 10:11:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17952990]
+[2023-05-03 10:11:45] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-03 10:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qontract-reconcile
+[2023-05-03 10:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fitk
+[2023-05-03 10:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fuzz-dict
+[2023-05-03 10:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyglove
+[2023-05-03 10:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: volworld-aws-api-common
+[2023-05-03 10:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: certora-cli-alpha-Shahar-CERT-1859
+[2023-05-03 10:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: SDTcloud
+[2023-05-03 10:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xt-st-common
+[2023-05-03 10:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: urlwatch
+[2023-05-03 10:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: CUQIpy
+[2023-05-03 10:11:45] INFO root fetch - processPackages [fitk]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-03 10:11:45] WARNING root fetch - processPackages [fuzz-dict]: Skipping, unable to determine old version
+[2023-05-03 10:11:45] INFO root fetch - processPackages [fuzz-dict]: Start processing: yroom
+[2023-05-03 10:11:45] INFO root fetch - main [MainThread]: End processing [fuzz-dict] error
+[2023-05-03 10:11:45] INFO root fetch - processPackages [volworld-aws-api-common]: New version: [0.1.91] Old Version: [0.1.90]
+[2023-05-03 10:11:45] INFO root fetch - processPackages [pyglove]: New version: [0.3.1.dev20230503] Old Version: [0.3.1.dev20230502]
+[2023-05-03 10:11:45] INFO root fetch - processPackages [certora-cli-alpha-Shahar-CERT-1859]: New version: [20230503.8.7.235100] Old Version: [20230502.9.13.601493]
+[2023-05-03 10:11:45] INFO root fetch - processPackages [xt-st-common]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-05-03 10:11:45] INFO root fetch - processPackages [SDTcloud]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 10:11:45] INFO root fetch - processPackages [urlwatch]: New version: [2.9] Old Version: [2.8]
+[2023-05-03 10:11:45] INFO root fetch - processPackages [CUQIpy]: New version: [0.3.0.post0.dev7] Old Version: [0.3.0.post0.dev5]
+[2023-05-03 10:11:45] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-05-03 10:11:45] INFO root fetch - processPackages [yroom]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-03 10:11:45] INFO root fetch - processPackages [SDTcloud]: executing diffoscope
+[2023-05-03 10:11:45] INFO root fetch - processPackages [SDTcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SDTcloud-0.0.8.tar.gz tmp/SDTcloud-0.0.9.tar.gz --markdown 20230503/S/SDTcloud/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 10:11:45] INFO root fetch - processPackages [urlwatch]: executing diffoscope
+[2023-05-03 10:11:45] INFO root fetch - processPackages [urlwatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/urlwatch-2.8.tar.gz tmp/urlwatch-2.9.tar.gz --markdown 20230503/u/urlwatch/2.8-2.9/diff.md --exclude *.pyd
+[2023-05-03 10:11:45] INFO root fetch - processPackages [certora-cli-alpha-Shahar-CERT-1859]: Downloading https://files.pythonhosted.org/packages/34/22/109a750a92d12bf2675e743cf56c4d6bdd36f8bc21c8fa8bb05323282358/certora-cli-alpha-Shahar-CERT-1859-20230502.9.13.601493.tar.gz
+[2023-05-03 10:11:45] INFO root fetch - processPackages [xt-st-common]: Downloading https://files.pythonhosted.org/packages/9e/86/87c50e6587b10fd58fcebd06020479113cc1c50a9c2eb76bf75be584b473/xt_st_common-0.2.1.tar.gz
+[2023-05-03 10:11:45] INFO root fetch - processPackages [fitk]: Downloading https://files.pythonhosted.org/packages/d1/21/920cf50045637f5cd374af90765e3eafef5a2b99b7a3c8b28dc14d42de6f/fitk-0.9.2.tar.gz
+[2023-05-03 10:11:45] INFO root fetch - processPackages [volworld-aws-api-common]: Downloading https://files.pythonhosted.org/packages/cd/ea/c2e51ecc7f26872af25016fd9878d7e16a29a063b4b9fe57b97739069881/volworld_aws_api_common-0.1.91.tar.gz
+[2023-05-03 10:11:45] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/17/34/7f829a825a816b6cdaa184144b81a0801e75b998f442f1a626f55cc03544/pyglove-0.3.1.dev20230503.tar.gz
+[2023-05-03 10:11:45] WARNING root fetch - processPackages [certora-cli-alpha-Shahar-CERT-1859]: Skipping package: exceeds size limit 38365882>=10485760
+[2023-05-03 10:11:45] INFO root fetch - processPackages [certora-cli-alpha-Shahar-CERT-1859]: Start processing: hsfs
+[2023-05-03 10:11:45] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-Shahar-CERT-1859] error
+[2023-05-03 10:11:45] INFO root fetch - processPackages [hsfs]: New version: [3.2.0rc1] Old Version: [3.2.0rc0]
+[2023-05-03 10:11:45] INFO root fetch - processPackages [volworld-aws-api-common]: executing diffoscope
+[2023-05-03 10:11:45] INFO root fetch - processPackages [volworld-aws-api-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volworld_aws_api_common-0.1.90.tar.gz tmp/volworld_aws_api_common-0.1.91.tar.gz --markdown 20230503/v/volworld-aws-api-common/0.1.90-0.1.91/diff.md --exclude *.pyd
+[2023-05-03 10:11:45] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-05-03 10:11:45] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.3.1.dev20230502.tar.gz tmp/pyglove-0.3.1.dev20230503.tar.gz --markdown 20230503/p/pyglove/0.3.1.dev20230502-0.3.1.dev20230503/diff.md --exclude *.pyd
+[2023-05-03 10:11:45] INFO root fetch - processPackages [CUQIpy]: executing diffoscope
+[2023-05-03 10:11:45] INFO root fetch - processPackages [CUQIpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CUQIpy-0.3.0.post0.dev5.tar.gz tmp/CUQIpy-0.3.0.post0.dev7.tar.gz --markdown 20230503/C/CUQIpy/0.3.0.post0.dev5-0.3.0.post0.dev7/diff.md --exclude *.pyd
+[2023-05-03 10:11:45] INFO root fetch - processPackages [xt-st-common]: Downloading https://files.pythonhosted.org/packages/0e/06/d05ddfd1319c30cb52ab1715cf3e2f617714f26126705f0de05513c96af3/xt_st_common-0.3.0.tar.gz
+[2023-05-03 10:11:45] INFO root fetch - processPackages [yroom]: Downloading https://files.pythonhosted.org/packages/e2/de/b77329b81d921d46954b99c8fd01095e3e044532a6fa5403fff73cdf860c/yroom-0.0.5-cp37-cp37m-manylinux_2_17_armv7l.manylinux2014_armv7l.whl
+[2023-05-03 10:11:45] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-05-03 10:11:45] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230503/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-05-03 10:11:45] INFO root fetch - processPackages [hsfs]: Downloading https://files.pythonhosted.org/packages/db/82/f9c5c2433df272c58d7dc7994504822e492a3ecf1a580dbf65cdc67a2e0c/hsfs-3.2.0rc1.tar.gz
+[2023-05-03 10:11:45] INFO root fetch - processPackages [xt-st-common]: executing diffoscope
+[2023-05-03 10:11:45] INFO root fetch - processPackages [xt-st-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xt_st_common-0.2.1.tar.gz tmp/xt_st_common-0.3.0.tar.gz --markdown 20230503/x/xt-st-common/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-05-03 10:11:45] INFO root fetch - processPackages [fitk]: Downloading https://files.pythonhosted.org/packages/53/89/85405d78d877556a60cb675b9eba15ffcf76005575d019e82a73266602af/fitk-0.9.3.tar.gz
+[2023-05-03 10:11:45] INFO root fetch - processPackages [hsfs]: executing diffoscope
+[2023-05-03 10:11:45] INFO root fetch - processPackages [hsfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hsfs-3.2.0rc0.tar.gz tmp/hsfs-3.2.0rc1.tar.gz --markdown 20230503/h/hsfs/3.2.0rc0-3.2.0rc1/diff.md --exclude *.pyd
+[2023-05-03 10:11:45] INFO root fetch - processPackages [fitk]: executing diffoscope
+[2023-05-03 10:11:45] INFO root fetch - processPackages [fitk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fitk-0.9.2.tar.gz tmp/fitk-0.9.3.tar.gz --markdown 20230503/f/fitk/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-03 10:11:46] INFO root fetch - processPackages [yroom]: executing diffoscope
+[2023-05-03 10:11:46] INFO root fetch - processPackages [yroom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yroom-0.0.4.tar.gz tmp/yroom-0.0.5-cp37-cp37m-manylinux_2_17_armv7l.manylinux2014_armv7l.whl.zip --markdown 20230503/y/yroom/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-03 10:11:46] INFO root fetch - processPackages [SDTcloud]: Start processing: popobot
+[2023-05-03 10:11:46] INFO root fetch - main [MainThread]: End processing [SDTcloud]: success
+[2023-05-03 10:11:46] INFO root fetch - processPackages [popobot]: New version: [0.4] Old Version: [0.3]
+[2023-05-03 10:11:46] INFO root fetch - processPackages [popobot]: Downloading https://files.pythonhosted.org/packages/f1/44/11d793eab3a0472fc78083a5771733f6ae6f253d9279751b9fee82f32aac/popobot-0.4.tar.gz
+[2023-05-03 10:11:46] INFO root fetch - processPackages [popobot]: executing diffoscope
+[2023-05-03 10:11:46] INFO root fetch - processPackages [popobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/popobot-0.3.tar.gz tmp/popobot-0.4.tar.gz --markdown 20230503/p/popobot/0.3-0.4/diff.md --exclude *.pyd
+[2023-05-03 10:11:47] INFO root fetch - main [MainThread]: End processing [xt-st-common]: success
+[2023-05-03 10:11:47] INFO root fetch - main [MainThread]: End processing [urlwatch]: success
+[2023-05-03 10:11:47] INFO root fetch - main [MainThread]: End processing [volworld-aws-api-common]: success
+[2023-05-03 10:11:47] INFO root fetch - main [MainThread]: End processing [fitk]: success
+[2023-05-03 10:11:47] INFO root fetch - main [MainThread]: End processing [CUQIpy]: success
+[2023-05-03 10:11:47] INFO root fetch - main [MainThread]: End processing [yroom]: success
+[2023-05-03 10:11:48] INFO root fetch - main [MainThread]: End processing [popobot]: success
+[2023-05-03 10:11:49] INFO root fetch - main [MainThread]: End processing [hsfs]: success
+[2023-05-03 10:11:49] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-05-03 10:11:52] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-05-03 10:11:52] INFO root fetch - main [MainThread]: Store serial: [17953054]
