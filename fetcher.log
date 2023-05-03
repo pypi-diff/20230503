@@ -6871,3 +6871,28 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-03 07:29:49] INFO root fetch - main [MainThread]: End processing [flux-python]: success
 [2023-05-03 07:29:50] INFO root fetch - main [MainThread]: End processing [PyPDPM]: success
 [2023-05-03 07:29:50] INFO root fetch - main [MainThread]: Store serial: [17951941]
+[2023-05-03 07:34:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17951941]
+[2023-05-03 07:34:59] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-03 07:34:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spacectl
+[2023-05-03 07:34:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lightning-template
+[2023-05-03 07:34:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PlatitudeTerminal
+[2023-05-03 07:34:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dna-logger-2
+[2023-05-03 07:34:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mmlab-lightning
+[2023-05-03 07:34:59] INFO root fetch - processPackages [lightning-template]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-03 07:34:59] WARNING root fetch - processPackages [PlatitudeTerminal]: Skipping, unable to determine old version
+[2023-05-03 07:34:59] INFO root fetch - main [MainThread]: End processing [PlatitudeTerminal] error
+[2023-05-03 07:34:59] INFO root fetch - processPackages [mmlab-lightning]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-03 07:34:59] INFO root fetch - processPackages [spacectl]: New version: [1.9.7rc3] Old Version: [1.9.7rc2]
+[2023-05-03 07:35:00] WARNING root fetch - processPackages [dna-logger-2]: Skipping, unable to determine old version
+[2023-05-03 07:35:00] INFO root fetch - main [MainThread]: End processing [dna-logger-2] error
+[2023-05-03 07:35:00] INFO root fetch - processPackages [mmlab-lightning]: executing diffoscope
+[2023-05-03 07:35:00] INFO root fetch - processPackages [mmlab-lightning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmlab_lightning-1.0.2.tar.gz tmp/mmlab_lightning-1.0.3.tar.gz --markdown 20230503/m/mmlab-lightning/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-03 07:35:00] INFO root fetch - processPackages [lightning-template]: Downloading https://files.pythonhosted.org/packages/bb/23/283f51826390193fc77c120c748d3599480b234089dc9eea07057d06ac6a/lightning-template-1.0.8.tar.gz
+[2023-05-03 07:35:00] INFO root fetch - processPackages [spacectl]: executing diffoscope
+[2023-05-03 07:35:00] INFO root fetch - processPackages [spacectl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spacectl-1.9.7rc2-py3-none-any.whl.zip tmp/spacectl-1.9.7rc3-py3-none-any.whl.zip --markdown 20230503/s/spacectl/1.9.7rc2-1.9.7rc3/diff.md --exclude *.pyd
+[2023-05-03 07:35:00] INFO root fetch - processPackages [lightning-template]: executing diffoscope
+[2023-05-03 07:35:00] INFO root fetch - processPackages [lightning-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightning-template-1.0.7.tar.gz tmp/lightning-template-1.0.8.tar.gz --markdown 20230503/l/lightning-template/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-05-03 07:35:01] INFO root fetch - main [MainThread]: End processing [mmlab-lightning]: success
+[2023-05-03 07:35:01] INFO root fetch - main [MainThread]: End processing [lightning-template]: success
+[2023-05-03 07:35:01] INFO root fetch - main [MainThread]: End processing [spacectl]: success
+[2023-05-03 07:35:01] INFO root fetch - main [MainThread]: Store serial: [17951964]
