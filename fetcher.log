@@ -14617,3 +14617,119 @@ No space left on device. Diffoscope exiting.
 [2023-05-03 14:20:40] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
 [2023-05-03 14:21:53] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
 [2023-05-03 14:21:53] INFO root fetch - main [MainThread]: Store serial: [17956238]
+[2023-05-03 14:26:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17956238]
+[2023-05-03 14:27:03] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-03 14:27:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: digitalguide
+[2023-05-03 14:27:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scw-gateway
+[2023-05-03 14:27:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-pos-order-return
+[2023-05-03 14:27:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-keycloak-pkg
+[2023-05-03 14:27:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: looqbox-components
+[2023-05-03 14:27:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ocm-python-client
+[2023-05-03 14:27:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sipiiiii
+[2023-05-03 14:27:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: maus
+[2023-05-03 14:27:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nepattern
+[2023-05-03 14:27:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: textual
+[2023-05-03 14:27:03] INFO root fetch - processPackages [maus]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-03 14:27:03] INFO root fetch - processPackages [sipiiiii]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-05-03 14:27:03] INFO root fetch - processPackages [scw-gateway]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-03 14:27:03] INFO root fetch - processPackages [maus]: executing diffoscope
+[2023-05-03 14:27:03] INFO root fetch - processPackages [maus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maus-0.3.8.tar.gz tmp/maus-0.3.9.tar.gz --markdown 20230503/m/maus/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-03 14:27:03] INFO root fetch - processPackages [looqbox-components]: New version: [1.3.0] Old Version: [1.2.5]
+[2023-05-03 14:27:03] INFO root fetch - processPackages [odoo14-addon-pos-order-return]: New version: [14.0.1.0.2.dev4] Old Version: [14.0.1.0.2.dev3]
+[2023-05-03 14:27:03] INFO root fetch - processPackages [django-keycloak-pkg]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-03 14:27:03] INFO root fetch - processPackages [nepattern]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-05-03 14:27:03] INFO root fetch - processPackages [sipiiiii]: executing diffoscope
+[2023-05-03 14:27:03] INFO root fetch - processPackages [sipiiiii]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sipiiiii-0.8.0.tar.gz tmp/sipiiiii-0.8.1.tar.gz --markdown 20230503/s/sipiiiii/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-05-03 14:27:03] INFO root fetch - processPackages [ocm-python-client]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-03 14:27:03] INFO root fetch - processPackages [textual]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-03 14:27:03] INFO root fetch - processPackages [digitalguide]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-03 14:27:03] INFO root fetch - processPackages [scw-gateway]: Downloading https://files.pythonhosted.org/packages/50/14/0ffde2c3dfd275bc0114d53db16c78275b25164d8a2daf39ebb5dea627f7/scw_gateway-0.1.0.tar.gz
+[2023-05-03 14:27:03] INFO root fetch - processPackages [looqbox-components]: Downloading https://files.pythonhosted.org/packages/07/59/8e191b876b0f93c56db896e23783e71aaecdcf74e4235bbae86d849b91bc/looqbox_components-1.2.5-py3-none-any.whl
+[2023-05-03 14:27:03] INFO root fetch - processPackages [odoo14-addon-pos-order-return]: Downloading https://files.pythonhosted.org/packages/aa/f3/0b7d6d16b9b9b9a33faf5732676e537dd9e6f4e79adf284db62e8c399a10/odoo14_addon_pos_order_return-14.0.1.0.2.dev3-py3-none-any.whl
+[2023-05-03 14:27:03] INFO root fetch - processPackages [textual]: Downloading https://files.pythonhosted.org/packages/17/d2/002affba91d339187f5699c26fecc3fa3bf966f17c5d08bb696c724b63ee/textual-0.9.0.tar.gz
+[2023-05-03 14:27:03] INFO root fetch - processPackages [django-keycloak-pkg]: Downloading https://files.pythonhosted.org/packages/f5/cd/431933938f171ec4f2be01c0d86e3319839f5140968b983006be31836768/django-keycloak-pkg-0.2.4.tar.gz
+[2023-05-03 14:27:03] INFO root fetch - processPackages [nepattern]: Downloading https://files.pythonhosted.org/packages/f0/76/4e40969c0a162e312bd45368b165590714434366d5bffe32eef74f76dcf1/nepattern-0.5.5.tar.gz
+[2023-05-03 14:27:03] INFO root fetch - processPackages [ocm-python-client]: Downloading https://files.pythonhosted.org/packages/26/6a/bdbc870878932ff69b285aa6fad1092ba3eba748d2fa98da589be8c5e745/ocm_python_client-1.0.5.tar.gz
+[2023-05-03 14:27:03] INFO root fetch - processPackages [scw-gateway]: Downloading https://files.pythonhosted.org/packages/61/dc/8a37d574241b0b3167d3eba473bee8697b8eb2e2698418a616fe11467cad/scw_gateway-0.1.1.tar.gz
+[2023-05-03 14:27:04] INFO root fetch - processPackages [nepattern]: Downloading https://files.pythonhosted.org/packages/04/24/02d2086a50be474779a4930b49018c90811efcafb48fd8a2d417b6f8936e/nepattern-0.5.6.tar.gz
+[2023-05-03 14:27:04] INFO root fetch - processPackages [digitalguide]: executing diffoscope
+[2023-05-03 14:27:04] INFO root fetch - processPackages [digitalguide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalguide-0.0.98.tar.gz tmp/digitalguide-0.0.99.tar.gz --markdown 20230503/d/digitalguide/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-03 14:27:04] INFO root fetch - processPackages [textual]: Downloading https://files.pythonhosted.org/packages/0e/7d/2155bf024c3bdf1dc6365e109a16bab46098e032e62666565176ebc9f84a/textual-0.9.1.tar.gz
+[2023-05-03 14:27:04] INFO root fetch - processPackages [scw-gateway]: executing diffoscope
+[2023-05-03 14:27:04] INFO root fetch - processPackages [scw-gateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scw_gateway-0.1.0.tar.gz tmp/scw_gateway-0.1.1.tar.gz --markdown 20230503/s/scw-gateway/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-03 14:27:04] INFO root fetch - processPackages [looqbox-components]: Downloading https://files.pythonhosted.org/packages/c0/db/e40c64152a31672f7e5682dc11e121d3e06e6f5385c5902ea28f7072d554/looqbox_components-1.3.0-py3-none-any.whl
+[2023-05-03 14:27:04] INFO root fetch - processPackages [textual]: executing diffoscope
+[2023-05-03 14:27:04] INFO root fetch - processPackages [textual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textual-0.9.0.tar.gz tmp/textual-0.9.1.tar.gz --markdown 20230503/t/textual/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-03 14:27:04] INFO root fetch - processPackages [django-keycloak-pkg]: Downloading https://files.pythonhosted.org/packages/68/e5/e58c3f98bc116e5d8e6af3c4c0fb800f331e88b3c263fc5b26df8a2c8267/django-keycloak-pkg-0.2.5.tar.gz
+[2023-05-03 14:27:04] INFO root fetch - processPackages [odoo14-addon-pos-order-return]: Downloading https://files.pythonhosted.org/packages/4b/95/4aa686bf39c3f0b56e0085b75ae016d7b84117b9cd986ff30faffc5c4558/odoo14_addon_pos_order_return-14.0.1.0.2.dev4-py3-none-any.whl
+[2023-05-03 14:27:04] INFO root fetch - processPackages [nepattern]: executing diffoscope
+[2023-05-03 14:27:04] INFO root fetch - processPackages [nepattern]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nepattern-0.5.5.tar.gz tmp/nepattern-0.5.6.tar.gz --markdown 20230503/n/nepattern/0.5.5-0.5.6/diff.md --exclude *.pyd
+[2023-05-03 14:27:04] INFO root fetch - processPackages [ocm-python-client]: Downloading https://files.pythonhosted.org/packages/bd/7c/37e4c297d72cdb8b69f2e0b5198bc5fc6d3907a4b11327deb9c749882e99/ocm_python_client-1.0.6.tar.gz
+[2023-05-03 14:27:04] INFO root fetch - processPackages [looqbox-components]: executing diffoscope
+[2023-05-03 14:27:04] INFO root fetch - processPackages [looqbox-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/looqbox_components-1.2.5-py3-none-any.whl.zip tmp/looqbox_components-1.3.0-py3-none-any.whl.zip --markdown 20230503/l/looqbox-components/1.2.5-1.3.0/diff.md --exclude *.pyd
+[2023-05-03 14:27:04] INFO root fetch - processPackages [django-keycloak-pkg]: executing diffoscope
+[2023-05-03 14:27:04] INFO root fetch - processPackages [django-keycloak-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-keycloak-pkg-0.2.4.tar.gz tmp/django-keycloak-pkg-0.2.5.tar.gz --markdown 20230503/d/django-keycloak-pkg/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-05-03 14:27:04] INFO root fetch - processPackages [odoo14-addon-pos-order-return]: executing diffoscope
+[2023-05-03 14:27:04] INFO root fetch - processPackages [odoo14-addon-pos-order-return]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_pos_order_return-14.0.1.0.2.dev3-py3-none-any.whl.zip tmp/odoo14_addon_pos_order_return-14.0.1.0.2.dev4-py3-none-any.whl.zip --markdown 20230503/o/odoo14-addon-pos-order-return/14.0.1.0.2.dev3-14.0.1.0.2.dev4/diff.md --exclude *.pyd
+[2023-05-03 14:27:04] INFO root fetch - processPackages [ocm-python-client]: executing diffoscope
+[2023-05-03 14:27:04] INFO root fetch - processPackages [ocm-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocm_python_client-1.0.5.tar.gz tmp/ocm_python_client-1.0.6.tar.gz --markdown 20230503/o/ocm-python-client/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-03 14:27:05] INFO root fetch - processPackages [maus]: Start processing: tala
+[2023-05-03 14:27:05] INFO root fetch - main [MainThread]: End processing [maus]: success
+[2023-05-03 14:27:05] INFO root fetch - processPackages [sipiiiii]: Start processing: peltak-changelog
+[2023-05-03 14:27:05] INFO root fetch - main [MainThread]: End processing [sipiiiii]: success
+[2023-05-03 14:27:05] INFO root fetch - processPackages [tala]: New version: [9.0.0] Old Version: [8.0.0]
+[2023-05-03 14:27:05] INFO root fetch - processPackages [peltak-changelog]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-03 14:27:05] INFO root fetch - processPackages [scw-gateway]: Start processing: dnaold
+[2023-05-03 14:27:05] INFO root fetch - main [MainThread]: End processing [scw-gateway]: success
+[2023-05-03 14:27:05] INFO root fetch - processPackages [tala]: Downloading https://files.pythonhosted.org/packages/7e/f9/4b94d1b356b377e8e1011db136793b76e02d6511cab1d4f7e16d63b5f308/tala-8.0.0-py3-none-any.whl
+[2023-05-03 14:27:05] INFO root fetch - processPackages [nepattern]: Start processing: shared-dependencies
+[2023-05-03 14:27:05] INFO root fetch - main [MainThread]: End processing [nepattern]: success
+[2023-05-03 14:27:05] WARNING root fetch - processPackages [dnaold]: Skipping, unable to determine old version
+[2023-05-03 14:27:05] INFO root fetch - processPackages [dnaold]: Start processing: landingzone-organization
+[2023-05-03 14:27:05] INFO root fetch - main [MainThread]: End processing [dnaold] error
+[2023-05-03 14:27:05] INFO root fetch - processPackages [landingzone-organization]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-03 14:27:05] INFO root fetch - processPackages [peltak-changelog]: Downloading https://files.pythonhosted.org/packages/36/a3/6a08edfa5738c4074a74e0b0821e9778fe8dc73a534bd6b362132bc9cf63/peltak-changelog-0.0.3.tar.gz
+[2023-05-03 14:27:05] INFO root fetch - processPackages [digitalguide]: Start processing: questdb-connect
+[2023-05-03 14:27:05] INFO root fetch - main [MainThread]: End processing [digitalguide]: success
+[2023-05-03 14:27:05] WARNING root fetch - processPackages [questdb-connect]: Skipping, unable to determine old version
+[2023-05-03 14:27:05] INFO root fetch - processPackages [questdb-connect]: Start processing: el-decko-backend-obs-ws
+[2023-05-03 14:27:05] INFO root fetch - main [MainThread]: End processing [questdb-connect] error
+[2023-05-03 14:27:05] INFO root fetch - processPackages [el-decko-backend-obs-ws]: New version: [2023.5.2] Old Version: [2022.12.28.1]
+[2023-05-03 14:27:05] INFO root fetch - processPackages [shared-dependencies]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-05-03 14:27:05] INFO root fetch - processPackages [landingzone-organization]: executing diffoscope
+[2023-05-03 14:27:05] INFO root fetch - processPackages [landingzone-organization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/landingzone_organization-0.2.0.tar.gz tmp/landingzone_organization-0.2.1.tar.gz --markdown 20230503/l/landingzone-organization/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-03 14:27:05] INFO root fetch - processPackages [el-decko-backend-obs-ws]: executing diffoscope
+[2023-05-03 14:27:05] INFO root fetch - processPackages [el-decko-backend-obs-ws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/el_decko_backend_obs_ws-2022.12.28.1.tar.gz tmp/el_decko_backend_obs_ws-2023.5.2.tar.gz --markdown 20230503/e/el-decko-backend-obs-ws/2022.12.28.1-2023.5.2/diff.md --exclude *.pyd
+[2023-05-03 14:27:05] INFO root fetch - processPackages [tala]: Downloading https://files.pythonhosted.org/packages/8e/72/986c5075d29f6cff970b43955b8d4d42316a124d22c2e01c2877aab4480c/tala-9.0.0-py3-none-any.whl
+[2023-05-03 14:27:05] INFO root fetch - processPackages [shared-dependencies]: Downloading https://files.pythonhosted.org/packages/e6/ef/909c7b1d4cdf8ca088d8be90acecc3136a5548ffbb580d94213934e272c0/shared_dependencies-1.1.0.tar.gz
+[2023-05-03 14:27:05] INFO root fetch - processPackages [odoo14-addon-pos-order-return]: Start processing: emoji-generator
+[2023-05-03 14:27:05] INFO root fetch - main [MainThread]: End processing [odoo14-addon-pos-order-return]: success
+[2023-05-03 14:27:05] INFO root fetch - processPackages [peltak-changelog]: Downloading https://files.pythonhosted.org/packages/e8/33/711c8c4973d7745338199d8d84b435a756de583fc01f422599c9047e5f34/peltak-changelog-0.0.4.tar.gz
+[2023-05-03 14:27:05] INFO root fetch - processPackages [emoji-generator]: New version: [0.4] Old Version: [0.3]
+[2023-05-03 14:27:05] INFO root fetch - processPackages [tala]: executing diffoscope
+[2023-05-03 14:27:05] INFO root fetch - processPackages [tala]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tala-8.0.0-py3-none-any.whl.zip tmp/tala-9.0.0-py3-none-any.whl.zip --markdown 20230503/t/tala/8.0.0-9.0.0/diff.md --exclude *.pyd
+[2023-05-03 14:27:05] INFO root fetch - processPackages [looqbox-components]: Start processing: mrx-link
+[2023-05-03 14:27:05] INFO root fetch - main [MainThread]: End processing [looqbox-components]: success
+[2023-05-03 14:27:06] INFO root fetch - processPackages [emoji-generator]: executing diffoscope
+[2023-05-03 14:27:06] INFO root fetch - processPackages [emoji-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emoji-generator-0.3.tar.gz tmp/emoji-generator-0.4.tar.gz --markdown 20230503/e/emoji-generator/0.3-0.4/diff.md --exclude *.pyd
+[2023-05-03 14:27:06] INFO root fetch - processPackages [peltak-changelog]: executing diffoscope
+[2023-05-03 14:27:06] INFO root fetch - processPackages [peltak-changelog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peltak-changelog-0.0.3.tar.gz tmp/peltak-changelog-0.0.4.tar.gz --markdown 20230503/p/peltak-changelog/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-03 14:27:06] INFO root fetch - processPackages [mrx-link]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-03 14:27:06] INFO root fetch - processPackages [shared-dependencies]: Downloading https://files.pythonhosted.org/packages/a8/e0/4d3d3e06e3f70ec6a2ad1a634a2adcc5003e5f52fee8ecc2949e3e5be753/shared_dependencies-1.2.0.tar.gz
+[2023-05-03 14:27:06] INFO root fetch - processPackages [shared-dependencies]: executing diffoscope
+[2023-05-03 14:27:06] INFO root fetch - processPackages [shared-dependencies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shared_dependencies-1.1.0.tar.gz tmp/shared_dependencies-1.2.0.tar.gz --markdown 20230503/s/shared-dependencies/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-05-03 14:27:06] INFO root fetch - processPackages [mrx-link]: Downloading https://files.pythonhosted.org/packages/10/a5/a250d8a5a604552c0e048c0fd49a7a978716964f766045a4e686e09ffec6/mrx_link-1.0.0-cp39-cp39-win_amd64.whl
+[2023-05-03 14:27:06] INFO root fetch - main [MainThread]: End processing [django-keycloak-pkg]: success
+[2023-05-03 14:27:06] INFO root fetch - main [MainThread]: End processing [landingzone-organization]: success
+[2023-05-03 14:27:07] INFO root fetch - main [MainThread]: End processing [emoji-generator]: success
+[2023-05-03 14:27:07] INFO root fetch - main [MainThread]: End processing [el-decko-backend-obs-ws]: success
+[2023-05-03 14:27:07] INFO root fetch - main [MainThread]: End processing [peltak-changelog]: success
+[2023-05-03 14:27:07] INFO root fetch - main [MainThread]: End processing [shared-dependencies]: success
+[2023-05-03 14:27:07] INFO root fetch - processPackages [mrx-link]: Downloading https://files.pythonhosted.org/packages/b1/ed/8c9096d0444480ecde1a3fe88d9c6558b659abdeb8cb6a6f5bf12d21f68c/mrx_link-1.1.0-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2023-05-03 14:27:07] INFO root fetch - main [MainThread]: End processing [ocm-python-client]: success
+[2023-05-03 14:27:08] INFO root fetch - main [MainThread]: End processing [tala]: success
+[2023-05-03 14:27:09] INFO root fetch - main [MainThread]: End processing [textual]: success
+[2023-05-03 14:27:09] INFO root fetch - processPackages [mrx-link]: executing diffoscope
+[2023-05-03 14:27:09] INFO root fetch - processPackages [mrx-link]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrx_link-1.0.0-cp39-cp39-win_amd64.whl.zip tmp/mrx_link-1.1.0-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip --markdown 20230503/m/mrx-link/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-03 14:27:23] INFO root fetch - main [MainThread]: End processing [mrx-link]: success
+[2023-05-03 14:27:23] INFO root fetch - main [MainThread]: Store serial: [17956292]
