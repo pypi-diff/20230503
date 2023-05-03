@@ -7108,3 +7108,50 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-03 08:06:40] INFO root fetch - main [MainThread]: End processing [codalab]: success
 [2023-05-03 08:06:44] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
 [2023-05-03 08:06:44] INFO root fetch - main [MainThread]: Store serial: [17952071]
+[2023-05-03 08:11:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17952071]
+[2023-05-03 08:11:52] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-03 08:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: abilian-devtools
+[2023-05-03 08:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyodide-py
+[2023-05-03 08:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyodide-build
+[2023-05-03 08:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wxtrio
+[2023-05-03 08:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aiparo
+[2023-05-03 08:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: opal-ai
+[2023-05-03 08:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bingbong
+[2023-05-03 08:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rewards-experimental
+[2023-05-03 08:11:52] INFO root fetch - processPackages [abilian-devtools]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-05-03 08:11:52] INFO root fetch - processPackages [pyodide-py]: New version: [0.23.2] Old Version: [0.23.1]
+[2023-05-03 08:11:52] INFO root fetch - processPackages [pyodide-build]: New version: [0.23.2] Old Version: [0.23.1]
+[2023-05-03 08:11:52] INFO root fetch - processPackages [bingbong]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-03 08:11:52] INFO root fetch - processPackages [wxtrio]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-03 08:11:52] WARNING root fetch - processPackages [aiparo]: Skipping, unable to determine old version
+[2023-05-03 08:11:52] INFO root fetch - main [MainThread]: End processing [aiparo] error
+[2023-05-03 08:11:52] INFO root fetch - processPackages [bingbong]: executing diffoscope
+[2023-05-03 08:11:52] INFO root fetch - processPackages [bingbong]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bingbong-0.1.8-py3-none-any.whl.zip tmp/bingbong-0.1.9-py3-none-any.whl.zip --markdown 20230503/b/bingbong/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-03 08:11:52] WARNING root fetch - processPackages [opal-ai]: Skipping, unable to determine old version
+[2023-05-03 08:11:52] INFO root fetch - main [MainThread]: End processing [opal-ai] error
+[2023-05-03 08:11:52] INFO root fetch - processPackages [rewards-experimental]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-03 08:11:53] INFO root fetch - processPackages [wxtrio]: Downloading https://files.pythonhosted.org/packages/f6/b8/31423693d511438ea3e3236c6c887e97792b76d7d392d88b60ab4e31e6bd/wxtrio-0.2.2.tar.gz
+[2023-05-03 08:11:53] INFO root fetch - processPackages [pyodide-py]: Downloading https://files.pythonhosted.org/packages/f9/e6/3034032b2fb714f6d149286173e8aa95b062a6fa87b46858e5f1e1fbd3f9/pyodide-py-0.23.1.tar.gz
+[2023-05-03 08:11:53] INFO root fetch - processPackages [pyodide-build]: Downloading https://files.pythonhosted.org/packages/50/c9/a1866ec8d671e567d83a8d7c4b44301697aeb2b91be0037d99e5fb0a4164/pyodide-build-0.23.1.tar.gz
+[2023-05-03 08:11:53] INFO root fetch - processPackages [rewards-experimental]: Downloading https://files.pythonhosted.org/packages/f8/75/86850de6d8cc7ecd9516f3f522d80b37417364a0fb93bd5457e32540d0c8/rewards_experimental-0.0.1.tar.gz
+[2023-05-03 08:11:53] INFO root fetch - processPackages [wxtrio]: executing diffoscope
+[2023-05-03 08:11:53] INFO root fetch - processPackages [wxtrio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wxtrio-0.2.1.tar.gz tmp/wxtrio-0.2.2.tar.gz --markdown 20230503/w/wxtrio/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-03 08:11:53] INFO root fetch - processPackages [abilian-devtools]: Downloading https://files.pythonhosted.org/packages/03/4e/ef24cb914b9890be48c1a5128222106cc2c5c664efbda77860d2218b1d66/abilian_devtools-0.5.2.tar.gz
+[2023-05-03 08:11:53] INFO root fetch - processPackages [abilian-devtools]: executing diffoscope
+[2023-05-03 08:11:53] INFO root fetch - processPackages [abilian-devtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abilian_devtools-0.5.1.tar.gz tmp/abilian_devtools-0.5.2.tar.gz --markdown 20230503/a/abilian-devtools/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-05-03 08:11:53] INFO root fetch - processPackages [pyodide-py]: Downloading https://files.pythonhosted.org/packages/98/74/d2562af74ae28a70f335897af7b18eca7c4a3ce276f983770b5fb6a00263/pyodide-py-0.23.2.tar.gz
+[2023-05-03 08:11:53] INFO root fetch - processPackages [pyodide-build]: Downloading https://files.pythonhosted.org/packages/17/d9/e69c8d39339f2a72006d01424dfa62f13164c55bcdc19ae2c93caf1c6761/pyodide-build-0.23.2.tar.gz
+[2023-05-03 08:11:53] INFO root fetch - processPackages [rewards-experimental]: Downloading https://files.pythonhosted.org/packages/bb/ed/4634724c5e796617e7090144916807ab5ddc00461cdb04eaa37d67e5c771/rewards_experimental-0.0.2.tar.gz
+[2023-05-03 08:11:53] INFO root fetch - processPackages [pyodide-py]: executing diffoscope
+[2023-05-03 08:11:53] INFO root fetch - processPackages [pyodide-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyodide-py-0.23.1.tar.gz tmp/pyodide-py-0.23.2.tar.gz --markdown 20230503/p/pyodide-py/0.23.1-0.23.2/diff.md --exclude *.pyd
+[2023-05-03 08:11:53] INFO root fetch - processPackages [pyodide-build]: executing diffoscope
+[2023-05-03 08:11:53] INFO root fetch - processPackages [pyodide-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyodide-build-0.23.1.tar.gz tmp/pyodide-build-0.23.2.tar.gz --markdown 20230503/p/pyodide-build/0.23.1-0.23.2/diff.md --exclude *.pyd
+[2023-05-03 08:11:53] INFO root fetch - processPackages [rewards-experimental]: executing diffoscope
+[2023-05-03 08:11:53] INFO root fetch - processPackages [rewards-experimental]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rewards_experimental-0.0.1.tar.gz tmp/rewards_experimental-0.0.2.tar.gz --markdown 20230503/r/rewards-experimental/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-03 08:11:54] INFO root fetch - main [MainThread]: End processing [bingbong]: success
+[2023-05-03 08:11:54] INFO root fetch - main [MainThread]: End processing [wxtrio]: success
+[2023-05-03 08:11:54] INFO root fetch - main [MainThread]: End processing [abilian-devtools]: success
+[2023-05-03 08:11:54] INFO root fetch - main [MainThread]: End processing [pyodide-py]: success
+[2023-05-03 08:11:54] INFO root fetch - main [MainThread]: End processing [rewards-experimental]: success
+[2023-05-03 08:11:55] INFO root fetch - main [MainThread]: End processing [pyodide-build]: success
+[2023-05-03 08:11:55] INFO root fetch - main [MainThread]: Store serial: [17952101]
