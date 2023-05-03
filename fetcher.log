@@ -5845,3 +5845,43 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-03 06:18:03] INFO root fetch - main [MainThread]: End processing [odoo14-addon-hr-contract-multi-job]: success
 [2023-05-03 06:18:05] INFO root fetch - main [MainThread]: End processing [lexikos]: success
 [2023-05-03 06:18:05] INFO root fetch - main [MainThread]: Store serial: [17951298]
+[2023-05-03 06:23:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17951298]
+[2023-05-03 06:23:14] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-03 06:23:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: popobot
+[2023-05-03 06:23:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addons-oca-hr
+[2023-05-03 06:23:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tailors-fast
+[2023-05-03 06:23:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: volworld-aws-api-common
+[2023-05-03 06:23:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: otx
+[2023-05-03 06:23:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: leclerc
+[2023-05-03 06:23:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: policyengine-canada
+[2023-05-03 06:23:14] INFO root fetch - processPackages [odoo-addons-oca-hr]: New version: [16.0.20230503.0] Old Version: [16.0.20230418.0]
+[2023-05-03 06:23:14] INFO root fetch - processPackages [tailors-fast]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-05-03 06:23:14] WARNING root fetch - processPackages [popobot]: Skipping, unable to determine old version
+[2023-05-03 06:23:14] INFO root fetch - main [MainThread]: End processing [popobot] error
+[2023-05-03 06:23:14] INFO root fetch - processPackages [volworld-aws-api-common]: New version: [0.1.9] Old Version: [0.1.84]
+[2023-05-03 06:23:14] WARNING root fetch - processPackages [leclerc]: Skipping, unable to determine old version
+[2023-05-03 06:23:14] INFO root fetch - main [MainThread]: End processing [leclerc] error
+[2023-05-03 06:23:14] INFO root fetch - processPackages [otx]: New version: [1.2.1rc3] Old Version: [1.2.1rc2]
+[2023-05-03 06:23:14] INFO root fetch - processPackages [policyengine-canada]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-03 06:23:14] INFO root fetch - processPackages [volworld-aws-api-common]: Downloading https://files.pythonhosted.org/packages/48/12/f79836f5e6e86e1b41b824d59aaa644c3553f1716308503c05cec666377d/volworld_aws_api_common-0.1.84.tar.gz
+[2023-05-03 06:23:14] INFO root fetch - processPackages [tailors-fast]: Downloading https://files.pythonhosted.org/packages/7e/d2/58521d5f9d5cb3f50e77f876df7146253192b5dbbbb65ebb2c58527e4c22/tailors-fast-0.1.1.tar.gz
+[2023-05-03 06:23:14] INFO root fetch - processPackages [odoo-addons-oca-hr]: Downloading https://files.pythonhosted.org/packages/c1/0a/0a47ec1d61cb01edbdbf375a115e036c75925b444d9128489c35d1576ad8/odoo_addons_oca_hr-16.0.20230418.0-py3-none-any.whl
+[2023-05-03 06:23:14] INFO root fetch - processPackages [otx]: Downloading https://files.pythonhosted.org/packages/fe/c9/6015e2088aff3e013656460956ab716850ca06e81113bc81121c3836bde9/otx-1.2.1rc3.tar.gz
+[2023-05-03 06:23:14] INFO root fetch - processPackages [volworld-aws-api-common]: executing diffoscope
+[2023-05-03 06:23:14] INFO root fetch - processPackages [volworld-aws-api-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volworld_aws_api_common-0.1.84.tar.gz tmp/volworld_aws_api_common-0.1.9.tar.gz --markdown 20230503/v/volworld-aws-api-common/0.1.84-0.1.9/diff.md --exclude *.pyd
+[2023-05-03 06:23:14] INFO root fetch - processPackages [policyengine-canada]: executing diffoscope
+[2023-05-03 06:23:14] INFO root fetch - processPackages [policyengine-canada]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-canada-0.8.0.tar.gz tmp/policyengine-canada-0.9.0.tar.gz --markdown 20230503/p/policyengine-canada/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-03 06:23:14] INFO root fetch - processPackages [tailors-fast]: Downloading https://files.pythonhosted.org/packages/7a/2d/c3c270284203b788455dc65d2796514e608ae939826a0b8267299e10924a/tailors-fast-0.2.0.tar.gz
+[2023-05-03 06:23:14] INFO root fetch - processPackages [odoo-addons-oca-hr]: Downloading https://files.pythonhosted.org/packages/8c/60/bce8dc633616c447404a20127981c664fdb9a011e7ba54e27668f9f2d04b/odoo_addons_oca_hr-16.0.20230503.0-py3-none-any.whl
+[2023-05-03 06:23:14] INFO root fetch - processPackages [tailors-fast]: executing diffoscope
+[2023-05-03 06:23:14] INFO root fetch - processPackages [tailors-fast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tailors-fast-0.1.1.tar.gz tmp/tailors-fast-0.2.0.tar.gz --markdown 20230503/t/tailors-fast/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-05-03 06:23:14] INFO root fetch - processPackages [odoo-addons-oca-hr]: executing diffoscope
+[2023-05-03 06:23:14] INFO root fetch - processPackages [odoo-addons-oca-hr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_hr-16.0.20230418.0-py3-none-any.whl.zip tmp/odoo_addons_oca_hr-16.0.20230503.0-py3-none-any.whl.zip --markdown 20230503/o/odoo-addons-oca-hr/16.0.20230418.0-16.0.20230503.0/diff.md --exclude *.pyd
+[2023-05-03 06:23:15] INFO root fetch - main [MainThread]: End processing [policyengine-canada]: success
+[2023-05-03 06:23:15] INFO root fetch - main [MainThread]: End processing [volworld-aws-api-common]: success
+[2023-05-03 06:23:15] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-hr]: success
+[2023-05-03 06:23:16] INFO root fetch - main [MainThread]: End processing [tailors-fast]: success
+[2023-05-03 06:23:16] INFO root fetch - processPackages [otx]: executing diffoscope
+[2023-05-03 06:23:16] INFO root fetch - processPackages [otx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otx-1.2.1rc2.tar.gz tmp/otx-1.2.1rc3.tar.gz --markdown 20230503/o/otx/1.2.1rc2-1.2.1rc3/diff.md --exclude *.pyd
+[2023-05-03 06:23:52] INFO root fetch - main [MainThread]: End processing [otx]: success
+[2023-05-03 06:23:52] INFO root fetch - main [MainThread]: Store serial: [17951319]
