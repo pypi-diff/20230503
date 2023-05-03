@@ -8199,3 +8199,100 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-03 09:44:13] INFO root fetch - main [MainThread]: End processing [nsface-python]: success
 [2023-05-03 09:44:13] INFO root fetch - main [MainThread]: End processing [scattering-geometry-tools]: success
 [2023-05-03 09:44:13] INFO root fetch - main [MainThread]: Store serial: [17952720]
+[2023-05-03 09:49:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17952720]
+[2023-05-03 09:49:23] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-03 09:49:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: liteindex
+[2023-05-03 09:49:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: volt-client-web
+[2023-05-03 09:49:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: airflow-provider-lakefs
+[2023-05-03 09:49:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: renormalizer
+[2023-05-03 09:49:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: interactive-cli
+[2023-05-03 09:49:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: py-spec
+[2023-05-03 09:49:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: JuicyMangoPDF
+[2023-05-03 09:49:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-couch-utils
+[2023-05-03 09:49:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyfaust
+[2023-05-03 09:49:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: keras-nightly
+[2023-05-03 09:49:23] INFO root fetch - processPackages [airflow-provider-lakefs]: New version: [0.46.0] Old Version: [0.45.0]
+[2023-05-03 09:49:23] INFO root fetch - processPackages [keras-nightly]: New version: [2.9.0.dev2022033107] Old Version: [2.9.0.dev2022033007]
+[2023-05-03 09:49:23] INFO root fetch - processPackages [volt-client-web]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-03 09:49:23] INFO root fetch - processPackages [renormalizer]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 09:49:23] INFO root fetch - processPackages [liteindex]: New version: [0.0.1.dev4] Old Version: [0.0.1.dev3]
+[2023-05-03 09:49:23] WARNING root fetch - processPackages [JuicyMangoPDF]: Skipping, unable to determine old version
+[2023-05-03 09:49:23] INFO root fetch - processPackages [interactive-cli]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-05-03 09:49:23] INFO root fetch - processPackages [py-spec]: New version: [3.3.2] Old Version: [3.3.0]
+[2023-05-03 09:49:23] INFO root fetch - processPackages [JuicyMangoPDF]: Start processing: pyfaust-openblaso
+[2023-05-03 09:49:23] INFO root fetch - main [MainThread]: End processing [JuicyMangoPDF] error
+[2023-05-03 09:49:23] INFO root fetch - processPackages [django-couch-utils]: New version: [1.6.5] Old Version: [1.6.4]
+[2023-05-03 09:49:23] INFO root fetch - processPackages [pyfaust]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-05-03 09:49:23] INFO root fetch - processPackages [airflow-provider-lakefs]: executing diffoscope
+[2023-05-03 09:49:23] INFO root fetch - processPackages [airflow-provider-lakefs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airflow-provider-lakefs-0.45.0.tar.gz tmp/airflow-provider-lakefs-0.46.0.tar.gz --markdown 20230503/a/airflow-provider-lakefs/0.45.0-0.46.0/diff.md --exclude *.pyd
+[2023-05-03 09:49:23] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2023-05-03 09:49:23] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip --markdown 20230503/k/keras-nightly/2.9.0.dev2022033007-2.9.0.dev2022033107/diff.md --exclude *.pyd
+[2023-05-03 09:49:23] INFO root fetch - processPackages [renormalizer]: Downloading https://files.pythonhosted.org/packages/81/ab/e1a90a5a72f1ef1129fafe8f52539cf90d4e5264593f94fe2ca3d991ad20/renormalizer-0.0.8.tar.gz
+[2023-05-03 09:49:23] INFO root fetch - processPackages [pyfaust-openblaso]: New version: [3.38.7] Old Version: [3.38.6]
+[2023-05-03 09:49:23] INFO root fetch - processPackages [django-couch-utils]: Downloading https://files.pythonhosted.org/packages/90/44/7a57cba080e00b303226f207b371bef75b7d5645766b6b7ee4d6cbe74136/django-couch-utils-1.6.4.tar.gz
+[2023-05-03 09:49:23] INFO root fetch - processPackages [liteindex]: Downloading https://files.pythonhosted.org/packages/58/44/76463def5409d6c2cd2da636c2d2eb94ac3ecde88b30fed28bc96907bf69/liteindex-0.0.1.dev3.tar.gz
+[2023-05-03 09:49:23] INFO root fetch - processPackages [interactive-cli]: Downloading https://files.pythonhosted.org/packages/90/52/00a1cd0a1c8baf809e21cd02b6931c0c0d61b7446cab62c3463d19ab1156/interactive_cli-0.0.1.tar.gz
+[2023-05-03 09:49:23] INFO root fetch - processPackages [py-spec]: Downloading https://files.pythonhosted.org/packages/bc/38/58dbda3ac1cdae06ec9749dd0924ebe6986d80c5d5e3e1a1596c7579a48e/py_spec-3.3.0.tar.gz
+[2023-05-03 09:49:23] INFO root fetch - processPackages [pyfaust-openblaso]: Downloading https://files.pythonhosted.org/packages/a9/04/00afc469024719597286dcae01cde0346504e67e6ae308862ab779fb3512/pyfaust_openblaso-3.38.6-cp39-cp39-manylinux1_x86_64.whl
+[2023-05-03 09:49:23] INFO root fetch - processPackages [volt-client-web]: Downloading https://files.pythonhosted.org/packages/43/bd/1bde324cfc3574df7b4d0821c5f4de9cffd1938444cb11829788c483958f/volt_client_web-0.1.2.tar.gz
+[2023-05-03 09:49:23] WARNING root fetch - processPackages [pyfaust-openblaso]: Skipping package: exceeds size limit 22956959>=10485760
+[2023-05-03 09:49:23] INFO root fetch - processPackages [pyfaust-openblaso]: Start processing: pyfaust-torch
+[2023-05-03 09:49:23] INFO root fetch - main [MainThread]: End processing [pyfaust-openblaso] error
+[2023-05-03 09:49:23] INFO root fetch - processPackages [pyfaust-torch]: New version: [3.38.7] Old Version: [3.38.6]
+[2023-05-03 09:49:24] INFO root fetch - processPackages [pyfaust]: executing diffoscope
+[2023-05-03 09:49:24] INFO root fetch - processPackages [pyfaust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfaust-3.9.0-cp39-cp39-win_amd64.whl.zip tmp/pyfaust-3.9.1-cp39-cp39-win_amd64.whl.zip --markdown 20230503/p/pyfaust/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-05-03 09:49:24] INFO root fetch - processPackages [django-couch-utils]: Downloading https://files.pythonhosted.org/packages/4b/3c/63b460beacab59aa5cac41151eb755927b124d8e8cb636155e21f0fb6894/django-couch-utils-1.6.5.tar.gz
+[2023-05-03 09:49:24] INFO root fetch - processPackages [volt-client-web]: executing diffoscope
+[2023-05-03 09:49:24] INFO root fetch - processPackages [liteindex]: Downloading https://files.pythonhosted.org/packages/c0/69/b9eb55154c91491ad62a793d4d5d0819b175177bd855878d083623ca2e75/liteindex-0.0.1.dev4.tar.gz
+[2023-05-03 09:49:24] INFO root fetch - processPackages [volt-client-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volt_client_web-0.1.1.tar.gz tmp/volt_client_web-0.1.2.tar.gz --markdown 20230503/v/volt-client-web/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-03 09:49:24] INFO root fetch - processPackages [interactive-cli]: Downloading https://files.pythonhosted.org/packages/d5/fe/ff343f410676b2bdbfdc87ac640d7472fd5e9cfb70ae5fe4436235ec4e77/interactive_cli-0.1.0.tar.gz
+[2023-05-03 09:49:24] INFO root fetch - processPackages [renormalizer]: Downloading https://files.pythonhosted.org/packages/8a/e8/73b646ff620a5fe60f67264fb7e29ac4b9e294627b2627cea3203a4318f6/renormalizer-0.0.9.tar.gz
+[2023-05-03 09:49:24] INFO root fetch - processPackages [py-spec]: Downloading https://files.pythonhosted.org/packages/06/ef/ed591570b15f0453610c48915b8515704eb24041e511a1d3ca6bec79ec65/py_spec-3.3.2.tar.gz
+[2023-05-03 09:49:24] INFO root fetch - processPackages [django-couch-utils]: executing diffoscope
+[2023-05-03 09:49:24] INFO root fetch - processPackages [django-couch-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-couch-utils-1.6.4.tar.gz tmp/django-couch-utils-1.6.5.tar.gz --markdown 20230503/d/django-couch-utils/1.6.4-1.6.5/diff.md --exclude *.pyd
+[2023-05-03 09:49:24] INFO root fetch - processPackages [interactive-cli]: executing diffoscope
+[2023-05-03 09:49:24] INFO root fetch - processPackages [interactive-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/interactive_cli-0.0.1.tar.gz tmp/interactive_cli-0.1.0.tar.gz --markdown 20230503/i/interactive-cli/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-05-03 09:49:24] INFO root fetch - processPackages [liteindex]: executing diffoscope
+[2023-05-03 09:49:24] INFO root fetch - processPackages [liteindex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liteindex-0.0.1.dev3.tar.gz tmp/liteindex-0.0.1.dev4.tar.gz --markdown 20230503/l/liteindex/0.0.1.dev3-0.0.1.dev4/diff.md --exclude *.pyd
+[2023-05-03 09:49:24] INFO root fetch - processPackages [renormalizer]: executing diffoscope
+[2023-05-03 09:49:24] INFO root fetch - processPackages [renormalizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renormalizer-0.0.8.tar.gz tmp/renormalizer-0.0.9.tar.gz --markdown 20230503/r/renormalizer/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 09:49:24] INFO root fetch - processPackages [py-spec]: executing diffoscope
+[2023-05-03 09:49:24] INFO root fetch - processPackages [py-spec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_spec-3.3.0.tar.gz tmp/py_spec-3.3.2.tar.gz --markdown 20230503/p/py-spec/3.3.0-3.3.2/diff.md --exclude *.pyd
+[2023-05-03 09:49:24] INFO root fetch - processPackages [pyfaust-torch]: Downloading https://files.pythonhosted.org/packages/33/5d/7fbb322069500b69d9736522a241d337b835406b4e52be765ef9f9a17f59/pyfaust_torch-3.38.7-cp39-cp39-macosx_10_9_x86_64.whl
+[2023-05-03 09:49:25] INFO root fetch - processPackages [pyfaust-torch]: executing diffoscope
+[2023-05-03 09:49:25] INFO root fetch - processPackages [pyfaust-torch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfaust_torch-3.38.6-cp39-cp39-macosx_10_9_x86_64.whl.zip tmp/pyfaust_torch-3.38.7-cp39-cp39-macosx_10_9_x86_64.whl.zip --markdown 20230503/p/pyfaust-torch/3.38.6-3.38.7/diff.md --exclude *.pyd
+[2023-05-03 09:49:25] INFO root fetch - processPackages [airflow-provider-lakefs]: Start processing: odoo14-addon-delivery-multi-destination
+[2023-05-03 09:49:25] INFO root fetch - main [MainThread]: End processing [airflow-provider-lakefs]: success
+[2023-05-03 09:49:25] INFO root fetch - processPackages [odoo14-addon-delivery-multi-destination]: New version: [14.0.1.1.1.dev3] Old Version: [14.0.1.1.1.dev1]
+[2023-05-03 09:49:25] INFO root fetch - processPackages [odoo14-addon-delivery-multi-destination]: Downloading https://files.pythonhosted.org/packages/4c/82/8375a018f0202b6b12ff7819f1430ae3373d5ef57506e6c071ec2053be1f/odoo14_addon_delivery_multi_destination-14.0.1.1.1.dev1-py3-none-any.whl
+[2023-05-03 09:49:25] INFO root fetch - processPackages [volt-client-web]: Start processing: semisup-segmentation
+[2023-05-03 09:49:25] INFO root fetch - main [MainThread]: End processing [volt-client-web]: success
+[2023-05-03 09:49:25] INFO root fetch - processPackages [interactive-cli]: Start processing: plotgen
+[2023-05-03 09:49:25] INFO root fetch - main [MainThread]: End processing [interactive-cli]: success
+[2023-05-03 09:49:25] WARNING root fetch - processPackages [semisup-segmentation]: Skipping, unable to determine old version
+[2023-05-03 09:49:25] INFO root fetch - processPackages [semisup-segmentation]: Start processing: groupdocs-comparison-cloud
+[2023-05-03 09:49:25] INFO root fetch - main [MainThread]: End processing [semisup-segmentation] error
+[2023-05-03 09:49:25] INFO root fetch - main [MainThread]: End processing [py-spec]: success
+[2023-05-03 09:49:25] INFO root fetch - processPackages [plotgen]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-05-03 09:49:26] INFO root fetch - processPackages [groupdocs-comparison-cloud]: New version: [23.4] Old Version: [22.4]
+[2023-05-03 09:49:26] INFO root fetch - main [MainThread]: End processing [django-couch-utils]: success
+[2023-05-03 09:49:26] INFO root fetch - main [MainThread]: End processing [liteindex]: success
+[2023-05-03 09:49:26] INFO root fetch - processPackages [odoo14-addon-delivery-multi-destination]: Downloading https://files.pythonhosted.org/packages/98/7f/71f0c62f12a4caa2b13eef3b73c6d13f0bb7cbe7f18279a892f4765aa990/odoo14_addon_delivery_multi_destination-14.0.1.1.1.dev3-py3-none-any.whl
+[2023-05-03 09:49:26] INFO root fetch - processPackages [plotgen]: Downloading https://files.pythonhosted.org/packages/4c/c4/fb5bdc04b969003fedaefe52d15e208e5d2407bae330e82a9032c634f153/plotgen-0.7.8-py3-none-any.whl
+[2023-05-03 09:49:26] INFO root fetch - processPackages [groupdocs-comparison-cloud]: Downloading https://files.pythonhosted.org/packages/c2/12/2ae4c41bc50b341ba85ef9e8c27d03f303e2c10f5cc47b855f3a2722cf31/groupdocs-comparison-cloud-22.4.tar.gz
+[2023-05-03 09:49:26] INFO root fetch - processPackages [odoo14-addon-delivery-multi-destination]: executing diffoscope
+[2023-05-03 09:49:26] INFO root fetch - processPackages [odoo14-addon-delivery-multi-destination]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_delivery_multi_destination-14.0.1.1.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_delivery_multi_destination-14.0.1.1.1.dev3-py3-none-any.whl.zip --markdown 20230503/o/odoo14-addon-delivery-multi-destination/14.0.1.1.1.dev1-14.0.1.1.1.dev3/diff.md --exclude *.pyd
+[2023-05-03 09:49:26] INFO root fetch - processPackages [plotgen]: Downloading https://files.pythonhosted.org/packages/42/d3/78eb95701ab8df9403a40f8a5ae33247ac4e872ca786b0ddb86e840b69b4/plotgen-0.7.9-py3-none-any.whl
+[2023-05-03 09:49:26] INFO root fetch - processPackages [groupdocs-comparison-cloud]: Downloading https://files.pythonhosted.org/packages/4a/98/e509ae3086013e2c7e5de33ff8cf62399c7731b711ed828b1f817d6dc34d/groupdocs-comparison-cloud-23.4.tar.gz
+[2023-05-03 09:49:26] INFO root fetch - processPackages [plotgen]: executing diffoscope
+[2023-05-03 09:49:26] INFO root fetch - processPackages [plotgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plotgen-0.7.8-py3-none-any.whl.zip tmp/plotgen-0.7.9-py3-none-any.whl.zip --markdown 20230503/p/plotgen/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-05-03 09:49:26] INFO root fetch - processPackages [groupdocs-comparison-cloud]: executing diffoscope
+[2023-05-03 09:49:26] INFO root fetch - processPackages [groupdocs-comparison-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/groupdocs-comparison-cloud-22.4.tar.gz tmp/groupdocs-comparison-cloud-23.4.tar.gz --markdown 20230503/g/groupdocs-comparison-cloud/22.4-23.4/diff.md --exclude *.pyd
+[2023-05-03 09:49:26] INFO root fetch - main [MainThread]: End processing [renormalizer]: success
+[2023-05-03 09:49:27] INFO root fetch - main [MainThread]: End processing [pyfaust-torch]: success
+[2023-05-03 09:49:27] INFO root fetch - main [MainThread]: End processing [odoo14-addon-delivery-multi-destination]: success
+[2023-05-03 09:49:27] INFO root fetch - main [MainThread]: End processing [plotgen]: success
+[2023-05-03 09:49:28] INFO root fetch - main [MainThread]: End processing [groupdocs-comparison-cloud]: success
+[2023-05-03 09:49:31] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2023-05-03 09:50:00] INFO root fetch - main [MainThread]: End processing [pyfaust]: success
+[2023-05-03 09:50:00] INFO root fetch - main [MainThread]: Store serial: [17952776]
