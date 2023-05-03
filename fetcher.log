@@ -4400,3 +4400,42 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 
 [2023-05-03 03:34:00] INFO root fetch - main [MainThread]: End processing [weewx] error
 [2023-05-03 03:34:00] INFO root fetch - main [MainThread]: Store serial: [17950331]
+[2023-05-03 03:39:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17950331]
+[2023-05-03 03:39:09] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-03 03:39:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cellxgene-census
+[2023-05-03 03:39:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbdev-numpy
+[2023-05-03 03:39:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-lambda-layer-wget
+[2023-05-03 03:39:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: netkiller-gantt
+[2023-05-03 03:39:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nbdev-pandas
+[2023-05-03 03:39:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jaaql-middleware-python
+[2023-05-03 03:39:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nbdev-pytorch
+[2023-05-03 03:39:09] INFO root fetch - processPackages [cellxgene-census]: New version: [1.0.0rc3] Old Version: [1.0.0rc2]
+[2023-05-03 03:39:09] INFO root fetch - processPackages [jaaql-middleware-python]: New version: [4.8.9] Old Version: [4.8.7]
+[2023-05-03 03:39:09] INFO root fetch - processPackages [netkiller-gantt]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-03 03:39:09] INFO root fetch - processPackages [cdk-lambda-layer-wget]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-03 03:39:09] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-03 03:39:09] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-03 03:39:09] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-03 03:39:09] INFO root fetch - processPackages [jaaql-middleware-python]: executing diffoscope
+[2023-05-03 03:39:09] INFO root fetch - processPackages [jaaql-middleware-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaaql-middleware-python-4.8.7.tar.gz tmp/jaaql-middleware-python-4.8.9.tar.gz --markdown 20230503/j/jaaql-middleware-python/4.8.7-4.8.9/diff.md --exclude *.pyd
+[2023-05-03 03:39:09] INFO root fetch - processPackages [netkiller-gantt]: Downloading https://files.pythonhosted.org/packages/25/8d/4c38d7ae4db2d7ed9217e6439fafed95def82d36bbf212f8978274e6403f/netkiller-gantt-0.0.5.tar.gz
+[2023-05-03 03:39:09] INFO root fetch - processPackages [cdk-lambda-layer-wget]: executing diffoscope
+[2023-05-03 03:39:09] INFO root fetch - processPackages [cdk-lambda-layer-wget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-wget-2.0.98.tar.gz tmp/cdk-lambda-layer-wget-2.0.99.tar.gz --markdown 20230503/c/cdk-lambda-layer-wget/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-03 03:39:09] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-05-03 03:39:09] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230503/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-03 03:39:09] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-05-03 03:39:09] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230503/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-03 03:39:09] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-05-03 03:39:09] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230503/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-03 03:39:09] INFO root fetch - processPackages [cellxgene-census]: Downloading https://files.pythonhosted.org/packages/2d/34/5fe67f1a1ed819c67cf317026cf7c616c5ff673a1cbf4081c90a93163331/cellxgene_census-1.0.0rc3.tar.gz
+[2023-05-03 03:39:09] WARNING root fetch - processPackages [netkiller-gantt]: Skipping package: exceeds size limit 43402408>=10485760
+[2023-05-03 03:39:09] INFO root fetch - main [MainThread]: End processing [netkiller-gantt] error
+[2023-05-03 03:39:09] INFO root fetch - processPackages [cellxgene-census]: executing diffoscope
+[2023-05-03 03:39:09] INFO root fetch - processPackages [cellxgene-census]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellxgene_census-1.0.0rc2.tar.gz tmp/cellxgene_census-1.0.0rc3.tar.gz --markdown 20230503/c/cellxgene-census/1.0.0rc2-1.0.0rc3/diff.md --exclude *.pyd
+[2023-05-03 03:39:10] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-05-03 03:39:10] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-05-03 03:39:10] INFO root fetch - main [MainThread]: End processing [jaaql-middleware-python]: success
+[2023-05-03 03:39:11] INFO root fetch - main [MainThread]: End processing [cellxgene-census]: success
+[2023-05-03 03:39:11] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-wget]: success
+[2023-05-03 03:39:11] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-05-03 03:39:11] INFO root fetch - main [MainThread]: Store serial: [17950458]
