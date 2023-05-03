@@ -4876,3 +4876,45 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-03 04:26:46] INFO root fetch - main [MainThread]: End processing [PyQt-Fluent-Widgets]: success
 [2023-05-03 04:26:48] INFO root fetch - main [MainThread]: End processing [ricecooker]: success
 [2023-05-03 04:26:48] INFO root fetch - main [MainThread]: Store serial: [17950684]
+[2023-05-03 04:31:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17950684]
+[2023-05-03 04:31:59] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-03 04:31:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: exergenics
+[2023-05-03 04:31:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iam-actions
+[2023-05-03 04:31:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk8s-plus-26
+[2023-05-03 04:31:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk8s-plus-24
+[2023-05-03 04:31:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk8s-plus-25
+[2023-05-03 04:31:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lesscode-tool
+[2023-05-03 04:31:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: olivos
+[2023-05-03 04:31:59] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-05-03 04:31:59] INFO root fetch - processPackages [cdk8s-plus-25]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-05-03 04:31:59] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20230503] Old Version: [1.2.20230502]
+[2023-05-03 04:31:59] INFO root fetch - processPackages [lesscode-tool]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-03 04:31:59] INFO root fetch - processPackages [exergenics]: New version: [2.8.0] Old Version: [2.7.0]
+[2023-05-03 04:31:59] INFO root fetch - processPackages [cdk8s-plus-24]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-05-03 04:31:59] INFO root fetch - processPackages [olivos]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-03 04:31:59] INFO root fetch - processPackages [cdk8s-plus-25]: executing diffoscope
+[2023-05-03 04:31:59] INFO root fetch - processPackages [cdk8s-plus-25]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-25-2.7.8.tar.gz tmp/cdk8s-plus-25-2.7.9.tar.gz --markdown 20230503/c/cdk8s-plus-25/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-05-03 04:31:59] INFO root fetch - processPackages [lesscode-tool]: executing diffoscope
+[2023-05-03 04:31:59] INFO root fetch - processPackages [lesscode-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesscode_tool-0.0.6.tar.gz tmp/lesscode_tool-0.0.7.tar.gz --markdown 20230503/l/lesscode-tool/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-03 04:31:59] INFO root fetch - processPackages [cdk8s-plus-24]: executing diffoscope
+[2023-05-03 04:31:59] INFO root fetch - processPackages [cdk8s-plus-24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-24-2.7.8.tar.gz tmp/cdk8s-plus-24-2.7.9.tar.gz --markdown 20230503/c/cdk8s-plus-24/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-05-03 04:31:59] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/31/94/9e70a6473ffe62ea0d43efaafc171d0e08ad473bffb8e8e987f9db6326c3/iam_actions-1.2.20230503.tar.gz
+[2023-05-03 04:31:59] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-05-03 04:31:59] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.3.8.tar.gz tmp/cdk8s-plus-26-2.3.9.tar.gz --markdown 20230503/c/cdk8s-plus-26/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-05-03 04:31:59] INFO root fetch - processPackages [olivos]: Downloading https://files.pythonhosted.org/packages/e3/ba/1591afec6a4f17518476c5b28125dca8d007a31cd30cd8c642a0da3aafca/olivos-0.9.8.tar.gz
+[2023-05-03 04:31:59] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2023-05-03 04:31:59] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20230502.tar.gz tmp/iam_actions-1.2.20230503.tar.gz --markdown 20230503/i/iam-actions/1.2.20230502-1.2.20230503/diff.md --exclude *.pyd
+[2023-05-03 04:31:59] INFO root fetch - processPackages [exergenics]: Downloading https://files.pythonhosted.org/packages/c1/90/66729379baf854109071c6ad50958949fcbca5fa979bedb94b63524c5a80/exergenics-2.8.0.tar.gz
+[2023-05-03 04:32:00] INFO root fetch - processPackages [exergenics]: executing diffoscope
+[2023-05-03 04:32:00] INFO root fetch - processPackages [exergenics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exergenics-2.7.0.tar.gz tmp/exergenics-2.8.0.tar.gz --markdown 20230503/e/exergenics/2.7.0-2.8.0/diff.md --exclude *.pyd
+[2023-05-03 04:32:00] INFO root fetch - processPackages [olivos]: Downloading https://files.pythonhosted.org/packages/a4/99/5e8785352ed17e5ad7ce143ea7aba8c1867f3d4f0cd166f492058bc06edf/olivos-0.9.9.tar.gz
+[2023-05-03 04:32:00] INFO root fetch - processPackages [olivos]: executing diffoscope
+[2023-05-03 04:32:00] INFO root fetch - processPackages [olivos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/olivos-0.9.8.tar.gz tmp/olivos-0.9.9.tar.gz --markdown 20230503/o/olivos/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-03 04:32:01] INFO root fetch - main [MainThread]: End processing [lesscode-tool]: success
+[2023-05-03 04:32:01] INFO root fetch - main [MainThread]: End processing [exergenics]: success
+[2023-05-03 04:32:01] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-24]: success
+[2023-05-03 04:32:01] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-05-03 04:32:01] INFO root fetch - main [MainThread]: End processing [olivos]: success
+[2023-05-03 04:32:02] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
+[2023-05-03 04:32:05] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2023-05-03 04:32:05] INFO root fetch - main [MainThread]: Store serial: [17950704]
