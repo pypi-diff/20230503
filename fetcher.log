@@ -11561,3 +11561,167 @@ No space left on device. Diffoscope exiting.
 [2023-05-03 11:42:50] INFO root fetch - main [MainThread]: End processing [Geode-Numerics]: success
 [2023-05-03 11:43:00] INFO root fetch - main [MainThread]: End processing [Geode-Background]: success
 [2023-05-03 11:43:00] INFO root fetch - main [MainThread]: Store serial: [17954328]
+[2023-05-03 11:48:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17954328]
+[2023-05-03 11:48:28] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-05-03 11:48:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: haplopy
+[2023-05-03 11:48:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MKN-third-codes
+[2023-05-03 11:48:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: testapptmlc
+[2023-05-03 11:48:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: syamaguc
+[2023-05-03 11:48:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: renus
+[2023-05-03 11:48:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: crypto-pnl
+[2023-05-03 11:48:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-shelly-postautofinders
+[2023-05-03 11:48:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyscemu
+[2023-05-03 11:48:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: LonginusPyPiAlpha
+[2023-05-03 11:48:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: getRoutersConfig
+[2023-05-03 11:48:28] INFO root fetch - processPackages [haplopy]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-03 11:48:28] INFO root fetch - processPackages [syamaguc]: New version: [0.1.0.post2305030943] Old Version: [0.1.0.post2305030926]
+[2023-05-03 11:48:28] WARNING root fetch - processPackages [certora-cli-alpha-shelly-postautofinders]: Skipping, unable to determine old version
+[2023-05-03 11:48:28] INFO root fetch - processPackages [certora-cli-alpha-shelly-postautofinders]: Start processing: mlserver-alibi-explain
+[2023-05-03 11:48:28] INFO root fetch - processPackages [crypto-pnl]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-05-03 11:48:28] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-shelly-postautofinders] error
+[2023-05-03 11:48:28] INFO root fetch - processPackages [renus]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-03 11:48:28] INFO root fetch - processPackages [testapptmlc]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-03 11:48:28] INFO root fetch - processPackages [pyscemu]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-03 11:48:28] INFO root fetch - processPackages [MKN-third-codes]: New version: [0.6.5.1] Old Version: [0.6.5]
+[2023-05-03 11:48:28] INFO root fetch - processPackages [LonginusPyPiAlpha]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-03 11:48:28] INFO root fetch - processPackages [getRoutersConfig]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-03 11:48:28] INFO root fetch - processPackages [mlserver-alibi-explain]: New version: [1.3.2rc2] Old Version: [1.3.2rc1]
+[2023-05-03 11:48:28] INFO root fetch - processPackages [syamaguc]: Downloading https://files.pythonhosted.org/packages/95/e2/a0f53d0f500182af5c88ce41d5bb5191009569920581df298a1ccb59207b/syamaguc-0.1.0.post2305030926-py3-none-any.whl
+[2023-05-03 11:48:28] INFO root fetch - processPackages [pyscemu]: Downloading https://files.pythonhosted.org/packages/69/46/b2759873ef99623a03ad4a155ef2d7abc281a5eaf858553313b52e546dc2/pyscemu-0.1.9.tar.gz
+[2023-05-03 11:48:28] INFO root fetch - processPackages [testapptmlc]: Downloading https://files.pythonhosted.org/packages/77/a0/e3d29a7d738b5e6b55f16bd0c22eef24491cbd82a2c57c665412116b7976/testapptmlc-0.0.1.tar.gz
+[2023-05-03 11:48:28] INFO root fetch - processPackages [crypto-pnl]: Downloading https://files.pythonhosted.org/packages/fb/dc/f032eefa1fe1d89e01bd50bffba1f7ec49d1e6b6eb3dca6c44425411ea67/crypto_pnl-0.4.0-py2-none-any.whl
+[2023-05-03 11:48:28] INFO root fetch - processPackages [LonginusPyPiAlpha]: Downloading https://files.pythonhosted.org/packages/58/1f/eab69b69def2cf0eb3645b7dd882216169b2a44252f61bda12258d8cdc04/LonginusPyPiAlpha-0.4.8.tar.gz
+[2023-05-03 11:48:28] INFO root fetch - processPackages [getRoutersConfig]: Downloading https://files.pythonhosted.org/packages/aa/bf/7f49b1fcc83b2c236bb5d76a6c29096d31020a80cb4cac74b88ce4ccc962/getRoutersConfig-0.0.3.tar.gz
+[2023-05-03 11:48:28] INFO root fetch - processPackages [mlserver-alibi-explain]: Downloading https://files.pythonhosted.org/packages/64/1b/8ea1075936b9a18ddf48f9a1c4ad9087c2c6835b606cee840dc7f9660f8d/mlserver-alibi-explain-1.3.2rc1.tar.gz
+[2023-05-03 11:48:28] INFO root fetch - processPackages [renus]: Downloading https://files.pythonhosted.org/packages/ef/fe/90b4a5193f806758ea1b19f4229abdbc25c1ebc5425132093e9b4e782d5d/renus-1.1.1.tar.gz
+[2023-05-03 11:48:28] INFO root fetch - processPackages [pyscemu]: executing diffoscope
+[2023-05-03 11:48:28] INFO root fetch - processPackages [pyscemu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyscemu-0.1.8.tar.gz tmp/pyscemu-0.1.9.tar.gz --markdown 20230503/p/pyscemu/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-03 11:48:28] INFO root fetch - processPackages [haplopy]: Downloading https://files.pythonhosted.org/packages/80/2b/271dff0a2e53d959e8a92b2ad7be411c2b3fbb51d814c1994b2f5dcea61c/haplopy-0.1.3.tar.gz
+[2023-05-03 11:48:28] INFO root fetch - processPackages [syamaguc]: Downloading https://files.pythonhosted.org/packages/f6/c8/12d7703fe90dd86161a3ffe53e0954c22e2fa8cd65f0ec9ee6a3093d154a/syamaguc-0.1.0.post2305030943-py3-none-any.whl
+[2023-05-03 11:48:28] INFO root fetch - processPackages [MKN-third-codes]: Downloading https://files.pythonhosted.org/packages/be/fd/72e9ae8e6a0a2cf002ca4af1aa87f656d2b9c2a307c43a8c82129ffb6908/MKN_third_codes-0.6.5.1.tar.gz
+[2023-05-03 11:48:28] INFO root fetch - processPackages [haplopy]: executing diffoscope
+[2023-05-03 11:48:28] INFO root fetch - processPackages [haplopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haplopy-0.1.2.tar.gz tmp/haplopy-0.1.3.tar.gz --markdown 20230503/h/haplopy/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-03 11:48:28] INFO root fetch - processPackages [syamaguc]: executing diffoscope
+[2023-05-03 11:48:28] INFO root fetch - processPackages [syamaguc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syamaguc-0.1.0.post2305030926-py3-none-any.whl.zip tmp/syamaguc-0.1.0.post2305030943-py3-none-any.whl.zip --markdown 20230503/s/syamaguc/0.1.0.post2305030926-0.1.0.post2305030943/diff.md --exclude *.pyd
+[2023-05-03 11:48:28] INFO root fetch - processPackages [testapptmlc]: Downloading https://files.pythonhosted.org/packages/61/67/3b1095170724319a8da8815e1962f243299b9c4041cca10091c51d39c1da/testapptmlc-0.0.2.tar.gz
+[2023-05-03 11:48:28] INFO root fetch - processPackages [MKN-third-codes]: executing diffoscope
+[2023-05-03 11:48:28] INFO root fetch - processPackages [MKN-third-codes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MKN_third_codes-0.6.5.tar.gz tmp/MKN_third_codes-0.6.5.1.tar.gz --markdown 20230503/M/MKN-third-codes/0.6.5-0.6.5.1/diff.md --exclude *.pyd
+[2023-05-03 11:48:28] INFO root fetch - processPackages [crypto-pnl]: Downloading https://files.pythonhosted.org/packages/92/e8/49fdfb4991664bd3bce61ac70a3a5650c4dcc762a2ac5ed0df583b9a54a3/crypto_pnl-0.5.0-py3-none-any.whl
+[2023-05-03 11:48:28] INFO root fetch - processPackages [testapptmlc]: executing diffoscope
+[2023-05-03 11:48:28] INFO root fetch - processPackages [testapptmlc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testapptmlc-0.0.1.tar.gz tmp/testapptmlc-0.0.2.tar.gz --markdown 20230503/t/testapptmlc/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-03 11:48:28] INFO root fetch - processPackages [renus]: Downloading https://files.pythonhosted.org/packages/53/5c/9ef3faf805f91fde97b15f712198535fe72816bd8380655c2a3de7b01cc5/renus-1.1.2.tar.gz
+[2023-05-03 11:48:28] INFO root fetch - processPackages [getRoutersConfig]: Downloading https://files.pythonhosted.org/packages/07/ca/8b624255aedbaa280b36b59cbc7fc74d6c3c6713597fb999fe8e7fb04dcb/getRoutersConfig-0.0.4.tar.gz
+[2023-05-03 11:48:28] INFO root fetch - processPackages [LonginusPyPiAlpha]: Downloading https://files.pythonhosted.org/packages/ae/d5/e3dd1bf44b1858d1b91e4f6cf5be8ec04eb4a6f26881a4b8ea2ba448d62b/LonginusPyPiAlpha-0.4.9.tar.gz
+[2023-05-03 11:48:28] INFO root fetch - processPackages [mlserver-alibi-explain]: Downloading https://files.pythonhosted.org/packages/15/49/bc66043452ff1a82c111fc795f146f3ea0cf43ae77fcbb429568e02aee2c/mlserver-alibi-explain-1.3.2rc2.tar.gz
+[2023-05-03 11:48:28] INFO root fetch - processPackages [crypto-pnl]: executing diffoscope
+[2023-05-03 11:48:28] INFO root fetch - processPackages [crypto-pnl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto_pnl-0.4.0-py2-none-any.whl.zip tmp/crypto_pnl-0.5.0-py3-none-any.whl.zip --markdown 20230503/c/crypto-pnl/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-05-03 11:48:28] INFO root fetch - processPackages [getRoutersConfig]: executing diffoscope
+[2023-05-03 11:48:28] INFO root fetch - processPackages [getRoutersConfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getRoutersConfig-0.0.3.tar.gz tmp/getRoutersConfig-0.0.4.tar.gz --markdown 20230503/g/getRoutersConfig/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-03 11:48:28] INFO root fetch - processPackages [LonginusPyPiAlpha]: executing diffoscope
+[2023-05-03 11:48:28] INFO root fetch - processPackages [LonginusPyPiAlpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LonginusPyPiAlpha-0.4.8.tar.gz tmp/LonginusPyPiAlpha-0.4.9.tar.gz --markdown 20230503/L/LonginusPyPiAlpha/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-03 11:48:28] INFO root fetch - processPackages [renus]: executing diffoscope
+[2023-05-03 11:48:28] INFO root fetch - processPackages [renus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renus-1.1.1.tar.gz tmp/renus-1.1.2.tar.gz --markdown 20230503/r/renus/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-03 11:48:28] INFO root fetch - processPackages [mlserver-alibi-explain]: executing diffoscope
+[2023-05-03 11:48:28] INFO root fetch - processPackages [mlserver-alibi-explain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlserver-alibi-explain-1.3.2rc1.tar.gz tmp/mlserver-alibi-explain-1.3.2rc2.tar.gz --markdown 20230503/m/mlserver-alibi-explain/1.3.2rc1-1.3.2rc2/diff.md --exclude *.pyd
+[2023-05-03 11:48:30] INFO root fetch - processPackages [pyscemu]: Start processing: mlserver-alibi-detect
+[2023-05-03 11:48:30] INFO root fetch - main [MainThread]: End processing [pyscemu]: success
+[2023-05-03 11:48:30] INFO root fetch - processPackages [haplopy]: Start processing: mlserver-huggingface
+[2023-05-03 11:48:30] INFO root fetch - main [MainThread]: End processing [haplopy]: success
+[2023-05-03 11:48:30] INFO root fetch - processPackages [mlserver-alibi-detect]: New version: [1.3.2rc2] Old Version: [1.3.2rc1]
+[2023-05-03 11:48:30] INFO root fetch - processPackages [testapptmlc]: Start processing: musiclang
+[2023-05-03 11:48:30] INFO root fetch - main [MainThread]: End processing [testapptmlc]: success
+[2023-05-03 11:48:30] INFO root fetch - processPackages [musiclang]: New version: [0.8.8] Old Version: [0.8.7]
+[2023-05-03 11:48:30] INFO root fetch - processPackages [syamaguc]: Start processing: mlserver-mlflow
+[2023-05-03 11:48:30] INFO root fetch - main [MainThread]: End processing [syamaguc]: success
+[2023-05-03 11:48:30] INFO root fetch - processPackages [mlserver-huggingface]: New version: [1.3.2rc2] Old Version: [1.3.2rc1]
+[2023-05-03 11:48:30] INFO root fetch - processPackages [MKN-third-codes]: Start processing: mlserver-lightgbm
+[2023-05-03 11:48:30] INFO root fetch - main [MainThread]: End processing [MKN-third-codes]: success
+[2023-05-03 11:48:30] INFO root fetch - processPackages [crypto-pnl]: Start processing: mlserver-mllib
+[2023-05-03 11:48:30] INFO root fetch - main [MainThread]: End processing [crypto-pnl]: success
+[2023-05-03 11:48:30] INFO root fetch - processPackages [mlserver-alibi-detect]: Downloading https://files.pythonhosted.org/packages/c9/c5/23f08396703e0b5349fd81c23dfb785f2be8a364e33c77234b4d2151d342/mlserver-alibi-detect-1.3.2rc1.tar.gz
+[2023-05-03 11:48:30] INFO root fetch - processPackages [mlserver-mlflow]: New version: [1.3.2rc2] Old Version: [1.3.2rc1]
+[2023-05-03 11:48:30] INFO root fetch - processPackages [mlserver-lightgbm]: New version: [1.3.2rc2] Old Version: [1.3.2rc1]
+[2023-05-03 11:48:30] INFO root fetch - processPackages [musiclang]: Downloading https://files.pythonhosted.org/packages/79/a3/de1fab7b7b118439447ba7c00bf8de7b9eaaa65125218e8c5efa8a6b88d7/musiclang-0.8.8.tar.gz
+[2023-05-03 11:48:30] INFO root fetch - processPackages [mlserver-huggingface]: Downloading https://files.pythonhosted.org/packages/59/d3/6f1464b9a7e66799cb71ba7621c21ddab7b6506baa1bb81093f2b4d04df8/mlserver-huggingface-1.3.2rc1.tar.gz
+[2023-05-03 11:48:30] INFO root fetch - processPackages [musiclang]: executing diffoscope
+[2023-05-03 11:48:30] INFO root fetch - processPackages [musiclang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/musiclang-0.8.7.tar.gz tmp/musiclang-0.8.8.tar.gz --markdown 20230503/m/musiclang/0.8.7-0.8.8/diff.md --exclude *.pyd
+[2023-05-03 11:48:30] INFO root fetch - processPackages [mlserver-mllib]: New version: [1.3.2rc2] Old Version: [1.3.2rc1]
+[2023-05-03 11:48:30] INFO root fetch - processPackages [mlserver-lightgbm]: Downloading https://files.pythonhosted.org/packages/a0/3a/92dcc0122b05f7f9f70457f37bb4430881441be71808704402ec04c83bdc/mlserver-lightgbm-1.3.2rc1.tar.gz
+[2023-05-03 11:48:30] INFO root fetch - processPackages [getRoutersConfig]: Start processing: mlserver-xgboost
+[2023-05-03 11:48:30] INFO root fetch - main [MainThread]: End processing [getRoutersConfig]: success
+[2023-05-03 11:48:30] INFO root fetch - processPackages [mlserver-alibi-explain]: Start processing: mlserver
+[2023-05-03 11:48:30] INFO root fetch - main [MainThread]: End processing [mlserver-alibi-explain]: success
+[2023-05-03 11:48:30] INFO root fetch - processPackages [mlserver-mlflow]: Downloading https://files.pythonhosted.org/packages/ba/19/f48b1ab18b33819bc8864ad2812b2d7d6bae6499c1a7b052a1e221e66e08/mlserver-mlflow-1.3.2rc1.tar.gz
+[2023-05-03 11:48:30] INFO root fetch - processPackages [mlserver-alibi-detect]: Downloading https://files.pythonhosted.org/packages/ca/9a/8cac2f5005275f0eaa5e820a9d54eb89948bca952ff2b60dc3d492e584ad/mlserver-alibi-detect-1.3.2rc2.tar.gz
+[2023-05-03 11:48:30] INFO root fetch - processPackages [mlserver-mllib]: Downloading https://files.pythonhosted.org/packages/0d/07/05546b621c46b4801b41e5eaa2e26ba8c233903c3da45646db132230ff44/mlserver-mllib-1.3.2rc1.tar.gz
+[2023-05-03 11:48:30] INFO root fetch - processPackages [mlserver-huggingface]: Downloading https://files.pythonhosted.org/packages/2c/36/4cff858d4ce6b25a672aa1a2c83c16793af4076d0de56de4d7879fa2fd74/mlserver-huggingface-1.3.2rc2.tar.gz
+[2023-05-03 11:48:30] INFO root fetch - processPackages [mlserver-xgboost]: New version: [1.3.2rc2] Old Version: [1.3.2rc1]
+[2023-05-03 11:48:30] INFO root fetch - processPackages [mlserver]: New version: [1.3.2rc2] Old Version: [1.3.2rc1]
+[2023-05-03 11:48:30] INFO root fetch - processPackages [mlserver-alibi-detect]: executing diffoscope
+[2023-05-03 11:48:30] INFO root fetch - processPackages [mlserver-alibi-detect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlserver-alibi-detect-1.3.2rc1.tar.gz tmp/mlserver-alibi-detect-1.3.2rc2.tar.gz --markdown 20230503/m/mlserver-alibi-detect/1.3.2rc1-1.3.2rc2/diff.md --exclude *.pyd
+[2023-05-03 11:48:31] INFO root fetch - processPackages [mlserver-lightgbm]: Downloading https://files.pythonhosted.org/packages/23/7b/81b23c8ef8acfcc4e5eae687954d4543d0de096e2f2e3fbd817b7e8409ce/mlserver-lightgbm-1.3.2rc2.tar.gz
+[2023-05-03 11:48:31] INFO root fetch - processPackages [mlserver-huggingface]: executing diffoscope
+[2023-05-03 11:48:31] INFO root fetch - processPackages [mlserver-huggingface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlserver-huggingface-1.3.2rc1.tar.gz tmp/mlserver-huggingface-1.3.2rc2.tar.gz --markdown 20230503/m/mlserver-huggingface/1.3.2rc1-1.3.2rc2/diff.md --exclude *.pyd
+[2023-05-03 11:48:31] INFO root fetch - processPackages [mlserver-xgboost]: Downloading https://files.pythonhosted.org/packages/4d/55/85d6ad5503355f12571dc0bf4bfc74a1d62025f1a4b10598c43a613a5960/mlserver-xgboost-1.3.2rc1.tar.gz
+[2023-05-03 11:48:31] INFO root fetch - processPackages [mlserver]: Downloading https://files.pythonhosted.org/packages/98/47/fd8f1d121e4a05474157573800b2eb0bf9d8a229694d63186bc6132e08e7/mlserver-1.3.2rc1.tar.gz
+[2023-05-03 11:48:31] INFO root fetch - processPackages [mlserver-mllib]: Downloading https://files.pythonhosted.org/packages/a9/d1/bb95288fd9900716881846beb9dd436684e14aafa9546d83415a8bb396b1/mlserver-mllib-1.3.2rc2.tar.gz
+[2023-05-03 11:48:31] INFO root fetch - processPackages [mlserver-lightgbm]: executing diffoscope
+[2023-05-03 11:48:31] INFO root fetch - processPackages [mlserver-lightgbm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlserver-lightgbm-1.3.2rc1.tar.gz tmp/mlserver-lightgbm-1.3.2rc2.tar.gz --markdown 20230503/m/mlserver-lightgbm/1.3.2rc1-1.3.2rc2/diff.md --exclude *.pyd
+[2023-05-03 11:48:31] INFO root fetch - processPackages [mlserver-mllib]: executing diffoscope
+[2023-05-03 11:48:31] INFO root fetch - processPackages [mlserver-mllib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlserver-mllib-1.3.2rc1.tar.gz tmp/mlserver-mllib-1.3.2rc2.tar.gz --markdown 20230503/m/mlserver-mllib/1.3.2rc1-1.3.2rc2/diff.md --exclude *.pyd
+[2023-05-03 11:48:31] INFO root fetch - processPackages [mlserver-xgboost]: Downloading https://files.pythonhosted.org/packages/51/c4/c27f65e3d6d55f4ff78e87c3770d99eec8a17521f7c5e5f0c799e23f6866/mlserver-xgboost-1.3.2rc2.tar.gz
+[2023-05-03 11:48:31] INFO root fetch - processPackages [mlserver-mlflow]: Downloading https://files.pythonhosted.org/packages/f0/ff/e7ac1161f771b0e94c1b5c81f8256c20bc13d6001f1467d9ae7b542b94eb/mlserver-mlflow-1.3.2rc2.tar.gz
+[2023-05-03 11:48:31] INFO root fetch - processPackages [mlserver-xgboost]: executing diffoscope
+[2023-05-03 11:48:31] INFO root fetch - processPackages [mlserver-xgboost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlserver-xgboost-1.3.2rc1.tar.gz tmp/mlserver-xgboost-1.3.2rc2.tar.gz --markdown 20230503/m/mlserver-xgboost/1.3.2rc1-1.3.2rc2/diff.md --exclude *.pyd
+[2023-05-03 11:48:31] INFO root fetch - processPackages [mlserver]: Downloading https://files.pythonhosted.org/packages/a6/77/52442a6495043b7328a4a07bab4d2f5cdec7f1942461509cd02330bb6988/mlserver-1.3.2rc2.tar.gz
+[2023-05-03 11:48:31] INFO root fetch - processPackages [mlserver-mlflow]: executing diffoscope
+[2023-05-03 11:48:31] INFO root fetch - processPackages [mlserver-mlflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlserver-mlflow-1.3.2rc1.tar.gz tmp/mlserver-mlflow-1.3.2rc2.tar.gz --markdown 20230503/m/mlserver-mlflow/1.3.2rc1-1.3.2rc2/diff.md --exclude *.pyd
+[2023-05-03 11:48:31] INFO root fetch - processPackages [mlserver]: executing diffoscope
+[2023-05-03 11:48:31] INFO root fetch - processPackages [mlserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlserver-1.3.2rc1.tar.gz tmp/mlserver-1.3.2rc2.tar.gz --markdown 20230503/m/mlserver/1.3.2rc1-1.3.2rc2/diff.md --exclude *.pyd
+[2023-05-03 11:48:32] INFO root fetch - processPackages [renus]: Start processing: mlserver-sklearn
+[2023-05-03 11:48:32] INFO root fetch - main [MainThread]: End processing [renus]: success
+[2023-05-03 11:48:32] INFO root fetch - processPackages [mlserver-sklearn]: New version: [1.3.2rc2] Old Version: [1.3.2rc1]
+[2023-05-03 11:48:32] INFO root fetch - processPackages [mlserver-alibi-detect]: Start processing: nobus
+[2023-05-03 11:48:32] INFO root fetch - main [MainThread]: End processing [mlserver-alibi-detect]: success
+[2023-05-03 11:48:32] INFO root fetch - processPackages [mlserver-sklearn]: Downloading https://files.pythonhosted.org/packages/d7/3b/e42c26e8838641f27cd9f05e88f4c225c5956bd66078c756d567a668545a/mlserver-sklearn-1.3.2rc1.tar.gz
+[2023-05-03 11:48:32] INFO root fetch - processPackages [nobus]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-03 11:48:32] INFO root fetch - processPackages [mlserver-huggingface]: Start processing: testapptmlc
+[2023-05-03 11:48:32] INFO root fetch - main [MainThread]: End processing [mlserver-huggingface]: success
+[2023-05-03 11:48:32] INFO root fetch - processPackages [testapptmlc]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-03 11:48:32] INFO root fetch - processPackages [mlserver-lightgbm]: Start processing: sacc
+[2023-05-03 11:48:32] INFO root fetch - main [MainThread]: End processing [mlserver-lightgbm]: success
+[2023-05-03 11:48:32] INFO root fetch - processPackages [nobus]: Downloading https://files.pythonhosted.org/packages/02/12/11a2f28de80cfa2ac3907fe06b888b2daf8025aadf943c2ee7af40eb8d22/nobus-0.1.4.tar.gz
+[2023-05-03 11:48:32] INFO root fetch - processPackages [mlserver-sklearn]: Downloading https://files.pythonhosted.org/packages/0b/fb/a89f501dcf0a04098ed6784621aed400011c8f571a90ef28594dd2102f13/mlserver-sklearn-1.3.2rc2.tar.gz
+[2023-05-03 11:48:32] INFO root fetch - processPackages [mlserver-mllib]: Start processing: toolnew
+[2023-05-03 11:48:32] INFO root fetch - main [MainThread]: End processing [mlserver-mllib]: success
+[2023-05-03 11:48:32] INFO root fetch - processPackages [testapptmlc]: Downloading https://files.pythonhosted.org/packages/72/46/ba794b17f55d53734656641e41c232692440f318f9dd90cd26a0d4c06213/testapptmlc-0.0.3.tar.gz
+[2023-05-03 11:48:32] WARNING root fetch - processPackages [toolnew]: Skipping, unable to determine old version
+[2023-05-03 11:48:32] INFO root fetch - processPackages [toolnew]: Start processing: MKN-third-codes
+[2023-05-03 11:48:32] INFO root fetch - main [MainThread]: End processing [toolnew] error
+[2023-05-03 11:48:32] INFO root fetch - processPackages [sacc]: New version: [0.8] Old Version: [0.7]
+[2023-05-03 11:48:32] INFO root fetch - processPackages [MKN-third-codes]: New version: [0.6.5.2] Old Version: [0.6.5.1]
+[2023-05-03 11:48:32] INFO root fetch - processPackages [mlserver-sklearn]: executing diffoscope
+[2023-05-03 11:48:32] INFO root fetch - processPackages [mlserver-sklearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlserver-sklearn-1.3.2rc1.tar.gz tmp/mlserver-sklearn-1.3.2rc2.tar.gz --markdown 20230503/m/mlserver-sklearn/1.3.2rc1-1.3.2rc2/diff.md --exclude *.pyd
+[2023-05-03 11:48:32] INFO root fetch - processPackages [nobus]: Downloading https://files.pythonhosted.org/packages/83/37/646c99b4025bb3f022049e83af0652d48c4ff6bff73978cf8e3f4189ff3f/nobus-0.1.5.tar.gz
+[2023-05-03 11:48:32] INFO root fetch - main [MainThread]: End processing [mlserver-xgboost]: success
+[2023-05-03 11:48:32] INFO root fetch - processPackages [testapptmlc]: executing diffoscope
+[2023-05-03 11:48:32] INFO root fetch - processPackages [testapptmlc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testapptmlc-0.0.2.tar.gz tmp/testapptmlc-0.0.3.tar.gz --markdown 20230503/t/testapptmlc/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-03 11:48:33] INFO root fetch - processPackages [sacc]: Downloading https://files.pythonhosted.org/packages/ef/6c/c95dbcb3b634d3b60b6949c19cdf14cf3ddcf70f71b44dbb42c826ac0a7b/sacc-0.7.tar.gz
+[2023-05-03 11:48:33] INFO root fetch - processPackages [nobus]: executing diffoscope
+[2023-05-03 11:48:33] INFO root fetch - processPackages [nobus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nobus-0.1.4.tar.gz tmp/nobus-0.1.5.tar.gz --markdown 20230503/n/nobus/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-03 11:48:33] INFO root fetch - processPackages [MKN-third-codes]: Downloading https://files.pythonhosted.org/packages/ab/68/45ca4e1d23a0e6ae0b4822faa145052149ad613fa4aa11c73eac657105cd/MKN_third_codes-0.6.5.2.tar.gz
+[2023-05-03 11:48:33] INFO root fetch - processPackages [MKN-third-codes]: executing diffoscope
+[2023-05-03 11:48:33] INFO root fetch - processPackages [MKN-third-codes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MKN_third_codes-0.6.5.1.tar.gz tmp/MKN_third_codes-0.6.5.2.tar.gz --markdown 20230503/M/MKN-third-codes/0.6.5.1-0.6.5.2/diff.md --exclude *.pyd
+[2023-05-03 11:48:33] INFO root fetch - main [MainThread]: End processing [mlserver-mlflow]: success
+[2023-05-03 11:48:33] INFO root fetch - processPackages [sacc]: Downloading https://files.pythonhosted.org/packages/41/a4/c40e6aabe402e380779a3590cd095d2f3cf390bf5546a64cbcecd5c8638c/sacc-0.8.tar.gz
+[2023-05-03 11:48:33] INFO root fetch - processPackages [sacc]: executing diffoscope
+[2023-05-03 11:48:33] INFO root fetch - processPackages [sacc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sacc-0.7.tar.gz tmp/sacc-0.8.tar.gz --markdown 20230503/s/sacc/0.7-0.8/diff.md --exclude *.pyd
+[2023-05-03 11:48:33] INFO root fetch - main [MainThread]: End processing [mlserver]: success
+[2023-05-03 11:48:34] INFO root fetch - main [MainThread]: End processing [mlserver-sklearn]: success
+[2023-05-03 11:48:34] INFO root fetch - main [MainThread]: End processing [testapptmlc]: success
+[2023-05-03 11:48:34] INFO root fetch - main [MainThread]: End processing [nobus]: success
+[2023-05-03 11:48:34] INFO root fetch - main [MainThread]: End processing [MKN-third-codes]: success
+[2023-05-03 11:48:35] INFO root fetch - main [MainThread]: End processing [musiclang]: success
+[2023-05-03 11:48:36] INFO root fetch - main [MainThread]: End processing [sacc]: success
+[2023-05-03 11:48:56] INFO root fetch - main [MainThread]: End processing [LonginusPyPiAlpha]: success
+[2023-05-03 11:48:56] INFO root fetch - main [MainThread]: Store serial: [17954448]
