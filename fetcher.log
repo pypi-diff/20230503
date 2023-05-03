@@ -6084,3 +6084,36 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-03 06:34:45] INFO root fetch - main [MainThread]: End processing [odoo12-addon-l10n-br-hr]: success
 [2023-05-03 06:34:48] INFO root fetch - main [MainThread]: End processing [snowflake-connector-python-nightly]: success
 [2023-05-03 06:34:48] INFO root fetch - main [MainThread]: Store serial: [17951462]
+[2023-05-03 06:39:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17951462]
+[2023-05-03 06:39:56] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-03 06:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dna-logger-1
+[2023-05-03 06:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autoio-base
+[2023-05-03 06:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dovesnap
+[2023-05-03 06:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: twb-project
+[2023-05-03 06:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: graphsignal
+[2023-05-03 06:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mmlab-lightning
+[2023-05-03 06:39:57] WARNING root fetch - processPackages [dna-logger-1]: Skipping, unable to determine old version
+[2023-05-03 06:39:57] INFO root fetch - main [MainThread]: End processing [dna-logger-1] error
+[2023-05-03 06:39:57] WARNING root fetch - processPackages [autoio-base]: Skipping, unable to determine old version
+[2023-05-03 06:39:57] INFO root fetch - main [MainThread]: End processing [autoio-base] error
+[2023-05-03 06:39:57] INFO root fetch - processPackages [dovesnap]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-03 06:39:57] INFO root fetch - processPackages [twb-project]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-03 06:39:57] INFO root fetch - processPackages [graphsignal]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-05-03 06:39:57] INFO root fetch - processPackages [mmlab-lightning]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-03 06:39:57] INFO root fetch - processPackages [graphsignal]: executing diffoscope
+[2023-05-03 06:39:57] INFO root fetch - processPackages [graphsignal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphsignal-0.9.4.tar.gz tmp/graphsignal-0.9.5.tar.gz --markdown 20230503/g/graphsignal/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-05-03 06:39:57] INFO root fetch - processPackages [dovesnap]: Downloading https://files.pythonhosted.org/packages/a2/e6/f71cf28b24aab659174dc91de5032583ee9b55bbb695aa2609c50821945a/dovesnap-1.1.8.tar.gz
+[2023-05-03 06:39:57] INFO root fetch - processPackages [twb-project]: Downloading https://files.pythonhosted.org/packages/33/30/fdcc92030a9809d1167b5e01646350e5e4d4d7e026340e8922723f3654c5/twb_project-0.9.0.tar.gz
+[2023-05-03 06:39:57] INFO root fetch - processPackages [twb-project]: executing diffoscope
+[2023-05-03 06:39:57] INFO root fetch - processPackages [twb-project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twb_project-0.8.0.tar.gz tmp/twb_project-0.9.0.tar.gz --markdown 20230503/t/twb-project/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-03 06:39:57] INFO root fetch - processPackages [mmlab-lightning]: Downloading https://files.pythonhosted.org/packages/8f/2f/d04a92af7fb414be0402b2cd0bb55589be3c22755f1ad6cd919d2135605a/mmlab_lightning-1.0.3.tar.gz
+[2023-05-03 06:39:57] INFO root fetch - processPackages [dovesnap]: Downloading https://files.pythonhosted.org/packages/e1/3f/3f251da63cfc71584b48cba0dbbb080aa6b7eac6453e0e14a07aeb519b04/dovesnap-1.1.9.tar.gz
+[2023-05-03 06:39:57] INFO root fetch - processPackages [dovesnap]: executing diffoscope
+[2023-05-03 06:39:57] INFO root fetch - processPackages [dovesnap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dovesnap-1.1.8.tar.gz tmp/dovesnap-1.1.9.tar.gz --markdown 20230503/d/dovesnap/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-03 06:39:57] INFO root fetch - processPackages [mmlab-lightning]: executing diffoscope
+[2023-05-03 06:39:57] INFO root fetch - processPackages [mmlab-lightning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmlab_lightning-1.0.2.tar.gz tmp/mmlab_lightning-1.0.3.tar.gz --markdown 20230503/m/mmlab-lightning/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-03 06:39:58] INFO root fetch - main [MainThread]: End processing [twb-project]: success
+[2023-05-03 06:39:58] INFO root fetch - main [MainThread]: End processing [graphsignal]: success
+[2023-05-03 06:39:58] INFO root fetch - main [MainThread]: End processing [dovesnap]: success
+[2023-05-03 06:39:58] INFO root fetch - main [MainThread]: End processing [mmlab-lightning]: success
+[2023-05-03 06:39:58] INFO root fetch - main [MainThread]: Store serial: [17951501]
