@@ -22863,3 +22863,101 @@ No space left on device. Diffoscope exiting.
 [2023-05-03 21:23:30] INFO root fetch - main [MainThread]: End processing [budy]: success
 [2023-05-03 21:23:30] INFO root fetch - main [MainThread]: End processing [modal-client]: success
 [2023-05-03 21:23:30] INFO root fetch - main [MainThread]: Store serial: [17961557]
+[2023-05-03 21:28:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17961557]
+[2023-05-03 21:28:39] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-03 21:28:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: amseg
+[2023-05-03 21:28:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: smirnybot9001
+[2023-05-03 21:28:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: budy-api
+[2023-05-03 21:28:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: akhdefo-functions
+[2023-05-03 21:28:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aiida-dataframe
+[2023-05-03 21:28:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cellxgene-census
+[2023-05-03 21:28:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: es7s
+[2023-05-03 21:28:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eadapters
+[2023-05-03 21:28:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: squape
+[2023-05-03 21:28:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: horizonai
+[2023-05-03 21:28:39] INFO root fetch - processPackages [akhdefo-functions]: New version: [2.2.47] Old Version: [2.2.46]
+[2023-05-03 21:28:39] INFO root fetch - processPackages [budy-api]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-05-03 21:28:39] INFO root fetch - processPackages [horizonai]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-03 21:28:39] INFO root fetch - processPackages [aiida-dataframe]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-03 21:28:39] INFO root fetch - processPackages [cellxgene-census]: New version: [1.0.0rc4] Old Version: [1.0.0rc3]
+[2023-05-03 21:28:39] INFO root fetch - processPackages [amseg]: New version: [1.7] Old Version: [1.5]
+[2023-05-03 21:28:39] INFO root fetch - processPackages [smirnybot9001]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-03 21:28:39] INFO root fetch - processPackages [es7s]: New version: [3.6.0.dev0] Old Version: [3.5.0.dev0]
+[2023-05-03 21:28:39] INFO root fetch - processPackages [squape]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-03 21:28:39] INFO root fetch - processPackages [eadapters]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-03 21:28:39] INFO root fetch - processPackages [es7s]: executing diffoscope
+[2023-05-03 21:28:39] INFO root fetch - processPackages [es7s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/es7s-3.5.0.dev0.tar.gz tmp/es7s-3.6.0.dev0.tar.gz --markdown 20230503/e/es7s/3.5.0.dev0-3.6.0.dev0/diff.md --exclude *.pyd
+[2023-05-03 21:28:39] INFO root fetch - processPackages [squape]: Downloading https://files.pythonhosted.org/packages/18/19/f688644b15a9a4d720247d07393ed78cccd9d51b4e68f7f34ca68de341a6/squape-0.1.0.tar.gz
+[2023-05-03 21:28:39] INFO root fetch - processPackages [horizonai]: Downloading https://files.pythonhosted.org/packages/08/bd/961c78933c0a9b36a5750de3a16a699a29a8e12d061a501b381e7a6ff566/horizonai-0.1.2.tar.gz
+[2023-05-03 21:28:39] INFO root fetch - processPackages [aiida-dataframe]: Downloading https://files.pythonhosted.org/packages/22/83/bb419d2d8db90f716d8b4fd4a6e97a5b6fb603fda426b8e4efdefa9b1dda/aiida-dataframe-0.1.1.tar.gz
+[2023-05-03 21:28:39] INFO root fetch - processPackages [budy-api]: Downloading https://files.pythonhosted.org/packages/72/1e/778661f051173469757ecf0e2e4235dda0dc910454dc00e144ea2cc7b622/budy-api-0.4.0.tar.gz
+[2023-05-03 21:28:39] INFO root fetch - processPackages [akhdefo-functions]: Downloading https://files.pythonhosted.org/packages/0d/29/40a354d1c571729f0eba9058924eab483c3a8b7bf9aeafffc558a73dc0d9/akhdefo_functions-2.2.47-py3-none-any.whl
+[2023-05-03 21:28:39] INFO root fetch - processPackages [eadapters]: Downloading https://files.pythonhosted.org/packages/ea/60/aec03fa3fda4c5ab904f6825a87d352b32bb2dfc7542c55cfc188a7229c4/eadapters-0.4.1.tar.gz
+[2023-05-03 21:28:39] INFO root fetch - processPackages [cellxgene-census]: Downloading https://files.pythonhosted.org/packages/45/22/85a987a60db9107a23da1f9410eed71bf9230c7e126e6e2b01920bce8f8b/cellxgene_census-1.0.0rc4.tar.gz
+[2023-05-03 21:28:39] INFO root fetch - processPackages [smirnybot9001]: Downloading https://files.pythonhosted.org/packages/35/7e/bc115865cce8649ad4c43b00ff98dca52a383d3950345e50db0bd898a785/smirnybot9001-0.0.5.tar.gz
+[2023-05-03 21:28:39] INFO root fetch - processPackages [amseg]: Downloading https://files.pythonhosted.org/packages/71/e4/555cdaf5d53f0eca4883d1a97d76a14bc793b7bdb85cb2a194ede73edf7b/amseg-1.5.tar.gz
+[2023-05-03 21:28:39] INFO root fetch - processPackages [horizonai]: executing diffoscope
+[2023-05-03 21:28:39] INFO root fetch - processPackages [horizonai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/horizonai-0.1.1.tar.gz tmp/horizonai-0.1.2.tar.gz --markdown 20230503/h/horizonai/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-03 21:28:39] INFO root fetch - processPackages [cellxgene-census]: executing diffoscope
+[2023-05-03 21:28:39] INFO root fetch - processPackages [cellxgene-census]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellxgene_census-1.0.0rc3.tar.gz tmp/cellxgene_census-1.0.0rc4.tar.gz --markdown 20230503/c/cellxgene-census/1.0.0rc3-1.0.0rc4/diff.md --exclude *.pyd
+[2023-05-03 21:28:39] INFO root fetch - processPackages [akhdefo-functions]: executing diffoscope
+[2023-05-03 21:28:39] INFO root fetch - processPackages [akhdefo-functions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akhdefo_functions-2.2.46-py3-none-any.whl.zip tmp/akhdefo_functions-2.2.47-py3-none-any.whl.zip --markdown 20230503/a/akhdefo-functions/2.2.46-2.2.47/diff.md --exclude *.pyd
+[2023-05-03 21:28:39] INFO root fetch - processPackages [aiida-dataframe]: Downloading https://files.pythonhosted.org/packages/0e/4f/4d11f0801dcbd9cd8f9aaaff91e0621aaaadde92d51f2abf93d73ae5307d/aiida-dataframe-0.1.2.tar.gz
+[2023-05-03 21:28:39] INFO root fetch - processPackages [squape]: Downloading https://files.pythonhosted.org/packages/68/42/7b49b6f6245fbb5f9ab7f234f8077a52689ffc895629511e2e1e14de3aa3/squape-0.2.0.tar.gz
+[2023-05-03 21:28:39] INFO root fetch - processPackages [amseg]: executing diffoscope
+[2023-05-03 21:28:39] INFO root fetch - processPackages [amseg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amseg-1.5.tar.gz tmp/amseg-1.7.tar.gz --markdown 20230503/a/amseg/1.5-1.7/diff.md --exclude *.pyd
+[2023-05-03 21:28:39] INFO root fetch - processPackages [budy-api]: Downloading https://files.pythonhosted.org/packages/a1/0d/e960039ed6754afb80d1b0fcd7c06aef0d4fcf0e1970b00aa4722519ddee/budy-api-0.5.0.tar.gz
+[2023-05-03 21:28:40] INFO root fetch - processPackages [aiida-dataframe]: executing diffoscope
+[2023-05-03 21:28:40] INFO root fetch - processPackages [aiida-dataframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiida-dataframe-0.1.1.tar.gz tmp/aiida-dataframe-0.1.2.tar.gz --markdown 20230503/a/aiida-dataframe/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-03 21:28:40] INFO root fetch - processPackages [eadapters]: Downloading https://files.pythonhosted.org/packages/30/f4/0aec7fa54003af45dce6343943df7c749a3de8e78cb41f805d9c791f11d5/eadapters-0.4.2.tar.gz
+[2023-05-03 21:28:40] INFO root fetch - processPackages [smirnybot9001]: Downloading https://files.pythonhosted.org/packages/b8/4b/c191d862e8832a366109d1122271e3072d96cc7e79b5c2cad2afdb1bc712/smirnybot9001-0.0.6.tar.gz
+[2023-05-03 21:28:40] INFO root fetch - processPackages [budy-api]: executing diffoscope
+[2023-05-03 21:28:40] INFO root fetch - processPackages [budy-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/budy-api-0.4.0.tar.gz tmp/budy-api-0.5.0.tar.gz --markdown 20230503/b/budy-api/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-05-03 21:28:40] INFO root fetch - processPackages [eadapters]: executing diffoscope
+[2023-05-03 21:28:40] INFO root fetch - processPackages [squape]: executing diffoscope
+[2023-05-03 21:28:40] INFO root fetch - processPackages [eadapters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eadapters-0.4.1.tar.gz tmp/eadapters-0.4.2.tar.gz --markdown 20230503/e/eadapters/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-05-03 21:28:40] INFO root fetch - processPackages [squape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/squape-0.1.0.tar.gz tmp/squape-0.2.0.tar.gz --markdown 20230503/s/squape/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-03 21:28:40] INFO root fetch - processPackages [smirnybot9001]: executing diffoscope
+[2023-05-03 21:28:40] INFO root fetch - processPackages [smirnybot9001]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smirnybot9001-0.0.5.tar.gz tmp/smirnybot9001-0.0.6.tar.gz --markdown 20230503/s/smirnybot9001/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-03 21:28:41] INFO root fetch - processPackages [akhdefo-functions]: Start processing: botocore
+[2023-05-03 21:28:41] INFO root fetch - main [MainThread]: End processing [akhdefo-functions]: success
+[2023-05-03 21:28:41] INFO root fetch - processPackages [cellxgene-census]: Start processing: awscli
+[2023-05-03 21:28:41] INFO root fetch - main [MainThread]: End processing [cellxgene-census]: success
+[2023-05-03 21:28:41] INFO root fetch - processPackages [botocore]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-03 21:28:41] INFO root fetch - processPackages [awscli]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-03 21:28:41] INFO root fetch - processPackages [horizonai]: Start processing: boto3
+[2023-05-03 21:28:41] INFO root fetch - main [MainThread]: End processing [horizonai]: success
+[2023-05-03 21:28:41] INFO root fetch - processPackages [boto3]: New version: [1.9.99] Old Version: [1.9.98]
+[2023-05-03 21:28:41] INFO root fetch - processPackages [awscli]: Downloading https://files.pythonhosted.org/packages/84/06/782193c5b3720ef9eff21fa2d4c6b7cab72ac635f9865449796fa78e9551/awscli-1.9.8.tar.gz
+[2023-05-03 21:28:41] INFO root fetch - processPackages [amseg]: Start processing: textbook_nvim
+[2023-05-03 21:28:41] INFO root fetch - main [MainThread]: End processing [amseg]: success
+[2023-05-03 21:28:41] WARNING root fetch - processPackages [textbook_nvim]: Skipping, unable to determine old version
+[2023-05-03 21:28:41] INFO root fetch - processPackages [textbook_nvim]: Start processing: nvm
+[2023-05-03 21:28:41] INFO root fetch - main [MainThread]: End processing [textbook_nvim] error
+[2023-05-03 21:28:41] INFO root fetch - processPackages [boto3]: Downloading https://files.pythonhosted.org/packages/95/51/f6788115251e93bb35a56196036aa225060105616d369a2b1a712f537e1e/boto3-1.9.98.tar.gz
+[2023-05-03 21:28:41] INFO root fetch - processPackages [nvm]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-03 21:28:41] INFO root fetch - processPackages [botocore]: Downloading https://files.pythonhosted.org/packages/cd/01/3bd0656f80c5afb2f0e09f09215178a501191aef9fff0a43b156cf1c9665/botocore-1.9.8.tar.gz
+[2023-05-03 21:28:41] INFO root fetch - processPackages [nvm]: Downloading https://files.pythonhosted.org/packages/7d/be/d03d7110ae80c837c60253ac7637e40a8b7b71ab622a9a9f4215bb16cee5/nvm-0.0.1.tar.gz
+[2023-05-03 21:28:41] INFO root fetch - main [MainThread]: End processing [budy-api]: success
+[2023-05-03 21:28:41] INFO root fetch - processPackages [awscli]: Downloading https://files.pythonhosted.org/packages/03/ae/0ab53e9f7ac1eff217ca8355af05fe5fbdd9fd087e75a7abcda0c9179848/awscli-1.9.9.tar.gz
+[2023-05-03 21:28:41] INFO root fetch - main [MainThread]: End processing [squape]: success
+[2023-05-03 21:28:41] INFO root fetch - processPackages [nvm]: Downloading https://files.pythonhosted.org/packages/11/4a/23fa43bdbf91aaec294f772047f27c6fc9e694f4ab8bdf9eecc64acf37d3/nvm-0.0.2.tar.gz
+[2023-05-03 21:28:41] INFO root fetch - main [MainThread]: End processing [aiida-dataframe]: success
+[2023-05-03 21:28:41] INFO root fetch - processPackages [awscli]: executing diffoscope
+[2023-05-03 21:28:41] INFO root fetch - processPackages [awscli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awscli-1.9.8.tar.gz tmp/awscli-1.9.9.tar.gz --markdown 20230503/a/awscli/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-03 21:28:42] INFO root fetch - processPackages [nvm]: executing diffoscope
+[2023-05-03 21:28:42] INFO root fetch - processPackages [nvm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvm-0.0.1.tar.gz tmp/nvm-0.0.2.tar.gz --markdown 20230503/n/nvm/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-03 21:28:42] INFO root fetch - processPackages [boto3]: Downloading https://files.pythonhosted.org/packages/a4/40/6b6504d54ab9fbb16030052d363568399b7678ac18dc233de23fe7ed1922/boto3-1.9.99.tar.gz
+[2023-05-03 21:28:42] INFO root fetch - main [MainThread]: End processing [eadapters]: success
+[2023-05-03 21:28:42] INFO root fetch - main [MainThread]: End processing [es7s]: success
+[2023-05-03 21:28:42] INFO root fetch - processPackages [boto3]: executing diffoscope
+[2023-05-03 21:28:42] INFO root fetch - processPackages [boto3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boto3-1.9.98.tar.gz tmp/boto3-1.9.99.tar.gz --markdown 20230503/b/boto3/1.9.98-1.9.99/diff.md --exclude *.pyd
+[2023-05-03 21:28:43] INFO root fetch - main [MainThread]: End processing [nvm]: success
+[2023-05-03 21:28:43] INFO root fetch - main [MainThread]: End processing [smirnybot9001]: success
+[2023-05-03 21:28:43] INFO root fetch - processPackages [botocore]: Downloading https://files.pythonhosted.org/packages/58/63/da4e26f62f9cf5702bb82462ca688961afdf72123f071831ed927b19c7a0/botocore-1.9.9.tar.gz
+[2023-05-03 21:28:44] INFO root fetch - main [MainThread]: End processing [boto3]: success
+[2023-05-03 21:28:45] INFO root fetch - processPackages [botocore]: executing diffoscope
+[2023-05-03 21:28:45] INFO root fetch - processPackages [botocore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-1.9.8.tar.gz tmp/botocore-1.9.9.tar.gz --markdown 20230503/b/botocore/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-03 21:28:51] INFO root fetch - main [MainThread]: End processing [awscli]: success
+[2023-05-03 21:29:06] INFO root fetch - main [MainThread]: End processing [botocore]: success
+[2023-05-03 21:29:06] INFO root fetch - main [MainThread]: Store serial: [17961604]
