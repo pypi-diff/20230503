@@ -6921,3 +6921,55 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-03 07:45:23] INFO root fetch - processPackages [jaco2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaco2-3.7-cp311-cp311-win_amd64.whl.zip tmp/jaco2-3.8-cp311-cp311-win_amd64.whl.zip --markdown 20230503/j/jaco2/3.7-3.8/diff.md --exclude *.pyd
 [2023-05-03 07:45:24] INFO root fetch - main [MainThread]: End processing [jaco2]: success
 [2023-05-03 07:45:24] INFO root fetch - main [MainThread]: Store serial: [17951972]
+[2023-05-03 07:50:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17951972]
+[2023-05-03 07:50:33] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-03 07:50:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tensorflow-dataset
+[2023-05-03 07:50:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hpo3
+[2023-05-03 07:50:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-partner-manual-rank
+[2023-05-03 07:50:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: apache-tvm
+[2023-05-03 07:50:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bingbong
+[2023-05-03 07:50:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-pos-pms-link
+[2023-05-03 07:50:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: je-editor
+[2023-05-03 07:50:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: je-editor-dev
+[2023-05-03 07:50:33] INFO root fetch - processPackages [tensorflow-dataset]: New version: [0.4.2] Old Version: [0.4.15]
+[2023-05-03 07:50:33] INFO root fetch - processPackages [hpo3]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-03 07:50:33] INFO root fetch - processPackages [bingbong]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-03 07:50:33] INFO root fetch - processPackages [odoo-addon-partner-manual-rank]: New version: [16.0.1.0.1.2] Old Version: [16.0.1.0.1]
+[2023-05-03 07:50:33] INFO root fetch - processPackages [apache-tvm]: New version: [0.9.0] Old Version: [0.13.dev74]
+[2023-05-03 07:50:33] INFO root fetch - processPackages [odoo14-addon-pos-pms-link]: New version: [14.0.1.0.1.dev8] Old Version: [14.0.1.0.1.dev7]
+[2023-05-03 07:50:33] INFO root fetch - processPackages [je-editor]: New version: [0.0.93] Old Version: [0.0.92]
+[2023-05-03 07:50:33] INFO root fetch - processPackages [je-editor-dev]: New version: [0.0.93] Old Version: [0.0.92]
+[2023-05-03 07:50:33] INFO root fetch - processPackages [tensorflow-dataset]: Downloading https://files.pythonhosted.org/packages/1e/5c/cccf651cd837eee54c9707e767cd43ad09868e7c51f4d6697cbfb3c516b8/tensorflow-dataset-0.4.15.tar.gz
+[2023-05-03 07:50:33] INFO root fetch - processPackages [apache-tvm]: Downloading https://files.pythonhosted.org/packages/57/7a/0e255cdf4cdfcca6b5e06c1ebe9b4c9178b3919cfeb0251f35b0977d59c3/apache_tvm-0.13.dev74-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-03 07:50:33] INFO root fetch - processPackages [hpo3]: Downloading https://files.pythonhosted.org/packages/8a/c0/1d6e7b3e0db205f89e326dfa3887f8b9ddec95882521340327bb46f2c757/hpo3-0.1.0.tar.gz
+[2023-05-03 07:50:33] INFO root fetch - processPackages [odoo-addon-partner-manual-rank]: Downloading https://files.pythonhosted.org/packages/52/42/451c2edc9f92646ee44dc34ac750cd835ea5e52e6d88ab4af34ba3638f2f/odoo_addon_partner_manual_rank-16.0.1.0.1-py3-none-any.whl
+[2023-05-03 07:50:33] INFO root fetch - processPackages [odoo14-addon-pos-pms-link]: Downloading https://files.pythonhosted.org/packages/10/bf/d7942ec600a38bbb39ac0464f942d9ceedafb4a9468c20273b8e13b5ae5b/odoo14_addon_pos_pms_link-14.0.1.0.1.dev7-py3-none-any.whl
+[2023-05-03 07:50:33] INFO root fetch - processPackages [je-editor]: Downloading https://files.pythonhosted.org/packages/48/0f/910fe22be98f30bb1f73368d67e6f274708c40cb6d6698b83388216a930a/je_editor-0.0.93.tar.gz
+[2023-05-03 07:50:33] WARNING root fetch - processPackages [apache-tvm]: Skipping package: exceeds size limit 48354866>=10485760
+[2023-05-03 07:50:33] INFO root fetch - processPackages [je-editor-dev]: Downloading https://files.pythonhosted.org/packages/1d/e5/5ad0fd9e493a004e6e7793ce5380192433cece296a7126d3e054788234c0/je_editor_dev-0.0.93.tar.gz
+[2023-05-03 07:50:33] INFO root fetch - main [MainThread]: End processing [apache-tvm] error
+[2023-05-03 07:50:33] INFO root fetch - processPackages [tensorflow-dataset]: executing diffoscope
+[2023-05-03 07:50:33] INFO root fetch - processPackages [tensorflow-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow-dataset-0.4.15.tar.gz tmp/tensorflow-dataset-0.4.2.tar.gz --markdown 20230503/t/tensorflow-dataset/0.4.15-0.4.2/diff.md --exclude *.pyd
+[2023-05-03 07:50:33] INFO root fetch - processPackages [je-editor]: executing diffoscope
+[2023-05-03 07:50:33] INFO root fetch - processPackages [je-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor-0.0.92.tar.gz tmp/je_editor-0.0.93.tar.gz --markdown 20230503/j/je-editor/0.0.92-0.0.93/diff.md --exclude *.pyd
+[2023-05-03 07:50:33] INFO root fetch - processPackages [je-editor-dev]: executing diffoscope
+[2023-05-03 07:50:33] INFO root fetch - processPackages [je-editor-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor_dev-0.0.92.tar.gz tmp/je_editor_dev-0.0.93.tar.gz --markdown 20230503/j/je-editor-dev/0.0.92-0.0.93/diff.md --exclude *.pyd
+[2023-05-03 07:50:33] INFO root fetch - processPackages [bingbong]: executing diffoscope
+[2023-05-03 07:50:33] INFO root fetch - processPackages [bingbong]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bingbong-0.1.8-py3-none-any.whl.zip tmp/bingbong-0.1.9-py3-none-any.whl.zip --markdown 20230503/b/bingbong/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-03 07:50:33] INFO root fetch - processPackages [odoo14-addon-pos-pms-link]: Downloading https://files.pythonhosted.org/packages/6f/72/6cadbddc7529b43a1b51c9ea82a952058726db9ef30a86aab0d83c4271c1/odoo14_addon_pos_pms_link-14.0.1.0.1.dev8-py3-none-any.whl
+[2023-05-03 07:50:33] INFO root fetch - processPackages [odoo-addon-partner-manual-rank]: Downloading https://files.pythonhosted.org/packages/b6/10/4ffba33d8a782fa725e1e3fd1ac550929dd50a5c9345554ca829624410f3/odoo_addon_partner_manual_rank-16.0.1.0.1.2-py3-none-any.whl
+[2023-05-03 07:50:33] INFO root fetch - processPackages [odoo14-addon-pos-pms-link]: executing diffoscope
+[2023-05-03 07:50:33] INFO root fetch - processPackages [odoo14-addon-pos-pms-link]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_pos_pms_link-14.0.1.0.1.dev7-py3-none-any.whl.zip tmp/odoo14_addon_pos_pms_link-14.0.1.0.1.dev8-py3-none-any.whl.zip --markdown 20230503/o/odoo14-addon-pos-pms-link/14.0.1.0.1.dev7-14.0.1.0.1.dev8/diff.md --exclude *.pyd
+[2023-05-03 07:50:33] INFO root fetch - processPackages [odoo-addon-partner-manual-rank]: executing diffoscope
+[2023-05-03 07:50:33] INFO root fetch - processPackages [odoo-addon-partner-manual-rank]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_partner_manual_rank-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_partner_manual_rank-16.0.1.0.1.2-py3-none-any.whl.zip --markdown 20230503/o/odoo-addon-partner-manual-rank/16.0.1.0.1-16.0.1.0.1.2/diff.md --exclude *.pyd
+[2023-05-03 07:50:33] INFO root fetch - processPackages [hpo3]: Downloading https://files.pythonhosted.org/packages/60/09/a2ce1fcba3451ee2e3e07c33c691ec5001977594c687c7d1cc5d908855ff/hpo3-0.2.0.tar.gz
+[2023-05-03 07:50:33] INFO root fetch - processPackages [hpo3]: executing diffoscope
+[2023-05-03 07:50:33] INFO root fetch - processPackages [hpo3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hpo3-0.1.0.tar.gz tmp/hpo3-0.2.0.tar.gz --markdown 20230503/h/hpo3/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-03 07:50:34] INFO root fetch - main [MainThread]: End processing [tensorflow-dataset]: success
+[2023-05-03 07:50:34] INFO root fetch - main [MainThread]: End processing [bingbong]: success
+[2023-05-03 07:50:35] INFO root fetch - main [MainThread]: End processing [je-editor]: success
+[2023-05-03 07:50:35] INFO root fetch - main [MainThread]: End processing [odoo-addon-partner-manual-rank]: success
+[2023-05-03 07:50:35] INFO root fetch - main [MainThread]: End processing [je-editor-dev]: success
+[2023-05-03 07:50:35] INFO root fetch - main [MainThread]: End processing [odoo14-addon-pos-pms-link]: success
+[2023-05-03 07:50:35] INFO root fetch - main [MainThread]: End processing [hpo3]: success
+[2023-05-03 07:50:35] INFO root fetch - main [MainThread]: Store serial: [17951996]
