@@ -2220,3 +2220,18 @@
 [2023-05-03 02:47:19] INFO root fetch - main [MainThread]: End processing [airbyte]: success
 [2023-05-03 02:47:26] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2023-05-03 02:47:26] INFO root fetch - main [MainThread]: Store serial: [17949078]
+[2023-05-03 02:52:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17949078]
+[2023-05-03 02:52:37] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-05-03 02:52:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-databrew-cicd
+[2023-05-03 02:52:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: check-if-nan
+[2023-05-03 02:52:37] INFO root fetch - processPackages [cdk-databrew-cicd]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-03 02:52:37] INFO root fetch - processPackages [check-if-nan]: New version: [0.11] Old Version: [0.10]
+[2023-05-03 02:52:37] INFO root fetch - processPackages [check-if-nan]: Downloading https://files.pythonhosted.org/packages/85/fe/d2e4f6b8d3b06038cbb5d90c47f515786865bb4df15a173264e1f44d3cac/check_if_nan-0.10.tar.gz
+[2023-05-03 02:52:37] INFO root fetch - processPackages [cdk-databrew-cicd]: executing diffoscope
+[2023-05-03 02:52:37] INFO root fetch - processPackages [cdk-databrew-cicd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_databrew_cicd-2.0.98.tar.gz tmp/cdk_databrew_cicd-2.0.99.tar.gz --markdown 20230503/c/cdk-databrew-cicd/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-03 02:52:37] INFO root fetch - processPackages [check-if-nan]: Downloading https://files.pythonhosted.org/packages/65/d3/a1324cb74dc9c8999800eddecaac9953e612a6185cf657867bbd4ce47bef/check_if_nan-0.11.tar.gz
+[2023-05-03 02:52:37] INFO root fetch - processPackages [check-if-nan]: executing diffoscope
+[2023-05-03 02:52:37] INFO root fetch - processPackages [check-if-nan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/check_if_nan-0.10.tar.gz tmp/check_if_nan-0.11.tar.gz --markdown 20230503/c/check-if-nan/0.10-0.11/diff.md --exclude *.pyd
+[2023-05-03 02:52:38] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
+[2023-05-03 02:52:38] INFO root fetch - main [MainThread]: End processing [check-if-nan]: success
+[2023-05-03 02:52:38] INFO root fetch - main [MainThread]: Store serial: [17949084]
