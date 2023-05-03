@@ -4703,3 +4703,21 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-03 04:05:55] INFO root fetch - main [MainThread]: End processing [CrawlersTools]: success
 [2023-05-03 04:05:56] INFO root fetch - main [MainThread]: End processing [langchain]: success
 [2023-05-03 04:05:56] INFO root fetch - main [MainThread]: Store serial: [17950592]
+[2023-05-03 04:11:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17950592]
+[2023-05-03 04:11:07] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-03 04:11:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ghanashops-scraper
+[2023-05-03 04:11:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: esshd
+[2023-05-03 04:11:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyPDPM
+[2023-05-03 04:11:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: simpler-data
+[2023-05-03 04:11:07] WARNING root fetch - processPackages [esshd]: Skipping, unable to determine old version
+[2023-05-03 04:11:07] INFO root fetch - main [MainThread]: End processing [esshd] error
+[2023-05-03 04:11:07] INFO root fetch - processPackages [ghanashops-scraper]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-03 04:11:07] WARNING root fetch - processPackages [PyPDPM]: Skipping, unable to determine old version
+[2023-05-03 04:11:07] INFO root fetch - main [MainThread]: End processing [PyPDPM] error
+[2023-05-03 04:11:07] WARNING root fetch - processPackages [simpler-data]: Skipping, unable to determine old version
+[2023-05-03 04:11:07] INFO root fetch - main [MainThread]: End processing [simpler-data] error
+[2023-05-03 04:11:07] INFO root fetch - processPackages [ghanashops-scraper]: Downloading https://files.pythonhosted.org/packages/71/b8/fab09e333e0a7c6be1b3e9b7c51d6c368a2e174c76408063342c23c87acd/ghanashops-scraper-1.0.8.tar.gz
+[2023-05-03 04:11:07] INFO root fetch - processPackages [ghanashops-scraper]: executing diffoscope
+[2023-05-03 04:11:07] INFO root fetch - processPackages [ghanashops-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghanashops-scraper-1.0.7.tar.gz tmp/ghanashops-scraper-1.0.8.tar.gz --markdown 20230503/g/ghanashops-scraper/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-05-03 04:11:08] INFO root fetch - main [MainThread]: End processing [ghanashops-scraper]: success
+[2023-05-03 04:11:08] INFO root fetch - main [MainThread]: Store serial: [17950609]
