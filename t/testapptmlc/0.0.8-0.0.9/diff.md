@@ -1,0 +1,199 @@
+# Comparing `tmp/testapptmlc-0.0.8.tar.gz` & `tmp/testapptmlc-0.0.9.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "dist\testapptmlc-0.0.8.tar", last modified: Wed May  3 14:51:04 2023, max compression
++gzip compressed data, was "dist\testapptmlc-0.0.9.tar", last modified: Wed May  3 15:08:55 2023, max compression
+```
+
+## Comparing `testapptmlc-0.0.8.tar` & `testapptmlc-0.0.9.tar`
+
+### file list
+
+```diff
+@@ -1,18 +1,18 @@
+-drwxrwxrwx   0        0        0        0 2023-05-03 14:51:04.000000 testapptmlc-0.0.8/
+--rw-rw-rw-   0        0        0     1077 2023-05-02 10:30:08.000000 testapptmlc-0.0.8/LICENSE
+--rw-rw-rw-   0        0        0      650 2023-05-03 14:51:04.000000 testapptmlc-0.0.8/PKG-INFO
+--rw-rw-rw-   0        0        0       21 2023-05-02 10:35:43.000000 testapptmlc-0.0.8/README.md
+--rw-rw-rw-   0        0        0      565 2023-05-03 14:48:58.000000 testapptmlc-0.0.8/pyproject.toml
+--rw-rw-rw-   0        0        0      129 2023-05-03 14:51:04.000000 testapptmlc-0.0.8/setup.cfg
+--rw-rw-rw-   0        0        0     1954 2023-05-03 14:50:55.000000 testapptmlc-0.0.8/setup.py
+-drwxrwxrwx   0        0        0        0 2023-05-03 14:51:04.000000 testapptmlc-0.0.8/src/
+--rw-rw-rw-   0        0        0       22 2023-05-03 09:58:30.000000 testapptmlc-0.0.8/src/__init__.py
+-drwxrwxrwx   0        0        0        0 2023-05-03 14:51:04.000000 testapptmlc-0.0.8/src/runapp/
+--rw-rw-rw-   0        0        0       43 2023-05-03 14:49:02.000000 testapptmlc-0.0.8/src/runapp/__init__.py
+--rw-rw-rw-   0        0        0     1091 2023-05-03 13:06:07.000000 testapptmlc-0.0.8/src/runapp/app.py
+-drwxrwxrwx   0        0        0        0 2023-05-03 14:51:04.000000 testapptmlc-0.0.8/testapptmlc.egg-info/
+--rw-rw-rw-   0        0        0      650 2023-05-03 14:51:04.000000 testapptmlc-0.0.8/testapptmlc.egg-info/PKG-INFO
+--rw-rw-rw-   0        0        0      282 2023-05-03 14:51:04.000000 testapptmlc-0.0.8/testapptmlc.egg-info/SOURCES.txt
+--rw-rw-rw-   0        0        0        1 2023-05-03 14:51:04.000000 testapptmlc-0.0.8/testapptmlc.egg-info/dependency_links.txt
+--rw-rw-rw-   0        0        0        5 2023-05-03 14:51:04.000000 testapptmlc-0.0.8/testapptmlc.egg-info/requires.txt
+--rw-rw-rw-   0        0        0       12 2023-05-03 14:51:04.000000 testapptmlc-0.0.8/testapptmlc.egg-info/top_level.txt
++drwxrwxrwx   0        0        0        0 2023-05-03 15:08:55.000000 testapptmlc-0.0.9/
++-rw-rw-rw-   0        0        0     1077 2023-05-02 10:30:08.000000 testapptmlc-0.0.9/LICENSE
++-rw-rw-rw-   0        0        0      650 2023-05-03 15:08:55.000000 testapptmlc-0.0.9/PKG-INFO
++-rw-rw-rw-   0        0        0       21 2023-05-02 10:35:43.000000 testapptmlc-0.0.9/README.md
++-rw-rw-rw-   0        0        0      565 2023-05-03 15:08:13.000000 testapptmlc-0.0.9/pyproject.toml
++-rw-rw-rw-   0        0        0      129 2023-05-03 15:08:55.000000 testapptmlc-0.0.9/setup.cfg
++-rw-rw-rw-   0        0        0     2023 2023-05-03 15:08:17.000000 testapptmlc-0.0.9/setup.py
++drwxrwxrwx   0        0        0        0 2023-05-03 15:08:55.000000 testapptmlc-0.0.9/src/
++-rw-rw-rw-   0        0        0       22 2023-05-03 09:58:30.000000 testapptmlc-0.0.9/src/__init__.py
++drwxrwxrwx   0        0        0        0 2023-05-03 15:08:55.000000 testapptmlc-0.0.9/src/runapp/
++-rw-rw-rw-   0        0        0       43 2023-05-03 15:08:07.000000 testapptmlc-0.0.9/src/runapp/__init__.py
++-rw-rw-rw-   0        0        0     1185 2023-05-03 15:07:55.000000 testapptmlc-0.0.9/src/runapp/app.py
++drwxrwxrwx   0        0        0        0 2023-05-03 15:08:55.000000 testapptmlc-0.0.9/testapptmlc.egg-info/
++-rw-rw-rw-   0        0        0      650 2023-05-03 15:08:55.000000 testapptmlc-0.0.9/testapptmlc.egg-info/PKG-INFO
++-rw-rw-rw-   0        0        0      282 2023-05-03 15:08:55.000000 testapptmlc-0.0.9/testapptmlc.egg-info/SOURCES.txt
++-rw-rw-rw-   0        0        0        1 2023-05-03 15:08:55.000000 testapptmlc-0.0.9/testapptmlc.egg-info/dependency_links.txt
++-rw-rw-rw-   0        0        0        5 2023-05-03 15:08:55.000000 testapptmlc-0.0.9/testapptmlc.egg-info/requires.txt
++-rw-rw-rw-   0        0        0       12 2023-05-03 15:08:55.000000 testapptmlc-0.0.9/testapptmlc.egg-info/top_level.txt
+```
+
+### Comparing `testapptmlc-0.0.8/LICENSE` & `testapptmlc-0.0.9/LICENSE`
+
+ * *Files identical despite different names*
+
+### Comparing `testapptmlc-0.0.8/PKG-INFO` & `testapptmlc-0.0.9/PKG-INFO`
+
+ * *Files 1% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: testapptmlc
+-Version: 0.0.8
++Version: 0.0.9
+ Summary: TEST APP TMLC
+ Home-page: https://github.com/visalakshi2001/tmlc-pypi
+ Author: TMLC
+ Author-email: TMLC <visalakshi2001@gmail.com>
+ License: MIT
+ Project-URL: Homepage, https://github.com/visalakshi2001/tmlc-pypi
+ Project-URL: Bug Tracker, https://github.com/visalakshi2001/tmlc-pypi/issues
+```
+
+### Comparing `testapptmlc-0.0.8/pyproject.toml` & `testapptmlc-0.0.9/pyproject.toml`
+
+ * *Files 19% similar despite different names*
+
+```diff
+@@ -1,14 +1,14 @@
+ [build-system]
+ requires = ['setuptools>=42']
+ build-backend = 'setuptools.build_meta'
+ 
+ [project]
+ name = "testapptmlc"
+-version = "0.0.8"
++version = "0.0.9"
+ authors = [
+   { name="TMLC", email="visalakshi2001@gmail.com" },
+ ]
+ 
+ readme = "README.md"
+ requires-python = ">=3.7"
+ classifiers = [
+```
+
+### Comparing `testapptmlc-0.0.8/setup.py` & `testapptmlc-0.0.9/setup.py`
+
+ * *Files 4% similar despite different names*
+
+```diff
+@@ -1,13 +1,14 @@
+ from setuptools import setup, find_packages
+ import os
+ import sys
+ import platform
+ import subprocess
+ from setuptools.command.install import install
++from glob import glob
+ 
+ class CustomInstallCommand(install):
+     def run(self):
+         print("Running custom install command for PyAudio")
+         # Your custom install code goes here
+         install.run(self)
+         
+@@ -31,15 +32,15 @@
+ 
+ 
+ with open("README.md", "rb") as fh:
+     long_description = fh.read().decode("utf-8")
+ 
+ setup(
+     name='testapptmlc',
+-    version='0.0.8',
++    version='0.0.9',
+     license='MIT',
+     author="TMLC",
+     author_email='visalakshi2001@gmail.com',
+     description = "TEST APP TMLC",
+     long_description=long_description,
+     long_description_content_type="text/markdown",
+     packages= ["testapptmlc", "testapptmlc.runapp"],
+@@ -48,9 +49,9 @@
+     url='https://github.com/visalakshi2001/tmlc-pypi',
+     keywords='speech recognizer',
+     setup_requires=['vosk'],
+     install_requires=['vosk'],
+     cmdclass={
+         'install': CustomInstallCommand,
+     },
+-
++    data_files= glob("testapptmlc/runapp/**"),
+ )
+```
+
+### Comparing `testapptmlc-0.0.8/src/runapp/app.py` & `testapptmlc-0.0.9/src/runapp/app.py`
+
+ * *Files 22% similar despite different names*
+
+```diff
+@@ -1,18 +1,21 @@
+ # crack https://github.com/Eddie2111/ProblemSolvers/commit/a109ac434465359db62f41d9c7dddc8c2f37924e
+ # model = Model("Vosk/vosk-model-en-in-0.5") 
+ 
+ 
+ from vosk import Model, KaldiRecognizer
+ import pyaudio
++import os
++
++MODEL_PTH = os.path.join(os.path.dirname(__file__), "Vosk")
+ 
+ class Recognize(object):
+ 
+     def __init__(self):
+-        self.model = Model("Vosk/vosk-model-en-us-daanzu-20200905-lgraph")
++        self.model = Model(os.path.join(MODEL_PTH, "vosk-model-en-us-daanzu-20200905-lgraph"))
+         self.recognizer = KaldiRecognizer(self.model,16000)
+ 
+     def __str__(self):
+         return """Class to initiate speech recognizer"""
+ 
+     def model(self):
+         return self.recognizer
+```
+
+### Comparing `testapptmlc-0.0.8/testapptmlc.egg-info/PKG-INFO` & `testapptmlc-0.0.9/testapptmlc.egg-info/PKG-INFO`
+
+ * *Files 1% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: testapptmlc
+-Version: 0.0.8
++Version: 0.0.9
+ Summary: TEST APP TMLC
+ Home-page: https://github.com/visalakshi2001/tmlc-pypi
+ Author: TMLC
+ Author-email: TMLC <visalakshi2001@gmail.com>
+ License: MIT
+ Project-URL: Homepage, https://github.com/visalakshi2001/tmlc-pypi
+ Project-URL: Bug Tracker, https://github.com/visalakshi2001/tmlc-pypi/issues
+```
+

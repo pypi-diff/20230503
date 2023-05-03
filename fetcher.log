@@ -18294,3 +18294,143 @@ No space left on device. Diffoscope exiting.
 [2023-05-03 17:21:17] INFO root fetch - main [MainThread]: End processing [coiled]: success
 [2023-05-03 17:21:18] INFO root fetch - main [MainThread]: End processing [jupyterlab-quarto]: success
 [2023-05-03 17:21:18] INFO root fetch - main [MainThread]: Store serial: [17958549]
+[2023-05-03 17:26:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17958549]
+[2023-05-03 17:26:27] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-05-03 17:26:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: digitalguide-reader
+[2023-05-03 17:26:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: idcode
+[2023-05-03 17:26:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: umnet-scripts
+[2023-05-03 17:26:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nlp-pipeline
+[2023-05-03 17:26:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: phidata
+[2023-05-03 17:26:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: klym-telemetry
+[2023-05-03 17:26:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: geomulticorr
+[2023-05-03 17:26:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: toolcheck
+[2023-05-03 17:26:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: testapptmlc
+[2023-05-03 17:26:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: llm-rs
+[2023-05-03 17:26:28] INFO root fetch - processPackages [idcode]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-03 17:26:28] INFO root fetch - processPackages [testapptmlc]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 17:26:28] WARNING root fetch - processPackages [geomulticorr]: Skipping, unable to determine old version
+[2023-05-03 17:26:28] INFO root fetch - processPackages [geomulticorr]: Start processing: osim-utils
+[2023-05-03 17:26:28] INFO root fetch - main [MainThread]: End processing [geomulticorr] error
+[2023-05-03 17:26:28] INFO root fetch - processPackages [osim-utils]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-03 17:26:28] INFO root fetch - processPackages [digitalguide-reader]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 17:26:28] INFO root fetch - processPackages [klym-telemetry]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-03 17:26:28] WARNING root fetch - processPackages [llm-rs]: Skipping, unable to determine old version
+[2023-05-03 17:26:28] INFO root fetch - processPackages [llm-rs]: Start processing: file-io-cli-tddschn
+[2023-05-03 17:26:28] INFO root fetch - main [MainThread]: End processing [llm-rs] error
+[2023-05-03 17:26:28] INFO root fetch - processPackages [nlp-pipeline]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 17:26:28] INFO root fetch - processPackages [umnet-scripts]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 17:26:28] INFO root fetch - processPackages [phidata]: New version: [1.6.2] Old Version: [1.6.1]
+[2023-05-03 17:26:28] INFO root fetch - processPackages [osim-utils]: executing diffoscope
+[2023-05-03 17:26:28] INFO root fetch - processPackages [osim-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osim_utils-0.2.0.tar.gz tmp/osim_utils-0.3.0.tar.gz --markdown 20230503/o/osim-utils/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-03 17:26:28] INFO root fetch - processPackages [file-io-cli-tddschn]: New version: [1.0.5] Old Version: [0.1.1]
+[2023-05-03 17:26:28] INFO root fetch - processPackages [idcode]: Downloading https://files.pythonhosted.org/packages/db/bf/0972dc68343790a4c5ca4f2cb9b44cf114e8dcd50ab328973516498b8ea3/idcode-0.1.0.tar.gz
+[2023-05-03 17:26:28] INFO root fetch - processPackages [testapptmlc]: Downloading https://files.pythonhosted.org/packages/c5/de/896e585659cd9330f19cac7e4c4eeca2d521989a134a9509456d8514445d/testapptmlc-0.0.9.tar.gz
+[2023-05-03 17:26:28] INFO root fetch - processPackages [klym-telemetry]: Downloading https://files.pythonhosted.org/packages/70/01/94fba1bdfac5964e1443aacd71114626bb09083c59f43eba5d7dca7f82ca/klym-telemetry-0.1.3.tar.gz
+[2023-05-03 17:26:28] INFO root fetch - processPackages [file-io-cli-tddschn]: executing diffoscope
+[2023-05-03 17:26:28] INFO root fetch - processPackages [file-io-cli-tddschn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/file-io-cli-tddschn-0.1.1.tar.gz tmp/file_io_cli_tddschn-1.0.5.tar.gz --markdown 20230503/f/file-io-cli-tddschn/0.1.1-1.0.5/diff.md --exclude *.pyd
+[2023-05-03 17:26:28] WARNING root fetch - processPackages [toolcheck]: Skipping, unable to determine old version
+[2023-05-03 17:26:28] INFO root fetch - processPackages [digitalguide-reader]: Downloading https://files.pythonhosted.org/packages/cc/5a/0f9a1bf13e406f8b0b0f84bdee6aaaf746d291551003b201aecb528a3e7b/digitalguide_reader-0.0.8.tar.gz
+[2023-05-03 17:26:28] INFO root fetch - processPackages [toolcheck]: Start processing: general-superstaq
+[2023-05-03 17:26:28] INFO root fetch - main [MainThread]: End processing [toolcheck] error
+[2023-05-03 17:26:28] INFO root fetch - processPackages [nlp-pipeline]: Downloading https://files.pythonhosted.org/packages/6d/68/f423cb7b4c6c7b84145cef4b2d5e75f6ace46e0c9c03a55b21276f0233b4/nlp_pipeline-0.0.8.tar.gz
+[2023-05-03 17:26:28] INFO root fetch - processPackages [testapptmlc]: executing diffoscope
+[2023-05-03 17:26:28] INFO root fetch - processPackages [testapptmlc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testapptmlc-0.0.8.tar.gz tmp/testapptmlc-0.0.9.tar.gz --markdown 20230503/t/testapptmlc/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 17:26:28] INFO root fetch - processPackages [phidata]: Downloading https://files.pythonhosted.org/packages/3a/54/26bbe7b7b3a59e12f410e788a29fd4952cee344777ebde107fbe6b789089/phidata-1.6.1.tar.gz
+[2023-05-03 17:26:28] INFO root fetch - processPackages [general-superstaq]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-03 17:26:28] INFO root fetch - processPackages [umnet-scripts]: executing diffoscope
+[2023-05-03 17:26:28] INFO root fetch - processPackages [umnet-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/umnet_scripts-0.0.8.tar.gz tmp/umnet_scripts-0.0.9.tar.gz --markdown 20230503/u/umnet-scripts/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 17:26:28] INFO root fetch - processPackages [klym-telemetry]: Downloading https://files.pythonhosted.org/packages/2f/d9/c99f80ad8fde185c3e910e11b89132b7b02ec114c448451f45d652925bbc/klym-telemetry-0.1.4.tar.gz
+[2023-05-03 17:26:28] INFO root fetch - processPackages [idcode]: Downloading https://files.pythonhosted.org/packages/80/76/62395ef246cb3f3ff46f07ff431b2f1cfa72262c3dd30a2a14267033f1a2/idcode-0.1.1.tar.gz
+[2023-05-03 17:26:28] INFO root fetch - processPackages [idcode]: executing diffoscope
+[2023-05-03 17:26:28] INFO root fetch - processPackages [idcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idcode-0.1.0.tar.gz tmp/idcode-0.1.1.tar.gz --markdown 20230503/i/idcode/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-03 17:26:28] INFO root fetch - processPackages [klym-telemetry]: executing diffoscope
+[2023-05-03 17:26:28] INFO root fetch - processPackages [klym-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klym-telemetry-0.1.3.tar.gz tmp/klym-telemetry-0.1.4.tar.gz --markdown 20230503/k/klym-telemetry/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-03 17:26:28] INFO root fetch - processPackages [general-superstaq]: Downloading https://files.pythonhosted.org/packages/87/05/cd59ba3d55d20ac1221d7dbd1216dc5e2bfecd1d1bbdafcc4e49114575ae/general_superstaq-0.3.8-py3-none-any.whl
+[2023-05-03 17:26:28] INFO root fetch - processPackages [digitalguide-reader]: Downloading https://files.pythonhosted.org/packages/72/ef/82a1a1f3752e2a5201841fc0cba3c60b693839bff8bf7268643f8fb5388b/digitalguide_reader-0.0.9.tar.gz
+[2023-05-03 17:26:28] INFO root fetch - processPackages [phidata]: Downloading https://files.pythonhosted.org/packages/d2/87/d1f0ae7333126d6e15d52383a09648ae0ec1d4ae6f1147da8455e7537bf1/phidata-1.6.2.tar.gz
+[2023-05-03 17:26:28] INFO root fetch - processPackages [nlp-pipeline]: Downloading https://files.pythonhosted.org/packages/28/b8/2312ab3f5ddcbd5f394f72746eb42cb63db9ffbe24458ac13b4c189c4d94/nlp_pipeline-0.0.9.tar.gz
+[2023-05-03 17:26:28] INFO root fetch - processPackages [phidata]: executing diffoscope
+[2023-05-03 17:26:28] INFO root fetch - processPackages [phidata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phidata-1.6.1.tar.gz tmp/phidata-1.6.2.tar.gz --markdown 20230503/p/phidata/1.6.1-1.6.2/diff.md --exclude *.pyd
+[2023-05-03 17:26:28] INFO root fetch - processPackages [digitalguide-reader]: executing diffoscope
+[2023-05-03 17:26:28] INFO root fetch - processPackages [digitalguide-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalguide_reader-0.0.8.tar.gz tmp/digitalguide_reader-0.0.9.tar.gz --markdown 20230503/d/digitalguide-reader/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 17:26:28] INFO root fetch - processPackages [nlp-pipeline]: executing diffoscope
+[2023-05-03 17:26:28] INFO root fetch - processPackages [nlp-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlp_pipeline-0.0.8.tar.gz tmp/nlp_pipeline-0.0.9.tar.gz --markdown 20230503/n/nlp-pipeline/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 17:26:29] INFO root fetch - processPackages [general-superstaq]: Downloading https://files.pythonhosted.org/packages/d3/61/5004f0f681b41698dc740d5c70e69d5eef3be2a6bb1c9b142d04914b67ff/general_superstaq-0.3.9-py3-none-any.whl
+[2023-05-03 17:26:29] INFO root fetch - processPackages [general-superstaq]: executing diffoscope
+[2023-05-03 17:26:29] INFO root fetch - processPackages [general-superstaq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/general_superstaq-0.3.8-py3-none-any.whl.zip tmp/general_superstaq-0.3.9-py3-none-any.whl.zip --markdown 20230503/g/general-superstaq/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-03 17:26:29] INFO root fetch - processPackages [osim-utils]: Start processing: qiskit-superstaq
+[2023-05-03 17:26:29] INFO root fetch - main [MainThread]: End processing [osim-utils]: success
+[2023-05-03 17:26:29] INFO root fetch - processPackages [file-io-cli-tddschn]: Start processing: heaven
+[2023-05-03 17:26:29] INFO root fetch - main [MainThread]: End processing [file-io-cli-tddschn]: success
+[2023-05-03 17:26:29] INFO root fetch - processPackages [qiskit-superstaq]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-03 17:26:29] WARNING root fetch - processPackages [heaven]: Skipping, unable to determine old version
+[2023-05-03 17:26:29] INFO root fetch - processPackages [heaven]: Start processing: digitalguide
+[2023-05-03 17:26:29] INFO root fetch - main [MainThread]: End processing [heaven] error
+[2023-05-03 17:26:29] INFO root fetch - processPackages [digitalguide]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-03 17:26:29] INFO root fetch - processPackages [qiskit-superstaq]: Downloading https://files.pythonhosted.org/packages/33/d9/9afdc846fffea309c28e8f6c909c0db105ac4da2afb792672fef85880186/qiskit_superstaq-0.3.8-py3-none-any.whl
+[2023-05-03 17:26:29] INFO root fetch - processPackages [testapptmlc]: Start processing: cirq-superstaq
+[2023-05-03 17:26:29] INFO root fetch - main [MainThread]: End processing [testapptmlc]: success
+[2023-05-03 17:26:29] INFO root fetch - processPackages [digitalguide]: executing diffoscope
+[2023-05-03 17:26:29] INFO root fetch - processPackages [digitalguide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalguide-0.0.98.tar.gz tmp/digitalguide-0.0.99.tar.gz --markdown 20230503/d/digitalguide/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-03 17:26:29] INFO root fetch - processPackages [cirq-superstaq]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-03 17:26:29] INFO root fetch - processPackages [idcode]: Start processing: SupermarQ
+[2023-05-03 17:26:29] INFO root fetch - main [MainThread]: End processing [idcode]: success
+[2023-05-03 17:26:29] INFO root fetch - processPackages [umnet-scripts]: Start processing: certora-cli-alpha-roy-CERT-1891-tmpAllocExpectTimeout
+[2023-05-03 17:26:29] INFO root fetch - main [MainThread]: End processing [umnet-scripts]: success
+[2023-05-03 17:26:30] INFO root fetch - processPackages [cirq-superstaq]: Downloading https://files.pythonhosted.org/packages/24/23/2e53aa7d71a86e1b918795598b7e648a3c8b392493d0399d085b8a34a69f/cirq_superstaq-0.3.8-py3-none-any.whl
+[2023-05-03 17:26:30] INFO root fetch - processPackages [SupermarQ]: New version: [0.3.25] Old Version: [0.3.24]
+[2023-05-03 17:26:30] WARNING root fetch - processPackages [certora-cli-alpha-roy-CERT-1891-tmpAllocExpectTimeout]: Skipping, unable to determine old version
+[2023-05-03 17:26:30] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1891-tmpAllocExpectTimeout]: Start processing: pystacker
+[2023-05-03 17:26:30] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-roy-CERT-1891-tmpAllocExpectTimeout] error
+[2023-05-03 17:26:30] INFO root fetch - processPackages [pystacker]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-05-03 17:26:30] INFO root fetch - processPackages [SupermarQ]: Downloading https://files.pythonhosted.org/packages/0d/32/80460930bbb51796432d014d593fd543c7fa0f0091e5895e8b4d8df51f9e/SupermarQ-0.3.24-py3-none-any.whl
+[2023-05-03 17:26:30] INFO root fetch - processPackages [pystacker]: Downloading https://files.pythonhosted.org/packages/a6/9d/7046071bfaec41107c5f7041c74c07a7b2d43b9327656d4667bb72a84506/pystacker-1.2.7-py3.10.egg
+[2023-05-03 17:26:30] INFO root fetch - processPackages [klym-telemetry]: Start processing: pystacker
+[2023-05-03 17:26:30] INFO root fetch - main [MainThread]: End processing [klym-telemetry]: success
+[2023-05-03 17:26:30] INFO root fetch - processPackages [pystacker]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-05-03 17:26:30] INFO root fetch - processPackages [pystacker]: Downloading https://files.pythonhosted.org/packages/a6/9d/7046071bfaec41107c5f7041c74c07a7b2d43b9327656d4667bb72a84506/pystacker-1.2.7-py3.10.egg
+[2023-05-03 17:26:30] INFO root fetch - processPackages [qiskit-superstaq]: Downloading https://files.pythonhosted.org/packages/06/a8/93bc82c36803b1fdfe08be69e96d149fb909954aab455e01b4163459073b/qiskit_superstaq-0.3.9-py3-none-any.whl
+[2023-05-03 17:26:30] INFO root fetch - processPackages [digitalguide-reader]: Start processing: monotonic-derivative
+[2023-05-03 17:26:30] INFO root fetch - main [MainThread]: End processing [digitalguide-reader]: success
+[2023-05-03 17:26:30] INFO root fetch - processPackages [SupermarQ]: Downloading https://files.pythonhosted.org/packages/6f/fd/e71bb483a69401b9de9610ad9aeb11f40985847724fc1b559405ff9ce5ea/SupermarQ-0.3.25-py3-none-any.whl
+[2023-05-03 17:26:30] INFO root fetch - processPackages [monotonic-derivative]: New version: [0.11] Old Version: [0.1]
+[2023-05-03 17:26:30] INFO root fetch - processPackages [pystacker]: Downloading https://files.pythonhosted.org/packages/f4/e5/d547f784a1fb7e410605afd1f3afded20566aef3f71e4bd2c111077141b8/pystacker-1.2.8.tar.gz
+[2023-05-03 17:26:30] INFO root fetch - processPackages [pystacker]: Downloading https://files.pythonhosted.org/packages/f4/e5/d547f784a1fb7e410605afd1f3afded20566aef3f71e4bd2c111077141b8/pystacker-1.2.8.tar.gz
+[2023-05-03 17:26:30] INFO root fetch - processPackages [cirq-superstaq]: Downloading https://files.pythonhosted.org/packages/5f/d7/90cf6503b553892d091d3ad8ba050b2ec5744880829c43fa4090da82ce8b/cirq_superstaq-0.3.9-py3-none-any.whl
+[2023-05-03 17:26:30] INFO root fetch - processPackages [SupermarQ]: executing diffoscope
+[2023-05-03 17:26:30] INFO root fetch - processPackages [SupermarQ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SupermarQ-0.3.24-py3-none-any.whl.zip tmp/SupermarQ-0.3.25-py3-none-any.whl.zip --markdown 20230503/S/SupermarQ/0.3.24-0.3.25/diff.md --exclude *.pyd
+[2023-05-03 17:26:30] INFO root fetch - processPackages [nlp-pipeline]: Start processing: tableauhyperapi
+[2023-05-03 17:26:30] INFO root fetch - main [MainThread]: End processing [nlp-pipeline]: success
+[2023-05-03 17:26:30] INFO root fetch - processPackages [pystacker]: executing diffoscope
+[2023-05-03 17:26:30] INFO root fetch - processPackages [pystacker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystacker-1.2.7-py3.10.egg tmp/pystacker-1.2.8.tar.gz --markdown 20230503/p/pystacker/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-05-03 17:26:30] INFO root fetch - processPackages [pystacker]: executing diffoscope
+[2023-05-03 17:26:30] INFO root fetch - processPackages [pystacker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystacker-1.2.7-py3.10.egg tmp/pystacker-1.2.8.tar.gz --markdown 20230503/p/pystacker/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-05-03 17:26:30] INFO root fetch - processPackages [monotonic-derivative]: Downloading https://files.pythonhosted.org/packages/be/06/8f982240564c2cc80ee46e189411aea53b641d8be9a295cdf11d096fa54a/monotonic%20derivative-0.1.tar.gz
+[2023-05-03 17:26:30] INFO root fetch - processPackages [tableauhyperapi]: New version: [0.0.9746] Old Version: [0.0.17002]
+[2023-05-03 17:26:30] INFO root fetch - processPackages [general-superstaq]: Start processing: texplain
+[2023-05-03 17:26:30] INFO root fetch - main [MainThread]: End processing [general-superstaq]: success
+[2023-05-03 17:26:30] INFO root fetch - processPackages [tableauhyperapi]: Downloading https://files.pythonhosted.org/packages/98/1f/e19c5cc11b0588113e70d5558bfbfebb93977c8e2e203ae62b6e50e59948/tableauhyperapi-0.0.17002-py3-none-win_amd64.whl
+[2023-05-03 17:26:30] INFO root fetch - processPackages [monotonic-derivative]: Downloading https://files.pythonhosted.org/packages/2d/3d/3ea724a27115fe459f90e5500a2b4d7f70c8988c702ac2625e4aa408f5eb/monotonic%20derivative-0.11.tar.gz
+[2023-05-03 17:26:31] INFO root fetch - processPackages [texplain]: New version: [0.8.0] Old Version: [0.7.6]
+[2023-05-03 17:26:31] INFO root fetch - main [MainThread]: End processing [digitalguide]: success
+[2023-05-03 17:26:31] WARNING root fetch - processPackages [tableauhyperapi]: Skipping package: exceeds size limit 47245597>=10485760
+[2023-05-03 17:26:31] INFO root fetch - main [MainThread]: End processing [tableauhyperapi] error
+[2023-05-03 17:26:31] INFO root fetch - processPackages [cirq-superstaq]: executing diffoscope
+[2023-05-03 17:26:31] INFO root fetch - processPackages [cirq-superstaq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_superstaq-0.3.8-py3-none-any.whl.zip tmp/cirq_superstaq-0.3.9-py3-none-any.whl.zip --markdown 20230503/c/cirq-superstaq/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-03 17:26:31] INFO root fetch - processPackages [qiskit-superstaq]: executing diffoscope
+[2023-05-03 17:26:31] INFO root fetch - processPackages [qiskit-superstaq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit_superstaq-0.3.8-py3-none-any.whl.zip tmp/qiskit_superstaq-0.3.9-py3-none-any.whl.zip --markdown 20230503/q/qiskit-superstaq/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-03 17:26:31] INFO root fetch - processPackages [monotonic-derivative]: executing diffoscope
+[2023-05-03 17:26:31] INFO root fetch - processPackages [monotonic-derivative]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monotonic derivative-0.1.tar.gz tmp/monotonic derivative-0.11.tar.gz --markdown 20230503/m/monotonic-derivative/0.1-0.11/diff.md --exclude *.pyd
+[2023-05-03 17:26:31] INFO root fetch - processPackages [texplain]: Downloading https://files.pythonhosted.org/packages/c4/0c/4a2bc0a4e4de280ac187688f08c6ee2f17321989c01b7fcca1d6f39e50d1/texplain-0.7.6.tar.gz
+[2023-05-03 17:26:31] INFO root fetch - processPackages [texplain]: Downloading https://files.pythonhosted.org/packages/05/ec/74f3607068ca6fd145526c254c095a259be56fe5b03bf569f8d63566e1d1/texplain-0.8.0.tar.gz
+[2023-05-03 17:26:31] INFO root fetch - processPackages [texplain]: executing diffoscope
+[2023-05-03 17:26:31] INFO root fetch - processPackages [texplain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/texplain-0.7.6.tar.gz tmp/texplain-0.8.0.tar.gz --markdown 20230503/t/texplain/0.7.6-0.8.0/diff.md --exclude *.pyd
+[2023-05-03 17:26:31] INFO root fetch - main [MainThread]: End processing [pystacker]: success
+[2023-05-03 17:26:32] INFO root fetch - main [MainThread]: End processing [pystacker]: success
+[2023-05-03 17:26:32] INFO root fetch - main [MainThread]: End processing [SupermarQ]: success
+[2023-05-03 17:26:32] INFO root fetch - main [MainThread]: End processing [monotonic-derivative]: success
+[2023-05-03 17:26:32] INFO root fetch - main [MainThread]: End processing [qiskit-superstaq]: success
+[2023-05-03 17:26:32] INFO root fetch - main [MainThread]: End processing [cirq-superstaq]: success
+[2023-05-03 17:26:33] INFO root fetch - main [MainThread]: End processing [phidata]: success
+[2023-05-03 17:26:33] INFO root fetch - main [MainThread]: End processing [texplain]: success
+[2023-05-03 17:26:33] INFO root fetch - main [MainThread]: Store serial: [17958651]
