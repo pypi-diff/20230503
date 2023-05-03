@@ -22422,3 +22422,56 @@ No space left on device. Diffoscope exiting.
 [2023-05-03 20:56:11] INFO root fetch - main [MainThread]: End processing [deepchem]: success
 [2023-05-03 20:56:13] INFO root fetch - main [MainThread]: End processing [deepchem]: success
 [2023-05-03 20:56:13] INFO root fetch - main [MainThread]: Store serial: [17961305]
+[2023-05-03 21:01:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17961305]
+[2023-05-03 21:01:22] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-03 21:01:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nlptoolssna
+[2023-05-03 21:01:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bottle-restful
+[2023-05-03 21:01:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cttd
+[2023-05-03 21:01:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cybrid-api-organization-python
+[2023-05-03 21:01:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: omg-dosimetry
+[2023-05-03 21:01:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cybrid-api-id-python
+[2023-05-03 21:01:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cybrid-api-bank-python
+[2023-05-03 21:01:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: misura
+[2023-05-03 21:01:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nlptoolssna
+[2023-05-03 21:01:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: infra-buddy-too
+[2023-05-03 21:01:22] INFO root fetch - processPackages [nlptoolssna]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-05-03 21:01:22] WARNING root fetch - processPackages [cttd]: Skipping, unable to determine old version
+[2023-05-03 21:01:22] INFO root fetch - main [MainThread]: End processing [cttd] error
+[2023-05-03 21:01:22] INFO root fetch - processPackages [infra-buddy-too]: New version: [61] Old Version: [60]
+[2023-05-03 21:01:22] INFO root fetch - processPackages [nlptoolssna]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-05-03 21:01:22] INFO root fetch - processPackages [misura]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-05-03 21:01:22] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-03 21:01:22] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-03 21:01:22] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-03 21:01:22] WARNING root fetch - processPackages [bottle-restful]: Skipping, unable to determine old version
+[2023-05-03 21:01:22] INFO root fetch - main [MainThread]: End processing [bottle-restful] error
+[2023-05-03 21:01:22] INFO root fetch - processPackages [omg-dosimetry]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-05-03 21:01:22] INFO root fetch - processPackages [infra-buddy-too]: executing diffoscope
+[2023-05-03 21:01:22] INFO root fetch - processPackages [infra-buddy-too]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infra-buddy-too-60.tar.gz tmp/infra-buddy-too-61.tar.gz --markdown 20230503/i/infra-buddy-too/60-61/diff.md --exclude *.pyd
+[2023-05-03 21:01:22] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2023-05-03 21:01:22] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2023-05-03 21:01:22] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.9.8.tar.gz tmp/cybrid-api-bank-python-0.9.9.tar.gz --markdown 20230503/c/cybrid-api-bank-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-03 21:01:22] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.9.8.tar.gz tmp/cybrid-api-organization-python-0.9.9.tar.gz --markdown 20230503/c/cybrid-api-organization-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-03 21:01:22] INFO root fetch - processPackages [nlptoolssna]: Downloading https://files.pythonhosted.org/packages/f4/ac/5c680d0ba7e289ee92d397b685049909b3a145a6f5c36bc40bfc62e547fa/nlptoolssna-0.5.3.tar.gz
+[2023-05-03 21:01:22] INFO root fetch - processPackages [nlptoolssna]: Downloading https://files.pythonhosted.org/packages/f4/ac/5c680d0ba7e289ee92d397b685049909b3a145a6f5c36bc40bfc62e547fa/nlptoolssna-0.5.3.tar.gz
+[2023-05-03 21:01:23] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2023-05-03 21:01:23] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.9.8.tar.gz tmp/cybrid-api-id-python-0.9.9.tar.gz --markdown 20230503/c/cybrid-api-id-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-03 21:01:23] INFO root fetch - processPackages [misura]: executing diffoscope
+[2023-05-03 21:01:23] INFO root fetch - processPackages [misura]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/misura-1.2.0.tar.gz tmp/misura-1.3.0.tar.gz --markdown 20230503/m/misura/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-05-03 21:01:23] INFO root fetch - processPackages [omg-dosimetry]: Downloading https://files.pythonhosted.org/packages/c9/4b/88c2a8e4850cbcd91fac072a767e7e7804767f8367195356f6a5d1345918/omg_dosimetry-1.2.0.tar.gz
+[2023-05-03 21:01:23] INFO root fetch - processPackages [nlptoolssna]: executing diffoscope
+[2023-05-03 21:01:23] INFO root fetch - processPackages [nlptoolssna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlptoolssna-0.5.2.tar.gz tmp/nlptoolssna-0.5.3.tar.gz --markdown 20230503/n/nlptoolssna/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-05-03 21:01:23] INFO root fetch - processPackages [nlptoolssna]: executing diffoscope
+[2023-05-03 21:01:23] INFO root fetch - processPackages [nlptoolssna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlptoolssna-0.5.2.tar.gz tmp/nlptoolssna-0.5.3.tar.gz --markdown 20230503/n/nlptoolssna/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-05-03 21:01:23] INFO root fetch - processPackages [omg-dosimetry]: Downloading https://files.pythonhosted.org/packages/b7/e0/7ac9cf252f15679e00b3f357ab55f244a398ffd0185f41081d648b4c6d41/omg_dosimetry-1.3.0.tar.gz
+[2023-05-03 21:01:23] INFO root fetch - processPackages [omg-dosimetry]: executing diffoscope
+[2023-05-03 21:01:23] INFO root fetch - processPackages [omg-dosimetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omg_dosimetry-1.2.0.tar.gz tmp/omg_dosimetry-1.3.0.tar.gz --markdown 20230503/o/omg-dosimetry/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-05-03 21:01:24] INFO root fetch - main [MainThread]: End processing [misura]: success
+[2023-05-03 21:01:24] INFO root fetch - main [MainThread]: End processing [infra-buddy-too]: success
+[2023-05-03 21:01:24] INFO root fetch - main [MainThread]: End processing [nlptoolssna]: success
+[2023-05-03 21:01:24] INFO root fetch - main [MainThread]: End processing [omg-dosimetry]: success
+[2023-05-03 21:01:24] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2023-05-03 21:01:25] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2023-05-03 21:01:25] INFO root fetch - main [MainThread]: End processing [nlptoolssna]: success
+[2023-05-03 21:01:25] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2023-05-03 21:01:25] INFO root fetch - main [MainThread]: Store serial: [17961341]
