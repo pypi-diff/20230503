@@ -1653,3 +1653,104 @@
 [2023-05-03 02:09:55] INFO root fetch - main [MainThread]: End processing [odoo14-addon-openupgrade-scripts]: success
 [2023-05-03 02:10:03] INFO root fetch - main [MainThread]: End processing [openbb-nightly]: success
 [2023-05-03 02:10:03] INFO root fetch - main [MainThread]: Store serial: [17948707]
+[2023-05-03 02:15:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17948707]
+[2023-05-03 02:15:12] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-03 02:15:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: constructs
+[2023-05-03 02:15:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CS333-Final-Project
+[2023-05-03 02:15:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tensorrt-dispatch
+[2023-05-03 02:15:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: speakeasy-client-sdk-python
+[2023-05-03 02:15:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-common
+[2023-05-03 02:15:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: slippistats
+[2023-05-03 02:15:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tensorrt-dispatch-bindings
+[2023-05-03 02:15:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.cdk-github
+[2023-05-03 02:15:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: eobi-test
+[2023-05-03 02:15:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdklabs.codepipeline-extensions
+[2023-05-03 02:15:12] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-03 02:15:12] INFO root fetch - processPackages [pepperize.cdk-github]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-03 02:15:12] INFO root fetch - processPackages [speakeasy-client-sdk-python]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-05-03 02:15:12] INFO root fetch - processPackages [tensorrt-dispatch]: New version: [8.6.1] Old Version: [8.6.0]
+[2023-05-03 02:15:12] WARNING root fetch - processPackages [eobi-test]: Skipping, unable to determine old version
+[2023-05-03 02:15:12] INFO root fetch - processPackages [eobi-test]: Start processing: mosaicml-cli
+[2023-05-03 02:15:12] INFO root fetch - main [MainThread]: End processing [eobi-test] error
+[2023-05-03 02:15:12] INFO root fetch - processPackages [slippistats]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-03 02:15:12] WARNING root fetch - processPackages [tensorrt-dispatch-bindings]: Skipping, unable to determine old version
+[2023-05-03 02:15:12] INFO root fetch - processPackages [tensorrt-dispatch-bindings]: Start processing: cdk-events-notify
+[2023-05-03 02:15:12] INFO root fetch - main [MainThread]: End processing [tensorrt-dispatch-bindings] error
+[2023-05-03 02:15:12] INFO root fetch - processPackages [CS333-Final-Project]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 02:15:12] INFO root fetch - processPackages [pepperize.cdk-github]: executing diffoscope
+[2023-05-03 02:15:12] INFO root fetch - processPackages [pepperize.cdk-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-github-0.0.98.tar.gz tmp/pepperize.cdk-github-0.0.99.tar.gz --markdown 20230503/p/pepperize.cdk-github/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-03 02:15:12] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2023-05-03 02:15:12] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20230503/c/cdk-common/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-03 02:15:12] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-03 02:15:12] INFO root fetch - processPackages [speakeasy-client-sdk-python]: executing diffoscope
+[2023-05-03 02:15:12] INFO root fetch - processPackages [speakeasy-client-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speakeasy-client-sdk-python-1.9.0.tar.gz tmp/speakeasy-client-sdk-python-1.9.1.tar.gz --markdown 20230503/s/speakeasy-client-sdk-python/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-03 02:15:12] INFO root fetch - processPackages [constructs]: New version: [3.4.99] Old Version: [3.4.98]
+[2023-05-03 02:15:12] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-03 02:15:12] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: Downloading https://files.pythonhosted.org/packages/df/6c/78f1bfa2ffc81709ec21b0077aff92b7460ad1f071d595e2d767653cedc0/cdklabs.codepipeline-extensions-0.0.98.tar.gz
+[2023-05-03 02:15:12] INFO root fetch - processPackages [mosaicml-cli]: New version: [0.4.0a5] Old Version: [0.4.0a4]
+[2023-05-03 02:15:12] INFO root fetch - processPackages [tensorrt-dispatch]: Downloading https://files.pythonhosted.org/packages/bc/06/dc1057507cfb85a5db1c53eb36c0550dea023002fd93f3e300eebb737952/tensorrt_dispatch-8.6.0-cp39-none-manylinux_2_17_x86_64.whl
+[2023-05-03 02:15:12] WARNING root fetch - processPackages [cdklabs.codepipeline-extensions]: Skipping package: exceeds size limit 12637726>=10485760
+[2023-05-03 02:15:12] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: Start processing: rover-arm
+[2023-05-03 02:15:12] INFO root fetch - main [MainThread]: End processing [cdklabs.codepipeline-extensions] error
+[2023-05-03 02:15:12] INFO root fetch - processPackages [CS333-Final-Project]: executing diffoscope
+[2023-05-03 02:15:12] INFO root fetch - processPackages [CS333-Final-Project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CS333-Final-Project-0.0.8.tar.gz tmp/CS333-Final-Project-0.0.9.tar.gz --markdown 20230503/C/CS333-Final-Project/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 02:15:12] INFO root fetch - processPackages [rover-arm]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-03 02:15:12] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2023-05-03 02:15:12] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.0.98.tar.gz tmp/cdk-events-notify-2.0.99.tar.gz --markdown 20230503/c/cdk-events-notify/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-03 02:15:12] INFO root fetch - processPackages [slippistats]: Downloading https://files.pythonhosted.org/packages/61/5e/83eb59b69b8a1cd57a6d9b7b678779ada25b7cd2d33db868410124b11db4/slippistats-0.1.0.tar.gz
+[2023-05-03 02:15:12] INFO root fetch - processPackages [constructs]: executing diffoscope
+[2023-05-03 02:15:12] INFO root fetch - processPackages [constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/constructs-3.4.98.tar.gz tmp/constructs-3.4.99.tar.gz --markdown 20230503/c/constructs/3.4.98-3.4.99/diff.md --exclude *.pyd
+[2023-05-03 02:15:12] INFO root fetch - processPackages [rover-arm]: Downloading https://files.pythonhosted.org/packages/d6/a6/5d64ab4544c607dc422ffde9e3db35020440e04ef2c3bfa78705d32264c1/rover_arm-1.1.2.tar.gz
+[2023-05-03 02:15:12] INFO root fetch - processPackages [mosaicml-cli]: Downloading https://files.pythonhosted.org/packages/49/17/404f43e5d125aa01aa6e8fad86bb530037e084af2fb45efad12e74840f45/mosaicml-cli-0.4.0a5.tar.gz
+[2023-05-03 02:15:12] INFO root fetch - processPackages [slippistats]: Downloading https://files.pythonhosted.org/packages/ff/31/535dcd63e326e037d9bd4b354b263a14db5ef5d97ab497b005681bdeebbb/slippistats-0.1.1.tar.gz
+[2023-05-03 02:15:12] INFO root fetch - processPackages [tensorrt-dispatch]: Downloading https://files.pythonhosted.org/packages/37/ed/a212fe61539df5ea62f420ffca235bfab618c5e7099ee8cf64d3f4ba156a/tensorrt_dispatch-8.6.1.tar.gz
+[2023-05-03 02:15:12] INFO root fetch - processPackages [slippistats]: executing diffoscope
+[2023-05-03 02:15:12] INFO root fetch - processPackages [slippistats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slippistats-0.1.0.tar.gz tmp/slippistats-0.1.1.tar.gz --markdown 20230503/s/slippistats/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-03 02:15:12] INFO root fetch - processPackages [mosaicml-cli]: executing diffoscope
+[2023-05-03 02:15:12] INFO root fetch - processPackages [mosaicml-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mosaicml-cli-0.4.0a4.tar.gz tmp/mosaicml-cli-0.4.0a5.tar.gz --markdown 20230503/m/mosaicml-cli/0.4.0a4-0.4.0a5/diff.md --exclude *.pyd
+[2023-05-03 02:15:12] INFO root fetch - processPackages [rover-arm]: executing diffoscope
+[2023-05-03 02:15:12] INFO root fetch - processPackages [rover-arm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rover_arm-1.1.1.tar.gz tmp/rover_arm-1.1.2.tar.gz --markdown 20230503/r/rover-arm/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-03 02:15:12] INFO root fetch - processPackages [tensorrt-dispatch]: executing diffoscope
+[2023-05-03 02:15:12] INFO root fetch - processPackages [tensorrt-dispatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorrt_dispatch-8.6.0-cp39-none-manylinux_2_17_x86_64.whl.zip tmp/tensorrt_dispatch-8.6.1.tar.gz --markdown 20230503/t/tensorrt-dispatch/8.6.0-8.6.1/diff.md --exclude *.pyd
+[2023-05-03 02:15:13] INFO root fetch - processPackages [pepperize.cdk-github]: Start processing: cdktf-gitlab-runner
+[2023-05-03 02:15:13] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-github]: success
+[2023-05-03 02:15:13] INFO root fetch - processPackages [CS333-Final-Project]: Start processing: pycyclops
+[2023-05-03 02:15:13] INFO root fetch - main [MainThread]: End processing [CS333-Final-Project]: success
+[2023-05-03 02:15:13] INFO root fetch - processPackages [cdk-events-notify]: Start processing: cdk-skylight
+[2023-05-03 02:15:13] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2023-05-03 02:15:13] INFO root fetch - processPackages [cdktf-gitlab-runner]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-03 02:15:13] INFO root fetch - processPackages [cdk-skylight]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-05-03 02:15:13] INFO root fetch - processPackages [pycyclops]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-03 02:15:13] INFO root fetch - processPackages [constructs]: Start processing: cdk-events-notify
+[2023-05-03 02:15:13] INFO root fetch - main [MainThread]: End processing [constructs]: success
+[2023-05-03 02:15:13] INFO root fetch - processPackages [cdk-skylight]: executing diffoscope
+[2023-05-03 02:15:13] INFO root fetch - processPackages [cdk-skylight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-skylight-1.1.98.tar.gz tmp/cdk-skylight-1.1.99.tar.gz --markdown 20230503/c/cdk-skylight/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-05-03 02:15:14] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-03 02:15:14] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2023-05-03 02:15:14] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.0.98.tar.gz tmp/cdk-events-notify-2.0.99.tar.gz --markdown 20230503/c/cdk-events-notify/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-03 02:15:14] INFO root fetch - processPackages [cdktf-gitlab-runner]: executing diffoscope
+[2023-05-03 02:15:14] INFO root fetch - processPackages [cdktf-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-gitlab-runner-0.0.98.tar.gz tmp/cdktf-gitlab-runner-0.0.99.tar.gz --markdown 20230503/c/cdktf-gitlab-runner/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-03 02:15:14] INFO root fetch - processPackages [pycyclops]: executing diffoscope
+[2023-05-03 02:15:14] INFO root fetch - processPackages [pycyclops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycyclops-0.1.8.tar.gz tmp/pycyclops-0.1.9.tar.gz --markdown 20230503/p/pycyclops/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-03 02:15:14] INFO root fetch - processPackages [slippistats]: Start processing: ghanashops-scraper
+[2023-05-03 02:15:14] INFO root fetch - main [MainThread]: End processing [slippistats]: success
+[2023-05-03 02:15:14] INFO root fetch - processPackages [ghanashops-scraper]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-03 02:15:14] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Start processing: Pulse3D
+[2023-05-03 02:15:14] INFO root fetch - main [MainThread]: End processing [speakeasy-client-sdk-python]: success
+[2023-05-03 02:15:14] INFO root fetch - processPackages [Pulse3D]: New version: [0.33.0] Old Version: [0.32.6]
+[2023-05-03 02:15:14] INFO root fetch - processPackages [ghanashops-scraper]: Downloading https://files.pythonhosted.org/packages/e6/30/a5090972b3b98f49fb5a4a0fba4f0c064592b437f296c2c31e0e8dae4d32/ghanashops-scraper-1.0.1.tar.gz
+[2023-05-03 02:15:14] INFO root fetch - main [MainThread]: End processing [tensorrt-dispatch]: success
+[2023-05-03 02:15:14] INFO root fetch - processPackages [ghanashops-scraper]: executing diffoscope
+[2023-05-03 02:15:14] INFO root fetch - processPackages [ghanashops-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghanashops-scraper-1.0.0.tar.gz tmp/ghanashops-scraper-1.0.1.tar.gz --markdown 20230503/g/ghanashops-scraper/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-03 02:15:15] INFO root fetch - processPackages [Pulse3D]: executing diffoscope
+[2023-05-03 02:15:15] INFO root fetch - processPackages [Pulse3D]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pulse3D-0.32.6.tar.gz tmp/Pulse3D-0.33.0.tar.gz --markdown 20230503/P/Pulse3D/0.32.6-0.33.0/diff.md --exclude *.pyd
+[2023-05-03 02:15:15] INFO root fetch - main [MainThread]: End processing [cdk-skylight]: success
+[2023-05-03 02:15:15] INFO root fetch - main [MainThread]: End processing [mosaicml-cli]: success
+[2023-05-03 02:15:15] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2023-05-03 02:15:15] INFO root fetch - main [MainThread]: End processing [cdktf-gitlab-runner]: success
+[2023-05-03 02:15:15] INFO root fetch - main [MainThread]: End processing [ghanashops-scraper]: success
+[2023-05-03 02:15:16] INFO root fetch - main [MainThread]: End processing [pycyclops]: success
+[2023-05-03 02:15:16] INFO root fetch - main [MainThread]: End processing [Pulse3D]: success
+[2023-05-03 02:15:16] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2023-05-03 02:15:18] INFO root fetch - main [MainThread]: End processing [rover-arm]: success
+[2023-05-03 02:15:18] INFO root fetch - main [MainThread]: Store serial: [17948769]
