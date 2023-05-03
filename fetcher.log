@@ -4618,3 +4618,70 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-03 03:55:29] INFO root fetch - main [MainThread]: End processing [je-editor]: success
 [2023-05-03 03:55:30] INFO root fetch - main [MainThread]: End processing [pynose]: success
 [2023-05-03 03:55:30] INFO root fetch - main [MainThread]: Store serial: [17950551]
+[2023-05-03 04:00:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17950551]
+[2023-05-03 04:00:39] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-03 04:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jaaql-monitor
+[2023-05-03 04:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: neon-speech
+[2023-05-03 04:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jaaql-middleware-python
+[2023-05-03 04:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bacalhau-apiclient
+[2023-05-03 04:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bacalhau-sdk
+[2023-05-03 04:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bacalhau-airflow
+[2023-05-03 04:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: CoLT5-attention
+[2023-05-03 04:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tarvis-indicators-webapi
+[2023-05-03 04:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jaaql-middleware-python
+[2023-05-03 04:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cleanlab-studio
+[2023-05-03 04:00:39] INFO root fetch - processPackages [jaaql-monitor]: New version: [1.2.25] Old Version: [1.2.24]
+[2023-05-03 04:00:39] INFO root fetch - processPackages [bacalhau-apiclient]: New version: [0.3.29] Old Version: [0.3.28]
+[2023-05-03 04:00:39] INFO root fetch - processPackages [CoLT5-attention]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-05-03 04:00:39] INFO root fetch - processPackages [bacalhau-sdk]: New version: [0.3.29] Old Version: [0.3.28]
+[2023-05-03 04:00:39] INFO root fetch - processPackages [neon-speech]: New version: [3.3.1a1] Old Version: [3.3.0]
+[2023-05-03 04:00:39] INFO root fetch - processPackages [cleanlab-studio]: New version: [1.0.0] Old Version: [0.1.35]
+[2023-05-03 04:00:39] INFO root fetch - processPackages [tarvis-indicators-webapi]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-05-03 04:00:39] INFO root fetch - processPackages [jaaql-middleware-python]: New version: [4.8.9] Old Version: [4.8.7]
+[2023-05-03 04:00:39] INFO root fetch - processPackages [bacalhau-airflow]: New version: [0.3.29] Old Version: [0.3.28]
+[2023-05-03 04:00:39] INFO root fetch - processPackages [jaaql-middleware-python]: New version: [4.8.9] Old Version: [4.8.7]
+[2023-05-03 04:00:40] INFO root fetch - processPackages [jaaql-middleware-python]: executing diffoscope
+[2023-05-03 04:00:40] INFO root fetch - processPackages [jaaql-middleware-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaaql-middleware-python-4.8.7.tar.gz tmp/jaaql-middleware-python-4.8.9.tar.gz --markdown 20230503/j/jaaql-middleware-python/4.8.7-4.8.9/diff.md --exclude *.pyd
+[2023-05-03 04:00:40] INFO root fetch - processPackages [jaaql-middleware-python]: executing diffoscope
+[2023-05-03 04:00:40] INFO root fetch - processPackages [jaaql-middleware-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaaql-middleware-python-4.8.7.tar.gz tmp/jaaql-middleware-python-4.8.9.tar.gz --markdown 20230503/j/jaaql-middleware-python/4.8.7-4.8.9/diff.md --exclude *.pyd
+[2023-05-03 04:00:40] INFO root fetch - processPackages [CoLT5-attention]: Downloading https://files.pythonhosted.org/packages/81/59/83971209587c6581be4d0fe21e25ada43284c3c7aa844646188d7a72e35c/CoLT5-attention-0.4.5.tar.gz
+[2023-05-03 04:00:40] INFO root fetch - processPackages [bacalhau-apiclient]: Downloading https://files.pythonhosted.org/packages/d0/d0/9348ed5f9ef25c97ebdd8bb19f208cf940b3794671df26ee5378f0db49b6/bacalhau_apiclient-0.3.28.tar.gz
+[2023-05-03 04:00:40] INFO root fetch - processPackages [neon-speech]: Downloading https://files.pythonhosted.org/packages/3b/26/cb34b922ad63985b464a4fc5a15874e931999a3d77e02d8143c30588ab28/neon_speech-3.3.0-py3-none-any.whl
+[2023-05-03 04:00:40] INFO root fetch - processPackages [bacalhau-sdk]: Downloading https://files.pythonhosted.org/packages/b8/1f/1670c7c29725de19b20e20f427481c816cc316f6a011ca6a087f74cd0d2c/bacalhau_sdk-0.3.28.tar.gz
+[2023-05-03 04:00:40] INFO root fetch - processPackages [bacalhau-airflow]: Downloading https://files.pythonhosted.org/packages/05/55/b7564162539c5f484f2c6d02c382756190cd852d2a731a2102ec9e8e42a2/bacalhau_airflow-0.3.28.tar.gz
+[2023-05-03 04:00:40] INFO root fetch - processPackages [jaaql-monitor]: Downloading https://files.pythonhosted.org/packages/0f/78/ce8b08502b0b476154c249292c76b971e817b226980fe4233e1d358a8300/jaaql-monitor-1.2.25.tar.gz
+[2023-05-03 04:00:40] INFO root fetch - processPackages [cleanlab-studio]: Downloading https://files.pythonhosted.org/packages/bc/3e/d008720bdc6388ad85e293e13dca6f34e0914a20e6d7a4cbc24408b136d8/cleanlab-studio-0.1.35.tar.gz
+[2023-05-03 04:00:40] INFO root fetch - processPackages [jaaql-monitor]: executing diffoscope
+[2023-05-03 04:00:40] INFO root fetch - processPackages [jaaql-monitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaaql-monitor-1.2.24.tar.gz tmp/jaaql-monitor-1.2.25.tar.gz --markdown 20230503/j/jaaql-monitor/1.2.24-1.2.25/diff.md --exclude *.pyd
+[2023-05-03 04:00:40] INFO root fetch - processPackages [neon-speech]: Downloading https://files.pythonhosted.org/packages/44/0b/2b52e2a3a08c3160b2050c71b8cf44fad055f0758b5f8ae9b125cc9bb2d6/neon_speech-3.3.1a1-py3-none-any.whl
+[2023-05-03 04:00:40] INFO root fetch - processPackages [tarvis-indicators-webapi]: Downloading https://files.pythonhosted.org/packages/29/60/5ce10c2b7e8911657535e45c1ead05068fed7f7c5e09c3beb4475c648862/tarvis-indicators-webapi-0.9.5.tar.gz
+[2023-05-03 04:00:40] INFO root fetch - processPackages [CoLT5-attention]: Downloading https://files.pythonhosted.org/packages/f8/34/598092a00486dc82263ec4217b54433ff6a8ecd7075901419010a76a2db1/CoLT5-attention-0.4.6.tar.gz
+[2023-05-03 04:00:40] INFO root fetch - processPackages [bacalhau-apiclient]: Downloading https://files.pythonhosted.org/packages/b8/aa/aadb163b7b535056997ca826c5ff65549319c62f9af4ee091375a2d25ed7/bacalhau_apiclient-0.3.29.tar.gz
+[2023-05-03 04:00:40] INFO root fetch - processPackages [bacalhau-sdk]: Downloading https://files.pythonhosted.org/packages/81/ab/889d90f37acdd9cddf31e5a8815778e3639922ef21f3c8d70ba395fa4760/bacalhau_sdk-0.3.29.tar.gz
+[2023-05-03 04:00:40] INFO root fetch - processPackages [CoLT5-attention]: executing diffoscope
+[2023-05-03 04:00:40] INFO root fetch - processPackages [CoLT5-attention]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CoLT5-attention-0.4.5.tar.gz tmp/CoLT5-attention-0.4.6.tar.gz --markdown 20230503/C/CoLT5-attention/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-05-03 04:00:40] INFO root fetch - processPackages [neon-speech]: executing diffoscope
+[2023-05-03 04:00:40] INFO root fetch - processPackages [neon-speech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_speech-3.3.0-py3-none-any.whl.zip tmp/neon_speech-3.3.1a1-py3-none-any.whl.zip --markdown 20230503/n/neon-speech/3.3.0-3.3.1a1/diff.md --exclude *.pyd
+[2023-05-03 04:00:40] INFO root fetch - processPackages [bacalhau-apiclient]: executing diffoscope
+[2023-05-03 04:00:40] INFO root fetch - processPackages [bacalhau-apiclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bacalhau_apiclient-0.3.28.tar.gz tmp/bacalhau_apiclient-0.3.29.tar.gz --markdown 20230503/b/bacalhau-apiclient/0.3.28-0.3.29/diff.md --exclude *.pyd
+[2023-05-03 04:00:40] INFO root fetch - processPackages [tarvis-indicators-webapi]: executing diffoscope
+[2023-05-03 04:00:40] INFO root fetch - processPackages [tarvis-indicators-webapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tarvis-indicators-webapi-0.9.4.tar.gz tmp/tarvis-indicators-webapi-0.9.5.tar.gz --markdown 20230503/t/tarvis-indicators-webapi/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-05-03 04:00:40] INFO root fetch - processPackages [bacalhau-sdk]: executing diffoscope
+[2023-05-03 04:00:40] INFO root fetch - processPackages [bacalhau-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bacalhau_sdk-0.3.28.tar.gz tmp/bacalhau_sdk-0.3.29.tar.gz --markdown 20230503/b/bacalhau-sdk/0.3.28-0.3.29/diff.md --exclude *.pyd
+[2023-05-03 04:00:40] INFO root fetch - processPackages [cleanlab-studio]: Downloading https://files.pythonhosted.org/packages/b6/88/c2478ae4f883cf1310ad3e6886556167e079b64a201028da00800e130546/cleanlab-studio-1.0.0.tar.gz
+[2023-05-03 04:00:40] INFO root fetch - processPackages [cleanlab-studio]: executing diffoscope
+[2023-05-03 04:00:40] INFO root fetch - processPackages [cleanlab-studio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cleanlab-studio-0.1.35.tar.gz tmp/cleanlab-studio-1.0.0.tar.gz --markdown 20230503/c/cleanlab-studio/0.1.35-1.0.0/diff.md --exclude *.pyd
+[2023-05-03 04:00:40] INFO root fetch - processPackages [bacalhau-airflow]: Downloading https://files.pythonhosted.org/packages/2e/7f/ad65eb392df56c0c55e72162f6a6b2e5bfb359233e711e8b7980de438c2c/bacalhau_airflow-0.3.29.tar.gz
+[2023-05-03 04:00:40] INFO root fetch - processPackages [bacalhau-airflow]: executing diffoscope
+[2023-05-03 04:00:40] INFO root fetch - processPackages [bacalhau-airflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bacalhau_airflow-0.3.28.tar.gz tmp/bacalhau_airflow-0.3.29.tar.gz --markdown 20230503/b/bacalhau-airflow/0.3.28-0.3.29/diff.md --exclude *.pyd
+[2023-05-03 04:00:41] INFO root fetch - main [MainThread]: End processing [jaaql-monitor]: success
+[2023-05-03 04:00:41] INFO root fetch - main [MainThread]: End processing [jaaql-middleware-python]: success
+[2023-05-03 04:00:41] INFO root fetch - main [MainThread]: End processing [bacalhau-sdk]: success
+[2023-05-03 04:00:41] INFO root fetch - main [MainThread]: End processing [tarvis-indicators-webapi]: success
+[2023-05-03 04:00:41] INFO root fetch - main [MainThread]: End processing [neon-speech]: success
+[2023-05-03 04:00:42] INFO root fetch - main [MainThread]: End processing [CoLT5-attention]: success
+[2023-05-03 04:00:42] INFO root fetch - main [MainThread]: End processing [bacalhau-airflow]: success
+[2023-05-03 04:00:42] INFO root fetch - main [MainThread]: End processing [bacalhau-apiclient]: success
+[2023-05-03 04:00:43] INFO root fetch - main [MainThread]: End processing [jaaql-middleware-python]: success
+[2023-05-03 04:00:43] INFO root fetch - main [MainThread]: End processing [cleanlab-studio]: success
+[2023-05-03 04:00:43] INFO root fetch - main [MainThread]: Store serial: [17950580]
