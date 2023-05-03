@@ -13992,3 +13992,133 @@ No space left on device. Diffoscope exiting.
 [2023-05-03 13:50:39] INFO root fetch - main [MainThread]: End processing [bpf4]: success
 [2023-05-03 13:50:43] INFO root fetch - main [MainThread]: End processing [voici]: success
 [2023-05-03 13:50:43] INFO root fetch - main [MainThread]: Store serial: [17955874]
+[2023-05-03 13:55:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17955874]
+[2023-05-03 13:55:52] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-05-03 13:55:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: assisted-service-client
+[2023-05-03 13:55:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyghs
+[2023-05-03 13:55:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-dllib
+[2023-05-03 13:55:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hiddifypanel
+[2023-05-03 13:55:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cardano-clusterlib
+[2023-05-03 13:55:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openshift-cluster-management-python-client
+[2023-05-03 13:55:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: proteoformquant
+[2023-05-03 13:55:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: proteoformquant
+[2023-05-03 13:55:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bigdl-orca
+[2023-05-03 13:55:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: clipped
+[2023-05-03 13:55:52] INFO root fetch - processPackages [bigdl-orca]: New version: [2.4.0b20230502] Old Version: [2.4.0b20230501]
+[2023-05-03 13:55:52] INFO root fetch - processPackages [pyghs]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-05-03 13:55:52] INFO root fetch - processPackages [bigdl-dllib]: New version: [2.4.0b20230503] Old Version: [2.4.0b20230502]
+[2023-05-03 13:55:52] INFO root fetch - processPackages [hiddifypanel]: New version: [6.1.1] Old Version: [6.1.0]
+[2023-05-03 13:55:52] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2023-05-03 13:55:52] INFO root fetch - processPackages [proteoformquant]: New version: [0.5] Old Version: [0.4]
+[2023-05-03 13:55:52] INFO root fetch - processPackages [proteoformquant]: New version: [0.5] Old Version: [0.4]
+[2023-05-03 13:55:52] INFO root fetch - processPackages [openshift-cluster-management-python-client]: New version: [1.0.13] Old Version: [1.0.11]
+[2023-05-03 13:55:52] INFO root fetch - processPackages [clipped]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-05-03 13:55:52] INFO root fetch - processPackages [cardano-clusterlib]: New version: [0.4.7] Old Version: [0.4.6]
+[2023-05-03 13:55:52] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-05-03 13:55:52] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-6.1.0-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/hiddifypanel-6.1.1-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230503/h/hiddifypanel/6.1.0-6.1.1/diff.md --exclude *.pyd
+[2023-05-03 13:55:52] INFO root fetch - processPackages [bigdl-dllib]: Downloading https://files.pythonhosted.org/packages/e8/fe/9fece428233acfb4e4566e30bbbcb00f83da3b95deee81b97dc1c4b4054c/bigdl-dllib-2.4.0b20230502.tar.gz
+[2023-05-03 13:55:52] INFO root fetch - processPackages [bigdl-orca]: Downloading https://files.pythonhosted.org/packages/68/3c/0b8cdbb040398ed3827f2174aa227dec4b2049cfc81b5ccac9909bc19b4a/bigdl_orca-2.4.0b20230501-py3-none-manylinux1_x86_64.whl
+[2023-05-03 13:55:52] WARNING root fetch - processPackages [bigdl-orca]: Skipping package: exceeds size limit 20369179>=10485760
+[2023-05-03 13:55:52] INFO root fetch - processPackages [bigdl-orca]: Start processing: bigdl-friesian
+[2023-05-03 13:55:52] INFO root fetch - main [MainThread]: End processing [bigdl-orca] error
+[2023-05-03 13:55:52] INFO root fetch - processPackages [pyghs]: Downloading https://files.pythonhosted.org/packages/5e/b0/7f7cdd00579173e7deb08eb980fe50ea2f3d17fa8f11d7848ce29fab9190/pyghs-0.1.1.tar.gz
+[2023-05-03 13:55:52] INFO root fetch - processPackages [proteoformquant]: Downloading https://files.pythonhosted.org/packages/6d/b8/7105086128e9bc1ee4101dcba5c640741ef935b81d781fa380aaeb22e653/proteoformquant-0.4.tar.gz
+[2023-05-03 13:55:52] INFO root fetch - processPackages [proteoformquant]: Downloading https://files.pythonhosted.org/packages/6d/b8/7105086128e9bc1ee4101dcba5c640741ef935b81d781fa380aaeb22e653/proteoformquant-0.4.tar.gz
+[2023-05-03 13:55:52] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/a5/ee/a5837c5427b0689f863021f5d65c42ff9d4ae267905a751492653198b2dc/assisted_service_client-2.9.0.post8-py3-none-any.whl
+[2023-05-03 13:55:52] INFO root fetch - processPackages [openshift-cluster-management-python-client]: Downloading https://files.pythonhosted.org/packages/64/e3/d5bc7ab2dd0527867dbd1be140331a52294331117cbd3d53e8d8695c0fc6/openshift-cluster-management-python-client-1.0.11.tar.gz
+[2023-05-03 13:55:52] WARNING root fetch - processPackages [bigdl-dllib]: Skipping package: exceeds size limit 53559919>=10485760
+[2023-05-03 13:55:52] INFO root fetch - processPackages [bigdl-dllib]: Start processing: openpecha
+[2023-05-03 13:55:52] INFO root fetch - main [MainThread]: End processing [bigdl-dllib] error
+[2023-05-03 13:55:52] INFO root fetch - processPackages [bigdl-friesian]: New version: [2.4.0b20230503] Old Version: [2.4.0b20230502]
+[2023-05-03 13:55:52] INFO root fetch - processPackages [cardano-clusterlib]: Downloading https://files.pythonhosted.org/packages/59/e8/485081a6ad88b9346c985fa905f6de578ef87c37527a8ecbfd670e507312/cardano-clusterlib-0.4.6.tar.gz
+[2023-05-03 13:55:52] INFO root fetch - processPackages [clipped]: Downloading https://files.pythonhosted.org/packages/74/56/c1beee9edc9e865f8114965722235c0c7989dac109827b5da4d39ad5f2e1/clipped-0.3.3.tar.gz
+[2023-05-03 13:55:52] INFO root fetch - processPackages [openpecha]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-03 13:55:52] INFO root fetch - processPackages [openshift-cluster-management-python-client]: Downloading https://files.pythonhosted.org/packages/ba/28/ffd21820085b25abf3d07c065e34c9579bf3d7c128021ff76faadc419d0d/openshift-cluster-management-python-client-1.0.13.tar.gz
+[2023-05-03 13:55:52] INFO root fetch - processPackages [pyghs]: Downloading https://files.pythonhosted.org/packages/62/7f/75eda264df67e4480c6b14ba68faea98f13b62f37d9c5daea99c633bf0da/pyghs-0.2.0.tar.gz
+[2023-05-03 13:55:52] INFO root fetch - processPackages [pyghs]: executing diffoscope
+[2023-05-03 13:55:52] INFO root fetch - processPackages [pyghs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyghs-0.1.1.tar.gz tmp/pyghs-0.2.0.tar.gz --markdown 20230503/p/pyghs/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-05-03 13:55:53] INFO root fetch - processPackages [clipped]: executing diffoscope
+[2023-05-03 13:55:53] INFO root fetch - processPackages [clipped]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clipped-0.3.2.tar.gz tmp/clipped-0.3.3.tar.gz --markdown 20230503/c/clipped/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-05-03 13:55:53] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/f6/90/2599b3c134ea21c06d22f83dd1dfac6801d974b9aa0958f008fb332e5b4d/assisted_service_client-2.9.0.post9-py3-none-any.whl
+[2023-05-03 13:55:53] INFO root fetch - processPackages [openpecha]: Downloading https://files.pythonhosted.org/packages/dd/d1/cbf2f58ee893aa1a9cc51c9306b87365ca142dcf33930d89873081f76e2e/openpecha-0.9.8.tar.gz
+[2023-05-03 13:55:53] INFO root fetch - processPackages [openshift-cluster-management-python-client]: executing diffoscope
+[2023-05-03 13:55:53] INFO root fetch - processPackages [openshift-cluster-management-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshift-cluster-management-python-client-1.0.11.tar.gz tmp/openshift-cluster-management-python-client-1.0.13.tar.gz --markdown 20230503/o/openshift-cluster-management-python-client/1.0.11-1.0.13/diff.md --exclude *.pyd
+[2023-05-03 13:55:53] INFO root fetch - processPackages [bigdl-friesian]: Downloading https://files.pythonhosted.org/packages/88/20/e25054df6c031a32432d48874937d70758aa9d6864c8f2525a63258b55f1/bigdl_friesian-2.4.0b20230503-py3-none-manylinux1_x86_64.whl
+[2023-05-03 13:55:53] INFO root fetch - processPackages [cardano-clusterlib]: Downloading https://files.pythonhosted.org/packages/9c/3e/bec9d49247c4cd8c7038d655b6b90ff3cc455835f823d8d50761f9282478/cardano-clusterlib-0.4.7.tar.gz
+[2023-05-03 13:55:53] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2023-05-03 13:55:53] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20230503/a/assisted-service-client/2.9.0.post8-2.9.0.post9/diff.md --exclude *.pyd
+[2023-05-03 13:55:53] INFO root fetch - processPackages [proteoformquant]: Downloading https://files.pythonhosted.org/packages/79/55/ac42ac5a2dffcf719273f49dc68b445c233b9255a81d0c153dafaa8100b3/proteoformquant-0.5.tar.gz
+[2023-05-03 13:55:53] INFO root fetch - processPackages [proteoformquant]: Downloading https://files.pythonhosted.org/packages/79/55/ac42ac5a2dffcf719273f49dc68b445c233b9255a81d0c153dafaa8100b3/proteoformquant-0.5.tar.gz
+[2023-05-03 13:55:53] INFO root fetch - processPackages [bigdl-friesian]: executing diffoscope
+[2023-05-03 13:55:53] INFO root fetch - processPackages [bigdl-friesian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian-2.4.0b20230502-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian-2.4.0b20230503-py3-none-manylinux1_x86_64.whl.zip --markdown 20230503/b/bigdl-friesian/2.4.0b20230502-2.4.0b20230503/diff.md --exclude *.pyd
+[2023-05-03 13:55:53] INFO root fetch - processPackages [cardano-clusterlib]: executing diffoscope
+[2023-05-03 13:55:53] INFO root fetch - processPackages [cardano-clusterlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cardano-clusterlib-0.4.6.tar.gz tmp/cardano-clusterlib-0.4.7.tar.gz --markdown 20230503/c/cardano-clusterlib/0.4.6-0.4.7/diff.md --exclude *.pyd
+[2023-05-03 13:55:53] INFO root fetch - processPackages [proteoformquant]: executing diffoscope
+[2023-05-03 13:55:53] INFO root fetch - processPackages [proteoformquant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proteoformquant-0.4.tar.gz tmp/proteoformquant-0.5.tar.gz --markdown 20230503/p/proteoformquant/0.4-0.5/diff.md --exclude *.pyd
+[2023-05-03 13:55:53] INFO root fetch - processPackages [proteoformquant]: executing diffoscope
+[2023-05-03 13:55:53] INFO root fetch - processPackages [proteoformquant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proteoformquant-0.4.tar.gz tmp/proteoformquant-0.5.tar.gz --markdown 20230503/p/proteoformquant/0.4-0.5/diff.md --exclude *.pyd
+[2023-05-03 13:55:53] INFO root fetch - processPackages [openpecha]: Downloading https://files.pythonhosted.org/packages/64/7b/542245d4dff1d18c7d29cfa2a80cffe2f28c8168db4019724f7bba73ea72/openpecha-0.9.9.tar.gz
+[2023-05-03 13:55:53] INFO root fetch - processPackages [openpecha]: executing diffoscope
+[2023-05-03 13:55:53] INFO root fetch - processPackages [openpecha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openpecha-0.9.8.tar.gz tmp/openpecha-0.9.9.tar.gz --markdown 20230503/o/openpecha/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-03 13:55:54] INFO root fetch - processPackages [pyghs]: Start processing: bigdl
+[2023-05-03 13:55:54] INFO root fetch - main [MainThread]: End processing [pyghs]: success
+[2023-05-03 13:55:54] INFO root fetch - processPackages [bigdl]: New version: [2.4.0b20230502] Old Version: [2.4.0b20230501]
+[2023-05-03 13:55:54] INFO root fetch - processPackages [openshift-cluster-management-python-client]: Start processing: certora-cli-alpha-oz-docker-json5
+[2023-05-03 13:55:54] INFO root fetch - main [MainThread]: End processing [openshift-cluster-management-python-client]: success
+[2023-05-03 13:55:54] INFO root fetch - processPackages [bigdl]: Downloading https://files.pythonhosted.org/packages/e9/7a/da1758c1c954ad4dccc012cc34a359f9f7a6c3768cad293d96aac9e7e33f/bigdl-2.4.0b20230502-py3-none-manylinux1_x86_64.whl
+[2023-05-03 13:55:54] WARNING root fetch - processPackages [certora-cli-alpha-oz-docker-json5]: Skipping, unable to determine old version
+[2023-05-03 13:55:54] INFO root fetch - processPackages [proteoformquant]: Start processing: lch
+[2023-05-03 13:55:54] INFO root fetch - main [MainThread]: End processing [proteoformquant]: success
+[2023-05-03 13:55:54] INFO root fetch - processPackages [certora-cli-alpha-oz-docker-json5]: Start processing: qa-keys-test
+[2023-05-03 13:55:54] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-oz-docker-json5] error
+[2023-05-03 13:55:54] INFO root fetch - processPackages [qa-keys-test]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-03 13:55:54] INFO root fetch - processPackages [qa-keys-test]: executing diffoscope
+[2023-05-03 13:55:54] INFO root fetch - processPackages [qa-keys-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qa-keys-test-0.0.4.tar.gz tmp/qa-keys-test-0.0.5.tar.gz --markdown 20230503/q/qa-keys-test/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-03 13:55:54] INFO root fetch - processPackages [bigdl]: executing diffoscope
+[2023-05-03 13:55:54] INFO root fetch - processPackages [bigdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl-2.4.0b20230501-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl-2.4.0b20230502-py3-none-manylinux1_x86_64.whl.zip --markdown 20230503/b/bigdl/2.4.0b20230501-2.4.0b20230502/diff.md --exclude *.pyd
+[2023-05-03 13:55:54] ERROR root fetch - processPackages [lch]: Unable to get metadata: No such project 'lch'
+[2023-05-03 13:55:54] INFO root fetch - processPackages [lch]: Start processing: Shimarin
+[2023-05-03 13:55:54] INFO root fetch - main [MainThread]: End processing [lch] error
+[2023-05-03 13:55:54] INFO root fetch - processPackages [proteoformquant]: Start processing: pyqrack
+[2023-05-03 13:55:54] INFO root fetch - main [MainThread]: End processing [proteoformquant]: success
+[2023-05-03 13:55:54] WARNING root fetch - processPackages [Shimarin]: Skipping, unable to determine old version
+[2023-05-03 13:55:54] INFO root fetch - processPackages [Shimarin]: Start processing: django-dnoticias-services
+[2023-05-03 13:55:54] INFO root fetch - main [MainThread]: End processing [Shimarin] error
+[2023-05-03 13:55:54] INFO root fetch - processPackages [pyqrack]: New version: [1.8.2] Old Version: [1.8.1]
+[2023-05-03 13:55:54] INFO root fetch - processPackages [django-dnoticias-services]: New version: [1.1] Old Version: [1.0.97]
+[2023-05-03 13:55:54] INFO root fetch - processPackages [pyqrack]: executing diffoscope
+[2023-05-03 13:55:54] INFO root fetch - processPackages [pyqrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqrack-1.8.1.tar.gz tmp/pyqrack-1.8.2.tar.gz --markdown 20230503/p/pyqrack/1.8.1-1.8.2/diff.md --exclude *.pyd
+[2023-05-03 13:55:55] INFO root fetch - processPackages [django-dnoticias-services]: Downloading https://files.pythonhosted.org/packages/78/7d/7f7a3da865248eaa387c3d9adbff858528f98ba121dff41014a520ce5e15/django_dnoticias_services-1.0.97.tar.gz
+[2023-05-03 13:55:55] INFO root fetch - processPackages [bigdl-friesian]: Start processing: pytorch-metric-learning
+[2023-05-03 13:55:55] INFO root fetch - main [MainThread]: End processing [bigdl-friesian]: success
+[2023-05-03 13:55:55] INFO root fetch - processPackages [django-dnoticias-services]: Downloading https://files.pythonhosted.org/packages/c8/4d/36120ea0b070017df23bf3375cb15aebe007117c6c107da51265d0921f7c/django_dnoticias_services-1.1.tar.gz
+[2023-05-03 13:55:55] INFO root fetch - processPackages [pytorch-metric-learning]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-05-03 13:55:55] INFO root fetch - processPackages [django-dnoticias-services]: executing diffoscope
+[2023-05-03 13:55:55] INFO root fetch - processPackages [django-dnoticias-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_dnoticias_services-1.0.97.tar.gz tmp/django_dnoticias_services-1.1.tar.gz --markdown 20230503/d/django-dnoticias-services/1.0.97-1.1/diff.md --exclude *.pyd
+[2023-05-03 13:55:55] INFO root fetch - processPackages [pytorch-metric-learning]: Downloading https://files.pythonhosted.org/packages/fa/4f/216b76a20902ac2f00bf7009b5bca11a3b2db9baded9e66287b8b5d2afb2/pytorch-metric-learning-2.1.0.tar.gz
+[2023-05-03 13:55:55] INFO root fetch - processPackages [cardano-clusterlib]: Start processing: maus
+[2023-05-03 13:55:55] INFO root fetch - main [MainThread]: End processing [cardano-clusterlib]: success
+[2023-05-03 13:55:55] INFO root fetch - processPackages [maus]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-03 13:55:55] INFO root fetch - processPackages [bigdl]: Start processing: django-dnoticias-auth
+[2023-05-03 13:55:55] INFO root fetch - main [MainThread]: End processing [bigdl]: success
+[2023-05-03 13:55:55] INFO root fetch - main [MainThread]: End processing [qa-keys-test]: success
+[2023-05-03 13:55:56] INFO root fetch - processPackages [maus]: executing diffoscope
+[2023-05-03 13:55:56] INFO root fetch - processPackages [maus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maus-0.3.8.tar.gz tmp/maus-0.3.9.tar.gz --markdown 20230503/m/maus/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-03 13:55:56] INFO root fetch - processPackages [pytorch-metric-learning]: Downloading https://files.pythonhosted.org/packages/ac/ad/c95027fd14a1bc5afbcc81a8e727a61599a971ed61ed3779ca239ab9c8ef/pytorch-metric-learning-2.1.1.tar.gz
+[2023-05-03 13:55:56] INFO root fetch - main [MainThread]: End processing [clipped]: success
+[2023-05-03 13:55:56] INFO root fetch - processPackages [django-dnoticias-auth]: New version: [1.3rc9] Old Version: [1.3rc8]
+[2023-05-03 13:55:56] INFO root fetch - main [MainThread]: End processing [pyqrack]: success
+[2023-05-03 13:55:56] INFO root fetch - processPackages [pytorch-metric-learning]: executing diffoscope
+[2023-05-03 13:55:56] INFO root fetch - processPackages [pytorch-metric-learning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch-metric-learning-2.1.0.tar.gz tmp/pytorch-metric-learning-2.1.1.tar.gz --markdown 20230503/p/pytorch-metric-learning/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-05-03 13:55:56] INFO root fetch - processPackages [django-dnoticias-auth]: Downloading https://files.pythonhosted.org/packages/69/a6/6c1b254c96bdd6b927b9a4d855c6cc969fb9538e372cd82eba36b8511f30/django_dnoticias_auth-1.3rc8.tar.gz
+[2023-05-03 13:55:56] INFO root fetch - main [MainThread]: End processing [openpecha]: success
+[2023-05-03 13:55:56] INFO root fetch - processPackages [django-dnoticias-auth]: Downloading https://files.pythonhosted.org/packages/8c/e3/fda76c4416e1891b6a260f8640bacae541e65171c5a2f3901e8c268882d3/django_dnoticias_auth-1.3rc9.tar.gz
+[2023-05-03 13:55:56] INFO root fetch - processPackages [django-dnoticias-auth]: executing diffoscope
+[2023-05-03 13:55:56] INFO root fetch - processPackages [django-dnoticias-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_dnoticias_auth-1.3rc8.tar.gz tmp/django_dnoticias_auth-1.3rc9.tar.gz --markdown 20230503/d/django-dnoticias-auth/1.3rc8-1.3rc9/diff.md --exclude *.pyd
+[2023-05-03 13:55:57] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2023-05-03 13:55:57] INFO root fetch - main [MainThread]: End processing [django-dnoticias-services]: success
+[2023-05-03 13:55:57] INFO root fetch - main [MainThread]: End processing [django-dnoticias-auth]: success
+[2023-05-03 13:55:57] INFO root fetch - main [MainThread]: End processing [pytorch-metric-learning]: success
+[2023-05-03 13:55:58] INFO root fetch - main [MainThread]: End processing [maus]: success
+[2023-05-03 13:56:09] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-05-03 13:56:09] INFO root fetch - main [MainThread]: Store serial: [17955966]
