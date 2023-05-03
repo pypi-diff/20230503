@@ -5246,3 +5246,36 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-03 05:13:52] INFO root fetch - main [MainThread]: End processing [GANDLF]: success
 [2023-05-03 05:14:00] INFO root fetch - main [MainThread]: End processing [fedml]: success
 [2023-05-03 05:14:00] INFO root fetch - main [MainThread]: Store serial: [17950898]
+[2023-05-03 05:19:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17950898]
+[2023-05-03 05:19:09] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-03 05:19:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pygmtsar
+[2023-05-03 05:19:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyPDPM
+[2023-05-03 05:19:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dotabase
+[2023-05-03 05:19:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wombato
+[2023-05-03 05:19:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdktf-cdktf-provider-pagerduty
+[2023-05-03 05:19:09] INFO root fetch - processPackages [wombato]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-03 05:19:09] INFO root fetch - processPackages [PyPDPM]: New version: [0.0.5.1] Old Version: [0.0.5]
+[2023-05-03 05:19:09] INFO root fetch - processPackages [pygmtsar]: New version: [2023.5.3] Old Version: [2023.4.20]
+[2023-05-03 05:19:09] INFO root fetch - processPackages [dotabase]: New version: [7.4.2] Old Version: [7.4.1]
+[2023-05-03 05:19:09] INFO root fetch - processPackages [cdktf-cdktf-provider-pagerduty]: New version: [7.0.2] Old Version: [7.0.1]
+[2023-05-03 05:19:09] INFO root fetch - processPackages [wombato]: executing diffoscope
+[2023-05-03 05:19:09] INFO root fetch - processPackages [wombato]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wombato-0.0.3.tar.gz tmp/wombato-0.0.4.tar.gz --markdown 20230503/w/wombato/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-03 05:19:09] INFO root fetch - processPackages [PyPDPM]: Downloading https://files.pythonhosted.org/packages/73/8c/9a67184be04c32bbd0ce8f592c9a1df9332b1ac7835b511334c89372a1be/PyPDPM-0.0.5.1.tar.gz
+[2023-05-03 05:19:09] INFO root fetch - processPackages [dotabase]: Downloading https://files.pythonhosted.org/packages/fd/57/3a9731e5e882e1a1f13ce0f406082e4c3b2132cbbc75d04fcd69090d59c4/dotabase-7.4.1.tar.gz
+[2023-05-03 05:19:09] INFO root fetch - processPackages [pygmtsar]: Downloading https://files.pythonhosted.org/packages/a5/7a/815e6a46552854a8767b9747b7abfcd49c365bf4cfa35a36915e3bfd503a/pygmtsar-2023.4.20.tar.gz
+[2023-05-03 05:19:09] INFO root fetch - processPackages [cdktf-cdktf-provider-pagerduty]: Downloading https://files.pythonhosted.org/packages/6b/2f/36d97d4b6354c2855d55531e63062341443f12f426eaa8bcee4a7e80444d/cdktf-cdktf-provider-pagerduty-7.0.1.tar.gz
+[2023-05-03 05:19:09] INFO root fetch - processPackages [PyPDPM]: executing diffoscope
+[2023-05-03 05:19:09] INFO root fetch - processPackages [PyPDPM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyPDPM-0.0.5.tar.gz tmp/PyPDPM-0.0.5.1.tar.gz --markdown 20230503/P/PyPDPM/0.0.5-0.0.5.1/diff.md --exclude *.pyd
+[2023-05-03 05:19:09] WARNING root fetch - processPackages [dotabase]: Skipping package: exceeds size limit 15915076>=10485760
+[2023-05-03 05:19:09] INFO root fetch - main [MainThread]: End processing [dotabase] error
+[2023-05-03 05:19:09] INFO root fetch - processPackages [pygmtsar]: Downloading https://files.pythonhosted.org/packages/5e/25/63e17ba01e521a937a6e5a1ddd278934c90addf4d9a9a4f27a770953c740/pygmtsar-2023.5.3.tar.gz
+[2023-05-03 05:19:09] INFO root fetch - processPackages [pygmtsar]: executing diffoscope
+[2023-05-03 05:19:09] INFO root fetch - processPackages [pygmtsar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygmtsar-2023.4.20.tar.gz tmp/pygmtsar-2023.5.3.tar.gz --markdown 20230503/p/pygmtsar/2023.4.20-2023.5.3/diff.md --exclude *.pyd
+[2023-05-03 05:19:10] INFO root fetch - processPackages [cdktf-cdktf-provider-pagerduty]: Downloading https://files.pythonhosted.org/packages/6a/be/0f47a2c182700c663eae652364e76d26f1044dc1ccea9f808b97e92fa3aa/cdktf-cdktf-provider-pagerduty-7.0.2.tar.gz
+[2023-05-03 05:19:10] INFO root fetch - processPackages [cdktf-cdktf-provider-pagerduty]: executing diffoscope
+[2023-05-03 05:19:10] INFO root fetch - processPackages [cdktf-cdktf-provider-pagerduty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-pagerduty-7.0.1.tar.gz tmp/cdktf-cdktf-provider-pagerduty-7.0.2.tar.gz --markdown 20230503/c/cdktf-cdktf-provider-pagerduty/7.0.1-7.0.2/diff.md --exclude *.pyd
+[2023-05-03 05:19:10] INFO root fetch - main [MainThread]: End processing [wombato]: success
+[2023-05-03 05:19:10] INFO root fetch - main [MainThread]: End processing [PyPDPM]: success
+[2023-05-03 05:19:11] INFO root fetch - main [MainThread]: End processing [pygmtsar]: success
+[2023-05-03 05:19:15] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-pagerduty]: success
+[2023-05-03 05:19:15] INFO root fetch - main [MainThread]: Store serial: [17950914]
