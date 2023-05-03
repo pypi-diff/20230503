@@ -12582,3 +12582,85 @@ No space left on device. Diffoscope exiting.
 [2023-05-03 12:33:36] INFO root fetch - main [MainThread]: End processing [frictionless]: success
 [2023-05-03 12:33:36] INFO root fetch - main [MainThread]: End processing [ibllib]: success
 [2023-05-03 12:33:36] INFO root fetch - main [MainThread]: Store serial: [17955052]
+[2023-05-03 12:38:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17955052]
+[2023-05-03 12:38:45] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-03 12:38:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qfinuwa
+[2023-05-03 12:38:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ExpoSeq
+[2023-05-03 12:38:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Flask-SocketIO
+[2023-05-03 12:38:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: purgelogs
+[2023-05-03 12:38:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: constellate
+[2023-05-03 12:38:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dynamic-factory
+[2023-05-03 12:38:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: quorum-mininode-py
+[2023-05-03 12:38:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: toolnew14
+[2023-05-03 12:38:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nsface-python
+[2023-05-03 12:38:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: extr-ds
+[2023-05-03 12:38:45] WARNING root fetch - processPackages [dynamic-factory]: Skipping, unable to determine old version
+[2023-05-03 12:38:45] INFO root fetch - processPackages [dynamic-factory]: Start processing: nsface-cpu-python
+[2023-05-03 12:38:45] INFO root fetch - main [MainThread]: End processing [dynamic-factory] error
+[2023-05-03 12:38:45] INFO root fetch - processPackages [qfinuwa]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-05-03 12:38:45] INFO root fetch - processPackages [constellate]: New version: [0.6.95] Old Version: [0.6.94]
+[2023-05-03 12:38:45] INFO root fetch - processPackages [ExpoSeq]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-03 12:38:45] INFO root fetch - processPackages [nsface-python]: New version: [1.1.67] Old Version: [1.1.61]
+[2023-05-03 12:38:45] INFO root fetch - processPackages [quorum-mininode-py]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-05-03 12:38:45] INFO root fetch - processPackages [purgelogs]: New version: [0.2.3] Old Version: [0.2.1]
+[2023-05-03 12:38:45] INFO root fetch - processPackages [extr-ds]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 12:38:45] WARNING root fetch - processPackages [toolnew14]: Skipping, unable to determine old version
+[2023-05-03 12:38:45] INFO root fetch - processPackages [toolnew14]: Start processing: ichika
+[2023-05-03 12:38:45] INFO root fetch - main [MainThread]: End processing [toolnew14] error
+[2023-05-03 12:38:45] INFO root fetch - processPackages [nsface-cpu-python]: New version: [1.1.67] Old Version: [1.1.59]
+[2023-05-03 12:38:45] INFO root fetch - processPackages [Flask-SocketIO]: New version: [5.3.4] Old Version: [5.3.3]
+[2023-05-03 12:38:45] INFO root fetch - processPackages [ichika]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-03 12:38:45] INFO root fetch - processPackages [ExpoSeq]: executing diffoscope
+[2023-05-03 12:38:45] INFO root fetch - processPackages [ExpoSeq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ExpoSeq-1.0.2.tar.gz tmp/ExpoSeq-1.0.3.tar.gz --markdown 20230503/E/ExpoSeq/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-03 12:38:45] INFO root fetch - processPackages [extr-ds]: executing diffoscope
+[2023-05-03 12:38:45] INFO root fetch - processPackages [extr-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extr-ds-0.0.8.tar.gz tmp/extr-ds-0.0.9.tar.gz --markdown 20230503/e/extr-ds/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 12:38:45] INFO root fetch - processPackages [quorum-mininode-py]: Downloading https://files.pythonhosted.org/packages/f7/63/44a0c3f4400e4cab7e70a4cf14fb272c70760b5be0fd64c0746ed3e356a2/quorum_mininode_py-1.2.4.tar.gz
+[2023-05-03 12:38:45] INFO root fetch - processPackages [constellate]: Downloading https://files.pythonhosted.org/packages/7e/55/381f31950692e0254bc19135be55c37ebe9ab3b908338718acf47218a705/constellate-0.6.95-py2.py3-none-any.whl
+[2023-05-03 12:38:45] INFO root fetch - processPackages [nsface-cpu-python]: Downloading https://files.pythonhosted.org/packages/62/cc/6104a2f9e04cdd1116cdf379287016385e8aa5f0264be425ea9feee27a95/nsface_cpu_python-1.1.59-py3-none-any.whl
+[2023-05-03 12:38:45] INFO root fetch - processPackages [purgelogs]: Downloading https://files.pythonhosted.org/packages/fc/fb/3c26a0f7a75c650ca6309f36418fab63c94bfc781598d08070f8192d745e/purgelogs-0.2.1.tar.gz
+[2023-05-03 12:38:45] INFO root fetch - processPackages [qfinuwa]: Downloading https://files.pythonhosted.org/packages/fa/aa/fcb0de9af0ca0ffa7851335625e41066c56ac7a6097660bb97bd7e556d6f/qfinuwa-1.1.8.tar.gz
+[2023-05-03 12:38:45] INFO root fetch - processPackages [Flask-SocketIO]: Downloading https://files.pythonhosted.org/packages/b8/34/f736540efa8a2f3587a9019639ca2787d0f663479eb554b230fdb5a72bc9/Flask-SocketIO-5.3.3.tar.gz
+[2023-05-03 12:38:45] INFO root fetch - processPackages [ichika]: Downloading https://files.pythonhosted.org/packages/ca/75/52d7862d1daed6e346de7ad6357a4c10e234a4dd65e02815401960497b54/ichika-0.0.4.tar.gz
+[2023-05-03 12:38:45] INFO root fetch - processPackages [nsface-python]: Downloading https://files.pythonhosted.org/packages/00/d9/f0544561225fdcd17b242b40f48a230a07b6e1decc0d8e90d2f512017049/nsface_python-1.1.67-py3-none-any.whl
+[2023-05-03 12:38:45] INFO root fetch - processPackages [constellate]: executing diffoscope
+[2023-05-03 12:38:45] INFO root fetch - processPackages [constellate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/constellate-0.6.94-py2.py3-none-any.whl.zip tmp/constellate-0.6.95-py2.py3-none-any.whl.zip --markdown 20230503/c/constellate/0.6.94-0.6.95/diff.md --exclude *.pyd
+[2023-05-03 12:38:45] INFO root fetch - processPackages [qfinuwa]: executing diffoscope
+[2023-05-03 12:38:45] INFO root fetch - processPackages [qfinuwa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qfinuwa-1.1.7.tar.gz tmp/qfinuwa-1.1.8.tar.gz --markdown 20230503/q/qfinuwa/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-05-03 12:38:45] INFO root fetch - processPackages [quorum-mininode-py]: Downloading https://files.pythonhosted.org/packages/09/29/ab7e15a62bdc2a1166ac4cb88b5343bb9711a975232d60721a90b6e22002/quorum_mininode_py-1.2.5.tar.gz
+[2023-05-03 12:38:45] INFO root fetch - processPackages [nsface-cpu-python]: Downloading https://files.pythonhosted.org/packages/64/42/d3aa01d9b9a4dbd409f7835b3b781557be4edec156aa48d2693dd847d207/nsface_cpu_python-1.1.67-py3-none-any.whl
+[2023-05-03 12:38:45] INFO root fetch - processPackages [ichika]: Downloading https://files.pythonhosted.org/packages/b2/6f/7c80021a4adf2e8caeee1eae044697a1bf22944c95e6c0ed5c30a97dade0/ichika-0.0.5.tar.gz
+[2023-05-03 12:38:45] INFO root fetch - processPackages [Flask-SocketIO]: Downloading https://files.pythonhosted.org/packages/fd/f5/57074a91f80a92c868940083cd9922aca5fc3638559245aa86b98787ba47/Flask-SocketIO-5.3.4.tar.gz
+[2023-05-03 12:38:45] INFO root fetch - processPackages [quorum-mininode-py]: executing diffoscope
+[2023-05-03 12:38:45] INFO root fetch - processPackages [quorum-mininode-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quorum_mininode_py-1.2.4.tar.gz tmp/quorum_mininode_py-1.2.5.tar.gz --markdown 20230503/q/quorum-mininode-py/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-05-03 12:38:45] INFO root fetch - processPackages [nsface-python]: executing diffoscope
+[2023-05-03 12:38:45] INFO root fetch - processPackages [nsface-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsface_python-1.1.61-py3-none-any.whl.zip tmp/nsface_python-1.1.67-py3-none-any.whl.zip --markdown 20230503/n/nsface-python/1.1.61-1.1.67/diff.md --exclude *.pyd
+[2023-05-03 12:38:46] INFO root fetch - processPackages [purgelogs]: Downloading https://files.pythonhosted.org/packages/43/4a/780ab4e78313c751d4cb461a3b17cf0f259db7b0e5e70efef10f51920488/purgelogs-0.2.3.tar.gz
+[2023-05-03 12:38:46] INFO root fetch - processPackages [Flask-SocketIO]: executing diffoscope
+[2023-05-03 12:38:46] INFO root fetch - processPackages [Flask-SocketIO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Flask-SocketIO-5.3.3.tar.gz tmp/Flask-SocketIO-5.3.4.tar.gz --markdown 20230503/F/Flask-SocketIO/5.3.3-5.3.4/diff.md --exclude *.pyd
+[2023-05-03 12:38:46] INFO root fetch - processPackages [nsface-cpu-python]: executing diffoscope
+[2023-05-03 12:38:46] INFO root fetch - processPackages [nsface-cpu-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsface_cpu_python-1.1.59-py3-none-any.whl.zip tmp/nsface_cpu_python-1.1.67-py3-none-any.whl.zip --markdown 20230503/n/nsface-cpu-python/1.1.59-1.1.67/diff.md --exclude *.pyd
+[2023-05-03 12:38:46] INFO root fetch - processPackages [purgelogs]: executing diffoscope
+[2023-05-03 12:38:46] INFO root fetch - processPackages [purgelogs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/purgelogs-0.2.1.tar.gz tmp/purgelogs-0.2.3.tar.gz --markdown 20230503/p/purgelogs/0.2.1-0.2.3/diff.md --exclude *.pyd
+[2023-05-03 12:38:46] INFO root fetch - processPackages [ichika]: executing diffoscope
+[2023-05-03 12:38:46] INFO root fetch - processPackages [ichika]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ichika-0.0.4.tar.gz tmp/ichika-0.0.5.tar.gz --markdown 20230503/i/ichika/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-03 12:38:47] INFO root fetch - processPackages [constellate]: Start processing: babylog
+[2023-05-03 12:38:47] INFO root fetch - main [MainThread]: End processing [constellate]: success
+[2023-05-03 12:38:47] INFO root fetch - processPackages [babylog]: New version: [1.0.2] Old Version: [0.0.3]
+[2023-05-03 12:38:47] INFO root fetch - processPackages [babylog]: Downloading https://files.pythonhosted.org/packages/2e/c6/3830ab3bae732d7ec60a2a451b2c3620a41593af88f050e5c5605194b210/babylog-0.0.3.tar.gz
+[2023-05-03 12:38:47] INFO root fetch - processPackages [qfinuwa]: Start processing: ExpoSeq
+[2023-05-03 12:38:47] INFO root fetch - main [MainThread]: End processing [qfinuwa]: success
+[2023-05-03 12:38:47] INFO root fetch - main [MainThread]: End processing [extr-ds]: success
+[2023-05-03 12:38:47] INFO root fetch - processPackages [ExpoSeq]: New version: [1.0.5] Old Version: [1.0.3]
+[2023-05-03 12:38:47] ERROR root fetch - processPackages [ExpoSeq]: Unable to fetch info: No such project/version 'ExpoSeq' 1.0.3
+[2023-05-03 12:38:47] INFO root fetch - main [MainThread]: End processing [ExpoSeq] error
+[2023-05-03 12:38:47] INFO root fetch - main [MainThread]: End processing [quorum-mininode-py]: success
+[2023-05-03 12:38:47] INFO root fetch - processPackages [babylog]: executing diffoscope
+[2023-05-03 12:38:47] INFO root fetch - processPackages [babylog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/babylog-0.0.3.tar.gz tmp/babylog-1.0.2.tar.gz --markdown 20230503/b/babylog/0.0.3-1.0.2/diff.md --exclude *.pyd
+[2023-05-03 12:38:47] INFO root fetch - main [MainThread]: End processing [Flask-SocketIO]: success
+[2023-05-03 12:38:47] INFO root fetch - main [MainThread]: End processing [purgelogs]: success
+[2023-05-03 12:38:47] INFO root fetch - main [MainThread]: End processing [nsface-cpu-python]: success
+[2023-05-03 12:38:48] INFO root fetch - main [MainThread]: End processing [ExpoSeq]: success
+[2023-05-03 12:38:48] INFO root fetch - main [MainThread]: End processing [nsface-python]: success
+[2023-05-03 12:38:48] INFO root fetch - main [MainThread]: End processing [ichika]: success
+[2023-05-03 12:38:48] INFO root fetch - main [MainThread]: End processing [babylog]: success
+[2023-05-03 12:38:48] INFO root fetch - main [MainThread]: Store serial: [17955121]
