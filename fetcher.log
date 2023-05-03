@@ -7452,3 +7452,85 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-03 08:39:16] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
 [2023-05-03 08:39:16] INFO root fetch - main [MainThread]: End processing [thriftpy2-httpx-client]: success
 [2023-05-03 08:39:16] INFO root fetch - main [MainThread]: Store serial: [17952272]
+[2023-05-03 08:44:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17952272]
+[2023-05-03 08:44:25] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-03 08:44:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cryptlex.lexactivator
+[2023-05-03 08:44:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aqueduct-llm
+[2023-05-03 08:44:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: atppy
+[2023-05-03 08:44:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: csst-ifs-gehong
+[2023-05-03 08:44:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: numbers-c2pa
+[2023-05-03 08:44:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jaco2
+[2023-05-03 08:44:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: trubrics
+[2023-05-03 08:44:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: browsr
+[2023-05-03 08:44:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-base-user-role-company
+[2023-05-03 08:44:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addon-base-user-role
+[2023-05-03 08:44:26] INFO root fetch - processPackages [odoo14-addon-base-user-role-company]: New version: [14.0.2.0.2.dev3] Old Version: [14.0.2.0.2.dev1]
+[2023-05-03 08:44:26] INFO root fetch - processPackages [csst-ifs-gehong]: New version: [0.0.1.4] Old Version: [0.0.1.3]
+[2023-05-03 08:44:26] INFO root fetch - processPackages [atppy]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-03 08:44:26] INFO root fetch - processPackages [jaco2]: New version: [4.2] Old Version: [4.1]
+[2023-05-03 08:44:26] INFO root fetch - processPackages [cryptlex.lexactivator]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-05-03 08:44:26] INFO root fetch - processPackages [trubrics]: New version: [1.3.6] Old Version: [1.3.5]
+[2023-05-03 08:44:26] INFO root fetch - processPackages [odoo14-addon-base-user-role]: New version: [14.0.2.5.2.dev6] Old Version: [14.0.2.5.2.dev5]
+[2023-05-03 08:44:26] WARNING root fetch - processPackages [aqueduct-llm]: Skipping, unable to determine old version
+[2023-05-03 08:44:26] INFO root fetch - processPackages [numbers-c2pa]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-03 08:44:26] INFO root fetch - processPackages [browsr]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-03 08:44:26] INFO root fetch - processPackages [aqueduct-llm]: Start processing: jhLib
+[2023-05-03 08:44:26] INFO root fetch - main [MainThread]: End processing [aqueduct-llm] error
+[2023-05-03 08:44:26] WARNING root fetch - processPackages [jhLib]: Skipping, unable to determine old version
+[2023-05-03 08:44:26] INFO root fetch - processPackages [jhLib]: Start processing: fugue
+[2023-05-03 08:44:26] INFO root fetch - main [MainThread]: End processing [jhLib] error
+[2023-05-03 08:44:26] INFO root fetch - processPackages [fugue]: New version: [0.8.4.dev1] Old Version: [0.8.3.dev1]
+[2023-05-03 08:44:26] INFO root fetch - processPackages [cryptlex.lexactivator]: executing diffoscope
+[2023-05-03 08:44:26] INFO root fetch - processPackages [cryptlex.lexactivator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cryptlex.lexactivator-3.9.0.tar.gz tmp/cryptlex.lexactivator-3.9.1.tar.gz --markdown 20230503/c/cryptlex.lexactivator/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-05-03 08:44:26] INFO root fetch - processPackages [csst-ifs-gehong]: Downloading https://files.pythonhosted.org/packages/65/59/d0c10035383a59401b6cb48800fb97f9c41d7b91c9765cc8fabd6285bc44/csst-ifs-gehong-0.0.1.3.tar.gz
+[2023-05-03 08:44:26] INFO root fetch - processPackages [atppy]: Downloading https://files.pythonhosted.org/packages/bf/78/91ca74ef434f38bb11a8c1a3ca32ba8654b228d8518bc134becb8321b039/atppy-0.1.2.tar.gz
+[2023-05-03 08:44:26] INFO root fetch - processPackages [browsr]: Downloading https://files.pythonhosted.org/packages/78/18/ef85a9c47f5574e2d49ccc9dcae0cefb9a180ab6d0a7029ee6d52c9062e7/browsr-1.0.0.tar.gz
+[2023-05-03 08:44:26] INFO root fetch - processPackages [odoo14-addon-base-user-role-company]: Downloading https://files.pythonhosted.org/packages/88/40/ae1f32ec8a0d142c0c04da15a585b39aac9b669ec22c27c58c7c7b1ba055/odoo14_addon_base_user_role_company-14.0.2.0.2.dev1-py3-none-any.whl
+[2023-05-03 08:44:26] INFO root fetch - processPackages [odoo14-addon-base-user-role]: Downloading https://files.pythonhosted.org/packages/8c/aa/a49a2dffb300813e4086c696a5cc9da98f4fb06d9b42102be9ee3c5f71ed/odoo14_addon_base_user_role-14.0.2.5.2.dev5-py3-none-any.whl
+[2023-05-03 08:44:26] INFO root fetch - processPackages [numbers-c2pa]: Downloading https://files.pythonhosted.org/packages/3a/37/a0f2205fbdbef61c826ed9c4d8355278f734141a535357a51e2c472a7877/numbers-c2pa-0.0.3.tar.gz
+[2023-05-03 08:44:26] INFO root fetch - processPackages [jaco2]: Downloading https://files.pythonhosted.org/packages/2c/40/5089789ecef1221a7951b0e49e0696386dd0cc3a3b4e378056705c7369a1/jaco2-4.2-cp311-cp311-win_amd64.whl
+[2023-05-03 08:44:26] INFO root fetch - processPackages [fugue]: Downloading https://files.pythonhosted.org/packages/f7/bd/32d772960044a8eb07de0bf504ccce02c3bae3f8871a19de23eb080cea15/fugue-0.8.3.dev1.tar.gz
+[2023-05-03 08:44:26] INFO root fetch - processPackages [jaco2]: executing diffoscope
+[2023-05-03 08:44:26] INFO root fetch - processPackages [jaco2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaco2-4.1-cp311-cp311-win_amd64.whl.zip tmp/jaco2-4.2-cp311-cp311-win_amd64.whl.zip --markdown 20230503/j/jaco2/4.1-4.2/diff.md --exclude *.pyd
+[2023-05-03 08:44:26] INFO root fetch - processPackages [trubrics]: Downloading https://files.pythonhosted.org/packages/ce/51/51abd05adab3a96152749e6fcf9587d34ec28a7cd8157bcabb00e74e2b07/trubrics-1.3.6.tar.gz
+[2023-05-03 08:44:26] INFO root fetch - processPackages [csst-ifs-gehong]: Downloading https://files.pythonhosted.org/packages/fd/34/feebeb99d8eeaefe24d2a3d62b89b514f1fdf6c164b41aa5fc370d417aa6/csst-ifs-gehong-0.0.1.4.tar.gz
+[2023-05-03 08:44:26] INFO root fetch - processPackages [atppy]: Downloading https://files.pythonhosted.org/packages/a4/a9/cce87b1350bbae4c72c0ac8f08a8441cc05b1dec4c0dc83d50206c9f3ace/atppy-0.1.3.tar.gz
+[2023-05-03 08:44:26] INFO root fetch - processPackages [odoo14-addon-base-user-role]: Downloading https://files.pythonhosted.org/packages/6c/c0/a280db081d89eb7f413f81c3a6eb91d5733696200329f16410819afe7d40/odoo14_addon_base_user_role-14.0.2.5.2.dev6-py3-none-any.whl
+[2023-05-03 08:44:26] INFO root fetch - processPackages [browsr]: Downloading https://files.pythonhosted.org/packages/f7/36/b1251396bee2ea08a8416e031c5c405f8f878c453b25e712671e5b25907b/browsr-1.0.1.tar.gz
+[2023-05-03 08:44:26] INFO root fetch - processPackages [numbers-c2pa]: Downloading https://files.pythonhosted.org/packages/e5/48/562d339223da5da38365f1d0cc42cd9614c22d0246e807e15415df71967d/numbers-c2pa-0.0.4.tar.gz
+[2023-05-03 08:44:26] INFO root fetch - processPackages [trubrics]: executing diffoscope
+[2023-05-03 08:44:26] INFO root fetch - processPackages [trubrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trubrics-1.3.5.tar.gz tmp/trubrics-1.3.6.tar.gz --markdown 20230503/t/trubrics/1.3.5-1.3.6/diff.md --exclude *.pyd
+[2023-05-03 08:44:26] INFO root fetch - processPackages [odoo14-addon-base-user-role-company]: Downloading https://files.pythonhosted.org/packages/16/26/091ff0176e3434d1b514ee7d55c44e13d74a21419ef107573ad789a53349/odoo14_addon_base_user_role_company-14.0.2.0.2.dev3-py3-none-any.whl
+[2023-05-03 08:44:26] INFO root fetch - processPackages [csst-ifs-gehong]: executing diffoscope
+[2023-05-03 08:44:26] INFO root fetch - processPackages [csst-ifs-gehong]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csst-ifs-gehong-0.0.1.3.tar.gz tmp/csst-ifs-gehong-0.0.1.4.tar.gz --markdown 20230503/c/csst-ifs-gehong/0.0.1.3-0.0.1.4/diff.md --exclude *.pyd
+[2023-05-03 08:44:26] INFO root fetch - processPackages [atppy]: executing diffoscope
+[2023-05-03 08:44:26] INFO root fetch - processPackages [atppy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atppy-0.1.2.tar.gz tmp/atppy-0.1.3.tar.gz --markdown 20230503/a/atppy/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-03 08:44:26] INFO root fetch - processPackages [numbers-c2pa]: executing diffoscope
+[2023-05-03 08:44:26] INFO root fetch - processPackages [numbers-c2pa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numbers-c2pa-0.0.3.tar.gz tmp/numbers-c2pa-0.0.4.tar.gz --markdown 20230503/n/numbers-c2pa/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-03 08:44:26] INFO root fetch - processPackages [odoo14-addon-base-user-role]: executing diffoscope
+[2023-05-03 08:44:26] INFO root fetch - processPackages [odoo14-addon-base-user-role]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_base_user_role-14.0.2.5.2.dev5-py3-none-any.whl.zip tmp/odoo14_addon_base_user_role-14.0.2.5.2.dev6-py3-none-any.whl.zip --markdown 20230503/o/odoo14-addon-base-user-role/14.0.2.5.2.dev5-14.0.2.5.2.dev6/diff.md --exclude *.pyd
+[2023-05-03 08:44:26] INFO root fetch - processPackages [browsr]: executing diffoscope
+[2023-05-03 08:44:26] INFO root fetch - processPackages [browsr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/browsr-1.0.0.tar.gz tmp/browsr-1.0.1.tar.gz --markdown 20230503/b/browsr/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-03 08:44:26] INFO root fetch - processPackages [odoo14-addon-base-user-role-company]: executing diffoscope
+[2023-05-03 08:44:26] INFO root fetch - processPackages [odoo14-addon-base-user-role-company]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_base_user_role_company-14.0.2.0.2.dev1-py3-none-any.whl.zip tmp/odoo14_addon_base_user_role_company-14.0.2.0.2.dev3-py3-none-any.whl.zip --markdown 20230503/o/odoo14-addon-base-user-role-company/14.0.2.0.2.dev1-14.0.2.0.2.dev3/diff.md --exclude *.pyd
+[2023-05-03 08:44:26] INFO root fetch - processPackages [fugue]: Downloading https://files.pythonhosted.org/packages/fc/c4/4ca9f067eeae5f8c3fc4fe51cff0907c36703665f8547c4c5af85896561e/fugue-0.8.4.dev1.tar.gz
+[2023-05-03 08:44:26] INFO root fetch - processPackages [fugue]: executing diffoscope
+[2023-05-03 08:44:26] INFO root fetch - processPackages [fugue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fugue-0.8.3.dev1.tar.gz tmp/fugue-0.8.4.dev1.tar.gz --markdown 20230503/f/fugue/0.8.3.dev1-0.8.4.dev1/diff.md --exclude *.pyd
+[2023-05-03 08:44:28] INFO root fetch - processPackages [atppy]: Start processing: nifigator
+[2023-05-03 08:44:28] INFO root fetch - main [MainThread]: End processing [atppy]: success
+[2023-05-03 08:44:28] INFO root fetch - processPackages [nifigator]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-03 08:44:28] INFO root fetch - processPackages [nifigator]: Downloading https://files.pythonhosted.org/packages/4c/35/3098a9b3a4efc2cf2c15fd4ee96ec100f31d5f7f347c6ef1ce64fab20d54/nifigator-0.1.7.tar.gz
+[2023-05-03 08:44:28] INFO root fetch - main [MainThread]: End processing [trubrics]: success
+[2023-05-03 08:44:28] INFO root fetch - main [MainThread]: End processing [numbers-c2pa]: success
+[2023-05-03 08:44:28] INFO root fetch - main [MainThread]: End processing [odoo14-addon-base-user-role-company]: success
+[2023-05-03 08:44:28] INFO root fetch - main [MainThread]: End processing [csst-ifs-gehong]: success
+[2023-05-03 08:44:29] INFO root fetch - processPackages [nifigator]: Downloading https://files.pythonhosted.org/packages/e8/64/18ba6d4f91529a73fd40ca6aa7fa82a5b3dca25500c7cddec0d1fe74cdc3/nifigator-0.1.8-py2.py3-none-any.whl
+[2023-05-03 08:44:29] INFO root fetch - main [MainThread]: End processing [odoo14-addon-base-user-role]: success
+[2023-05-03 08:44:29] INFO root fetch - processPackages [nifigator]: executing diffoscope
+[2023-05-03 08:44:29] INFO root fetch - processPackages [nifigator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nifigator-0.1.7.tar.gz tmp/nifigator-0.1.8-py2.py3-none-any.whl.zip --markdown 20230503/n/nifigator/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-03 08:44:29] INFO root fetch - main [MainThread]: End processing [jaco2]: success
+[2023-05-03 08:44:29] INFO root fetch - main [MainThread]: End processing [browsr]: success
+[2023-05-03 08:44:30] INFO root fetch - main [MainThread]: End processing [nifigator]: success
+[2023-05-03 08:44:30] INFO root fetch - main [MainThread]: End processing [fugue]: success
+[2023-05-03 08:45:17] INFO root fetch - main [MainThread]: End processing [cryptlex.lexactivator]: success
+[2023-05-03 08:45:17] INFO root fetch - main [MainThread]: Store serial: [17952309]
