@@ -13699,3 +13699,111 @@ No space left on device. Diffoscope exiting.
 [2023-05-03 13:34:32] INFO root fetch - main [MainThread]: End processing [torchrec-nightly]: success
 [2023-05-03 13:34:35] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-vpc]: success
 [2023-05-03 13:34:35] INFO root fetch - main [MainThread]: Store serial: [17955706]
+[2023-05-03 13:39:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17955706]
+[2023-05-03 13:39:44] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-03 13:39:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: setdotwork
+[2023-05-03 13:39:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tsaugmentation
+[2023-05-03 13:39:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sipiiiii
+[2023-05-03 13:39:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyre-check-nightly
+[2023-05-03 13:39:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jnt-django-toolbox
+[2023-05-03 13:39:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigdl-nano
+[2023-05-03 13:39:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: neurotechdevkit
+[2023-05-03 13:39:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tKot
+[2023-05-03 13:39:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: digitalguide
+[2023-05-03 13:39:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bigdl-chronos
+[2023-05-03 13:39:45] INFO root fetch - processPackages [tKot]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-05-03 13:39:45] INFO root fetch - processPackages [digitalguide]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-03 13:39:45] INFO root fetch - processPackages [sipiiiii]: New version: [0.7.6] Old Version: [0.7.5]
+[2023-05-03 13:39:45] INFO root fetch - processPackages [bigdl-nano]: New version: [2.4.0b20230502] Old Version: [2.4.0b20230501]
+[2023-05-03 13:39:45] INFO root fetch - processPackages [bigdl-chronos]: New version: [2.4.0b20230502] Old Version: [2.4.0b20230501]
+[2023-05-03 13:39:45] INFO root fetch - processPackages [setdotwork]: New version: [0.7] Old Version: [0.6]
+[2023-05-03 13:39:45] INFO root fetch - processPackages [jnt-django-toolbox]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-05-03 13:39:45] INFO root fetch - processPackages [tsaugmentation]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-03 13:39:45] INFO root fetch - processPackages [neurotechdevkit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-03 13:39:45] INFO root fetch - processPackages [tKot]: executing diffoscope
+[2023-05-03 13:39:45] INFO root fetch - processPackages [tKot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tKot-0.1.3.tar.gz tmp/tKot-0.2.0.tar.gz --markdown 20230503/t/tKot/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-05-03 13:39:45] INFO root fetch - processPackages [digitalguide]: executing diffoscope
+[2023-05-03 13:39:45] INFO root fetch - processPackages [digitalguide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalguide-0.0.98.tar.gz tmp/digitalguide-0.0.99.tar.gz --markdown 20230503/d/digitalguide/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-03 13:39:45] INFO root fetch - processPackages [sipiiiii]: executing diffoscope
+[2023-05-03 13:39:45] INFO root fetch - processPackages [sipiiiii]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sipiiiii-0.7.5.tar.gz tmp/sipiiiii-0.7.6.tar.gz --markdown 20230503/s/sipiiiii/0.7.5-0.7.6/diff.md --exclude *.pyd
+[2023-05-03 13:39:45] INFO root fetch - processPackages [pyre-check-nightly]: New version: [0.0.101683112303] Old Version: [0.0.101683026008]
+[2023-05-03 13:39:45] INFO root fetch - processPackages [jnt-django-toolbox]: Downloading https://files.pythonhosted.org/packages/8c/cd/6c4d275b0d1fa715b0dcfd7a6ebe68bb9961c2cc2bb2855e2904fbd7d13d/jnt_django_toolbox-0.9.6.tar.gz
+[2023-05-03 13:39:45] INFO root fetch - processPackages [tsaugmentation]: executing diffoscope
+[2023-05-03 13:39:45] INFO root fetch - processPackages [tsaugmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsaugmentation-0.5.8.tar.gz tmp/tsaugmentation-0.5.9.tar.gz --markdown 20230503/t/tsaugmentation/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-05-03 13:39:45] INFO root fetch - processPackages [neurotechdevkit]: executing diffoscope
+[2023-05-03 13:39:45] INFO root fetch - processPackages [neurotechdevkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neurotechdevkit-0.0.8.tar.gz tmp/neurotechdevkit-0.0.9.tar.gz --markdown 20230503/n/neurotechdevkit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-03 13:39:45] INFO root fetch - processPackages [setdotwork]: Downloading https://files.pythonhosted.org/packages/50/e4/258f4946c88d2f87dbd0e849d575cb846c3fbf4ef16b97cb1ffbc702f878/setdotwork-0.6.tar.gz
+[2023-05-03 13:39:45] INFO root fetch - processPackages [bigdl-nano]: executing diffoscope
+[2023-05-03 13:39:45] INFO root fetch - processPackages [bigdl-nano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_nano-2.4.0b20230501-py3-none-win_amd64.whl.zip tmp/bigdl_nano-2.4.0b20230502-py3-none-win_amd64.whl.zip --markdown 20230503/b/bigdl-nano/2.4.0b20230501-2.4.0b20230502/diff.md --exclude *.pyd
+[2023-05-03 13:39:45] INFO root fetch - processPackages [bigdl-chronos]: executing diffoscope
+[2023-05-03 13:39:45] INFO root fetch - processPackages [bigdl-chronos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos-2.4.0b20230501-py3-none-win_amd64.whl.zip tmp/bigdl_chronos-2.4.0b20230502-py3-none-win_amd64.whl.zip --markdown 20230503/b/bigdl-chronos/2.4.0b20230501-2.4.0b20230502/diff.md --exclude *.pyd
+[2023-05-03 13:39:45] INFO root fetch - processPackages [pyre-check-nightly]: Downloading https://files.pythonhosted.org/packages/c3/5b/e9e56b36154e6ecec54684811317a98dbd278a62a0da05643323e1f81985/pyre-check-nightly-0.0.101683026008.tar.gz
+[2023-05-03 13:39:45] INFO root fetch - processPackages [setdotwork]: Downloading https://files.pythonhosted.org/packages/46/a2/4ddc212bbcd5f640940fd24138f25e5bd0259604999c520adbe4f009f2c5/setdotwork-0.7.tar.gz
+[2023-05-03 13:39:45] INFO root fetch - processPackages [jnt-django-toolbox]: Downloading https://files.pythonhosted.org/packages/38/f2/60ac254ee3911c1ff18758e63e5c9bc764ed15351238230d5de284f069da/jnt_django_toolbox-0.9.7.tar.gz
+[2023-05-03 13:39:45] INFO root fetch - processPackages [setdotwork]: executing diffoscope
+[2023-05-03 13:39:45] INFO root fetch - processPackages [setdotwork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/setdotwork-0.6.tar.gz tmp/setdotwork-0.7.tar.gz --markdown 20230503/s/setdotwork/0.6-0.7/diff.md --exclude *.pyd
+[2023-05-03 13:39:45] INFO root fetch - processPackages [jnt-django-toolbox]: executing diffoscope
+[2023-05-03 13:39:45] INFO root fetch - processPackages [jnt-django-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jnt_django_toolbox-0.9.6.tar.gz tmp/jnt_django_toolbox-0.9.7.tar.gz --markdown 20230503/j/jnt-django-toolbox/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-05-03 13:39:45] WARNING root fetch - processPackages [pyre-check-nightly]: Skipping package: exceeds size limit 23255441>=10485760
+[2023-05-03 13:39:45] INFO root fetch - processPackages [pyre-check-nightly]: Start processing: v2conf
+[2023-05-03 13:39:45] INFO root fetch - main [MainThread]: End processing [pyre-check-nightly] error
+[2023-05-03 13:39:45] INFO root fetch - processPackages [v2conf]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-03 13:39:45] INFO root fetch - processPackages [v2conf]: executing diffoscope
+[2023-05-03 13:39:45] INFO root fetch - processPackages [v2conf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/v2conf-0.1.1.tar.gz tmp/v2conf-0.1.2.tar.gz --markdown 20230503/v/v2conf/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-03 13:39:46] INFO root fetch - processPackages [tKot]: Start processing: bigdl-serving
+[2023-05-03 13:39:46] INFO root fetch - main [MainThread]: End processing [tKot]: success
+[2023-05-03 13:39:46] INFO root fetch - processPackages [bigdl-serving]: New version: [2.4.0b20230503] Old Version: [2.4.0b20230502]
+[2023-05-03 13:39:46] INFO root fetch - processPackages [digitalguide]: Start processing: mrx-link-core
+[2023-05-03 13:39:46] INFO root fetch - main [MainThread]: End processing [digitalguide]: success
+[2023-05-03 13:39:46] INFO root fetch - processPackages [mrx-link-core]: New version: [1.1.0.dev9] Old Version: [1.1.0.dev8]
+[2023-05-03 13:39:46] INFO root fetch - processPackages [mrx-link-core]: Downloading https://files.pythonhosted.org/packages/cc/1d/2b07c846054ef903f79816f6342c1979f6fff60b98e79706c857a031c478/mrx_link_core-1.1.0.dev8-cp39-cp39-win_amd64.whl
+[2023-05-03 13:39:46] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/21/4b/b86895faf7de3831816a2285514249d80c8fceef5e49649a9810aa5342f5/bigdl_serving-2.4.0b20230503-py2.py3-none-any.whl
+[2023-05-03 13:39:46] INFO root fetch - processPackages [bigdl-serving]: executing diffoscope
+[2023-05-03 13:39:46] INFO root fetch - processPackages [bigdl-serving]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_serving-2.4.0b20230502-py2.py3-none-any.whl.zip tmp/bigdl_serving-2.4.0b20230503-py2.py3-none-any.whl.zip --markdown 20230503/b/bigdl-serving/2.4.0b20230502-2.4.0b20230503/diff.md --exclude *.pyd
+[2023-05-03 13:39:46] INFO root fetch - processPackages [sipiiiii]: Start processing: semisup-segmentation
+[2023-05-03 13:39:46] INFO root fetch - main [MainThread]: End processing [sipiiiii]: success
+[2023-05-03 13:39:46] INFO root fetch - processPackages [semisup-segmentation]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-03 13:39:47] INFO root fetch - processPackages [semisup-segmentation]: executing diffoscope
+[2023-05-03 13:39:47] INFO root fetch - processPackages [semisup-segmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semisup-segmentation-0.0.5.tar.gz tmp/semisup-segmentation-0.0.6.tar.gz --markdown 20230503/s/semisup-segmentation/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-03 13:39:47] INFO root fetch - processPackages [mrx-link-core]: Downloading https://files.pythonhosted.org/packages/b2/73/6c8e773da12a8dcdbae7891f677c860431edd35591509bda0f1d8c24556f/mrx_link_core-1.1.0.dev9-cp39-cp39-win_amd64.whl
+[2023-05-03 13:39:47] INFO root fetch - processPackages [jnt-django-toolbox]: Start processing: c2cciutils
+[2023-05-03 13:39:47] INFO root fetch - main [MainThread]: End processing [jnt-django-toolbox]: success
+[2023-05-03 13:39:47] INFO root fetch - processPackages [c2cciutils]: New version: [1.6.0.dev80] Old Version: [1.6.0.dev8]
+[2023-05-03 13:39:47] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/85/ac/438a8d47b9773c665dfa7ed618436075e474a44520762bf53561424ea021/c2cciutils-1.6.0.dev8.tar.gz
+[2023-05-03 13:39:47] WARNING root fetch - processPackages [c2cciutils]: Skipping package: exceeds size limit 12821161>=10485760
+[2023-05-03 13:39:47] INFO root fetch - processPackages [c2cciutils]: Start processing: pandas-dq
+[2023-05-03 13:39:47] INFO root fetch - main [MainThread]: End processing [c2cciutils] error
+[2023-05-03 13:39:47] INFO root fetch - processPackages [pandas-dq]: New version: [1.9] Old Version: [1.8]
+[2023-05-03 13:39:47] INFO root fetch - processPackages [v2conf]: Start processing: tupa123
+[2023-05-03 13:39:47] INFO root fetch - main [MainThread]: End processing [v2conf]: success
+[2023-05-03 13:39:47] INFO root fetch - processPackages [tupa123]: New version: [1.4.5] Old Version: [1.4.4]
+[2023-05-03 13:39:47] INFO root fetch - processPackages [pandas-dq]: executing diffoscope
+[2023-05-03 13:39:47] INFO root fetch - processPackages [pandas-dq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandas_dq-1.8.tar.gz tmp/pandas_dq-1.9.tar.gz --markdown 20230503/p/pandas-dq/1.8-1.9/diff.md --exclude *.pyd
+[2023-05-03 13:39:47] INFO root fetch - processPackages [mrx-link-core]: executing diffoscope
+[2023-05-03 13:39:47] INFO root fetch - processPackages [mrx-link-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrx_link_core-1.1.0.dev8-cp39-cp39-win_amd64.whl.zip tmp/mrx_link_core-1.1.0.dev9-cp39-cp39-win_amd64.whl.zip --markdown 20230503/m/mrx-link-core/1.1.0.dev8-1.1.0.dev9/diff.md --exclude *.pyd
+[2023-05-03 13:39:47] INFO root fetch - processPackages [tupa123]: Downloading https://files.pythonhosted.org/packages/11/41/b1b8d5a4e3a645a4ef0aab90121b37e31ce3884a7b33bbc9bdbfa1214d80/tupa123-1.4.4.tar.gz
+[2023-05-03 13:39:47] INFO root fetch - processPackages [tsaugmentation]: Start processing: abba-python
+[2023-05-03 13:39:47] INFO root fetch - main [MainThread]: End processing [tsaugmentation]: success
+[2023-05-03 13:39:47] INFO root fetch - processPackages [bigdl-chronos]: Start processing: c2cciutils
+[2023-05-03 13:39:47] INFO root fetch - main [MainThread]: End processing [bigdl-chronos]: success
+[2023-05-03 13:39:47] INFO root fetch - processPackages [c2cciutils]: New version: [1.6.0.dev83] Old Version: [1.6.0.dev80]
+[2023-05-03 13:39:47] INFO root fetch - processPackages [abba-python]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-03 13:39:47] INFO root fetch - processPackages [tupa123]: executing diffoscope
+[2023-05-03 13:39:47] INFO root fetch - processPackages [tupa123]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tupa123-1.4.4.tar.gz tmp/tupa123-1.4.5.tar.gz --markdown 20230503/t/tupa123/1.4.4-1.4.5/diff.md --exclude *.pyd
+[2023-05-03 13:39:47] INFO root fetch - processPackages [abba-python]: executing diffoscope
+[2023-05-03 13:39:47] INFO root fetch - processPackages [abba-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abba_python-0.1.8.tar.gz tmp/abba_python-0.1.9.tar.gz --markdown 20230503/a/abba-python/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-03 13:39:48] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/eb/3b/194c0b6cdff31d3ff3309cc46478a0988b474a0f697bde63b7503db4e497/c2cciutils-1.6.0.dev80.tar.gz
+[2023-05-03 13:39:48] INFO root fetch - main [MainThread]: End processing [bigdl-serving]: success
+[2023-05-03 13:39:48] INFO root fetch - main [MainThread]: End processing [semisup-segmentation]: success
+[2023-05-03 13:39:48] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
+[2023-05-03 13:39:48] INFO root fetch - main [MainThread]: End processing [mrx-link-core]: success
+[2023-05-03 13:39:48] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/3f/6d/5a3d64b1240d62cfab7f66d35df81f6000cb90a5a6577df75a2eb11c02b7/c2cciutils-1.6.0.dev83.tar.gz
+[2023-05-03 13:39:49] INFO root fetch - main [MainThread]: End processing [tupa123]: success
+[2023-05-03 13:39:49] INFO root fetch - main [MainThread]: End processing [abba-python]: success
+[2023-05-03 13:39:49] INFO root fetch - main [MainThread]: End processing [pandas-dq]: success
+[2023-05-03 13:39:49] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2023-05-03 13:39:49] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.6.0.dev80.tar.gz tmp/c2cciutils-1.6.0.dev83.tar.gz --markdown 20230503/c/c2cciutils/1.6.0.dev80-1.6.0.dev83/diff.md --exclude *.pyd
+[2023-05-03 13:39:50] INFO root fetch - main [MainThread]: End processing [setdotwork]: success
+[2023-05-03 13:39:50] INFO root fetch - main [MainThread]: End processing [neurotechdevkit]: success
+[2023-05-03 13:39:56] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2023-05-03 13:39:56] INFO root fetch - main [MainThread]: Store serial: [17955774]
