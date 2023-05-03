@@ -23283,3 +23283,122 @@ EOFError: EOF read where object expected
 [2023-05-03 21:39:54] INFO root fetch - main [MainThread]: End processing [smashed]: success
 [2023-05-03 21:41:39] INFO root fetch - main [MainThread]: End processing [benchling-api-client]: success
 [2023-05-03 21:41:39] INFO root fetch - main [MainThread]: Store serial: [17961731]
+[2023-05-03 21:46:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17961731]
+[2023-05-03 21:46:48] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-03 21:46:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oncall
+[2023-05-03 21:46:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ttim
+[2023-05-03 21:46:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: geosdemo-haoyu
+[2023-05-03 21:46:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: custom-rails
+[2023-05-03 21:46:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: amps-py
+[2023-05-03 21:46:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spare-scores
+[2023-05-03 21:46:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: binpan
+[2023-05-03 21:46:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: trusspy
+[2023-05-03 21:46:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: py-sls-lambda-toolkit
+[2023-05-03 21:46:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: findmyorder
+[2023-05-03 21:46:48] INFO root fetch - processPackages [geosdemo-haoyu]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-05-03 21:46:48] INFO root fetch - processPackages [ttim]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-05-03 21:46:49] INFO root fetch - processPackages [oncall]: New version: [1.5.5] Old Version: [1.5.4]
+[2023-05-03 21:46:49] INFO root fetch - processPackages [custom-rails]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-03 21:46:49] INFO root fetch - processPackages [py-sls-lambda-toolkit]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-03 21:46:49] INFO root fetch - processPackages [binpan]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-03 21:46:49] INFO root fetch - processPackages [findmyorder]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-05-03 21:46:49] INFO root fetch - processPackages [amps-py]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-03 21:46:49] INFO root fetch - processPackages [trusspy]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-03 21:46:49] INFO root fetch - processPackages [py-sls-lambda-toolkit]: executing diffoscope
+[2023-05-03 21:46:49] INFO root fetch - processPackages [py-sls-lambda-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-sls-lambda-toolkit-0.1.1.tar.gz tmp/py-sls-lambda-toolkit-0.1.2.tar.gz --markdown 20230503/p/py-sls-lambda-toolkit/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-03 21:46:49] INFO root fetch - processPackages [spare-scores]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-03 21:46:49] INFO root fetch - processPackages [custom-rails]: Downloading https://files.pythonhosted.org/packages/48/a0/20d60f39107fb3aa5c62a8443dc057ac49ad85d3bcdf1638d5572ebba362/custom_rails-0.0.7.tar.gz
+[2023-05-03 21:46:49] INFO root fetch - processPackages [oncall]: Downloading https://files.pythonhosted.org/packages/a6/1c/18b02bbf53fe3e2e24957d74ad1a889b573ec5c57dffa9b975dcbe6c59b8/oncall-1.5.4.tar.gz
+[2023-05-03 21:46:49] INFO root fetch - processPackages [geosdemo-haoyu]: Downloading https://files.pythonhosted.org/packages/da/52/a7458a42de815d1384c1f87557354a38706ad2f4d319fc48439fa06dbdc8/geosdemo-haoyu-0.0.1.tar.gz
+[2023-05-03 21:46:49] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/31/85/79eee5a5c952fe3196f94991bd22cf0f9344cb7334483144f8616b552f50/findmyorder-1.1.5.tar.gz
+[2023-05-03 21:46:49] INFO root fetch - processPackages [ttim]: Downloading https://files.pythonhosted.org/packages/08/1a/9a2967cac44825fcbaa537c79235a5172ac7f43e420b3931499328b4dfcb/ttim-0.6.4.tar.gz
+[2023-05-03 21:46:49] INFO root fetch - processPackages [binpan]: executing diffoscope
+[2023-05-03 21:46:49] INFO root fetch - processPackages [binpan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/binpan-0.4.8.tar.gz tmp/binpan-0.4.9.tar.gz --markdown 20230503/b/binpan/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-03 21:46:49] INFO root fetch - processPackages [amps-py]: Downloading https://files.pythonhosted.org/packages/b3/96/45cbaf4720c97f9d8780270a47ac6ae21c9aea0b2623b572db8a1f72e695/amps-py-0.1.3.tar.gz
+[2023-05-03 21:46:49] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-05-03 21:46:49] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-1.1.4.tar.gz tmp/findmyorder-1.1.5.tar.gz --markdown 20230503/f/findmyorder/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-05-03 21:46:49] INFO root fetch - processPackages [spare-scores]: Downloading https://files.pythonhosted.org/packages/13/a0/2b4ef9a977e973cc518b6288c73580a7eaae124ba25725b1fc8319df8c70/spare_scores-0.1.8.tar.gz
+[2023-05-03 21:46:49] INFO root fetch - processPackages [trusspy]: Downloading https://files.pythonhosted.org/packages/68/7f/3d3ab9a1b49a60c4be394d761f2d940651012f3849a1f4352ee00817e4b6/trusspy-1.0.3.tar.gz
+[2023-05-03 21:46:49] INFO root fetch - processPackages [ttim]: Downloading https://files.pythonhosted.org/packages/3f/34/091464b6af6df176d5b3749d0d615d524632168a86d8ff78adfa9363de36/ttim-0.6.5.tar.gz
+[2023-05-03 21:46:49] INFO root fetch - processPackages [custom-rails]: Downloading https://files.pythonhosted.org/packages/1e/a8/ab874e45396c8b2abbcac40f36a61731e7773cec7de56d4c0afc0fd0d472/custom_rails-0.0.8.tar.gz
+[2023-05-03 21:46:49] INFO root fetch - processPackages [oncall]: Downloading https://files.pythonhosted.org/packages/f6/55/d23d7cd13f8a87f3bf53d67a1a33d324565527a5de3f488780e4da5affc1/oncall-1.5.5.tar.gz
+[2023-05-03 21:46:49] INFO root fetch - processPackages [geosdemo-haoyu]: Downloading https://files.pythonhosted.org/packages/6f/da/69013a9842f7c129332006679dfe4d7a7a1eed33faee1118c7d71b4ad9d9/geosdemo-haoyu-0.1.0.tar.gz
+[2023-05-03 21:46:49] INFO root fetch - processPackages [ttim]: executing diffoscope
+[2023-05-03 21:46:49] INFO root fetch - processPackages [ttim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ttim-0.6.4.tar.gz tmp/ttim-0.6.5.tar.gz --markdown 20230503/t/ttim/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-05-03 21:46:49] INFO root fetch - processPackages [amps-py]: Downloading https://files.pythonhosted.org/packages/d3/21/bf0353c613e650218f576b8f64fb2271f7aa037695fb06711104cb1b944e/amps-py-0.1.4.tar.gz
+[2023-05-03 21:46:49] INFO root fetch - processPackages [custom-rails]: executing diffoscope
+[2023-05-03 21:46:49] INFO root fetch - processPackages [custom-rails]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/custom_rails-0.0.7.tar.gz tmp/custom_rails-0.0.8.tar.gz --markdown 20230503/c/custom-rails/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-03 21:46:49] INFO root fetch - processPackages [geosdemo-haoyu]: executing diffoscope
+[2023-05-03 21:46:49] INFO root fetch - processPackages [geosdemo-haoyu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geosdemo-haoyu-0.0.1.tar.gz tmp/geosdemo-haoyu-0.1.0.tar.gz --markdown 20230503/g/geosdemo-haoyu/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-05-03 21:46:49] INFO root fetch - processPackages [oncall]: executing diffoscope
+[2023-05-03 21:46:49] INFO root fetch - processPackages [oncall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oncall-1.5.4.tar.gz tmp/oncall-1.5.5.tar.gz --markdown 20230503/o/oncall/1.5.4-1.5.5/diff.md --exclude *.pyd
+[2023-05-03 21:46:49] INFO root fetch - processPackages [trusspy]: Downloading https://files.pythonhosted.org/packages/56/b2/5fd918390d7d83b9501dec367bab8056b4a93ea16c17cbb5583999dc685f/trusspy-1.0.4.tar.gz
+[2023-05-03 21:46:49] INFO root fetch - processPackages [spare-scores]: Downloading https://files.pythonhosted.org/packages/c5/e1/d9b4f743aeb49481cd014a371146d6fb8c2973df513363470c9b7a0f7672/spare_scores-0.1.9.tar.gz
+[2023-05-03 21:46:49] INFO root fetch - processPackages [amps-py]: executing diffoscope
+[2023-05-03 21:46:49] INFO root fetch - processPackages [amps-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amps-py-0.1.3.tar.gz tmp/amps-py-0.1.4.tar.gz --markdown 20230503/a/amps-py/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-03 21:46:49] INFO root fetch - processPackages [trusspy]: executing diffoscope
+[2023-05-03 21:46:49] INFO root fetch - processPackages [trusspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trusspy-1.0.3.tar.gz tmp/trusspy-1.0.4.tar.gz --markdown 20230503/t/trusspy/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-03 21:46:49] INFO root fetch - processPackages [spare-scores]: executing diffoscope
+[2023-05-03 21:46:49] INFO root fetch - processPackages [spare-scores]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spare_scores-0.1.8.tar.gz tmp/spare_scores-0.1.9.tar.gz --markdown 20230503/s/spare-scores/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-03 21:46:50] INFO root fetch - processPackages [py-sls-lambda-toolkit]: Start processing: pybrownies
+[2023-05-03 21:46:50] INFO root fetch - main [MainThread]: End processing [py-sls-lambda-toolkit]: success
+[2023-05-03 21:46:50] INFO root fetch - processPackages [pybrownies]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-05-03 21:46:50] INFO root fetch - processPackages [findmyorder]: Start processing: unipi-control
+[2023-05-03 21:46:50] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-05-03 21:46:50] INFO root fetch - processPackages [unipi-control]: New version: [2023.7] Old Version: [2023.6]
+[2023-05-03 21:46:50] INFO root fetch - processPackages [pybrownies]: Downloading https://files.pythonhosted.org/packages/71/e3/c11294edd43cf18c4c4f78aa7fe5b99f4ca5003a188fd2363e2366dffe13/pybrownies-0.4.0.tar.gz
+[2023-05-03 21:46:50] INFO root fetch - processPackages [unipi-control]: Downloading https://files.pythonhosted.org/packages/a2/b4/483e2b497d2d21546d1a6a64df2db5a3dd52714c5007b2c861be5d3a06b1/unipi-control-2023.6.tar.gz
+[2023-05-03 21:46:51] INFO root fetch - processPackages [pybrownies]: Downloading https://files.pythonhosted.org/packages/b2/45/0b01d89c99a19b73876dbc7dce5cb6ba8b4a8f4fc9cc327b999593b4aced/pybrownies-0.5.0.tar.gz
+[2023-05-03 21:46:51] INFO root fetch - processPackages [pybrownies]: executing diffoscope
+[2023-05-03 21:46:51] INFO root fetch - processPackages [pybrownies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybrownies-0.4.0.tar.gz tmp/pybrownies-0.5.0.tar.gz --markdown 20230503/p/pybrownies/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-05-03 21:46:51] INFO root fetch - processPackages [ttim]: Start processing: python-roborock
+[2023-05-03 21:46:51] INFO root fetch - main [MainThread]: End processing [ttim]: success
+[2023-05-03 21:46:51] INFO root fetch - processPackages [python-roborock]: New version: [0.9.0rc0] Old Version: [0.9.0]
+[2023-05-03 21:46:51] INFO root fetch - processPackages [amps-py]: Start processing: govuk-frontend-django
+[2023-05-03 21:46:51] INFO root fetch - main [MainThread]: End processing [amps-py]: success
+[2023-05-03 21:46:51] INFO root fetch - processPackages [python-roborock]: Downloading https://files.pythonhosted.org/packages/40/9b/30bb82604def56c9a66db0578b68938e38bd30a9c931295d66012a137825/python_roborock-0.9.0rc0.tar.gz
+[2023-05-03 21:46:51] INFO root fetch - processPackages [unipi-control]: Downloading https://files.pythonhosted.org/packages/ae/da/b9cf91e03e867292d2d9ac1dcc65013e4c66ff524e5b5fadc9b4953de5c0/unipi-control-2023.7.tar.gz
+[2023-05-03 21:46:51] INFO root fetch - processPackages [geosdemo-haoyu]: Start processing: skysurvey
+[2023-05-03 21:46:51] INFO root fetch - main [MainThread]: End processing [geosdemo-haoyu]: success
+[2023-05-03 21:46:51] INFO root fetch - processPackages [custom-rails]: Start processing: IPAM-PACMan
+[2023-05-03 21:46:51] INFO root fetch - main [MainThread]: End processing [custom-rails]: success
+[2023-05-03 21:46:51] INFO root fetch - processPackages [skysurvey]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-03 21:46:51] INFO root fetch - processPackages [govuk-frontend-django]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-03 21:46:51] INFO root fetch - processPackages [unipi-control]: executing diffoscope
+[2023-05-03 21:46:51] INFO root fetch - processPackages [unipi-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unipi-control-2023.6.tar.gz tmp/unipi-control-2023.7.tar.gz --markdown 20230503/u/unipi-control/2023.6-2023.7/diff.md --exclude *.pyd
+[2023-05-03 21:46:51] INFO root fetch - processPackages [IPAM-PACMan]: New version: [1.0.0rc1] Old Version: [1.0.0]
+[2023-05-03 21:46:51] INFO root fetch - processPackages [skysurvey]: executing diffoscope
+[2023-05-03 21:46:51] INFO root fetch - processPackages [skysurvey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skysurvey-0.3.8.tar.gz tmp/skysurvey-0.3.9.tar.gz --markdown 20230503/s/skysurvey/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-03 21:46:51] INFO root fetch - processPackages [spare-scores]: Start processing: magyar
+[2023-05-03 21:46:51] INFO root fetch - main [MainThread]: End processing [spare-scores]: success
+[2023-05-03 21:46:51] INFO root fetch - processPackages [python-roborock]: executing diffoscope
+[2023-05-03 21:46:51] INFO root fetch - processPackages [python-roborock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_roborock-0.9.0.tar.gz tmp/python_roborock-0.9.0rc0.tar.gz --markdown 20230503/p/python-roborock/0.9.0-0.9.0rc0/diff.md --exclude *.pyd
+[2023-05-03 21:46:51] INFO root fetch - processPackages [trusspy]: Start processing: hordelib
+[2023-05-03 21:46:51] INFO root fetch - main [MainThread]: End processing [trusspy]: success
+[2023-05-03 21:46:51] INFO root fetch - processPackages [govuk-frontend-django]: Downloading https://files.pythonhosted.org/packages/cc/3f/73d5e1c3c3b0dfcb0c0a563b91054be0ad2cccf8be216da42f7a229640d3/govuk_frontend_django-0.3.0.tar.gz
+[2023-05-03 21:46:51] INFO root fetch - processPackages [hordelib]: New version: [0.9.5] Old Version: [0.9.2]
+[2023-05-03 21:46:51] INFO root fetch - processPackages [magyar]: New version: [2.9.9] Old Version: [2.9.8]
+[2023-05-03 21:46:51] INFO root fetch - processPackages [IPAM-PACMan]: Downloading https://files.pythonhosted.org/packages/d2/e8/36211ff6b632b20c9de17397ec7a01382c21144ca0ad37ffa85d1e59613b/ipam_pacman-1.0.0.tar.gz
+[2023-05-03 21:46:51] INFO root fetch - processPackages [hordelib]: executing diffoscope
+[2023-05-03 21:46:51] INFO root fetch - processPackages [hordelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hordelib-0.9.2.tar.gz tmp/hordelib-0.9.5.tar.gz --markdown 20230503/h/hordelib/0.9.2-0.9.5/diff.md --exclude *.pyd
+[2023-05-03 21:46:51] INFO root fetch - processPackages [magyar]: Downloading https://files.pythonhosted.org/packages/b5/7c/dc7bc4a9a49a8ea5709f9fac51cb63e0f079f8d62c5ffe835ca4218cc716/magyar-2.9.8.tar.gz
+[2023-05-03 21:46:51] INFO root fetch - processPackages [govuk-frontend-django]: Downloading https://files.pythonhosted.org/packages/b8/41/a4f14daabe070d012916b2c6f9ccaf7e79f1b0d12f5737fd29d1019e5fe0/govuk_frontend_django-0.3.1.tar.gz
+[2023-05-03 21:46:52] INFO root fetch - processPackages [govuk-frontend-django]: executing diffoscope
+[2023-05-03 21:46:52] INFO root fetch - processPackages [govuk-frontend-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/govuk_frontend_django-0.3.0.tar.gz tmp/govuk_frontend_django-0.3.1.tar.gz --markdown 20230503/g/govuk-frontend-django/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-03 21:46:52] INFO root fetch - main [MainThread]: End processing [oncall]: success
+[2023-05-03 21:46:52] INFO root fetch - processPackages [IPAM-PACMan]: Downloading https://files.pythonhosted.org/packages/cf/6e/2cb3e7f2722432bff3277c6720998dcd6b38bc8ff251b609a5bc935746b0/ipam_pacman-1.0.0rc1.tar.gz
+[2023-05-03 21:46:52] INFO root fetch - main [MainThread]: End processing [binpan]: success
+[2023-05-03 21:46:52] INFO root fetch - processPackages [magyar]: Downloading https://files.pythonhosted.org/packages/a6/e2/870d661d35aff41da2c4786a7c6e6de8664a3ff7f24a0419dd20bcceaa0e/magyar-2.9.9.tar.gz
+[2023-05-03 21:46:52] INFO root fetch - processPackages [IPAM-PACMan]: executing diffoscope
+[2023-05-03 21:46:52] INFO root fetch - processPackages [IPAM-PACMan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipam_pacman-1.0.0.tar.gz tmp/ipam_pacman-1.0.0rc1.tar.gz --markdown 20230503/I/IPAM-PACMan/1.0.0-1.0.0rc1/diff.md --exclude *.pyd
+[2023-05-03 21:46:52] INFO root fetch - processPackages [magyar]: executing diffoscope
+[2023-05-03 21:46:52] INFO root fetch - processPackages [magyar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magyar-2.9.8.tar.gz tmp/magyar-2.9.9.tar.gz --markdown 20230503/m/magyar/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2023-05-03 21:46:52] INFO root fetch - main [MainThread]: End processing [pybrownies]: success
+[2023-05-03 21:46:53] INFO root fetch - main [MainThread]: End processing [unipi-control]: success
+[2023-05-03 21:46:53] INFO root fetch - main [MainThread]: End processing [python-roborock]: success
+[2023-05-03 21:46:53] INFO root fetch - main [MainThread]: End processing [skysurvey]: success
+[2023-05-03 21:46:53] INFO root fetch - main [MainThread]: End processing [magyar]: success
+[2023-05-03 21:46:53] INFO root fetch - main [MainThread]: End processing [IPAM-PACMan]: success
+[2023-05-03 21:46:53] INFO root fetch - main [MainThread]: End processing [govuk-frontend-django]: success
+[2023-05-03 21:47:00] INFO root fetch - main [MainThread]: End processing [hordelib]: success
+[2023-05-03 21:47:00] INFO root fetch - main [MainThread]: Store serial: [17961789]
