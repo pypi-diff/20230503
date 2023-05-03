@@ -7653,3 +7653,58 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-03 08:55:48] INFO root fetch - main [MainThread]: End processing [async-etcd3gw]: success
 [2023-05-03 08:56:11] INFO root fetch - main [MainThread]: End processing [fluxoperator]: success
 [2023-05-03 08:56:11] INFO root fetch - main [MainThread]: Store serial: [17952372]
+[2023-05-03 09:01:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17952372]
+[2023-05-03 09:01:19] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-03 09:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ddparo
+[2023-05-03 09:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyminflux
+[2023-05-03 09:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: BioSAK
+[2023-05-03 09:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: filter-stations
+[2023-05-03 09:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ddparo
+[2023-05-03 09:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: checkov
+[2023-05-03 09:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nepse-scraper
+[2023-05-03 09:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jaco2
+[2023-05-03 09:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: constellate
+[2023-05-03 09:01:19] INFO root fetch - processPackages [ddparo]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-03 09:01:19] INFO root fetch - processPackages [ddparo]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-03 09:01:19] WARNING root fetch - processPackages [pyminflux]: Skipping, unable to determine old version
+[2023-05-03 09:01:19] INFO root fetch - main [MainThread]: End processing [pyminflux] error
+[2023-05-03 09:01:19] INFO root fetch - processPackages [jaco2]: New version: [4.3] Old Version: [4.2]
+[2023-05-03 09:01:19] INFO root fetch - processPackages [filter-stations]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-03 09:01:20] INFO root fetch - processPackages [nepse-scraper]: New version: [0.1.1] Old Version: [0.1]
+[2023-05-03 09:01:20] INFO root fetch - processPackages [BioSAK]: New version: [1.63.8] Old Version: [1.63.7]
+[2023-05-03 09:01:20] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-05-03 09:01:20] INFO root fetch - processPackages [jaco2]: executing diffoscope
+[2023-05-03 09:01:20] INFO root fetch - processPackages [jaco2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaco2-4.2-cp311-cp311-win_amd64.whl.zip tmp/jaco2-4.3-cp311-cp311-win_amd64.whl.zip --markdown 20230503/j/jaco2/4.2-4.3/diff.md --exclude *.pyd
+[2023-05-03 09:01:20] INFO root fetch - processPackages [ddparo]: Downloading https://files.pythonhosted.org/packages/48/db/995323aad40f84e744c1e5217f7bae8aca1e2276a99dbb331bf88f8cc9da/ddparo-0.2.0.tar.gz
+[2023-05-03 09:01:20] INFO root fetch - processPackages [ddparo]: Downloading https://files.pythonhosted.org/packages/48/db/995323aad40f84e744c1e5217f7bae8aca1e2276a99dbb331bf88f8cc9da/ddparo-0.2.0.tar.gz
+[2023-05-03 09:01:20] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-05-03 09:01:20] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230503/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-05-03 09:01:20] INFO root fetch - processPackages [BioSAK]: Downloading https://files.pythonhosted.org/packages/ef/f2/25febddded7be68bf77a05e7a3ba28ae448cfb8e5d0681824840576c86b8/BioSAK-1.63.7.tar.gz
+[2023-05-03 09:01:20] INFO root fetch - processPackages [constellate]: New version: [0.6.93] Old Version: [0.6.92]
+[2023-05-03 09:01:20] INFO root fetch - processPackages [nepse-scraper]: Downloading https://files.pythonhosted.org/packages/87/1f/73115f4eced370399d719182a33a7afda8b4fd3cab92662f79006f594678/nepse_scraper-0.1.tar.gz
+[2023-05-03 09:01:20] INFO root fetch - processPackages [filter-stations]: Downloading https://files.pythonhosted.org/packages/98/d0/2b6c50827255a83a6bebb73a567065ca7c1cacf229657c2f8bfc3193229c/filter_stations-0.3.2.tar.gz
+[2023-05-03 09:01:20] INFO root fetch - processPackages [constellate]: Downloading https://files.pythonhosted.org/packages/85/d9/31fb96f24913fdddfa8e8d9c75ac165eb02b5a13f5802c2e02cfb7df2eaa/constellate-0.6.92-py2.py3-none-any.whl
+[2023-05-03 09:01:21] INFO root fetch - main [MainThread]: End processing [jaco2]: success
+[2023-05-03 09:01:21] WARNING root fetch - processPackages [BioSAK]: Skipping package: exceeds size limit 16293593>=10485760
+[2023-05-03 09:01:21] INFO root fetch - main [MainThread]: End processing [BioSAK] error
+[2023-05-03 09:01:21] INFO root fetch - processPackages [filter-stations]: executing diffoscope
+[2023-05-03 09:01:21] INFO root fetch - processPackages [filter-stations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/filter_stations-0.3.1.tar.gz tmp/filter_stations-0.3.2.tar.gz --markdown 20230503/f/filter-stations/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-03 09:01:21] INFO root fetch - processPackages [nepse-scraper]: Downloading https://files.pythonhosted.org/packages/49/c1/e878ea72758e7f8f86b05e0d10a998d8f8d79f2254430110ac0526230c85/nepse_scraper-0.1.1.tar.gz
+[2023-05-03 09:01:21] INFO root fetch - processPackages [nepse-scraper]: executing diffoscope
+[2023-05-03 09:01:21] INFO root fetch - processPackages [nepse-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nepse_scraper-0.1.tar.gz tmp/nepse_scraper-0.1.1.tar.gz --markdown 20230503/n/nepse-scraper/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-05-03 09:01:21] INFO root fetch - processPackages [ddparo]: Downloading https://files.pythonhosted.org/packages/8c/18/bf026583e4ead8d779b5f48c12c8cfaa1044cbc4d7aab533b7218b4e2380/ddparo-0.3.0.tar.gz
+[2023-05-03 09:01:21] INFO root fetch - processPackages [ddparo]: Downloading https://files.pythonhosted.org/packages/8c/18/bf026583e4ead8d779b5f48c12c8cfaa1044cbc4d7aab533b7218b4e2380/ddparo-0.3.0.tar.gz
+[2023-05-03 09:01:21] INFO root fetch - processPackages [constellate]: Downloading https://files.pythonhosted.org/packages/2c/74/ea18ec554952b9c473373651caad27f3747bd01583fad6018b45c3328400/constellate-0.6.93-py2.py3-none-any.whl
+[2023-05-03 09:01:21] INFO root fetch - processPackages [ddparo]: executing diffoscope
+[2023-05-03 09:01:21] INFO root fetch - processPackages [ddparo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddparo-0.2.0.tar.gz tmp/ddparo-0.3.0.tar.gz --markdown 20230503/d/ddparo/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-03 09:01:21] INFO root fetch - processPackages [ddparo]: executing diffoscope
+[2023-05-03 09:01:21] INFO root fetch - processPackages [ddparo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddparo-0.2.0.tar.gz tmp/ddparo-0.3.0.tar.gz --markdown 20230503/d/ddparo/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-03 09:01:21] INFO root fetch - processPackages [constellate]: executing diffoscope
+[2023-05-03 09:01:21] INFO root fetch - processPackages [constellate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/constellate-0.6.92-py2.py3-none-any.whl.zip tmp/constellate-0.6.93-py2.py3-none-any.whl.zip --markdown 20230503/c/constellate/0.6.92-0.6.93/diff.md --exclude *.pyd
+[2023-05-03 09:01:22] INFO root fetch - main [MainThread]: End processing [nepse-scraper]: success
+[2023-05-03 09:01:22] INFO root fetch - main [MainThread]: End processing [ddparo]: success
+[2023-05-03 09:01:23] INFO root fetch - main [MainThread]: End processing [ddparo]: success
+[2023-05-03 09:01:23] INFO root fetch - main [MainThread]: End processing [filter-stations]: success
+[2023-05-03 09:01:24] INFO root fetch - main [MainThread]: End processing [constellate]: success
+[2023-05-03 09:02:02] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-05-03 09:02:02] INFO root fetch - main [MainThread]: Store serial: [17952400]
