@@ -6028,3 +6028,59 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-03 06:29:12] INFO root fetch - main [MainThread]: End processing [realnet]: success
 [2023-05-03 06:29:32] INFO root fetch - main [MainThread]: End processing [open-aea-ledger-fetchai]: success
 [2023-05-03 06:29:32] INFO root fetch - main [MainThread]: Store serial: [17951393]
+[2023-05-03 06:34:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17951393]
+[2023-05-03 06:34:42] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-03 06:34:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zwtk
+[2023-05-03 06:34:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: toori
+[2023-05-03 06:34:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: snowflake-connector-python-nightly
+[2023-05-03 06:34:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo12-addon-l10n-br-hr
+[2023-05-03 06:34:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: leclerc
+[2023-05-03 06:34:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-l10n-br-hr
+[2023-05-03 06:34:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-l10n-br-website-sale
+[2023-05-03 06:34:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-l10n-br-portal
+[2023-05-03 06:34:43] INFO root fetch - processPackages [odoo14-addon-l10n-br-website-sale]: New version: [14.0.1.0.2.dev2] Old Version: [14.0.1.0.1.dev3]
+[2023-05-03 06:34:43] INFO root fetch - processPackages [zwtk]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-03 06:34:43] INFO root fetch - processPackages [leclerc]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-03 06:34:43] INFO root fetch - processPackages [toori]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-03 06:34:43] INFO root fetch - processPackages [odoo12-addon-l10n-br-hr]: New version: [12.0.1.0.0.99.dev99] Old Version: [12.0.1.0.0.99.dev97]
+[2023-05-03 06:34:43] INFO root fetch - processPackages [odoo14-addon-l10n-br-portal]: New version: [14.0.1.0.3.dev2] Old Version: [14.0.1.0.2]
+[2023-05-03 06:34:43] INFO root fetch - processPackages [odoo14-addon-l10n-br-hr]: New version: [14.0.1.1.1.dev1] Old Version: [14.0.1.1.0]
+[2023-05-03 06:34:43] INFO root fetch - processPackages [snowflake-connector-python-nightly]: New version: [2023.5.3] Old Version: [2023.4.7]
+[2023-05-03 06:34:43] INFO root fetch - processPackages [zwtk]: Downloading https://files.pythonhosted.org/packages/8a/e3/b256306e224ca4656c51fd607bc94e1488a7953e4ee450479c331b231847/zwtk-1.0.0-py3-none-any.whl
+[2023-05-03 06:34:43] INFO root fetch - processPackages [leclerc]: Downloading https://files.pythonhosted.org/packages/e3/a0/03b1fc5b1abb4cfe0b5121daebbfa2483b3b7881b001bc9da7ecc71b7af2/leclerc-0.1.5.tar.gz
+[2023-05-03 06:34:43] INFO root fetch - processPackages [toori]: Downloading https://files.pythonhosted.org/packages/d3/b8/aa11424546d8312528e4ddad1a29595587cbc47655edbbbcf9251e7f0d30/toori-1.1.1.tar.gz
+[2023-05-03 06:34:43] INFO root fetch - processPackages [odoo12-addon-l10n-br-hr]: Downloading https://files.pythonhosted.org/packages/96/55/2da2262c16b1b9b1304ba173634a1813f23002123765c1e86e2544c62569/odoo12_addon_l10n_br_hr-12.0.1.0.0.99.dev97-py3-none-any.whl
+[2023-05-03 06:34:43] INFO root fetch - processPackages [odoo14-addon-l10n-br-portal]: Downloading https://files.pythonhosted.org/packages/5f/b7/69d0e5b328a02d006c445cc3da4039f5864a2c891c2619bb6f8e3e48a1bf/odoo14_addon_l10n_br_portal-14.0.1.0.2-py3-none-any.whl
+[2023-05-03 06:34:43] INFO root fetch - processPackages [odoo14-addon-l10n-br-hr]: Downloading https://files.pythonhosted.org/packages/cc/a6/e33aecfbceb8477a2f7819aefef36eec693a55bf1edc390ce70c53ee3c61/odoo14_addon_l10n_br_hr-14.0.1.1.0-py3-none-any.whl
+[2023-05-03 06:34:43] INFO root fetch - processPackages [leclerc]: executing diffoscope
+[2023-05-03 06:34:43] INFO root fetch - processPackages [leclerc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leclerc-0.1.4.tar.gz tmp/leclerc-0.1.5.tar.gz --markdown 20230503/l/leclerc/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-03 06:34:43] INFO root fetch - processPackages [toori]: executing diffoscope
+[2023-05-03 06:34:43] INFO root fetch - processPackages [toori]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toori-1.1.0.tar.gz tmp/toori-1.1.1.tar.gz --markdown 20230503/t/toori/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-03 06:34:43] INFO root fetch - processPackages [odoo14-addon-l10n-br-website-sale]: Downloading https://files.pythonhosted.org/packages/fd/37/4d310ac05ab445615c8e81f75eab77b8e9c4650dfc9051dd37b55bf2ab2a/odoo14_addon_l10n_br_website_sale-14.0.1.0.1.dev3-py3-none-any.whl
+[2023-05-03 06:34:43] INFO root fetch - processPackages [zwtk]: Downloading https://files.pythonhosted.org/packages/25/9e/2ad3e24a195f40b6e9277a52e9b3009f323b2a07aae1fffa752623561419/zwtk-1.0.1-py3-none-any.whl
+[2023-05-03 06:34:43] INFO root fetch - processPackages [zwtk]: executing diffoscope
+[2023-05-03 06:34:43] INFO root fetch - processPackages [zwtk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zwtk-1.0.0-py3-none-any.whl.zip tmp/zwtk-1.0.1-py3-none-any.whl.zip --markdown 20230503/z/zwtk/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-03 06:34:43] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Downloading https://files.pythonhosted.org/packages/74/72/f8c906b350d21baa9c755f2c8d81891f20acaaa9f63270016dcbdb20d39c/snowflake-connector-python-nightly-2023.5.3.tar.gz
+[2023-05-03 06:34:43] INFO root fetch - processPackages [odoo14-addon-l10n-br-portal]: Downloading https://files.pythonhosted.org/packages/5c/ee/a3f4dca4e4f05cee592447cbc38e8b23463a8cd109009b108aab5eef72b8/odoo14_addon_l10n_br_portal-14.0.1.0.3.dev2-py3-none-any.whl
+[2023-05-03 06:34:43] INFO root fetch - processPackages [odoo14-addon-l10n-br-hr]: Downloading https://files.pythonhosted.org/packages/8c/6c/f309c5d1140ce16774fb74ff0d1c5309f3749d211e8fe0d8dd06b54f9d4e/odoo14_addon_l10n_br_hr-14.0.1.1.1.dev1-py3-none-any.whl
+[2023-05-03 06:34:43] INFO root fetch - processPackages [odoo14-addon-l10n-br-website-sale]: Downloading https://files.pythonhosted.org/packages/de/f6/aa448d8265bf8ff0f153df8fdf99d839a04f1783ca918eadbf2307ccdd90/odoo14_addon_l10n_br_website_sale-14.0.1.0.2.dev2-py3-none-any.whl
+[2023-05-03 06:34:43] INFO root fetch - processPackages [odoo14-addon-l10n-br-portal]: executing diffoscope
+[2023-05-03 06:34:43] INFO root fetch - processPackages [odoo14-addon-l10n-br-portal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_portal-14.0.1.0.2-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_portal-14.0.1.0.3.dev2-py3-none-any.whl.zip --markdown 20230503/o/odoo14-addon-l10n-br-portal/14.0.1.0.2-14.0.1.0.3.dev2/diff.md --exclude *.pyd
+[2023-05-03 06:34:43] INFO root fetch - processPackages [odoo14-addon-l10n-br-hr]: executing diffoscope
+[2023-05-03 06:34:43] INFO root fetch - processPackages [odoo14-addon-l10n-br-hr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_hr-14.0.1.1.0-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_hr-14.0.1.1.1.dev1-py3-none-any.whl.zip --markdown 20230503/o/odoo14-addon-l10n-br-hr/14.0.1.1.0-14.0.1.1.1.dev1/diff.md --exclude *.pyd
+[2023-05-03 06:34:43] INFO root fetch - processPackages [odoo12-addon-l10n-br-hr]: Downloading https://files.pythonhosted.org/packages/51/54/5f8e8dcfd29aff4ff36ea4b3c43cce668d590fb5fa5ace0a6e027ecd8901/odoo12_addon_l10n_br_hr-12.0.1.0.0.99.dev99-py3-none-any.whl
+[2023-05-03 06:34:43] INFO root fetch - processPackages [odoo14-addon-l10n-br-website-sale]: executing diffoscope
+[2023-05-03 06:34:43] INFO root fetch - processPackages [odoo14-addon-l10n-br-website-sale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_website_sale-14.0.1.0.1.dev3-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_website_sale-14.0.1.0.2.dev2-py3-none-any.whl.zip --markdown 20230503/o/odoo14-addon-l10n-br-website-sale/14.0.1.0.1.dev3-14.0.1.0.2.dev2/diff.md --exclude *.pyd
+[2023-05-03 06:34:43] INFO root fetch - processPackages [snowflake-connector-python-nightly]: executing diffoscope
+[2023-05-03 06:34:43] INFO root fetch - processPackages [snowflake-connector-python-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowflake-connector-python-nightly-2023.4.7.tar.gz tmp/snowflake-connector-python-nightly-2023.5.3.tar.gz --markdown 20230503/s/snowflake-connector-python-nightly/2023.4.7-2023.5.3/diff.md --exclude *.pyd
+[2023-05-03 06:34:43] INFO root fetch - processPackages [odoo12-addon-l10n-br-hr]: executing diffoscope
+[2023-05-03 06:34:43] INFO root fetch - processPackages [odoo12-addon-l10n-br-hr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_l10n_br_hr-12.0.1.0.0.99.dev97-py3-none-any.whl.zip tmp/odoo12_addon_l10n_br_hr-12.0.1.0.0.99.dev99-py3-none-any.whl.zip --markdown 20230503/o/odoo12-addon-l10n-br-hr/12.0.1.0.0.99.dev97-12.0.1.0.0.99.dev99/diff.md --exclude *.pyd
+[2023-05-03 06:34:44] INFO root fetch - main [MainThread]: End processing [leclerc]: success
+[2023-05-03 06:34:44] INFO root fetch - main [MainThread]: End processing [toori]: success
+[2023-05-03 06:34:44] INFO root fetch - main [MainThread]: End processing [zwtk]: success
+[2023-05-03 06:34:45] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-portal]: success
+[2023-05-03 06:34:45] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-website-sale]: success
+[2023-05-03 06:34:45] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-hr]: success
+[2023-05-03 06:34:45] INFO root fetch - main [MainThread]: End processing [odoo12-addon-l10n-br-hr]: success
+[2023-05-03 06:34:48] INFO root fetch - main [MainThread]: End processing [snowflake-connector-python-nightly]: success
+[2023-05-03 06:34:48] INFO root fetch - main [MainThread]: Store serial: [17951462]
