@@ -13807,3 +13807,131 @@ No space left on device. Diffoscope exiting.
 [2023-05-03 13:39:50] INFO root fetch - main [MainThread]: End processing [neurotechdevkit]: success
 [2023-05-03 13:39:56] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
 [2023-05-03 13:39:56] INFO root fetch - main [MainThread]: Store serial: [17955774]
+[2023-05-03 13:45:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17955774]
+[2023-05-03 13:45:05] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-03 13:45:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: c2cciutils
+[2023-05-03 13:45:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hiddifypanel
+[2023-05-03 13:45:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zha-quirks
+[2023-05-03 13:45:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rpa-cooperativa
+[2023-05-03 13:45:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sipiiiii
+[2023-05-03 13:45:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: semisup-segmentation
+[2023-05-03 13:45:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wikihowapi-pk
+[2023-05-03 13:45:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tooltodn
+[2023-05-03 13:45:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: napari-sam
+[2023-05-03 13:45:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: KUKA-youbot
+[2023-05-03 13:45:05] INFO root fetch - processPackages [c2cciutils]: New version: [1.6.0.dev83] Old Version: [1.6.0.dev80]
+[2023-05-03 13:45:05] INFO root fetch - processPackages [semisup-segmentation]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-03 13:45:05] INFO root fetch - processPackages [rpa-cooperativa]: New version: [1.0.51] Old Version: [1.0.50]
+[2023-05-03 13:45:05] WARNING root fetch - processPackages [tooltodn]: Skipping, unable to determine old version
+[2023-05-03 13:45:05] INFO root fetch - processPackages [sipiiiii]: New version: [0.7.8] Old Version: [0.7.7]
+[2023-05-03 13:45:05] INFO root fetch - processPackages [tooltodn]: Start processing: johnsnowlabs
+[2023-05-03 13:45:05] INFO root fetch - main [MainThread]: End processing [tooltodn] error
+[2023-05-03 13:45:05] INFO root fetch - processPackages [zha-quirks]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-03 13:45:05] WARNING root fetch - processPackages [wikihowapi-pk]: Skipping, unable to determine old version
+[2023-05-03 13:45:05] INFO root fetch - processPackages [wikihowapi-pk]: Start processing: tmtoolkit
+[2023-05-03 13:45:05] INFO root fetch - main [MainThread]: End processing [wikihowapi-pk] error
+[2023-05-03 13:45:05] INFO root fetch - processPackages [napari-sam]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-03 13:45:05] INFO root fetch - processPackages [hiddifypanel]: New version: [6.1.1] Old Version: [6.1.0]
+[2023-05-03 13:45:05] INFO root fetch - processPackages [KUKA-youbot]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-03 13:45:05] INFO root fetch - processPackages [semisup-segmentation]: Downloading https://files.pythonhosted.org/packages/30/dc/36fe815f65429ca0342612ac4186df3357d0225e70f31189f639bda47d64/semisup-segmentation-0.0.7.tar.gz
+[2023-05-03 13:45:05] INFO root fetch - processPackages [johnsnowlabs]: New version: [4.4.5] Old Version: [4.4.4]
+[2023-05-03 13:45:05] INFO root fetch - processPackages [tmtoolkit]: New version: [0.9.0rc3] Old Version: [0.9.0rc2]
+[2023-05-03 13:45:05] INFO root fetch - processPackages [sipiiiii]: Downloading https://files.pythonhosted.org/packages/9c/91/4faeb7101cb9bd21b16ad3cc376196948d3a39980aa95230acc113b024ce/sipiiiii-0.7.7.tar.gz
+[2023-05-03 13:45:05] INFO root fetch - processPackages [zha-quirks]: Downloading https://files.pythonhosted.org/packages/3d/b4/3d3e08d12bf7dff4b892cebb44a84d481cc00db92653001f96bfa39edf18/zha-quirks-0.0.98.tar.gz
+[2023-05-03 13:45:05] INFO root fetch - processPackages [rpa-cooperativa]: Downloading https://files.pythonhosted.org/packages/9a/ec/817e49a5586b240a831a4e103ae4e857d5fdd5c5059f13407a63a585d8fe/rpa_cooperativa-1.0.51.tar.gz
+[2023-05-03 13:45:05] INFO root fetch - processPackages [napari-sam]: Downloading https://files.pythonhosted.org/packages/d5/2f/1b5adf3f6ce6a242c1b5708b7bbb2bd6cd0cf076e5e4cdf1a428c1e25086/napari-sam-0.4.1.tar.gz
+[2023-05-03 13:45:05] INFO root fetch - processPackages [rpa-cooperativa]: executing diffoscope
+[2023-05-03 13:45:05] INFO root fetch - processPackages [rpa-cooperativa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpa_cooperativa-1.0.50.tar.gz tmp/rpa_cooperativa-1.0.51.tar.gz --markdown 20230503/r/rpa-cooperativa/1.0.50-1.0.51/diff.md --exclude *.pyd
+[2023-05-03 13:45:05] INFO root fetch - processPackages [KUKA-youbot]: Downloading https://files.pythonhosted.org/packages/1e/1c/e26d15ad1008a0276502a97cebb3c62f5d8e7ba97309dfe05c02b6a498b7/KUKA_youbot-0.1.1.tar.gz
+[2023-05-03 13:45:05] INFO root fetch - processPackages [johnsnowlabs]: Downloading https://files.pythonhosted.org/packages/db/fc/4c91799014c637010f1d167ff313ecb7c8a3b271987a83ff158927197d12/johnsnowlabs-4.4.4.tar.gz
+[2023-05-03 13:45:05] INFO root fetch - processPackages [napari-sam]: executing diffoscope
+[2023-05-03 13:45:05] INFO root fetch - processPackages [napari-sam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-sam-0.4.0.tar.gz tmp/napari-sam-0.4.1.tar.gz --markdown 20230503/n/napari-sam/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-03 13:45:05] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2023-05-03 13:45:05] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.6.0.dev80.tar.gz tmp/c2cciutils-1.6.0.dev83.tar.gz --markdown 20230503/c/c2cciutils/1.6.0.dev80-1.6.0.dev83/diff.md --exclude *.pyd
+[2023-05-03 13:45:05] INFO root fetch - processPackages [tmtoolkit]: Downloading https://files.pythonhosted.org/packages/bb/b6/55384f223a31a43399f944dc1b8939c2296ea3aeda12394770b912dfd222/tmtoolkit-0.9.0rc2.tar.gz
+[2023-05-03 13:45:05] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/c9/4c/5cabe60973dabcf7c2977a44f858043c784eed390d8822a80f6c422742f5/hiddifypanel-6.1.1-cp39-cp39-manylinux2014_x86_64.whl
+[2023-05-03 13:45:05] INFO root fetch - processPackages [semisup-segmentation]: Downloading https://files.pythonhosted.org/packages/47/c7/dcd7d163ee4e75390d85b7ff16e81547bebceaef7f581b2ce74e55663566/semisup-segmentation-0.0.8.tar.gz
+[2023-05-03 13:45:05] INFO root fetch - processPackages [semisup-segmentation]: executing diffoscope
+[2023-05-03 13:45:05] INFO root fetch - processPackages [semisup-segmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semisup-segmentation-0.0.7.tar.gz tmp/semisup-segmentation-0.0.8.tar.gz --markdown 20230503/s/semisup-segmentation/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-03 13:45:05] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-05-03 13:45:05] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-6.1.0-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/hiddifypanel-6.1.1-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230503/h/hiddifypanel/6.1.0-6.1.1/diff.md --exclude *.pyd
+[2023-05-03 13:45:05] INFO root fetch - processPackages [zha-quirks]: Downloading https://files.pythonhosted.org/packages/13/82/9a15ab6eaab849ad93c6668230e8044c632016eb797c7044230702e32d12/zha-quirks-0.0.99.tar.gz
+[2023-05-03 13:45:05] INFO root fetch - processPackages [sipiiiii]: Downloading https://files.pythonhosted.org/packages/32/e4/8bfd34f68b89f8289eee7ccca69fae3910ee2c462919a6361fe739b33f0d/sipiiiii-0.7.8.tar.gz
+[2023-05-03 13:45:05] INFO root fetch - processPackages [sipiiiii]: executing diffoscope
+[2023-05-03 13:45:05] INFO root fetch - processPackages [sipiiiii]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sipiiiii-0.7.7.tar.gz tmp/sipiiiii-0.7.8.tar.gz --markdown 20230503/s/sipiiiii/0.7.7-0.7.8/diff.md --exclude *.pyd
+[2023-05-03 13:45:05] INFO root fetch - processPackages [zha-quirks]: executing diffoscope
+[2023-05-03 13:45:05] INFO root fetch - processPackages [zha-quirks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zha-quirks-0.0.98.tar.gz tmp/zha-quirks-0.0.99.tar.gz --markdown 20230503/z/zha-quirks/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-03 13:45:05] INFO root fetch - processPackages [KUKA-youbot]: Downloading https://files.pythonhosted.org/packages/0b/06/53c4a7b61ec656f00753dabcf22cd9e50fe6141b13190c34b3c94842a1b9/KUKA_youbot-0.1.2.tar.gz
+[2023-05-03 13:45:05] INFO root fetch - processPackages [johnsnowlabs]: Downloading https://files.pythonhosted.org/packages/41/b0/5eb1b9e3032b1556492ac88f00fd6455c7d607953017cd912657e26d7887/johnsnowlabs-4.4.5.tar.gz
+[2023-05-03 13:45:06] INFO root fetch - processPackages [KUKA-youbot]: executing diffoscope
+[2023-05-03 13:45:06] INFO root fetch - processPackages [KUKA-youbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KUKA_youbot-0.1.1.tar.gz tmp/KUKA_youbot-0.1.2.tar.gz --markdown 20230503/K/KUKA-youbot/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-03 13:45:06] INFO root fetch - processPackages [johnsnowlabs]: executing diffoscope
+[2023-05-03 13:45:06] INFO root fetch - processPackages [johnsnowlabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/johnsnowlabs-4.4.4.tar.gz tmp/johnsnowlabs-4.4.5.tar.gz --markdown 20230503/j/johnsnowlabs/4.4.4-4.4.5/diff.md --exclude *.pyd
+[2023-05-03 13:45:06] WARNING root fetch - processPackages [tmtoolkit]: Skipping package: exceeds size limit 19768965>=10485760
+[2023-05-03 13:45:06] INFO root fetch - processPackages [tmtoolkit]: Start processing: johnsnowlabs-for-databricks
+[2023-05-03 13:45:06] INFO root fetch - main [MainThread]: End processing [tmtoolkit] error
+[2023-05-03 13:45:06] INFO root fetch - processPackages [johnsnowlabs-for-databricks]: New version: [4.4.5] Old Version: [4.4.4]
+[2023-05-03 13:45:06] INFO root fetch - processPackages [johnsnowlabs-for-databricks]: Downloading https://files.pythonhosted.org/packages/19/02/7cc1c1c1d0864a3f9e11e3e3302693c936b7178ee6e060236aff026ff7bd/johnsnowlabs_for_databricks-4.4.4.tar.gz
+[2023-05-03 13:45:07] INFO root fetch - processPackages [rpa-cooperativa]: Start processing: quorum-mininode-py
+[2023-05-03 13:45:07] INFO root fetch - main [MainThread]: End processing [rpa-cooperativa]: success
+[2023-05-03 13:45:07] INFO root fetch - processPackages [quorum-mininode-py]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-05-03 13:45:07] INFO root fetch - processPackages [quorum-mininode-py]: executing diffoscope
+[2023-05-03 13:45:07] INFO root fetch - processPackages [quorum-mininode-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quorum_mininode_py-1.2.4.tar.gz tmp/quorum_mininode_py-1.2.5.tar.gz --markdown 20230503/q/quorum-mininode-py/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-05-03 13:45:07] INFO root fetch - processPackages [johnsnowlabs-for-databricks]: Downloading https://files.pythonhosted.org/packages/62/b8/c497d7befcc222db3a05f0e8c226650b4fb5a89b6cadba350e6d3add3ea5/johnsnowlabs_for_databricks-4.4.5.tar.gz
+[2023-05-03 13:45:07] INFO root fetch - processPackages [napari-sam]: Start processing: pybgpasn
+[2023-05-03 13:45:07] INFO root fetch - main [MainThread]: End processing [napari-sam]: success
+[2023-05-03 13:45:07] INFO root fetch - processPackages [pybgpasn]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-03 13:45:07] INFO root fetch - processPackages [johnsnowlabs-for-databricks]: executing diffoscope
+[2023-05-03 13:45:07] INFO root fetch - processPackages [johnsnowlabs-for-databricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/johnsnowlabs_for_databricks-4.4.4.tar.gz tmp/johnsnowlabs_for_databricks-4.4.5.tar.gz --markdown 20230503/j/johnsnowlabs-for-databricks/4.4.4-4.4.5/diff.md --exclude *.pyd
+[2023-05-03 13:45:07] INFO root fetch - processPackages [semisup-segmentation]: Start processing: retentioneering
+[2023-05-03 13:45:07] INFO root fetch - main [MainThread]: End processing [semisup-segmentation]: success
+[2023-05-03 13:45:07] INFO root fetch - processPackages [sipiiiii]: Start processing: tooltodn
+[2023-05-03 13:45:07] INFO root fetch - main [MainThread]: End processing [sipiiiii]: success
+[2023-05-03 13:45:07] INFO root fetch - processPackages [tooltodn]: New version: [1.5] Old Version: [1.10]
+[2023-05-03 13:45:07] INFO root fetch - processPackages [retentioneering]: New version: [3.0.0rc2] Old Version: [3.0.0rc1]
+[2023-05-03 13:45:07] INFO root fetch - processPackages [tooltodn]: Downloading https://files.pythonhosted.org/packages/ba/85/b879e20484b620df864fe42b0353627b3c29b1c502f242637955c3846ef5/tooltodn-1.10.tar.gz
+[2023-05-03 13:45:07] INFO root fetch - processPackages [pybgpasn]: Downloading https://files.pythonhosted.org/packages/ca/79/35675d0cd1146db094e6df9d5be6db6af33ffe836aa8fc8d9a5d3ce08a9a/pybgpasn-1.0.5.tar.gz
+[2023-05-03 13:45:07] INFO root fetch - processPackages [pybgpasn]: executing diffoscope
+[2023-05-03 13:45:07] INFO root fetch - processPackages [pybgpasn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybgpasn-1.0.4.tar.gz tmp/pybgpasn-1.0.5.tar.gz --markdown 20230503/p/pybgpasn/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-03 13:45:07] INFO root fetch - processPackages [retentioneering]: Downloading https://files.pythonhosted.org/packages/83/a3/6cbe6b527fcfbdd531cef571c896474e444c4c13c5f703d7343fe3c37b31/retentioneering-3.0.0rc1.tar.gz
+[2023-05-03 13:45:07] INFO root fetch - processPackages [KUKA-youbot]: Start processing: DDesignerAPI
+[2023-05-03 13:45:07] INFO root fetch - main [MainThread]: End processing [KUKA-youbot]: success
+[2023-05-03 13:45:07] INFO root fetch - processPackages [tooltodn]: Downloading https://files.pythonhosted.org/packages/68/df/62d9b2935d87aabde965b70ecd4e955230d2e95f2674c6a6c6fc93714f55/tooltodn-1.5.tar.gz
+[2023-05-03 13:45:07] INFO root fetch - processPackages [johnsnowlabs]: Start processing: managedtenants-cli
+[2023-05-03 13:45:07] INFO root fetch - main [MainThread]: End processing [johnsnowlabs]: success
+[2023-05-03 13:45:07] INFO root fetch - processPackages [DDesignerAPI]: New version: [0.0.2.0] Old Version: [0.0.1.9]
+[2023-05-03 13:45:07] INFO root fetch - processPackages [retentioneering]: Downloading https://files.pythonhosted.org/packages/7c/80/a44b57d758ac5238f39a8712e2c6b5600d9a905ee02e9931285af898254f/retentioneering-3.0.0rc2.tar.gz
+[2023-05-03 13:45:07] INFO root fetch - processPackages [tooltodn]: executing diffoscope
+[2023-05-03 13:45:07] INFO root fetch - processPackages [tooltodn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tooltodn-1.10.tar.gz tmp/tooltodn-1.5.tar.gz --markdown 20230503/t/tooltodn/1.10-1.5/diff.md --exclude *.pyd
+[2023-05-03 13:45:08] INFO root fetch - processPackages [managedtenants-cli]: New version: [1.9.0] Old Version: [1.8.3]
+[2023-05-03 13:45:08] INFO root fetch - processPackages [retentioneering]: executing diffoscope
+[2023-05-03 13:45:08] INFO root fetch - processPackages [retentioneering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/retentioneering-3.0.0rc1.tar.gz tmp/retentioneering-3.0.0rc2.tar.gz --markdown 20230503/r/retentioneering/3.0.0rc1-3.0.0rc2/diff.md --exclude *.pyd
+[2023-05-03 13:45:08] INFO root fetch - processPackages [DDesignerAPI]: Downloading https://files.pythonhosted.org/packages/85/12/6930db9c3e69cf191c012bdd80a17c7ef4fb4550a07f30f76b7cd40eab02/DDesignerAPI-0.0.2.0-py3-none-any.whl
+[2023-05-03 13:45:08] INFO root fetch - processPackages [DDesignerAPI]: executing diffoscope
+[2023-05-03 13:45:08] INFO root fetch - processPackages [DDesignerAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DDesignerAPI-0.0.1.9-py3-none-any.whl.zip tmp/DDesignerAPI-0.0.2.0-py3-none-any.whl.zip --markdown 20230503/D/DDesignerAPI/0.0.1.9-0.0.2.0/diff.md --exclude *.pyd
+[2023-05-03 13:45:08] INFO root fetch - processPackages [managedtenants-cli]: executing diffoscope
+[2023-05-03 13:45:08] INFO root fetch - processPackages [managedtenants-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/managedtenants_cli-1.8.3-py3-none-any.whl.zip tmp/managedtenants_cli-1.9.0-py3-none-any.whl.zip --markdown 20230503/m/managedtenants-cli/1.8.3-1.9.0/diff.md --exclude *.pyd
+[2023-05-03 13:45:09] INFO root fetch - processPackages [quorum-mininode-py]: Start processing: openstef-dbc
+[2023-05-03 13:45:09] INFO root fetch - main [MainThread]: End processing [quorum-mininode-py]: success
+[2023-05-03 13:45:09] INFO root fetch - processPackages [openstef-dbc]: New version: [3.6.4] Old Version: [3.6.3a0]
+[2023-05-03 13:45:09] INFO root fetch - processPackages [DDesignerAPI]: Start processing: stream-chat
+[2023-05-03 13:45:09] INFO root fetch - main [MainThread]: End processing [DDesignerAPI]: success
+[2023-05-03 13:45:09] INFO root fetch - main [MainThread]: End processing [tooltodn]: success
+[2023-05-03 13:45:09] INFO root fetch - processPackages [stream-chat]: New version: [4.8.0] Old Version: [4.7.0]
+[2023-05-03 13:45:09] INFO root fetch - processPackages [openstef-dbc]: Downloading https://files.pythonhosted.org/packages/9c/de/cbce62c67f58467b94860c6c1adc5936c8b7286ad7b592a4acd83479b67c/openstef_dbc-3.6.4.tar.gz
+[2023-05-03 13:45:09] INFO root fetch - processPackages [openstef-dbc]: executing diffoscope
+[2023-05-03 13:45:09] INFO root fetch - processPackages [openstef-dbc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openstef_dbc-3.6.3a0.tar.gz tmp/openstef_dbc-3.6.4.tar.gz --markdown 20230503/o/openstef-dbc/3.6.3a0-3.6.4/diff.md --exclude *.pyd
+[2023-05-03 13:45:09] INFO root fetch - processPackages [stream-chat]: Downloading https://files.pythonhosted.org/packages/c6/3a/99af8de67235a7853e82b953d1475492075dcb8d0371c369933559e7de55/stream-chat-4.7.0.tar.gz
+[2023-05-03 13:45:09] INFO root fetch - main [MainThread]: End processing [zha-quirks]: success
+[2023-05-03 13:45:09] INFO root fetch - main [MainThread]: End processing [johnsnowlabs-for-databricks]: success
+[2023-05-03 13:45:09] INFO root fetch - processPackages [stream-chat]: Downloading https://files.pythonhosted.org/packages/29/19/4cd39a341e81dd1da7c1da7e5dc5133c309b3626a8f0e5ea1f57b22f05bb/stream-chat-4.8.0.tar.gz
+[2023-05-03 13:45:10] INFO root fetch - main [MainThread]: End processing [managedtenants-cli]: success
+[2023-05-03 13:45:10] INFO root fetch - processPackages [stream-chat]: executing diffoscope
+[2023-05-03 13:45:10] INFO root fetch - processPackages [stream-chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stream-chat-4.7.0.tar.gz tmp/stream-chat-4.8.0.tar.gz --markdown 20230503/s/stream-chat/4.7.0-4.8.0/diff.md --exclude *.pyd
+[2023-05-03 13:45:10] INFO root fetch - main [MainThread]: End processing [retentioneering]: success
+[2023-05-03 13:45:10] INFO root fetch - main [MainThread]: End processing [openstef-dbc]: success
+[2023-05-03 13:45:11] INFO root fetch - main [MainThread]: End processing [stream-chat]: success
+[2023-05-03 13:45:12] INFO root fetch - main [MainThread]: End processing [pybgpasn]: success
+[2023-05-03 13:45:13] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2023-05-03 13:45:26] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-05-03 13:45:26] INFO root fetch - main [MainThread]: Store serial: [17955845]
