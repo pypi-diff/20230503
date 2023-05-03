@@ -4685,3 +4685,21 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-03 04:00:43] INFO root fetch - main [MainThread]: End processing [jaaql-middleware-python]: success
 [2023-05-03 04:00:43] INFO root fetch - main [MainThread]: End processing [cleanlab-studio]: success
 [2023-05-03 04:00:43] INFO root fetch - main [MainThread]: Store serial: [17950580]
+[2023-05-03 04:05:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17950580]
+[2023-05-03 04:05:53] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-05-03 04:05:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langchain
+[2023-05-03 04:05:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vin-decoder-nhtsa
+[2023-05-03 04:05:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CrawlersTools
+[2023-05-03 04:05:53] WARNING root fetch - processPackages [vin-decoder-nhtsa]: Skipping, unable to determine old version
+[2023-05-03 04:05:53] INFO root fetch - main [MainThread]: End processing [vin-decoder-nhtsa] error
+[2023-05-03 04:05:53] INFO root fetch - processPackages [langchain]: New version: [0.0.99rc0] Old Version: [0.0.99]
+[2023-05-03 04:05:53] INFO root fetch - processPackages [CrawlersTools]: New version: [1.4.72] Old Version: [1.4.71]
+[2023-05-03 04:05:53] INFO root fetch - processPackages [langchain]: executing diffoscope
+[2023-05-03 04:05:53] INFO root fetch - processPackages [langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-0.0.99.tar.gz tmp/langchain-0.0.99rc0.tar.gz --markdown 20230503/l/langchain/0.0.99-0.0.99rc0/diff.md --exclude *.pyd
+[2023-05-03 04:05:53] INFO root fetch - processPackages [CrawlersTools]: Downloading https://files.pythonhosted.org/packages/d9/9a/acfb1ee4232c1ab2dfbdc0cbe826d7eb186abdfe5d2dc4472ed61d50e0dc/CrawlersTools-1.4.71.tar.gz
+[2023-05-03 04:05:54] INFO root fetch - processPackages [CrawlersTools]: Downloading https://files.pythonhosted.org/packages/51/58/6edc15c2893bafb528c71784161175210449d3d67a53834c2cc6b94d15e6/CrawlersTools-1.4.72.tar.gz
+[2023-05-03 04:05:54] INFO root fetch - processPackages [CrawlersTools]: executing diffoscope
+[2023-05-03 04:05:54] INFO root fetch - processPackages [CrawlersTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230503:/home/abi/fetcher/20230503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CrawlersTools-1.4.71.tar.gz tmp/CrawlersTools-1.4.72.tar.gz --markdown 20230503/C/CrawlersTools/1.4.71-1.4.72/diff.md --exclude *.pyd
+[2023-05-03 04:05:55] INFO root fetch - main [MainThread]: End processing [CrawlersTools]: success
+[2023-05-03 04:05:56] INFO root fetch - main [MainThread]: End processing [langchain]: success
+[2023-05-03 04:05:56] INFO root fetch - main [MainThread]: Store serial: [17950592]
